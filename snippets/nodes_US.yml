@@ -1,17 +1,4 @@
 proxies:
-- name: '🇺🇸 美国 CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - alterId: 0
   cipher: auto
   name: 美国 V2CROSS.COM - 243ms
@@ -19,7 +6,7 @@ proxies:
   port: 36801
   server: cindy50.ceoiii.com
   servername: ''
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -1153,7 +1140,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0052 #1'
+- name: 'HK_speednode_0052 #2'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -1172,17 +1159,9 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: 🇺🇸US_9|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
-  name: 'US_speednode_0243 #1'
+  name: 'US_speednode_0243 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1196,7 +1175,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇸🇬SG
-  name: 'US_speednode_0262 #1'
+  name: 'US_speednode_0262 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1255,7 +1234,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: US_speednode_0176
+- name: 🇳🇱 NL 161 | ⬇️ 793KB/s
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   port: 2096
@@ -15415,6 +15394,14 @@ proxies:
     headers:
       HOST: cg1c02.waimaojd.com
     path: /api/v1/graphql
+- cipher: aes-256-cfb
+  name: 🇺🇸US_9|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.196.207.151
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: '🇨🇳_CN_中国->🇺🇸_US_美国 #1'

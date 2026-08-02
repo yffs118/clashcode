@@ -120,6 +120,20 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬SG_1|1.4MB/s
+  network: ws
+  port: '8880'
+  server: www.glassdoor.com
+  type: vless
+  udp: true
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
 - alterId: 0
   cipher: auto
   name: 🇸🇬_新加坡_108
@@ -489,14 +503,6 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|4.1MB/s
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: '56927'
-  server: 161.118.224.85
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

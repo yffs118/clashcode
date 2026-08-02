@@ -207,69 +207,10 @@ proxies:
   server: 146.19.49.251
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇬🇧GB_1|2.2MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: m2MQjlTnUN244sWTtGjDXYFZPAIi5-6bcrFfr_bgvkI
-  server: 31.76.8.249
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_5|4.6MB/s
-  network: tcp
-  port: 47302
-  reality-opts:
-    public-key: NB_trxdXXOpnKDwfbpvbK_xygAB9Uv1HqRkFwkTbUGk
-    short-id: '!!str be499dd7'
-  server: 52.192.136.69
-  servername: 16personalities.wwwnav.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7538f8-1023-4af1-8842-e704dbd6b109
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: 🇬🇧GB_3|2.0MB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  server: 188.72.103.3
-  servername: grape.hotwigga.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98513192-ca35-4f7f-a965-da1a2473675f
-  xhttp-opts:
-    host: grape.hotwigga.space
-    mode: packet-up
-    path: /content/assets/main-6e1a/
-    seq-key: chunk_id
-    seq-placement: query
-    session-key: X-Upload-Token
-    session-placement: header
-    uplink-chunk-size: 0
-    uplink-http-method: GET
-    x-padding-header: X-Client-Version
-    x-padding-key: hash
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
 - alpn:
   - h2
   client-fingerprint: random
-  name: 🇬🇧GB_4|1.1MB/s
+  name: 🇬🇧GB_1|2.3MB/s
   network: xhttp
   port: 443
   server: 188.72.103.3
@@ -292,32 +233,20 @@ proxies:
     x-padding-method: tokenish
     x-padding-obfs-mode: true
     x-padding-placement: query
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_6|1.1MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.64.45
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- http-opts:
-    headers:
-      Host:
-      - www.icloud.com
-    method: GET
-    path:
-    - /
-  name: 🇬🇧GB_7|4.1MB/s
-  network: http
-  port: 4568
-  server: s1.pro-vip-cnavippanel.xyz
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4ca31b44-9188-4cc7-adc6-f940888e5282
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0034 #1'
+  name: 'GB_speednode_0033 #2'
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 'GB_speednode_0034 #2'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -329,7 +258,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0035 #1'
+  name: 'GB_speednode_0035 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -341,7 +270,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
-  name: 'GB_speednode_0037 #1'
+  name: 'GB_speednode_0037 #2'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -350,6 +279,21 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 'GB_speednode_0038 #1'
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 'GB_speednode_0039 #1'
@@ -410,6 +354,23 @@ proxies:
     headers:
       Host: 31.76.251.127.cdn-one.org
     path: /10336/2GCOqG7bvA
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 'GB_speednode_0043 #1'
+  network: ws
+  port: 443
+  server: 185.170.154.80.vhub.pro
+  servername: 185.170.154.80.vhub.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5083f498-4894-5553-8648-40a2faf4b545
+  ws-opts:
+    headers:
+      Host: 185.170.154.80.vhub.pro
+    path: /websocket?ed=2560
 - client-fingerprint: chrome
   name: 'GB_speednode_0044 #1'
   network: ws
@@ -455,6 +416,21 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'GB_speednode_0047 #1'
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
 - client-fingerprint: chrome
   name: 'GB_speednode_0048 #1'
   network: ws
@@ -1581,6 +1557,14 @@ proxies:
       host: cg1c12.waimaojd.com
     path: /api/v1/graphql
 - cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_6|1.1MB/s
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.64.45
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31271
@@ -2095,17 +2079,6 @@ proxies:
     headers:
       Host: rzwsyya1.ujstc4eymicyxtacnf7r.workers.dev
     path: /
-- name: 🇬🇧GB_28
-  network: ws
-  port: 8880
-  server: 172.65.90.52
-  tls: false
-  type: vless
-  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
-  ws-opts:
-    headers:
-      Host: blue-rice-7142.30-346.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
 - name: 'GB英国 #7'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443

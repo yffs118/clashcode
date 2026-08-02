@@ -20,7 +20,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
-  name: 'US_speednode_0277 #1'
+  name: 'US_speednode_0277 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -47,24 +47,11 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- client-fingerprint: chrome
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0036 #1'
+  name: 'GB_speednode_0036 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0033 #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false

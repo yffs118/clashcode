@@ -279,7 +279,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0051 #1'
+- name: 'HK_speednode_0051 #2'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -298,14 +298,16 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 香港4|@ripaojiedian
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|3.5MB/s
   network: tcp
   password: BxceQaOe
-  port: 29443
+  port: '29443'
   server: 18.166.249.45
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -316,7 +318,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0050 #1'
+- name: 'HK_speednode_0050 #2'
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45

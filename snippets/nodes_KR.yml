@@ -49,15 +49,6 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_2|1.4MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知32 492.1KB/s
@@ -330,6 +321,15 @@ proxies:
   uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   ws-opts:
     path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_2|1.4MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

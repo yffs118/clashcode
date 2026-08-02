@@ -65,30 +65,6 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: webpusiko-grpc
-  name: 🇸🇪SE_1|1.5MB/s
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
-    short-id: '!!str 0858af97f4e7324d'
-  server: 109.120.156.136
-  servername: web.pusiko.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-- cipher: aes-256-cfb
-  name: SE_speednode_0235
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 'SE_speednode_0236 #1'
   network: ws

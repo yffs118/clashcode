@@ -8,19 +8,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- name: '🇺🇸 美国 CloudFlare节点 #2'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM - 243ms
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ''
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   country: 🇮🇷IR
@@ -35,22 +38,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM - 243ms
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - alterId: 0
   name: 未知73
   password: humanity
@@ -1371,7 +1358,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
-  name: 'US_speednode_0277 #1'
+  name: 'US_speednode_0277 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -2349,7 +2336,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0051 #1'
+- name: 'HK_speednode_0051 #2'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -2440,7 +2427,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0052 #1'
+- name: 'HK_speednode_0052 #2'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -2450,14 +2437,16 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 香港4|@ripaojiedian
+- client-fingerprint: chrome
+  name: 🇭🇰HK_3|3.5MB/s
   network: tcp
   password: BxceQaOe
-  port: 29443
+  port: '29443'
   server: 18.166.249.45
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -2495,90 +2484,31 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: SE_speednode_0235
-  password: amazonskr05
-  port: 443
-  server: 16.171.111.98
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: 🇺🇸US_9|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_2|1.4MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0036 #1'
+  name: 'GB_speednode_0036 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
   type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: 'NL_speednode_0081 #1'
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0033 #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: 'NL_speednode_0079 #1'
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_6|1.1MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.64.45
-  type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0034 #1'
+  name: 'GB_speednode_0033 #2'
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 'GB_speednode_0034 #2'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -2590,7 +2520,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0035 #1'
+  name: 'GB_speednode_0035 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -2602,7 +2532,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
-  name: 'GB_speednode_0037 #1'
+  name: 'GB_speednode_0037 #2'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -2611,7 +2541,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0050 #1'
+- name: 'HK_speednode_0050 #2'
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -2622,7 +2552,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 'NL_speednode_0078 #1'
+  name: 'NL_speednode_0078 #2'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -2634,7 +2564,18 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: 'NL_speednode_0080 #1'
+  name: 'NL_speednode_0079 #2'
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: 'NL_speednode_0080 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -2644,9 +2585,20 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: 'NL_speednode_0081 #2'
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
-  name: 'US_speednode_0243 #1'
+  name: 'US_speednode_0243 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -2660,7 +2612,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇸🇬SG
-  name: 'US_speednode_0262 #1'
+  name: 'US_speednode_0262 #2'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -3204,7 +3156,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: US_speednode_0176
+- name: 🇳🇱 NL 161 | ⬇️ 793KB/s
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   port: 2096
@@ -3229,7 +3181,7 @@ proxies:
   udp: false
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_4|1017KB/s
+  name: The Netherlands_Amsterdam_ss_1...
   password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
   port: '45819'
   server: 84.235.160.109
@@ -3250,6 +3202,14 @@ proxies:
   port: 10910
   server: 176.32.35.51
   skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: SE_speednode_0235
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
@@ -12252,7 +12212,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇧🇷 巴西圣保罗 CloudFlare节点
+  name: '🇧🇷 巴西圣保罗 CloudFlare节点 #3'
   network: ws
   port: 443
   server: 188.114.99.205
@@ -28048,11 +28008,28 @@ proxies:
   tls: true
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US_9|2.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.196.207.151
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_2|1.4MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_1|4.1MB/s
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: '56927'
-  server: 161.118.224.85
+  name: 🇬🇧GB_6|1.1MB/s
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.64.45
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
