@@ -8,7 +8,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'DE德国 #1'
+- name: 'DE德国 #11'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -49,12 +49,24 @@ proxies:
     path: /@Malinda6104
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 'GB_speednode_0036 #2'
+  name: 'GB_speednode_0033 #2'
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 'GB_speednode_0035 #2'
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
@@ -897,40 +909,16 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_66
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: hyperon.site
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /bkdicj
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_70
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /bkdicj
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_3
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_2
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_74
+  name: 🇩🇪DE_90
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -942,9 +930,40 @@ proxies:
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_2
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
+  name: 🇩🇪DE_146
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.33.205
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_50
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_83
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_85
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj

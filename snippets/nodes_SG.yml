@@ -1,21 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇸🇬_新加坡_108
-  network: ws
-  port: 36822
-  server: sylva51.ceoiii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
   name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
   network: ws
   port: 55009
@@ -77,6 +62,21 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬_新加坡_108
+  network: ws
+  port: 36822
+  server: sylva51.ceoiii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 新加坡 001
@@ -469,33 +469,13 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_48
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 138.2.75.33
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇸🇬SG_15
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 103.106.229.69
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬SG_49
+- name: 🇸🇬SG_31
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
-  sni: resolved-gelding.rooster465.autos
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡_3
@@ -505,14 +485,6 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬SG_31
-  network: tcp
-  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
-  port: 450
-  server: 167.150.100.133
-  sni: grape-power-sg.roxa.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬SG²_1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -520,12 +492,10 @@ proxies:
   server: 103.186.155.16
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬SG_40
-  network: tcp
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: 139.59.238.97
-  type: trojan
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_41
+  password: 3sUAEU7q05Uy
+  port: 8388
+  server: 192.124.176.150
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888

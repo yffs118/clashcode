@@ -1504,16 +1504,19 @@ proxies:
     headers:
       Host: 120.233.29.189
     path: /rocket
-- name: 中国 125
+- name: 未知 VLESS-387
   network: tcp
   port: 35730
   server: 103.118.29.142
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
+  ws-opts:
+    headers:
+      Host: varzesh3.com
 - name: 中国 126
   network: tcp
   port: 45647
@@ -1540,11 +1543,26 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 中国 129
+- name: 🇳🇱NL_167
   network: ws
   port: 8880
   server: 154.197.64.30
   servername: vms.lifetime36.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /
+- name: 塞舌尔/Seychelles-4
+  network: ws
+  port: 8880
+  server: 154.218.15.30
+  servername: vms.lifetime47.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -1553,31 +1571,16 @@ proxies:
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime36.workers.dev
-    path: /
-- name: 🇳🇱NL_191
-  network: ws
-  port: 8880
-  server: 154.218.15.30
-  servername: vms.lifetime47.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
       Host: vms.lifetime47.workers.dev
     path: /
-- name: 🇫🇷FR_761
+- name: 中国 131
   network: ws
   port: 8880
   server: 156.243.83.30
   servername: vms.lifetime54.workers.dev
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1585,13 +1588,13 @@ proxies:
     headers:
       Host: vms.lifetime54.workers.dev
     path: /
-- name: 🇺🇸US_360
+- name: 中国 132
   network: tcp
   port: 60101
   server: 198.44.177.117
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
@@ -1610,17 +1613,17 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-- name: 🇺🇸US_250
+- name: 中国 134
   network: tcp
   port: 45647
   server: 182.16.61.2
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: '未知 VLESS-746 #1'
+- name: 未知 VLESS-751
   network: tcp
   port: 443
   server: 45.125.32.115
