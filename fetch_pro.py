@@ -1273,6 +1273,25 @@ def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
             g['proxies'] = new_proxies
             print(f"  已清理组 {g['name']} 的循环引用，保留节点: {new_proxies}")
 
+# ====== 新增：去重函数 ======
+def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
+    """
+    移除 proxy-groups 中重复的组名，保留第一个出现的组。
+    """
+    seen = set()
+    to_remove = []
+    for i, g in enumerate(groups):
+        name = g.get('name')
+        if name is None:
+            continue
+        if name in seen:
+            to_remove.append(i)
+            print(f"警告：发现重复组名 '{name}'，将移除重复项")
+        else:
+            seen.add(name)
+    for i in reversed(to_remove):
+        del groups[i]
+
 def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1532,7 +1551,16 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
-    # ====== 新增：修复 proxy-groups 循环引用（初始配置） ======
+    # ====== 备份预设组的原始 proxies（用于恢复） ======
+    original_proxies_map = {}
+    for group in conf['proxy-groups']:
+        name = group.get('name')
+        if name in ('🚀 选择代理', '♻ 自动选择', '🔰 延迟最低', '✅ 手动选择', '🌐 突破锁区', '❓ 疑似国内', '🐟 漏网之鱼', '🚨 病毒网站', '⛔ 广告拦截'):
+            if 'proxies' in group:
+                original_proxies_map[name] = group['proxies'].copy()
+    # ===============================================
+
+    # ====== 修复 proxy-groups 循环引用（初始配置） ======
     fix_proxy_group_loop(conf['proxy-groups'])
     fix_proxy_group_loop(conf_meta['proxy-groups'])
     detect_and_break_cycles(conf['proxy-groups'])
@@ -1548,16 +1576,49 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        # 收集已存在的组名用于去重
+        existing_names = {g['name'] for g in conf['proxy-groups'] if 'name' in g}
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
+                group_name = ctg_disp[ctg]
+                # 跳过已存在的组名（避免生成 "🇺🇸 美国  2"）
+                if group_name in existing_names:
+                    print(f"跳过重复组名: {group_name}")
+                    continue
                 disp = ctg_base.copy()
-                disp['name'] = ctg_disp[ctg]
+                disp['name'] = group_name
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-        # ====== 新增：动态组添加后再次检测循环 ======
+                existing_names.add(group_name)
+
+        # 再次检测循环并去重
         detect_and_break_cycles(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])
+
+        # 确保 🗺️ 选择地区 组有内容
+        if not conf['proxy-groups'][-1].get('proxies'):
+            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
+            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
+
+    # 恢复预设组的 proxies（若被误清）
+    for group in conf['proxy-groups']:
+        name = group.get('name')
+        if name in original_proxies_map:
+            if not group.get('proxies') or group['proxies'] == []:
+                group['proxies'] = original_proxies_map[name]
+                print(f"恢复预设组 '{name}' 的 proxies")
+
+    # 确保所有组都有 proxies 字段且非空（若为空则填充节点列表）
+    for group in conf['proxy-groups']:
+        if 'proxies' not in group:
+            group['proxies'] = []
+            print(f"注意：组 {group.get('name')} 缺失 proxies，已创建空列表")
+        if not group.get('proxies'):
+            group['proxies'] = names_clash.copy() if names_clash else ['DIRECT']
+            print(f"填充空组 {group.get('name')} 为节点列表")
+
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
     except:
@@ -1580,16 +1641,44 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        existing_names = {g['name'] for g in conf['proxy-groups'] if 'name' in g}
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
+                group_name = ctg_disp[ctg]
+                if group_name in existing_names:
+                    print(f"跳过重复组名: {group_name}")
+                    continue
                 disp = ctg_base.copy()
-                disp['name'] = ctg_disp[ctg]
+                disp['name'] = group_name
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-        # ====== 新增：动态组添加后再次检测循环 ======
+                existing_names.add(group_name)
+
         detect_and_break_cycles(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])
+
+        if not conf['proxy-groups'][-1].get('proxies'):
+            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
+            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
+
+    # 恢复预设组
+    for group in conf['proxy-groups']:
+        name = group.get('name')
+        if name in original_proxies_map:
+            if not group.get('proxies') or group['proxies'] == []:
+                group['proxies'] = original_proxies_map[name]
+                print(f"恢复预设组 '{name}' 的 proxies")
+
+    for group in conf['proxy-groups']:
+        if 'proxies' not in group:
+            group['proxies'] = []
+            print(f"注意：组 {group.get('name')} 缺失 proxies，已创建空列表")
+        if not group.get('proxies'):
+            group['proxies'] = names_clash_meta.copy() if names_clash_meta else ['DIRECT']
+            print(f"填充空组 {group.get('name')} 为节点列表")
+
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
