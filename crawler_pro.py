@@ -17,16 +17,27 @@ from bs4 import BeautifulSoup
 import time
 import hashlib
 
-# ======================== 全局配置 ========================
-MAX_DEPTH = 3
-MAX_REQUESTS = 210
-REQUEST_TIMEOUT = 30
-KEYWORDS = ['node','subscri', 'feed', '.yaml', '.yml', '.txt']
-OUTPUT_YAML = 'crawclash.yaml'
-OUTPUT_TXT = 'crawsub.txt'
-SOURCE_FILE = 'crawler.list'
-CONNECT_TIMEOUT = 3
-TEST_WORKERS = 20
+# ======================== 全局配置（可调参数） ========================
+# 爬虫控制
+MAX_DEPTH = 3               # 爬取深度（从起始页算起）。增大可发现更多链接，但增加请求数。建议 2~5
+MAX_REQUESTS = 210          # 总请求数上限（含页面和订阅）。控制资源消耗，避免超时。建议 100~500
+KEYWORDS = ['node', 'subscri', 'feed', '.yaml', '.yml', '.txt']  # 用于识别订阅链接的关键词（URL 包含即视为订阅）
+
+# 网络请求
+REQUEST_TIMEOUT = 30        # HTTP 请求超时（秒）。增大可应对慢速服务器，减小可加快失败检测。建议 15~60
+FETCH_RETRIES = 3           # 获取内容失败后的重试次数。建议 2~5
+FETCH_DELAY = 1             # 重试间隔（秒）。建议 0.5~2
+
+# 节点测通（TCP 握手）
+CONNECT_TIMEOUT = 5         # TCP 握手超时（秒）。增大可减少网络波动误判，但延长总验证时间。建议 3~10
+TEST_RETRIES = 2            # 测通失败后的重试次数。建议 1~3
+TEST_WORKERS = 10           # 测通并发线程数。增大可加快验证，但可能因资源竞争导致失败率上升。建议 5~20
+MAX_DELAY = 3000            # 节点最大可接受延迟（毫秒），超过则丢弃。调低可提高质量，但可能减少节点数。建议 2000~5000
+
+# 导出文件
+OUTPUT_YAML = 'crawclash.yaml'   # Clash 配置文件输出路径
+OUTPUT_TXT = 'crawsub.txt'       # Base64 订阅文件输出路径
+SOURCE_FILE = 'crawler.list'     # 起始源列表文件路径
 
 # ======================== 辅助函数（解析与导出） ========================
 
@@ -60,7 +71,7 @@ def is_node_link(url):
             return True
     return False
 
-def fetch_content(url, retries=3, delay=1):
+def fetch_content(url, retries=FETCH_RETRIES, delay=FETCH_DELAY):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -80,7 +91,7 @@ def fetch_content(url, retries=3, delay=1):
             raise
     return None
 
-def fetch_binary(url, retries=3, delay=1):
+def fetch_binary(url, retries=FETCH_RETRIES, delay=FETCH_DELAY):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
@@ -109,15 +120,15 @@ def parse_vmess(vmess_url):
             'type': 'vmess',
             'add': data.get('add', ''),
             'port': int(data.get('port', 0)),
-            'uuid': data.get('id', ''),          # 统一用 uuid
-            'alterId': int(data.get('aid', 0)),  # 统一用 alterId
+            'uuid': data.get('id', ''),
+            'alterId': int(data.get('aid', 0)),
             'cipher': data.get('scy', 'auto'),
-            'network': data.get('net', 'tcp'),   # network
-            'tls': data.get('tls', '') == 'tls', # 布尔值
+            'network': data.get('net', 'tcp'),
+            'tls': data.get('tls', '') == 'tls',
             'sni': data.get('sni', ''),
             'host': data.get('host', ''),
             'path': data.get('path', ''),
-            'ps': data.get('ps', ''),            # 备注名
+            'ps': data.get('ps', ''),
             'raw': vmess_url,
         }
         if not node['add'] or not node['port'] or not node['uuid']:
@@ -271,7 +282,7 @@ def parse_subscription_content(content, url_hint=''):
                         'type': ptype,
                         'add': proxy.get('server', ''),
                         'port': int(proxy.get('port', 0)),
-                        'ps': proxy.get('name', ''),          # 保留备注
+                        'ps': proxy.get('name', ''),
                         'raw': f"{ptype}://{proxy.get('server', '')}:{proxy.get('port', 0)}"
                     }
                     if ptype in ('vmess', 'vless'):
@@ -366,9 +377,9 @@ def normalize_node_key(node):
         key = f"{node.get('type')}_{node.get('add')}_{node.get('port')}"
     return hashlib.md5(key.encode()).hexdigest()
 
-def test_node_connectivity(node):
+def test_node_connectivity(node, retries=TEST_RETRIES):
     """
-    测试节点 TCP 连通性，返回 (是否可达, 延迟毫秒)
+    测试节点 TCP 连通性（支持重试），返回 (是否可达, 延迟毫秒)
     并更新节点字典中的 'delay' 字段
     """
     host = node.get('add', '')
@@ -376,16 +387,21 @@ def test_node_connectivity(node):
     if not host or not port:
         node['delay'] = -1
         return False, -1
-    start = time.time()
-    try:
-        ip = socket.gethostbyname(host)
-        with socket.create_connection((ip, port), timeout=CONNECT_TIMEOUT):
-            delay = int((time.time() - start) * 1000)
-            node['delay'] = delay
-            return True, delay
-    except Exception:
-        node['delay'] = -1
-        return False, -1
+
+    for attempt in range(retries):
+        start = time.time()
+        try:
+            ip = socket.gethostbyname(host)
+            with socket.create_connection((ip, port), timeout=CONNECT_TIMEOUT):
+                delay = int((time.time() - start) * 1000)
+                node['delay'] = delay
+                return True, delay
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(0.5)   # 重试间隔 0.5 秒
+                continue
+    node['delay'] = -1
+    return False, -1
 
 def node_to_vmess_link(node):
     """将节点对象还原为原始链接字符串（用于 Base64 导出）"""
@@ -464,86 +480,47 @@ def is_node_valid(node):
             return False
     return True
 
-# ======================== 新导出函数（参照 JavaScript） ========================
+# ======================== 导出函数（仅 VMess，对齐 JavaScript） ========================
 
 def to_clash_proxy(node):
     """
-    将单个节点转换为 Clash proxy 字典（与 JavaScript 的 toClashProxy 逻辑一致）
+    将 VMess 节点转换为 Clash proxy 字典，非 VMess 返回 None。
+    完全模仿 JavaScript 的 toClashProxy 逻辑，并补齐 ws-opts 默认值。
     """
-    if node.get('type') == 'vmess':
-        proxy = {
-            'name': node.get('ps', f"VMess-{node.get('add')}"),
-            'type': 'vmess',
-            'server': node.get('add', ''),
-            'port': int(node.get('port', 0)),
-            'uuid': node.get('uuid', ''),
-            'alterId': int(node.get('alterId', 0)),
-            'cipher': node.get('cipher', 'auto'),
-            'tls': bool(node.get('tls', False)),
-            'network': node.get('network', 'tcp'),
-        }
-        # 处理 ws 传输
-        if node.get('network') == 'ws':
-            ws_opts = {}
-            if node.get('path'):
-                ws_opts['path'] = node.get('path')
-            if node.get('host'):
-                ws_opts['headers'] = {'Host': node.get('host')}
-            if ws_opts:
-                proxy['ws-opts'] = ws_opts
-        # 其他传输（tcp, grpc, h2）暂不添加额外字段
-        if node.get('sni'):
-            proxy['sni'] = node.get('sni')
-        return proxy
+    if node.get('type') != 'vmess':
+        return None   # 只导出 VMess
 
-    elif node.get('type') == 'vless':
-        proxy = {
-            'name': node.get('ps', f"VLESS-{node.get('add')}"),
-            'type': 'vless',
-            'server': node.get('add', ''),
-            'port': int(node.get('port', 0)),
-            'uuid': node.get('uuid', ''),
-            'network': node.get('network', 'tcp'),
-            'tls': bool(node.get('tls', False)),
-            'flow': node.get('flow', ''),
-            'encryption': node.get('encryption', 'none'),
-        }
-        if node.get('sni'):
-            proxy['sni'] = node.get('sni')
-        return proxy
+    proxy = {
+        'name': '',   # 名称由外部设置
+        'type': 'vmess',
+        'server': node.get('add', ''),
+        'port': int(node.get('port', 0)),
+        'uuid': node.get('uuid', ''),
+        'alterId': int(node.get('alterId', 0)),
+        'cipher': node.get('cipher', 'auto'),
+        'tls': bool(node.get('tls', False)),
+        'network': node.get('network', 'tcp'),
+    }
 
-    elif node.get('type') == 'ss':
-        proxy = {
-            'name': node.get('ps', f"SS-{node.get('add')}"),
-            'type': 'ss',
-            'server': node.get('add', ''),
-            'port': int(node.get('port', 0)),
-            'cipher': node.get('method', ''),
-            'password': node.get('password', ''),
+    # 处理 ws 传输（始终添加 ws-opts，并设默认值，与 JS 一致）
+    if node.get('network') == 'ws':
+        ws_opts = {
+            'path': node.get('path') or '/',   # 默认 '/'
+            'headers': {
+                'Host': node.get('host') or node.get('add')   # 默认 server
+            }
         }
-        return proxy
+        proxy['ws-opts'] = ws_opts
 
-    elif node.get('type') == 'trojan':
-        proxy = {
-            'name': node.get('ps', f"Trojan-{node.get('add')}"),
-            'type': 'trojan',
-            'server': node.get('add', ''),
-            'port': int(node.get('port', 0)),
-            'password': node.get('password', ''),
-        }
-        if node.get('sni'):
-            proxy['sni'] = node.get('sni')
-        if node.get('allowInsecure') == '1' or node.get('allowInsecure') is True:
-            proxy['skip-cert-verify'] = True
-        return proxy
+    if node.get('sni'):
+        proxy['sni'] = node.get('sni')
 
-    else:
-        return None
+    return proxy
 
 def nodes_to_clash_yaml(nodes):
     """
     将节点列表转换为完整的 Clash 配置文件 YAML 字符串，
-    完全模仿 JavaScript 的 exportClash 输出。
+    完全模仿 JavaScript 的 exportClash 输出（仅 VMess）。
     """
     if not nodes:
         return ""
@@ -556,8 +533,11 @@ def nodes_to_clash_yaml(nodes):
             print(f"⚠️ 跳过无效节点: {node.get('add', 'unknown')} (type: {node.get('type', '')})")
             continue
 
-        # 生成节点名称（含延迟）
-        base_name = node.get('ps', f"{node.get('add')}:{node.get('port')}")
+        # 生成基础名称（优先 ps）
+        base_name = node.get('ps', '').strip()
+        if not base_name:
+            base_name = f"{node.get('add')}:{node.get('port')}"
+
         delay = node.get('delay', -1)
         if delay > 0:
             name = f"{base_name} - {delay}ms"
@@ -572,15 +552,15 @@ def nodes_to_clash_yaml(nodes):
             counter += 1
         used_names[name] = True
 
-        # 构建 Clash proxy
+        # 构建 Clash proxy（仅 VMess）
         proxy = to_clash_proxy(node)
         if proxy is None:
             continue
-        proxy['name'] = name   # 覆盖名称
+        proxy['name'] = name
         proxies.append(proxy)
 
     if not proxies:
-        print("⚠️ 没有有效节点，无法生成 Clash 配置")
+        print("⚠️ 没有有效 VMess 节点，无法生成 Clash 配置")
         return ""
 
     # 构建完整配置（与 JavaScript 完全一致）
@@ -851,7 +831,7 @@ class Crawler:
         nodes = list(unique.values())
         print(f"   After dedupe: {len(nodes)} nodes")
 
-        print("🌐 Testing connectivity and measuring delay...")
+        print(f"🌐 Testing connectivity (timeout={CONNECT_TIMEOUT}s, retries={TEST_RETRIES}, workers={TEST_WORKERS})...")
         valid_nodes = []
         with ThreadPoolExecutor(max_workers=TEST_WORKERS) as executor:
             future_to_node = {executor.submit(test_node_connectivity, node): node for node in nodes}
@@ -859,15 +839,17 @@ class Crawler:
                 node = future_to_node[future]
                 try:
                     reachable, delay = future.result()
-                    if reachable:
+                    if reachable and delay <= MAX_DELAY:
                         node['delay'] = delay
                         valid_nodes.append(node)
                         print(f"   ✅ {node.get('add')}:{node.get('port')} - {delay}ms")
+                    elif reachable and delay > MAX_DELAY:
+                        print(f"   ⏱️  Too slow: {node.get('add')}:{node.get('port')} - {delay}ms (exceeds {MAX_DELAY}ms)")
                     else:
                         print(f"   ❌ Unreachable: {node.get('add')}:{node.get('port')}")
                 except Exception as e:
                     print(f"   ⚠️  Test error: {e}")
-        print(f"   After connectivity test: {len(valid_nodes)} nodes")
+        print(f"   After connectivity test: {len(valid_nodes)} nodes (filtered by max delay {MAX_DELAY}ms)")
         return valid_nodes
 
     def run(self):
@@ -896,7 +878,7 @@ class Crawler:
                 f.write(clash_yaml)
             print(f"✅ Clash YAML written to {OUTPUT_YAML}")
         else:
-            print("❌ No valid nodes to write to Clash YAML")
+            print("❌ No valid VMess nodes to write to Clash YAML")
 
         base64_str = nodes_to_base64(valid_nodes)
         with open(OUTPUT_TXT, 'w', encoding='utf-8') as f:
