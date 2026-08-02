@@ -1,6 +1,20 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 未知 VLESS-386
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '免費節點丨yoyapai.com_27 #2'
   network: tcp
   port: 7098
@@ -118,6 +132,21 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
+- name: 'RU俄罗斯 #5'
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: dtac.exp.dog
+  servername: duatoup3wk8q2.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 19668b6f-e215-41e6-8102-b8d29fb5b8ae
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: /fnet50
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 'RU俄罗斯 #2'
