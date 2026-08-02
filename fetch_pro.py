@@ -1532,10 +1532,9 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
-    # ====== 新增：修复 proxy-groups 循环引用 ======
+    # ====== 新增：修复 proxy-groups 循环引用（初始配置） ======
     fix_proxy_group_loop(conf['proxy-groups'])
     fix_proxy_group_loop(conf_meta['proxy-groups'])
-    # 额外检测并打破跨组循环
     detect_and_break_cycles(conf['proxy-groups'])
     detect_and_break_cycles(conf_meta['proxy-groups'])
     # =============================================
@@ -1557,6 +1556,8 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+        # ====== 新增：动态组添加后再次检测循环 ======
+        detect_and_break_cycles(conf['proxy-groups'])
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
     except:
@@ -1587,6 +1588,8 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+        # ====== 新增：动态组添加后再次检测循环 ======
+        detect_and_break_cycles(conf['proxy-groups'])
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
