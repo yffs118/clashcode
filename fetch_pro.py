@@ -1221,6 +1221,58 @@ def fix_proxy_group_loop(groups: List[Dict[str, Any]]) -> None:
                 proxies.remove(group_name)
                 print(f"  已移除 {group_name} 组中的自引用")
 
+def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
+    """
+    检测并打破 proxy-groups 中的所有循环引用（跨组循环）。
+    对于环中的组，移除其 proxies 列表中对其他组的引用（保留直接节点名）。
+    """
+    # 构建组名到索引的映射（用于快速判断是否为组名）
+    name_to_idx = {g['name']: i for i, g in enumerate(groups) if 'name' in g}
+    # 构建邻接表（组名 -> 它引用的组名列表）
+    graph = {g['name']: [] for g in groups if 'name' in g}
+    for g in groups:
+        name = g.get('name')
+        if not name:
+            continue
+        for item in g.get('proxies', []):
+            if item in name_to_idx:
+                graph[name].append(item)
+
+    # DFS 检测环，记录环中的节点
+    visited = set()
+    rec_stack = set()
+    cycle_nodes = set()
+
+    def dfs(node):
+        visited.add(node)
+        rec_stack.add(node)
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                if dfs(neighbor):
+                    return True
+            elif neighbor in rec_stack:
+                # 发现环，将当前递归栈中的所有节点标记为环的一部分
+                cycle_nodes.update(rec_stack)
+                return True
+        rec_stack.remove(node)
+        return False
+
+    for node in graph:
+        if node not in visited:
+            dfs(node)
+
+    if not cycle_nodes:
+        return
+
+    print(f"警告：检测到循环引用，涉及组: {', '.join(cycle_nodes)}")
+    # 对每个在环中的组，移除其 proxies 列表中的所有组名（只保留非组名）
+    for g in groups:
+        if g.get('name') in cycle_nodes:
+            original = g.get('proxies', [])
+            new_proxies = [item for item in original if item not in name_to_idx]
+            g['proxies'] = new_proxies
+            print(f"  已清理组 {g['name']} 的循环引用，保留节点: {new_proxies}")
+
 def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1308,7 +1360,7 @@ def main():
                     FETCH_TIMEOUT = (1, 0)
                     break
                 if not threads[i].is_alive(): break
-                print(f"{20*t}s")
+                print(f"{5*t}s")
             if threads[i].is_alive():
                 print("超时！")
                 continue
@@ -1483,6 +1535,9 @@ def main():
     # ====== 新增：修复 proxy-groups 循环引用 ======
     fix_proxy_group_loop(conf['proxy-groups'])
     fix_proxy_group_loop(conf_meta['proxy-groups'])
+    # 额外检测并打破跨组循环
+    detect_and_break_cycles(conf['proxy-groups'])
+    detect_and_break_cycles(conf_meta['proxy-groups'])
     # =============================================
 
     # Clash
