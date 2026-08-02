@@ -49,6 +49,15 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_2|1.4MB/s
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知32 492.1KB/s
@@ -61,7 +70,7 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: '韩国 002 #1'
+  name: 韩国 002
   network: ws
   port: 80
   server: 132.145.80.230
@@ -75,7 +84,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: '韩国 003 #1'
+  name: 韩国 003
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -88,7 +97,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '韩国 004 #1'
+  name: 韩国 004
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -101,7 +110,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '韩国 005 #1'
+  name: 韩国 005
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -114,7 +123,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 006 #1'
+  name: 韩国 006
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -128,7 +137,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: '韩国 007 #1'
+  name: 韩国 007
   network: ws
   port: 443
   server: 202.79.161.188
@@ -142,7 +151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 008 #1'
+  name: 韩国 008
   network: ws
   port: 443
   server: 202.79.160.243
@@ -156,7 +165,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '韩国 009 #1'
+  name: 韩国 009
   network: ws
   port: 443
   server: 202.79.160.164
@@ -170,7 +179,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 010 #1'
+  name: 韩国 010
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -184,7 +193,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '韩国 011 #1'
+  name: 韩国 011
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -198,7 +207,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: '韩国 012 #1'
+  name: 韩国 012
   network: ws
   port: 80
   server: 92.223.61.25
@@ -321,14 +330,16 @@ proxies:
   uuid: b7a8130f-92e6-4d4f-d0ac-336c164fed48
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_2|1.4MB/s
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- country: 🇧🇩BD
+  name: 🇰🇷 KR 120 | ⬇️ 16MB/s
+  network: tcp
+  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+  port: 21101
+  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  skip-cert-verify: true
+  sni: 261.yuanul.com
+  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR

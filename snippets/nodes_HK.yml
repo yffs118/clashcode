@@ -24,7 +24,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: '中国 008 #1'
+  name: 中国 008
   network: ws
   port: 443
   server: 221.204.41.88
@@ -270,30 +270,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: '香港3|@ripaojiedian #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -323,10 +299,11 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰HK_3|3.5MB/s
+  country: 🇭🇰HK
+  name: 🇭🇰 HK 007 | ⬇️ 14MB/s
   network: tcp
   password: BxceQaOe
-  port: '29443'
+  port: 29443
   server: 18.166.249.45
   skip-cert-verify: true
   sni: t.me/ripaojiedian
@@ -595,6 +572,31 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     path: /
+- cipher: aes-128-gcm
+  name: 🇭🇰 HK 004 | ⬇️ 3MB/s
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 79ca942774.download.windowsupdate.com
+    mode: http
+  port: 824
+  server: 260323.1.0.l3.unclemanco.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 003 | ⬇️ 5MB/s
+  network: tcp
+  port: 9006
+  server: select-hk.ddnskunlun.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
