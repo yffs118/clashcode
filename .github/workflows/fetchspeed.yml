@@ -45,7 +45,7 @@ jobs:
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git pull origin master
+        git pull origin main          # 修改 ①：master → main
         git add list*
         git add snippets/
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
@@ -53,13 +53,13 @@ jobs:
     - name: 推送更改
       uses: ad-m/github-push-action@master
       with:
-        branch: master
+        branch: main                  # 修改 ②：master → main
 
     - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
         sleep 5
-        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
+        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main"   # 修改 ③：master → main
         urls=""
         for f in `find snippets -name "*.yml" -type f`; do
           urls+="${baseUrl}/${f},"
