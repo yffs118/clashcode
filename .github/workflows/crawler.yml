@@ -28,8 +28,8 @@ jobs:
         run: |
           pip install requests beautifulsoup4 pyyaml
 
-      # ====== 新增：先拉取远程最新代码（此时工作区干净） ======
-      - name: Pull latest changes
+      # 运行前先同步远程最新代码（避免后续冲突）
+      - name: Pull latest changes before run
         run: git pull origin main --rebase
 
       - name: Run crawler
@@ -39,9 +39,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 添加文件
+
+          # 添加生成的文件
           git add crawclash.yaml crawsub.txt || echo "No files to add"
-          # 如果有变更则提交
-          git diff --staged --quiet || git commit -m "Update node configs $(date +'%Y-%m-%d %H:%M')"
-          # 推送
-          git push origin main
+
+          # 检查是否有变更需要提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update node configs $(date +'%Y-%m-%d %H:%M')"
+            # 在推送前再次同步远程（防止并发提交）
+            git pull --rebase origin main
+            git push origin main
+          fi
