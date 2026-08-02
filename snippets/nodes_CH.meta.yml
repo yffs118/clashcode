@@ -58,39 +58,51 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'IT_speednode_0013 #1'
+  name: 'US_speednode_0290 #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: '!!str d515d6cfdfe60b02'
-  server: 45.195.2.114
-  servername: storage.yandex.net
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: '!!str 10a5c8e2f4b7d936'
+  server: ch.tunnelx.space
+  servername: ch.tunnelx.space
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_2|1.2MB/s
-  network: tcp
-  port: '50170'
-  reality-opts:
-    public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
-    short-id: '!!str dc36bfb153f31f9a'
-  server: 83.228.246.208
-  servername: sweic.lodkirmm.ru
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: chrome
+  name: 🇨🇭_瑞士_188
+  network: ws
+  port: 443
+  server: 194.147.173.116
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
-  xudp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇨🇭_瑞士_192
+  network: ws
+  port: 443
+  server: 194.147.173.117
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -142,6 +154,22 @@ proxies:
     headers:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
+- client-fingerprint: chrome
+  name: '芬兰 #27'
+  network: ws
+  port: 2053
+  server: 185.195.69.119
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - name: 瑞士 004
   network: tcp
   port: 2551
@@ -165,12 +193,12 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 瑞士/Switzerland
+  name: 🇨🇭CH_6
   network: grpc
   port: 8082
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 83.228.197.195
+  server: 83.228.196.3
   servername: id.vk.com
   tls: true
   type: vless
@@ -182,6 +210,39 @@ proxies:
   server: 84.17.53.163
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
+  flow: xtls-rprx-vision
+  name: 🇨🇭 CH 196 | ⬇️ 2MB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 50170
+  reality-opts:
+    public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
+    short-id: '!!str dc36bfb153f31f9a'
+  server: 83.228.246.208
+  servername: sweic.lodkirmm.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
+  xudp: true
+- client-fingerprint: firefox
+  encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
+  flow: xtls-rprx-vision
+  name: 🇨🇭 CH 103 | ⬇️ 391KB/s
+  network: tcp
+  port: 50170
+  reality-opts:
+    public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
+    short-id: '!!str dc36bfb153f31f9a'
+  server: sweic.lodkirmm.ru
+  servername: sweic.lodkirmm.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -230,19 +291,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 83.228.197.178
-  servername: id.vk.com
-  tls: true
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇨🇭CH_6
-  network: grpc
-  port: 8082
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 83.228.196.3
   servername: id.vk.com
   tls: true
   type: vless

@@ -1,20 +1,92 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 'BG_speednode_0009 #1'
+  network: ws
+  port: 443
+  server: 87.121.86.131.tyr-agentstvo.tech
+  servername: 87.121.86.131.tyr-agentstvo.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5083f498-4894-4c81-8648-40a2faf4b545
+  ws-opts:
+    headers:
+      Host: 87.121.86.131.tyr-agentstvo.tech
+    path: /websocket?ed=2560
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_1|2.3MB/s
-  network: raw
-  port: '8442'
+  name: 🇪🇪EE_2|1008KB/s
+  port: 8442
   reality-opts:
     public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
     short-id: '!!str a7f9106ba66e4796'
-  server: 217.16.25.61
+  server: 217sub.ghost-lan.com
   servername: max.ru
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
-  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇪🇪_爱沙尼亚_11
+  port: 443
+  reality-opts:
+    public-key: kSQNzpTkFEKdWVONCkvTGmaHrHOiiBSfmGhwPK52iEo
+    short-id: '!!str b512d49930874a31'
+  server: 5.181.202.167
+  servername: cdn-ee.ai-apiroute.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇪🇪_爱沙尼亚_15
+  port: 8443
+  reality-opts:
+    public-key: pjTH9_lDnyhcoqZolps8Rr7Q_81IDTEjy1aq7UTguhk
+    short-id: '!!str 3351daa81250d627'
+  server: 31.56.187.47
+  servername: ndee.whit3.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪_爱沙尼亚_16
+  port: 8443
+  reality-opts:
+    public-key: pjTH9_lDnyhcoqZolps8Rr7Q_81IDTEjy1aq7UTguhk
+    short-id: '!!str 3351daa81250d627'
+  server: 31.56.187.47
+  servername: ndee.whit3.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44be17d7-8295-4d56-8623-4ae675a9cf9b
+- client-fingerprint: chrome
+  name: 🇪🇪_爱沙尼亚_198
+  network: ws
+  port: 443
+  server: 185.36.141.193
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
 - alterId: 1
   cipher: auto
   name: 爱沙尼亚 001
@@ -28,6 +100,19 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- name: 爱沙尼亚/Estonia
+  network: ws
+  port: 443
+  server: 45.80.108.182
+  servername: ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  ws-opts:
+    headers:
+      Host: Fls1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇪🇪EE_4
@@ -41,36 +126,6 @@ proxies:
   tls: true
   type: vless
   uuid: dc7940e0-6bff-45e3-853d-4007561803c3
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: eston3.o4ka-internet.com
-  servername: eston3.o4ka-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_39
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
-    short-id: '!!str e132826d'
-  server: 89.125.13.147
-  servername: api.led.samsung.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇪🇪EE_1
@@ -84,6 +139,19 @@ proxies:
   tls: true
   type: vless
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: eston3.o4ka-internet.com
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇪🇪EE_2

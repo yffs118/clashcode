@@ -1,162 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+- name: 🇳🇱NL_115
   network: ws
-  port: 55009
-  server: 2001:bc8:32d7:225::3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
-  ws-opts:
-    path: /0zNW56sF
-- name: 'FR法国(v2clash.blog 2026-7.31更新)... #1'
-  network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: '芬兰(v2clash.blog 2026-7.31更新)_1... #1'
-  network: ws
-  port: 2053
-  server: 31.59.120.124
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 未知 VLESS-472
-  network: tcp
-  port: 39756
-  reality-opts:
-    public-key: dDf2TcDNn3Kk8pAp4EnNC4ZUAmGkzAapRFGFe-41IEk
-    short-id: '!!str 86f6705960e3e3'
-  server: apinbxs.eovay.com
-  servername: iosapps.itunes.apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 未知 VLESS-693
-  network: ws
-  port: 4100
-  server: 194.87.161.60
-  servername: live.ok.ru
+  port: 8880
+  server: 94.140.0.100
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    path: /v1
-- client-fingerprint: chrome
-  name: 'FR法国(v2clash.blog 2026-7.31更新)... #6'
-  network: ws
-  port: 2053
-  server: 31.59.120.124
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 'FR法国 #17'
-  password: agSY+I/9kdioZ9aZLajgjEF0uwTcmTi9cIQVuguchJ4=
-  port: 51570
-  server: e1.cover20.ir
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 'FR法国 #3'
-  password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
-  port: 55129
-  server: n3.cover20.ir
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 'Node #71'
-  network: ws
-  port: 443
-  server: 104.19.87.194
-  servername: ld.223350.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
   ws-opts:
     headers:
-      Host: ld.223350.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 法国_10
-  network: ws
-  port: 443
-  server: 104.24.9.6
-  servername: ld.223350.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  ws-opts:
-    headers:
-      Host: ld.223350.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 'FR法国 #20'
-  network: ws
-  port: 443
-  server: 162.159.43.131
-  servername: ld.223350.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  ws-opts:
-    headers:
-      Host: ld.223350.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 'FR法国 #18'
-  network: ws
-  port: 443
-  server: 162.159.49.145
-  servername: ld.223350.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  ws-opts:
-    headers:
-      Host: ld.223350.xyz
-    path: /
+      Host: silent-pine-a674.jfadwkglaugul.workers.dev
+    path: /sync
 - alterId: 0
   cipher: auto
   name: 美国 079
@@ -218,6 +73,66 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - client-fingerprint: chrome
+  name: 法国_10
+  network: ws
+  port: 443
+  server: 104.24.9.6
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 'Node #71'
+  network: ws
+  port: 443
+  server: 104.19.87.194
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #18'
+  network: ws
+  port: 443
+  server: 162.159.49.145
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #20'
+  network: ws
+  port: 443
+  server: 162.159.43.131
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: /
+- client-fingerprint: chrome
   name: 'Node #117'
   network: ws
   port: 443
@@ -247,38 +162,235 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '🇫🇷_FR_法国 #5'
-  port: 22223
-  server: 13.37.22.60
+- client-fingerprint: chrome
+  name: 'DE德国 #11'
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 'FR法国 #7'
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇫🇷_FR_法国 #6'
-  port: 22222
-  server: 13.37.22.60
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+  ws-opts:
+    headers:
+      Host: steep-bread-32f0.92-d12.workers.dev
+    path: /
+- name: 'FR法国 #16'
+  network: ws
+  port: 8880
+  server: skk.moe
+  servername: skk.moe
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇮🇷_IR_伊朗->🇫🇷_FR_法国 #3'
-  port: 33485
-  server: babi.amojimi.ir
-  skip-cert-verify: true
-  tls: false
+  uuid: 91c7ea79-9187-4f07-ab97-68c584186843
+  ws-opts:
+    headers:
+      Host: nameless-dust-1a36.207-b50.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #4'
+  network: ws
+  port: 443
+  server: 108.162.192.5
+  servername: soucuovls.pages.dev
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
-- name: '🇫🇷_FR_法国 #4'
-  port: 22224
-  server: 13.37.22.60
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  ws-opts:
+    headers:
+      Host: soucuovls.pages.dev
+    path: /
+- alterId: 0
+  name: 🇫🇷FR法国
+  password: humanity
+  port: 443
+  server: 104.16.174.72
   skip-cert-verify: true
-  tls: false
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  name: 🇱🇹LT立陶宛
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  name: 🇫🇷FR法国3
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- client-fingerprint: chrome
+  name: 'FR法国 #5'
+  network: ws
+  port: 2087
+  server: 104.18.36.192
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #1'
+  network: ws
+  port: 2087
+  server: 172.64.53.218
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #19'
+  network: ws
+  port: 2087
+  server: 162.159.0.70
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #8'
+  network: ws
+  port: 8443
+  server: 172.64.35.32
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: random
+  name: FR法国
+  network: ws
+  port: 443
+  server: 172.64.52.81
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- alterId: 0
+  name: 🇫🇷FR法国2
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- client-fingerprint: random
+  name: 'FR法国 #6'
+  network: ws
+  port: 8443
+  server: 172.64.154.5
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: random
+  name: 'FR法国 #13'
+  network: ws
+  port: 443
+  server: 108.162.193.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /
+- client-fingerprint: chrome
+  name: 'FR法国 #11'
+  network: ws
+  port: 8443
+  server: 104.21.41.131
+  servername: ad-004.vector9nmb3.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
+  ws-opts:
+    headers:
+      Host: ad-004.vector9nmb3.info
+    path: /
 - name: 加拿大(免费节点)_2
   network: ws
   port: 443
@@ -412,62 +524,247 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-- cipher: aes-128-gcm
-  name: 🇫🇷 机场推荐:dafei.de 法国 01
-  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
-  port: 8443
-  server: Killian.athforce.ir
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'FR_speednode_0005 #1'
-  port: 22223
-  server: 13.38.194.199
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 'FR_speednode_0006 #1'
-  port: 22222
-  server: 13.38.194.199
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 'FR_speednode_0007 #1'
-  port: 22224
-  server: 13.38.194.199
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷_法国_94
-  port: 16000
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-fg.xueshan168.cc
-  servername: s0.awsstatic.com
+- name: 'FR法国(v2clash.blog 2026-7.31更新)... #1'
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '芬兰(v2clash.blog 2026-7.31更新)_1... #1'
+  network: ws
+  port: 2053
+  server: 31.59.120.124
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 未知 VLESS-472
+  network: tcp
+  port: 39756
+  reality-opts:
+    public-key: dDf2TcDNn3Kk8pAp4EnNC4ZUAmGkzAapRFGFe-41IEk
+    short-id: '!!str 86f6705960e3e3'
+  server: apinbxs.eovay.com
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  name: 'FR法国(v2clash.blog 2026-7.31更新)... #6'
+  network: ws
+  port: 2053
+  server: 31.59.120.124
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 'FR法国 #17'
+  password: agSY+I/9kdioZ9aZLajgjEF0uwTcmTi9cIQVuguchJ4=
+  port: 51570
+  server: e1.cover20.ir
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 'FR法国 #3'
+  password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
+  port: 55129
+  server: n3.cover20.ir
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'FR_speednode_0028 #1'
+  network: tcp
+  port: 42287
+  reality-opts:
+    public-key: TeQRou69R4O0YCR0b28I3PF97W9zc3Qf-zUvlOZA43M
+    short-id: '!!str 946e4c05cc69e1'
+  server: 15.237.122.88
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fe3eba8-86ef-4bce-9fb4-c7517954b2e2
+- client-fingerprint: chrome
+  name: 'FR_speednode_0027 #1'
+  network: ws
+  port: 443
+  server: 54.37.39.40
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'FR_speednode_0029 #1'
+  network: ws
+  port: 52014
+  server: 57.129.130.57
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'FR_speednode_0030 #1'
+  network: ws
+  port: 443
+  server: 162.19.247.245
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'FR_speednode_0031 #1'
+  network: tcp
+  port: 43248
+  reality-opts:
+    public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
+    short-id: '!!str 3355cf9734b0150e'
+  server: 15.237.177.139
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f9d8ca28-2fff-45de-9b25-3bf29186018e
+- client-fingerprint: chrome
+  name: 'FR_speednode_0032 #1'
+  network: ws
+  port: 8443
+  server: 51.15.105.75
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_151
+  network: ws
+  port: 443
+  server: 162.19.247.245
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_159
+  network: ws
+  port: 443
+  server: 51.38.44.17
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_164
+  network: ws
+  port: 443
+  server: 162.19.247.245
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_182
+  network: ws
+  port: 443
+  server: 54.37.39.40
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_201
+  network: ws
+  port: 443
+  server: 162.19.247.245
+  servername: svg-2.onrender.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47667ac5-ac51-7fc6-181f-65321ee2387b
+  ws-opts:
+    headers:
+      Host: svg-2.onrender.com
+    path: /ws/47667ac5-ac51-7fc6-181f-65321ee2387b
 - alterId: 0
   cipher: auto
-  name: 未知17 7.3KB/s
+  name: 未知110 47.0KB/s
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
@@ -477,7 +774,17 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知26
+  name: 未知42 61.0KB/s
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知23
   network: tcp
   port: 36864
   server: 2.arzankadeh.cam
@@ -487,7 +794,7 @@ proxies:
   uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
 - alterId: 0
   cipher: auto
-  name: 未知29
+  name: 法国 004
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -497,7 +804,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知32 10.8KB/s
+  name: 未知76 34.4KB/s
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -506,8 +813,18 @@ proxies:
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
+  cipher: auto
+  name: 未知2 96.2KB/s
+  network: tcp
+  port: 27726
+  server: fj260304.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
   cipher: chacha20-poly1305
-  name: 未知84 15.6KB/s
+  name: 未知87 62.5KB/s
   network: tcp
   port: 27726
   server: 195.133.193.18
@@ -517,7 +834,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知97 46.2KB/s
+  name: 未知98 44.1KB/s
   network: tcp
   port: 27726
   server: fj260203.freechatup.com
@@ -812,6 +1129,20 @@ proxies:
     headers:
       Host: beyonddsz.cfd
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 法国 030
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 法国 031
@@ -1184,43 +1515,15 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: firefox
-  name: 未知 VLESS-743
-  port: 8443
-  reality-opts:
-    public-key: D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw
-    short-id: '!!str b7b70c104ad267b8'
-  server: check09.farsinblog.ir
-  servername: play.google.com
+- alterId: 0
+  cipher: auto
+  name: 法国/France
+  port: 2096
+  server: 57.128.174.124
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: db840ee9-a3a3-4f4e-b63a-3779fe25eabe
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: api.v1.data
-  name: 🇫🇷FR_927
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
-    short-id: '!!str 524efc1f88592266'
-  server: 54.37.5.30
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 法国/France-3
-  port: 443
-  reality-opts:
-    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
-    short-id: '!!str 479826bdfc3eb86e'
-  server: 54.37.75.187
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+  type: vmess
+  uuid: ae91113b-915f-4a56-b998-e52d8a12da39
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 未知 VLESS-555
@@ -1235,6 +1538,38 @@ proxies:
   tls: true
   type: vless
   uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 法国/France-3
+  port: 443
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: '!!str 479826bdfc3eb86e'
+  server: 54.37.75.187
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_385
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: RWE5ORdQ2SzuFWX8DlaRP415wbhee9ynJkqC7yFPgQw
+    short-id: '!!str d13ddfca12760d03'
+  server: 51.195.116.82
+  servername: speedtest.net
+  tls: true
+  type: vless
+  uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
+- alterId: 0
+  cipher: auto
+  name: 法国/France-5
+  port: 2052
+  server: node-uk.connectsuite.org
+  type: vmess
+  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - name: 法国/巴黎/France/Paris
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
@@ -1243,65 +1578,192 @@ proxies:
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #3'
+  name: 🇫🇷_FR_法国
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0022 | 0.0...
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 149.202.82.172
+  name: 🇫🇷FR-195.154.200.150-0064 | 0....
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 195.154.200.150
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0203 | 0.0...
-  password: pKEW8JPByTVTLtM
-  port: 443
+  name: 🇫🇷FR-149.202.82.172-0034 | 0.0...
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 149.202.82.172
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-54.36.174.181-0224 | 0.0M...
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: 🇫🇷 FR 383 | ⬇️ 953KB/s
-  network: xhttp
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷 FR 497 | ⬇️ 1MB/s
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: fr2.ethicsdinnerpave.online
-  servername: fr2.ethicsdinnerpave.online
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: '!!str 5a8e1a04f3d92b67'
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- encryption: none
+  name: 🇫🇷 FR 048 | ⬇️ 38KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 22222
+  server: 13.38.194.199
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 FR 057 | ⬇️ 36KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 37905
+  reality-opts:
+    _spider-x: /
+    public-key: -V5TWgyDvyi5iIHZRHUWOkDrImMV19Trv6a8DT7oTH0
+    short-id: '!!str 0280fceae736'
+  server: 62.60.148.98
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7077aaa1-4e04-4ff5-8ce1-e1c163640a52
   xhttp-opts:
-    host: fr2.ethicsdinnerpave.online
     mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.69
-  skip-cert-verify: true
-  sni: www.calmloud.com
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 FR 699 | ⬇️ 36KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 55327
+  reality-opts:
+    _spider-x: /
+    public-key: 2ATL1QtPwQZ5-nZvMlcBGfyrI6ni-JSXKHELz8oXJ2Q
+    short-id: '!!str 84a16f311b'
+  server: 62.60.148.98
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba5a5970-d35b-4bd6-a0e0-33350dc3ef03
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 700 | ⬇️ 65KB/s
+  network: tcp
+  password: 7f2lnuboFJ
+  port: 22597
+  reality-opts:
+    _spider-x: /
+    public-key: OKyWZTPzXNnypsWdRqA5OjRRj8CvNWnh-UDQdBPQNG0
+    short-id: '!!str !!str 28d10c99eaa4'
+  server: 62.60.148.98
+  sni: www.intel.com
+  tls: true
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 FR 704 | ⬇️ 83KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 52831
+  reality-opts:
+    _spider-x: /
+    public-key: 4wuTwwR5QD6KiG_nJ13BFgV9fXzvdPCt6pvE8UM9nlU
+    short-id: '!!str 01'
+  server: 62.60.148.98
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1504b333-dffc-4bb7-8deb-1f4c2302ba4f
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 FR 705 | ⬇️ 72KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 34197
+  reality-opts:
+    _spider-x: /
+    public-key: 7SuOIPv20bXDiDs8hra7GqwcqrJpkw4cRhbp8Ldg7TY
+    short-id: '!!str 4b4d30f9'
+  server: 62.60.148.98
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ffc5ea45-cbed-4fd7-94dc-37c2bccafc84
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 707 | ⬇️ 36KB/s
+  network: tcp
+  password: 9Wkx7NAMZx
+  port: 45666
+  reality-opts:
+    _spider-x: /
+    public-key: 2-BDtmLiHzcnaIaPncX_VcncVTKKY13zBvwkHn_cY1s
+    short-id: '!!str !!str de89bc6e60f54f'
+  server: 62.60.148.98
+  sni: aws.amazon.com
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷 FR 713 | ⬇️ 50KB/s
+  network: xhttp
+  packet-encoding: xudp
+  port: 12101
+  reality-opts:
+    _spider-x: /
+    public-key: NdZjCMAOUjvv5oubFQ28Y0lbI1WNUwqN0dLV0jdJX2U
+    short-id: '!!str 44a7'
+  server: 62.60.148.98
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bc5164c5-1239-43d3-ba0f-3f5e11c0dd4a
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: 🇫🇷 FR 742 | ⬇️ 70KB/s
+  network: tcp
+  password: SAmzXv7K2X
+  port: 35958
+  reality-opts:
+    _spider-x: /
+    public-key: 21g0wjiTmSuPEwQDEXpDWKVJaNCCvpTpxnw4fK5PHmA
+    short-id: '!!str !!str 8aca7a49'
+  server: 62.60.148.98
+  sni: aws.amazon.com
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_587
   network: ws
   password: humanity
@@ -1459,20 +1921,6 @@ proxies:
     headers:
       Host: nahan-core.netizo09.workers.dev
     path: /sync
-- client-fingerprint: random
-  name: FR法国
-  network: ws
-  port: 443
-  server: 172.64.52.81
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - name: 🇫🇷FR_72
   network: ws
   port: 2086
@@ -1955,20 +2403,6 @@ proxies:
     headers:
       Host: node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev
     path: /
-- client-fingerprint: chrome
-  name: 未知 VLESS-464
-  network: ws
-  port: 443
-  server: 162.159.2.228
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -2045,6 +2479,19 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
+  name: 🇫🇷FR_354
+  network: ws
+  port: 443
+  server: 104.26.2.173
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- client-fingerprint: chrome
   name: 🇫🇷FR_786
   network: ws
   port: 443
@@ -2066,19 +2513,6 @@ proxies:
     headers:
       Host: little-pond-8731.81-68e.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: random
-  name: 🇫🇷FR_852
-  network: ws
-  port: 443
-  server: 104.16.2.189
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - client-fingerprint: random
   name: 🇫🇷FR_908
   network: ws
@@ -2199,20 +2633,6 @@ proxies:
   ws-opts:
     headers:
       Host: ad-004.vector9nmb3.info
-    path: /
-- client-fingerprint: chrome
-  name: 'FR法国 #1'
-  network: ws
-  port: 2087
-  server: 172.64.53.218
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
     path: /
 - name: 🇫🇷FR_732
   network: ws
@@ -2757,6 +3177,18 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
+- name: 🇫🇷FR_380
+  network: ws
+  port: 80
+  server: 172.67.96.178
+  servername: billowing-surf-d251.netizo06.workers.dev
+  tls: false
+  type: vless
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000023
+  ws-opts:
+    headers:
+      Host: billowing-surf-d251.netizo06.workers.dev
+    path: /sync
 - name: 🇫🇷FR_104
   network: ws
   port: 8880
@@ -2853,34 +3285,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
-- client-fingerprint: chrome
-  name: 'FR法国 #4'
-  network: ws
-  port: 443
-  server: 108.162.192.5
-  servername: soucuovls.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-  ws-opts:
-    headers:
-      Host: soucuovls.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: 'FR法国 #5'
-  network: ws
-  port: 2087
-  server: 104.18.36.192
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - alpn:
   - http/1.1
   name: 🇫🇷FR_114
@@ -3025,6 +3429,19 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: random
+  name: 🇫🇷FR_550
+  network: ws
+  port: 443
+  server: 108.162.193.0
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - client-fingerprint: chrome
   name: 🇫🇷FR_420
   network: ws
@@ -3332,20 +3749,6 @@ proxies:
     headers:
       Host: autumn-cloud-ab5e.229-601.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: random
-  name: 'FR法国 #6'
-  network: ws
-  port: 8443
-  server: 172.64.154.5
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷FR_805
   network: ws
@@ -3372,17 +3775,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
-- name: 'FR法国 #7'
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
-  ws-opts:
-    headers:
-      Host: steep-bread-32f0.92-d12.workers.dev
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷FR_530
   network: ws
@@ -3535,6 +3927,12 @@ proxies:
     headers:
       Host: cf-vless-4cf55824.aimall.fr
     path: /connect
+- name: '🇫🇷_FR_法国 #1'
+  port: 22224
+  server: 13.37.22.60
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇫🇷FR_184
   network: ws
   password: humanity
@@ -3545,21 +3943,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_751
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: MxP6JvJACYStDP-s4f.KJNnV3I410u6MQ-ITd.WorkerS.dev
-  tls: true
-  type: vless
-  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
-  ws-opts:
-    headers:
-      Host: mxp6jvjacystdp-s4f.kjnnv3i410u6mq-itd.workers.dev
-    path: /vl/14m2B3TtxW5N85ews?ed=2560
 - client-fingerprint: chrome
   name: 🇫🇷FR_257
   network: ws
@@ -3658,19 +4041,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_645
-  network: ws
-  port: 443
-  server: 104.17.223.103
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - name: 🇫🇷FR_26
   network: ws
   password: humanity
@@ -3695,20 +4065,6 @@ proxies:
     headers:
       Host: netlivpn0919.vsh72727.workers.dev
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
-- client-fingerprint: chrome
-  name: 'FR法国 #8'
-  network: ws
-  port: 8443
-  server: 172.64.35.32
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - name: 🇫🇷FR_27
   network: ws
   password: humanity
@@ -4344,6 +4700,20 @@ proxies:
     headers:
       Host: 002.inc-electrocell-001-002.workers.dev
     path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api.v1.data
+  name: 🇫🇷FR_927
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
+    short-id: '!!str 524efc1f88592266'
+  server: 54.37.5.30
+  servername: play.google.com
+  tls: true
+  type: vless
+  uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
 - name: 🇫🇷FR_454
   network: ws
   port: 2095
@@ -4413,17 +4783,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_784
-  network: ws
-  port: 8880
-  server: chat.openai.com
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime29.workers.dev
-    path: /
 - client-fingerprint: ios
   name: 🇫🇷FR_876
   network: ws
@@ -4559,19 +4918,6 @@ proxies:
     headers:
       Host: free.server11peekconfig.workers.dev
     path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-- client-fingerprint: chrome
-  name: 🇫🇷FR_565
-  network: ws
-  port: 443
-  server: 108.162.195.58
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
 - name: 🇫🇷FR_91
   network: ws
   port: 8880
@@ -4583,20 +4929,6 @@ proxies:
     headers:
       Host: crimson-bread-c38e.295.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 'FR法国 #11'
-  network: ws
-  port: 8443
-  server: 104.21.41.131
-  servername: ad-004.vector9nmb3.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
-  ws-opts:
-    headers:
-      Host: ad-004.vector9nmb3.info
-    path: /
 - name: 🇫🇷FR_9
   network: ws
   password: humanity
@@ -4894,19 +5226,6 @@ proxies:
     headers:
       Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
     path: /fp
-- client-fingerprint: chrome
-  name: 🇫🇷FR_528
-  network: ws
-  port: 443
-  server: 162.159.8.155
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
 - alpn:
   - h3
   - h2
@@ -4966,19 +5285,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_385
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: RWE5ORdQ2SzuFWX8DlaRP415wbhee9ynJkqC7yFPgQw
-    short-id: '!!str d13ddfca12760d03'
-  server: 51.195.116.82
-  servername: speedtest.net
-  tls: true
-  type: vless
-  uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
 - name: 🇫🇷FR_81
   network: ws
   port: 80
@@ -5015,19 +5321,6 @@ proxies:
   ws-opts:
     headers:
       Host: mute-moon-cf52.stary1001.workers.dev
-    path: /
-- client-fingerprint: firefox
-  name: 🇫🇷FR_21
-  network: ws
-  port: 2096
-  server: 173.245.58.162
-  servername: white-silence-30a2.ali101020.workers.dev
-  tls: true
-  type: vless
-  uuid: 3290f561-d94d-426e-8e1b-52ab0d441786
-  ws-opts:
-    headers:
-      Host: white-silence-30a2.ali101020.workers.dev
     path: /
 - name: 🇫🇷FR_11
   network: ws
@@ -5498,20 +5791,6 @@ proxies:
     headers:
       Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
     path: /
-- client-fingerprint: random
-  name: 'FR法国 #13'
-  network: ws
-  port: 443
-  server: 108.162.193.0
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷FR_851
   network: ws
@@ -5628,6 +5907,12 @@ proxies:
     headers:
       Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: '🇫🇷_FR_法国 #2'
+  port: 22223
+  server: 13.37.22.60
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇫🇷FR_863
   network: ws
   password: humanity
@@ -5839,6 +6124,19 @@ proxies:
     headers:
       Host: testmikonim.hydrymhmdamyn7.workers.dev
     path: /OAZko425kNFF0PpQ
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_743
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: '!!str a91045bc'
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
 - client-fingerprint: chrome
   name: 🇫🇷FR_526
   network: ws
@@ -6101,17 +6399,6 @@ proxies:
     headers:
       Host: steep-glitter-7c3c.367-5c9.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 🇫🇷FR_133
-  network: ws
-  port: 2095
-  server: 172.67.66.177
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.cnm-fangbinxingnmsl-250.workers.dev
-    path: /
 - name: 🇫🇷FR_641
   network: ws
   password: humanity
@@ -7058,6 +7345,12 @@ proxies:
     headers:
       Host: autumn-forest-3479.121-488.workers.dev
     path: /pyip
+- name: '🇫🇷_FR_法国 #3'
+  port: 22222
+  server: 13.37.22.60
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   name: 🇫🇷FR_41
   network: ws
@@ -7096,6 +7389,12 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+  port: 33485
+  server: babi.amojimi.ir
+  tls: false
+  type: vless
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -7317,18 +7616,16 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: 'FR法国 #16'
+- name: 🇫🇷FR_182
   network: ws
-  port: 8880
-  server: skk.moe
-  servername: skk.moe
-  tls: false
-  type: vless
-  uuid: 91c7ea79-9187-4f07-ab97-68c584186843
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers:
-      Host: nameless-dust-1a36.207-b50.workers.dev
-    path: /
+    path: /assignment
 - client-fingerprint: chrome
   name: 🇫🇷FR_123
   network: ws
@@ -7496,20 +7793,6 @@ proxies:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txtfp=random
 - client-fingerprint: chrome
-  name: 'FR法国 #19'
-  network: ws
-  port: 2087
-  server: 162.159.0.70
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /
-- client-fingerprint: chrome
   name: 🇫🇷FR_693
   network: ws
   port: 443
@@ -7575,19 +7858,6 @@ proxies:
     headers:
       Host: dawn-cell-346f.238-df6.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🇫🇷FR_446
-  network: ws
-  port: 443
-  server: 198.41.209.43
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - name: 🇫🇷FR_60
   network: ws
   port: 8880

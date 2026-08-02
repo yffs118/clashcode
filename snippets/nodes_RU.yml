@@ -33,7 +33,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇷🇺RU-176.119.156.229-0034 | 0....
+  name: 俄罗斯 001
   network: ws
   port: 852
   server: 176.119.156.229
@@ -47,7 +47,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-194.87.105.162-0202 | 0.0...
+  name: 俄罗斯 002
   network: ws
   port: 443
   server: jeffptrade.com
@@ -61,7 +61,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知15
+  name: 未知20
   network: tcp
   port: 27343
   server: 46.226.166.205
@@ -350,57 +350,20 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU-185.149.21.116-0025 | 0.0...
-  network: ws
-  port: 11188
-  server: 185.149.21.116
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: dfe0bd78-0454-4923-8f21-111550a876c9
-  ws-opts:
-    path: /
 - cipher: aes-256-gcm
-  name: 🇷🇺RU-185.22.154.103-0175 | 0.0...
-  password: cfe685726eea2c4b
-  port: 10921
-  server: 185.22.154.103
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
-  password: 1a87017d0bf57f34
-  port: 50111
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_20
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_19
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 未知 SS-204
-  password: fbaf33bcffe53cf9
-  port: 50111
+  name: 🇷🇺 RU 492 | ⬇️ 27KB/s
+  password: 2027e830399d8d08
+  port: 10910
   server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 500 | ⬇️ 22KB/s
+  password: 81a20429165df87e
+  port: 10190
+  server: 195.133.23.200
   skip-cert-verify: false
   type: ss
   udp: false
@@ -440,10 +403,23 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: RU_speednode_0135
-  password: 895b4b796a357570
-  port: 10910
-  server: 176.32.35.51
+  name: 🇷🇺RU_20
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
   type: ss
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 未知 SS-204
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_19
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888

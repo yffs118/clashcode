@@ -1,28 +1,21 @@
 proxies:
 - cipher: aes-256-cfb
-  name: SE_speednode_0146
+  name: SE_speednode_0235
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇸🇪 SE 725 | ⬇️ 1MB/s
   password: amazonskr05
   port: 443
   server: 13.61.5.244
-  skip-cert-verify: true
+  skip-cert-verify: false
   type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: '🇸🇪SE_1|1.7MB/s #1'
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: '🇸🇪SE_2|2.2MB/s #1'
-  password: amazonskr05
-  port: '443'
-  server: 13.51.233.2
-  type: ss
-  udp: true
+  udp: false
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
@@ -240,3 +233,17 @@ proxies:
     headers:
       Host: www.20414124.xyz
     path: /path/1704188270531
+- cipher: aes-256-cfb
+  name: SE-13.53.198.63-0169 | 21.801M...
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: SE-13.51.233.2-3132 | 21.034MB
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888

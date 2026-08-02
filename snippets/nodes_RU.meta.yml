@@ -1,18 +1,53 @@
 proxies:
-- name: 美国_122
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  servername: live.ok.ru
+- auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: 🇵🇱 PL 659 | ⬇️ 2MB/s
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tfo: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: 🇵🇱 PL 261 | ⬇️ 1MB/s
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 8443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tfo: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '免費節點丨yoyapai.com_27 #2'
+  network: tcp
+  port: 7098
+  reality-opts:
+    public-key: BjJOlYcS3QvqafeDIHyfG1xBUiK_Zs3eYKjMCs2DWQo
+    short-id: '!!str 1488'
+  server: 188.43.105.233
+  servername: static.vk.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  uuid: 152003f4-7659-43eb-88b3-da1dfad2a223
+- name: '俄羅斯丨yoyapai.com #2'
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
   ws-opts:
     headers:
-      Host: live.ok.ru
-    path: /v1
+      Host: ov186.ochmaybrooooo.online
+    path: /
 - client-fingerprint: chrome
   name: 'Node #32'
   network: tcp
@@ -82,50 +117,54 @@ proxies:
       Host: sertraline.adaspoloandco.com
     path: /download.php
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU俄罗斯 #5'
-  network: tcp
-  port: 40118
-  reality-opts:
-    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
-    short-id: '!!str 5895914d'
-  server: 43.255.156.59
-  servername: www.lamer.com.sg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts:
-    headers:
-      Host: www.lamer.com.sg
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '未知 VLESS-392 #1'
-  network: tcp
+  encryption: none
+  http-opts:
+    path:
+    - /
+  name: 'US美国 #22'
+  network: xhttp
+  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: yt-tw-bridge.astralweb.tech
-  servername: ads.x5.ru
-  skip-cert-verify: true
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  ws-opts:
+    path: /
+  xhttp-opts:
+    mode: auto
+    path: /
+- name: 'RU俄罗斯 #8'
+  network: ws
+  packet-encoding: ''
+  port: 80
+  server: dtac.exp.dog
+  servername: duatoup3wk8q2.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 19668b6f-e215-41e6-8102-b8d29fb5b8ae
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: /fnet50
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇧🇷 巴西
   network: tcp
-  packet-encoding: xudp
   port: 40443
   reality-opts:
     public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
     short-id: '!!str 69d4'
   server: status.netraidly.ru
   servername: deepl.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -134,59 +173,24 @@ proxies:
     headers:
       Host: deepl.com
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'Node #11'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: 201.51.2.248
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 'NL荷兰(mibei77.com 米贝节点分享)_12 #2'
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 'NL荷兰 #4'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- name: '🇷🇺_RU_俄罗斯 #5'
-  port: 29311
-  server: 46.29.163.32
-  skip-cert-verify: true
+- name: 'RU俄罗斯 #9'
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 2096
+  server: 82.117.87.248
+  skip-cert-verify: false
+  sni: it-one.quiet-rogue.site
   tls: false
-  type: vless
+  type: hysteria2
   udp: true
-  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: '🇷🇺_RU_俄罗斯 #3'
+  password: c5fcdf7829112cb4
+  port: 30129
+  server: 45.140.169.216
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 俄罗斯(免费节点)_3
   network: ws
   port: 8443
@@ -201,140 +205,100 @@ proxies:
     headers:
       host: cloudflare.vhub.pro
     path: /websocket
-- cipher: aes-256-gcm
-  name: '🇷🇺_RU_俄罗斯 #3'
-  password: c5fcdf7829112cb4
-  port: 30129
-  server: 45.140.169.216
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0139 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: 94.139.250.35
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0140 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.251.23
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0141 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.250.36
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0142 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.250.34
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_18
-  port: 8442
-  reality-opts:
-    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
-    short-id: '!!str a7f9106ba66e4796'
-  server: 217sub.ghost-lan.com
-  servername: max.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_21
-  port: 443
-  reality-opts:
-    public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI
-    short-id: '!!str ee57ea513371ce89'
-  server: code-sandbox.blog
-  servername: code-sandbox.blog
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_50
-  port: 443
-  reality-opts:
-    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
-    short-id: '!!str 7f2e9c4b1a8d6a53'
-  server: 37.139.43.57
-  servername: eh.vk.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
-- name: 🇩🇪DE_92
+- name: 美国_122
   network: ws
-  port: 80
-  server: ru-de.apruxdomain.xyz
-  servername: ru-de.apruxdomain.xyz
+  port: 4100
+  server: 5.129.194.34
+  servername: live.ok.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
   ws-opts:
     headers:
-      Host: ru-de.apruxdomain.xyz
-    path: /
-- name: 🇷🇺_俄罗斯_174
-  network: ws
-  port: 2200
-  server: 168.222.140.233
-  servername: tn.tmn141246.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
-  ws-opts:
-    headers:
-      Host: rzd.ru
+      Host: live.ok.ru
     path: /v1
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '未知 VLESS-246 #1'
+  network: grpc
+  port: 7443
+  reality-opts:
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 157.22.241.152
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 745 | ⬇️ 177KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  xudp: true
+- client-fingerprint: chrome
+  name: 'RU_speednode_0231 #1'
+  network: ws
+  port: 443
+  server: 109.172.94.240
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'RU_speednode_0234 #1'
+  network: ws
+  port: 443
+  server: 94.159.101.193
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_17
+  port: 25360
+  reality-opts:
+    public-key: bVbKf0t0QeM1-1lKafOLLSxk9Kuf3Hl_V8Diw95JZ2s
+    short-id: '!!str a8c574b886761a89'
+  server: 45.152.198.104
+  servername: proxy11.h1guro.ovh
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a088d58-eb38-47bd-b74d-ac392ee12ccd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'
@@ -350,7 +314,7 @@ proxies:
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - alterId: 0
   cipher: auto
-  name: 🇷🇺RU-176.119.156.229-0034 | 0....
+  name: 俄罗斯 001
   network: ws
   port: 852
   server: 176.119.156.229
@@ -364,7 +328,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-194.87.105.162-0202 | 0.0...
+  name: 俄罗斯 002
   network: ws
   port: 443
   server: jeffptrade.com
@@ -378,7 +342,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知15
+  name: 未知20
   network: tcp
   port: 27343
   server: 46.226.166.205
@@ -748,7 +712,7 @@ proxies:
   type: vless
   udp: true
   uuid: 91c053b5-2682-4ec6-93ad-307a17ce5139
-- name: 俄罗斯联邦/Russia
+- name: 俄罗斯 034
   network: ws
   port: 4100
   server: 147.45.253.97
@@ -858,18 +822,27 @@ proxies:
     headers:
       Host: probabblynot.fazelextremeisreal.com
     path: /
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦/莫斯科/Russia/Moscow
+  name: 🇩🇪DE_71
+  network: tcp
   port: 443
   reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: 72.56.244.137
-  servername: ads.x5.ru
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: gr5.levikogjgfdd.ir
+  servername: sellflow.org
   tls: true
   type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 492 | ⬇️ 27KB/s
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺RU_3
@@ -880,35 +853,12 @@ proxies:
     short-id: '!!str 6ba85179e30d4fc2'
   server: 94.242.55.42
   servername: enterprisekitten.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-- name: 俄罗斯联邦/莫斯科/Russia/Moscow-2
-  network: ws
-  port: 4100
-  server: 89.127.217.9
-  type: vless
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: /v1
-- name: 俄罗斯联邦/莫斯科/Russia/Moscow-3
-  network: ws
-  port: 5443
-  server: 5.188.115.69
-  servername: amogus.razkur.dev
-  tls: true
-  type: vless
-  uuid: 02faf83b-3b1d-4a19-9f78-58e0fdab4b2c
-  ws-opts:
-    headers:
-      Host: amogus.razkur.dev
-    path: /ws
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦/莫斯科/Russia/Moscow-4
+  name: 俄罗斯联邦/莫斯科/Russia/Moscow-3
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -916,27 +866,7 @@ proxies:
   servername: sellflow.org
   tls: true
   type: vless
-  uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
-- name: 俄罗斯联邦/莫斯科/Russia/Moscow-5
-  network: ws
-  port: 443
-  server: 5.188.115.69
-  servername: amogus.razkur.dev
-  tls: true
-  type: vless
-  uuid: 06b45dbc-9994-4117-a20e-e8c530918385
-  ws-opts:
-    headers:
-      Host: amogus.razkur.dev
-    path: /ws
-- name: 🇷🇺RU_21
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: 138.124.68.188
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 85329505-90c2-43d1-9c4a-689b1a0be884
 - name: 🇨🇭CH_1
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
@@ -946,127 +876,36 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU-185.149.21.116-0025 | 0.0...
-  network: ws
-  port: 11188
-  server: 185.149.21.116
-  skip-cert-verify: false
+- name: 🇷🇺RU_21
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: 138.124.68.188
+  sni: usa1.spectrumproxy.shop
   tls: false
-  type: vmess
-  uuid: dfe0bd78-0454-4923-8f21-111550a876c9
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇷🇺RU-185.22.154.103-0175 | 0.0...
-  password: cfe685726eea2c4b
-  port: 10921
-  server: 185.22.154.103
-  type: ss
+  type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
-  password: 1a87017d0bf57f34
-  port: 50111
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_20
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_28
-  network: raw
-  packet-encoding: xudp
+  name: 🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰
   port: 443
   reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - cipher: aes-256-gcm
-  name: 🇷🇺RU_19
-  password: 9f3d1a6d31468599
-  port: 1291
+  name: 🇷🇺 RU 500 | ⬇️ 22KB/s
+  password: 81a20429165df87e
+  port: 10190
   server: 195.133.23.200
   skip-cert-verify: false
   type: ss
   udp: false
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 未知 SS-204
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 195 | ⬇️ 73KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c245b785-bb81-481b-95c9-c2db14c66f25
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇷🇺 RU 606 | ⬇️ 935KB/s
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1101,6 +940,13 @@ proxies:
   tls: true
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_20
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺RU_5
@@ -1114,6 +960,20 @@ proxies:
   tls: true
   type: vless
   uuid: fe444095-ab4b-45b5-8f25-2c2576fb1968
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'Node #11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: '!!str 496ee75c2f91f51d'
+  server: 201.51.2.248
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
 - alpn:
   - h2
   - http/1.1
@@ -1146,6 +1006,19 @@ proxies:
   ws-opts:
     headers:
       Host: 57be39cds394.csgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '未知 VLESS-392 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: '!!str 496ee75c2f91f51d'
+  server: yt-tw-bridge.astralweb.tech
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
@@ -1253,6 +1126,22 @@ proxies:
   tls: true
   type: vless
   uuid: e5bd3d75-06b3-490e-9651-930b1dc29cdb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU俄罗斯 #5'
+  network: tcp
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  ws-opts:
+    headers:
+      Host: www.lamer.com.sg
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇷🇺RU_27
@@ -1266,6 +1155,12 @@ proxies:
   tls: true
   type: vless
   uuid: f3ccd829-fe05-47f0-802f-b419c02efb1c
+- name: '🇷🇺_RU_俄罗斯 #6'
+  port: 29311
+  server: 46.29.163.32
+  tls: false
+  type: vless
+  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
 - client-fingerprint: chrome
   name: 🇷🇺RU_14
   network: raw
@@ -1291,6 +1186,20 @@ proxies:
   tls: true
   type: vless
   uuid: cfb5b3d3-c094-4222-99e8-53faa787c857
+- cipher: aes-256-gcm
+  name: 未知 SS-204
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_19
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -1358,6 +1267,18 @@ proxies:
   tls: true
   type: vless
   uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_28
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  tls: true
+  type: vless
+  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - name: 🇷🇺_RU_俄罗斯联邦_10
   network: ws
   port: 2087
@@ -1370,11 +1291,3 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- cipher: aes-256-gcm
-  name: RU_speednode_0135
-  password: 895b4b796a357570
-  port: 10910
-  server: 176.32.35.51
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888

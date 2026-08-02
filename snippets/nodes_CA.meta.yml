@@ -1,32 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_258
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '!!str 250b5976473a'
-  server: jyvlryz.cvewfjg.shop
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- name: 'Node #10'
-  network: ws
-  port: 8880
-  server: 130.250.137.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime05.workers.dev
-    path: /
 - name: 'Node #15'
   network: ws
   port: 80
@@ -75,7 +47,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #7'
+  name: '未命名 #6'
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -94,7 +66,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #11'
+  name: '未命名 #10'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -122,6 +94,27 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- name: 'Node #10'
+  network: ws
+  port: 8880
+  server: 130.250.137.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
+- cipher: aes-256-cfb
+  name: '🇨🇦_CA_加拿大 #3'
+  password: amazonskr05
+  port: 443
+  server: 15.223.186.62
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 加拿大(免费节点)_1
   network: ws
   port: 443
@@ -428,14 +421,6 @@ proxies:
     headers:
       host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: aes-256-cfb
-  name: 🇨🇦_CA_加拿大
-  password: amazonskr05
-  port: 443
-  server: 15.223.186.62
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
@@ -472,16 +457,21 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 未知71 4.7MB/s
-  network: tcp
-  port: 18000
-  server: 23.162.200.198
+- client-fingerprint: chrome
+  name: 🇨🇦_加拿大_248
+  network: ws
+  port: 443
+  server: 208.66.228.194
+  servername: sni.ehb.cc.cd
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - alterId: 0
   cipher: auto
   name: 加拿大 001
@@ -1037,16 +1027,9 @@ proxies:
   type: vless
   udp: true
   uuid: 900ca7c5-6c69-4536-b0f8-efa4e3976016
-- cipher: aes-128-gcm
-  name: 🇨🇦CA-149.22.95.183-0125 | 18.2...
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知116
+  name: 加拿大/蒙特利尔/Canada/Montreal
   network: ws
   port: 443
   server: 158.51.121.63
@@ -1057,25 +1040,11 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: seribus.org
+      Host: seribus.org
     path: linkvws
-- cipher: rc4-md5
-  name: 🇨🇦CA-137.184.174.93-0078 | 0.0...
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_244
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: '🇨🇦_CA_加拿大 #1'
+  name: '🇨🇦_CA_加拿大 #4'
   network: ws
   port: 80
   server: 108.181.10.17
@@ -1087,11 +1056,144 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_244
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇨🇦CA-149.22.95.183-0140 | 47.5...
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0032 | 0.0M...
+  name: 🇨🇦CA-85.208.108.93-0083 | 0.0M...
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0082 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0081 | 0.0M...
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.93
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0078 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.93
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.18-0069 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.18
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0062 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0060 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-134.195.196.149-0055 | 0....
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 134.195.196.149
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-38.111.114.246-0054 | 0.0...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.111.114.246
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0052 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-134.195.196.231-0051 | 0....
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 134.195.196.231
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0040 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-0038 | 0.0M...
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 85.208.108.60
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.90-0035 | 0.0M...
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 85.208.108.90
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0032 | 0.0M...
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0031 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0030 | 0.0M...
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 85.208.108.93
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: rc4-md5
+  name: 🇨🇦CA-137.184.174.93-0183 | 0.0...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
@@ -1394,6 +1496,19 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: chrome
+  name: 🇨🇦CA_7
+  network: ws
+  port: 8443
+  server: ad-013.orbitqgr7v.info
+  servername: ad-013.orbitqgr7v.info
+  tls: true
+  type: vless
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.orbitqgr7v.info
+    path: /
 - name: 加拿大_14
   network: ws
   port: 8443
@@ -1605,6 +1720,19 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_39
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
+    short-id: '!!str e132826d'
+  server: 89.125.13.147
+  servername: api.led.samsung.com
+  tls: true
+  type: vless
+  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
 - name: 🇨🇦CA_26
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -1625,19 +1753,6 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦CA_24
-  network: ws
-  port: 8443
-  server: ad-013.milo1fmyz.info
-  servername: ad-013.milo1fmyz.info
-  tls: true
-  type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  ws-opts:
-    headers:
-      Host: ad-013.milo1fmyz.info
     path: /
 - alpn:
   - h2

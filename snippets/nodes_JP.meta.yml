@@ -1,42 +1,13 @@
 proxies:
-- name: 'JP日本 #2'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: 🇯🇵JP_6
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: JP日本
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 印度(v2clash.blog 2026-7.31更新)_2
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: node-318
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
+  sni: vpn-jp-002.fastervpn.world
+  tls: false
+  type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
@@ -102,7 +73,8 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
-- name: 'Node #30'
+- alterId: 0
+  name: 'Node #30'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -113,7 +85,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #78'
+- alterId: 0
+  name: 'Node #78'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -124,7 +97,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #2'
+- alterId: 0
+  name: 'Node #2'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -135,7 +109,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #42'
+- alterId: 0
+  name: 'Node #42'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -146,7 +121,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #62'
+- alterId: 0
+  name: 'Node #62'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -185,7 +161,8 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- name: 'Node #56'
+- alterId: 0
+  name: 'Node #56'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -196,7 +173,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #61'
+- alterId: 0
+  name: 'Node #61'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -235,28 +213,6 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇯🇵 JP 980 | ⬇️ 197KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 2
-  cipher: auto
-  name: '🇯🇵_JP_日本->🇸🇬_SG_新加坡 #2'
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 日本(免费节点)_1
   network: ws
   port: 443
@@ -298,91 +254,277 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 🇯🇵 日本
-  password: yEnxJlVC
-  port: 51012
-  server: 183.232.139.24
+- name: 'JP日本 #2'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 014
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: true
-  tfo: false
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本5
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇯🇵 日本4
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 49207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
+  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本6
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇯🇵 日本特殊
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.72
-  tfo: false
-  type: ss
+- name: JP日本
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 印度(v2clash.blog 2026-7.31更新)_2
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'JP日本(v2clash.blog 2026-7.31更新)... #8'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 403ms
+  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 424ms
   network: tcp
   port: 30845
   server: v45.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: JP_speednode_0029
+- name: '日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 7630
+  server: 16.163.123.222
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 14625
+  server: 18.166.178.12
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '日本3|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 54876
+  server: 57.183.7.187
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 7630
+  server: 16.163.123.222
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 'JP_speednode_0067 #1'
+  network: ws
+  port: 443
+  server: 52.197.217.169
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'JP_speednode_0068 #1'
+  network: ws
+  port: 57554
+  server: 203.137.165.164
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0259
+  port: 1233
+  server: 143.110.145.0
+  servername: p05.rghvf.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_106
+  network: ws
+  port: 43484
+  server: 210.236.228.126
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_127
+  network: ws
+  port: 443
+  server: 45.95.212.117
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_129
+  network: ws
+  port: 18443
+  server: 92.113.124.204
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_137
+  network: ws
+  port: 443
+  server: 138.2.5.136
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_141
+  network: ws
+  port: 443
+  server: 35.75.183.41
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_207
+  network: ws
+  port: 443
+  server: 52.197.217.169
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_256
+  network: ws
+  port: 19364
+  server: 210.152.85.154
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_264
+  network: ws
+  port: 57554
+  server: 203.137.165.164
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇯🇵_日本_271
+  network: ws
+  port: 7219
+  server: 151.241.129.98
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- name: 美国 002
+  network: tcp
+  password: BxceQaOe
+  port: 29443
+  server: 35.76.126.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国 003
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -392,219 +534,6 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 🇯🇵JP日本2
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 18.163.100.58
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 🇯🇵JP日本4
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 18.166.178.12
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 🇯🇵JP日本
-  network: tcp
-  password: BxceQaOe
-  port: 9408
-  server: 35.76.126.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_3|4.9MB/s - 328ms
-  network: tcp
-  port: 46482
-  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_4|4.5MB/s - 375ms
-  network: tcp
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-  tls: true
-  type: vmess
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 0
-  cipher: auto
-  name: 美国 246
-  network: ws
-  port: 443
-  server: yg1.ygkkk.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
-  ws-opts:
-    headers:
-      Host: blogging-responsibility-recruiting-most.trycloudflare.com
-    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 · proxy_p...
-  network: ws
-  port: 16617
-  server: planb.mojcn.com
-  tls: false
-  type: vmess
-  uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
-  ws-opts:
-    headers:
-      Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|1001KB/s
-  network: ws
-  port: 25535
-  server: 193.111.30.245
-  servername: sni.ehb.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- auth: 4861843a-3187-4885-83d9-2f69fed13fc9
-  name: 🇯🇵JP_2|2.9MB/s
-  password: 4861843a-3187-4885-83d9-2f69fed13fc9
-  port: 20005
-  server: hkt2.nekohub.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵JP_3|4.9MB/s #1'
-  port: 46482
-  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵JP_4|4.5MB/s #1'
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 未知 VLESS-537
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: ruded2.onlinestreamself.com
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- name: JP_speednode_0032
-  password: BxceQaOe
-  port: 29443
-  server: 35.76.126.253
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_77
-  port: 26000
-  reality-opts:
-    public-key: 5UyrbL7pqfhh7vgpyk5beDFZUK2uQWLqdvfgJBzu7Gg
-  server: x-rb7.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_78
-  port: 16000
-  reality-opts:
-    public-key: CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8
-  server: x-rb1.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_82
-  port: 16000
-  reality-opts:
-    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
-  server: x-rb.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_85
-  port: 16000
-  reality-opts:
-    public-key: 5UyrbL7pqfhh7vgpyk5beDFZUK2uQWLqdvfgJBzu7Gg
-  server: x-rb6.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_89
-  port: 16000
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: rb.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - alterId: 0
   cipher: auto
   name: 日本 001
@@ -635,7 +564,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 日本 003
+  name: 日本/Japan
   network: ws
   port: 80
   server: 168.138.43.75
@@ -778,6 +707,34 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- alterId: 64
+  cipher: auto
+  name: 日本 014
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 日本 015
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
 - alterId: 4
   cipher: auto
   name: 日本 016
@@ -1044,38 +1001,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本/东京/Japan/Tokyo
+  name: 日本/Japan-2
   network: ws
-  port: 80
-  server: 172.111.146.64
+  port: 4010
+  server: 45.76.202.45
   type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
-    path: /vmess/
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_13
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_7
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-128-gcm
-  name: 🇯🇵JP_10
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
+    path: /liksuzcp
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-45.76.202.45-0121 | 0.0MB
+  name: 日本/Japan-3
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    headers:
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-45.76.202.45-0155 | 0.0MB
   network: ws
   port: 4010
   server: 45.76.202.45
@@ -1085,9 +1033,86 @@ proxies:
   uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
     path: /
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_7
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_13
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_10
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.102-0077 | 0....
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 185.172.113.102
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.101-0076 | 0....
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 185.172.113.101
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵JP-133.18.230.121-0075 | 0.0...
+  password: 1b753dd99c1291e87a7b239f2928fedd
+  port: 443
+  server: trs05.bolab.net
+  skip-cert-verify: false
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.106-0074 | 0....
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.172.113.106
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.102-0073 | 0....
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.172.113.102
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.106-0072 | 0....
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 185.172.113.106
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-89.31.126.150-0071 | 0.0M...
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 89.31.126.150
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.106-0070 | 0....
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 185.172.113.106
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-20.243.200.245-0063 | 0.0...
+  name: 🇯🇵JP-20.243.200.245-0193 | 0.0...
   network: ws
   port: 80
   server: 20.243.200.245
@@ -1099,7 +1124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-20.243.200.245-0062 | 0.0...
+  name: 🇯🇵JP-20.243.200.245-0194 | 0.0...
   network: ws
   port: 80
   server: 20.243.200.245
@@ -1117,49 +1142,6 @@ proxies:
   server: v2jp.k1.ssnss.live
   skip-cert-verify: false
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-172.111.146.64-0157 | 0.0...
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-43.133.213.175-0030 | 0.0...
-  network: ws
-  port: 48269
-  server: 43.133.213.175
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: fe820ade-abbc-4be1-c49a-520dacd1dd29
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-147.78.243.33-0024 | 0.0M...
-  network: ws
-  port: 11188
-  server: 147.78.243.33
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 98a3a2f6-01ff-48d9-9b24-28de4e4d8cc5
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.101-0207 | 0....
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 185.172.113.101
-  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
@@ -1391,15 +1373,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: 🇯🇵JP_6
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-002.fastervpn.world
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵JP_4
@@ -1449,13 +1422,3 @@ proxies:
   tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- alterId: 99999
-  cipher: auto
-  name: JP_speednode_0014
-  port: 446
-  server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
