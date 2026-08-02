@@ -1,4 +1,14 @@
 proxies:
+- auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: 🇵🇱 PL 261 | ⬇️ 1MB/s
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 8443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tfo: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '免費節點丨yoyapai.com_27 #2'

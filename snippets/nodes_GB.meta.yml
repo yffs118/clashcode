@@ -1254,13 +1254,6 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_59
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-0130 | 64.03...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -1694,17 +1687,6 @@ proxies:
   tls: true
   type: vless
   uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
-- name: 🇬🇧GB_20
-  network: ws
-  port: 8880
-  server: 172.65.90.53
-  tls: false
-  type: vless
-  uuid: b0b406f8-1f30-484c-9fcf-2fdffc715473
-  ws-opts:
-    headers:
-      Host: round-thunder-8e62.265-833.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
 - alpn:
   - h2
   - http/1.1
@@ -2079,6 +2061,17 @@ proxies:
     headers:
       Host: rzwsyya1.ujstc4eymicyxtacnf7r.workers.dev
     path: /
+- name: 🇬🇧GB_28
+  network: ws
+  port: 8880
+  server: 172.65.90.52
+  tls: false
+  type: vless
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  ws-opts:
+    headers:
+      Host: blue-rice-7142.30-346.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - name: 'GB英国 #7'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443

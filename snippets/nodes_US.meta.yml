@@ -1,76 +1,43 @@
 proxies:
+- auth: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  name: 🇷🇴RO_172
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.212
+  skip-cert-verify: true
+  sni: grape-turbo-fr.roxa.org
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '🇺🇸 美国 CloudFlare节点 #2'
   network: ws
-  port: 8880
-  server: skk.moe
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 160ca353-676d-4b7f-a041-0289e388b865
-  ws-opts:
-    headers:
-      Host: proud-cloud-7bdd.208-a52.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 starcorenode.com #2'
-  network: ws
-  port: 2053
-  server: 45.130.125.200
-  servername: po.fastbrokencompony.com
+  port: 443
+  server: japan.com
+  servername: misaka.cndyw.ggff.net
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
   ws-opts:
     headers:
-      Host: po.fastbrokencompony.com
-    path: /
-- name: '🇺🇸 美国 CloudFlare节点 2 #2'
-  network: ws
-  port: 80
-  server: 172.64.147.29
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
-  ws-opts:
-    headers:
-      Host: zyzzzoao.xn--fiqv8j.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM - 243ms
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 🇬🇧GB_28
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560fp=chrome
+- name: 🇫🇷FR_104
   network: ws
   port: 8880
-  server: 172.65.90.52
+  server: 104.17.144.29
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  uuid: 85e14d59-02ea-4642-a317-50f1e1691660
   ws-opts:
     headers:
-      Host: blue-rice-7142.30-346.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
+      Host: icy-hat-20f3.328-99f.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 4 #2'
+  name: '🇺🇸 美国 CloudFlare节点 3 #2'
   network: ws
   port: 2087
   server: 172.64.146.59
@@ -84,19 +51,69 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip
-- name: '🇺🇸 美国 CloudFlare节点 5 #2'
+- name: '🇺🇸 美国 starcorenode.com 2 #2'
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇫🇷FR_666
+  network: ws
+  port: 443
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: 🇬🇧GB_20
   network: ws
   port: 8880
-  server: cf3.466688.xyz
+  server: 172.65.90.53
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  uuid: b0b406f8-1f30-484c-9fcf-2fdffc715473
   ws-opts:
     headers:
-      Host: nameless-tree-08b8.352.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+      Host: round-thunder-8e62.265-833.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇹AT_7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.239.182
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: 🇫🇷FR_820
+  network: ws
+  port: 2086
+  server: 104.21.4.10
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+  ws-opts:
+    headers:
+      Host: muddy-shadow-8905.qara-atayi-1.workers.dev
+    path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇺🇸 美国
@@ -127,6 +144,22 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM - 243ms
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: 🇺🇸US_164
   password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
   port: 9992
@@ -2915,6 +2948,924 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- name: 美国节点0902 | 1倍率
+  network: tcp
+  password: d53ca555-b357-4fe3-bb06-efb759feb91d
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国节点0903 | 1倍率
+  network: tcp
+  password: d53ca555-b357-4fe3-bb06-efb759feb91d
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: 美国节点3001 | 1倍率
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: d53ca555-b357-4fe3-bb06-efb759feb91d
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: 美国节点3002 | 1倍率
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: d53ca555-b357-4fe3-bb06-efb759feb91d
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: 美国节点3003 | 1倍率
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: d53ca555-b357-4fe3-bb06-efb759feb91d
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #1'
+  network: tcp
+  password: dc9ac0c2-a115-4ad5-902d-3c3cde0c97f2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #1'
+  network: tcp
+  password: dc9ac0c2-a115-4ad5-902d-3c3cde0c97f2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: dc9ac0c2-a115-4ad5-902d-3c3cde0c97f2
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: dc9ac0c2-a115-4ad5-902d-3c3cde0c97f2
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: dc9ac0c2-a115-4ad5-902d-3c3cde0c97f2
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #2'
+  network: tcp
+  password: 30a0d71c-af1e-411e-9007-8a616fca9ddf
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #2'
+  network: tcp
+  password: 30a0d71c-af1e-411e-9007-8a616fca9ddf
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 30a0d71c-af1e-411e-9007-8a616fca9ddf
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 30a0d71c-af1e-411e-9007-8a616fca9ddf
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 30a0d71c-af1e-411e-9007-8a616fca9ddf
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #3'
+  network: tcp
+  password: ec973281-62f0-4fe8-ab7f-5c2ba64abc24
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #3'
+  network: tcp
+  password: ec973281-62f0-4fe8-ab7f-5c2ba64abc24
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: ec973281-62f0-4fe8-ab7f-5c2ba64abc24
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: ec973281-62f0-4fe8-ab7f-5c2ba64abc24
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: ec973281-62f0-4fe8-ab7f-5c2ba64abc24
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #4'
+  network: tcp
+  password: 36c77f74-ff36-4260-b76b-2f335efe49b6
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #4'
+  network: tcp
+  password: 36c77f74-ff36-4260-b76b-2f335efe49b6
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 36c77f74-ff36-4260-b76b-2f335efe49b6
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 36c77f74-ff36-4260-b76b-2f335efe49b6
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 36c77f74-ff36-4260-b76b-2f335efe49b6
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #5'
+  network: tcp
+  password: 41e0d678-23bf-4fcd-ad9c-c68860c0666f
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #5'
+  network: tcp
+  password: 41e0d678-23bf-4fcd-ad9c-c68860c0666f
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 41e0d678-23bf-4fcd-ad9c-c68860c0666f
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 41e0d678-23bf-4fcd-ad9c-c68860c0666f
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 41e0d678-23bf-4fcd-ad9c-c68860c0666f
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #6'
+  network: tcp
+  password: d84e53e7-30c3-4b05-8cd3-83243d8a57bc
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #6'
+  network: tcp
+  password: d84e53e7-30c3-4b05-8cd3-83243d8a57bc
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: d84e53e7-30c3-4b05-8cd3-83243d8a57bc
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: d84e53e7-30c3-4b05-8cd3-83243d8a57bc
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: d84e53e7-30c3-4b05-8cd3-83243d8a57bc
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #7'
+  network: tcp
+  password: 35e7fd7c-9db1-4c0b-bc38-8910deabacf0
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #7'
+  network: tcp
+  password: 35e7fd7c-9db1-4c0b-bc38-8910deabacf0
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 35e7fd7c-9db1-4c0b-bc38-8910deabacf0
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 35e7fd7c-9db1-4c0b-bc38-8910deabacf0
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 35e7fd7c-9db1-4c0b-bc38-8910deabacf0
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #8'
+  network: tcp
+  password: aff7c2e3-50c2-4993-8b18-d23c9f0dfa94
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #8'
+  network: tcp
+  password: aff7c2e3-50c2-4993-8b18-d23c9f0dfa94
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: aff7c2e3-50c2-4993-8b18-d23c9f0dfa94
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: aff7c2e3-50c2-4993-8b18-d23c9f0dfa94
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: aff7c2e3-50c2-4993-8b18-d23c9f0dfa94
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #9'
+  network: tcp
+  password: 1bcaad97-526e-4e30-a4c5-b01eba0d272b
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #9'
+  network: tcp
+  password: 1bcaad97-526e-4e30-a4c5-b01eba0d272b
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 1bcaad97-526e-4e30-a4c5-b01eba0d272b
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 1bcaad97-526e-4e30-a4c5-b01eba0d272b
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 1bcaad97-526e-4e30-a4c5-b01eba0d272b
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #10'
+  network: tcp
+  password: 187966e7-8133-4d25-a3b1-23fd6f77bdab
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #10'
+  network: tcp
+  password: 187966e7-8133-4d25-a3b1-23fd6f77bdab
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 187966e7-8133-4d25-a3b1-23fd6f77bdab
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 187966e7-8133-4d25-a3b1-23fd6f77bdab
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 187966e7-8133-4d25-a3b1-23fd6f77bdab
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #11'
+  network: tcp
+  password: 72dba534-2493-4404-b5d7-c0c9c95162e3
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #11'
+  network: tcp
+  password: 72dba534-2493-4404-b5d7-c0c9c95162e3
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 72dba534-2493-4404-b5d7-c0c9c95162e3
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 72dba534-2493-4404-b5d7-c0c9c95162e3
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 72dba534-2493-4404-b5d7-c0c9c95162e3
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #12'
+  network: tcp
+  password: d7e76f64-bebe-49c7-96b3-9ec94b56bd1a
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #12'
+  network: tcp
+  password: d7e76f64-bebe-49c7-96b3-9ec94b56bd1a
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: d7e76f64-bebe-49c7-96b3-9ec94b56bd1a
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: d7e76f64-bebe-49c7-96b3-9ec94b56bd1a
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: d7e76f64-bebe-49c7-96b3-9ec94b56bd1a
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #13'
+  network: tcp
+  password: 98cdc3e9-92f6-4513-b184-7bcb7c93d7df
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #13'
+  network: tcp
+  password: 98cdc3e9-92f6-4513-b184-7bcb7c93d7df
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 98cdc3e9-92f6-4513-b184-7bcb7c93d7df
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 98cdc3e9-92f6-4513-b184-7bcb7c93d7df
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 98cdc3e9-92f6-4513-b184-7bcb7c93d7df
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #14'
+  network: tcp
+  password: 861584bd-e56b-4237-94c7-2fbbf370037f
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #14'
+  network: tcp
+  password: 861584bd-e56b-4237-94c7-2fbbf370037f
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 861584bd-e56b-4237-94c7-2fbbf370037f
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 861584bd-e56b-4237-94c7-2fbbf370037f
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 861584bd-e56b-4237-94c7-2fbbf370037f
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #15'
+  network: tcp
+  password: 5b5ce463-1726-4873-b926-7bdefa656c93
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #15'
+  network: tcp
+  password: 5b5ce463-1726-4873-b926-7bdefa656c93
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 5b5ce463-1726-4873-b926-7bdefa656c93
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 5b5ce463-1726-4873-b926-7bdefa656c93
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 5b5ce463-1726-4873-b926-7bdefa656c93
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0902 | 1倍率 #16'
+  network: tcp
+  password: 3a928ec5-4a85-4db2-923e-5d821381b49d
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国节点0903 | 1倍率 #16'
+  network: tcp
+  password: 3a928ec5-4a85-4db2-923e-5d821381b49d
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3001 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: RzQcDjBTDgtoVYMn
+  password: 3a928ec5-4a85-4db2-923e-5d821381b49d
+  port: 45103
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3002 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: YJNcm1r7aRL0vF2K
+  password: 3a928ec5-4a85-4db2-923e-5d821381b49d
+  port: 45204
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: 500
+  name: '美国节点3003 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: FS0N29jsaCqOyAsA
+  password: 3a928ec5-4a85-4db2-923e-5d821381b49d
+  port: 45304
+  server: us30.stablenode.top
+  skip-cert-verify: false
+  sni: us30.stablenode.top
+  type: hysteria2
+  up: 500
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国 - 260ms
@@ -25502,14 +26453,6 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸US_9|2.0MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: '🇨🇳_CN_中国->🇺🇸_US_美国 #1'
@@ -25880,7 +26823,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
+  name: '🇺🇸 美国 CloudFlare节点 6 #3'
   network: ws
   port: 443
   server: hk2.lrzdx.uk

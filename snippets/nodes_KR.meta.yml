@@ -1,18 +1,4 @@
 proxies:
-- name: '🇰🇷 韩国 KT电信 #2'
-  network: ws
-  port: 12545
-  server: 211.220.53.131
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
 - name: '🇰🇷KR南朝鮮丨yoyapai.com #2'
   network: ws
   port: 19530
