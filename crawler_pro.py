@@ -18,8 +18,8 @@ import time
 import hashlib
 
 # ======================== 全局配置 ========================
-MAX_DEPTH = 2
-MAX_REQUESTS = 150
+MAX_DEPTH = 3
+MAX_REQUESTS = 210
 REQUEST_TIMEOUT = 30
 KEYWORDS = ['node','subscri', 'feed', '.yaml', '.yml', '.txt']
 OUTPUT_YAML = 'crawclash.yaml'
