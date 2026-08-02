@@ -28,7 +28,7 @@ SOURCE_FILE = 'crawler.list'
 CONNECT_TIMEOUT = 3
 TEST_WORKERS = 20
 
-# ======================== 辅助函数 ========================
+# ======================== 辅助函数（解析与导出） ========================
 
 def clean_url(url):
     if not url:
@@ -99,6 +99,7 @@ def fetch_binary(url, retries=3, delay=1):
     return None
 
 def parse_vmess(vmess_url):
+    """解析 VMess 链接，返回标准节点字典"""
     if not vmess_url.startswith('vmess://'):
         return None
     try:
@@ -113,17 +114,50 @@ def parse_vmess(vmess_url):
             'id': data.get('id', ''),
             'aid': int(data.get('aid', 0)),
             'net': data.get('net', 'tcp'),
-            'type': data.get('type', 'none'),
+            'type_': data.get('type', 'none'),      # 原字段名为 'type'，为避免与节点类型冲突，重命名
             'host': data.get('host', ''),
             'path': data.get('path', ''),
             'tls': data.get('tls', ''),
             'sni': data.get('sni', ''),
+            'cipher': data.get('scy', 'auto'),
+            'raw': vmess_url,
         }
+        if not node['add'] or not node['port'] or not node['id']:
+            return None
         return node
-    except:
+    except Exception:
+        return None
+
+def parse_vless(vless_url):
+    """解析 VLESS 链接"""
+    if not vless_url.startswith('vless://'):
+        return None
+    try:
+        parsed = urlparse(vless_url)
+        uuid = parsed.username or ''
+        host = parsed.hostname or ''
+        port = parsed.port or 443
+        query = parse_qs(parsed.query)
+        node = {
+            'type': 'vless',
+            'add': host,
+            'port': port,
+            'uuid': uuid,
+            'net': query.get('type', ['tcp'])[0],
+            'tls': query.get('security', [''])[0] == 'tls',
+            'sni': query.get('sni', [''])[0],
+            'flow': query.get('flow', [''])[0],
+            'encryption': query.get('encryption', ['none'])[0],
+            'raw': vless_url,
+        }
+        if not node['uuid']:
+            return None
+        return node
+    except Exception:
         return None
 
 def parse_ss(ss_url):
+    """解析 Shadowsocks 链接"""
     if not ss_url.startswith('ss://'):
         return None
     try:
@@ -133,27 +167,43 @@ def parse_ss(ss_url):
             b64 = prefix.replace('-', '+').replace('_', '/')
             b64 += '=' * (4 - len(b64) % 4)
             decoded = base64.b64decode(b64).decode('utf-8')
-            method, password = decoded.split(':', 1)
-            host, port = suffix.split(':')
+            if ':' in decoded:
+                method, password = decoded.split(':', 1)
+            else:
+                method, password = decoded.split(':', 1)
+            if '?' in suffix:
+                host_port, _ = suffix.split('?', 1)
+            else:
+                host_port = suffix
+            host, port = host_port.split(':')
             port = int(port)
         else:
             b64 = content.replace('-', '+').replace('_', '/')
             b64 += '=' * (4 - len(b64) % 4)
             decoded = base64.b64decode(b64).decode('utf-8')
-            method, password, host, port = re.split(r'[:@]', decoded)
+            if '@' not in decoded:
+                return None
+            method_pass, host_port = decoded.split('@', 1)
+            method, password = method_pass.split(':', 1)
+            if '?' in host_port:
+                host_port, _ = host_port.split('?', 1)
+            host, port = host_port.split(':')
             port = int(port)
+
         node = {
             'type': 'ss',
             'add': host,
             'port': port,
             'method': method,
             'password': password,
+            'raw': ss_url,
         }
         return node
-    except:
+    except Exception:
         return None
 
 def parse_trojan(trojan_url):
+    """解析 Trojan 链接"""
     if not trojan_url.startswith('trojan://'):
         return None
     try:
@@ -161,21 +211,28 @@ def parse_trojan(trojan_url):
         password = parsed.username or ''
         host = parsed.hostname or ''
         port = parsed.port or 443
+        query = parse_qs(parsed.query)
         node = {
             'type': 'trojan',
             'add': host,
             'port': port,
             'password': password,
-            'sni': parsed.hostname,
-            'allowInsecure': parse_qs(parsed.query).get('allowInsecure', ['0'])[0],
+            'sni': query.get('sni', [host])[0],
+            'allowInsecure': query.get('allowInsecure', ['0'])[0],
+            'raw': trojan_url,
         }
+        if not node['password']:
+            return None
         return node
-    except:
+    except Exception:
         return None
 
 def parse_node_link(link):
+    """根据协议类型调用对应的解析函数"""
     if link.startswith('vmess://'):
         return parse_vmess(link)
+    elif link.startswith('vless://'):
+        return parse_vless(link)
     elif link.startswith('ss://'):
         return parse_ss(link)
     elif link.startswith('trojan://'):
@@ -187,10 +244,11 @@ def parse_subscription_content(content, url_hint=''):
     """
     解析订阅内容，返回节点列表。
     支持：
-    - 标准 Clash YAML（proxies 字段）
-    - Clash 配置（proxy-providers 字段，自动下载 http 类型 provider 的 url）
-    - Base64 编码的节点链接
+    - 标准 Clash YAML（proxies 字段，包含 vmess/vless/ss/trojan/http/socks5）
+    - Clash 配置（proxy-providers 字段，自动下载 http 类型 provider）
+    - Base64 编码的节点链接（每行一个链接）
     - 每行一个节点链接的纯文本
+    返回的每个节点字典包含 'raw' 字段（原始链接字符串）
     """
     nodes = []
     if not content:
@@ -200,82 +258,92 @@ def parse_subscription_content(content, url_hint=''):
     try:
         data = yaml.safe_load(content)
         if isinstance(data, dict):
-            # 1. 标准 proxies 字段
-            proxy_list = data.get('proxies') or data.get('Proxy') or data.get('proxy') or []
-            if proxy_list:
+            # 1. 标准 proxies 字段（支持不同大小写）
+            proxy_list = data.get('proxies') or data.get('Proxy') or data.get('proxy')
+            if proxy_list and isinstance(proxy_list, list):
                 for proxy in proxy_list:
+                    if not isinstance(proxy, dict):
+                        continue
+                    ptype = proxy.get('type', '').lower()
+                    if ptype not in ('vmess', 'vless', 'ss', 'trojan', 'http', 'socks5'):
+                        continue
                     node = {
-                        'type': proxy.get('type', ''),
+                        'type': ptype,
                         'add': proxy.get('server', ''),
                         'port': int(proxy.get('port', 0)),
-                        'uuid': proxy.get('uuid', ''),
-                        'aid': proxy.get('alterId', 0),
-                        'cipher': proxy.get('cipher', ''),
-                        'net': proxy.get('network', 'tcp'),
-                        'tls': proxy.get('tls', False),
-                        'sni': proxy.get('sni', ''),
-                        'host': proxy.get('host', ''),
-                        'path': proxy.get('path', ''),
-                        'raw': f"{proxy.get('type', '')}://{proxy.get('server', '')}:{proxy.get('port', '')}"
+                        'raw': f"{ptype}://{proxy.get('server', '')}:{proxy.get('port', 0)}"
                     }
-                    nodes.append(node)
-                return nodes  # 如果找到 proxies，直接返回，不再处理 provider
+                    if ptype in ('vmess', 'vless'):
+                        uuid = proxy.get('uuid') or proxy.get('id', '')
+                        node['id' if ptype == 'vmess' else 'uuid'] = uuid
+                        node['aid'] = int(proxy.get('alterId', 0)) if ptype == 'vmess' else 0
+                        node['cipher'] = proxy.get('cipher', 'auto')
+                        node['net'] = proxy.get('network', 'tcp')
+                        node['tls'] = proxy.get('tls', False)
+                        node['sni'] = proxy.get('sni', '')
+                        node['host'] = proxy.get('host', '')
+                        node['path'] = proxy.get('path', '')
+                        if ptype == 'vless':
+                            node['flow'] = proxy.get('flow', '')
+                            node['encryption'] = proxy.get('encryption', 'none')
+                    elif ptype == 'ss':
+                        node['method'] = proxy.get('cipher', '')
+                        node['password'] = proxy.get('password', '')
+                    elif ptype == 'trojan':
+                        node['password'] = proxy.get('password', '')
+                        node['sni'] = proxy.get('sni', '')
+                        node['allowInsecure'] = '1' if proxy.get('skip-cert-verify', False) else '0'
+                    if node['add'] and node['port']:
+                        nodes.append(node)
+                if nodes:
+                    return nodes
 
-            # 2. proxy-providers 字段（新增支持）
+            # 2. proxy-providers 字段
             if 'proxy-providers' in data:
                 providers = data['proxy-providers']
                 for provider_name, provider_config in providers.items():
                     if not isinstance(provider_config, dict):
                         continue
-                    # 只处理 http 类型的 provider
                     if provider_config.get('type') == 'http':
                         provider_url = provider_config.get('url')
                         if provider_url:
                             print(f"  Found proxy-provider '{provider_name}', downloading: {provider_url}")
                             try:
-                                # 下载 provider 内容
                                 provider_content = fetch_binary(provider_url)
                                 if provider_content:
-                                    try:
-                                        provider_text = provider_content.decode('utf-8', errors='ignore')
-                                    except:
-                                        provider_text = ''
-                                    # 递归解析（但注意避免无限循环，这里只递归一层）
+                                    provider_text = provider_content.decode('utf-8', errors='ignore')
                                     sub_nodes = parse_subscription_content(provider_text, provider_url)
-                                    if sub_nodes:
-                                        nodes.extend(sub_nodes)
-                                        print(f"  -> Got {len(sub_nodes)} nodes from provider")
+                                    nodes.extend(sub_nodes)
+                                    print(f"  -> Got {len(sub_nodes)} nodes from provider")
                             except Exception as e:
                                 print(f"  -> Error downloading provider {provider_url}: {e}")
-                    # 可以扩展支持 file 类型（需读取本地文件，但一般不适用于远程抓取）
-                # 如果从 provider 中获取到了节点，返回
                 if nodes:
                     return nodes
-    except Exception as e:
-        # YAML 解析失败，继续尝试其他格式
+    except Exception:
         pass
 
     # ---------- 第二步：尝试 Base64 解码 ----------
     try:
-        b64_clean = content.replace('\n', '').replace('\r', '').replace(' ', '')
-        if re.match(r'^[A-Za-z0-9+/=]+$', b64_clean) and len(b64_clean) % 4 == 0:
-            decoded = base64.b64decode(b64_clean).decode('utf-8', errors='ignore')
+        b64_clean = re.sub(r'\s+', '', content)
+        if re.match(r'^[A-Za-z0-9+/=_-]+$', b64_clean):
+            b64_clean += '=' * (4 - len(b64_clean) % 4)
+            decoded = base64.b64decode(b64_clean, altchars='-_').decode('utf-8', errors='ignore')
             for line in decoded.splitlines():
                 line = line.strip()
-                if line and (line.startswith(('vmess://', 'ss://', 'trojan://'))):
+                if line and line.startswith(('vmess://', 'vless://', 'ss://', 'trojan://')):
                     node = parse_node_link(line)
                     if node:
                         node['raw'] = line
                         nodes.append(node)
             if nodes:
                 return nodes
-    except:
+    except Exception:
         pass
 
     # ---------- 第三步：按行解析节点链接 ----------
     for line in content.splitlines():
         line = line.strip()
-        if line and (line.startswith(('vmess://', 'ss://', 'trojan://'))):
+        if line and line.startswith(('vmess://', 'vless://', 'ss://', 'trojan://')):
             node = parse_node_link(line)
             if node:
                 node['raw'] = line
@@ -284,8 +352,11 @@ def parse_subscription_content(content, url_hint=''):
     return nodes
 
 def normalize_node_key(node):
+    """生成节点去重指纹（基于类型、地址、端口、关键凭证）"""
     if node.get('type') == 'vmess':
         key = f"vmess_{node.get('add')}_{node.get('port')}_{node.get('id')}"
+    elif node.get('type') == 'vless':
+        key = f"vless_{node.get('add')}_{node.get('port')}_{node.get('uuid')}"
     elif node.get('type') == 'ss':
         key = f"ss_{node.get('add')}_{node.get('port')}_{node.get('method')}_{node.get('password')}"
     elif node.get('type') == 'trojan':
@@ -295,6 +366,7 @@ def normalize_node_key(node):
     return hashlib.md5(key.encode()).hexdigest()
 
 def test_node_connectivity(node):
+    """测试节点连通性（TCP 握手）"""
     host = node.get('add', '')
     port = node.get('port', 0)
     if not host or not port:
@@ -307,9 +379,12 @@ def test_node_connectivity(node):
         return False
 
 def node_to_vmess_link(node):
-    if node.get('type') == 'vmess':
-        if node.get('raw') and node['raw'].startswith('vmess://'):
-            return node['raw']
+    """将节点对象还原为原始链接字符串"""
+    if node.get('raw') and node['raw'].startswith(('vmess://', 'vless://', 'ss://', 'trojan://')):
+        return node['raw']
+
+    ntype = node.get('type', '')
+    if ntype == 'vmess':
         data = {
             'v': '2',
             'ps': '',
@@ -318,7 +393,7 @@ def node_to_vmess_link(node):
             'id': node.get('id', ''),
             'aid': node.get('aid', 0),
             'net': node.get('net', 'tcp'),
-            'type': node.get('type', 'none'),
+            'type': node.get('type_', 'none'),
             'host': node.get('host', ''),
             'path': node.get('path', ''),
             'tls': node.get('tls', ''),
@@ -326,17 +401,36 @@ def node_to_vmess_link(node):
         }
         b64 = base64.b64encode(json.dumps(data).encode()).decode()
         return 'vmess://' + b64
-    elif node.get('type') == 'ss':
-        if node.get('raw') and node['raw'].startswith('ss://'):
-            return node['raw']
+    elif ntype == 'vless':
+        uuid = node.get('uuid') or node.get('id', '')
+        host = node.get('add', '')
+        port = node.get('port', 443)
+        params = []
+        if node.get('net'):
+            params.append(f"type={node.get('net')}")
+        if node.get('tls'):
+            params.append("security=tls")
+        if node.get('sni'):
+            params.append(f"sni={node.get('sni')}")
+        if node.get('flow'):
+            params.append(f"flow={node.get('flow')}")
+        if node.get('encryption') and node['encryption'] != 'none':
+            params.append(f"encryption={node.get('encryption')}")
+        query = '&'.join(params)
+        return f"vless://{uuid}@{host}:{port}?{query}" if query else f"vless://{uuid}@{host}:{port}"
+    elif ntype == 'ss':
         auth = f"{node.get('method','')}:{node.get('password','')}"
         auth_b64 = base64.b64encode(auth.encode()).decode()
         return f"ss://{auth_b64}@{node.get('add','')}:{node.get('port',0)}"
-    elif node.get('type') == 'trojan':
-        if node.get('raw') and node['raw'].startswith('trojan://'):
-            return node['raw']
+    elif ntype == 'trojan':
         netloc = f"{node.get('password','')}@{node.get('add','')}:{node.get('port',443)}"
-        return f"trojan://{netloc}"
+        params = []
+        if node.get('sni'):
+            params.append(f"sni={node.get('sni')}")
+        if node.get('allowInsecure') == '1':
+            params.append("allowInsecure=1")
+        query = '&'.join(params)
+        return f"trojan://{netloc}?{query}" if query else f"trojan://{netloc}"
     else:
         return node.get('raw', '')
 
@@ -348,23 +442,20 @@ def is_node_valid(node):
     node_type = node.get('type', '').lower()
     if not node_type:
         return False
-    # 只保留 Clash 支持的类型
-    if node_type not in ('vmess', 'ss', 'trojan', 'vless', 'http', 'socks5'):
+    if node_type not in ('vmess', 'vless', 'ss', 'trojan', 'http', 'socks5'):
         return False
-    # 对于 VMess / VLESS，必须要有 uuid
-    if node_type in ('vmess', 'vless'):
-        uuid = node.get('id' if node_type == 'vmess' else 'uuid', '')
-        if not uuid or uuid.strip() == '':
+    if node_type == 'vmess':
+        if not node.get('id'):
             return False
-    # Shadowsocks 必须有 method 和 password
-    if node_type == 'ss':
+    elif node_type == 'vless':
+        if not node.get('uuid'):
+            return False
+    elif node_type == 'ss':
         if not node.get('method') or not node.get('password'):
             return False
-    # Trojan 必须有 password
-    if node_type == 'trojan':
+    elif node_type == 'trojan':
         if not node.get('password'):
             return False
-    # 其他类型（http/socks5）暂不强制要求额外字段
     return True
 
 def nodes_to_clash_yaml(nodes):
@@ -379,7 +470,6 @@ def nodes_to_clash_yaml(nodes):
     node_names = []
 
     for idx, node in enumerate(nodes, start=1):
-        # 过滤无效节点
         if not is_node_valid(node):
             print(f"⚠️ 跳过无效节点: {node.get('add', 'unknown')} (type: {node.get('type', '')})")
             continue
@@ -394,7 +484,8 @@ def nodes_to_clash_yaml(nodes):
             'port': node.get('port', 0),
         }
 
-        if node.get('type') == 'vmess':
+        ntype = node.get('type')
+        if ntype == 'vmess':
             proxy['uuid'] = node.get('id', '')
             proxy['alterId'] = int(node.get('aid', 0))
             proxy['cipher'] = node.get('cipher', 'auto')
@@ -408,8 +499,7 @@ def nodes_to_clash_yaml(nodes):
             if node.get('path'):
                 proxy['path'] = node.get('path')
 
-        elif node.get('type') == 'vless':
-            # VLESS 需要 uuid
+        elif ntype == 'vless':
             uuid = node.get('uuid') or node.get('id', '')
             proxy['uuid'] = uuid
             proxy['network'] = node.get('net', 'tcp')
@@ -417,22 +507,27 @@ def nodes_to_clash_yaml(nodes):
                 proxy['tls'] = True
             if node.get('sni'):
                 proxy['sni'] = node.get('sni')
-            # 可添加 flow、encryption 等，暂不处理
+            if node.get('flow'):
+                proxy['flow'] = node.get('flow')
+            if node.get('encryption'):
+                proxy['encryption'] = node.get('encryption')
 
-        elif node.get('type') == 'ss':
+        elif ntype == 'ss':
             proxy['cipher'] = node.get('method', '')
             proxy['password'] = node.get('password', '')
 
-        elif node.get('type') == 'trojan':
+        elif ntype == 'trojan':
             proxy['password'] = node.get('password', '')
             if node.get('sni'):
                 proxy['sni'] = node.get('sni')
             if node.get('allowInsecure') == '1':
                 proxy['skip-cert-verify'] = True
 
-        elif node.get('type') in ('http', 'socks5'):
-            # 对于 HTTP 和 SOCKS5，可能需要 username/password，但暂不处理
-            pass
+        elif ntype in ('http', 'socks5'):
+            if node.get('username'):
+                proxy['username'] = node.get('username')
+            if node.get('password'):
+                proxy['password'] = node.get('password')
 
         proxies.append(proxy)
 
@@ -447,6 +542,13 @@ def nodes_to_clash_yaml(nodes):
                 'name': '🚀 选择代理',
                 'type': 'select',
                 'proxies': node_names
+            },
+            {
+                'name': '🌐 自动测速',
+                'type': 'url-test',
+                'proxies': node_names,
+                'url': 'http://www.gstatic.com/generate_204',
+                'interval': 300
             }
         ],
         'rules': [
@@ -455,9 +557,10 @@ def nodes_to_clash_yaml(nodes):
     }
     return yaml.dump(config, default_flow_style=False, allow_unicode=True)
 
-# ===================================================================
-
 def nodes_to_base64(nodes):
+    """
+    将节点列表转换为 Base64 订阅字符串（每行一个原始链接）
+    """
     links = []
     for node in nodes:
         link = node_to_vmess_link(node)
@@ -511,30 +614,24 @@ class Crawler:
                 regex = re.compile('^' + pattern + '$', re.IGNORECASE)
                 wildcard_items.append((url, regex))
             else:
-                # 严格判断：只有以 .yaml/.yml/.txt 结尾的才视为直接订阅
                 if is_direct_subscription(url):
                     direct_urls.append(url)
                 else:
                     clean = url.rstrip('/')
                     plain_pages_set.add(clean)
 
-        # 建立通配符配对
-        wildcard_map = {}  # base_url -> [patterns]
+        wildcard_map = {}
         for url, regex in wildcard_items:
             base_part = url.split('*', 1)[0].rstrip('/')
             matched_base = None
 
-            # 1. 精确匹配
             if base_part in plain_pages_set:
                 matched_base = base_part
             else:
-                # 2. 查找以 base_part 为前缀的 plain_page（更具体路径）
                 candidates = [p for p in plain_pages_set if p.startswith(base_part) and p != base_part]
                 if candidates:
-                    # 选择路径最长的（最具体）
                     matched_base = max(candidates, key=len)
                 else:
-                    # 3. 回退到根域名匹配
                     parsed = urlparse(base_part)
                     root_url = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
                     if root_url in plain_pages_set:
@@ -545,12 +642,10 @@ class Crawler:
                     wildcard_map[matched_base] = []
                 wildcard_map[matched_base].append(regex)
             else:
-                # 无匹配，使用自身的 base
                 if base_part not in wildcard_map:
                     wildcard_map[base_part] = []
                 wildcard_map[base_part].append(regex)
 
-        # 将 plain_pages_set 转为列表
         plain_pages = list(plain_pages_set)
         return wildcard_map, direct_urls, plain_pages
 
@@ -598,7 +693,6 @@ class Crawler:
 
         soup = BeautifulSoup(html, 'html.parser')
 
-        # ========== 新增：从页面纯文本中提取所有符合通配符模式的 URL ==========
         if patterns:
             text = soup.get_text()
             url_regex = re.compile(r'https?://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
@@ -612,9 +706,7 @@ class Crawler:
                         if depth < MAX_DEPTH:
                             self.enqueue(url, depth + 1, patterns)
                         break
-        # ====================================================================
 
-        # 处理 a[href]
         for a in soup.find_all('a', href=True):
             href = a['href']
             full_url = safe_urljoin(base_url, href)
@@ -642,7 +734,6 @@ class Crawler:
                 if depth < MAX_DEPTH and full_url not in self.visited_urls:
                     self.enqueue(full_url, depth + 1, patterns)
 
-        # 从纯文本提取URL（跳过已匹配通配符的）
         text = soup.get_text()
         url_regex = re.compile(r'https?://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in url_regex.findall(text):
@@ -664,7 +755,6 @@ class Crawler:
                 if depth < MAX_DEPTH and url not in self.visited_urls:
                     self.enqueue(url, depth + 1, patterns)
 
-        # 提取直接节点链接
         node_link_regex = re.compile(r'(vmess|ss|trojan)://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in node_link_regex.findall(text):
             link = match.strip()
@@ -677,11 +767,9 @@ class Crawler:
     def crawl(self, source_lines):
         wildcard_map, direct_urls, plain_pages = self.process_sources(source_lines)
 
-        # 处理直接订阅
         for url in direct_urls:
             self.download_subscription(url)
 
-        # 处理普通网页（含配对逻辑）
         for url in plain_pages:
             patterns = wildcard_map.pop(url, None)
             if patterns:
@@ -689,13 +777,11 @@ class Crawler:
             else:
                 self.enqueue(url, 1, None)
 
-        # 处理剩余未配对的通配符（其base不在plain_pages中）
         for base_url, patterns in wildcard_map.items():
             self.enqueue(base_url, 1, patterns)
 
         print(f"📋 Initial queue size: {len(self.queue)}")
 
-        # 执行爬取队列
         while self.queue and self.request_count < MAX_REQUESTS:
             url, depth, patterns = self.queue.popleft()
             if url in self.visited_urls:
