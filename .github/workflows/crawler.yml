@@ -36,10 +36,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # 拉取远程最新变更（rebase 避免合并提交）
-          git pull --rebase origin master || echo "No remote changes or rebase failed"
+          git pull --rebase origin main   # ← 改这里
           # 添加文件
           git add crawclash.yaml crawsub.txt || echo "No files to add"
           # 如果有变更则提交
           git diff --staged --quiet || git commit -m "Update node configs $(date +'%Y-%m-%d %H:%M')"
           # 推送
-          git push origin master
+          git push origin main            # ← 改这里
