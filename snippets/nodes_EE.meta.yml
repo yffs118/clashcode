@@ -1,4 +1,17 @@
 proxies:
+- alterId: 1
+  cipher: auto
+  name: '爱沙尼亚 001 #1'
+  network: ws
+  port: 8080
+  server: 104.160.19.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -74,19 +87,6 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
-- alterId: 1
-  cipher: auto
-  name: 爱沙尼亚 001
-  network: ws
-  port: 8080
-  server: 104.160.19.22
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
 - name: 爱沙尼亚/Estonia
   network: ws
   port: 443
