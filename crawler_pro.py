@@ -340,11 +340,37 @@ def node_to_vmess_link(node):
     else:
         return node.get('raw', '')
 
-# ======================== 核心修改：nodes_to_clash_yaml ========================
+def is_node_valid(node):
+    """
+    检查节点是否包含 Clash 所必需的字段。
+    返回 True 表示有效，False 表示无效应丢弃。
+    """
+    node_type = node.get('type', '').lower()
+    if not node_type:
+        return False
+    # 只保留 Clash 支持的类型
+    if node_type not in ('vmess', 'ss', 'trojan', 'vless', 'http', 'socks5'):
+        return False
+    # 对于 VMess / VLESS，必须要有 uuid
+    if node_type in ('vmess', 'vless'):
+        uuid = node.get('id' if node_type == 'vmess' else 'uuid', '')
+        if not uuid or uuid.strip() == '':
+            return False
+    # Shadowsocks 必须有 method 和 password
+    if node_type == 'ss':
+        if not node.get('method') or not node.get('password'):
+            return False
+    # Trojan 必须有 password
+    if node_type == 'trojan':
+        if not node.get('password'):
+            return False
+    # 其他类型（http/socks5）暂不强制要求额外字段
+    return True
+
 def nodes_to_clash_yaml(nodes):
     """
     将节点列表转换为完整的 Clash 配置文件 YAML 字符串，
-    包含 proxies、proxy-groups 和 rules，确保可直接导入 Clash Verge。
+    仅包含有效节点，并生成 proxy-groups 和 rules。
     """
     if not nodes:
         return ""
@@ -353,9 +379,12 @@ def nodes_to_clash_yaml(nodes):
     node_names = []
 
     for idx, node in enumerate(nodes, start=1):
-        # 生成唯一且友好的名称
+        # 过滤无效节点
+        if not is_node_valid(node):
+            print(f"⚠️ 跳过无效节点: {node.get('add', 'unknown')} (type: {node.get('type', '')})")
+            continue
+
         name = f"🛡️ node-{idx}"
-        # 若名称可能重复（但 idx 保证了唯一性），直接使用
         node_names.append(name)
 
         proxy = {
@@ -368,7 +397,7 @@ def nodes_to_clash_yaml(nodes):
         if node.get('type') == 'vmess':
             proxy['uuid'] = node.get('id', '')
             proxy['alterId'] = int(node.get('aid', 0))
-            proxy['cipher'] = node.get('cipher', 'auto')          # 补默认值
+            proxy['cipher'] = node.get('cipher', 'auto')
             proxy['network'] = node.get('net', 'tcp')
             if node.get('tls'):
                 proxy['tls'] = True
@@ -378,6 +407,17 @@ def nodes_to_clash_yaml(nodes):
                 proxy['host'] = node.get('host')
             if node.get('path'):
                 proxy['path'] = node.get('path')
+
+        elif node.get('type') == 'vless':
+            # VLESS 需要 uuid
+            uuid = node.get('uuid') or node.get('id', '')
+            proxy['uuid'] = uuid
+            proxy['network'] = node.get('net', 'tcp')
+            if node.get('tls'):
+                proxy['tls'] = True
+            if node.get('sni'):
+                proxy['sni'] = node.get('sni')
+            # 可添加 flow、encryption 等，暂不处理
 
         elif node.get('type') == 'ss':
             proxy['cipher'] = node.get('method', '')
@@ -390,21 +430,23 @@ def nodes_to_clash_yaml(nodes):
             if node.get('allowInsecure') == '1':
                 proxy['skip-cert-verify'] = True
 
-        # 其他类型（如 socks5, http 等）暂不处理，但可保留
+        elif node.get('type') in ('http', 'socks5'):
+            # 对于 HTTP 和 SOCKS5，可能需要 username/password，但暂不处理
+            pass
+
         proxies.append(proxy)
 
-    # 如果所有节点都无效（理论上不会），返回空
     if not proxies:
+        print("⚠️ 没有有效节点，无法生成 Clash 配置")
         return ""
 
-    # 构造完整的 Clash 配置
     config = {
         'proxies': proxies,
         'proxy-groups': [
             {
                 'name': '🚀 选择代理',
                 'type': 'select',
-                'proxies': node_names   # 所有节点列表
+                'proxies': node_names
             }
         ],
         'rules': [
@@ -718,9 +760,12 @@ class Crawler:
             return
 
         clash_yaml = nodes_to_clash_yaml(valid_nodes)
-        with open(OUTPUT_YAML, 'w', encoding='utf-8') as f:
-            f.write(clash_yaml)
-        print(f"✅ Clash YAML written to {OUTPUT_YAML}")
+        if clash_yaml:
+            with open(OUTPUT_YAML, 'w', encoding='utf-8') as f:
+                f.write(clash_yaml)
+            print(f"✅ Clash YAML written to {OUTPUT_YAML}")
+        else:
+            print("❌ No valid nodes to write to Clash YAML")
 
         base64_str = nodes_to_base64(valid_nodes)
         with open(OUTPUT_TXT, 'w', encoding='utf-8') as f:
