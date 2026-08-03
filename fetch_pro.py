@@ -411,10 +411,13 @@ class Node:
             elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'security' and v == 'tls':
                 self.data['tls'] = True
+            # ========== [FIX] 仅当 pbk 非空时才设置 reality-opts ==========
             elif k == 'pbk':
-                if 'reality-opts' not in self.data:
-                    self.data['reality-opts'] = {}
-                self.data['reality-opts']['public-key'] = v
+                if v.strip():  # 确保公钥不为空
+                    if 'reality-opts' not in self.data:
+                        self.data['reality-opts'] = {}
+                    self.data['reality-opts']['public-key'] = v
+            # ==================================================================
             elif k == 'sid':
                 if 'reality-opts' not in self.data:
                     self.data['reality-opts'] = {}
@@ -656,7 +659,7 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 修复：增强 _url_vless 容错，处理缺失 uuid ======
+    # ====== 修复：增强 _url_vless 容错，处理缺失 uuid 和空公钥 ======
     def _url_vless(self, data: DATA_TYPE) -> str:
         # 如果 data 中没有 uuid，使用默认值
         uuid = data.get('uuid', DEFAULT_UUID)
@@ -672,7 +675,6 @@ class Node:
         if 'network' in data:
             if data['network'] == 'grpc':
                 ret += f"type=grpc&"
-                # 容错：检查 grpc-opts 是否存在
                 if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
                     ret += f"serviceName={data['grpc-opts']['grpc-service-name']}&"
             elif data['network'] == 'ws':
@@ -692,9 +694,16 @@ class Node:
             ret += f"fp={data['client-fingerprint']}&"
         if data.get('tls'):
             ret += f"security=tls&"
+        # ========== [FIX] 仅当 reality-opts 存在且公钥非空时才添加 ==========
         elif 'reality-opts' in data:
             opts: Dict[str, str] = data['reality-opts']
-            ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
+            pbk = opts.get('public-key', '').strip()
+            sid = opts.get('short-id', '').strip()
+            if pbk:  # 公钥有效才添加
+                ret += f"security=reality&pbk={pbk}&"
+                if sid:
+                    ret += f"sid={sid}&"
+        # =====================================================================
         ret = ret.rstrip('&')+'#'+name
         return ret
 
@@ -789,11 +798,19 @@ class Node:
         # 原代码无此段，现在为所有 REALITY 节点强制开启 TLS
         if 'reality-opts' in ret:
             ret['tls'] = True
+            # ========== [FIX] 清理公钥中的空白字符 ==========
+            pbk = ret['reality-opts'].get('public-key', '').strip()
+            if pbk:
+                ret['reality-opts']['public-key'] = pbk
+            else:
+                # 公钥为空则移除整个 reality-opts，避免 Clash 报错
+                del ret['reality-opts']
+                ret['tls'] = False  # 如果无公钥，不能开启 REALITY，也不能强制 TLS
         # ================================================
         
         return ret
 
-    # ====== 修复：在 supports_clash 中过滤无效类型和缺失密码的 SS ======
+    # ====== 修复：在 supports_clash 中过滤无效类型、缺失密码的 SS 及无效 REALITY 公钥 ======
     def supports_clash(self, meta=False) -> bool:
         # 过滤 type 为 none / 空 / None
         if self.type in ('none', '', None):
@@ -811,7 +828,15 @@ class Node:
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
         elif not meta: return False
-        else: return True
+        else: 
+            # ========== [FIX] 检查 REALITY 节点公钥有效性 ==========
+            if self.type == 'vless' and 'reality-opts' in self.data:
+                pbk = self.data['reality-opts'].get('public-key', '').strip()
+                if not pbk:  # 公钥为空则不支持
+                    return False
+                # 可选：检查公钥长度（Base64解码后应为32字节，但暂不强制）
+            # ========================================================
+            return True
         # Vmess / SS / SSR
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
             # A quick fix for #2
