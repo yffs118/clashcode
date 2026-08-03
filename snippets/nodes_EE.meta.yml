@@ -1,1 +1,53 @@
-proxies: []
+proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: est.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: 5.181.202.15
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_3
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: eston3.o4ka-internet.com
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api
+  name: 🇪🇪EE_5
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vyKm3CvZn8rUxSwWZ89buOc2bTMa18zfWmWMGHnYt18
+  server: 109.73.202.38
+  servername: es.node.ghostsyvpn.org
+  tls: true
+  type: vless
+  uuid: f58422ff-bb2e-4cce-a772-eff7db3ed343

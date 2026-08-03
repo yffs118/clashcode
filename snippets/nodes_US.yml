@@ -1,63 +1,252 @@
 proxies:
-- name: 美国|@ripaojiedian
+- name: 🇺🇸US_264
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.117
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: static.rutube.ru
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+- name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: fr.01.naiun.bilibili.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇺🇸 美国3|@ripaojiedian
+- name: 美国_84
+  password: '!!str 521314'
+  port: 443
+  server: 129.212.239.178
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇺🇸US_199
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.170
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'US美国 #8'
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_188
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸US_14
+  network: tcp
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.118
+  skip-cert-verify: true
+  sni: 64.94.95.118
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸_US_美国
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇺🇸US_203
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.9
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸 美国 CloudFlare节点 7
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国_22
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国_93
+  password: '!!str 521314'
+  port: 443
+  server: 128.199.82.20
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国_131
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇺🇸US_186
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸_US_美国->🇨🇭_CH_瑞士
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_330
+  password: MmU4N
+  port: 8388
+  server: 45.10.164.157
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国_132
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  sni: www.multiplydose.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-43
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 68.168.222.210
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'US美国 #23'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸US_104
+  network: tcp
+  password: 9ad83f65a560960e6509b677eb6162c1
+  port: 49271
+  server: 153.75.250.171
+  sni: 153.75.250.171.sslip.io
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 美国_128
+  password: '!!str 521314'
+  port: 443
+  server: 103.83.87.111
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇺🇸US_13
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.245.235.84
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇺🇸US_1
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'US美国 #42'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20120
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_204
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'US美国 #48'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  sni: oplosgru-c.catcat321.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸 美国 3
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇺🇸US_178
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸US_348
+  network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 35966
+  server: 43.198.98.22
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: US_speednode_0243
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+- name: 🇺🇸US_238
+  network: tcp
+  password: kkzh2prsyr2ik47as615
+  port: 57142
+  server: 64.94.95.115
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: 64.94.95.115
   type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: US_speednode_0262
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+- name: 美国_127
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.multiplydose.com
   type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: US_speednode_0277
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
+- cipher: aes-128-gcm
+  name: 🇺🇸US_221
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
