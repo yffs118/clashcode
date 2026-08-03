@@ -50,21 +50,6 @@ proxies:
   server: 146.19.49.251
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 比利时 003
-  network: ws
-  port: 80
-  server: 57.129.132.223
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    headers:
-      Host: google.com
-    path: /vmess/
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: 'GB_speednode_0033 #2'
@@ -124,23 +109,9 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇬🇧131872 | ⚡️Telegram = t.me/S...
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 212.38.189.174
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇬🇧131901 | ⚡️Telegram = t.me/S...
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 212.38.189.174
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: '🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧 #1'
+  name: 🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧
   network: tcp
   port: '2052'
   server: node-uk.connectsuite.org
@@ -151,7 +122,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: api
-  name: '🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧 #2'
+  name: '🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧 #1'
   network: grpc
   port: '2096'
   server: 57.128.174.124
@@ -198,6 +169,26 @@ proxies:
     headers:
       Host: panel.safeconfigmasoud.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 010
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 未知69 5.4MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 64
   cipher: auto
   name: 英国 012
@@ -542,6 +533,13 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.191
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-196
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305

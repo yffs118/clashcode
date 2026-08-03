@@ -170,28 +170,34 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵
-  network: ws
-  port: '80'
-  server: 172.111.146.64
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0259
-  port: 1233
-  server: 143.110.145.0
-  servername: p05.rghvf.sbs
+- name: 🇯🇵_日本_112
+  password: JT80563429
+  port: 443
+  server: champion-alien.rooster465.autos
   skip-cert-verify: true
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵_日本_113
+  password: JT80563429
+  port: 443
+  server: smart-pup.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵_日本_114
+  password: JT80563429
+  port: 443
+  server: champion-alien.rooster465.autos
+  skip-cert-verify: true
+  sni: champion-alien.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 澳大利亚 002
@@ -209,7 +215,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #2'
+  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #1'
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -679,6 +685,20 @@ proxies:
   uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
     path: /liksuzcp
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_9
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_2
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-0176 | 0.0MB
@@ -774,15 +794,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 JP 120 | ⬇️ 5MB/s
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40003
-  server: xunlinknode.csdjhajkshdjkas.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

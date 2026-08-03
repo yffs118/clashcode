@@ -143,18 +143,8 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 'KR_speednode_0070 #1'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.5MB/s
+  name: 🇰🇷KR_1|5.1MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -165,7 +155,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇰🇷KR_3|4.5MB/s
+  name: 🇰🇷KR_2|5.1MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -176,7 +166,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇰🇷KR_4|4.8MB/s
+  name: 🇰🇷KR_3|5.0MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -201,6 +191,16 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
+- name: 'KR_speednode_0070 #1'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 'KR_speednode_0071 #1'
   network: ws
@@ -216,72 +216,19 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: 🇰🇷_韩国_134
+- alterId: 0
+  cipher: auto
+  name: 韩国/首尔特别市/South Korea/Seoul
   network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: sni.ehb.cc.cd
+  port: 8443
+  server: 150.109.240.179
+  servername: www.bing.com
   skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  type: vmess
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
   ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇰🇷_韩国_135
-  network: ws
-  port: 443
-  server: 211.49.57.178
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇰🇷_韩国_138
-  network: ws
-  port: 28973
-  server: 218.155.85.44
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇰🇷_韩国_254
-  network: ws
-  port: 19222
-  server: 220.79.9.247
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 🇰🇷131759 | ⚡️Telegram = t.me/S...
-  port: 12209
-  server: 119.207.86.66
-  tls: true
-  type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+    path: /wsproxy
 - name: 韩国/South Korea-3
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -465,19 +412,6 @@ proxies:
   server: 221.139.79.57
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    path: /wsproxy
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul-2

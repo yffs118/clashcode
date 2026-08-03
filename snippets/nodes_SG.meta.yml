@@ -112,7 +112,9 @@ proxies:
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬 SG 009 | ⬇️ 13MB/s
@@ -125,16 +127,24 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|3.9MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇸🇬_新加坡_108
+  name: 🇸🇬_新加坡_108 - 417ms
   network: ws
   port: 36822
   server: sylva51.ceoiii.com
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
   ws-opts:
     headers:

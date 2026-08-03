@@ -85,78 +85,48 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: '未命名 #336'
-  port: 8082
-  server: 193.108.52.99
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-747'
-  port: 8082
-  server: 195.15.213.198
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-750'
-  port: 8082
-  server: 195.15.213.66
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-755'
-  port: 8082
-  server: 83.228.197.143
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '未命名 #394'
-  port: 443
-  server: 184.tradeip.store
-  tls: false
-  type: vless
-  uuid: ca0db082-9714-4de3-8184-0c1c9960743d
-- client-fingerprint: chrome
-  name: 🇨🇭_瑞士_188
-  network: ws
-  port: 443
-  server: 194.147.173.116
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇨🇭_瑞士_192
-  network: ws
-  port: 443
-  server: 194.147.173.117
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 🇨🇭@FreakConfig
+- name: 🇨🇭@V2rayng_Fast
   password: UKGgxZwI4G
   port: 443
   server: 179.237.75.217
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇨🇭@FreakConfig #1'
+- name: '🇨🇭@V2rayng_Fast #1'
   password: xITFB2PCsp
   port: 2095
   server: 179.237.75.217
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇭131798 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 184.tradeip.store
+  tls: false
+  type: vless
+  uuid: 995381aa-7249-41ae-b0b2-8a5c34e952c9
+- name: 🇨🇭131957 | ⚡️Telegram = t.me/L...
+  port: 8082
+  server: 193.108.52.52
+  tls: false
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- name: 🇨🇭131960 | ⚡️Telegram = t.me/L...
+  port: 8082
+  server: 193.108.52.99
+  tls: false
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- name: 🇨🇭131799 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 184.tradeip.store
+  tls: false
+  type: vless
+  uuid: b655d952-b8d5-4d2b-b9df-460025e7968c
+- name: 🇨🇭131905 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 184.tradeip.store
+  tls: false
+  type: vless
+  uuid: ca0db082-9714-4de3-8184-0c1c9960743d
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -224,6 +194,16 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
+- name: 瑞士 004
+  network: tcp
+  port: 2551
+  server: 178.83.157.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - name: 瑞士 005
   network: tcp
   port: 12596

@@ -44,6 +44,15 @@ proxies:
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 004
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 俄罗斯 005
   network: ws
   port: 852

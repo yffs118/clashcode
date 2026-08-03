@@ -312,8 +312,24 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.2MB/s
+  name: 🇯🇵JP_1|3.3MB/s
+  network: tcp
+  port: '29855'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|2.9MB/s
   network: tcp
   port: '39409'
   reality-opts:
@@ -353,17 +369,6 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵
-  network: ws
-  port: '80'
-  server: 172.111.146.64
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    path: /vmess/
 - client-fingerprint: chrome
   name: 'JP_speednode_0067 #1'
   network: ws
@@ -394,107 +399,34 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0259
-  port: 1233
-  server: 143.110.145.0
-  servername: p05.rghvf.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_106
-  network: ws
-  port: 43484
-  server: 210.236.228.126
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_127
-  network: ws
+- name: 🇯🇵_日本_112
+  password: JT80563429
   port: 443
-  server: 45.95.212.117
-  servername: sni.ehb.cc.cd
+  server: champion-alien.rooster465.autos
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_129
-  network: ws
-  port: 18443
-  server: 92.113.124.204
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_137
-  network: ws
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵_日本_113
+  password: JT80563429
   port: 443
-  server: 138.2.5.136
-  servername: sni.ehb.cc.cd
+  server: smart-pup.rooster465.autos
   skip-cert-verify: true
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_141
-  network: ws
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵_日本_114
+  password: JT80563429
   port: 443
-  server: 35.75.183.41
-  servername: sni.ehb.cc.cd
+  server: champion-alien.rooster465.autos
   skip-cert-verify: true
+  sni: champion-alien.rooster465.autos
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 🇯🇵_日本_207
-  network: ws
-  port: 443
-  server: 52.197.217.169
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 澳大利亚 002
@@ -512,7 +444,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #2'
+  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #1'
   network: ws
   port: '80'
   server: 168.138.43.75
@@ -1012,6 +944,20 @@ proxies:
   uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
     path: /liksuzcp
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_9
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_2
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-0176 | 0.0MB
@@ -1107,15 +1053,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 JP 120 | ⬇️ 5MB/s
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40003
-  server: xunlinknode.csdjhajkshdjkas.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
