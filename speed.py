@@ -12,9 +12,9 @@ import concurrent.futures
 from typing import List, Dict, Any, Optional
 
 # 测试超时（秒）
-CONNECT_TIMEOUT = 3
+CONNECT_TIMEOUT = 2
 # 并发线程数
-MAX_WORKERS = 10
+MAX_WORKERS = 15
 
 def test_proxy(proxy: Dict[str, Any]) -> bool:
     """
