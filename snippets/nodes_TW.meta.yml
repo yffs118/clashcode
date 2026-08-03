@@ -1,4 +1,13 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇹🇼_TW_中国台湾 - 212ms
@@ -41,13 +50,6 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-13
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
@@ -176,13 +178,4 @@ proxies:
   port: 50099
   server: 61.231.49.125
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #148'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888

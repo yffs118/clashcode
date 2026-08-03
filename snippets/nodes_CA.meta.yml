@@ -1,4 +1,112 @@
 proxies:
+- name: 'Node #54'
+  network: ws
+  port: 80
+  server: 151.101.124.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #21'
+  network: ws
+  port: 80
+  server: 151.101.127.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #57'
+  network: ws
+  port: 80
+  server: 151.101.139.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #253'
+  network: xhttp
+  port: 8880
+  server: 198.41.207.201
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #245'
+  network: xhttp
+  port: 8880
+  server: 108.162.195.19
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- client-fingerprint: chrome
+  name: 'Node #111'
+  network: ws
+  port: 443
+  server: 162.159.8.42
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 'Node #122'
+  network: ws
+  port: 8880
+  server: 130.250.137.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
 - name: 加拿大(免费节点)_1
   network: ws
   port: 443
@@ -390,6 +498,14 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/W3Ei3SdcW9sRVMLIbEd8sB1lm?ed=2560
+- name: 🇨🇦132228 | ⚡️Telegram = t.me/S...
+  password: Telegram_healer_config
+  port: 443
+  server: 172.67.132.19
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560
 - name: 🇨🇦132146 | ⚡️Telegram = t.me/S...
   password: humanity
   port: 443
@@ -414,14 +530,12 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇨🇦132266 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦132283 | ⚡️Telegram = t.me/S...
   port: 443
-  server: 104.16.2.189
+  server: 104.16.72.101
   tls: false
   type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    path: /
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
 - name: 🇨🇦132268 | ⚡️Telegram = t.me/S...
   port: 8443
   server: 104.18.42.68
@@ -430,14 +544,22 @@ proxies:
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     path: /fdip
-- name: 🇨🇦132267 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦132288 | ⚡️Telegram = t.me/L...
   port: 443
-  server: cf.090227.xyz
+  server: cmcc.877774.xyz
   tls: false
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     path: /fdip
+- name: 🇨🇦132295 | ⚡️Telegram = t.me/L...
+  port: 8443
+  server: ad-007.cloud25075.info
+  tls: false
+  type: vless
+  uuid: 2e8beadd-99bf-4fda-8692-8493886504bc
+  ws-opts:
+    path: /
 - name: 🇨🇦132213 | ⚡️Telegram = t.me/S...
   port: 27775
   server: 3.99.246.7
@@ -456,24 +578,14 @@ proxies:
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦132118 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 172.67.171.43
-  tls: true
+- name: 🇨🇦132289 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: www.speedtest.net
+  tls: false
   type: vless
-  uuid: 66008c21-6718-4a03-b7e6-002d3754ca8b
-- name: 🇨🇦132117 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 172.66.44.148
-  tls: true
-  type: vless
-  uuid: 722c66e2-bce4-46d2-a2f9-cb04e3bed034
-- name: 🇨🇦132113 | ⚡️Telegram = t.me/S...
-  port: 8443
-  server: 172.67.186.100
-  tls: true
-  type: vless
-  uuid: 7c984b80-0627-4a74-b04a-3d5b81acb128
+  uuid: 4db7e0f4-7db2-4270-8702-968c95c2ac30
+  ws-opts:
+    path: /wp-admin/index.html
 - name: 🇨🇦132250 | ⚡️Telegram = t.me/S...
   port: 2087
   server: 172.67.66.177
@@ -492,32 +604,6 @@ proxies:
   tls: true
   type: vless
   uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
-- alterId: 0
-  cipher: auto
-  name: 美国 080
-  network: ws
-  port: 443
-  server: 104.21.95.165
-  servername: sareikela.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sareikela.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 美国 113
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - name: 🇨🇦CA_51
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -1076,6 +1162,13 @@ proxies:
   type: vless
   udp: true
   uuid: 900ca7c5-6c69-4536-b0f8-efa4e3976016
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_110
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.118.10
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知20
@@ -1499,6 +1592,13 @@ proxies:
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA_8
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 185.196.61.82
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇦CA_53
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z

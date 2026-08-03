@@ -1,4 +1,126 @@
 proxies:
+- client-fingerprint: qq
+  http-opts:
+    headers:
+      Host:
+      - wx-deu-037.cdnphotos.org
+    path:
+    - /api/v1/
+  name: 'DE德国(mibei77.com 米贝节点分享)_8 #2'
+  network: http
+  port: 443
+  server: wx-deu-037.cdnphotos.org
+  servername: wx-deu-037.cdnphotos.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77930005-ea92-44dc-9d94-e9192427f519
+- client-fingerprint: chrome
+  name: '🇩🇪_DE_德国 #9'
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- name: 'AE_speednode_0002 #1'
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- http-opts:
+    headers:
+      Host:
+      - xvh.andishehparenting.com
+    path:
+    - /
+  name: DE德国
+  network: xhttp
+  port: 2086
+  server: 217.163.76.118
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
+  ws-opts:
+    headers:
+      Host: xvh.andishehparenting.com
+    path: /
+- client-fingerprint: firefox
+  name: 'AE_speednode_0001 #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 'RU俄罗斯 #3'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 46.8.220.182
+  servername: media2.tcpdoor.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 'DE德国 #5'
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'DE德国 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jvzqpB_v8XMJum2W4Q_-f1fbDcujHW2OcnH-6wxj6Bg
+    short-id: '!!str b512d49930874a31'
+  server: 77.239.120.226
+  servername: cdn-de-2.ai-apiroute.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -15,18 +137,6 @@ proxies:
   type: vless
   udp: true
   uuid: ce5b6383-60f2-4aa3-9099-eacb6b01cf2b
-- client-fingerprint: firefox
-  name: 'AE_speednode_0001 #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
   name: '🇩🇪_DE_德国 #10'
   network: ws
@@ -57,21 +167,6 @@ proxies:
   type: vless
   udp: true
   uuid: 48267e65-8bf0-4046-923f-4ee967009344
-- client-fingerprint: chrome
-  name: '🇩🇪_DE_德国 #9'
-  network: ws
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -104,31 +199,71 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- name: 'AE_speednode_0002 #1'
-  network: tcp
-  packet-encoding: ''
+- name: 德國丨yoyapai.com
+  network: ws
+  port: 80
+  server: 91.206.71.8
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  ws-opts:
+    headers:
+      Host: round-haze-8783.294.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  name: 🇦🇪_阿拉伯联合酋长国_124
   port: 443
-  server: ddc-akn.astralweb.tech
+  server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 🇺🇸 美国
+- name: 'Node #103'
   network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
+  port: 8880
+  server: 77.37.33.50
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
+      Host: vms.lifetime57.workers.dev
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou789.top 玉豆免费节点)
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'Node #22'
+  network: tcp
+  port: 8443
+  server: 95.133.245.213
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 'Node #119'
+  network: tcp
+  port: 8443
+  server: 95.133.245.212
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - client-fingerprint: qq
   name: 德国_1
   network: xhttp
@@ -223,59 +358,6 @@ proxies:
     headers:
       Host: www.cloudflare.com
     path: /
-- http-opts:
-    headers:
-      Host:
-      - xvh.andishehparenting.com
-    path:
-    - /
-  name: DE德国
-  network: xhttp
-  port: 2086
-  server: 217.163.76.118
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
-  ws-opts:
-    headers:
-      Host: xvh.andishehparenting.com
-    path: /
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 'DE德国 #5'
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: qq
-  http-opts:
-    headers:
-      Host:
-      - wx-deu-037.cdnphotos.org
-    path:
-    - /api/v1/
-  name: DE德国(mibei77.com 米贝节点分享)_8
-  network: http
-  port: 443
-  server: wx-deu-037.cdnphotos.org
-  servername: wx-deu-037.cdnphotos.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77930005-ea92-44dc-9d94-e9192427f519
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -408,21 +490,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0108c657-a9bd-4c99-9179-74050cf78889
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'DE德国 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jvzqpB_v8XMJum2W4Q_-f1fbDcujHW2OcnH-6wxj6Bg
-    short-id: '!!str b512d49930874a31'
-  server: 77.239.120.226
-  servername: cdn-de-2.ai-apiroute.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
 - client-fingerprint: chrome
   name: 🇩🇪DE_255
   network: ws
@@ -454,35 +521,6 @@ proxies:
     headers:
       Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
     path: /@Marisa_kristi
-- name: '🇩🇪_DE_德国->🇹🇭_TH_泰国 #3'
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d3gxy6d0a9fs18.cloudfront.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ff485c50-b364-4b4f-90be-ea576b949dd3
-  ws-opts:
-    headers:
-      Host: d3gxy6d0a9fs18.cloudfront.net
-    path: /fnetvpn2026
-- client-fingerprint: chrome
-  name: 'Node #18'
-  network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 美国 1363
   network: tcp
   port: 2553
@@ -493,44 +531,18 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: Germany 🇩🇪
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: DE_2|1.2MB/s
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪132162 | ⚡️Telegram = t.me/S...
   port: 2044
   server: blog.fizikade.ir
   tls: false
   type: vless
   uuid: 07ee1745-9248-41f8-9706-6168527c4b2e
-- name: 🇩🇪 Germany Nuremberg | ⏱313ms ...
-  network: ws
-  port: 2086
-  server: p01.parsi.sbs
+- name: 🇩🇪132291 | ⚡️Telegram = t.me/L...
+  port: 8090
+  server: s7.cnavippanel-tech-ips.xyz
   tls: false
   type: vless
-  uuid: 1ee1f28d-4975-4d7c-95c7-76172c20eed5
-- name: 德国 072
-  network: tcp
-  port: 51822
-  server: 5.75.201.77
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
+  uuid: 4ca31b44-9188-4cc7-adc6-f940888e5282
 - name: 🇩🇪132122 | ⚡️Telegram = t.me/S...
   network: tcp
   port: 18319
@@ -608,28 +620,24 @@ proxies:
   tls: false
   type: vless
   uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- name: 🇩🇪132114 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 25619
-  server: 164.92.206.40
+- name: 🇩🇪132215 | ⚡️Telegram = t.me/L...
+  port: 33819
+  server: 91.107.160.130
   tls: false
   type: vless
-  uuid: 9432b345-529f-4236-b0b8-4b57aece9a82
-- name: 🇩🇪DE_45
-  network: tcp
-  port: 39200
-  server: 94.143.231.53
+  uuid: 73eed38e-09ea-4c07-aa95-c53684400d68
+- name: '🇩🇪 t.me/Natrixo AA #7'
+  port: 443
+  server: 162.159.38.119
   tls: false
   type: vless
-  uuid: 9e1b3859-634f-4dc9-8f59-848a1216f47c
-  ws-opts:
-    path: /
-- name: filembad-335
-  port: 8443
-  server: 91.107.167.7
+  uuid: 862619ff-2139-45fd-8413-af83f98e2880
+- name: 🇩🇪132230 | ⚡️Telegram = t.me/S...
+  port: 2083
+  server: 85.234.69.159
   tls: false
   type: vless
-  uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0
+  uuid: 862619ff-2139-45fd-8413-af83f98e2880
 - name: 🇩🇪132126 | ⚡️Telegram = t.me/S...
   network: tcp
   port: 38476
@@ -644,41 +652,14 @@ proxies:
   tls: false
   type: vless
   uuid: ce8a5060-f085-4184-9923-1bda47df105a
-- name: 🇩🇪 Germany Limburg an der Lahn...
+- name: '🇩🇪 Germany Frankfurt am Main |... #1'
   port: 443
-  server: 173.245.59.1
+  server: 104.26.14.85
   tls: false
   type: vless
   uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
-    path: /GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
-- name: 🇩🇪132115 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 23519
-  server: 206.81.21.46
-  tls: false
-  type: vless
-  uuid: d1e3c253-7d5e-4bd5-9f16-52787a63bb65
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_122
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY
-    short-id: '!!str 6c6082a2223c1d03'
-  server: 5.181.21.234
-  servername: fl4.raketa-balance.com
-  tls: true
-  type: vless
-  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- name: 🇩🇪132110 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 22721
-  server: 104.248.130.125
-  tls: false
-  type: vless
-  uuid: e10fe1ba-e2af-4d34-94b7-05dfa9f71232
+    path: /GOrbEh
 - name: 🇩🇪132124 | ⚡️Telegram = t.me/S...
   network: tcp
   port: 22721
@@ -686,30 +667,6 @@ proxies:
   tls: false
   type: vless
   uuid: e10fe1ba-e2af-4d34-94b7-05dfa9f71232
-- name: ⭐️ 🇩🇪 t.me/Natrixo AA
-  port: 22222
-  server: 3.125.59.35
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '⭐️ 🇩🇪 t.me/Natrixo AA #1'
-  port: 22224
-  server: 3.125.59.35
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇩🇪132099 | ⚡️Telegram = t.me/S...
-  port: 22223
-  server: 3.126.109.238
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 'Germany 🇩🇪 #2'
-  port: 50
-  server: 194.77.220.189
-  tls: false
-  type: vless
-  uuid: f93faba2-e1eb-44ad-8822-c104135f6ae4
 - name: 🇩🇪132120 | ⚡️Telegram = t.me/S...
   network: tcp
   port: 54034
@@ -1643,6 +1600,16 @@ proxies:
   type: vless
   udp: true
   uuid: 179ddf63-c263-40ff-98a1-f53708573059
+- name: 德国 072
+  network: tcp
+  port: 51822
+  server: 5.75.201.77
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
 - name: 德国 073
   network: tcp
   port: 41015
@@ -1693,6 +1660,16 @@ proxies:
   type: vless
   udp: true
   uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
+- name: 德国 079
+  network: tcp
+  port: 33184
+  server: 116.202.13.37
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b2cdd53-cb18-4028-9d7f-894be0f5f82d
 - name: 德国 080
   network: tcp
   port: 1234
@@ -1873,20 +1850,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7d8584e3-410b-4667-a9b3-9a6465d4f999
-- name: '未知 VLESS-588 #1'
-  network: tcp
-  port: 1234
-  server: 159.69.192.171
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7ff55eb0-eff4-4d71-ad1c-e6fe1a6c68d9
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
 - name: 德国 097
   network: tcp
   port: 1001
@@ -2002,26 +1965,6 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 109
-  network: tcp
-  port: 22223
-  server: 3.124.132.221
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 110
-  network: tcp
-  port: 22224
-  server: 3.124.132.221
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 德国 111
   network: tcp
   port: 47677
@@ -2074,19 +2017,6 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_39
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc
-    short-id: '!!str d8d3dc6c3ca45dd4'
-  server: 159.195.22.155
-  servername: 2.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇦🇹AT_8
@@ -2399,6 +2329,15 @@ proxies:
     headers:
       Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
     path: /@Marisa_kristi
+- name: 🇩🇪DE_45
+  network: tcp
+  port: 39200
+  server: 94.143.231.53
+  tls: false
+  type: vless
+  uuid: 9e1b3859-634f-4dc9-8f59-848a1216f47c
+  ws-opts:
+    path: /
 - client-fingerprint: chrome
   name: 🇩🇪DE_29
   network: ws
@@ -2490,19 +2429,6 @@ proxies:
     headers:
       Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_64
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.148
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
   name: 🇩🇪DE_87
   network: ws
@@ -2633,6 +2559,19 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_40
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
+    short-id: '!!str 04bc695105689674'
+  server: 159.195.46.178
+  servername: 4.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h3
   - h2
@@ -2661,6 +2600,19 @@ proxies:
   tls: true
   type: vless
   uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
+    short-id: '!!str 28415a7918168947'
+  server: 159.195.27.99
+  servername: 1.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - http/1.1
   name: 🇩🇪DE_142
@@ -2715,17 +2667,6 @@ proxies:
     headers:
       Host: wizardali.global.ssl.fastly.net
     path: /mammadalifsx
-- name: 🇩🇪DE_209
-  network: tcp
-  port: 1234
-  server: 62.238.63.51
-  tls: false
-  type: vless
-  uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪DE_178
@@ -2888,19 +2829,6 @@ proxies:
     headers:
       Host: ad-005.clouduhtpv.info
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_31
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM
-    short-id: '!!str 273940fba6ad8250'
-  server: 159.195.44.159
-  servername: 5.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h3h2http/1.1
   client-fingerprint: ios
@@ -3148,6 +3076,13 @@ proxies:
     headers:
       Host: sun6-21.userapi.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_1
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇩🇪DE_143
   network: ws
@@ -3245,6 +3180,13 @@ proxies:
   tls: true
   type: vless
   uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_58
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪DE_236
   network: tcp
   port: 17460
@@ -3561,6 +3503,19 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_49
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng
+    short-id: '!!str 08'
+  server: 77.73.131.154
+  servername: vindobona.org
+  tls: true
+  type: vless
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
 - client-fingerprint: chrome
   name: 🇩🇪DE_33
   network: ws

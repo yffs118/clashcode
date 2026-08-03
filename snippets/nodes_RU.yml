@@ -1,45 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 018
+  network: ws
+  port: 443
+  server: renderer-stream-1-411.mirra.now
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
 - cipher: aes-256-gcm
-  name: Saint-Petersburg🇷🇺
-  password: M09jM0daTkx1cEtwWUNBMjd0Q1lGdlFrampmWTZsemwxazVsT1FQcHgzdmU0dmJ1bUJGT3hpa2ZqMFBkejNwVw==
-  port: 58153
-  server: 94.198.219.24
+  name: 🇷🇺 RU俄羅斯丨yoyapai.com
+  password: 7e1dd4c55bf85da5
+  port: 30129
+  server: 212.192.13.91
+  skip-cert-verify: true
   type: ss
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: St.Peterburg🇷🇺
-  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
-  port: 45855
-  server: 94.198.219.24
+  name: 🇷🇺_RU俄羅斯丨yoyapai.com
+  password: 895b4b796a357570
+  port: 10910
+  server: 176.32.35.51
+  skip-cert-verify: true
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: Petersburg🇷🇺
-  password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
-  port: 38211
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: russia🇷🇺
-  password: TGJRaTVCa0RLZGJvQ2ljNldvZVI0aWpseFJ6YnhpcEFkN3VlcUdLWUxvQ25oa01nM0RNWHUzWTVWNGlINTd4bA==
-  port: 40041
-  server: 201.24.117.26
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: Peterburg🇷🇺
-  password: aE1wMkZmT1pEWnNodzJRNU93VnJ4Uk8xcmQ5MWlvc3RvRk1Sb3diV0xodlVtUXJHa3o4UDZUamVlVE9OTE9SWA==
-  port: 25530
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: RU, Peterburg🇷🇺
-  password: dmJ3Y0I4cEMxamRWbVR5RTN1Yk44S3RIOVVteThoNDJaem5XWEVNeEhyQ3kyRWdRanRtWU5jZE1UNW5HZHVNNw==
-  port: 29556
-  server: 94.198.219.24
-  type: ss
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
@@ -260,19 +251,6 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 018
-  network: ws
-  port: 443
-  server: renderer-stream-1-411.mirra.now
-  skip-cert-verify: true
-  type: vmess
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  ws-opts:
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-    path: /api/v1/gpu-stream/socket
-- alterId: 0
-  cipher: auto
   name: 俄罗斯 019
   network: ws
   port: 2082
@@ -349,6 +327,13 @@ proxies:
   password: LYNXLjIXeqmedkee0tX2GI
   port: 10792
   server: 130.49.189.158
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_22
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 俄罗斯联邦/Russia-2

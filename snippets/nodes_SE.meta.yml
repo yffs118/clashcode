@@ -1,5 +1,86 @@
 proxies:
 - client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 瑞典
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
+    short-id: '!!str c1a3b5d7e9f02468'
+  server: 162.248.163.237
+  servername: sw.tunnelx.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: chrome
+  name: 'Node #25'
+  network: tcp
+  port: 8443
+  server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: 'Node #5'
+  network: tcp
+  port: 8443
+  server: 79.127.249.221
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 'Node #3'
+  network: tcp
+  port: 8443
+  server: 45.159.12.4
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 'Node #68'
+  network: tcp
+  port: 8443
+  server: 45.159.12.18
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 'Node #97'
+  network: tcp
+  port: 8443
+  server: 45.159.12.15
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 'Node #29'
+  network: ws
+  port: 80
+  server: 151.101.84.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   name: 🇱🇰LK_1
@@ -36,26 +117,6 @@ proxies:
   type: vless
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '未知 VLESS-394 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q
-    short-id: '!!str 496ee75c2f91f51d'
-  server: 185.189.45.159
-  servername: sw1-chr.astralweb.tech
-  tls: true
-  type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- name: 🇸🇪132116 | ⚡️Telegram = t.me/S...
-  network: ws
-  port: 8080
-  server: 185.146.173.58
-  tls: false
-  type: vless
-  uuid: 7810fc1e-44e6-4e3d-8494-908aa1a8427d
 - alterId: 0
   cipher: none
   name: 瑞典 001
@@ -93,6 +154,20 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 瑞典 004
+  network: ws
+  port: 80
+  server: 5.249.160.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
+  ws-opts:
+    headers:
+      Host: 5.249.160.226
+    path: /vmess
 - alterId: 1
   cipher: auto
   name: 瑞典 005
@@ -483,19 +558,6 @@ proxies:
   type: vless
   uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 瑞典
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
-    short-id: '!!str c1a3b5d7e9f02468'
-  server: 162.248.163.237
-  servername: sw.tunnelx.space
-  tls: true
-  type: vless
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: firefox
   name: 🇸🇪SE_41
   network: xhttp
   port: 443
@@ -572,32 +634,6 @@ proxies:
   tls: true
   type: vless
   uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
-- client-fingerprint: ios
-  name: 未知 VLESS-552
-  network: tcp
-  port: 1000
-  reality-opts:
-    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-    short-id: '!!str a62d513cd709744a'
-  server: teain.org
-  servername: knox.cdn-apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_9
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: Xx3r5KsSKa1I8O3avmwMbgXOWj_-MqiqzTO_7BzBxyU
-    short-id: '!!str 58c5b3ee013bdc8f'
-  server: 62.60.231.42
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: f7e0e597-636e-4550-9f54-6ab1c0e8cf49
 - client-fingerprint: firefox
   name: 🇸🇪SE_16
   network: xhttp

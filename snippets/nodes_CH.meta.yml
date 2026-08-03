@@ -28,36 +28,71 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: '未命名 #273'
+- client-fingerprint: chrome
+  name: 'Node #63'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
+    short-id: '!!str accd8c'
+  server: 83.228.235.106
+  servername: varzesh3.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.219
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #2'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.119
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.109
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- name: '未命名 #146'
   port: 2053
   server: dl12sw.cdn-ir-prime.shop
   tls: false
   type: vless
   uuid: 8f520d81-24bd-44d6-9a2e-5c17270f1858
-- name: '[OpenRay] 🇨🇭 CH-746'
-  port: 8082
-  server: 193.108.52.99
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-747'
-  port: 8082
-  server: 195.15.213.198
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-750'
-  port: 8082
-  server: 195.15.213.66
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- name: '[OpenRay] 🇨🇭 CH-755'
-  port: 8082
-  server: 83.228.197.143
-  tls: false
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -414,19 +449,6 @@ proxies:
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.219
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
   name: '未知 VLESS-743 #1'
@@ -452,19 +474,6 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.109
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -558,19 +567,6 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #2'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.119
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
