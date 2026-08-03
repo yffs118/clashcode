@@ -81,29 +81,6 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇱🇰LK_1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
-    short-id: '!!str 7bcfc0bc'
-  server: 87.120.196.68
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪_SE_瑞典 - 107ms
-  network: tcp
-  port: 443
-  server: 82.29.43.42
-  tls: true
-  type: vless
-  uuid: 635a1c4e-122b-45f5-8339-03bce6039739
-- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪_瑞典_46
   port: 443

@@ -1,18 +1,4 @@
 proxies:
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_6
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: eston3.o4ka-internet.com
-  servername: eston3.o4ka-internet.com
-  tls: true
-  type: vless
-  uuid: a03df445-0666-4d61-acde-9705009e409c
 - alterId: 1
   cipher: auto
   name: 爱沙尼亚 001
@@ -78,6 +64,19 @@ proxies:
     public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
     short-id: '!!str 5629431325884ff0'
   server: 5.181.202.15
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: eston3.o4ka-internet.com
   servername: eston3.o4ka-internet.com
   tls: true
   type: vless

@@ -84,19 +84,6 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 新加坡(yudou789.top 玉豆免费节点)
-  network: ws
-  port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
 - alterId: 0
   name: 🇸🇬SG新加坡2
   network: tcp
@@ -153,7 +140,7 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.8MB/s - 228ms
+  name: 🇸🇬SG_3|3.8MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -163,7 +150,7 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.3MB/s - 244ms
+  name: 🇸🇬SG_4|4.3MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -171,51 +158,6 @@ proxies:
   skip-cert-verify: true
   sni: tidy-gelding.rooster465.autos
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡 - 198ms
-  password: IQ68037294
-  port: 443
-  server: apt-midge.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_1 - 322ms
-  password: IQ68037294
-  port: 443
-  server: meet-doe.rooster465.autos
-  skip-cert-verify: true
-  sni: meet-doe.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_2 - 170ms
-  password: IQ68037294
-  port: 443
-  server: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_3 - 167ms
-  password: FC60532879
-  port: 443
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: true
-  sni: helpful-possum.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_5 - 170ms
-  password: IQ68037294
-  port: 443
-  server: fun-salmon.rooster465.autos
-  skip-cert-verify: true
-  sni: fun-salmon.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬_SG_新加坡 - 398ms
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.049.node-for-bigairport.win
-  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬132252 | ⚡️Telegram = t.me/S...
   port: 443
@@ -724,6 +666,19 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇸🇬SG_48
+  network: ws
+  port: 8443
+  server: 170.114.46.6
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
 - name: 🇸🇬SG_3
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443

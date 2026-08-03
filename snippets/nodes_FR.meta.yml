@@ -119,10 +119,8 @@ proxies:
       Host: ld.223350.xyz
     path: /
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
-  name: '🇫🇷_FR_法国 #4'
-  network: tcp
+  name: '🇫🇷_FR_法国 #5'
   port: 43248
   reality-opts:
     public-key: LPLKpq5_G1WB6BqJhrCKQp1oQly3akbsVjvYPZrbGgg
@@ -427,30 +425,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: '未命名 #1'
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_FR_法国 - 93ms
-  password: JT80563429
-  port: 443
-  server: musical-shrew.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  flow: ''
-  name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰 - 92ms
-  network: ws
-  port: 80
-  server: 199.232.170.177
-  tls: false
-  type: vless
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
 - name: 'FR_speednode_0006 #1'
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
@@ -1170,7 +1144,7 @@ proxies:
   type: vless
   uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #3'
+  name: '🇫🇷_FR_法国 #4'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
@@ -3242,23 +3216,6 @@ proxies:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt?ed=2560
 - alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR_595
-  network: ws
-  port: 443
-  server: time.is
-  servername: azadnet-826.pages.Dev
-  tls: true
-  type: vless
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  ws-opts:
-    headers:
-      Host: azadnet-826.pages.Dev
-    path: /
-- alpn:
   - http/1.1
   client-fingerprint: chrome
   name: 🇫🇷FR_477
@@ -4366,19 +4323,6 @@ proxies:
       Host: autumn-base-0eb9.116-d25.workers.dev
     path: /pyip=ProxyIP.JP.autumniussss.net
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1224
-  network: ws
-  port: 443
-  server: 190.93.246.202
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
   name: 🇫🇷FR_145
   network: ws
   port: 443
@@ -4779,7 +4723,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/BxxNmAniNAjdpMwbN13Qhd0jH8
-- name: '🇺🇸 美国 CloudFlare节点 6 #4'
+- name: '🇺🇸 美国 CloudFlare节点 6 #1'
   network: ws
   port: 8880
   server: www.glassdoor.com
@@ -6216,6 +6160,19 @@ proxies:
     headers:
       Host: maSterserVeR1-VSH.KaLlEH.WORkERs.DEV
     path: /eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1335
+  network: ws
+  port: 2087
+  server: 172.64.147.104
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - alpn:
   - h2
   - http/1.1

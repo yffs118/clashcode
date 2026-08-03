@@ -1,11 +1,9 @@
 proxies:
-- alpn:
-  - http%2F1.1%2Ch2%2Ch3
-  name: '🇺🇸 美国 CloudFlare节点 #2'
+- name: '🇺🇸 美国 CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
+  server: 104.17.111.3
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -14,7 +12,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 4 #2'
+- name: '🇺🇸 美国 CloudFlare节点 5 #2'
   network: ws
   password: humanity
   port: 443
@@ -29,7 +27,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_1 #3'
+  name: '🇺🇸_US_美国_1 #4'
   port: 443
   server: guanwang.awsno.com
   skip-cert-verify: true
@@ -53,7 +51,7 @@ proxies:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
 - cipher: chacha20-ietf-poly1305
-  name: 美国(yudou789.top 玉豆免费节点)_54
+  name: 美國丨yoyapai.com_24
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
@@ -63,31 +61,31 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_56
+  name: 美國節點
   port: 180
   server: 82.198.246.97
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 日本(yudou789.top 玉豆免费节点)
+  name: 美国 加利福尼亚州圣何塞
   port: 56738
   server: 103.127.243.59
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
   cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_10
+  name: 美國
   network: ws
   port: 24202
   server: 2a02:6ea0:d32f::f8fe:349b
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -109,7 +107,7 @@ proxies:
       Host: hhcm.hhxaf.cc.cd
     path: /
 - cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_51
+  name: 🇺🇸US美國丨yoyapai.com_7
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
@@ -133,11 +131,11 @@ proxies:
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
     path: /de
-- name: 美国(yudou789.top 玉豆免费节点)_14
+- name: 美國丨yoyapai.com_25
   password: humanity
   port: 443
   server: www.ignitelimit.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
@@ -206,19 +204,17 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: 美国(yudou789.top 玉豆免费节点)_11
+- name: 'FR法国(mibei77.com 米贝节点分享)_3 #2'
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
   server: blackshadow.dpdns.org
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: blackshadow.dpdns.org
   tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers:
-      Host: blackshadow.dpdns.org
     path: /195.123.218.174-443
 - alterId: '0'
   cipher: auto
@@ -574,90 +570,6 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- name: 美国(yudou789.top 玉豆免费节点)_12
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /?ed
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_3
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_13
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_73
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_55
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_23
-  port: 30836
-  server: v36.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_83
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   name: 🇺🇸US美国6
   network: tcp
@@ -705,7 +617,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_美国_158 - 144ms
+  name: 🇺🇸_US_美国 - 259ms
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -726,7 +638,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 266ms
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 431ms
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -1123,13 +1035,40 @@ proxies:
     headers:
       Host: e5.808075.xyz
     path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国 - 2112ms
-  password: Yq42Vx56a2SghCnLtOyOCF
-  port: 443
-  server: 216.105.168.19
-  type: ss
+- name: 🇺🇸_美国_111
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20031
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸_美国_110
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 20023
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸_美国_201
+  password: MiTiVPN
+  port: 443
+  server: 151.101.1.194
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mitivpn--mitivpn--mitivpn-mitivpn--mitivpn-mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=sws
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-117
   password: XF0klw7870vXn3uQIxe19Q
@@ -1139,12 +1078,16 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_1 - 60ms
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 88.210.36.106
-  type: ss
+- client-fingerprint: chrome
+  name: US_speednode_0243
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: US_speednode_0262
@@ -15002,7 +14945,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_1 #4'
+  name: '🇺🇸_US_美国_1 #5'
   network: ws
   port: 2082
   server: 206.168.190.219
@@ -15084,7 +15027,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_2 #4'
+  name: '🇺🇸_US_美国_2 #5'
   network: ws
   port: 80
   server: wnd2.shabijichang.com
@@ -15098,7 +15041,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '🇺🇸_US_美国_3 #3'
+  name: '🇺🇸_US_美国_3 #4'
   network: ws
   port: 30000
   server: 45.199.138.186
@@ -15671,7 +15614,7 @@ proxies:
       host: baidu.com
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸_US_美国 #5'
+  name: '🇺🇸_US_美国 #6'
   password: DLW8QqdfAvfUHSeucMIF4E
   port: 2636
   server: 45.8.98.163
@@ -15915,7 +15858,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 6 #3'
+  name: 🇺🇸 美国 CloudFlare节点 6
   network: ws
   port: 443
   server: hk2.lrzdx.uk

@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '🇨🇳 台湾省 中华电信(HiNet)数据中心 #2'
+  port: 51360
+  server: lt.badns.help
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-13
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -8,19 +17,6 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇹🇼_TW_中国台湾 - 212ms
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: twdx6.baidupi.top
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-14
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

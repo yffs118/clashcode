@@ -42,21 +42,6 @@ proxies:
   ws-opts:
     path: /195.123.218.174-443
   ws-path: h=%2F195.123.218.174-443
-- cipher: chacha20-ietf-poly1305
-  name: '未命名 #1'
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_FR_法国 - 93ms
-  password: JT80563429
-  port: 443
-  server: musical-shrew.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知26
@@ -445,7 +430,7 @@ proxies:
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #3'
+  name: '🇫🇷_FR_法国 #4'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209

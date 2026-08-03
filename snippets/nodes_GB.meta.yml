@@ -1,4 +1,20 @@
 proxies:
+- client-fingerprint: chrome
+  name: '🇵🇱_PL_波兰 #5'
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: /10336/2GCOqG7bvA
 - alterId: 0
   name: 'US美国 #22'
   network: tcp
@@ -12,11 +28,11 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_71
+  cipher: auto
+  name: 英國
   port: 180
   server: 82.198.246.37
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -51,10 +67,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国(yudou789.top 玉豆免费节点)_11
+  name: 英國節點
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -157,16 +173,6 @@ proxies:
   server: 146.19.49.251
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_43
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: 🇬🇧_英国_44
@@ -1074,6 +1080,13 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.48
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_136
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.36
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
