@@ -47,46 +47,110 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦132229 | ⚡️Telegram = t.me/S...
-  password: Telegram_healer_config
+- name: 🇨🇦@FreakConfig
+  password: MITIVPN
   port: 443
-  server: 104.21.4.124
+  server: 104.18.42.68
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /tr/W3Ei3SdcW9sRVMLIbEd8sB1lm?ed=2560
-- name: 🇨🇦132228 | ⚡️Telegram = t.me/S...
-  password: Telegram_healer_config
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '🇨🇦@FreakConfig #1'
+  password: MITIVPN
   port: 443
-  server: 172.67.132.19
+  server: 104.19.229.21
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560
-- name: 🇨🇦132146 | ⚡️Telegram = t.me/S...
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '🇨🇦@FreakConfig #2'
+  password: MiTiVPN
+  port: 443
+  server: 104.18.6.178
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- name: '🇨🇦@FreakConfig #3'
+  password: MiTiVPN
+  port: 443
+  server: 104.21.40.208
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '🇨🇦@FreakConfig #4'
+  password: MiTiVPN
+  port: 443
+  server: 172.66.40.99
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇨🇦132396 | ⚡️Telegram = t.me/S...
   password: humanity
   port: 443
-  server: 104.16.73.213
+  server: 104.16.174.44
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /assignment
-- name: 🇨🇦132260 | ⚡️Telegram = t.me/S...
-  password: humanity
+    headers:
+      Host: www.ignitelimit.com
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦132392 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: '2053'
+  server: 104.16.61.8
+  servername: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 美国 053
+  network: ws
   port: 443
-  server: 104.18.152.113
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 158.51.121.63
+  servername: seribus.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    path: /assignment
-- name: 🇨🇦132148 | ⚡️Telegram = t.me/S...
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+    headers:
+      Host: seribus.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: ''
+  name: 🇨🇦132415 | ⚡️Telegram = t.me/S...
+  network: grpc
+  port: '2053'
+  server: 104.17.147.22
+  servername: szoWQDdgrTWxeaL0fFazN1DVihR5Chs4rt1BkFIg9TM2xVJ5F.protonix.ir.
+  tls: true
+  type: vmess
+  uuid: 00fb7867-95ad-4eaf-99f1-22255beb6251
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦132463 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: '80'
+  server: www.speedtest.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a8f774d-07b3-4c87-a2d3-be722e4f4dda
   ws-opts:
-    path: /assignment
+    headers:
+      Host: 2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.
+    path: /
 - alterId: 0
   cipher: auto
   name: 加拿大 001
@@ -598,15 +662,6 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: 加拿大 038
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US_110
   password: G5p6ww4o67HB
@@ -616,7 +671,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知20
+  name: 未知11
   network: ws
   port: 443
   server: 158.51.121.63
@@ -643,6 +698,13 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_22
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.20-0051 | 0.0M...
   password: RexnBgU7EV5ADxG

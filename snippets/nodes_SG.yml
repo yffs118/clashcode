@@ -27,7 +27,7 @@ proxies:
       host: hhtj.hhllfly.kdns.fr
     path: /
 - alterId: 0
-  name: 🇸🇬SG新加坡2
+  name: 🇸🇬SG新加坡3
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -39,7 +39,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  name: 🇸🇬SG新加坡3
+  name: 🇸🇬SG新加坡2
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -50,19 +50,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0009 #1'
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  name: 'HK_speednode_0007 #1'
+  name: 'HK_speednode_0007 #3'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -73,16 +62,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰HK-16.162.22.218-24
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.8MB/s
+- name: '🇸🇬SG_1|1.7MB/s #1'
   network: tcp
   password: ND91608427
   port: 443
@@ -91,8 +71,7 @@ proxies:
   sni: sacred-treefrog.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.3MB/s
+- name: 'Singapore_Singapore_trojan_113... #1'
   network: tcp
   password: ND91608427
   port: 443
@@ -101,6 +80,27 @@ proxies:
   sni: tidy-gelding.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  servername: null
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 以色列 001
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 新加坡 001
@@ -332,17 +332,6 @@ proxies:
   port: 805
   server: 81.90.189.152
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- country: 🇭🇰HK
-  name: 🇸🇬 SG 008 | ⬇️ 11MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto

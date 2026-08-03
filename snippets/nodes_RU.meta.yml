@@ -1,69 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇫🇮FI_69
-  network: ws
-  port: 2053
-  server: 147.45.197.233
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: pO_QaG_aSWCly8o_a3py50xraUYgek8d71glro05ymk
-    short-id: '!!str 18e13283e9e781'
-  server: 91.107.167.7
-  servername: aws-us-east-1.amazon.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0
-  ws-opts:
-    headers:
-      Host: aws-us-east-1.amazon.com
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  http-opts:
-    headers:
-      Host:
-      - rus07.routex-cloud.space
-    path:
-    - /api/uploadFile/
-  name: 'RU俄罗斯 #1'
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: N20oGhwfXOP-H9nuvWlJG_UNHwxWWhrTAV-KsjgZFDA
-    short-id: '!!str 23697e'
-  server: 212.233.123.185
-  servername: rus07.routex-cloud.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
-  ws-opts:
-    headers:
-      Host: rus07.routex-cloud.space
-    path: /api/uploadFile/
-  xhttp-opts:
-    host: rus07.routex-cloud.space
-    mode: auto
-    path: /api/uploadFile/
-- client-fingerprint: chrome
   name: 🇱🇻LV_5
   network: tcp
   port: 19562
@@ -108,7 +44,7 @@ proxies:
   udp: true
   uuid: 039a1658-e86e-475f-a3a4-67cc249acada
 - cipher: aes-256-gcm
-  name: 🇷🇺 RU俄羅斯丨yoyapai.com
+  name: '🇷🇺 RU俄羅斯丨yoyapai.com #2'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
@@ -131,7 +67,7 @@ proxies:
     headers:
       Host: sertraline.adaspoloandco.com
     path: /download.php
-- name: 俄羅斯丨yoyapai.com_3
+- name: '俄羅斯丨yoyapai.com_3 #2'
   network: ws
   port: 443
   server: 77.105.163.46
@@ -146,7 +82,7 @@ proxies:
       Host: ov186.ochmaybrooooo.online
     path: /
 - cipher: aes-256-gcm
-  name: 🇷🇺_RU俄羅斯丨yoyapai.com
+  name: '🇷🇺_RU俄羅斯丨yoyapai.com #2'
   password: 895b4b796a357570
   port: 10910
   server: 176.32.35.51
@@ -154,6 +90,36 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - rus07.routex-cloud.space
+    path:
+    - /api/uploadFile/
+  name: 'RU俄罗斯 #1'
+  network: xhttp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: N20oGhwfXOP-H9nuvWlJG_UNHwxWWhrTAV-KsjgZFDA
+    short-id: '!!str 23697e'
+  server: 212.233.123.185
+  servername: rus07.routex-cloud.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+  ws-opts:
+    headers:
+      Host: rus07.routex-cloud.space
+    path: /api/uploadFile/
+  xhttp-opts:
+    host: rus07.routex-cloud.space
+    mode: auto
+    path: /api/uploadFile/
 - name: 俄罗斯(免费节点)_3
   network: ws
   port: 8443
@@ -184,20 +150,22 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_17
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: 138.124.68.188
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-  up: ''
-  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_3|1.4MB/s
+  network: grpc
+  port: 7443
+  reality-opts:
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 193.233.74.57
+  servername: www.telekom.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺_俄罗斯_49
@@ -517,12 +485,28 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 🇷🇺 Russia Moscow | ⏱2588ms | ⚡...
+- client-fingerprint: chrome
+  name: 🇷🇺RU_1|3.3MB/s
   port: 443
-  server: 5.129.193.179
+  server: ru.node.sillyvpn.cc
+  servername: ru.node.sillyvpn.cc
+  tls: true
+  type: vless
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+- name: 🇷🇺@FreakConfig
+  port: 2200
+  server: 212.67.9.113
   tls: false
   type: vless
-  uuid: 1efb9322-cb87-4e8e-abc2-7c923894104e
+  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
+  ws-opts:
+    path: /v1
+- name: 🇷🇺132308 | ⚡️Telegram = t.me/S...
+  port: 2096
+  server: 157.22.241.4
+  tls: false
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - alterId: 0
   cipher: auto
   name: 俄罗斯 001
@@ -842,20 +826,12 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 026
-  network: tcp
-  port: 22324
-  server: 5.188.190.252
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 027
+  name: 未知3
   network: tcp
   port: 27343
   server: 46.226.166.205
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - name: 俄罗斯 028
@@ -924,18 +900,6 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 未知 VLESS-742
-  network: tcp
-  port: 443
-  server: 89.208.113.16
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: adce7c2a-3191-49ae-b61c-9b8258ea1b0e
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 俄罗斯 035
@@ -970,6 +934,17 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
+- client-fingerprint: chrome
+  name: 🇫🇷FR_407
+  network: tcp
+  port: 8888
+  server: 45.13.119.219
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
 - name: 俄罗斯 039
   network: tcp
   port: 41617
@@ -1003,13 +978,6 @@ proxies:
   server: 130.49.189.158
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_22
-  password: 2027e830399d8d08
-  port: 10910
-  server: 195.58.48.19
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 俄罗斯联邦/莫斯科/Russia/Moscow
@@ -1021,19 +989,6 @@ proxies:
   tls: true
   type: vless
   uuid: 85329505-90c2-43d1-9c4a-689b1a0be884
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 94.242.55.42
-  servername: enterprisekitten.com
-  tls: true
-  type: vless
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
 - name: 俄罗斯联邦/Russia-2
   network: ws
   password: '!!str 521314'
@@ -1150,16 +1105,6 @@ proxies:
   server: 5.189.201.250
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU俄罗斯
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -1176,6 +1121,23 @@ proxies:
   ws-opts:
     headers:
       Host: 53fe439es2358.gogocs.xyz
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: pO_QaG_aSWCly8o_a3py50xraUYgek8d71glro05ymk
+    short-id: '!!str 18e13283e9e781'
+  server: 91.107.167.7
+  servername: aws-us-east-1.amazon.com
+  tls: true
+  type: vless
+  uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0
+  ws-opts:
+    headers:
+      Host: aws-us-east-1.amazon.com
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU VLESS-243

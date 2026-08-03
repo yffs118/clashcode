@@ -1,19 +1,5 @@
 proxies:
 - alterId: 0
-  name: 🇫🇷FR法国2
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  port: 443
-  server: 104.16.148.5
-  skip-cert-verify: true
-  sni: dimskiee.biz.id
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /WangCai-8
-  ws-path: h=%2FWangCai-8
-- alterId: 0
   cipher: auto
   name: 美国 109
   network: ws
@@ -30,6 +16,20 @@ proxies:
     path: /
 - alterId: 0
   name: 🇫🇷FR法国
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: true
+  sni: dimskiee.biz.id
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /WangCai-8
+  ws-path: h=%2FWangCai-8
+- alterId: 0
+  name: 🇫🇷FR法国2
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
   server: blackshadow.dpdns.org
@@ -42,9 +42,19 @@ proxies:
   ws-opts:
     path: /195.123.218.174-443
   ws-path: h=%2F195.123.218.174-443
+- client-fingerprint: chrome
+  name: '🇫🇷FR_1|2.5MB/s #1'
+  network: raw
+  password: QV31589740
+  port: '443'
+  server: great-krill.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知26
+  name: 法国 001
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -54,7 +64,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知35
+  name: 未知109
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -64,7 +74,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知72 37.7KB/s
+  name: 未知27 33.8KB/s
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -74,7 +84,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知123 36.8KB/s
+  name: 未知133
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
@@ -420,15 +430,6 @@ proxies:
     headers:
       Host: a.baradiha.com
     path: /
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 法国 030
-  network: tcp
-  port: 27726
-  server: 195.133.193.18
-  skip-cert-verify: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #4'
   password: asdKkaskJKfnsa
@@ -1108,6 +1109,13 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_215
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_408
   network: ws
   password: humanity

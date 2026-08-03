@@ -1,33 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭_CH_瑞士 #6'
-  port: 443
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: 199.68.196.79
-  servername: ch.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_28
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: ch.tunnelx.space
-  servername: ch.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
 - client-fingerprint: chrome
   name: 'Node #63'
   network: tcp
@@ -87,15 +58,66 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- name: '未命名 #146'
-  port: 2053
-  server: dl12sw.cdn-ir-prime.shop
-  tls: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇨🇭_CH_瑞士 #6'
+  port: 443
+  reality-opts:
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: '!!str 10a5c8e2f4b7d936'
+  server: 199.68.196.79
+  servername: ch.tunnelx.space
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 8f520d81-24bd-44d6-9a2e-5c17270f1858
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_28
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: '!!str 10a5c8e2f4b7d936'
+  server: ch.tunnelx.space
+  servername: ch.tunnelx.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_1|2.0MB/s
+  network: grpc
+  port: '2096'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 157.22.241.36
+  servername: id.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+  xudp: true
+- name: 'کانال تلگرام : Free_VPN_CH@ #4'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 181.214.99.162
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h3
-  name: 'کانال تلگرام : Free_VPN_CH@ #1'
+  name: 'کانال تلگرام : Free_VPN_CH@ #5'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -106,7 +128,18 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'کانال تلگرام : Free_VPN_CH@ #3'
+- name: 'کانال تلگرام : Free_VPN_CH@ #6'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'کانال تلگرام : Free_VPN_CH@ #7'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -117,6 +150,29 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇭@FreakConfig
+  port: 2053
+  server: dl12sw.cdn-ir-prime.shop
+  tls: false
+  type: vless
+  uuid: 4c0e6bae-749a-3a59-a87a-605a152a25eb
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: CH【机场推荐：https://a9a.xyz】9
+  network: tcp
+  port: 25108
+  reality-opts:
+    public-key: yug_6i3Rlwgxpiii-My5C7uenYGo7tlbKeaOLsn5jEs
+    short-id: '!!str c8f2e9065d4a317b'
+  server: sw1.auragg.org
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
+  ws-opts:
+    headers:
+      Host: cloudflare.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 瑞士 001

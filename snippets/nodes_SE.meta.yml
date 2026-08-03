@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 瑞典
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
-    short-id: '!!str c1a3b5d7e9f02468'
-  server: 162.248.163.237
-  servername: sw.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
 - client-fingerprint: chrome
   name: 'Node #25'
   network: tcp
@@ -82,6 +67,21 @@ proxies:
     path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
+  name: 瑞典
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: L1mMPvSystB6rMgj4GnHizy37M_M1gj_krywNf3hfHc
+    short-id: '!!str c1a3b5d7e9f02468'
+  server: 162.248.163.237
+  servername: sw.tunnelx.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 🇸🇪_瑞典_46
   port: 443
   reality-opts:
@@ -94,6 +94,24 @@ proxies:
   type: vless
   udp: true
   uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+- name: 🇸🇪@FreakConfig
+  port: 1000
+  server: admin.kermanshahi.org
+  tls: false
+  type: vless
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: SE【机场推荐：https://a9a.xyz】34
+  port: 443
+  reality-opts:
+    public-key: nQE3INl_ycbBFpNZdzkrgASofD64HB215kzQuH_uZn4
+    short-id: '!!str b512d49930874a31'
+  server: 31.207.7.97
+  servername: cdn-se.ai-apiroute.cc
+  tls: true
+  type: vless
+  uuid: b6f3b292-00c9-430e-bc4c-b1294bd895c0
 - alterId: 0
   cipher: none
   name: 瑞典 001
@@ -212,20 +230,6 @@ proxies:
     headers:
       Host: www.60988297.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 瑞典 010
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 瑞典 011
@@ -611,6 +615,32 @@ proxies:
   tls: true
   type: vless
   uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
+- client-fingerprint: ios
+  name: 未知 VLESS-552
+  network: tcp
+  port: 1000
+  reality-opts:
+    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
+    short-id: '!!str a62d513cd709744a'
+  server: teain.org
+  servername: knox.cdn-apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_9
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: Xx3r5KsSKa1I8O3avmwMbgXOWj_-MqiqzTO_7BzBxyU
+    short-id: '!!str 58c5b3ee013bdc8f'
+  server: 62.60.231.42
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: f7e0e597-636e-4550-9f54-6ab1c0e8cf49
 - client-fingerprint: firefox
   name: 🇸🇪SE_16
   network: xhttp

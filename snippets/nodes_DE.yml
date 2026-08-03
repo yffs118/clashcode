@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 德國丨yoyapai.com_4
+  name: '德國丨yoyapai.com_4 #2'
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
@@ -24,16 +24,99 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- name: 🇩🇪DE_1|2.8MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|3.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.26.2.173
+  skip-cert-verify: false
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: '@NOFiLTERING2🇩🇪'
+  password: jGmlLG23FdMVtwAq
+  port: 443
+  server: 4.210.66.168
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '🇩🇪DE_1|3.2MB/s #1'
+  network: ws
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  port: 443
+  server: 172.67.78.22
+  skip-cert-verify: true
+  sni: kamonka.eu.org
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kamonka.eu.org
+    path: /
+- name: '@NOFiLTERING2🇩🇪 #1'
+  password: MITIVPN
+  port: 443
+  server: 45.130.125.112
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: '@NOFiLTERING2🇩🇪 #2'
+  password: MiTiVPN
+  port: 443
+  server: 104.18.152.229
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
-  network: tcp
+  name: 🇩🇪132395 | ⚡️Telegram = t.me/S...
+  network: ws
   port: '2053'
-  server: 57.129.121.230
-  servername: ''
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
   tls: true
   type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- alterId: 0
+  cipher: auto
+  name: 未知33
+  network: tcp
+  port: 8080
+  server: dn.torontomovie.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dc941c31-dff3-4b7f-88ed-64b9139cbac2
 - alterId: 0
   cipher: auto
   name: 🇫🇷FR-141.94.141.20-0190 | 0.0M...
@@ -50,7 +133,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知22
+  name: 未知137
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -74,7 +157,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知125
+  name: 德国 004
   network: tcp
   port: 8585
   server: 165.227.138.218
@@ -84,7 +167,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: 未知127
+  name: 未知65
   network: tcp
   port: 4452
   server: x2.mehradservice.com
@@ -833,6 +916,17 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
+  name: 🇩🇪 DE 644 | ⬇️ 368KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
   name: 🇩🇪 DE 172 | ⬇️ 16KB/s
@@ -880,6 +974,18 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 684 | ⬇️ 748KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -923,13 +1029,6 @@ proxies:
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm

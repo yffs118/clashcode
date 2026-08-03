@@ -85,7 +85,7 @@ proxies:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - alterId: 0
-  name: 🇸🇬SG新加坡2
+  name: 🇸🇬SG新加坡3
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -97,7 +97,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  name: 🇸🇬SG新加坡3
+  name: 🇸🇬SG新加坡2
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -108,19 +108,8 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0009 #1'
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  name: 'HK_speednode_0007 #1'
+  name: 'HK_speednode_0007 #3'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -131,16 +120,14 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰HK-16.162.22.218-24
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  type: trojan
+- name: 🇸🇬SG_1|1.6MB/s
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.8MB/s
+- name: '🇸🇬SG_1|1.7MB/s #1'
   network: tcp
   password: ND91608427
   port: 443
@@ -149,8 +136,7 @@ proxies:
   sni: sacred-treefrog.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|4.3MB/s
+- name: 'Singapore_Singapore_trojan_113... #1'
   network: tcp
   password: ND91608427
   port: 443
@@ -159,26 +145,40 @@ proxies:
   sni: tidy-gelding.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬132252 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 43.174.247.53
-  tls: false
-  type: vless
-  uuid: 0fc3eba4-2774-4c99-cfc7-c38b007908b0
-  ws-opts:
-    path: /55072/api
-- name: 🇸🇬132282 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 45.8.211.217
-  tls: false
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-- name: 🇸🇬132155 | ⚡️Telegram = t.me/S...
-  port: 40809
-  server: 43.156.143.198
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_17
+  network: tcp
+  port: 10574
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.0.111.82
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  servername: null
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 以色列 001
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 新加坡 001
@@ -404,16 +404,6 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
-- name: 新加坡 018
-  network: tcp
-  port: 11616
-  server: 206.189.61.46
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 新加坡/Singapore
@@ -432,17 +422,6 @@ proxies:
   port: 805
   server: 81.90.189.152
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- country: 🇭🇰HK
-  name: 🇸🇬 SG 008 | ⬇️ 11MB/s
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
@@ -598,34 +577,6 @@ proxies:
     headers:
       Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_17
-  network: tcp
-  port: 10574
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: '!!str 48050fab'
-  server: 3.0.111.82
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 未知 VLESS-562
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
-    short-id: '!!str d1742269'
-  server: 91.192.81.214
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 607801ac-dbdd-4938-a167-129015d9978e
-  ws-opts:
-    path: /
 - name: 新加坡_3
   password: '!!str 521314'
   port: 443
@@ -833,19 +784,6 @@ proxies:
   sni: 139.59.238.97
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_9
-  network: raw
-  port: 10000
-  reality-opts:
-    public-key: xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU
-    short-id: '!!str 3b0b73e5'
-  server: 140.245.50.174
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
 - name: 新加坡_1
   network: ws
   port: 59404

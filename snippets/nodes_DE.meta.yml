@@ -1,4 +1,84 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_16
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: 185.164.111.48
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- name: NL【机场推荐：https://a9a.xyz】40
+  network: ws
+  port: 80
+  server: 91.206.71.8
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  ws-opts:
+    headers:
+      Host: round-haze-8783.294.workers.dev
+    path: /pyip=Telegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  name: 🇦🇪_阿拉伯联合酋长国_124
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+- name: 'Node #103'
+  network: ws
+  port: 8880
+  server: 77.37.33.50
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime57.workers.dev
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '德國丨yoyapai.com_4 #2'
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'Node #22'
+  network: tcp
+  port: 8443
+  server: 95.133.245.213
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: 'Node #119'
+  network: tcp
+  port: 8443
+  server: 95.133.245.212
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - client-fingerprint: qq
   http-opts:
     headers:
@@ -6,7 +86,7 @@ proxies:
       - wx-deu-037.cdnphotos.org
     path:
     - /api/v1/
-  name: 'DE德国(mibei77.com 米贝节点分享)_8 #2'
+  name: 'DE德国(mibei77.com 米贝节点分享)_8 #3'
   network: http
   port: 443
   server: wx-deu-037.cdnphotos.org
@@ -31,7 +111,7 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
-- name: 'AE_speednode_0002 #1'
+- name: 'AE_speednode_0002 #2'
   network: tcp
   packet-encoding: ''
   port: 443
@@ -62,7 +142,7 @@ proxies:
       Host: xvh.andishehparenting.com
     path: /
 - client-fingerprint: firefox
-  name: 'AE_speednode_0001 #1'
+  name: 'AE_speednode_0001 #2'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -90,6 +170,7 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: safari
+  encryption: none
   grpc-opts:
     grpc-service-name: grpc
   name: 'DE德国 #5'
@@ -106,6 +187,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 'DE德国 #1'
@@ -195,71 +277,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- name: 德國丨yoyapai.com
-  network: ws
-  port: 80
-  server: 91.206.71.8
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-    path: /pyip=Telegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  name: 🇦🇪_阿拉伯联合酋长国_124
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: 'Node #103'
-  network: ws
-  port: 8880
-  server: 77.37.33.50
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime57.workers.dev
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 德國丨yoyapai.com_4
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #22'
-  network: tcp
-  port: 8443
-  server: 95.133.245.213
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 'Node #119'
-  network: tcp
-  port: 8443
-  server: 95.133.245.212
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - client-fingerprint: qq
   name: 德国_1
   network: xhttp
@@ -370,6 +387,86 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- name: 🇩🇪DE_1|2.8MB/s
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_3|3.0MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.26.2.173
+  skip-cert-verify: false
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.9MB/s
+  network: tcp
+  port: '6443'
+  reality-opts:
+    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
+    short-id: '!!str 41444f03bd84a905'
+  server: 144.31.218.26
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|1.3MB/s
+  network: tcp
+  port: '6443'
+  reality-opts:
+    public-key: L7DF7bQGLb1hLQxHoDqnsd7WMAo8bklWteoXqKYwAl8
+    short-id: '!!str 81e89aa47ec96f1c'
+  server: 144.31.219.151
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06f364d4-3d0c-4c60-84e9-a3009f1b0050
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 303 | ⬇️ 95KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: '!!str f55c53dfd45cfc6d'
+  server: kakaG.tempfast.ir
+  servername: icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪_德国_56
@@ -437,171 +534,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 🇩🇪132162 | ⚡️Telegram = t.me/S...
-  port: 2044
-  server: blog.fizikade.ir
-  tls: false
-  type: vless
-  uuid: 07ee1745-9248-41f8-9706-6168527c4b2e
-- name: 🇩🇪132291 | ⚡️Telegram = t.me/L...
-  port: 8090
-  server: s7.cnavippanel-tech-ips.xyz
-  tls: false
-  type: vless
-  uuid: 4ca31b44-9188-4cc7-adc6-f940888e5282
-- name: 🇩🇪132122 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 18319
-  server: 157.230.109.99
-  tls: false
-  type: vless
-  uuid: 6d238427-e07d-4820-9782-bfe47ecf05c9
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: 🇩🇪 t.me/Natrixo AA
-  port: 2087
-  server: 103.21.244.138
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #1'
-  port: 2087
-  server: 104.24.4.102
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #2'
-  port: 2087
-  server: 162.159.38.119
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #3'
-  port: 2087
-  server: 162.159.94.253
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #4'
-  port: 2087
-  server: 188.114.96.187
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #5'
-  port: 2087
-  server: 198.41.201.1
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  name: '🇩🇪 t.me/Natrixo AA #6'
-  port: 2087
-  server: 198.41.207.123
-  tls: false
-  type: vless
-  uuid: 71082f2c-f281-4799-b1b2-3c5a6a8afbba
-- name: 🇩🇪132215 | ⚡️Telegram = t.me/L...
-  port: 33819
-  server: 91.107.160.130
-  tls: false
-  type: vless
-  uuid: 73eed38e-09ea-4c07-aa95-c53684400d68
-- name: '🇩🇪 t.me/Natrixo AA #7'
-  port: 443
-  server: 162.159.38.119
-  tls: false
-  type: vless
-  uuid: 862619ff-2139-45fd-8413-af83f98e2880
-- name: 🇩🇪132230 | ⚡️Telegram = t.me/S...
-  port: 2083
-  server: 85.234.69.159
-  tls: false
-  type: vless
-  uuid: 862619ff-2139-45fd-8413-af83f98e2880
-- name: 🇩🇪132126 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 38476
-  server: 104.248.137.82
-  tls: false
-  type: vless
-  uuid: b587b950-ecfb-47ce-a842-358c7a93d131
-- name: 🇩🇪132128 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 27607
-  server: 64.226.70.76
-  tls: false
-  type: vless
-  uuid: ce8a5060-f085-4184-9923-1bda47df105a
-- name: '🇩🇪 Germany Frankfurt am Main |... #1'
-  port: 443
-  server: 104.26.14.85
-  tls: false
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    path: /GOrbEh
-- name: 🇩🇪132124 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 22721
-  server: 164.92.246.97
-  tls: false
-  type: vless
-  uuid: e10fe1ba-e2af-4d34-94b7-05dfa9f71232
-- name: 🇩🇪132120 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 54034
-  server: 178.128.202.10
-  tls: false
-  type: vless
-  uuid: fabbb79a-013a-4c50-a0bb-ad8dd14149b8
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
-  network: tcp
-  port: '2053'
-  server: 57.129.121.230
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
-- name: 'کانال تلگرام : Free_VPN_CH@'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 181.214.99.162
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: '🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: DSgrpvSRAu
@@ -612,6 +545,382 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: '@NOFiLTERING2🇩🇪'
+  password: jGmlLG23FdMVtwAq
+  port: 443
+  server: 4.210.66.168
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '🇩🇪DE_1|3.2MB/s #1'
+  network: ws
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  port: 443
+  server: 172.67.78.22
+  skip-cert-verify: true
+  sni: kamonka.eu.org
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: kamonka.eu.org
+    path: /
+- name: '@NOFiLTERING2🇩🇪 #1'
+  password: MITIVPN
+  port: 443
+  server: 45.130.125.112
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: '@NOFiLTERING2🇩🇪 #2'
+  password: MiTiVPN
+  port: 443
+  server: 104.18.152.229
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- name: '@NOFiLTERING2🇩🇪 #3'
+  port: 443
+  server: 107.189.20.143
+  tls: false
+  type: vless
+  uuid: 03d349a6-2488-4fa0-8a3a-048806697ec2
+- name: '@NOFiLTERING2🇩🇪 #4'
+  port: 443
+  server: 38.54.105.247
+  tls: false
+  type: vless
+  uuid: 04e0bafa-156e-47fd-84b2-d14621998d16
+- name: 🇩🇪@FreakConfig
+  port: 8080
+  server: 5.75.196.249
+  tls: false
+  type: vless
+  uuid: 06ceb304-69b9-4e8a-b7f0-54ff3596ba1d
+- name: '🇩🇪@FreakConfig #1'
+  port: 9145
+  server: 5.75.196.249
+  tls: false
+  type: vless
+  uuid: 06ceb304-69b9-4e8a-b7f0-54ff3596ba1d
+- name: '@NOFiLTERING2🇩🇪 #5'
+  port: 2095
+  server: xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir
+  tls: false
+  type: vless
+  uuid: 0a268813-7200-4d23-9851-74568928fc82
+- name: '🇩🇪@FreakConfig #2'
+  port: 8880
+  server: zxcvbnm1.roozaraa.ir
+  tls: false
+  type: vless
+  uuid: 0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19
+  ws-opts:
+    path: /
+- name: '未命名 #108'
+  port: 3031
+  server: gr4.levikogjgfdd.ir
+  tls: false
+  type: vless
+  uuid: 1b73f053-2709-4698-bbec-cb20e8a5f288
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_138
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: gr5.levikogjgfdd.ir
+  servername: sellflow.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_12
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RWE5ORdQ2SzuFWX8DlaRP415wbhee9ynJkqC7yFPgQw
+    short-id: '!!str d13ddfca12760d03'
+  server: 51.195.116.82
+  servername: speedtest.net
+  tls: true
+  type: vless
+  uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
+- name: DE【机场推荐：https://a9a.xyz】31
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 236c376b-e0d3-4f80-af8c-876c193eeefa
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- name: '@NOFiLTERING2🇩🇪 #11'
+  port: 2087
+  server: 91.99.119.155
+  tls: false
+  type: vless
+  uuid: 2da61edf-538c-48d6-bef3-2480a2237441
+- name: 德国 077
+  network: tcp
+  port: 29
+  server: 194.77.220.41
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35c13bb9-9d22-4d89-bfd2-76fe7abf04ff
+- name: 英国 041
+  network: tcp
+  port: 2083
+  server: 85.234.69.247
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35f955ac-6904-4eae-81d5-432dbb545c21
+- name: 德国 085
+  network: tcp
+  port: 50417
+  server: 91.107.139.186
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- name: 伊朗 033
+  network: tcp
+  port: 2095
+  server: 185.118.15.160
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 529cd8b2-0432-4fe7-80a2-89076c818f25
+- name: '@NOFiLTERING2🇩🇪 #14'
+  port: 443
+  server: 0w48t.pastilbastani.ir
+  tls: false
+  type: vless
+  uuid: 543d9bd0-be2c-44d4-8e73-d9900fe9580d
+- name: '@NOFiLTERING2🇩🇪 #15'
+  port: 443
+  server: 5.254.121.199
+  tls: false
+  type: vless
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- name: '@NOFiLTERING2🇩🇪 #16'
+  port: 8443
+  server: 62.233.39.3
+  tls: false
+  type: vless
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+- name: '🇩🇪@FreakConfig #5'
+  port: 8880
+  server: ggmhho139.roozaraa.ir
+  tls: false
+  type: vless
+  uuid: 6ae054af-ef5f-4fb1-9d9d-e5e0b50918df
+  ws-opts:
+    path: /
+- name: '@NOFiLTERING2🇩🇪 #17'
+  port: 443
+  server: 196.240.57.35
+  tls: false
+  type: vless
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+- name: '未命名 #219'
+  port: 443
+  server: cf.levikogjgfdd.ir
+  tls: false
+  type: vless
+  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
+  ws-opts:
+    path: /cbasur
+- name: '🇩🇪@FreakConfig #6'
+  port: 1234
+  server: 46.225.220.111
+  tls: false
+  type: vless
+  uuid: 9b2c31f4-dc67-4e5a-88d9-79d0a04cc2bd
+- name: '@NOFiLTERING2🇩🇪 #20'
+  port: 40443
+  server: fr1.levikogjgfdd.ir
+  tls: false
+  type: vless
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+- name: '🇩🇪@FreakConfig #7'
+  port: 9982
+  server: en1.zag-fa.solveta.ir
+  tls: false
+  type: vless
+  uuid: b2a21714-fd64-461f-9364-49ea2ddc8b59
+- name: '🇩🇪@FreakConfig #8'
+  port: 443
+  server: 91.98.113.22
+  tls: false
+  type: vless
+  uuid: b9767b88-01ca-4775-ad0d-b1e90f880f3e
+- client-fingerprint: firefox
+  name: DE【机场推荐：https://a9a.xyz】11
+  network: xhttp
+  port: 30160
+  reality-opts:
+    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
+  server: 45.133.209.233
+  servername: yandex.tr
+  tls: true
+  type: vless
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
+- name: '未命名 #334'
+  port: 443
+  server: 104.26.14.85
+  tls: false
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    path: /GOrbEh
+- name: '@NOFiLTERING2🇩🇪 #21'
+  port: 443
+  server: 148.251.92.94
+  tls: false
+  type: vless
+  uuid: d80168e3-0951-4643-aa85-74129913ea09
+- name: 美国 1362
+  network: tcp
+  port: 2552
+  server: 195.21.129.117
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: 英国 054
+  network: tcp
+  port: 1447
+  server: 78.154.108.26
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: '🇳🇱@FreakConfig #3'
+  port: 443
+  server: 130.49.185.196
+  tls: false
+  type: vless
+  uuid: e3c56988-5261-400f-b21b-6af5fa6efae1
+- name: 法国 052
+  network: tcp
+  port: 22222
+  server: 15.237.168.93
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 德国 108
+  network: tcp
+  port: 22222
+  server: 3.124.132.221
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 德国 109
+  network: tcp
+  port: 22223
+  server: 3.124.132.221
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 德国 110
+  network: tcp
+  port: 22224
+  server: 3.124.132.221
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '🇩🇪@FreakConfig #12'
+  port: 8443
+  server: nod4.kaafserver.ir
+  tls: false
+  type: vless
+  uuid: f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65
+- name: '🇩🇪@FreakConfig #13'
+  port: 46646
+  server: gr.lion-game.ir
+  tls: false
+  type: vless
+  uuid: fd0edb2d-9f41-4257-8987-be9858388670
+  ws-opts:
+    path: /
+- name: '@NOFiLTERING2🇩🇪 #35'
+  port: 443
+  server: 179.237.75.118
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '@NOFiLTERING2🇩🇪 #36'
+  port: 443
+  server: channel.tradeip.store
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '@erfanandroid #19'
+  port: 8443
+  server: channel.tradeip.store
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪132395 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: '2053'
+  server: deapp.jisuyun.top
+  servername: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- alterId: 0
+  cipher: auto
+  name: 未知33
+  network: tcp
+  port: 8080
+  server: dn.torontomovie.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dc941c31-dff3-4b7f-88ed-64b9139cbac2
 - alterId: 0
   cipher: auto
   name: 🇫🇷FR-141.94.141.20-0190 | 0.0M...
@@ -628,7 +937,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知22
+  name: 未知137
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -652,7 +961,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知125
+  name: 德国 004
   network: tcp
   port: 8585
   server: 165.227.138.218
@@ -662,7 +971,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: 未知127
+  name: 未知65
   network: tcp
   port: 4452
   server: x2.mehradservice.com
@@ -1486,16 +1795,6 @@ proxies:
   type: vless
   udp: true
   uuid: 108de013-7e4b-44b3-b89e-38b1d2598332
-- name: 德国 070
-  network: tcp
-  port: 28018
-  server: 139.59.212.40
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 128976e2-485d-4403-93c0-d1dc82cddcf0
 - name: 德国 071
   network: tcp
   port: 1083
@@ -1516,16 +1815,6 @@ proxies:
   type: vless
   udp: true
   uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
-- name: 德国 073
-  network: tcp
-  port: 41015
-  server: 138.68.70.170
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
 - name: 德国 074
   network: tcp
   port: 41015
@@ -1566,16 +1855,6 @@ proxies:
   type: vless
   udp: true
   uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
-- name: 德国 079
-  network: tcp
-  port: 33184
-  server: 116.202.13.37
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3b2cdd53-cb18-4028-9d7f-894be0f5f82d
 - name: 德国 080
   network: tcp
   port: 1234
@@ -1596,16 +1875,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3f3bb5cc-da8b-4551-8b76-ba223f1a5255
-- name: 德国 082
-  network: tcp
-  port: 25128
-  server: 104.248.253.254
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48830385-d494-4248-999a-3ab38aa42101
 - name: 德国 083
   network: tcp
   port: 36632
@@ -1630,26 +1899,6 @@ proxies:
   ws-opts:
     headers:
       Host: DAILYconfigs-dailyCONFIGS-DAILYconfigs.vigilantecollection.com.
-- name: 德国 085
-  network: tcp
-  port: 50417
-  server: 91.107.139.186
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- name: '未知 VLESS-555 #1'
-  network: tcp
-  port: 1234
-  server: 167.233.47.127
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5de3f60c-7cc2-4f66-9177-706a2693dc19
 - client-fingerprint: chrome
   name: 🇩🇪DE_105
   network: ws
@@ -1666,16 +1915,6 @@ proxies:
     headers:
       Host: 0gnoyqei.muzxslk2hja4hbyckl6p.workers.dev
     path: /
-- name: 德国 088
-  network: tcp
-  port: 39723
-  server: 164.90.167.52
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 617bc80e-7028-4dd5-b6b2-949c035688af
 - name: 🇫🇷FR_719
   network: ws
   port: 8880
@@ -1716,16 +1955,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6263516e-13f4-4a29-8c6b-a999aafa438b
-- name: 德国 092
-  network: tcp
-  port: 27511
-  server: 165.227.155.232
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7617fc5b-a84f-40ee-8e8c-c82b70a7a545
 - name: 德国 093
   network: tcp
   port: 27511
@@ -1736,16 +1965,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7617fc5b-a84f-40ee-8e8c-c82b70a7a545
-- name: 德国 094
-  network: tcp
-  port: 35742
-  server: 157.230.101.236
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76b6e40e-52b3-4c8a-9fbd-5d0d7768aa92
 - name: 德国 095
   network: tcp
   port: 24391
@@ -1766,16 +1985,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8038f7de-9bba-4ebd-8352-556bc7316c11
-- name: 德国 098
-  network: tcp
-  port: 32012
-  server: 207.154.224.244
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87c7fbdb-47d2-4f21-8d8e-04124df819ea
 - name: 🇩🇪DE_207
   network: tcp
   port: 1234
@@ -1800,16 +2009,6 @@ proxies:
   type: vless
   udp: true
   uuid: 92929b0d-a473-4ea2-bba5-f651ea263872
-- name: 德国 101
-  network: tcp
-  port: 27416
-  server: 139.59.142.242
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 997db23c-4368-4d82-bd25-508ed8a6ed4e
 - name: 德国 102
   network: tcp
   port: 80
@@ -1820,6 +2019,20 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪DE_200
+  network: tcp
+  port: 1234
+  server: 159.69.193.221
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: a481265c-a4d8-4d1a-9ae1-48eb3f7fccb4
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
 - name: 德国 104
   network: tcp
   port: 15013
@@ -1851,26 +2064,6 @@ proxies:
   type: vless
   udp: true
   uuid: c85fa9c8-d3d2-47a4-ae31-ce150e074cdc
-- name: 德国 107
-  network: tcp
-  port: 57777
-  server: 206.81.20.187
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d031fbc9-aaf4-4ef1-9be1-b9225cc1d845
-- name: 德国 108
-  network: tcp
-  port: 22222
-  server: 3.124.132.221
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 德国 111
   network: tcp
   port: 47677
@@ -1923,6 +2116,19 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_39
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc
+    short-id: '!!str d8d3dc6c3ca45dd4'
+  server: 159.195.22.155
+  servername: 2.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇦🇹AT_8
@@ -1994,6 +2200,17 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 644 | ⬇️ 368KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 068 | ⬇️ 3MB/s
   network: ws
   port: 443
@@ -2057,22 +2274,6 @@ proxies:
     headers:
       Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 303 | ⬇️ 95KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 33786
-  reality-opts:
-    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
-    short-id: '!!str f55c53dfd45cfc6d'
-  server: kakaG.tempfast.ir
-  servername: icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
 - client-fingerprint: firefox
   encryption: none
   name: 🇩🇪 DE 321 | ⬇️ 13KB/s
@@ -2127,6 +2328,18 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 684 | ⬇️ 748KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -2335,6 +2548,19 @@ proxies:
     headers:
       Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_64
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 82.39.171.148
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: chrome
   name: 🇩🇪DE_87
   network: ws
@@ -2735,6 +2961,19 @@ proxies:
     headers:
       Host: ad-005.clouduhtpv.info
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_31
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM
+    short-id: '!!str 273940fba6ad8250'
+  server: 159.195.44.159
+  servername: 5.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h3h2http/1.1
   client-fingerprint: ios
@@ -2982,13 +3221,6 @@ proxies:
     headers:
       Host: sun6-21.userapi.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇩🇪DE_143
   network: ws
@@ -3807,17 +4039,6 @@ proxies:
     headers:
       Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: qq
-  name: 🇩🇪DE_135
-  network: tcp
-  port: 6500
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: 178.104.253.73
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
 - name: 德国_6
   network: ws
   port: 443
