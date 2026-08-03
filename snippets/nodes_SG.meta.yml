@@ -1,47 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  name: 'Node #42'
-  network: ws
-  port: 2053
-  server: cf4.danfeng.eu.org
-  servername: juzi8186.qea.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: bafacd98-136a-4530-838d-4e5c51838dac
-  ws-opts:
-    headers:
-      Host: juzi8186.qea.ccwu.cc
-    path: /tv/juzibaipiao?ed=2560
-- alterId: '0'
-  cipher: auto
-  name: 法国(免费节点)_6
-  network: ws
-  port: '55009'
-  server: 2001:bc8:32d7:225::3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
-  ws-opts:
-    path: /0zNW56sF
-- client-fingerprint: chrome
-  name: SG新加坡
-  network: ws
-  port: 2000
-  server: 188.239.17.75
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - name: 新加坡(免费节点)_1
   network: ws
   port: 59404
@@ -84,11 +41,26 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- client-fingerprint: chrome
+  name: SG新加坡
+  network: ws
+  port: 2000
+  server: 188.239.17.75
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - down: 300
   name: 新加坡节点0601 | 1倍率
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 1cdf7f8f-f135-42dd-8824-33746ebb1fd4
+  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -100,7 +72,7 @@ proxies:
   name: 新加坡节点0602 | 1倍率
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 1cdf7f8f-f135-42dd-8824-33746ebb1fd4
+  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -112,7 +84,7 @@ proxies:
   name: 新加坡节点0603 | 1倍率
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 1cdf7f8f-f135-42dd-8824-33746ebb1fd4
+  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -124,7 +96,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #1'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
+  password: c8b92b72-f289-4f60-bc84-78012acac00d
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -136,7 +108,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #1'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
+  password: c8b92b72-f289-4f60-bc84-78012acac00d
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -148,7 +120,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #1'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 7f5a2aab-5107-485f-98ac-3a1d42f589d7
+  password: c8b92b72-f289-4f60-bc84-78012acac00d
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -160,7 +132,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #2'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 7cd81fae-9940-4524-9e11-ee4bb2893848
+  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -172,7 +144,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #2'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 7cd81fae-9940-4524-9e11-ee4bb2893848
+  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -184,7 +156,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #2'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 7cd81fae-9940-4524-9e11-ee4bb2893848
+  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -196,7 +168,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #3'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: c8b92b72-f289-4f60-bc84-78012acac00d
+  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -208,7 +180,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #3'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: c8b92b72-f289-4f60-bc84-78012acac00d
+  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -220,7 +192,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #3'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: c8b92b72-f289-4f60-bc84-78012acac00d
+  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -232,7 +204,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #4'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
+  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -244,7 +216,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #4'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
+  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -256,7 +228,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #4'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5ca11e0b-22aa-40ba-a461-ba2653a9a3c3
+  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -268,7 +240,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #5'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
+  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -280,7 +252,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #5'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
+  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -292,7 +264,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #5'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5f85339b-6062-4fc4-8bcc-2b412ea9bcc4
+  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -304,7 +276,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #6'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
+  password: 3fbb84c0-1410-4bbb-b513-55434ecedf1a
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -316,7 +288,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #6'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
+  password: 3fbb84c0-1410-4bbb-b513-55434ecedf1a
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -328,7 +300,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #6'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 5628bab0-7e26-4654-bd14-64eee4a96c9b
+  password: 3fbb84c0-1410-4bbb-b513-55434ecedf1a
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -340,7 +312,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #7'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
+  password: 73df8efb-fbd9-4aa5-9056-1832806f2a22
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -352,7 +324,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #7'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
+  password: 73df8efb-fbd9-4aa5-9056-1832806f2a22
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -364,7 +336,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #7'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 06ab30a7-8d12-4526-a4fb-78f5a9d0f35b
+  password: 73df8efb-fbd9-4aa5-9056-1832806f2a22
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -520,7 +492,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #12'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: d378d76f-c134-489c-a97d-11437f80bdcc
+  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -532,7 +504,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #12'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: d378d76f-c134-489c-a97d-11437f80bdcc
+  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -544,7 +516,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #12'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: d378d76f-c134-489c-a97d-11437f80bdcc
+  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -556,7 +528,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #13'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
+  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -568,7 +540,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #13'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
+  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -580,7 +552,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #13'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: a25d9618-1ae0-475e-b07e-ac1d3df79814
+  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -592,7 +564,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #14'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
+  password: bba43a66-0306-44d6-bc37-71b769cb1c70
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -604,7 +576,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #14'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
+  password: bba43a66-0306-44d6-bc37-71b769cb1c70
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -616,7 +588,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #14'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: e8e68925-2007-4f02-914f-53dd0a6e21e7
+  password: bba43a66-0306-44d6-bc37-71b769cb1c70
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -628,7 +600,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #15'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: bba43a66-0306-44d6-bc37-71b769cb1c70
+  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -640,7 +612,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #15'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: bba43a66-0306-44d6-bc37-71b769cb1c70
+  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -652,7 +624,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #15'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: bba43a66-0306-44d6-bc37-71b769cb1c70
+  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -664,7 +636,7 @@ proxies:
   name: '新加坡节点0601 | 1倍率 #16'
   obfs: salamander
   obfs-password: 9noYJA0bODeBONED
-  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
+  password: 2d94cf14-fa82-4c76-bf85-dc52c1b53429
   port: 45103
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -676,7 +648,7 @@ proxies:
   name: '新加坡节点0602 | 1倍率 #16'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
+  password: 2d94cf14-fa82-4c76-bf85-dc52c1b53429
   port: 45203
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -688,7 +660,7 @@ proxies:
   name: '新加坡节点0603 | 1倍率 #16'
   obfs: salamander
   obfs-password: v3DkmNCkTvHQOenK
-  password: 24c3a86b-ee8a-4e37-ae4f-e44902c5575b
+  password: 2d94cf14-fa82-4c76-bf85-dc52c1b53429
   port: 45303
   server: v4sg6.stableq.top
   skip-cert-verify: false
@@ -720,46 +692,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇸🇬SG新加坡
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: '🇸🇬SG_1|3.9MB/s #1'
-  network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_2|3.3MB/s
-  network: tcp
-  port: '31877'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v1.cdn.wj0zugpsmub2.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
-- name: '🇸🇬SG_4|4.4MB/s #1'
+- name: 'HK_speednode_0009 #1'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -771,34 +704,53 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  cipher: auto
-  name: 🇸🇬_新加坡_108 - 417ms
-  network: ws
-  port: 36822
-  server: sylva51.ceoiii.com
-  tls: false
-  type: vmess
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 🇸🇬_SG_新加坡_1 - 202ms
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
+  name: 'HK_speednode_0007 #1'
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: resolved-gelding.rooster465.autos
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇭🇰HK-16.162.22.218-24
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡 - 193ms
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|3.8MB/s - 228ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: sacred-treefrog.rooster465.autos
+  skip-cert-verify: true
+  sni: sacred-treefrog.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇸🇬SG_4|4.3MB/s - 244ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: tidy-gelding.rooster465.autos
+  skip-cert-verify: true
+  sni: tidy-gelding.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬_SG_新加坡 - 198ms
   password: IQ68037294
   port: 443
   server: apt-midge.rooster465.autos
   skip-cert-verify: true
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_1 - 274ms
+- name: 🇸🇬_SG_新加坡_1 - 322ms
   password: IQ68037294
   port: 443
   server: meet-doe.rooster465.autos
@@ -806,14 +758,14 @@ proxies:
   sni: meet-doe.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_2 - 192ms
+- name: 🇸🇬_SG_新加坡_2 - 170ms
   password: IQ68037294
   port: 443
   server: endless-kiwi.rooster465.autos
   skip-cert-verify: true
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_3 - 290ms
+- name: 🇸🇬_SG_新加坡_3 - 167ms
   password: FC60532879
   port: 443
   server: helpful-possum.rooster465.autos
@@ -821,7 +773,7 @@ proxies:
   sni: helpful-possum.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬_SG_新加坡_5 - 307ms
+- name: 🇸🇬_SG_新加坡_5 - 170ms
   password: IQ68037294
   port: 443
   server: fun-salmon.rooster465.autos
@@ -830,25 +782,39 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬_SG_新加坡 - 219ms
+  name: 🇸🇬_SG_新加坡 - 398ms
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 19000
   server: ss.049.node-for-bigairport.win
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬132045 | ⚡️Telegram = t.me/S...
-  port: 2550
-  server: 217.79.125.5
+- name: 🇸🇬132252 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 43.174.247.53
   tls: false
   type: vless
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
+  uuid: 0fc3eba4-2774-4c99-cfc7-c38b007908b0
+  ws-opts:
+    path: /55072/api
+- name: 🇸🇬132155 | ⚡️Telegram = t.me/S...
+  port: 40809
+  server: 43.156.143.198
+  tls: true
+  type: vless
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+- name: sg 【新加坡】 SG
+  port: 443
+  server: 108.162.192.4
+  tls: false
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
 - alterId: 4
   cipher: auto
   name: 新加坡 001
   network: ws
   port: 443
   server: 103.253.26.20
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -1067,6 +1033,16 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
+- name: 新加坡 018
+  network: tcp
+  port: 11616
+  server: 206.189.61.46
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 新加坡/Singapore
@@ -1080,24 +1056,12 @@ proxies:
   type: vless
   uuid: 0c9839aa-c64f-4791-9137-420432605987
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG-81.90.189.152-0192 | 0.0M...
+  name: 🇸🇬SG-81.90.189.152-0033 | 0.0M...
   password: G!yBwPWH3Vao
-  port: 801
+  port: 805
   server: 81.90.189.152
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG-8.214.33.158-0207 | 0.0MB
-  network: ws
-  port: 80
-  server: 8.214.33.158
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef
-  ws-opts:
-    path: /
 - country: 🇭🇰HK
   name: 🇸🇬 SG 008 | ⬇️ 11MB/s
   network: tcp
@@ -1331,19 +1295,6 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇸🇬SG_48
-  network: ws
-  port: 8443
-  server: 170.114.46.6
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
 - name: 🇸🇬SG_3
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443

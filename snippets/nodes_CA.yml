@@ -47,28 +47,64 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: aes-256-gcm
-  name: 🇨🇦132053 | ⚡️Telegram = t.me/L...
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.128
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '未命名 #33'
-  password: MiTiVPN
+- name: 🇨🇦132229 | ⚡️Telegram = t.me/S...
+  password: Telegram_healer_config
   port: 443
-  server: 104.18.6.178
+  server: 104.21.4.124
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- name: 🇨🇦132056 | ⚡️Telegram = t.me/L...
-  password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
-  port: 12001
-  server: supersouth.xn--mesv7f5toqlp.club
-  skip-cert-verify: true
+    path: /tr/W3Ei3SdcW9sRVMLIbEd8sB1lm?ed=2560
+- name: 🇨🇦132146 | ⚡️Telegram = t.me/S...
+  password: humanity
+  port: 443
+  server: 104.16.73.213
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦132260 | ⚡️Telegram = t.me/S...
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇨🇦132148 | ⚡️Telegram = t.me/S...
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 美国 080
+  network: ws
+  port: 443
+  server: 104.21.95.165
+  servername: sareikela.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sareikela.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 美国 113
+  network: tcp
+  port: 18000
+  server: 134.195.196.211
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 加拿大 001
@@ -580,13 +616,15 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_110
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.118.10
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
   name: 未知20
@@ -616,22 +654,120 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
-- cipher: aes-128-gcm
-  name: 🇨🇦CA_22
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0051 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.20
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-3651 | 3.02...
+  name: 🇨🇦CA-85.208.108.20-0050 | 0.0M...
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0049 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0048 | 0.0M...
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0042 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 72.140.224.195
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-138.197.166.205-0041 | 0....
+  password: Ultr@r00t_2017
+  port: 811
+  server: 138.197.166.205
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0040 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 802
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0039 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0038 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0037 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0036 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.154
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0035 | 0.0M...
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.20
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.18-0034 | 0.0M...
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 85.208.108.18
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0032 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 72.140.224.195
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0031 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 72.140.224.195
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-0147 | 0.0M...
   password: faBAoD54k87UJG7
   port: 2376
   server: 85.208.108.60
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-196.247.59.154-0092 | 2.0...
+  name: 🇨🇦CA-196.247.59.154-0152 | 0.0...
   password: G!yBwPWH3Vao
   port: 805
   server: 196.247.59.154
@@ -645,79 +781,30 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.20-0081 | 0.04...
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.20
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.18-0077 | 0.0M...
+  name: 🇨🇦CA-85.208.108.18-0167 | 0.0M...
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 85.208.108.18
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.58-0070 | 0.0M...
+  name: 🇨🇦CA-85.208.108.58-0174 | 0.0M...
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 85.208.108.58
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.20-0066 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.20
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.58-0056 | 0.0M...
+  name: 🇨🇦CA-85.208.108.58-0189 | 0.0M...
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.58
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.18-0028 | 0.0M...
+  name: 🇨🇦CA-85.208.108.18-0214 | 0.0M...
   password: Y6R9pAtvxxzmGC
   port: 5001
-  server: 85.208.108.18
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0189 | 0.0M...
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.20-0190 | 0.0M...
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 85.208.108.20
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0191 | 0.0M...
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.93
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0193 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.93
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.18-0204 | 0.0M...
-  password: Y6R9pAtvxxzmGC
-  port: 8888
   server: 85.208.108.18
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888

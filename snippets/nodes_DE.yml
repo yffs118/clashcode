@@ -1,13 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '德國丨yoyapai.com_3 #2'
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -24,41 +15,43 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- cipher: chacha20-ietf-poly1305
-  name: Germany_Frankfurt am Main_ss_1...
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 152.70.26.250
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇩🇪132040 | ⚡️Telegram = t.me/L...
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 145.239.1.100
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪132076 | ⚡️Telegram = t.me/L...
-  password: 09553aee-5191-4870-a312-51d053ea668b
-  port: 443
-  server: 80.78.132.177
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 德国 003
+  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
   network: tcp
-  port: 1020
-  server: nlt.reata.ir
+  port: '2053'
+  server: 57.129.121.230
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-141.94.141.20-0190 | 0.0M...
+  network: ws
+  port: 80
+  server: 141.94.141.20
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec
+  ws-opts:
+    headers:
+      Host: 141.94.141.20
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 未知22
+  network: tcp
+  port: 2053
+  server: de.connfull.org
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+  uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
 - alterId: 0
   cipher: auto
-  name: 德国 004
+  name: 德国 003
   network: ws
   port: 80
   server: 159.89.29.136
@@ -72,14 +65,24 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知22
+  name: 未知125
   network: tcp
-  port: 2053
-  server: de.connfull.org
+  port: 8585
+  server: 165.227.138.218
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
+  uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
+- alterId: 0
+  cipher: auto
+  name: 未知127
+  network: tcp
+  port: 4452
+  server: x2.mehradservice.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 389625c7-c891-4f61-9f98-478058744ada
 - alterId: 0
   cipher: auto
   name: 德国 006
@@ -759,7 +762,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 058
+  name: 德国 062
   network: tcp
   port: 2053
   server: 178.63.237.158
@@ -768,31 +771,36 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 德国 059
+  name: 德国 063
   network: tcp
   port: 51459
   server: 91.107.139.186
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-165.227.175.88-3629 | 0.0...
+  network: ws
+  port: 28164
+  server: 165.227.175.88
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+  ws-opts:
+    path: /
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0043 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0199 | 0.0M...
   password: KixLvKzwjekG00rm
   port: 8080
   server: 145.239.1.100
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0037 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0205 | 0.0M...
   password: RexnBgU7EV5ADxG
   port: 7002
-  server: 145.239.1.100
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0025 | 0.0M...
-  password: Y6R9pAtvxxzmGC
-  port: 3389
   server: 145.239.1.100
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
@@ -846,6 +854,23 @@ proxies:
     headers:
       Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇩🇪 DE 641 | ⬇️ 63KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -884,18 +909,11 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇩🇪DE_58
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
+  name: 🇩🇪DE_32
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alpn:

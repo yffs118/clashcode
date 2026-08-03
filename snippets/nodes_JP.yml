@@ -1,105 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '美國節點_1 #2'
-  network: ws
-  port: 24202
-  server: 2a02:6ea0:d32f::f8fe:349b
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  ws-opts:
-    headers:
-      Host: 2a02:6ea0:d32f::f8fe:349b
-    path: /github.com/Alvin9999-newpac/fanqiang
-- cipher: chacha20-ietf-poly1305
-  name: '日本節點丨yoyapai.com #2'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 54.250.165.160
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #19'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 54.46.77.161
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #118'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.166.58.27
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #120'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 95.40.51.248
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #145'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 35.77.80.32
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #134'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 18.163.123.229
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #149'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.181.205.36
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Node #79'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 43.199.32.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 日本(免费节点)_3
   network: ws
   password: '!!str 521314'
@@ -114,17 +13,14 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- alterId: 0
-  name: 🇯🇵JP日本
+- name: '日本|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 49811
   server: 16.162.191.180
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
+  sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇯🇵JP日本3
@@ -150,27 +46,32 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇯🇵JP_1|5.0MB/s #1'
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
+- alterId: 0
+  name: 🇯🇵JP日本
+  network: tcp
+  password: BxceQaOe
+  port: 49811
+  server: 16.162.191.180
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: t.me%2Fripaojiedian
+  tls: true
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇯🇵JP_2|5.6MB/s #1'
-  password: ND91608427
-  port: 443
-  server: relaxing-bluebird.rooster465.autos
-  skip-cert-verify: true
-  sni: relaxing-bluebird.rooster465.autos
-  type: trojan
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇯🇵JP_3|4.8MB/s #1'
+  name: 🇯🇵JP_1|5.4MB/s - 195ms
   network: tcp
   password: ND91608427
-  port: '443'
+  port: 443
+  server: casual-bee.rooster465.autos
+  skip-cert-verify: true
+  sni: casual-bee.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'JP_speednode_0010 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
   server: definite-sturgeon.rooster465.autos
   skip-cert-verify: true
   sni: definite-sturgeon.rooster465.autos
@@ -178,41 +79,255 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇯🇵JP_4|3.1MB/s #1'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 162.159.44.100
+  name: 🇯🇵JP_3|4.4MB/s - 353ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: tough-robin.rooster465.autos
   skip-cert-verify: true
-  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: tough-robin.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 'JP_speednode_0011 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 日期：08-02 - 39ms
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_6|5.8MB/s - 160ms
+  password: amazonskr05
+  port: 443
+  server: 52.194.190.172
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_7|3.9MB/s - 175ms
   network: tcp
-  port: 1233
-  server: 143.110.145.0
-  sni: p05.rghvf.sbs
-  tls: true
-  type: vmess
-  uuid: 9b6419f8-8120-442e-a48c-6bf52aef0abf
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 437ms
+  password: ND91608427
+  port: 443
+  server: better-molly.rooster465.autos
+  skip-cert-verify: true
+  sni: better-molly.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_8|2.3MB/s - 174ms
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本_1 - 41ms
+  password: ND91608427
+  port: 443
+  server: picked-guinea.rooster465.autos
+  skip-cert-verify: true
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_9|4.2MB/s - 167ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  skip-cert-verify: true
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_10|4.3MB/s - 169ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: learning-leopard.rooster465.autos
+  skip-cert-verify: true
+  sni: learning-leopard.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_11|5.4MB/s - 189ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: social-mutt.rooster465.autos
+  skip-cert-verify: true
+  sni: social-mutt.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_12|5.6MB/s - 165ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: smart-pup.rooster465.autos
+  skip-cert-verify: true
+  sni: smart-pup.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_13|3.1MB/s - 166ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: perfect-slug.rooster465.autos
+  skip-cert-verify: true
+  sni: perfect-slug.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_14|4.8MB/s - 439ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: sensible-mongrel.rooster465.autos
+  skip-cert-verify: true
+  sni: sensible-mongrel.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_15|2.3MB/s - 284ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: true
+  sni: thankful-mustang.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_18|5.4MB/s - 166ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: wise-bengal.rooster465.autos
+  skip-cert-verify: true
+  sni: wise-bengal.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_20|2.4MB/s - 170ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: becoming-hare.rooster465.autos
+  skip-cert-verify: true
+  sni: becoming-hare.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_21|4.7MB/s - 165ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: prompt-duckling.rooster465.autos
+  skip-cert-verify: true
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_22|5.6MB/s - 167ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: nearby-egret.rooster465.autos
+  skip-cert-verify: true
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_23|3.3MB/s - 281ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: internal-sunbird.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_24|4.8MB/s - 168ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: clear-snail.rooster465.autos
+  skip-cert-verify: true
+  sni: clear-snail.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_25|4.9MB/s - 169ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: immense-gnu.rooster465.autos
+  skip-cert-verify: true
+  sni: immense-gnu.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_26|5.5MB/s - 170ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: healthy-louse.rooster465.autos
+  skip-cert-verify: true
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_27|2.6MB/s - 167ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: moral-buzzard.rooster465.autos
+  skip-cert-verify: true
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_28|5.4MB/s - 296ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: real-werewolf.rooster465.autos
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_29|4.7MB/s - 300ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: sure-humpback.rooster465.autos
+  skip-cert-verify: true
+  sni: sure-humpback.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_30|5.3MB/s - 166ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: devoted-heron.rooster465.autos
+  skip-cert-verify: true
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇯🇵JP_32|4.9MB/s - 303ms
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: stunning-mite.rooster465.autos
+  skip-cert-verify: true
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本_1 - 61ms
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: Hkdcrtc-e.catcat321.com
@@ -238,56 +353,14 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵_日本_114
-  password: JT80563429
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
   port: 443
-  server: champion-alien.rooster465.autos
+  server: relaxing-bluebird.rooster465.autos
   skip-cert-verify: true
-  sni: champion-alien.rooster465.autos
-  tls: true
+  sni: relaxing-bluebird.rooster465.autos
   type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 日本/Japan-2
-  network: ws
-  port: 4010
-  server: 45.76.202.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
-  ws-opts:
-    path: /liksuzcp
-- alterId: 0
-  cipher: auto
-  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #1'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: None
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 日本 001
-  network: ws
-  port: 2052
-  server: 146.56.118.227
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
-  ws-opts:
-    headers:
-      Host: 146.56.118.227
-    path: /
 - alterId: 0
   cipher: auto
   name: 日本 002
@@ -722,11 +795,33 @@ proxies:
     headers:
       host: jp02.a0a.xyz
     path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan-2
+  network: ws
+  port: 4010
+  server: 45.76.202.45
+  type: vmess
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    path: /liksuzcp
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP-45.76.202.45-0140 | 0.0MB
+  network: ws
+  port: 4010
+  server: 45.76.202.45
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    path: /
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_10
+  name: 🇯🇵JP_9
   password: shadowsocks
   port: 443
-  server: 149.22.87.241
+  server: 149.22.87.204
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
@@ -737,25 +832,20 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_9
+  name: 🇯🇵JP_10
   password: shadowsocks
   port: 443
-  server: 149.22.87.204
+  server: 149.22.87.241
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-45.76.202.45-0176 | 0.0MB
-  network: ws
-  port: 4010
-  server: 45.76.202.45
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
-  ws-opts:
-    path: /
-- name: 🇯🇵JP-140.227.60.205-0058 | 0.0...
+- cipher: aes-256-cfb
+  name: 🇯🇵JP-43.207.68.169-3440 | 0.0M...
+  password: amazonskr05
+  port: 443
+  server: 43.207.68.169
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇯🇵JP-140.227.60.205-0187 | 0.0...
   password: 1b753dd99c1291e87a7b239f2928fedd
   port: 443
   server: trs06.bolab.net
@@ -763,66 +853,10 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.101-0050 | 0....
+  name: 🇯🇵JP-185.172.113.101-0194 | 0....
   password: G!yBwPWH3Vao
   port: 810
   server: 185.172.113.101
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.102-0195 | 0....
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 185.172.113.102
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.101-0196 | 0....
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 185.172.113.101
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵JP-133.18.230.121-0198 | 0.0...
-  password: 1b753dd99c1291e87a7b239f2928fedd
-  port: 443
-  server: trs05.bolab.net
-  skip-cert-verify: false
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.106-0199 | 0....
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 185.172.113.106
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.102-0200 | 0....
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 185.172.113.102
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.106-0201 | 0....
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 185.172.113.106
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-89.31.126.150-0202 | 0.0M...
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 89.31.126.150
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.106-0203 | 0....
-  password: G!yBwPWH3Vao
-  port: 802
-  server: 185.172.113.106
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
@@ -838,6 +872,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵 JP 120 | ⬇️ 5MB/s
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40003
+  server: xunlinknode.csdjhajkshdjkas.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
