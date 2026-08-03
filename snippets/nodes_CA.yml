@@ -1,10 +1,10 @@
 proxies:
-- name: 美国(免费节点)_113
+- name: 'Node #94'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
@@ -47,7 +47,14 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦@V2rayng_Fast
+- cipher: aes-256-gcm
+  name: 🇨🇦132053 | ⚡️Telegram = t.me/L...
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.128
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '未命名 #33'
   password: MiTiVPN
   port: 443
   server: 104.18.6.178
@@ -55,28 +62,13 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- alterId: 0
-  cipher: auto
-  name: 美国 141
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
-  servername: ''
+- name: 🇨🇦132056 | ⚡️Telegram = t.me/L...
+  password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
+  port: 12001
+  server: supersouth.xn--mesv7f5toqlp.club
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 美国 140
-  network: tcp
-  port: 18000
-  server: 23.162.200.198
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 加拿大 001
@@ -589,7 +581,7 @@ proxies:
       Host: www.11640247.xyz
     path: /path/1704188270531
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_204
+  name: 🇺🇸US_110
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
@@ -597,7 +589,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知79
+  name: 未知20
   network: ws
   port: 443
   server: 158.51.121.63
@@ -624,6 +616,13 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_22
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.60-3651 | 3.02...
   password: faBAoD54k87UJG7
@@ -639,7 +638,7 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
-  name: 🇨🇦CA_9
+  name: 🇨🇦CA_2
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
@@ -737,11 +736,4 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇨🇦CA_2
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 185.196.61.82
-  type: ss
   uuid: 88888888-8888-8888-8888-888888888888

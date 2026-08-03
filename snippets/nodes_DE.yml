@@ -25,23 +25,27 @@ proxies:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_9|2.4MB/s
+  name: Germany_Frankfurt am Main_ss_1...
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
   server: 152.70.26.250
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 法国 008
-  network: tcp
-  port: 27726
-  server: fj260403.freechatup.com
+- cipher: aes-256-gcm
+  name: 🇩🇪132040 | ⚡️Telegram = t.me/L...
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 145.239.1.100
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪132076 | ⚡️Telegram = t.me/L...
+  password: 09553aee-5191-4870-a312-51d053ea668b
+  port: 443
+  server: 80.78.132.177
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 德国 003
@@ -68,7 +72,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知92
+  name: 未知22
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -860,7 +864,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_90
+  name: 🇩🇪DE_142
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -871,15 +875,24 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /bkdicj
+- name: 🇩🇪DE_173
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: 157.254.38.210
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_146
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.33.205
+  name: 🇩🇪DE_1
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇩🇪DE_50
+  name: 🇩🇪DE_58
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
@@ -887,11 +900,11 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_83
+  name: 🇩🇪DE_137
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
-  server: hyperon.site
+  server: cctvhikvision.center
   sni: com.digitalposts.dpdns.org
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
@@ -899,11 +912,11 @@ proxies:
     path: /bkdicj
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_85
+  name: 🇩🇪DE_134
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
-  server: cctvhikvision.center
+  server: hyperon.site
   sni: com.digitalposts.dpdns.org
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888

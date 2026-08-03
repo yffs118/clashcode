@@ -42,25 +42,10 @@ proxies:
       Host: tjsp.hhxaf.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 'KR韩国 #4'
+  name: KR韩国
   network: ws
   port: 12545
   server: 211.220.53.131
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: 'KR韩国 #5'
-  network: ws
-  port: 11019
-  server: 211.104.99.209
   servername: sni.ehb.cc.cd
   skip-cert-verify: false
   tls: true
@@ -76,8 +61,23 @@ proxies:
   network: ws
   port: 11019
   server: 211.104.99.209
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  servername: sni.ehb.cc.cd
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 'KR韩国(mibei77.com 米贝节点分享)_4 #3'
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -87,7 +87,7 @@ proxies:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
 - client-fingerprint: chrome
-  name: 'KR韩国 #3'
+  name: 'KR韩国 #1'
   network: ws
   port: 37020
   server: 121.159.11.183
@@ -143,8 +143,51 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
+- name: 'KR_speednode_0070 #1'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
+  uuid: 88888888-8888-8888-8888-888888888888
+- down: ''
+  fingerprint: ''
+  name: 🇰🇷KR_34
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
+  sub_tag: noCache
+  tls: false
+  type: hysteria2
+  up: ''
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_35
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '🇰🇷KR_1|1.1MB/s #1'
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇰🇷KR_1|5.1MB/s
+  name: '🇰🇷KR_4|3.8MB/s #1'
   network: tcp
   password: ND91608427
   port: '443'
@@ -155,18 +198,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.1MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇰🇷KR_3|5.0MB/s
+  name: '🇰🇷KR_5|5.0MB/s #1'
   network: tcp
   password: ND91608427
   port: '443'
@@ -191,16 +223,6 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: 'KR_speednode_0070 #1'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 'KR_speednode_0071 #1'
   network: ws
@@ -216,34 +238,12 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
-- alterId: 0
-  cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    path: /wsproxy
 - name: 韩国/South Korea-3
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷 KR
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
@@ -412,6 +412,19 @@ proxies:
   server: 221.139.79.57
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 韩国/首尔特别市/South Korea/Seoul
+  network: ws
+  port: 8443
+  server: 150.109.240.179
+  servername: www.bing.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
+  ws-opts:
+    path: /wsproxy
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul-2
@@ -597,46 +610,47 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- name: KR韩国
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  sni: hk.catxstar.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷KR_3
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇰🇷KR_8
+- name: 🇰🇷
   network: ws
-  port: 36389
-  server: 183.107.137.157
-  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  port: 16000
+  server: 121.180.225.222
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: ae6f014e-c539-4278-8f21-66c7ad2bbb47
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_7
-  network: tcp
+      Host: sni.latonyamadeline.ndjp.net
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_9
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 韩国_1
+  password: '!!str 521314'
   port: 443
-  server: 132.145.89.30
-  servername: ako.pagate.top
-  tls: true
-  type: vless
-  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  server: 118.218.10.159
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_10
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_8
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 韩国_2
   network: ws
   port: 30021
@@ -650,10 +664,43 @@ proxies:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@marisa_kristi
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
+  name: 🇰🇷KR_28
+  network: ws
+  port: 36389
+  server: 183.107.137.157
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  tls: true
+  type: vless
+  uuid: ae6f014e-c539-4278-8f21-66c7ad2bbb47
+  ws-opts:
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+    path: /@Marisa_kristi
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_12
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
   name: 🇰🇷KR_1
-  network: raw
-  port: 18967
+  network: ws
+  port: 30017
+  server: 211.48.30.184
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  tls: true
+  type: vless
+  uuid: beec57a5-8266-4279-b279-f495bdc70699
+  ws-opts:
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_4
+  network: tcp
+  port: 13672
   reality-opts:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: '!!str 48050fab'
@@ -662,38 +709,6 @@ proxies:
   tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: 🇰🇷KR_19
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: 154.64.226.149
-  skip-cert-verify: true
-  sni: rr1.tube-cat.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 韩国_1
-  password: '!!str 521314'
-  port: 443
-  server: 118.218.10.159
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷KR_13
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: r.KR1.cat.bilibili.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_10
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 韩国_3
   network: ws
   port: 11019
@@ -706,9 +721,93 @@ proxies:
     headers:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@marisa_kristi
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_7
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_18
+  name: 🇰🇷KR_3
+  network: raw
+  port: 443
+  server: ako.pagate.top
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+- name: 🇰🇷KR_17
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_11
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_5
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_19
+  network: tcp
+  port: 18967
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 🇰🇷KR_32
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  skip-cert-verify: true
+  sni: rr2.tube-cat.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇰🇷KR_18
+  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+  port: 443
+  server: vpn-kr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇰🇷KR_26
+  network: ws
+  port: 12016
+  server: 220.72.143.166
+  servername: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+  tls: true
+  type: vless
+  uuid: 9487e433-862e-4b53-893a-5a4f6bc911f0
+  ws-opts:
+    headers:
+      Host: kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_30
   network: raw
   port: 443
   reality-opts:
@@ -719,22 +818,46 @@ proxies:
   tls: true
   type: vless
   uuid: 4a97788b-5d8a-410c-875c-ba36930e185e
-- client-fingerprint: chrome
-  name: 🇰🇷KR_12
-  network: tcp
-  port: 40701
-  reality-opts:
-    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
-    short-id: '!!str 7ef3a8ab2886'
-  server: 43.108.48.169
-  servername: amazon.com
+- name: '🇰🇷 #1'
+  network: ws
+  port: 19530
+  server: 121.180.225.222
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_23
+  network: tcp
+  port: 443
+  server: 132.145.89.30
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+- client-fingerprint: chrome
+  name: 🇰🇷KR_29
+  network: ws
+  port: 10280
+  server: 175.195.149.58
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  tls: true
+  type: vless
+  uuid: 8638521a-7d64-4ad0-9112-83aa1fc19867
+  ws-opts:
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+    path: /@Marisa_kristi
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_11
-  password: XKFKl2rULjIp74
-  port: 8008
+  name: 🇰🇷KR_6
+  password: lGqs95QkFHo2NV
+  port: 5498
   server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888

@@ -1,12 +1,11 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 未知70 9.2KB/s
+  name: 🇨🇳_中国_94 - 340ms
   network: tcp
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
@@ -40,7 +39,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
-  name: HK22
+  name: HK18
   network: tcp
   port: 30835
   server: v35.hdacd.com
@@ -50,7 +49,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 64
   cipher: auto
-  name: 未知51
+  name: 中国 004
   network: tcp
   port: 31778
   server: 183.240.235.166
@@ -60,7 +59,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 未知59
+  name: 未知130
   network: tcp
   port: 41492
   server: 120.232.242.126
@@ -70,7 +69,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 中国 006
+  name: 未知65
   network: tcp
   port: 54402
   server: 120.233.43.20
@@ -80,7 +79,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 未知24
+  name: 未知29
   network: tcp
   port: 45972
   server: 120.232.153.71
@@ -1478,7 +1477,7 @@ proxies:
     path: /rocket
 - alterId: 0
   cipher: auto
-  name: 未知44
+  name: 未知71
   network: tcp
   port: 59121
   server: 129.226.157.220
@@ -1486,6 +1485,19 @@ proxies:
   tls: true
   type: vmess
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- name: 未知 VLESS-387
+  network: tcp
+  port: 35730
+  server: 103.118.29.142
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
+  ws-opts:
+    headers:
+      Host: varzesh3.com
 - name: 香港/Hong Kong
   network: tcp
   port: 45647
@@ -1512,14 +1524,14 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 塞舌尔/Seychelles-2
+- name: 🇳🇱NL_267
   network: ws
   port: 8880
   server: 154.218.15.30
   servername: vms.lifetime47.workers.dev
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1527,16 +1539,6 @@ proxies:
     headers:
       Host: vms.lifetime47.workers.dev
     path: /
-- name: 中国 129
-  network: tcp
-  port: 60101
-  server: 198.44.177.117
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
 - name: 中国 130
   network: ws
   port: 443
@@ -1562,17 +1564,17 @@ proxies:
   type: vless
   udp: true
   uuid: 82c91f31-470c-4ea7-8602-27e3d916d62b
-- name: 中国 132
+- name: 🇺🇸US_218
   network: tcp
   port: 45647
   server: 182.16.61.2
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: 未知 VLESS-751
+- name: 香港 19
   network: tcp
   port: 443
   server: 45.125.32.115
@@ -1582,6 +1584,8 @@ proxies:
   type: vless
   udp: true
   uuid: e2c8fa8c-886d-4649-bd59-cf73bee48b55
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸24 |  4.8MB/s
