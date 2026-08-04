@@ -1,7 +1,22 @@
 proxies:
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪 机场推荐:dafei.de 爱沙尼亚 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 95.85.224.51
+  servername: max.ru
+  sub_tag: noCache
+  tls: true
+  type: vless
+  udp: true
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
 - alterId: 1
   cipher: auto
-  name: 爱沙尼亚 001
+  name: '爱沙尼亚 001 #1'
   network: ws
   port: 8080
   server: 104.160.19.22
@@ -51,6 +66,19 @@ proxies:
   tls: true
   type: vless
   uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_7
+  network: tcp
+  port: 31845
+  reality-opts:
+    public-key: QRfBKijY94gn30sQWyklYIr4UyEXpoqakbN7fY1R_DQ
+    short-id: '!!str 4a1f967b1da8'
+  server: 95.85.228.84
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 88652810-6723-4087-bc65-e7c65cb4fc90
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 🇪🇪EE_5
