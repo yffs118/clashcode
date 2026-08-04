@@ -256,7 +256,7 @@ class Node:
             # Fix IPv6
             self.data['server'] = f"[{self.data['server']}]"
 
-    # ====== 节点类型增强：_load_vmess 保持原样（基础版） ======
+    # ====== 节点类型增强：_load_ss 使用 rsplit ======
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
         try: v.update(json.loads(b64decodes(dt)))
@@ -1164,57 +1164,7 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
 
     print(f"共有 {len(rules)} 条规则")
 
-# ====== 新增：循环引用检测与修复函数 ======
-def fix_proxy_group_loop(groups: List[Dict[str, Any]]) -> None:
-    for group in groups:
-        group_name = group.get('name')
-        if not group_name:
-            continue
-        proxies = group.get('proxies')
-        if proxies and isinstance(proxies, list):
-            if group_name in proxies:
-                proxies.remove(group_name)
-                print(f"  已移除 {group_name} 组中的自引用")
-
-def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
-    name_to_idx = {g['name']: i for i, g in enumerate(groups) if 'name' in g}
-    graph = {g['name']: [] for g in groups if 'name' in g}
-    for g in groups:
-        name = g.get('name')
-        if not name:
-            continue
-        for item in g.get('proxies', []):
-            if item in name_to_idx:
-                graph[name].append(item)
-    visited = set()
-    rec_stack = set()
-    cycle_nodes = set()
-    def dfs(node):
-        visited.add(node)
-        rec_stack.add(node)
-        for neighbor in graph.get(node, []):
-            if neighbor not in visited:
-                if dfs(neighbor):
-                    return True
-            elif neighbor in rec_stack:
-                cycle_nodes.update(rec_stack)
-                return True
-        rec_stack.remove(node)
-        return False
-    for node in graph:
-        if node not in visited:
-            dfs(node)
-    if not cycle_nodes:
-        return
-    print(f"警告：检测到循环引用，涉及组: {', '.join(cycle_nodes)}")
-    for g in groups:
-        if g.get('name') in cycle_nodes:
-            original = g.get('proxies', [])
-            new_proxies = [item for item in original if item not in name_to_idx]
-            g['proxies'] = new_proxies
-            print(f"  已清理组 {g['name']} 的循环引用，保留节点: {new_proxies}")
-
-# ====== 新增：去重函数 ======
+# ====== 新增：去重函数（仅去重，不检测循环） ======
 def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
     seen = set()
     to_remove = []
@@ -1489,12 +1439,6 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
-    # ====== 先对预设组进行循环修复（基础版没有，但预先处理安全） ======
-    fix_proxy_group_loop(conf['proxy-groups'])
-    fix_proxy_group_loop(conf_meta['proxy-groups'])
-    detect_and_break_cycles(conf['proxy-groups'])
-    detect_and_break_cycles(conf_meta['proxy-groups'])
-
     # Clash
     conf['proxies'] = proxies
     for group in conf['proxy-groups']:
@@ -1514,17 +1458,12 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-        # ====== 新增：添加地区组后再次修复循环和去重 ======
-        fix_proxy_group_loop(conf['proxy-groups'])
-        detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
-
         # 确保 🗺️ 选择地区 组有内容
         if not conf['proxy-groups'][-1].get('proxies'):
             conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
             print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
 
-    # ====== 对 Clash 配置再次去重（安全起见） ======
+    # ====== 新增：写入前去重（仅去重，不检测循环） ======
     deduplicate_groups(conf['proxy-groups'])
 
     try:
@@ -1559,16 +1498,11 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-        # ====== 新增：添加地区组后再次修复循环和去重 ======
-        fix_proxy_group_loop(conf['proxy-groups'])
-        detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
-
         if not conf['proxy-groups'][-1].get('proxies'):
             conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
             print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
 
-    # ====== 对 Meta 配置再次去重 ======
+    # ====== 新增：写入前去重（仅去重，不检测循环） ======
     deduplicate_groups(conf['proxy-groups'])
 
     if dns_mode:
