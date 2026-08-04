@@ -1,11 +1,4 @@
 proxies:
-- name: 🇸🇪 Sweden Stockholm | ⏱1789ms ...
-  network: ws
-  password: MiTiVPN
-  port: 80
-  server: 151.101.74.172
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 瑞典 001
@@ -57,20 +50,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 瑞典 005
-  network: ws
-  port: 80
-  server: 5.249.160.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
-  ws-opts:
-    headers:
-      Host: 5.249.160.226
-    path: /vmess
 - alterId: 1
   cipher: auto
   name: 瑞典 006

@@ -9,19 +9,23 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 4@shadowsockskeys
+  name: 🇹🇼 Taiwan New Taipei City | ⏱1...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 114.26.123.156
+  server: 61.231.30.84
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 3@shadowsockskeys
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.161.244
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

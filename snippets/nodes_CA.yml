@@ -47,33 +47,32 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦133013 | ⚡️Telegram = t.me/S...
+- name: '未命名 #52'
   network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 172.67.118.45
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇨🇦133043 | ⚡️Telegram = t.me/S...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-- name: 🇨🇦133029 | ⚡️Telegram = t.me/S...
   password: MiTiVPN
   port: 80
-  server: 151.101.130.172
+  server: 151.101.194.172
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇦 | @NormanConfig
+  password: humanity
+  port: 443
+  server: 104.18.152.77
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /assignment
+- name: '🇨🇦 | @NormanConfig #1'
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: assignment
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133156 | ⚡️Telegram = t.me/L...
+  name: 🇨🇦133107 | ⚡️Telegram = t.me/S...
   network: ws
   port: '80'
   server: 104.19.35.138
@@ -86,7 +85,7 @@ proxies:
     path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133157 | ⚡️Telegram = t.me/L...
+  name: 🇨🇦133108 | ⚡️Telegram = t.me/S...
   network: ws
   port: '2095'
   server: 104.19.45.146
@@ -97,6 +96,38 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133085 | ⚡️Telegram = t.me/S...
+  network: httpupgrade
+  port: '8080'
+  server: 172.66.44.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bd079453-339d-4c1f-8859-92e3e7029abd
+- alterId: 0
+  cipher: auto
+  name: 美国 140
+  network: tcp
+  port: 18000
+  server: 134.195.196.211
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 美国 139
+  network: tcp
+  port: 18000
+  server: 23.162.200.198
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: US16
@@ -618,15 +649,6 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: 加拿大 039
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: rc4-md5
   name: 🇨🇦CA_4
   password: 14fFPrbezE3HDZzsMOr6
@@ -655,6 +677,13 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_3
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.61-0199 | 0.0M...
   password: XKFKl2rULjIp74

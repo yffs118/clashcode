@@ -26,15 +26,29 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 'HK_speednode_0008 #2'
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
+- name: 🇸🇬 新加坡|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 52.194.222.108
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬 新加坡2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 25675
+  server: 16.162.119.43
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡
@@ -60,7 +74,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '新加坡3|@ripaojiedian #1'
+- name: '新加坡3|@ripaojiedian #2'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -69,7 +83,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 新加坡3|@ripaojiedian
+- name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -92,13 +106,6 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬1@shadowsockskeys
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 84.247.49.211
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 4
   cipher: auto
   name: 新加坡 001

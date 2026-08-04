@@ -39,16 +39,6 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: 中国 001
   network: ws
@@ -1526,16 +1516,6 @@ proxies:
     headers:
       Host: varzesh3.com
     path: /
-- name: 🇹🇼TW_7
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - flow: ''
   name: 中国 131
   network: ws
