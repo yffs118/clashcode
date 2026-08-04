@@ -27,59 +27,8 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- name: '🇰🇷KR_2|3.6MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: communal-sunbird.rooster465.autos
-  skip-cert-verify: true
-  sni: communal-sunbird.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_12|4.9MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: select-ferret.rooster465.autos
-  skip-cert-verify: true
-  sni: select-ferret.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇰🇷KR_7|4.8MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  skip-cert-verify: true
-  sni: distinct-llama.rooster465.autos
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|5.4MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
-  server: 43.203.119.20
-  skip-cert-verify: false
-  sni: uncommon-feline.rooster465.autos
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 🇰🇷KR_5|1.1MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
-  server: 43.203.244.203
-  skip-cert-verify: false
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 'KR_speednode_0012 #3'
+  name: 'KR_speednode_0012 #2'
   network: tcp
   password: ND91608427
   port: 443
@@ -89,7 +38,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'KR_speednode_0013 #3'
+- name: 'KR_speednode_0013 #2'
   network: tcp
   password: ND91608427
   port: 443
@@ -99,102 +48,51 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_5|4.3MB/s #1'
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 South Korea Incheon | ⏱1362...
+  network: ws
+  port: '10509'
+  server: 115.89.98.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 未知64 727.2KB/s
   network: tcp
-  password: ND91608427
   port: 443
-  server: chief-bluegill.rooster465.autos
+  server: 140.238.2.250
+  servername: ''
   skip-cert-verify: true
-  sni: chief-bluegill.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_3|4.6MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_4|4.9MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: humorous-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: humorous-malamute.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'South Korea_Incheon_trojan_116... #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: upward-puma.rooster465.autos
-  skip-cert-verify: true
-  sni: upward-puma.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_6|5.2MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: main-whippet.rooster465.autos
-  skip-cert-verify: true
-  sni: main-whippet.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_8|5.2MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: uncommon-feline.rooster465.autos
-  skip-cert-verify: true
-  sni: uncommon-feline.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_10|4.9MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: pure-ram.rooster465.autos
-  skip-cert-verify: true
-  sni: pure-ram.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_13|5.0MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: striking-maggot.rooster465.autos
-  skip-cert-verify: true
-  sni: striking-maggot.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_11|2.8MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: exotic-chow.rooster465.autos
-  skip-cert-verify: true
-  sni: exotic-chow.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇰🇷KR_9|3.9MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: intimate-moray.rooster465.autos
-  skip-cert-verify: true
-  sni: intimate-moray.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 韩国 001
+  tls: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: '🇰🇷 Join+Telegram:@FarahVPN 🇰🇷 #1'
+  network: ws
+  port: 8443
+  server: 150.109.240.179
+  servername: www.bing.com
+  tls: true
+  type: vmess
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wsproxy
+- name: 🇰🇷KR-13.125.239.182-0292 | 18....
   network: tcp
   password: ND91608427
   port: 443
   server: saving-octopus.rooster465.autos
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: saving-octopus.rooster465.autos
   type: trojan
   udp: true
@@ -351,51 +249,38 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知132 479.4KB/s
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0144 | 0.12...
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    path: /wsproxy
-- alterId: 0
-  cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-2
   port: 80
   server: 217.142.138.61
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-3
-  port: 443
-  server: 140.238.2.250
+  name: 未知125
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- name: 🇰🇷KR-43.203.119.20-30
+  password: ND91608427
+  port: 443
+  server: uncommon-feline.rooster465.autos
+  skip-cert-verify: true
+  sni: uncommon-feline.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-152.67.218.38-3372 | 4.96...
+  name: 🇰🇷KR-152.67.218.38-3197 | 4.44...
   network: ws
   port: 443
   server: 152.67.218.38
@@ -405,80 +290,65 @@ proxies:
   uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   ws-opts:
     path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0145 | 0....
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+- cipher: aes-256-gcm
+  name: 🇰🇷KR-141.164.45.187-5801 | 0.1...
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-0142 | 0.2...
+  name: 🇰🇷KR_1
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-0234 | 0....
+  name: 🇰🇷KR-211.178.105.134-5864 | 0....
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0233 | 0....
+  name: 🇰🇷KR-218.237.185.230-6001 | 0....
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-0125 | 0.0M...
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    headers:
-      Host: YouTube-aweikeji
-    path: /
-- cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-0143 | 0.0...
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-5865 | 0....
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-146.56.118.227-0172 | 0.0...
+  name: 🇰🇷KR-152.69.230.170-0193 | 0.0...
   network: ws
-  port: 2052
-  server: 146.56.118.227
+  port: 80
+  server: 152.69.230.170
+  servername: 🇰🇷KR-152.69.230.170-0193 | 0.0MB
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-146.56.118.227-0197 | 0.0...
+  name: 🇰🇷KR-146.56.40.117-0248 | 0.0M...
   network: ws
-  port: 2052
-  server: 146.56.118.227
+  port: 27675
+  server: 146.56.40.117
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
   ws-opts:
-    headers:
-      Host: YouTube-aweikeji
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
@@ -544,9 +414,23 @@ proxies:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_9
-  password: XKFKl2rULjIp74
-  port: 8008
+  name: 🇰🇷KR_19
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_3
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_7
+  password: Y6R9pAtvxxzmGC
+  port: 8888
   server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
@@ -558,60 +442,32 @@ proxies:
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_10
+  name: 🇰🇷KR_6
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_8
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_12
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_7
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_11
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_5
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 141.164.45.187
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷KR_32
+- name: 未知 TROJAN-234
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: 154.64.226.149
-  skip-cert-verify: true
-  sni: rr2.tube-cat.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_6
-  password: lGqs95QkFHo2NV
-  port: 5498
+  name: 🇰🇷KR_5
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_4
+  password: cdBIDV42DCwnfIN
+  port: 8119
   server: 141.164.45.187
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888

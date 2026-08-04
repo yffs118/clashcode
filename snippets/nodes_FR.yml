@@ -27,9 +27,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /WangCai-8
-  ws-path: h=%2FWangCai-8
-- alterId: 0
-  name: 🇫🇷FR法国2
+- name: 'FR法国(mibei77.com 米贝节点分享)_4 #3'
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
   server: blackshadow.dpdns.org
@@ -41,20 +39,100 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
-  ws-path: h=%2F195.123.218.174-443
-- client-fingerprint: chrome
-  name: '🇫🇷FR_1|2.5MB/s #1'
-  network: raw
-  password: QV31589740
-  port: '443'
-  server: great-krill.rooster465.autos
-  skip-cert-verify: false
+- name: 🇫🇷_法国_37
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_法国_42
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_法国_43
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_法国_44
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 法国 001
+  name: 🇫🇷_法国_218
+  network: ws
+  port: 443
+  server: 57.128.183.3
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_228
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_259
+  network: ws
+  port: 23388
+  server: 2001:bc8:32d7:1a9::2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+- name: 🇫🇷132993 | ⚡️Telegram = t.me/S...
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 未知52 26.0KB/s
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -64,7 +142,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知109
+  name: 法国 002
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -74,7 +152,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知27 33.8KB/s
+  name: 未知61 30.2KB/s
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -84,21 +162,12 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知133
+  name: 法国 004
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 法国 005
-  network: tcp
-  port: 27726
-  server: fj260403.freechatup.com
-  skip-cert-verify: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -430,6 +499,15 @@ proxies:
     headers:
       Host: a.baradiha.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 法国/France
+  port: 2096
+  server: 57.128.174.124
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ae91113b-915f-4a56-b998-e52d8a12da39
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #4'
   password: asdKkaskJKfnsa
@@ -437,104 +515,32 @@ proxies:
   server: 51.158.54.209
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR-51.38.118.42-0030 | 0.0MB
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0208 | 0.0...
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 149.202.82.172
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-141.94.141.20-0210 | 0.0M...
+  name: 🇫🇷FR-51.77.212.145-0148 | 0.0M...
   network: ws
   port: 80
-  server: 141.94.141.20
+  server: 51.77.212.145
+  servername: 🇫🇷FR-51.77.212.145-0148 | 0.0MB
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec
+  uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652
   ws-opts:
     path: /
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_1167
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷FR-146.59.43.129-0241 | 0.0M...
   network: ws
-  password: RTp$2utwQ4wVakOd
-  port: 2083
-  server: 172.67.205.90
-  sni: b22NTZaJTafvkEW6Em2TH68a6030-oGU.hIraD228.WorKERs.DEV
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /tr/XgIu2jgnLVHzhImvvHGnoibem
-- name: 🇫🇷FR_643
-  network: ws
-  password: humanity
   port: 443
-  server: 104.16.7.70
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+  server: 146.59.43.129
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
   ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_627
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.143
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_409
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_626
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.77
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_363
-  network: ws
-  password: bd85f5fe32d9446a8b1f59e4f710455b
-  port: 443
-  server: 104.24.163.206
-  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_648
-  password: diOMBU5IDvJcFqyNPbRjYR
-  port: 10443
-  server: 137.74.119.18
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷FR_60
+    path: /
+- name: 🇫🇷FR_261
   network: ws
   password: humanity
   port: 443
@@ -544,31 +550,36 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_1231
+- name: 🇫🇷FR_1131
   network: ws
-  password: Telegram_healer_config
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.21.17.125
-  sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
+  server: 172.66.173.172
+  sni: yks-dd9.pages.dev
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /tr/hYgAqUlh5GyczDyXP?ed
-- name: 🇫🇷FR_318
+    path: /?ed=2048
+- name: 🇫🇷FR_363
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.8
+  server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_28
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_1328
+  name: 🇫🇷FR_1064
   network: ws
   password: Telegram_healer_config
   port: 443
@@ -578,198 +589,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
-- name: 🇫🇷FR_1200
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.152
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_645
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.207
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_1330
-  network: ws
-  password: Telegram_healer_config
-  port: 443
-  server: soskeynets.z6-0hlnubjibwzpa85.workers.dev
-  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
-- name: 🇫🇷FR_1189
-  network: ws
-  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
-  port: 443
-  server: app-538961.user-y0o4gm.workers.dev
-  sni: app-538961.user-y0o4gm.workers.dev
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /
-- name: 🇫🇷FR_314
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_629
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_128
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_642
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_103
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_634
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_636
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_641
-  network: ws
-  password: humanity
-  port: 443
-  server: 86.38.214.205
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_628
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_111
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.155
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_95
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_925
-  network: ws
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  port: 443
-  server: shazira.app
-  skip-cert-verify: true
-  sni: shazira.app
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /Novan-ID9
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: 🇫🇷FR_136
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_478
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_451
+- name: 'FR法国 #1'
   network: ws
   password: 19877587-ed94-4033-88cd-4ac50a5e8718
   port: 443
@@ -782,56 +602,130 @@ proxies:
     path: /WangCai-8
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_1169
+  name: 🇫🇷FR_1029
   network: ws
-  password: RTp$2utwQ4wVakOd
-  port: 2096
-  server: www.speedtest.net
-  sni: B22NTzajtafVkEw6em2tH68A6030-ogu.hiRAd228.WOrkErs.DEv
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /tr/BxxNmAniNAjdpMwbN13Qhd0jH8
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_171
-  network: ws
-  password: 988sR-269PKCKlb&3pMrFTEr
+  password: MiTiVPN
   port: 443
-  server: jquery.com
-  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  server: 104.21.18.41
+  skip-cert-verify: true
+  sni: Gb21-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-- name: 🇫🇷FR_639
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇫🇷FR_1134
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_772
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  sni: vless.herogoing.top
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr?ed=2560
+- name: 🇫🇷FR_245
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
+  server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_135
+- name: 🇫🇷FR_1128
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 'FR法国 #2'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: false
+  sni: support.zoom.us.blackshadow.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /195.123.218.174-443
+- name: 🇫🇷FR_19
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.50
+  server: 104.18.152.77
   sni: www.ignitelimit.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- cipher: aes-256-gcm
-  name: '未知 SS-213 #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 64.31.63.244
-  type: ss
+- name: 🇫🇷FR_857
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  sni: azadnet-5vk.pages.dev
+  type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷FR_134
+  ws-opts:
+    path: /azadnet-5vk.pages.dev/?ed=2560
+- name: 🇫🇷FR_464
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_952
+  network: ws
+  password: 257d8622-6701-4c98-a432-67a9696f58ae
+  port: 443
+  server: shazira.app
+  skip-cert-verify: true
+  sni: shazira.app
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /Novan-ID9
+- name: 🇫🇷FR_25
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_871
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_527
   network: ws
   password: humanity
   port: 443
@@ -841,35 +735,21 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_87
+- name: 🇫🇷FR_1124
   network: ws
-  password: humanity
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
+  server: cf.877771.xyz
+  sni: yks-dd9.pages.dev
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /assignment
+    path: /?ed=2048
 - alpn:
   - h3
   - h2
   - http/1.1
-  name: 🇫🇷FR_637
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.158
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇫🇷FR_81
+  name: 🇫🇷FR_307
   network: ws
   password: humanity
   port: 443
@@ -881,7 +761,327 @@ proxies:
     path: /assignment
 - alpn:
   - http/1.1
-  name: 🇫🇷FR_1281
+  name: 🇫🇷FR_959
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 188.114.96.7
+  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
+- name: 🇫🇷FR_367
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_397
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1125
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: xn--b6gac.eu.org
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_347
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_132
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_474
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_150
+  network: ws
+  password: bd85f5fe32d9446a8b1f59e4f710455b
+  port: 443
+  server: 104.24.163.206
+  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
+- name: 🇫🇷FR_451
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_169
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1066
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: soskeynets.z6-0hlnubjibwzpa85.workers.dev
+  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
+- name: 🇫🇷FR_1119
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.4.103
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_259
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_247
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_428
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_853
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1121
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cnamefuckxxs.yuchen.icu
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_655
+  password: diOMBU5IDvJcFqyNPbRjYR
+  port: 10443
+  server: 137.74.119.18
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷FR_1122
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_260
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_47
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: blackshadow.dpdns.org
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /195.123.218.174-443
+- name: 🇫🇷FR_1127
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.21.84.3
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_564
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_525
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1026
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.18.42.68
+  skip-cert-verify: true
+  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_981
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.17.125
+  sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr/hYgAqUlh5GyczDyXP?ed
+- name: 🇫🇷FR_880
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_856
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- cipher: aes-256-gcm
+  name: 未知 SS-226
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 64.31.63.244
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷FR_56
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  sni: vless.herogoing.top
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /tr?ed=2560
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1028
   network: ws
   password: MiTiVPN
   port: 443
@@ -892,203 +1092,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇫🇷FR_630
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_114
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.3
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_177
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /195.123.218.174-443
-- name: 🇫🇷FR_320
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.121
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_197
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.21.26.36
-  sni: vless.herogoing.top
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /tr?ed=2560
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_61
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_349
-  network: ws
-  password: 988sR-269PKCKlb&3pMrFTEr
-  port: 443
-  server: 104.18.155.119
-  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-- name: 🇫🇷FR_241
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.246
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_631
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_633
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_1026
-  network: ws
-  password: 257d8622-6701-4c98-a432-67a9696f58ae
-  port: 443
-  server: 172.67.218.196
-  sni: shazira.app
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /Novan-ID9
-- name: 🇫🇷FR_598
-  network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /
-- alpn:
-  - http/1.1
-  name: 🇫🇷FR_1205
-  network: ws
-  password: Telegram_healer_config
-  port: 443
-  server: 188.114.96.7
-  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
-- name: 🇫🇷FR_1
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_55
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_336
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.113
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_640
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_655
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.149.60
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_646
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇫🇷FR_96
+- name: 🇫🇷FR_879
   network: ws
   password: humanity
   port: 443
@@ -1098,25 +1102,135 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 'FR法国 #9'
+- name: 🇫🇷FR_1130
   network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: blackshadow.dpdns.org
-  skip-cert-verify: false
-  sni: blackshadow.dpdns.org
+  server: 162.159.3.212
+  sni: yks-dd9.pages.dev
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /195.123.218.174-443
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_215
-  password: bBnV36tzt7MKV75aDZTbzG
-  port: 8388
-  server: 141.227.152.129
-  type: ss
+    path: /?ed=2048
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_262
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  sni: www.ignitelimit.com
+  type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷FR_408
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_8
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1129
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.146.75
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_249
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_248
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1133
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.67.147.60
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_690
+  network: ws
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: jquery.com
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: 🇫🇷FR_940
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_263
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_27
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1135
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_258
   network: ws
   password: humanity
   port: 443
@@ -1126,47 +1240,57 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_644
+- name: 🇫🇷FR_860
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.103
+  server: 104.16.7.70
   sni: www.ignitelimit.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_1301
+- name: 🇫🇷FR_1120
   network: ws
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  port: 2096
-  server: jumao91.shop
-  sni: jumao91.shop
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /proxyip=45.207.156.255
-- name: 🇫🇷FR_15
-  network: ws
-  password: bpb-trojan
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: vless.herogoing.top
-  sni: vless.herogoing.top
+  server: cfip.1323123.xyz
+  sni: yks-dd9.pages.dev
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /tr?ed=2560
-- name: 🇫🇷FR_638
+    path: /?ed=2048
+- name: 🇫🇷FR_468
   network: ws
   password: humanity
   port: 443
-  server: 104.17.177.143
+  server: 104.18.152.175
   sni: www.ignitelimit.com
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: 🇫🇷FR_148
+- name: 🇫🇷FR_607
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_793
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /
+- name: 🇫🇷FR_593
   network: ws
   password: humanity
   port: 443
@@ -1176,3 +1300,179 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: //assignment
+- name: 🇫🇷FR_832
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_98
+  network: ws
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: 104.18.155.119
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: 🇫🇷FR_257
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_63
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 🇫🇷FR_531
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_3
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_530
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1126
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_885
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_930
+  network: ws
+  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  port: 443
+  server: app-538961.user-y0o4gm.workers.dev
+  sni: app-538961.user-y0o4gm.workers.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /
+- name: 🇫🇷FR_1118
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_1116
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.0sm.com
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_479
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1136
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.24.245
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_1132
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.16.252.34
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_1123
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cdn.tzpro.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷FR_413
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  sni: www.ignitelimit.com
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /assignment

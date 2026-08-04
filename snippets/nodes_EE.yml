@@ -12,33 +12,15 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇪🇪 EE 211 | ⬇️ 18KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 41002
-  reality-opts:
-    public-key: yUh0c0JZYl74gFBYJJFPkDlfyzUco05yfcKL4xjXU0g
-    short-id: '!!str !!str e44044636726a3ad'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇪🇪 EE 306 | ⬇️ 18KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 41002
-  reality-opts:
-    public-key: yUh0c0JZYl74gFBYJJFPkDlfyzUco05yfcKL4xjXU0g
-    short-id: '!!str !!str e44044636726a3ad'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: EE-176.112.146.190-0222 | 0.0M...
+  network: ws
+  port: 80
+  server: 176.112.146.190
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  ws-opts:
+    path: /

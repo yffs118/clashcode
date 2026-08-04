@@ -33,66 +33,6 @@ proxies:
   server: 84.17.53.163
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 025 | ⬇️ 23KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 62181
-  reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: '!!str !!str fcfa77f4695abede'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 149 | ⬇️ 26KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 62181
-  reality-opts:
-    public-key: jJ1ffSVccN3t1H9M2qfmXn38j0nDMjrzrIa5GKgXZl8
-    short-id: '!!str !!str fcfa77f4695abede'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 170 | ⬇️ 5MB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 22880
-  reality-opts:
-    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
-    short-id: '!!str !!str 8025424fb0cae924'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇨🇭 CH 185 | ⬇️ 34KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 22880
-  reality-opts:
-    public-key: FoQQCnRBm8oPxEF_pNVgBkw8Enue9jtIdbfrqofDvhk
-    short-id: '!!str !!str 8025424fb0cae924'
-  server: 1------------------------------------------------2.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇭CH_3
   network: tcp
   password: y3b03zx3tznhyo538p4c
@@ -101,4 +41,11 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇭CH_5
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.26.156
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888

@@ -26,60 +26,57 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- alterId: 0
-  name: 🇸🇬SG新加坡3
+- client-fingerprint: chrome
+  name: 'HK_speednode_0008 #2'
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '新加坡|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 32434
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '新加坡2|@ripaojiedian #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
   server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
-  tls: true
   type: trojan
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 🇸🇬SG新加坡2
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 95.40.107.76
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 'HK_speednode_0007 #3'
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+  port: 45744
+  server: 16.163.150.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬_新加坡_93
+  password: '!!str 521314'
+  port: 8443
+  server: 116.251.216.23
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇸🇬SG_1|1.7MB/s #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: sacred-treefrog.rooster465.autos
-  skip-cert-verify: true
-  sni: sacred-treefrog.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'Singapore_Singapore_trojan_113... #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: tidy-gelding.rooster465.autos
-  skip-cert-verify: true
-  sni: tidy-gelding.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
@@ -326,26 +323,46 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG-81.90.189.152-0033 | 0.0M...
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 81.90.189.152
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇸🇬 SG 086 | ⬇️ 6KB/s
-  network: http
-  port: 8080
-  server: 43.160.231.254
+  name: 🇸🇬SG-15.235.147.186-0195 | 0.0...
+  network: ws
+  port: 80
+  server: 15.235.147.186
+  servername: 🇸🇬SG-15.235.147.186-0195 | 0.0MB
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 96201234-168e-47d4-f83d-b64fb9d700ea
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    path: /
+- alpn:
+  - http/1.1
+  name: 🇸🇬 SG 113 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 SG 278 | ⬇️ 1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -420,11 +437,27 @@ proxies:
   tfo: false
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_55
+  password: MajO3weHH7Jv
+  port: 8388
+  server: 192.124.176.118
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡_3
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
   sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇸🇬SG_39
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
@@ -434,19 +467,12 @@ proxies:
   server: 103.186.155.16
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬SG_51
-  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
-  port: 56927
-  server: 161.118.224.85
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬SG_42
+- name: 🇸🇬SG_33
   network: tcp
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
   skip-cert-verify: true
-  sni: 139.59.238.97
+  sni: www.nintendogames.net
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888

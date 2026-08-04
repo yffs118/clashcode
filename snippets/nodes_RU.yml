@@ -306,7 +306,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 未知3
+  name: 未知86
   network: tcp
   port: 27343
   server: 46.226.166.205
@@ -314,68 +314,27 @@ proxies:
   tls: true
   type: vmess
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
-- cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦/Russia
-  password: LYNXLjIXeqmedkee0tX2GI
-  port: 10792
-  server: 130.49.189.158
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 俄罗斯联邦/Russia-2
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 45.67.215.9
+- cipher: aes-256-gcm
+  name: RU_speednode_0083
+  password: bdb313adf74c2ede
+  port: 20188
+  server: 195.133.5.207
   skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
+  type: ss
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 🇷🇺RU-195.133.53.192-0045 | 0.0...
+  name: 🇷🇺RU-45.136.244.181-0161 | 0.0...
   network: ws
-  port: 14369
-  server: 195.133.53.192
+  port: 80
+  server: 45.136.244.181
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
   ws-opts:
     path: /
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇷🇺 RU 029 | ⬇️ 18KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 58956
-  reality-opts:
-    public-key: xy_HgiboJGTEVblRg5GoT-DrRSKgtXzgv0y6g15tkg0
-    short-id: '!!str !!str d1dc8de99565087c'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----BanV2ray------BanV2ray-----
-  name: 🇷🇺 RU 069 | ⬇️ 20KB/s
-  network: grpc
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 36509
-  reality-opts:
-    public-key: HSIaOCEuKVFN9n90uTtpqq6PrTXWly_1Onykgk_aJm8
-    short-id: '!!str !!str 44406fa209b7a6e8'
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  sni: www.icloud.com
-  tls: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -400,26 +359,27 @@ proxies:
   server: 5.189.201.250
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇷🇺RU俄罗斯
+  password: 36ZCHeabUSfKjfQEvJ4HDV
+  port: 54170
+  server: 185.242.86.156
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_21
+  password: 81a20429165df87e
+  port: 10991
+  server: 195.133.23.200
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU_30
-  password: vOmnC9uJ6tXdLyIaRGwc2s
-  port: 5223
-  server: creativeboxde.zanity.net
+  name: 🇷🇺RU_20
+  password: LYNXLjIXeqmedkee0tX2GI
+  port: 10792
+  server: 130.49.189.158
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: RU_speednode_0083
-  password: bdb313adf74c2ede
-  port: 20188
-  server: 195.133.5.207
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: RU_speednode_0084
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
-  type: ss
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
