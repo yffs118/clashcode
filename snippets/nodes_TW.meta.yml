@@ -1,258 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇭🇰HK-18.167.225.76-0162 | 0.0M...
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-  port: 40028
-  server: xunlinknode.csdjhajkshdjkas.com
-  sub_tag: noCache
-  type: ss
-- name: 🇨🇳 TW 1 → tg@nicevpn123
-  password: 0cc6b4268dea0ba8
-  port: 3389
-  server: 211.72.35.155
+  name: ❓Other_15
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 10 → tg@nicevpn123
-  password: b84d16a244460e09
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 11 → tg@nicevpn123
-  password: 5425aa49-ec9d-4df3-aaad-878270e78635
-  port: 9489
-  server: b13.ntbq.dynu.net
-  skip-cert-verify: true
-  sni: b13.ntbq.dynu.net
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 12 → tg@nicevpn123
-  password: 5425aa49-ec9d-4df3-aaad-878270e78635
-  port: 3271
-  server: b24.ntbq.dynu.net
-  skip-cert-verify: true
-  sni: b24.ntbq.dynu.net
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 13 → tg@nicevpn123
-  password: 5425aa49-ec9d-4df3-aaad-878270e78635
-  port: 18912
-  server: ty12t.twty.dynu.net
-  skip-cert-verify: true
-  sni: ty12t.twty.dynu.net
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 14 → tg@nicevpn123
-  password: 158141ca-528d-407d-88f2-c0ddca399b26
-  port: 9755
-  server: b12.ntbq.dynu.net
-  skip-cert-verify: true
-  sni: b12.ntbq.dynu.net
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 15 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
-  ws-opts:
-    headers:
-      Host: tw1g.xn--vhq70hxyat50h6wk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 16 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
-  ws-opts:
-    headers:
-      Host: tw1g.xn--vhq70hxyat50h6wk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 17 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91d71551-9399-492a-83a2-e67ce8dc0f99
-  ws-opts:
-    headers:
-      Host: tw1g.xn--vhq70hxyat50h6wk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 18 → tg@nicevpn123
-  network: ws
-  port: 443
-  server: tw1g.xn--vhq70hxyat50h6wk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8a93a616-6042-49af-800b-dbe8690801b4
-  ws-opts:
-    headers:
-      Host: tw1g.xn--vhq70hxyat50h6wk.com
-    path: /
-- cipher: aes-128-gcm
-  name: 🇨🇳 TW 19 → tg@nicevpn123
-  password: oiwym4ovI4Yb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: t1.kddns.xyz
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 61.224.80.194
   type: ss
   udp: true
-- name: 🇨🇳 TW 2 → tg@nicevpn123
-  password: 26a663656e575c0b
-  port: 3389
-  server: 211.72.35.152
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇨🇳 TW 20 → tg@nicevpn123
-  password: oiwym4ovI4Yb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: dffee.store
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 111.243.65.86
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 21 → tg@nicevpn123
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1cc969d3-1df8-4794-a5cc-9231fe0e4710
-- cipher: aes-256-cfb
-  name: 🇨🇳 TW 22 → tg@nicevpn123
-  password: QozzuzLs2W32
-  port: 16505
-  server: 211.75.79.233
-  type: ss
-  udp: true
-- name: 🇨🇳 TW 23 → tg@nicevpn123
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: 36.228.203.34
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 24 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
-  ws-opts:
-    headers:
-      Host: 207c13fb-83b6-2021-766b-6c95e56a4a33.bugtik.ltd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 25 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 7cc02ab9-3478-1733-ea94-2b45d8e115a0.bugtik.ltd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 46cfcfe1-e450-459d-a3ab-9406011ab3eb
-  ws-opts:
-    headers:
-      Host: 7cc02ab9-3478-1733-ea94-2b45d8e115a0.bugtik.ltd
-    path: /
-- name: 🇨🇳 TW 3 → tg@nicevpn123
-  password: 26a663656e575c0b
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 4 → tg@nicevpn123
-  password: 26a663656e575c0b
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 5 → tg@nicevpn123
-  password: 3febb05ea76a940f
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 6 → tg@nicevpn123
-  password: 4bacb8f1a089763b
-  port: 3389
-  server: 211.72.35.152
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 7 → tg@nicevpn123
-  password: 7b06d22a8a7c764f
-  port: 3389
-  server: 211.72.35.155
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 8 → tg@nicevpn123
-  password: 8b475d9e868e43e0
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇨🇳 TW 9 → tg@nicevpn123
-  password: b09d2aaa443af97a
-  port: 3389
-  server: 211.72.35.157
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇼_台湾_32
@@ -267,20 +22,16 @@ proxies:
   type: vless
   udp: true
   uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- name: 🐻‍❄️ TW • Telegram @RE_s_B
-  network: ws
-  port: 2237
-  server: 185.247.16.49
+- name: 🇹🇼TW_7
+  network: tcp
+  port: 10000
+  server: 60.249.101.14
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vless
-  uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8
-- name: '🐻‍❄️ TW • Telegram @RE_s_B #1'
-  network: ws
-  port: 2273
-  server: 185.247.16.49
-  tls: false
-  type: vless
-  uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇹🇼TW_13
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -289,6 +40,7 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇹🇼TW_1
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -297,6 +49,14 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-15
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -304,6 +64,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -311,6 +72,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -318,6 +80,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -325,6 +88,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -332,6 +96,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -339,6 +104,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 2,13|台湾|@ripaojiedian
@@ -374,3 +140,4 @@ proxies:
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
