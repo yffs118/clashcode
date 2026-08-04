@@ -1,16 +1,53 @@
 proxies:
-- name: 🇨🇭@V2rayng_Fast
-  password: UKGgxZwI4G
-  port: 443
-  server: 179.237.75.217
+- name: 🇨🇭 Швейцария sni=ch.01.naiun.b...
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.90
+  sni: ch.01.naiun.bilibili.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇨🇭@V2rayng_Fast #1'
-  password: xITFB2PCsp
-  port: 2095
-  server: 179.237.75.217
+- name: '🇨🇭 Швейцария sni=ch.01.naiun.b... #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.94
+  sni: ch.01.naiun.bilibili.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇭 Швейцария ⚡ sni=ch.01.naiun...
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.99
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: 🇨🇭133317 | ⚡️Telegram = t.me/S...
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 20127
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  type: trojan
+- name: 🇨🇭133320 | ⚡️Telegram = t.me/S...
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 40483
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  type: trojan
+- name: 🇨🇭133323 | ⚡️Telegram = t.me/S...
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 42963
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  type: trojan
+- name: 🇨🇭133325 | ⚡️Telegram = t.me/S...
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 62860
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  type: trojan
+- name: 🇨🇭133316 | ⚡️Telegram = t.me/S...
+  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
+  port: 65005
+  server: 2----------------------------------------------------3.poki-pakipon.ir
+  type: trojan
+- name: 🇨🇭 Switzerland
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -44,7 +81,6 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇭CH_3
   network: tcp
   password: y3b03zx3tznhyo538p4c
@@ -53,11 +89,9 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭CH_5
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 146.70.26.156
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888

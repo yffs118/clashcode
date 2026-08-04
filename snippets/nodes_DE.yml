@@ -1,13 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '德國丨yoyapai.com_4 #2'
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -25,13 +16,12 @@ proxies:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
 - cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_1|1009KB/s #2'
+  name: '🇩🇪DE_1|1009KB/s #1'
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
   server: 130.61.86.101
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_207
@@ -89,7 +79,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪DE-54.93.65.133-35
   password: ND91608427
   port: 443
@@ -99,7 +88,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_35
   password: ND91608427
   port: 443
@@ -109,7 +97,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_36
   password: ND91608427
   port: 443
@@ -119,7 +106,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇩🇪DE-3.124.187.220-40
   network: tcp
@@ -131,7 +117,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_88
   password: '!!str 521314'
   port: 443
@@ -141,11 +126,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /Telegram🇨🇳+@WangCai2
+- name: 🇩🇪 Германия sni=de.01.naiun.bi...
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.96
+  sni: de.01.naiun.bilibili.com
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
@@ -155,16 +145,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: '[🇩🇪]t.me/ConfigsHub|||14050513...'
-  network: tcp
-  port: '1080'
-  server: Fyfghgg.viranix.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - alterId: 0
   cipher: auto
   name: 德国 002
@@ -213,20 +193,6 @@ proxies:
   tls: true
   type: vmess
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
-- alterId: 0
-  cipher: auto
-  name: 德国 006
-  network: ws
-  port: 80
-  server: 159.89.29.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
-  ws-opts:
-    headers:
-      Host: cx.com
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 未知83
@@ -924,7 +890,6 @@ proxies:
   port: 9102
   server: 145.239.1.100
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪DE-165.227.175.88-0172 | 0.0...
@@ -938,7 +903,8 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪 DE 645 | ⬇️ 519KB/s
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -947,10 +913,41 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
-  name: 🇩🇪 DE 538 | ⬇️ 63KB/s
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 716 | ⬇️ 15KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇩🇪 DE 721 | ⬇️ 1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 736 | ⬇️ 63KB/s
   network: ws
   password: MITIVPN
   port: 443
@@ -959,31 +956,34 @@ proxies:
   sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇩🇪 DE 556 | ⬇️ 15KB/s
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
+- country: 🇸🇬SG
+  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ssl.fastly.com
+  sni: Hkdcrtc-e.catcat321.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: 🇩🇪 DE 658 | ⬇️ 748KB/s
+  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -992,7 +992,6 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1000,7 +999,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1008,7 +1006,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪DE_104
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -1017,32 +1014,27 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_4
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪DE_58
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_86
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_175
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
   server: 158.180.29.33
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888

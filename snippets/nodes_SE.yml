@@ -50,20 +50,6 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 瑞典 005
-  network: ws
-  port: 80
-  server: 5.249.160.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
-  ws-opts:
-    headers:
-      Host: 5.249.160.226
-    path: /vmess
 - alterId: 1
   cipher: auto
   name: 瑞典 006
@@ -249,25 +235,31 @@ proxies:
   port: 443
   server: 13.53.198.63
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: SE-13.62.231.217-0197 | 0.0MB
   password: amazonskr05
   port: 443
   server: 13.62.231.217
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: SE-13.51.233.2-0198 | 0.0MB
   password: amazonskr05
   port: 443
   server: 13.51.233.2
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: SE-13.61.5.244-0199 | 0.0MB
   password: amazonskr05
   port: 443
   server: 13.61.5.244
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: 🇸🇪 SE 722 | ⬇️ 1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.17.112.113
+  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
