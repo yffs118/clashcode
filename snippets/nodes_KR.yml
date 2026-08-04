@@ -27,33 +27,7 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 016
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 3.112.220.140
-  tfo: false
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'KR_speednode_0012 #2'
+- name: KR_speednode_0012
   password: ND91608427
   port: 443
   server: definite-malamute.rooster465.autos
@@ -62,7 +36,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'KR_speednode_0013 #2'
+- name: KR_speednode_0013
   password: ND91608427
   port: 443
   server: moved-meerkat.rooster465.autos
@@ -70,12 +44,6 @@ proxies:
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷 South Korea Asan | ⏱1216ms ...
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: 154.64.226.149
-  type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto

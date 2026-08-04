@@ -144,6 +144,36 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- down: ''
+  fingerprint: ''
+  name: 🇷🇺RU_8
+  obfs: ''
+  obfs-password: ''
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: 138.124.68.188
+  skip-cert-verify: false
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
+  up: ''
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 机场推荐:dafei.de 俄罗斯 02
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: CX5f7EdRDtVEgZIgh_ZLE7xYOntoVpk2S_t9EFraJGs
+    short-id: '!!str '
+  server: 153.80.241.60
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: af9471f2-9344-4d84-9fe1-72a264fde38e
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -205,76 +235,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- cipher: aes-256-gcm
-  name: Saint-Petersburg🇷🇺
-  password: M09jM0daTkx1cEtwWUNBMjd0Q1lGdlFrampmWTZsemwxazVsT1FQcHgzdmU0dmJ1bUJGT3hpa2ZqMFBkejNwVw==
-  port: 58153
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: St.Peterburg🇷🇺
-  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
-  port: 45855
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: Petersburg🇷🇺
-  password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
-  port: 38211
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: Russia🇷🇺
-  password: Y3dQbUx5YXZodWZnY2JxR3JxQWEwajk2UHAzNEpGckEyY2k2OTAzM0IyRUMwM2JNc1pUV1M1b29uQVY0QW5pYQ==
-  port: 22159
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: Peterburg🇷🇺
-  password: aE1wMkZmT1pEWnNodzJRNU93VnJ4Uk8xcmQ5MWlvc3RvRk1Sb3diV0xodlVtUXJHa3o4UDZUamVlVE9OTE9SWA==
-  port: 25530
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: RU, Peterburg🇷🇺
-  password: dmJ3Y0I4cEMxamRWbVR5RTN1Yk44S3RIOVVteThoNDJaem5XWEVNeEhyQ3kyRWdRanRtWU5jZE1UNW5HZHVNNw==
-  port: 29556
-  server: 94.198.219.24
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '@filembad #4'
-  port: 420
-  server: 201.34.128.57
-  tls: false
-  type: vless
-  uuid: 2400345d-6878-48c3-9f82-debf6c4021dd
-- name: '@filembad #6'
-  port: 445
-  server: 201.34.128.57
-  tls: false
-  type: vless
-  uuid: 2400345d-6878-48c3-9f82-debf6c4021dd
-- name: 🇷🇺133109 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 45.67.215.99
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- name: 俄罗斯 037
-  network: tcp
-  port: 8443
-  server: 89.19.223.155
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b752da-101e-46dd-9860-3f089e71ec91
 - alterId: 0
   cipher: auto
   name: 🇬🇧GB-46.175.135.9-0125 | 0.0MB
@@ -693,6 +653,16 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
+- name: 俄罗斯 037
+  network: tcp
+  port: 8443
+  server: 89.19.223.155
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b752da-101e-46dd-9860-3f089e71ec91
 - name: 俄罗斯 038
   network: tcp
   port: 41617
@@ -727,20 +697,11 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: RU_speednode_0084
-  password: 895b4b796a357570
-  port: 10916
-  server: 176.32.35.51
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: RU_speednode_0083
+  name: 🇷🇺RU_22
   password: bdb313adf74c2ede
   port: 20188
   server: 195.133.5.207
   type: ss
-  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

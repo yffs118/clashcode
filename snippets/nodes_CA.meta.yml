@@ -47,7 +47,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #185'
+  name: '未命名 #175'
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -66,7 +66,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #186'
+  name: '未命名 #176'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -464,20 +464,6 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇦_加拿大_41
-  port: 443
-  reality-opts:
-    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
-    short-id: '!!str 64c1fe36c7846400'
-  server: 212.104.141.166
-  servername: findmypackets.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - name: 🇨🇦_加拿大_266
   network: ws
   port: 443
@@ -492,230 +478,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇨🇦133013 | ⚡️Telegram = t.me/S...
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 172.67.118.45
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇨🇦133043 | ⚡️Telegram = t.me/S...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-- name: 🇨🇦133029 | ⚡️Telegram = t.me/S...
-  password: MiTiVPN
-  port: 80
-  server: 151.101.130.172
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇨🇦133027 | ⚡️Telegram = t.me/S...
-  password: MiTiVPN
-  port: 80
-  server: 151.101.66.172
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇨🇦 | | @NormanConfig
-  password: humanity
-  port: 443
-  server: 104.18.152.225
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- name: 🇨🇦133119 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.16.75.44
-  tls: false
-  type: vless
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-  ws-opts:
-    path: /
-- name: 🇨🇦133122 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.17.255.131
-  tls: true
-  type: vless
-  uuid: 1a04f56a-91e4-4dbd-8905-712579f774d9
-- name: 🇨🇦133051 | ⚡️Telegram = t.me/S...
-  port: 2096
-  server: 172.64.144.162
-  tls: false
-  type: vless
-  uuid: 20a25a96-61df-4a4f-8424-165fc9cfc84e
-  ws-opts:
-    path: /
-- name: 🇨🇦133138 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: speedtest.net
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇨🇦133106 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.21.89.21
-  tls: true
-  type: vless
-  uuid: 39b3cbba-e6ac-485a-9481-976a0335eab9
-- name: 🇨🇦133134 | ⚡️Telegram = t.me/S...
-  network: ws
-  port: 8080
-  server: 104.21.69.44
-  tls: false
-  type: vless
-  uuid: 3f7cca1a-3e89-4f01-983f-066a6406a2e9
-- name: 🇨🇦133037 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.17.187.118
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦133104 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.17.3.64
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦133105 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.19.166.116
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦133115 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.20.39.109
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: /sg-melbi
-- name: 🇨🇦133079 | ⚡️Telegram = t.me/S...
-  port: 8080
-  server: 104.17.148.22
-  tls: false
-  type: vless
-  uuid: 7463257d-2eb5-4223-9463-66c36586610e
-- name: 🇨🇦133061 | ⚡️Telegram = t.me/S...
-  port: 2083
-  server: 104.21.23.181
-  tls: true
-  type: vless
-  uuid: 7d1c2cc2-d2a4-46da-b882-320c74f8568e
-- name: 🇨🇦133035 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: 7e1ef689-adbe-41b7-87a9-15b709a2f03c
-  ws-opts:
-    headers:
-      Host: ch1.dontbow.store.
-- name: 🇨🇦133049 | ⚡️Telegram = t.me/S...
-  port: 2095
-  server: 172.64.146.66
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    path: /
-- name: 🇨🇦133047 | ⚡️Telegram = t.me/S...
-  port: 8880
-  server: 172.66.140.62
-  tls: false
-  type: vless
-  uuid: adda46c3-eab1-40bc-b88d-6b92c1e8c558
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 🇨🇦133054 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.26.14.85
-  tls: false
-  type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    path: /GOrbEh
-- name: 🇨🇦133050 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 172.67.161.136
-  tls: false
-  type: vless
-  uuid: d713a25e-d96c-4755-94f4-9a0e0cd1ad68
-  ws-opts:
-    path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed
-- name: 🇨🇦133072 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 188.114.98.18
-  tls: false
-  type: vless
-  uuid: dffd0356-baca-4802-98da-733bdb4a010e
-- name: 🇨🇦133052 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.18.37.228
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    path: /fp
-- name: 🇨🇦133073 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: chat.openai.com
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    path: /fp
-- name: 🇨🇦133060 | ⚡️Telegram = t.me/S...
-  port: 2053
-  server: po.fastbrokencompony.com
-  tls: false
-  type: vless
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    path: /
-- name: '[|||14050513|configshub|V2rayC... #4'
-  port: 2052
-  server: www.speedtest.net
-  tls: false
-  type: vless
-  uuid: eb9be6f6-beaf-5468-9209-c5aebf866cf6
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦133156 | ⚡️Telegram = t.me/L...
-  network: ws
-  port: '80'
-  server: 104.19.35.138
-  tls: false
-  type: vmess
-  uuid: b720e0b2-aa39-4633-90d8-489ed91038b0
-  ws-opts:
-    headers:
-      Host: m2-sg3.m2network.icu
-    path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦133157 | ⚡️Telegram = t.me/L...
-  network: ws
-  port: '2095'
-  server: 104.19.45.146
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
 - alterId: 0
   cipher: auto
   name: 🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦
@@ -1507,19 +1269,6 @@ proxies:
     headers:
       Host: ad-013.milo1fmyz.info
     path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_1
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: '!!str 500aec9e9e5e2212'
-  server: 45.206.5.122
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - alpn:
   - h2
   - http/1.1
@@ -1878,13 +1627,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- cipher: aes-256-gcm
-  name: 🇨🇦CA_2
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 185.196.61.82
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 加拿大_13
   network: ws
   port: 443

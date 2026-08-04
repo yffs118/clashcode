@@ -49,7 +49,7 @@ proxies:
       Host: vms.lifetime57.workers.dev
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 德国(yudou789.top 玉豆免费节点)
+  name: '德國丨yoyapai.com_4 #2'
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
@@ -112,12 +112,12 @@ proxies:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
 - client-fingerprint: chrome
-  name: 'AE_speednode_0002 #1'
+  name: '🇦🇪_AE_阿拉伯联合酋长国->🇩🇪_DE_德国 #5'
   network: tcp
   port: 443
   server: ddc-akn.astralweb.tech
   servername: ddc-akn.astralweb.tech
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -141,6 +141,18 @@ proxies:
     headers:
       Host: xvh.andishehparenting.com
     path: /
+- client-fingerprint: firefox
+  name: 'AE_speednode_0001 #1'
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
@@ -363,22 +375,37 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
+- client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 03
+  network: tcp
+  packet-encoding: xudp
+  port: 33786
+  reality-opts:
+    public-key: tPl3qHlJ_ZPX_jXBA8i1j_dmQBMhJ31qk4HQlXjntmE
+    short-id: '!!str f55c53dfd45cfc6d'
+  server: kakag.tempfast.ir
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a67f0c92-2a75-4db4-af3b-46f4904c8d28
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
+  network: grpc
+  port: 18443
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '!!str 5c766813929a1fdd'
+  server: 104.167.24.227
+  servername: gp1.steptofsvo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
+  xudp: true
 - client-fingerprint: qq
   grpc-opts:
     grpc-mode: gun
@@ -510,6 +537,21 @@ proxies:
     headers:
       Host: jr61rsc8fog5f.l6yr5b4ialxnf2ll2zcsgmlqf3u.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_80
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
 - name: 🇩🇪_德国_88
   password: '!!str 521314'
   port: 443
@@ -661,216 +703,14 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 🇩🇪133041 | ⚡️Telegram = t.me/S...
-  password: DSgrpvSRAu
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪133046 | ⚡️Telegram = t.me/S...
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪133081 | ⚡️Telegram = t.me/S...
-  port: 2095
-  server: xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir
+- name: 🇩🇪 Germany Frankfurt am Main |...
+  port: 8443
+  server: 45.192.200.133
   tls: false
   type: vless
-  uuid: 0a268813-7200-4d23-9851-74568928fc82
-- name: 🇩🇪133118 | ⚡️Telegram = t.me/S...
-  port: 1310
-  server: 1f6bc4bd413bc7ac.musicvps.ir
-  tls: false
-  type: vless
-  uuid: 0c67faba-281b-4f37-ba2d-abc4ac3b3414
-- name: 🇩🇪133097 | ⚡️Telegram = t.me/S...
-  port: 10043
-  server: gov.viranix.ir
-  tls: false
-  type: vless
-  uuid: 1b73f053-2709-4698-bbec-cb20e8a5f288
-- name: 🆔️ | @Eag1e_YT『🇩🇪⁶¹⁵』
-  port: 2087
-  server: 104.18.38.78
-  tls: false
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
-    path: /fdip
-- name: 🇩🇪133140 | ⚡️Telegram = t.me/S...
-  port: 2005
-  server: 20052009.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133141 | ⚡️Telegram = t.me/S...
-  port: 2006
-  server: 20052009.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133142 | ⚡️Telegram = t.me/S...
-  port: 2007
-  server: 20052009.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133143 | ⚡️Telegram = t.me/S...
-  port: 2008
-  server: 20052009.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133145 | ⚡️Telegram = t.me/S...
-  port: 2010
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133146 | ⚡️Telegram = t.me/S...
-  port: 2011
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133147 | ⚡️Telegram = t.me/S...
-  port: 2012
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133148 | ⚡️Telegram = t.me/S...
-  port: 2013
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133149 | ⚡️Telegram = t.me/S...
-  port: 2014
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133150 | ⚡️Telegram = t.me/S...
-  port: 2015
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: '未命名 #64'
-  port: 2016
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133152 | ⚡️Telegram = t.me/S...
-  port: 2017
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133153 | ⚡️Telegram = t.me/S...
-  port: 2018
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: '未命名 #65'
-  port: 2019
-  server: gotveran.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🇩🇪133137 | ⚡️Telegram = t.me/S...
-  port: 6985
-  server: yamal.sav-savteam.ir
-  tls: false
-  type: vless
-  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
-- name: 🆔️ | @Eag1e_YT『🇩🇪⁶¹⁴』
-  port: 443
-  server: 104.26.9.48
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: /sg-melbi
-- name: 🇩🇪@V2RayyNGvpn🇩🇪|||14050513|v2...
-  port: 2087
-  server: 91.107.178.22
-  tls: false
-  type: vless
-  uuid: 8f4cb9dc-adf2-4246-b5b8-45b850c0b49d
-- name: 🇩🇪133090 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 45.159.218.73
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- name: '未命名 #129'
-  network: tcp
-  port: 4040
-  server: vl1.salar4040.ir
-  tls: false
-  type: vless
-  uuid: b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29
-- name: 德国 106
-  network: tcp
-  port: 22222
-  server: 18.194.176.73
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 107
-  network: tcp
-  port: 22223
-  server: 18.194.176.73
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 108
-  network: tcp
-  port: 22224
-  server: 18.194.176.73
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 114
-  network: tcp
-  port: 50399
-  server: 49.12.100.150
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f54e45dc-d137-4834-b3be-16421e737b68
-- name: Germany 🇩🇪
-  port: 50
-  server: 194.77.220.189
-  tls: false
-  type: vless
-  uuid: f93faba2-e1eb-44ad-8822-c104135f6ae4
-- client-fingerprint: chrome
-  name: '未命名 #180'
-  port: 443
-  server: 89.47.55.4
-  tls: false
-  type: vless
-  uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8
+    path: /GOrbEh
 - alterId: 0
   cipher: auto
   name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
@@ -880,16 +720,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪133148 | ⚡️Telegram = t.me/L...
-  network: tcp
-  port: '1080'
-  server: Fyfghgg.viranix.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -901,11 +731,12 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇷🇴RO_220
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
-  sni: mercedes-grape.yyuyy.com
+- name: 🇩🇪DE_107
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: 83.243.86.80
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
@@ -1729,16 +1560,6 @@ proxies:
   type: vless
   udp: true
   uuid: 179ddf63-c263-40ff-98a1-f53708573059
-- name: 德国 066
-  network: tcp
-  port: 51822
-  server: 5.75.201.77
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
 - name: 德国 067
   network: tcp
   port: 41015
@@ -2126,9 +1947,9 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 104
+- name: 德国 105
   network: tcp
-  port: 22223
+  port: 22224
   server: 18.194.146.225
   skip-cert-verify: false
   tfo: false
@@ -2136,10 +1957,20 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 德国 105
+- name: 德国 106
+  network: tcp
+  port: 22222
+  server: 18.194.176.73
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 德国 108
   network: tcp
   port: 22224
-  server: 18.194.146.225
+  server: 18.194.176.73
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -2196,6 +2027,16 @@ proxies:
   type: vless
   udp: true
   uuid: e4f851c2-69d6-4a8f-83c9-c1a9f78c0f98
+- name: 德国 114
+  network: tcp
+  port: 50399
+  server: 49.12.100.150
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f54e45dc-d137-4834-b3be-16421e737b68
 - name: 德国 115
   network: tcp
   port: 443
@@ -2219,6 +2060,25 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_59
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
+    short-id: '!!str 28415a7918168947'
+  server: 159.195.27.99
+  servername: 1.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+- name: 沙特阿拉伯/利雅德/Saudi Arabia/Riyadh
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 德国/Germany-2
   password: jeLq05gFPe
   port: 443
@@ -2594,6 +2454,19 @@ proxies:
   tls: true
   type: vless
   uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_32
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dp-ncBuRHgZl5O80eHBYhSKo1i9qbt-J7MJ1alyWXmM
+    short-id: '!!str 1991780b928b292d'
+  server: 159.195.45.129
+  servername: 3.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   name: 🇩🇪DE_11
   network: ws

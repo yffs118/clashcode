@@ -1,20 +1,20 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇩🇪_德国_80
+  name: 'PL波兰 #3'
   network: ws
   port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
   ws-opts:
     headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
+      Host: 31.76.251.127.cdn-one.org
+    path: /10336/2GCOqG7bvA
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇬🇧 英国 starcorenode.com 2 #2'
@@ -40,11 +40,11 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_71
+  cipher: auto
+  name: '英國 #2'
   port: 180
   server: 82.198.246.37
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -79,10 +79,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国(yudou789.top 玉豆免费节点)_11
+  name: '英國節點 #2'
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -177,16 +177,90 @@ proxies:
   server: 146.19.49.251
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_43
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- client-fingerprint: firefox
+  name: 🇬🇧GB_118
+  network: tcp
+  port: 22012
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 168.119.156.100
+  servername: login.yahoo.com
+  tls: true
+  type: vless
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇬🇧GB_117
+  network: tcp
+  port: 22012
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 78.47.104.140
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
+- client-fingerprint: firefox
+  name: 🇬🇧GB_113
+  network: tcp
+  packet-encoding: xudp
+  port: 22012
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 89.167.81.142
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0004 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -3odEfg8iWnQ-DQ4xN7nKLu8NFgdAXhv02FhlTACs10
+    short-id: '!!str 64c1fe36c7846400'
+  server: 212.104.141.166
+  servername: findmypackets.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
+- name: 'GB_speednode_0005 #1'
+  password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  port: 443
+  server: 03a71324-t9zts0-tiuovf-v3c2.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'GB_speednode_0006 #1'
+  password: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  port: 443
+  server: 07b7ddcf-tcxds0-tifnix-1ro8s.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'GB_speednode_0007 #1'
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧 GB 088 | ⬇️ 707KB/s
@@ -227,33 +301,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧133066 | ⚡️Telegram = t.me/S...
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.231.192
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇬🇧133133 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 217.163.76.1
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- name: 🇬🇧133101 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 217.163.76.55
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- name: 🇬🇧 United Kingdom Slough | ⏱78...
-  port: 443
-  server: cf.levikogjgfdd.ir
-  tls: false
-  type: vless
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    path: /hdgrbws
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -832,13 +879,6 @@ proxies:
   server: 82.38.31.217
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-197
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.162
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: api.v1.data
@@ -872,6 +912,13 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: ❓Other_1
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
@@ -942,6 +989,20 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.186-5766 | 65.13...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-196
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
@@ -1690,18 +1751,6 @@ proxies:
   tls: true
   type: vless
   uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- client-fingerprint: firefox
-  name: 🇬🇧GB_117
-  network: tcp
-  port: 22012
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: 78.47.104.140
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
 - client-fingerprint: chrome
   name: 🇬🇧GB_50
   network: ws
@@ -1802,25 +1851,6 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_26
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  name: 🇬🇧GB_118
-  network: tcp
-  port: 22012
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: 168.119.156.100
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
 - name: 🇬🇧GB_78
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -1855,18 +1885,6 @@ proxies:
     headers:
       Host: ad-010.pixel9xdmq.info
     path: /
-- client-fingerprint: firefox
-  name: 🇬🇧GB_113
-  network: tcp
-  port: 22012
-  reality-opts:
-    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
-    short-id: '!!str c6e19c434dc87df7'
-  server: 89.167.81.142
-  servername: login.yahoo.com
-  tls: true
-  type: vless
-  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
 - name: 🇬🇧GB_7
   network: ws
   port: 8880
