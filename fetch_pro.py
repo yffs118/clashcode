@@ -256,6 +256,7 @@ class Node:
             # Fix IPv6
             self.data['server'] = f"[{self.data['server']}]"
 
+    # ====== 节点类型增强：_load_vmess 保持原样（基础版） ======
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
         try: v.update(json.loads(b64decodes(dt)))
@@ -284,7 +285,7 @@ class Node:
         elif v['net'] == 'grpc' and 'path' in v:
             self.data['grpc-opts'] = {'grpc-service-name': v['path']}
 
-    # ====== 增强：_load_ss 使用 rsplit 避免密码含冒号 ======
+    # ====== 节点类型增强：_load_ss 使用 rsplit ======
     def _load_ss(self, url: str, dt: str):
         info = dt.split('@')
         srvname = info.pop()
@@ -307,7 +308,7 @@ class Node:
             except Exception:
                 raise UnsupportedType('ss', 'SP')
         if ':' in info:
-            cipher, passwd = info.rsplit(':', 1)   # 从右侧分割，只分割一次
+            cipher, passwd = info.rsplit(':', 1)
         else:
             cipher = info
             passwd = ''
@@ -342,7 +343,7 @@ class Node:
             elif k == 'protoparam':
                 self.data['protocol-param'] = v
 
-    # ====== 增强：_load_trojan 使用 parse_qs ======
+    # ====== 节点类型增强：_load_trojan 使用 parse_qs ======
     def _load_trojan(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
@@ -373,7 +374,7 @@ class Node:
                     self.data['ws-opts'] = {}
                 self.data['ws-opts']['path'] = v
 
-    # ====== 增强：_load_vless 使用 parse_qs，仅当 pbk 非空时设置 reality-opts ======
+    # ====== 节点类型增强：_load_vless 使用 parse_qs，仅当 pbk 非空时设置 ======
     def _load_vless(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
@@ -421,7 +422,7 @@ class Node:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
 
-    # ====== 增强：_load_hysteria2 使用 parse_qs，处理 username 可能为 None ======
+    # ====== 节点类型增强：_load_hysteria2 使用 parse_qs，username 可能 None ======
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
         username = unquote(parsed.username) if parsed.username else ''
@@ -450,7 +451,7 @@ class Node:
                 self.data[k] = v
             elif k == 'fp': self.data['client-fingerprint'] = v
 
-    # ====== 增强：_load_tuic 使用 parse_qs ======
+    # ====== 节点类型增强：_load_tuic 使用 parse_qs ======
     def _load_tuic(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {
@@ -472,7 +473,7 @@ class Node:
             elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'congestion_control': self.data['congestion-controller'] = v
 
-    # ====== 增强：_load__legacy 端口解析截断 ======
+    # ====== 节点类型增强：_load__legacy 端口解析截断 ======
     def _load__legacy(self, url: str, dt: str):
         parsed = urlparse(url)
         port_str = str(parsed.port) if parsed.port is not None else ''
@@ -628,7 +629,7 @@ class Node:
                 ret += '&'+urlk+'='+b64encodes_safe(data[k])
         return "ssr://"+ret
 
-    # ====== 增强：_url_trojan 容错 ======
+    # ====== 节点类型增强：_url_trojan 容错 ======
     def _url_trojan(self, data: DATA_TYPE) -> str:
         passwd = quote(data['password'])
         name = quote(data['name'])
@@ -655,7 +656,7 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 增强：_url_vless 容错，缺失 uuid 默认值 ======
+    # ====== 节点类型增强：_url_vless 容错，uuid 默认值 ======
     def _url_vless(self, data: DATA_TYPE) -> str:
         uuid = data.get('uuid', DEFAULT_UUID)
         passwd = quote(uuid)
@@ -700,7 +701,7 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 增强：_url_hysteria2 容错，缺失 password 时使用空字符串 ======
+    # ====== 节点类型增强：_url_hysteria2 容错 ======
     def _url_hysteria2(self, data: DATA_TYPE) -> str:
         passwd = quote(data.get('password', ''))
         name = quote(data.get('name', '未命名'))
@@ -753,7 +754,7 @@ class Node:
     _url_https = _url__legacy
     _url_socks5 = _url__legacy
 
-    # ====== 增强：clash_data 中修复 cipher、reality-opts 等 ======
+    # ====== 节点类型增强：clash_data 修复 cipher、reality ======
     @property
     def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
@@ -764,7 +765,6 @@ class Node:
         if 'uuid' not in ret or len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
-        # 修复 SS cipher
         if self.type == 'ss':
             if 'cipher' not in ret or not ret['cipher'] or ret['cipher'] == 'auto':
                 ret['cipher'] = 'aes-256-gcm'
@@ -790,7 +790,7 @@ class Node:
                 ret['tls'] = False
         return ret
 
-    # ====== 增强：supports_clash 过滤无效 REALITY 公钥 ======
+    # ====== 节点类型增强：supports_clash 过滤无效 REALITY 公钥 ======
     def supports_clash(self, meta=False) -> bool:
         if self.type in ('none', '', None):
             return False
@@ -1489,18 +1489,18 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
-    # ====== 新增：修复 proxy-groups 循环引用 ======
+    # ====== 先对预设组进行循环修复（基础版没有，但预先处理安全） ======
     fix_proxy_group_loop(conf['proxy-groups'])
     fix_proxy_group_loop(conf_meta['proxy-groups'])
     detect_and_break_cycles(conf['proxy-groups'])
     detect_and_break_cycles(conf_meta['proxy-groups'])
-    # ===========================================
 
     # Clash
     conf['proxies'] = proxies
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash
+
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
@@ -1514,7 +1514,17 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-    # ====== 新增：在写入前去重 ======
+        # ====== 新增：添加地区组后再次修复循环和去重 ======
+        fix_proxy_group_loop(conf['proxy-groups'])
+        detect_and_break_cycles(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])
+
+        # 确保 🗺️ 选择地区 组有内容
+        if not conf['proxy-groups'][-1].get('proxies'):
+            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
+            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
+
+    # ====== 对 Clash 配置再次去重（安全起见） ======
     deduplicate_groups(conf['proxy-groups'])
 
     try:
@@ -1535,6 +1545,7 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash_meta
+
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
@@ -1548,7 +1559,16 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-    # ====== 新增：在写入前去重 ======
+        # ====== 新增：添加地区组后再次修复循环和去重 ======
+        fix_proxy_group_loop(conf['proxy-groups'])
+        detect_and_break_cycles(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])
+
+        if not conf['proxy-groups'][-1].get('proxies'):
+            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
+            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
+
+    # ====== 对 Meta 配置再次去重 ======
     deduplicate_groups(conf['proxy-groups'])
 
     if dns_mode:
