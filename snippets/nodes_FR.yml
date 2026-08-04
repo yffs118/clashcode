@@ -23,6 +23,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /WangCai-8
 - name: 'FR法国(mibei77.com 米贝节点分享)_4 #3'
@@ -34,8 +35,17 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰(yudou789.top 玉豆免费节点)_2
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_218
@@ -77,6 +87,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_FR_法国_1
   password: ND91608427
   port: 443
@@ -86,6 +97,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_43
   password: ND91608427
   port: 443
@@ -95,6 +107,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_44
   password: ND91608427
   port: 443
@@ -104,6 +117,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: NN_speednode_0019
@@ -478,6 +492,15 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 法国 028
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  skip-cert-verify: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
   name: 法国/France
   port: 2096
   server: 57.128.174.124
@@ -493,12 +516,14 @@ proxies:
   tls: false
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷FR-51.77.212.145-0148 | 0.0M...
@@ -531,6 +556,7 @@ proxies:
   server: 141.101.90.101
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1131
@@ -540,6 +566,7 @@ proxies:
   server: 172.66.173.172
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_363
@@ -549,6 +576,7 @@ proxies:
   server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - cipher: chacha20-ietf-poly1305
@@ -557,6 +585,7 @@ proxies:
   port: 8388
   server: 141.227.152.129
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064
@@ -566,6 +595,7 @@ proxies:
   server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
   sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
 - name: 'FR法国 #1'
@@ -576,8 +606,9 @@ proxies:
   skip-cert-verify: false
   sni: dimskiee.biz.id
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: '%2FWangCai-8'
+    path: /WangCai-8
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1029
@@ -588,6 +619,7 @@ proxies:
   skip-cert-verify: true
   sni: Gb21-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇫🇷FR_1134
@@ -597,6 +629,7 @@ proxies:
   server: 172.64.35.26
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_772
@@ -606,6 +639,7 @@ proxies:
   server: 104.21.26.36
   sni: vless.herogoing.top
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - name: 🇫🇷FR_245
@@ -615,6 +649,7 @@ proxies:
   server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1128
@@ -624,6 +659,7 @@ proxies:
   server: 104.25.241.194
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 'FR法国 #2'
@@ -634,8 +670,9 @@ proxies:
   skip-cert-verify: false
   sni: support.zoom.us.blackshadow.dpdns.org
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: '%2F195.123.218.174-443'
+    path: /195.123.218.174-443
 - name: 🇫🇷FR_19
   network: ws
   password: humanity
@@ -643,6 +680,7 @@ proxies:
   server: 104.18.152.77
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_857
@@ -652,6 +690,7 @@ proxies:
   server: 104.19.173.68
   sni: azadnet-5vk.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /azadnet-5vk.pages.dev/?ed=2560
 - name: 🇫🇷FR_464
@@ -661,6 +700,7 @@ proxies:
   server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_952
@@ -671,6 +711,7 @@ proxies:
   skip-cert-verify: true
   sni: shazira.app
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /Novan-ID9
 - name: 🇫🇷FR_25
@@ -680,6 +721,7 @@ proxies:
   server: 104.18.152.143
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_871
@@ -689,6 +731,7 @@ proxies:
   server: 104.16.174.36
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_527
@@ -698,6 +741,7 @@ proxies:
   server: 104.18.152.210
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1124
@@ -707,6 +751,7 @@ proxies:
   server: cf.877771.xyz
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -720,6 +765,7 @@ proxies:
   server: join-telegram-channel.tirexnet.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -731,6 +777,7 @@ proxies:
   server: 188.114.96.7
   sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
 - name: 🇫🇷FR_367
@@ -740,6 +787,7 @@ proxies:
   server: ip.myip2.qzz.io
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_397
@@ -749,6 +797,7 @@ proxies:
   server: 104.16.174.72
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1125
@@ -758,6 +807,7 @@ proxies:
   server: xn--b6gac.eu.org
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_347
@@ -767,6 +817,7 @@ proxies:
   server: 104.16.174.46
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -779,6 +830,7 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_474
@@ -788,6 +840,7 @@ proxies:
   server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -799,6 +852,7 @@ proxies:
   server: 104.24.163.206
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
 - name: 🇫🇷FR_451
@@ -808,6 +862,7 @@ proxies:
   server: 104.18.152.204
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_169
@@ -817,6 +872,7 @@ proxies:
   server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -828,6 +884,7 @@ proxies:
   server: soskeynets.z6-0hlnubjibwzpa85.workers.dev
   sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
 - name: 🇫🇷FR_1119
@@ -837,6 +894,7 @@ proxies:
   server: 162.159.4.103
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_259
@@ -846,6 +904,7 @@ proxies:
   server: 104.18.152.208
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_247
@@ -855,6 +914,7 @@ proxies:
   server: 104.16.174.44
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_10
@@ -864,6 +924,7 @@ proxies:
   server: 104.16.174.121
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_428
@@ -873,6 +934,7 @@ proxies:
   server: 104.16.174.34
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -884,6 +946,7 @@ proxies:
   server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1121
@@ -893,6 +956,7 @@ proxies:
   server: cnamefuckxxs.yuchen.icu
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
@@ -901,6 +965,7 @@ proxies:
   port: 10443
   server: 137.74.119.18
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -908,6 +973,7 @@ proxies:
   server: cloudflare-ip.mofashi.ltd
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_260
@@ -917,6 +983,7 @@ proxies:
   server: 104.26.14.137
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_47
@@ -926,6 +993,7 @@ proxies:
   server: blackshadow.dpdns.org
   sni: blackshadow.dpdns.org
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
 - name: 🇫🇷FR_1127
@@ -935,6 +1003,7 @@ proxies:
   server: 104.21.84.3
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_564
@@ -944,6 +1013,7 @@ proxies:
   server: 104.18.152.103
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_525
@@ -953,6 +1023,7 @@ proxies:
   server: 104.18.152.246
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -965,6 +1036,7 @@ proxies:
   skip-cert-verify: true
   sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -976,6 +1048,7 @@ proxies:
   server: 104.21.17.125
   sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/hYgAqUlh5GyczDyXP?ed
 - name: 🇫🇷FR_880
@@ -985,6 +1058,7 @@ proxies:
   server: 104.18.152.73
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_856
@@ -994,6 +1068,7 @@ proxies:
   server: 104.18.152.144
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - cipher: aes-256-gcm
@@ -1002,6 +1077,7 @@ proxies:
   port: 8881
   server: 64.31.63.244
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_56
   network: ws
   password: bpb-trojan
@@ -1009,6 +1085,7 @@ proxies:
   server: vless.herogoing.top
   sni: vless.herogoing.top
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - alpn:
@@ -1021,6 +1098,7 @@ proxies:
   skip-cert-verify: true
   sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇫🇷FR_879
@@ -1030,6 +1108,7 @@ proxies:
   server: 104.16.73.213
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1130
@@ -1039,6 +1118,7 @@ proxies:
   server: 162.159.3.212
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -1052,6 +1132,7 @@ proxies:
   server: 45.130.125.158
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_8
@@ -1061,6 +1142,7 @@ proxies:
   server: 104.17.111.8
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1129
@@ -1070,6 +1152,7 @@ proxies:
   server: 172.64.146.75
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_249
@@ -1079,6 +1162,7 @@ proxies:
   server: 104.18.152.225
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_248
@@ -1088,6 +1172,7 @@ proxies:
   server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1133
@@ -1097,6 +1182,7 @@ proxies:
   server: 172.67.147.60
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -1108,6 +1194,7 @@ proxies:
   server: jquery.com
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - name: 🇫🇷FR_940
@@ -1117,6 +1204,7 @@ proxies:
   server: 104.18.152.152
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_263
@@ -1127,6 +1215,7 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_27
@@ -1137,6 +1226,7 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1135
@@ -1146,6 +1236,7 @@ proxies:
   server: 172.64.35.127
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_258
@@ -1155,6 +1246,7 @@ proxies:
   server: 104.16.174.71
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_860
@@ -1164,6 +1256,7 @@ proxies:
   server: 104.16.7.70
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1120
@@ -1173,6 +1266,7 @@ proxies:
   server: cfip.1323123.xyz
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_468
@@ -1182,6 +1276,7 @@ proxies:
   server: 104.18.152.175
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_607
@@ -1191,6 +1286,7 @@ proxies:
   server: 104.18.152.207
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_793
@@ -1200,6 +1296,7 @@ proxies:
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
   sni: _acme-challenge.sb.cloudns.biz
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - name: 🇫🇷FR_593
@@ -1209,8 +1306,9 @@ proxies:
   server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /%2Fassignment
+    path: //assignment
 - name: 🇫🇷FR_832
   network: ws
   password: humanity
@@ -1218,6 +1316,7 @@ proxies:
   server: 172.67.149.60
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -1229,6 +1328,7 @@ proxies:
   server: 104.18.155.119
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - name: 🇫🇷FR_257
@@ -1238,6 +1338,7 @@ proxies:
   server: 104.16.174.6
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_63
@@ -1247,6 +1348,7 @@ proxies:
   server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -1260,6 +1362,7 @@ proxies:
   server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_3
@@ -1269,6 +1372,7 @@ proxies:
   server: 104.18.152.219
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_530
@@ -1278,6 +1382,7 @@ proxies:
   server: 104.18.152.50
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1126
@@ -1287,6 +1392,7 @@ proxies:
   server: 104.25.242.132
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_885
@@ -1296,6 +1402,7 @@ proxies:
   server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_930
@@ -1305,6 +1412,7 @@ proxies:
   server: app-538961.user-y0o4gm.workers.dev
   sni: app-538961.user-y0o4gm.workers.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - name: 🇫🇷FR_1118
@@ -1314,6 +1422,7 @@ proxies:
   server: 162.159.1.251
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_1116
@@ -1323,6 +1432,7 @@ proxies:
   server: cf.0sm.com
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_479
@@ -1332,6 +1442,7 @@ proxies:
   server: 104.18.152.108
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1136
@@ -1341,6 +1452,7 @@ proxies:
   server: 162.159.24.245
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_1132
@@ -1350,6 +1462,7 @@ proxies:
   server: 104.16.252.34
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_1123
@@ -1359,6 +1472,7 @@ proxies:
   server: cdn.tzpro.xyz
   sni: yks-dd9.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_413
@@ -1368,5 +1482,6 @@ proxies:
   server: 86.38.214.205
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment

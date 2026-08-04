@@ -51,16 +51,21 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
+  name: 🇭🇰HK-43.100.32.12-0203 | 0.0MB
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  servername: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 64
   cipher: auto
   name: 未知6
@@ -356,6 +361,20 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
+- alterId: 64
+  cipher: auto
+  name: 中国 028
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 029
@@ -1534,6 +1553,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0043
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27102
@@ -1542,6 +1562,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0044
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27103
@@ -1550,6 +1571,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0045
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 42881
@@ -1558,6 +1580,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0046
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43393
@@ -1566,6 +1589,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0047
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43383
@@ -1574,6 +1598,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0048
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27001
@@ -1582,6 +1607,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0049
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 22271
@@ -1590,6 +1616,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0050
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 22269
@@ -1598,6 +1625,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0051
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 46668
@@ -1606,6 +1634,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0052
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 34017
@@ -1614,6 +1643,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0053
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43394
@@ -1622,6 +1652,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0054
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43395
@@ -1630,6 +1661,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0055
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43396
@@ -1638,6 +1670,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0056
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43591
@@ -1646,6 +1679,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0057
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27408
@@ -1654,6 +1688,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0058
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 42883
@@ -1662,6 +1697,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0059
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 46925
@@ -1670,6 +1706,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0060
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43397
@@ -1678,6 +1715,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0061
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 33505
@@ -1686,6 +1724,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0062
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 33506
@@ -1694,6 +1733,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0063
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 34016
@@ -1702,6 +1742,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0064
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43583
@@ -1710,6 +1751,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0065
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43498
@@ -1718,6 +1760,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0066
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 44397
@@ -1726,6 +1769,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0067
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43497
@@ -1734,6 +1778,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0068
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43590
@@ -1742,6 +1787,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0069
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43586
@@ -1750,6 +1796,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
