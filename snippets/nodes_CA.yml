@@ -8,6 +8,7 @@ proxies:
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /in-pdr
 - cipher: chacha20-ietf-poly1305
@@ -16,6 +17,7 @@ proxies:
   port: 990
   server: 45.154.204.7
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -45,23 +47,33 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇫🇷 t.me/Natrixo AA
-  password: humanity
+- name: 🇨🇦133013 | ⚡️Telegram = t.me/S...
+  network: ws
+  password: '!!str 521314'
   port: 443
-  server: 104.18.152.225
+  server: 172.67.118.45
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '🇫🇷 t.me/Natrixo AA #2'
-  password: humanity
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇦133043 | ⚡️Telegram = t.me/S...
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
-  server: 104.18.152.77
+  server: 104.25.242.132
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: yks-dd9.pages.dev
+- name: 🇨🇦133029 | ⚡️Telegram = t.me/S...
+  password: MiTiVPN
+  port: 80
+  server: 151.101.130.172
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133107 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦133156 | ⚡️Telegram = t.me/L...
   network: ws
   port: '80'
   server: 104.19.35.138
@@ -74,7 +86,7 @@ proxies:
     path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133108 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦133157 | ⚡️Telegram = t.me/L...
   network: ws
   port: '2095'
   server: 104.19.45.146
@@ -87,47 +99,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 053
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  servername: seribus.org
+  name: US16
+  network: tcp
+  port: 22324
+  server: 23.154.136.47
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: linkvws
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133085 | ⚡️Telegram = t.me/S...
-  network: httpupgrade
-  port: '8080'
-  server: 172.66.44.97
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bd079453-339d-4c1f-8859-92e3e7029abd
-- alterId: 0
-  cipher: auto
-  name: 美国 067
-  network: ws
-  port: 443
-  server: 172.67.71.160
-  servername: obdii.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 加拿大 001
+  name: 加拿大 002
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -141,7 +123,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 002
+  name: 加拿大 003
   network: ws
   port: 80
   server: 51.79.102.253
@@ -154,7 +136,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 加拿大 003
+  name: 加拿大 004
   network: ws
   port: 80
   server: 108.181.10.17
@@ -167,7 +149,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 004
+  name: 加拿大 005
   network: ws
   port: 443
   server: 855.outline-vpn.cloud
@@ -181,7 +163,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 005
+  name: 加拿大 006
   network: ws
   port: 443
   server: 8955.outline-vpn.cloud
@@ -195,7 +177,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 006
+  name: 加拿大 007
   network: ws
   port: 443
   server: fragment---join.outline-vpn.cloud
@@ -209,7 +191,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 007
+  name: 加拿大 008
   network: ws
   port: 443
   server: 501.outline-vpn.cloud
@@ -223,7 +205,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 008
+  name: 加拿大 009
   network: ws
   port: 443
   server: 507.outline-vpn.cloud
@@ -237,7 +219,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 009
+  name: 加拿大 010
   network: ws
   port: 443
   server: cxc--join.outline-vpn.cloud
@@ -251,7 +233,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 010
+  name: 加拿大 011
   network: ws
   port: 443
   server: 503.outline-vpn.cloud
@@ -265,7 +247,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 011
+  name: 加拿大 012
   network: ws
   port: 443
   server: 505.outline-vpn.cloud
@@ -279,7 +261,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 012
+  name: 加拿大 013
   network: ws
   port: 443
   server: 502.outline-vpn.cloud
@@ -293,7 +275,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 加拿大 013
+  name: 加拿大 014
   network: ws
   port: 2086
   server: w.outline-vpn.cloud
@@ -306,7 +288,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 加拿大 014
+  name: 加拿大 015
   network: ws
   port: 443
   server: mtn-----join.outline-vpn.cloud
@@ -320,7 +302,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 015
+  name: 加拿大 016
   network: ws
   port: 443
   server: before2--join.outline-vpn.cloud
@@ -334,7 +316,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 016
+  name: 加拿大 017
   network: ws
   port: 443
   server: 506.outline-vpn.cloud
@@ -348,7 +330,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 017
+  name: 加拿大 018
   network: ws
   port: 443
   server: 504.outline-vpn.cloud
@@ -362,7 +344,7 @@ proxies:
     path: /linkvws
 - alterId: 64
   cipher: auto
-  name: 加拿大 018
+  name: 加拿大 019
   network: ws
   port: 30005
   server: 74.48.6.211
@@ -376,7 +358,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 加拿大 019
+  name: 加拿大 020
   network: ws
   port: 443
   server: 71.19.248.160
@@ -390,7 +372,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 加拿大 020
+  name: 加拿大 021
   network: ws
   port: 80
   server: 51.79.103.76
@@ -403,7 +385,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 加拿大 021
+  name: 加拿大 022
   network: ws
   port: 443
   server: 68.168.31.196
@@ -417,7 +399,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 加拿大 022
+  name: 加拿大 023
   network: ws
   port: 80
   server: 165.154.246.71
@@ -430,7 +412,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: 加拿大 023
+  name: 加拿大 024
   network: ws
   port: 443
   server: tw-1.qwqjsq.top
@@ -443,7 +425,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 024
+  name: 加拿大 025
   network: ws
   port: 80
   server: 165.154.246.107
@@ -456,7 +438,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 加拿大 025
+  name: 加拿大 026
   network: ws
   port: 31006
   server: 142.171.122.163
@@ -470,7 +452,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 加拿大 026
+  name: 加拿大 027
   network: ws
   port: 30003
   server: 74.48.79.107
@@ -484,7 +466,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 027
+  name: 加拿大 028
   network: ws
   port: 443
   server: 68.168.31.242
@@ -498,7 +480,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 加拿大 028
+  name: 加拿大 029
   network: ws
   port: 31005
   server: 142.171.24.42
@@ -512,7 +494,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 加拿大 029
+  name: 加拿大 030
   network: ws
   port: 443
   server: 142.171.79.10
@@ -526,7 +508,7 @@ proxies:
     path: /path/1704276466760
 - alterId: 64
   cipher: auto
-  name: 加拿大 030
+  name: 加拿大 031
   network: ws
   port: 443
   server: 142.171.215.99
@@ -540,7 +522,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: 加拿大 031
+  name: 加拿大 032
   network: ws
   port: 443
   server: 142.171.61.106
@@ -554,7 +536,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: 加拿大 032
+  name: 加拿大 033
   network: ws
   port: 443
   server: 142.171.238.19
@@ -568,7 +550,7 @@ proxies:
     path: /path/1703493333049
 - alterId: 64
   cipher: auto
-  name: 加拿大 033
+  name: 加拿大 034
   network: ws
   port: 443
   server: 142.171.237.242
@@ -582,7 +564,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: 加拿大 034
+  name: 加拿大 035
   network: ws
   port: 443
   server: 142.171.141.211
@@ -596,7 +578,7 @@ proxies:
     path: /path/1703924658447
 - alterId: 64
   cipher: auto
-  name: 加拿大 035
+  name: 加拿大 036
   network: ws
   port: 443
   server: 142.171.215.52
@@ -610,7 +592,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: 加拿大 036
+  name: 加拿大 037
   network: ws
   port: 443
   server: 142.171.187.178
@@ -624,7 +606,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: 加拿大 037
+  name: 加拿大 038
   network: ws
   port: 443
   server: 142.171.149.75
@@ -636,18 +618,29 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: true
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: rc4-md5
   name: 🇨🇦CA_4
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US_25
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大
@@ -662,32 +655,13 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
-- cipher: aes-128-gcm
-  name: 🇨🇦CA_3
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-158.51.121.63-0308 | 17.2...
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: /
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.61-0199 | 0.0M...
   password: XKFKl2rULjIp74
   port: 8008
   server: 85.208.108.61
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -695,6 +669,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -702,3 +677,11 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇦CA_2
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 185.196.61.82
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888

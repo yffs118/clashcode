@@ -22,6 +22,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #147'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -32,6 +33,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #8'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -42,6 +44,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #27'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -52,6 +55,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #53'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -62,6 +66,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #2'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -72,6 +77,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #129'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -82,6 +88,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #62'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -92,6 +99,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 日本(免费节点)_3
   network: ws
   password: '!!str 521314'
@@ -101,6 +109,7 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       host: hhtj.hhllfly.kdns.fr
@@ -112,6 +121,7 @@ proxies:
   server: xunlinknode.csdjhajkshdjkas.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '日本|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -120,6 +130,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '日本2|@ripaojiedian #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -128,6 +139,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇯🇵JP日本2
   network: tcp
@@ -139,13 +151,27 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  name: 🇯🇵JP日本
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 18.166.225.67
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: '🇯🇵JP_2|5.7MB/s #1'
+  name: jp|f147|puddincat07@Telegram
   password: amazonskr05
   port: 443
-  server: 13.231.179.245
+  server: 13.231.162.164
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: 🇨🇳CN-101.34.249.145-33
@@ -160,7 +186,6 @@ proxies:
     Host: v45.hdacd.com
   ws-path: /
 - name: 'JP_speednode_0010 #2'
-  network: tcp
   password: ND91608427
   port: 443
   server: definite-sturgeon.rooster465.autos
@@ -168,6 +193,7 @@ proxies:
   sni: definite-sturgeon.rooster465.autos
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'JP_speednode_0011 #2'
   password: ND91608427
   port: 443
@@ -176,6 +202,7 @@ proxies:
   sni: upright-impala.rooster465.autos
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵_日本_94
   password: '!!str 521314'
   port: 8443
@@ -185,6 +212,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjplay.lxdxo.kdns.fr
@@ -198,46 +226,33 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: www.microsoft.com
     path: /home
-- cipher: aes-256-cfb
-  name: jp|f147|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.231.162.164
-  type: ss
-  udp: true
+- name: 🇯🇵 Japan Tokyo | ⏱1298ms | ⚡14...
+  network: ws
+  password: MiTiVPN
+  port: 80
+  server: 151.101.0.194
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 日本/Japan
+  name: 🇯🇵JP-40.74.100.129-0154 | 0.0M...
   network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: jp02.a0a.xyz
-  skip-cert-verify: true
+  port: 443
+  server: fullaccesstojapannetsubnode1.azurewebsites.net
+  servername: 🇯🇵JP-40.74.100.129-0154 | 0.0MB
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
   ws-opts:
     headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #1'
-  network: ws
-  port: '80'
-  server: 168.138.43.75
-  servername: None
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: None
-    path: /cctv13.m3u8
+      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+    path: /
 - alterId: 0
   cipher: auto
   name: 菲律宾/马尼拉/Philippines/Manila
@@ -252,20 +267,6 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 日本 003
-  network: ws
-  port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
-    path: /ws
 - alterId: 0
   cipher: auto
   name: 日本 004
@@ -658,16 +659,13 @@ proxies:
     headers:
       Host: cvywfavasdc.cymlr.xyz
     path: /ksebupo
-- alterId: 0
-  cipher: auto
-  name: 日本/东京/Japan/Tokyo-3
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    path: /vmess/
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_6
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 日本/Japan-2
@@ -698,11 +696,12 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_7
+  name: 🇯🇵JP_13
   password: shadowsocks
   port: 443
-  server: 149.22.87.241
+  server: 149.22.87.240
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵JP-43.207.89.29-2944 | 22.95...
   password: ND91608427
   port: 443
@@ -710,54 +709,28 @@ proxies:
   skip-cert-verify: false
   sni: relaxing-bluebird.rooster465.autos
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵JP-153.127.8.129-3812 | 0.0M...
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 65014
   server: jp04a.roc-taiwan.net.ua
   skip-cert-verify: false
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇯🇵JP-172.104.123.158-0153 | 0....
   password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
   port: 8097
   server: 172.104.123.158
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-40.74.100.129-0154 | 0.0M...
-  network: ws
-  port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  servername: 🇯🇵JP-40.74.100.129-0154 | 0.0MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-168.138.203.232-0183 | 0....
-  network: ws
-  port: 443
-  server: suzhihan.eu.org
-  servername: 🇯🇵JP-168.138.203.232-0183 | 0.0MB
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 0b873cff-11ab-4716-c41a-04f886135091
-  ws-opts:
-    headers:
-      Host: suzhihan.eu.org
-    path: /
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇯🇵JP-20.210.122.21-0206 | 0.0M...
   password: 233blog.com
   port: 443
   server: 20.210.122.21
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-172.105.219.18-0218 | 0.0...
@@ -770,6 +743,14 @@ proxies:
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     path: /
+- name: 🇯🇵JP-57.183.7.187-0270 | 0.0MB
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 54876
+  server: 57.183.7.187
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵 JP 114 | ⬇️ 346KB/s
   network: ws
   password: MiTiVPN
@@ -777,6 +758,7 @@ proxies:
   server: 104.16.6.189
   sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -790,10 +772,19 @@ proxies:
   skip-cert-verify: true
   sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: Jpn1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_2|5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.179.245
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -801,6 +792,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 02 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -808,6 +800,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 03 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -815,6 +808,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 01 | 1x JP
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -822,6 +816,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 02 | 1x JP
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -829,6 +824,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵 日本 03 | 1x JP
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -836,6 +832,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 2|🇯🇵3 |  2.5MB/s
@@ -910,6 +907,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本2|@ripaojiedian
@@ -927,6 +925,7 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇯🇵 日本4|@ripaojiedian
@@ -945,6 +944,7 @@ proxies:
   skip-cert-verify: false
   sni: ji0612e.nfjunka.xyz
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: ji0612e.nfjunka.xyz
@@ -956,6 +956,7 @@ proxies:
   server: 18.179.174.138
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 13|日本2|@ripaojiedian
@@ -976,19 +977,10 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  name: 🇯🇵JP日本
-  password: BxceQaOe
-  port: 9408
-  server: 18.166.225.67
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - name: 日本_3
   password: '!!str 521314'
   port: 2053
   server: 103.106.228.126
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888

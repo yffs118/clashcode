@@ -8,6 +8,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjsp.hhxaf.cc.cd
@@ -21,13 +22,12 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 'KR_speednode_0012 #2'
-  network: tcp
+- name: 'KR_speednode_0012 #2'
   password: ND91608427
   port: 443
   server: definite-malamute.rooster465.autos
@@ -35,8 +35,8 @@ proxies:
   sni: definite-malamute.rooster465.autos
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'KR_speednode_0013 #2'
-  network: tcp
   password: ND91608427
   port: 443
   server: moved-meerkat.rooster465.autos
@@ -44,56 +44,24 @@ proxies:
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知59 383.6KB/s
+  name: 🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷
   network: ws
-  port: 80
-  server: 132.145.80.230
-  skip-cert-verify: true
+  port: 8443
+  server: 150.109.240.179
+  servername: www.bing.com
   tls: true
   type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
   ws-opts:
     headers:
-      host: kr02.a0a.xyz
-    path: /cctv13.m3u8
+      Host: ''
+    path: /wsproxy
 - alterId: 0
   cipher: auto
-  name: 韩国 014
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-3197 | 4.44...
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
-    path: /
-- name: 🇰🇷KR-13.125.239.182-0292 | 18....
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: saving-octopus.rooster465.autos
-  skip-cert-verify: false
-  sni: saving-octopus.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 韩国 003
+  name: 韩国 001
   network: ws
   port: 80
   server: 132.145.80.230
@@ -107,7 +75,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: 韩国 004
+  name: 韩国 002
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -120,7 +88,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 005
+  name: 韩国 003
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -133,7 +101,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 006
+  name: 韩国 004
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -146,7 +114,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 007
+  name: 韩国 005
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -160,7 +128,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: 韩国 008
+  name: 韩国 006
   network: ws
   port: 443
   server: 202.79.161.188
@@ -174,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 009
+  name: 韩国 007
   network: ws
   port: 443
   server: 202.79.160.243
@@ -188,7 +156,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 韩国 010
+  name: 韩国 008
   network: ws
   port: 443
   server: 202.79.160.164
@@ -202,7 +170,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 011
+  name: 韩国 009
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -216,7 +184,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 012
+  name: 韩国 010
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -230,7 +198,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 013
+  name: 韩国 011
   network: ws
   port: 80
   server: 92.223.61.25
@@ -248,6 +216,20 @@ proxies:
   server: 217.142.138.61
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 未知59 383.6KB/s
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      host: kr02.a0a.xyz
+    path: /cctv13.m3u8
 - name: 🇰🇷KR-43.203.119.20-30
   password: ND91608427
   port: 443
@@ -257,36 +239,48 @@ proxies:
   tls: false
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-5801 | 0.1...
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_1
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇰🇷KR-13.125.239.182-0292 | 18....
+  password: ND91608427
+  port: 443
+  server: saving-octopus.rooster465.autos
+  skip-cert-verify: false
+  sni: saving-octopus.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-152.67.218.38-3197 | 4.44...
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   name: 🇰🇷KR-211.178.105.134-5864 | 0....
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-6001 | 0....
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-5865 | 0....
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.69.230.170-0193 | 0.0...
@@ -319,6 +313,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -326,6 +321,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 01 | 1x KR
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -333,6 +329,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇰🇷 韩国 02 | 1x KR
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -340,6 +337,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇰🇷 韩国|@ripaojiedian
@@ -357,6 +355,7 @@ proxies:
   server: 3.34.192.249
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 13|韩国|@ripaojiedian
   network: ws
   password: ji0612uenfs
@@ -365,6 +364,7 @@ proxies:
   skip-cert-verify: true
   sni: ji0612e.nfjunka.xyz
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: ji0612e.nfjunka.xyz
@@ -375,30 +375,35 @@ proxies:
   port: 9090
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇰🇷KR_3
   password: KixLvKzwjekG00rm
   port: 8000
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇰🇷KR_7
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 韩国_1
   password: '!!str 521314'
   port: 443
   server: 118.218.10.159
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇰🇷KR_6
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 未知 TROJAN-234
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -407,15 +412,18 @@ proxies:
   skip-cert-verify: false
   sni: hk.catxstar.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇰🇷KR_5
   password: XKFKl2rULjIp74
   port: 8008
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇰🇷KR_4
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 141.164.45.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888

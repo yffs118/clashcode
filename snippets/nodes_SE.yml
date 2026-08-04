@@ -1,18 +1,25 @@
 proxies:
+- name: 🇸🇪 Sweden Stockholm | ⏱1789ms ...
+  network: ws
+  password: MiTiVPN
+  port: 80
+  server: 151.101.74.172
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
-  cipher: none
+  cipher: auto
   name: 瑞典 001
   network: ws
   port: 443
-  server: 185.146.173.64
+  server: 185.146.173.158
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
   ws-opts:
     headers:
-      Host: nl1.vmess.site
-    path: /vmess
+      Host: jahfkjha.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 瑞典 002
@@ -28,8 +35,22 @@ proxies:
       Host: obdii.cfd
     path: /linkws
 - alterId: 0
-  cipher: auto
+  cipher: none
   name: 瑞典 003
+  network: ws
+  port: 443
+  server: 185.146.173.64
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  ws-opts:
+    headers:
+      Host: nl1.vmess.site
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 瑞典 004
   network: http
   port: 80
   server: 217.142.138.61
@@ -38,7 +59,7 @@ proxies:
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - alterId: 0
   cipher: auto
-  name: 瑞典 004
+  name: 瑞典 005
   network: ws
   port: 80
   server: 5.249.160.226
@@ -52,7 +73,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: 瑞典 005
+  name: 瑞典 006
   network: ws
   port: 8080
   server: 141.147.161.53
@@ -65,7 +86,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 瑞典 006
+  name: 瑞典 007
   network: ws
   port: 80
   server: 185.146.173.25
@@ -78,7 +99,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 007
+  name: 瑞典 008
   network: ws
   port: 80
   server: myvpshosting.name.ng
@@ -91,7 +112,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 瑞典 008
+  name: 瑞典 009
   network: ws
   port: 31002
   server: 37.120.209.126
@@ -105,7 +126,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 瑞典 009
+  name: 瑞典 010
   network: ws
   port: 443
   server: 148.135.33.227
@@ -117,20 +138,6 @@ proxies:
     headers:
       Host: www.60988297.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 瑞典 010
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 瑞典 011

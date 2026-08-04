@@ -7,17 +7,21 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 加拿大 038
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 4@shadowsockskeys
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 114.26.123.156
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 3@shadowsockskeys
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.224.161.244
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -25,6 +29,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -32,6 +37,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -39,6 +45,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 01 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -46,6 +53,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 02 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -53,6 +61,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇹🇼 台湾 03 | 1x TW
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -60,6 +69,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 2,13|台湾|@ripaojiedian
@@ -95,3 +105,4 @@ proxies:
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888

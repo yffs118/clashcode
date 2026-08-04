@@ -1,14 +1,35 @@
 proxies:
-- alterId: 0
-  name: '🇬🇧 英国 Technicolor SA #3'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_80
+  network: ws
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  servername: 31.76.11.46.cdn-one.org
+  skip-cert-verify: true
+  tfo: false
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇬🇧 英国 starcorenode.com 2 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
+    short-id: '!!str 825d392c67e4'
+  server: 2.27.27.64
+  servername: jp.musicwave.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_173
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -17,6 +38,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: '英國 #2'
@@ -154,6 +176,7 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_118
   network: tcp
@@ -226,7 +249,7 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 英国 055
+- name: 英国 049
   network: tcp
   port: 1446
   server: 78.154.108.51
@@ -237,11 +260,24 @@ proxies:
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧133066 | ⚡️Telegram = t.me/S...
+  name: 🇬🇧133115 | ⚡️Telegram = t.me/L...
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
   server: 144.24.231.192
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇬🇧133101 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 217.163.76.55
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- name: 🇬🇧GB @zyzzzoao
+  port: 2087
+  server: 91.193.59.181
+  tls: false
+  type: vless
+  uuid: f0841bb1-00ff-4841-ba14-a3ec24d94bb5
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -250,30 +286,9 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 英国 001
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: 英国 002
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: trojan
-  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 英国 003
+  name: 英国 001
   network: ws
   port: 443
   server: cdn2.caihongmao.org
@@ -281,13 +296,13 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c476d4dc-c465-4d95-b3ea-b840696a2802
+  uuid: 9af59ea3-5032-4d4c-9df4-1bf11f4de0fc
   ws-opts:
     headers:
       Host: cdn2.caihongmao.org
     path: /cdnws
 - client-fingerprint: chrome
-  name: 英国 004
+  name: 英国 002
   network: ws
   port: 443
   server: cdn3.caihongmao.org
@@ -295,40 +310,46 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 29252624-7b81-4871-b29a-b33244473bc2
+  uuid: e7443c70-26ec-43af-9157-72a2a2c86bf7
   ws-opts:
     headers:
       Host: cdn3.caihongmao.org
     path: /cdnws
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 英国 006
-  network: ws
-  port: 51611
-  server: 51.13.38.115
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 297f4b35-a321-44b9-8a90-2d486d1153c1
-  ws-opts:
-    headers:
-      Host: 51.13.38.115
+  h2-opts:
     path: /
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇳🇱NL_298
-  network: grpc
-  password: 32b2m2w7hsdd93z7
+  name: 🇳🇱NL-51.15.119.36-0159 | 0.0MB
+  network: h2
   port: 443
-  server: 2.26.96.251
+  server: 51.15.119.36
   skip-cert-verify: false
-  sni: titandarkness.mooo.com
   tls: true
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
 - alterId: 0
   cipher: auto
-  name: 英国 008
+  name: US7 120.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: US15 102.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英国 009
   network: ws
   port: 443
   server: panel.safeconfigmasoud.com
@@ -342,24 +363,17 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US26 218.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 64
-  cipher: auto
   name: 英国 011
-  network: h2
-  port: 443
-  server: 51.15.119.36
+  network: ws
+  port: 51611
+  server: 51.13.38.115
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
+  uuid: 297f4b35-a321-44b9-8a90-2d486d1153c1
+  ws-opts:
+    headers:
+      Host: 51.13.38.115
+    path: /
 - alterId: 0
   cipher: auto
   name: 英国 012
@@ -575,57 +589,36 @@ proxies:
     headers:
       Host: dl.kgvn.garenanow.com
     path: /
-- name: 英国 028
-  network: ws
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  servername: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.251.127.cdn-one.org
-    path: /10336/2GCOqG7bvAfp=chrome
-- name: 英国 029
-  network: ws
-  port: 443
-  server: 185.170.154.80.vhub.pro
-  servername: 185.170.154.80.vhub.pro
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5083f498-4894-5553-8648-40a2faf4b545
-  ws-opts:
-    headers:
-      Host: 185.170.154.80.vhub.pro
-    path: /websocket?ed=2560fp=firefox
 - alterId: 0
   cipher: auto
-  name: 未知89 24.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  name: 英国 028
+  network: ws
+  port: 443
+  server: 185.162.228.229
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 英国 032
-  network: tcp
-  port: 40631
-  server: 167.99.196.111
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- name: 英国 029
+  network: ws
+  port: 22222
+  server: 18.132.76.36
+  servername: telegram-channel-vlessconfig.sohala.uk
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 108de013-7e4b-44b3-b89e-38b1d2598332
-- name: 英国 033
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- name: 英国 030
   network: ws
   port: 443
   server: 45.8.211.217
@@ -640,7 +633,7 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
-- name: 英国 034
+- name: 英国 031
   network: ws
   port: 2200
   server: 185.247.16.3
@@ -655,46 +648,6 @@ proxies:
     headers:
       Host: rzd.ru
     path: /v1
-- name: 英国 035
-  network: tcp
-  port: 41015
-  server: 104.248.163.251
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
-- name: 英国 036
-  network: tcp
-  port: 41015
-  server: 167.71.130.202
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
-- name: 英国 037
-  network: tcp
-  port: 41015
-  server: 178.62.69.4
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
-- name: 英国 038
-  network: tcp
-  port: 41015
-  server: 46.101.92.181
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
 - name: '未知 VLESS-407 #1'
   network: tcp
   port: 1234
@@ -708,7 +661,7 @@ proxies:
   ws-opts:
     headers:
       Host: play.google.com
-- name: 英国 040
+- name: 英国 033
   network: tcp
   port: 1234
   server: 82.40.62.209
@@ -718,7 +671,7 @@ proxies:
   type: vless
   udp: true
   uuid: 2d18c9f7-ee9b-4c82-8d8c-0454404be61b
-- name: 英国 041
+- name: 英国 034
   network: tcp
   port: 2083
   server: 85.234.69.247
@@ -728,7 +681,7 @@ proxies:
   type: vless
   udp: true
   uuid: 35f955ac-6904-4eae-81d5-432dbb545c21
-- name: 英国 042
+- name: 英国 035
   network: ws
   port: 2087
   server: 45.85.118.16
@@ -743,23 +696,7 @@ proxies:
     headers:
       Host: valid22.validbv9501.ir
     path: /eyJqdW5rIjoiS0ZJaGhSaG14Z0NMeCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjE0Ni4xMDMuMTE0LjEzNCJdfQ==
-- client-fingerprint: chrome
-  name: 英国 043
-  network: ws
-  port: 443
-  server: 80.74.29.157
-  servername: vp58.cc.cd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp58.cc.cd
-    path: /Telegram🇨🇳
-- name: 英国 044
+- name: 英国 036
   network: ws
   port: 2237
   server: 185.247.16.49
@@ -774,7 +711,7 @@ proxies:
     headers:
       Host: rzd.ru
     path: /v1
-- name: 英国 045
+- name: 英国 037
   network: ws
   port: 2273
   server: 185.247.16.49
@@ -789,8 +726,18 @@ proxies:
     headers:
       Host: rzd.ru
     path: /v1
+- name: 英国 038
+  network: tcp
+  port: 62145
+  server: 92.5.235.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: 英国 046
+  name: 英国 039
   network: tcp
   port: 8443
   server: 77.74.123.178
@@ -801,18 +748,8 @@ proxies:
   type: vless
   udp: true
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 英国 047
-  network: tcp
-  port: 443
-  server: 193.58.119.134
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97d216c9-7561-45fa-fd67-e56fde36360b
 - client-fingerprint: chrome
-  name: 英国 048
+  name: 英国 041
   network: ws
   port: 443
   server: 164.38.155.135
@@ -827,7 +764,7 @@ proxies:
     headers:
       Host: alfi.yas-nowin.ir
     path: /?ed=2048
-- name: 英国 049
+- name: 英国 043
   network: ws
   port: 8080
   server: 141.11.45.214
@@ -842,19 +779,17 @@ proxies:
     headers:
       Host: net.hostingdata.ir
     path: /
-- client-fingerprint: chrome
-  name: 英国 050
-  network: xhttp
-  port: 9443
-  server: 185.233.184.7
-  servername: nl.node.sillyvpn.cc
+- name: 英国 044
+  network: tcp
+  port: 23519
+  server: 46.101.24.35
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: c2d71d05-dd22-4bd0-bb02-1fceaccad963
-- name: 英国 051
+  uuid: d1e3c253-7d5e-4bd5-9f16-52787a63bb65
+- name: 英国 045
   network: tcp
   port: 2550
   server: 194.242.129.162
@@ -864,7 +799,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 英国 053
+- name: 英国 047
   network: tcp
   port: 1447
   server: 194.242.129.110
@@ -874,7 +809,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 英国 054
+- name: 英国 048
   network: tcp
   port: 1447
   server: 78.154.108.26
@@ -884,58 +819,23 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 英国 056
+- name: 英国 050
   network: tcp
-  port: 11616
-  server: 134.209.177.169
+  port: 22222
+  server: 51.45.45.205
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
-- name: 英国 057
-  network: tcp
-  port: 11616
-  server: 138.68.159.63
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
-- name: 英国 058
-  network: tcp
-  port: 11616
-  server: 167.99.93.100
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
-- name: 英国 059
-  network: tcp
-  port: 11616
-  server: 46.101.37.179
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-189
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.217
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-197
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.162
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: api.v1.data
@@ -956,218 +856,168 @@ proxies:
   port: 1234
   server: 194.164.92.198
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_2
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-176
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.191
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-203 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ❓Other_1
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_139
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.49
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-177 #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_9
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇬🇧GB_4
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-174
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.189
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_163
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: ❓Other_18
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_62
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_159
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_3
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_68
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-206
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-186 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.214
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_137
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.186-5766 | 65.13...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_48
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-196
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-208
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.48
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_67
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.184-5985 | 58.07...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-184 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_60
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.34
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-198
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇬🇧GB_16
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇬🇧GB_13
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
-  name: 🇬🇧GB_14
+  name: 🇬🇧GB_1
   password: shadowsocks
   port: 443
-  server: 141.98.101.179
+  server: 141.98.101.178
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_15
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_64
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-5778 | 3.616...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_12
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.10
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧GB-46.175.135.9-0125 | 0.0MB
-  network: ws
-  port: 443
-  server: lu1.gogogoo.cyou
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  ws-opts:
-    headers:
-      Host: lu1.gogogoo.cyou
-    path: /
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇬🇧GB-51.89.138.147-0146 | 0.0M...
@@ -1203,6 +1053,7 @@ proxies:
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧 GB 055 | ⬇️ 16KB/s
   network: ws
   packet-encoding: xudp
@@ -1255,6 +1106,7 @@ proxies:
   port: 1080
   server: 83.147.216.208
   type: socks5
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1262,6 +1114,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1269,12 +1122,14 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧3 |  2.8MB/s
   password: mps3FwmDjLrWaOVg
   port: 443
   server: series-a2.varzesh360.co
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇬🇧GB_115
   network: xhttp
@@ -1302,8 +1157,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: GB VLESS-1310
   network: tcp
   port: 443
@@ -1315,7 +1168,6 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
-    path: ''
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -1376,6 +1228,7 @@ proxies:
   port: 61312
   server: 134.65.56.202
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_111
   network: tcp
@@ -1458,6 +1311,7 @@ proxies:
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧GB_30
   network: ws
   port: 8880
@@ -1498,8 +1352,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: GB VLESS-1289
   network: tcp
   port: 443
@@ -1511,7 +1363,6 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
-    path: ''
 - name: 🇬🇧GB_72
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -1520,6 +1371,7 @@ proxies:
   sni: wopa7.api3-max.ru
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_88
   network: tcp
@@ -1604,6 +1456,7 @@ proxies:
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_67
@@ -1622,8 +1475,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: GB VLESS-1304
   network: tcp
   port: 443
@@ -1635,7 +1486,6 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
-    path: ''
 - client-fingerprint: firefox
   name: 🇬🇧GB_98
   network: tcp
@@ -1718,6 +1568,7 @@ proxies:
   port: 8388
   server: 31.76.80.205
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_101
   network: tcp
@@ -1776,10 +1627,11 @@ proxies:
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-  name: 未知 VLESS-252
+  name: '未知 VLESS-252 #1'
   network: grpc
   port: 2053
   reality-opts:
@@ -1790,19 +1642,6 @@ proxies:
   tls: true
   type: vless
   uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_63
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE
-    short-id: '!!str f6e197a0b9f2'
-  server: 107.181.147.22
-  servername: www.techradar.com
-  tls: true
-  type: vless
-  uuid: 5e18094c-18b1-4198-b211-96b40518cecf
 - client-fingerprint: firefox
   name: 🇬🇧GB_92
   network: tcp
@@ -1893,8 +1732,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: GB VLESS-1287
   network: tcp
   port: 443
@@ -1906,13 +1743,13 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
-    path: ''
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB_116
   password: WVLhtSQD3bVjKRAM0ofofB
   port: 5228
   server: creativeboxnl.zanity.net
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -1930,6 +1767,13 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_26
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧GB_78
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -1937,6 +1781,7 @@ proxies:
   sni: wopa6.api3-max.ru
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇬🇧GB_84
   network: ws
@@ -1979,8 +1824,6 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: GB VLESS-1316
   network: tcp
   port: 443
@@ -1992,7 +1835,6 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   name: 🇬🇧GB_77
   network: ws
@@ -2082,7 +1924,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048
 - name: 🇬🇧_GB_英国_11
   network: ws
   port: 2053
@@ -2094,7 +1936,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048
 - name: 🇬🇧_GB_英国_19
   network: ws
   port: 2096
@@ -2106,7 +1948,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048
 - name: 🇬🇧_GB_英国_25
   network: ws
   port: 8443
@@ -2118,7 +1960,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048
 - name: 🇬🇧_GB_英国_26
   network: ws
   port: 443
@@ -2130,7 +1972,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048
 - name: 🇬🇧_GB_英国_33
   network: ws
   port: 2096
@@ -2142,4 +1984,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
+    path: /?ed=2048

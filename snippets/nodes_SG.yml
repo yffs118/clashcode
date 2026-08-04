@@ -21,6 +21,7 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       host: hhtj.hhllfly.kdns.fr
@@ -34,6 +35,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
@@ -45,6 +47,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡2
   network: tcp
@@ -56,6 +59,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -64,6 +68,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 45744
+  server: 16.163.150.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬_新加坡_93
   password: '!!str 521314'
   port: 8443
@@ -73,10 +87,18 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬1@shadowsockskeys
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 84.247.49.211
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 4
   cipher: auto
   name: 新加坡 001
@@ -326,6 +348,7 @@ proxies:
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
@@ -338,6 +361,7 @@ proxies:
   skip-cert-verify: true
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
@@ -347,6 +371,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -354,6 +379,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -361,6 +387,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -368,6 +395,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -375,6 +403,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -382,6 +411,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡|@ripaojiedian
@@ -399,6 +429,7 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -406,18 +437,21 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇸🇬SG_55
   password: MajO3weHH7Jv
   port: 8388
   server: 192.124.176.118
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡_3
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬SG_39
   network: tcp
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
@@ -426,12 +460,14 @@ proxies:
   skip-cert-verify: true
   sni: 139.59.238.97
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬SG²_1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬SG_33
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -440,3 +476,4 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
