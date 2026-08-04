@@ -1,0 +1,80 @@
+name: fetchspeedbase
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 表达式生成 https://crontab.guru/
+   - cron: '0 */5 * * *'   
+   - cron: '0 1 * * *' # 每天早上 9:00 (UTC+8) 自动运行
+  push:
+    paths:
+      - 'sources.list'
+      - 'config.yml'
+      - 'abpwhite.txt'
+      - '.github/workflows/fetch.yml'
+      - '**.py'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 迁出代码
+      uses: actions/checkout@v6
+      with:
+        fetch-depth: 0   # 拉取完整历史，便于后续 pull --rebase
+
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+
+    - name: 安装 Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        cache: 'pip'
+
+    - name: 安装依赖
+      run: pip install -r requirements.txt
+
+    # ====== 新增：先拉取远端最新代码，避免后续提交冲突 ======
+    - name: 拉取远端最新代码
+      run: git pull origin main --rebase
+
+    - name: 执行任务
+      run: python ./fetch.py
+
+    # ========== 测试节点连通性 ==========
+    - name: 测试节点连通性
+      run: python ./speed.py list.meta.yml list.metaspeed.yml
+      # 如果测速失败，不影响后续提交（可选）
+      continue-on-error: true
+
+    # ====== 合并提交和推送步骤 ======
+    - name: 提交并推送更改
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add list*
+        git add snippets/
+        # 仅当有变更时才提交
+        git diff --staged --quiet || git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        git push origin main
+
+    - name: 计算要清除缓存的文件
+      id: purge_urls
+      run: |
+        sleep 5
+        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@main"
+        urls=""
+        for f in `find snippets -name "*.yml" -type f`; do
+          urls+="${baseUrl}/${f},"
+        done
+        for f in `find . -name "list*" -type f -maxdepth 1`; do
+          urls+="${baseUrl}/${f},"
+        done
+        echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
+
+    - name: 清除 JsDelivr CDN 缓存
+      uses: egad13/purge-jsdelivr-cache@v1
+      with:
+        url: ${{ steps.purge_urls.outputs.urls }}
+      continue-on-error: true
