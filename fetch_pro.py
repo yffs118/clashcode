@@ -52,8 +52,6 @@ import threading
 import sys
 import os
 import copy
-import unicodedata
-import re
 from types import FunctionType as function
 from typing import Set, List, Dict, Union, Callable, Any, Optional, Iterable, TypedDict
 
@@ -286,6 +284,7 @@ class Node:
         elif v['net'] == 'grpc' and 'path' in v:
             self.data['grpc-opts'] = {'grpc-service-name': v['path']}
 
+    # ====== 增强：_load_ss 使用 rsplit 避免密码含冒号 ======
     def _load_ss(self, url: str, dt: str):
         info = dt.split('@')
         srvname = info.pop()
@@ -307,7 +306,6 @@ class Node:
                 info = b64decodes_safe(info)
             except Exception:
                 raise UnsupportedType('ss', 'SP')
-        # ====== 修复：使用 rsplit 避免密码中包含 ':' ======
         if ':' in info:
             cipher, passwd = info.rsplit(':', 1)   # 从右侧分割，只分割一次
         else:
@@ -344,12 +342,12 @@ class Node:
             elif k == 'protoparam':
                 self.data['protocol-param'] = v
 
+    # ====== 增强：_load_trojan 使用 parse_qs ======
     def _load_trojan(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)}
         if not parsed.query: return
-        # ====== 使用 parse_qs 处理查询参数 ======
         query = parse_qs(parsed.query)
         for k, vals in query.items():
             v = vals[0] if vals else ''
@@ -375,13 +373,13 @@ class Node:
                     self.data['ws-opts'] = {}
                 self.data['ws-opts']['path'] = v
 
+    # ====== 增强：_load_vless 使用 parse_qs，仅当 pbk 非空时设置 reality-opts ======
     def _load_vless(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)}
         self.data['tls'] = False
         if not parsed.query: return
-        # ====== 使用 parse_qs 处理查询参数，避免 split 错误 ======
         query = parse_qs(parsed.query)
         for k, vals in query.items():
             v = vals[0] if vals else ''
@@ -413,21 +411,19 @@ class Node:
             elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'security' and v == 'tls':
                 self.data['tls'] = True
-            # ========== [FIX] 仅当 pbk 非空时才设置 reality-opts ==========
             elif k == 'pbk':
-                if v.strip():  # 确保公钥不为空
+                if v.strip():
                     if 'reality-opts' not in self.data:
                         self.data['reality-opts'] = {}
                     self.data['reality-opts']['public-key'] = v
-            # ==================================================================
             elif k == 'sid':
                 if 'reality-opts' not in self.data:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
 
+    # ====== 增强：_load_hysteria2 使用 parse_qs，处理 username 可能为 None ======
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
-        # ====== 修复：username 可能为 None ======
         username = unquote(parsed.username) if parsed.username else ''
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'type': 'hysteria2', 'password': username}
@@ -443,7 +439,6 @@ class Node:
             self.data['port'] = 443
         self.data['tls'] = False
         if not parsed.query: return
-        # ====== 使用 parse_qs ======
         query = parse_qs(parsed.query)
         for k, vals in query.items():
             v = vals[0] if vals else ''
@@ -455,6 +450,7 @@ class Node:
                 self.data[k] = v
             elif k == 'fp': self.data['client-fingerprint'] = v
 
+    # ====== 增强：_load_tuic 使用 parse_qs ======
     def _load_tuic(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {
@@ -476,11 +472,10 @@ class Node:
             elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'congestion_control': self.data['congestion-controller'] = v
 
+    # ====== 增强：_load__legacy 端口解析截断 ======
     def _load__legacy(self, url: str, dt: str):
         parsed = urlparse(url)
-        # ====== 修复端口解析：提取纯数字端口 ======
         port_str = str(parsed.port) if parsed.port is not None else ''
-        # 如果端口包含 ? 或 &，说明后面跟着查询参数，需要截断
         if '?' in port_str:
             port_str = port_str.split('?')[0]
         elif '&' in port_str:
@@ -633,7 +628,7 @@ class Node:
                 ret += '&'+urlk+'='+b64encodes_safe(data[k])
         return "ssr://"+ret
 
-    # ====== 修复：增强 _url_trojan 容错 ======
+    # ====== 增强：_url_trojan 容错 ======
     def _url_trojan(self, data: DATA_TYPE) -> str:
         passwd = quote(data['password'])
         name = quote(data['name'])
@@ -647,7 +642,6 @@ class Node:
         if 'network' in data:
             if data['network'] == 'grpc':
                 ret += f"type=grpc&"
-                # 容错：检查 grpc-opts 是否存在
                 if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
                     ret += f"serviceName={data['grpc-opts']['grpc-service-name']}"
             elif data['network'] == 'ws':
@@ -661,9 +655,8 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 修复：增强 _url_vless 容错，处理缺失 uuid 和空公钥 ======
+    # ====== 增强：_url_vless 容错，缺失 uuid 默认值 ======
     def _url_vless(self, data: DATA_TYPE) -> str:
-        # 如果 data 中没有 uuid，使用默认值
         uuid = data.get('uuid', DEFAULT_UUID)
         passwd = quote(uuid)
         name = quote(data['name'])
@@ -696,20 +689,18 @@ class Node:
             ret += f"fp={data['client-fingerprint']}&"
         if data.get('tls'):
             ret += f"security=tls&"
-        # ========== [FIX] 仅当 reality-opts 存在且公钥非空时才添加 ==========
         elif 'reality-opts' in data:
             opts: Dict[str, str] = data['reality-opts']
             pbk = opts.get('public-key', '').strip()
             sid = opts.get('short-id', '').strip()
-            if pbk:  # 公钥有效才添加
+            if pbk:
                 ret += f"security=reality&pbk={pbk}&"
                 if sid:
                     ret += f"sid={sid}&"
-        # =====================================================================
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 修复：增强 _url_hysteria2 容错，缺失 password 时使用空字符串 ======
+    # ====== 增强：_url_hysteria2 容错，缺失 password 时使用空字符串 ======
     def _url_hysteria2(self, data: DATA_TYPE) -> str:
         passwd = quote(data.get('password', ''))
         name = quote(data.get('name', '未命名'))
@@ -762,6 +753,7 @@ class Node:
     _url_https = _url__legacy
     _url_socks5 = _url__legacy
 
+    # ====== 增强：clash_data 中修复 cipher、reality-opts 等 ======
     @property
     def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
@@ -769,56 +761,40 @@ class Node:
             ret['server'] = ret['server'][1:-1]
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
-        # ====== 确保 uuid 字段始终存在 ======
         if 'uuid' not in ret or len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
-        
-        # ====== 修复 Shadowsocks cipher 问题 ======
+        # 修复 SS cipher
         if self.type == 'ss':
-            # 如果 cipher 缺失、为空或为 'auto'，设置为一个有效的默认值
             if 'cipher' not in ret or not ret['cipher'] or ret['cipher'] == 'auto':
                 ret['cipher'] = 'aes-256-gcm'
         else:
-            # 其他类型（VMess 等）空缺时仍设为 auto
             if 'cipher' in ret and not ret['cipher']:
                 ret['cipher'] = 'auto'
-        
         if self.type == 'vless' and 'flow' in ret:
             if ret['flow'].endswith('-udp443'):
                 ret['flow'] = ret['flow'][:-7]
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
         if 'alpn' in ret and isinstance(ret['alpn'], str):
-            # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
-        # A temporary fix for clash-party's `invalid REALITY short ID` error.
         if 'reality-opts' in ret and 'short-id' in ret['reality-opts']:
             ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
-        
-        # ========== [FIX] REALITY requires TLS ==========
-        # 原代码无此段，现在为所有 REALITY 节点强制开启 TLS
         if 'reality-opts' in ret:
             ret['tls'] = True
-            # ========== [FIX] 清理公钥中的空白字符 ==========
             pbk = ret['reality-opts'].get('public-key', '').strip()
             if pbk:
                 ret['reality-opts']['public-key'] = pbk
             else:
-                # 公钥为空则移除整个 reality-opts，避免 Clash 报错
                 del ret['reality-opts']
-                ret['tls'] = False  # 如果无公钥，不能开启 REALITY，也不能强制 TLS
-        # ================================================
-        
+                ret['tls'] = False
         return ret
 
-    # ====== 修复：在 supports_clash 中过滤无效类型、缺失密码的 SS 及无效 REALITY 公钥 ======
+    # ====== 增强：supports_clash 过滤无效 REALITY 公钥 ======
     def supports_clash(self, meta=False) -> bool:
-        # 过滤 type 为 none / 空 / None
         if self.type in ('none', '', None):
             return False
         if self.isfake: return False
-        # 针对 SS 节点，检查密码是否缺失
         if self.type == 'ss':
             if not self.data.get('password'):
                 return False
@@ -830,18 +806,13 @@ class Node:
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
         elif not meta: return False
-        else: 
-            # ========== [FIX] 检查 REALITY 节点公钥有效性 ==========
+        else:
             if self.type == 'vless' and 'reality-opts' in self.data:
                 pbk = self.data['reality-opts'].get('public-key', '').strip()
-                if not pbk:  # 公钥为空则不支持
+                if not pbk:
                     return False
-                # 可选：检查公钥长度（Base64解码后应为32字节，但暂不强制）
-            # ========================================================
             return True
-        # Vmess / SS / SSR
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
-            # A quick fix for #2
             self.data['tls'] = True
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
@@ -865,10 +836,6 @@ class Node:
 
     def supports_ray(self) -> bool:
         if self.isfake: return False
-        # if self.type == 'ss':
-        #     if 'plugin' in self.data and self.data['plugin']: return False
-        # elif self.type == 'ssr':
-        #     return False
         if self.type == 'socks5' and self.data.get('tls'):
             return False
         return True
@@ -923,7 +890,7 @@ class Source():
                     if 'ignore' in self.cfg:
                         self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
                     self.url = '#'.join(segs[:-1])
-                with session.get(normpath(self.url), stream=True, timeout=60) as r:
+                with session.get(normpath(self.url), stream=True) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
                             exc = f"'{self.url}' 抓取时 {r.status_code}"
@@ -994,49 +961,14 @@ class Source():
             ret = content.decode('ignore')
         return ret
 
-    # ====== 修改：增强 parse 方法，支持 proxy-providers ======
     def parse(self):
         try:
             text = self.content
             if isinstance(text, str):
-                # 先尝试作为 Clash 配置文件解析（可能包含 proxies 或 proxy-providers）
-                if "proxies:" in text or "proxy-providers:" in text:
+                if "proxies:" in text:
+                    # Clash config
                     config = yaml.full_load(text.replace("!<str>","!!str"))
-                    sub = []
-                    # 1. 检查是否有 proxies 字段
-                    if 'proxies' in config:
-                        sub = config['proxies']
-                    # 2. 如果没有 proxies，检查 proxy-providers
-                    elif 'proxy-providers' in config:
-                        providers = config['proxy-providers']
-                        for provider_name, provider_config in providers.items():
-                            if isinstance(provider_config, dict) and provider_config.get('type') == 'http':
-                                provider_url = provider_config.get('url')
-                                if provider_url:
-                                    # 下载 provider 内容并解析
-                                    try:
-                                        resp = session.get(provider_url, timeout=30)
-                                        if resp.status_code == 200:
-                                            provider_text = resp.text
-                                            # 递归解析，但用已有函数 parse_subscription_content
-                                            # 但我们不能直接调用 Node 函数，简单处理：如果 provider 内容包含 vmess:// 等，直接提取
-                                            # 更好的方式：将 provider_text 交给 parse_subscription_content 处理
-                                            # 这里我们调用全局函数 parse_subscription_content（之前已经导入）
-                                            # 但需要确保 parse_subscription_content 可用
-                                            sub.extend(parse_subscription_content(provider_text, provider_url))
-                                        else:
-                                            self.exc_queue.append(f"Provider {provider_url} 下载失败，状态码 {resp.status_code}")
-                                    except Exception as e:
-                                        self.exc_queue.append(f"Provider {provider_url} 下载异常：{str(e)}")
-                    # 如果 sub 为空但 content 中包含节点链接，尝试按行解析
-                    if not sub and '://' in text:
-                        sub = text.strip().splitlines()
-                    elif not sub:
-                        # 尝试 Base64 解码
-                        try:
-                            sub = b64decodes(text.strip()).strip().splitlines()
-                        except:
-                            sub = []
+                    sub = config['proxies']
                 elif '://' in text:
                     # V2Ray raw list
                     sub = text.strip().splitlines()
@@ -1164,10 +1096,9 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
         try:
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
-            # ====== 修复异常处理：直接打印异常信息，避免访问 reason 属性 ======
             try:
-                print(f"{url} 下载失败：{str(e)}")
-            except:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
                 print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
             continue
@@ -1189,8 +1120,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
-                print(f"{url} 下载失败：{str(e)}")
-            except:
+                print(f"{url} 下载失败：{e.args[0].reason}")
+            except Exception:
                 print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
             continue
@@ -1233,11 +1164,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
 
     print(f"共有 {len(rules)} 条规则")
 
+# ====== 新增：循环引用检测与修复函数 ======
 def fix_proxy_group_loop(groups: List[Dict[str, Any]]) -> None:
-    """
-    检测并修复 proxy-groups 中的循环引用（自引用）。
-    如果某个组的 proxies 列表中包含自身组名，则移除该自引用。
-    """
     for group in groups:
         group_name = group.get('name')
         if not group_name:
@@ -1249,13 +1177,7 @@ def fix_proxy_group_loop(groups: List[Dict[str, Any]]) -> None:
                 print(f"  已移除 {group_name} 组中的自引用")
 
 def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
-    """
-    检测并打破 proxy-groups 中的所有循环引用（跨组循环）。
-    对于环中的组，移除其 proxies 列表中对其他组的引用（保留直接节点名）。
-    """
-    # 构建组名到索引的映射（用于快速判断是否为组名）
     name_to_idx = {g['name']: i for i, g in enumerate(groups) if 'name' in g}
-    # 构建邻接表（组名 -> 它引用的组名列表）
     graph = {g['name']: [] for g in groups if 'name' in g}
     for g in groups:
         name = g.get('name')
@@ -1264,12 +1186,9 @@ def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
         for item in g.get('proxies', []):
             if item in name_to_idx:
                 graph[name].append(item)
-
-    # DFS 检测环，记录环中的节点
     visited = set()
     rec_stack = set()
     cycle_nodes = set()
-
     def dfs(node):
         visited.add(node)
         rec_stack.add(node)
@@ -1278,21 +1197,16 @@ def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
                 if dfs(neighbor):
                     return True
             elif neighbor in rec_stack:
-                # 发现环，将当前递归栈中的所有节点标记为环的一部分
                 cycle_nodes.update(rec_stack)
                 return True
         rec_stack.remove(node)
         return False
-
     for node in graph:
         if node not in visited:
             dfs(node)
-
     if not cycle_nodes:
         return
-
     print(f"警告：检测到循环引用，涉及组: {', '.join(cycle_nodes)}")
-    # 对每个在环中的组，移除其 proxies 列表中的所有组名（只保留非组名）
     for g in groups:
         if g.get('name') in cycle_nodes:
             original = g.get('proxies', [])
@@ -1300,40 +1214,19 @@ def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
             g['proxies'] = new_proxies
             print(f"  已清理组 {g['name']} 的循环引用，保留节点: {new_proxies}")
 
-# ====== 强化去重函数 ======
-def normalize_name(name: str) -> str:
-    """
-    规范化组名：去除所有 Unicode 空白、控制字符、零宽字符，
-    将所有空白字符替换为普通空格，strip，再 NFC 正规化。
-    """
-    if not name:
-        return ''
-    # 1. 替换所有空白为普通空格
-    name = re.sub(r'\s+', ' ', name)
-    # 2. 去除零宽字符、控制字符等不可见字符（保留可见符号）
-    name = re.sub(r'[\u200b-\u200f\u2028-\u202e\u2060-\u206f\u00ad\u180e\u034f]', '', name)
-    # 3. strip 首尾空格
-    name = name.strip()
-    # 4. NFC 正规化
-    return unicodedata.normalize('NFC', name)
-
+# ====== 新增：去重函数 ======
 def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
-    """
-    移除 proxy-groups 中重复的组名（基于规范化后的名称），
-    保留第一个出现的组，并打印详细信息。
-    """
-    seen = {}
+    seen = set()
     to_remove = []
     for i, g in enumerate(groups):
         name = g.get('name')
         if name is None:
             continue
-        norm = normalize_name(name)
-        if norm in seen:
+        if name in seen:
             to_remove.append(i)
-            print(f"警告：发现重复组名 '{repr(name)}'（规范化后 '{repr(norm)}'），将移除重复项")
+            print(f"警告：发现重复组名 '{name}'，将移除重复项")
         else:
-            seen[norm] = i
+            seen.add(name)
     for i in reversed(to_remove):
         del groups[i]
 
@@ -1487,9 +1380,6 @@ def main():
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
 
-    # [FIX] 加载后立即去重
-    deduplicate_groups(conf['proxy-groups'])
-
     rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
         # !!! JUST FOR DEBUGING !!!
@@ -1599,36 +1489,22 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
-    # ====== 备份预设组的原始 proxies（用于恢复） ======
-    original_proxies_map = {}
-    for group in conf['proxy-groups']:
-        name = group.get('name')
-        if name in ('🚀 选择代理', '♻ 自动选择', '🔰 延迟最低', '✅ 手动选择', '🌐 突破锁区', '❓ 疑似国内', '🐟 漏网之鱼', '🚨 病毒网站', '⛔ 广告拦截'):
-            if 'proxies' in group:
-                original_proxies_map[name] = group['proxies'].copy()
-    # ===============================================
-
-    # ====== 修复 proxy-groups 循环引用（初始配置） ======
+    # ====== 新增：修复 proxy-groups 循环引用 ======
     fix_proxy_group_loop(conf['proxy-groups'])
     fix_proxy_group_loop(conf_meta['proxy-groups'])
     detect_and_break_cycles(conf['proxy-groups'])
     detect_and_break_cycles(conf_meta['proxy-groups'])
-    # =============================================
+    # ===========================================
 
     # Clash
     conf['proxies'] = proxies
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash
-
-    # [FIX] 在添加地区组前先去重（与基础版无关，只是保险）
-    deduplicate_groups(conf['proxy-groups'])
-
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        # [FIX] 完全采用基础版的无条件添加方式，不检查重复
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
                 disp = ctg_base.copy()
@@ -1638,36 +1514,8 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-        # 再次检测循环并去重
-        detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
-
-        # 确保 🗺️ 选择地区 组有内容
-        if not conf['proxy-groups'][-1].get('proxies'):
-            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
-            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
-
-    # 恢复预设组的 proxies（若被误清）
-    for group in conf['proxy-groups']:
-        name = group.get('name')
-        if name in original_proxies_map:
-            if not group.get('proxies') or group['proxies'] == []:
-                group['proxies'] = original_proxies_map[name]
-                print(f"恢复预设组 '{name}' 的 proxies")
-
-    # 确保所有组都有 proxies 字段且非空
-    for group in conf['proxy-groups']:
-        if 'proxies' not in group:
-            group['proxies'] = []
-            print(f"注意：组 {group.get('name')} 缺失 proxies，已创建空列表")
-        if not group.get('proxies'):
-            group['proxies'] = names_clash.copy() if names_clash else ['DIRECT']
-            print(f"填充空组 {group.get('name')} 为节点列表")
-
-    # [FIX] 最终写入前再次去重
+    # ====== 新增：在写入前去重 ======
     deduplicate_groups(conf['proxy-groups'])
-    # 打印最终组名列表以便调试（使用 repr 显示不可见字符）
-    print("最终 Clash 组名列表:", [repr(g.get('name')) for g in conf['proxy-groups'] if g.get('name')])
 
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
@@ -1687,15 +1535,10 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash_meta
-
-    # [FIX] 在添加地区组前先去重
-    deduplicate_groups(conf['proxy-groups'])
-
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        # [FIX] 无条件添加
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
                 disp = ctg_base.copy()
@@ -1705,32 +1548,8 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
 
-        detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
-
-        if not conf['proxy-groups'][-1].get('proxies'):
-            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
-            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
-
-    # 恢复预设组
-    for group in conf['proxy-groups']:
-        name = group.get('name')
-        if name in original_proxies_map:
-            if not group.get('proxies') or group['proxies'] == []:
-                group['proxies'] = original_proxies_map[name]
-                print(f"恢复预设组 '{name}' 的 proxies")
-
-    for group in conf['proxy-groups']:
-        if 'proxies' not in group:
-            group['proxies'] = []
-            print(f"注意：组 {group.get('name')} 缺失 proxies，已创建空列表")
-        if not group.get('proxies'):
-            group['proxies'] = names_clash_meta.copy() if names_clash_meta else ['DIRECT']
-            print(f"填充空组 {group.get('name')} 为节点列表")
-
-    # [FIX] 最终写入前再次去重
+    # ====== 新增：在写入前去重 ======
     deduplicate_groups(conf['proxy-groups'])
-    print("最终 Meta 组名列表:", [repr(g.get('name')) for g in conf['proxy-groups'] if g.get('name')])
 
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
