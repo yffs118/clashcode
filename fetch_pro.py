@@ -1467,6 +1467,9 @@ def main():
     with open("config.yml", encoding="utf-8") as f:
         conf: Dict[str, Any] = yaml.full_load(f)
 
+    # [FIX] 加载后立即去重，确保初始配置无重复组名
+    deduplicate_groups(conf['proxy-groups'])
+
     rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
         # !!! JUST FOR DEBUGING !!!
@@ -1601,26 +1604,19 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        # 收集已存在的组名用于去重
-        existing_names = {g['name'] for g in conf['proxy-groups'] if 'name' in g}
+        # [FIX] 移除 existing_names 去重逻辑，直接无条件添加（像基础版一样）
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
-                group_name = ctg_disp[ctg]
-                # 跳过已存在的组名（避免生成 "🇺🇸 美国  2"）
-                if group_name in existing_names:
-                    print(f"跳过重复组名: {group_name}")
-                    continue
                 disp = ctg_base.copy()
-                disp['name'] = group_name
+                disp['name'] = ctg_disp[ctg]
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-                existing_names.add(group_name)
 
         # 再次检测循环并去重
         detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])  # [FIX] 最后统一去重
 
         # 确保 🗺️ 选择地区 组有内容
         if not conf['proxy-groups'][-1].get('proxies'):
@@ -1666,23 +1662,18 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        existing_names = {g['name'] for g in conf['proxy-groups'] if 'name' in g}
+        # [FIX] 同样移除 existing_names 逻辑
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
-                group_name = ctg_disp[ctg]
-                if group_name in existing_names:
-                    print(f"跳过重复组名: {group_name}")
-                    continue
                 disp = ctg_base.copy()
-                disp['name'] = group_name
+                disp['name'] = ctg_disp[ctg]
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-                existing_names.add(group_name)
 
         detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])
+        deduplicate_groups(conf['proxy-groups'])  # [FIX] 最后统一去重
 
         if not conf['proxy-groups'][-1].get('proxies'):
             conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
