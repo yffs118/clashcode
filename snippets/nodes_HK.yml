@@ -1,11 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
   name: 未知 SS-08
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 19000
   server: ss.045.node-for-bigairport.win
+  skip-cert-verify: true
+  tls: true
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #137'
   network: tcp
   password: 65fQmPHHbPcBCfvSHt
@@ -15,7 +17,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #16'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -26,7 +27,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 013
@@ -53,7 +53,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 'HK香港(mibei77.com 米贝节点分享)_1 #2'
@@ -114,7 +113,8 @@ proxies:
   type: vmess
   udp: true
   uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- name: HK香港
+- alterId: 0
+  name: HK香港
   network: tcp
   password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
   port: 13209
@@ -124,10 +124,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: HK 24.6KB/s
+  name: HK19 4.1KB/s
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -153,13 +152,12 @@ proxies:
     headers:
       host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: HK4 51.7KB/s
+  name: 香港(免费节点)_4
   network: ws
-  port: 443
+  port: '443'
   server: mh7r5ardl0z5jtgy.v.3dns.vip
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -169,7 +167,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK13 9.2KB/s
+  name: HK4 28.3KB/s
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -184,7 +182,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK12 29.0KB/s
+  name: HK17 38.8KB/s
   network: ws
   port: 443
   server: ejomsxptp19apygl.v.3dns.vip
@@ -199,7 +197,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK22 24.9KB/s
+  name: HK3 16.6KB/s
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -214,7 +212,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK21 211.2KB/s
+  name: HK10
   network: ws
   port: 443
   server: zudssgtmrqg9lpvi.v.3dns.vip
@@ -227,85 +225,6 @@ proxies:
     headers:
       host: zUDssgTMRqg9LpvI.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港2
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 中国 032
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
-- client-fingerprint: chrome
-  name: 🇭🇰 香港4
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港5
-  port: 54104
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港6
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港7
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39301
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇭🇰 香港8
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -316,15 +235,17 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '香港3|@ripaojiedian #1'
+- alterId: 0
+  name: 🇭🇰HK香港4
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 50887
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
+  udp: true
 - name: '香港4|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -333,7 +254,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: '香港5|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -342,7 +262,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: '香港|@ripaojiedian #1'
@@ -357,24 +276,6 @@ proxies:
   ws-headers:
     Host: v10.hdacd.com
   ws-path: /
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 18.166.225.67
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29443
-  server: 16.163.150.174
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 美国 087
@@ -467,18 +368,14 @@ proxies:
     headers:
       Host: ejomsxptp19apygl.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  name: 'HK_speednode_0007 #2'
-  network: tcp
+- name: 'HK_speednode_0007 #2'
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'HK_speednode_0009 #2'
   network: tcp
   password: BxceQaOe
@@ -488,7 +385,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰_香港_24
   password: ND91608427
   port: 443
@@ -498,7 +394,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 HK 073 | ⬇️ 13KB/s
   network: tcp
   password: ND91608427
@@ -509,7 +404,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰_香港_48
   password: ND91608427
   port: 443
@@ -519,7 +413,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇭🇰_香港_69
@@ -532,7 +425,7 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: HK14 21.0KB/s
+  name: HK23 13.6KB/s
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -545,34 +438,6 @@ proxies:
     headers:
       host: 7tImuei1uuFOiXbf.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰HK-16.162.22.218-2949
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  sni: t.me/ripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰HK-18.163.100.58-0271 | 0.0M...
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 18.163.100.58
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  name: 🇸🇬SG新加坡
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 95.40.107.76
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰
@@ -601,19 +466,6 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #2'
-  network: ws
-  port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-6
   network: ws
   port: 443
@@ -629,7 +481,75 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #3'
+  name: 香港/香港/Hong Kong/Hong Kong-9
+  network: ws
+  port: 443
+  server: ejomsxptp19apygl.v.3dns.vip
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #4'
+  network: ws
+  port: 443
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #5'
+  network: ws
+  port: '443'
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #6'
+  network: ws
+  port: '443'
+  server: mtckundigepwu3up.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #7'
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #8'
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -640,6 +560,35 @@ proxies:
   ws-opts:
     headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 香港/香港/Hong Kong/Hong Kong-14
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #10'
+  network: ws
+  port: 443
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -718,21 +667,6 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-9
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
-  servername: ejOMsxPtP19APyGL.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-10
   network: ws
   port: 443
@@ -748,7 +682,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK17 13.4KB/s
+  name: HK9 14.1KB/s
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -787,21 +721,6 @@ proxies:
   ws-opts:
     headers:
       Host: mh7R5ArdL0z5jTGY.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-14
-  network: ws
-  port: 443
-  server: i2psm3knof5qjjix.v.3dns.vip
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -1032,7 +951,6 @@ proxies:
   skip-cert-verify: true
   sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
@@ -1043,7 +961,6 @@ proxies:
   server: 172.66.173.172
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
@@ -1056,7 +973,6 @@ proxies:
   server: 104.25.242.132
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
@@ -1069,22 +985,21 @@ proxies:
   server: 172.67.147.60
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  name: 'US美国 #6'
+  name: 🇭🇰 HK 648 | ⬇️ 8MB/s
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: cf.0sm.com
-  skip-cert-verify: false
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
     path: /
 - client-fingerprint: chrome
   name: 🇭🇰 HK 660 | ⬇️ 727KB/s
@@ -1094,7 +1009,6 @@ proxies:
   server: 104.16.252.34
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     max-early-data: 2048
@@ -1106,7 +1020,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1114,7 +1027,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1122,7 +1034,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1130,7 +1041,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1138,7 +1048,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1146,7 +1055,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -1154,7 +1062,6 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港2|@ripaojiedian
   password: be443689-bc64-49ff-85a5-8eecaa2235d3
@@ -1162,7 +1069,6 @@ proxies:
   server: hk2.fgmcx.top
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港3|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -1170,7 +1076,6 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: 12,13|香港4|@ripaojiedian
@@ -1209,7 +1114,6 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 12|🇭🇰 香港7|@ripaojiedian
@@ -1227,7 +1131,6 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 13|香港5|@ripaojiedian
@@ -1264,7 +1167,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: HK3 59.0KB/s
+  name: HK 41.8KB/s
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -1278,7 +1181,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK5
+  name: HK6
   network: ws
   port: 54809
   server: 8.210.140.23
@@ -1290,35 +1193,21 @@ proxies:
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: HK6 42.7KB/s
+  name: HK8
   network: ws
   port: 443
-  server: 47.76.197.72
+  server: 47.83.207.148
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      host: m01c7b2z26dtqgee.v.3dns.vip
+      host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK9
-  network: ws
-  port: 443
-  server: 47.83.198.38
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: wwafj5lhl6bi8au9.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: HK10 18.8KB/s
+  name: HK12
   network: ws
   port: 443
   server: 8.210.189.158
@@ -1331,33 +1220,8 @@ proxies:
       host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 🇭🇰HK香港
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.191.180
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
   cipher: auto
-  name: HK15
-  network: ws
-  port: 26925
-  server: 38.207.164.31
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK16 12.5KB/s
+  name: HK13 21.4KB/s
   network: ws
   port: 443
   server: ce0gedpxwou6cqon.v.3dns.vip
@@ -1371,18 +1235,96 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  name: HK14
+  network: ws
+  port: 8443
+  server: 20.2.218.142
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      host: 01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK16
+  network: ws
+  port: 13080
+  server: 182.160.14.145
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      host: 01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  name: 🇭🇰HK香港3
+  password: BxceQaOe
+  port: 11035
+  server: 18.166.225.67
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: HK18
   network: ws
+  port: 36968
+  server: 47.83.18.10
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK20
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK21 12.2KB/s
+  network: ws
   port: 443
-  server: 47.83.207.148
+  server: 47.83.198.38
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      host: VAH4URdZL3jDX5r2.v.3dns.vip
+      host: wwafj5lhl6bi8au9.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: HK24
+  network: ws
+  port: 26925
+  server: 38.207.164.31
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      host: cfhk.393930.xyz
+    path: /
 - name: 香港 05
   network: tcp
   password: BxceQaOe
@@ -1391,7 +1333,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: CZ_speednode_0005
   password: Hb8mL9G4l166
@@ -1399,4 +1340,3 @@ proxies:
   server: 212.192.13.12
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888

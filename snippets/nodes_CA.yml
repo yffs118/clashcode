@@ -8,7 +8,6 @@ proxies:
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /in-pdr
 - cipher: chacha20-ietf-poly1305
@@ -17,7 +16,6 @@ proxies:
   port: 990
   server: 45.154.204.7
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -47,14 +45,46 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦 | @NormanConfig
+- name: 🇫🇷 t.me/Natrixo AA
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '🇫🇷 t.me/Natrixo AA #2'
   password: humanity
   port: 443
   server: 104.18.152.77
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /assignment
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133107 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: '80'
+  server: 104.19.35.138
+  tls: false
+  type: vmess
+  uuid: b720e0b2-aa39-4633-90d8-489ed91038b0
+  ws-opts:
+    headers:
+      Host: m2-sg3.m2network.icu
+    path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133108 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: '2095'
+  server: 104.19.45.146
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
 - alterId: 0
   cipher: auto
   name: 美国 053
@@ -70,6 +100,16 @@ proxies:
     headers:
       Host: seribus.org
     path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133085 | ⚡️Telegram = t.me/S...
+  network: httpupgrade
+  port: '8080'
+  server: 172.66.44.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bd079453-339d-4c1f-8859-92e3e7029abd
 - alterId: 0
   cipher: auto
   name: 美国 067
@@ -596,29 +636,18 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: 加拿大 038
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: rc4-md5
   name: 🇨🇦CA_4
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US_25
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大
@@ -639,7 +668,6 @@ proxies:
   port: 443
   server: 149.22.95.183
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇦CA-158.51.121.63-0308 | 17.2...
@@ -660,7 +688,6 @@ proxies:
   port: 8008
   server: 85.208.108.61
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -668,7 +695,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇨🇦 加拿大 01 | 1x CA
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -676,4 +702,3 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888

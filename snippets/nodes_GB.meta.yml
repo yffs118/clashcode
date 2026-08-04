@@ -1,14 +1,14 @@
 proxies:
-- name: '🇬🇧 英国 Technicolor SA #3'
+- alterId: 0
+  name: '🇬🇧 英国 Technicolor SA #3'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_173
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -17,7 +17,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: '英國 #2'
@@ -155,7 +154,6 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_118
   network: tcp
@@ -239,52 +237,11 @@ proxies:
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧133115 | ⚡️Telegram = t.me/L...
+  name: 🇬🇧133066 | ⚡️Telegram = t.me/S...
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
   server: 144.24.231.192
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇬🇧 United Kingdom London | ⏱39...
-  port: 443
-  server: 14.102.228.201
-  tls: false
-  type: vless
-  uuid: 21b887ba-e23a-48f2-9882-7cb1f1ff9923
-- http-opts:
-    headers:
-      Host:
-      - farhang.athforce.ir
-    method: GET
-    path:
-    - /
-  name: 🇬🇧 GB 112 | ⬇️ 1MB/s
-  network: http
-  port: 38778
-  server: farhang.athforce.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7a74bb65-e652-4c0e-a1a7-d0bc0d963352
-- name: 🇬🇧 United Kingdom Slough | ⏱87...
-  port: 443
-  server: 162.159.38.119
-  tls: false
-  type: vless
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  ws-opts:
-    path: /hdgrbws
-- alterId: 0
-  cipher: auto
-  name: 美国 114
-  network: tcp
-  port: 2052
-  server: node-uk.connectsuite.org
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -293,7 +250,6 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: 英国 001
@@ -305,7 +261,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
   name: 英国 002
@@ -317,7 +272,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 英国 003
   network: ws
@@ -372,7 +326,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 英国 008
@@ -389,7 +342,7 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US14 215.7MB/s
+  name: US26 218.8MB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -654,7 +607,7 @@ proxies:
     path: /websocket?ed=2560fp=firefox
 - alterId: 0
   cipher: auto
-  name: 未知14 1.1MB/s
+  name: 未知89 24.7MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -977,14 +930,12 @@ proxies:
   port: 8080
   server: 82.38.31.217
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-197
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.162
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: api.v1.data
@@ -1005,266 +956,204 @@ proxies:
   port: 1234
   server: 194.164.92.198
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_2
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.205
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-176
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.191
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-203 #1'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.2
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: ❓Other_1
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_139
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.49
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-188
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.216
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-177 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.192
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_9
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_161
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇬🇧GB_4
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-174
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.189
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_163
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: ❓Other_18
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_62
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.149
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_159
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.176
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_3
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.210
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_68
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-206
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-186 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.214
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_137
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-5766 | 65.13...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_48
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.174
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-196
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.15
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-208
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.48
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_67
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.155
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.184-5985 | 58.07...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-184 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_60
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.34
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-198
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇬🇧GB_16
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇬🇧GB_13
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_1
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_15
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇬🇧GB_14
   password: shadowsocks
   port: 443
   server: 141.98.101.179
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_64
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-5778 | 3.616...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_12
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.10
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇬🇧GB-46.175.135.9-0125 | 0.0MB
@@ -1314,7 +1203,6 @@ proxies:
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧 GB 055 | ⬇️ 16KB/s
   network: ws
   packet-encoding: xudp
@@ -1332,6 +1220,21 @@ proxies:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     max-early-data: 2560
     path: /
+- http-opts:
+    headers:
+      Host:
+      - farhang.athforce.ir
+    method: GET
+    path:
+    - /
+  name: 🇬🇧 GB 112 | ⬇️ 1MB/s
+  network: http
+  port: 38778
+  server: farhang.athforce.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: 7a74bb65-e652-4c0e-a1a7-d0bc0d963352
 - client-fingerprint: firefox
   grpc-opts:
     grpc-mode: gun
@@ -1352,7 +1255,6 @@ proxies:
   port: 1080
   server: 83.147.216.208
   type: socks5
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1360,7 +1262,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇬🇧 英国住宅IP 01 | 1x UK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1368,14 +1269,12 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 2|🇬🇧3 |  2.8MB/s
   password: mps3FwmDjLrWaOVg
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇬🇧GB_115
   network: xhttp
@@ -1403,6 +1302,8 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: GB VLESS-1310
   network: tcp
   port: 443
@@ -1414,6 +1315,7 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
+    path: ''
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -1474,7 +1376,6 @@ proxies:
   port: 61312
   server: 134.65.56.202
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_111
   network: tcp
@@ -1557,7 +1458,6 @@ proxies:
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧GB_30
   network: ws
   port: 8880
@@ -1598,6 +1498,8 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: GB VLESS-1289
   network: tcp
   port: 443
@@ -1609,6 +1511,7 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
+    path: ''
 - name: 🇬🇧GB_72
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -1617,7 +1520,6 @@ proxies:
   sni: wopa7.api3-max.ru
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_88
   network: tcp
@@ -1702,7 +1604,6 @@ proxies:
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_67
@@ -1721,6 +1622,8 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: GB VLESS-1304
   network: tcp
   port: 443
@@ -1732,6 +1635,7 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
+    path: ''
 - client-fingerprint: firefox
   name: 🇬🇧GB_98
   network: tcp
@@ -1814,7 +1718,6 @@ proxies:
   port: 8388
   server: 31.76.80.205
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇬🇧GB_101
   network: tcp
@@ -1873,11 +1776,10 @@ proxies:
   sni: wopa5.api3-max.ru
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-  name: '未知 VLESS-252 #1'
+  name: 未知 VLESS-252
   network: grpc
   port: 2053
   reality-opts:
@@ -1991,6 +1893,8 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: GB VLESS-1287
   network: tcp
   port: 443
@@ -2002,13 +1906,13 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
+    path: ''
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB_116
   password: WVLhtSQD3bVjKRAM0ofofB
   port: 5228
   server: creativeboxnl.zanity.net
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -2026,13 +1930,6 @@ proxies:
   ws-opts:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_26
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇬🇧GB_78
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -2040,7 +1937,6 @@ proxies:
   sni: wopa6.api3-max.ru
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇬🇧GB_84
   network: ws
@@ -2083,6 +1979,8 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
   name: GB VLESS-1316
   network: tcp
   port: 443
@@ -2094,6 +1992,7 @@ proxies:
   ws-opts:
     headers:
       Host: eff6480ds124.gogocs.xyz
+    path: ''
 - client-fingerprint: chrome
   name: 🇬🇧GB_77
   network: ws
@@ -2183,7 +2082,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇬🇧_GB_英国_11
   network: ws
   port: 2053
@@ -2195,7 +2094,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇬🇧_GB_英国_19
   network: ws
   port: 2096
@@ -2207,7 +2106,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇬🇧_GB_英国_25
   network: ws
   port: 8443
@@ -2219,7 +2118,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇬🇧_GB_英国_26
   network: ws
   port: 443
@@ -2231,7 +2130,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇬🇧_GB_英国_33
   network: ws
   port: 2096
@@ -2243,4 +2142,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'

@@ -100,12 +100,28 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 🇨🇭@V2RFA
+  password: UKGgxZwI4G
+  port: 443
+  server: 179.237.75.217
+  type: trojan
+- name: '🇨🇭@V2RFA #1'
+  password: xITFB2PCsp
+  port: 2095
+  server: 179.237.75.217
+  type: trojan
 - name: 🇨🇭 Switzerland Zurich | ⏱646ms...
   port: 2053
   server: pro.polnejat.ir
   tls: false
   type: vless
   uuid: a104a6c1-f725-467c-9701-6fe5d16b4ce8
+- name: 🇨🇭133039 | ⚡️Telegram = t.me/S...
+  port: 2053
+  server: dl12sw.cdn-ir-prime.shop
+  tls: false
+  type: vless
+  uuid: c0911071-6e87-dfd8-4d8d-92982e4f23dd
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -118,7 +134,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -129,7 +144,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -219,7 +233,6 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -281,7 +294,6 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -420,7 +432,6 @@ proxies:
   port: 1080
   server: 146.70.26.156
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -512,6 +523,19 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_28
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
+    short-id: '!!str d515d6cfdfe60b02'
+  server: 45.195.2.114
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
