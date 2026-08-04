@@ -52,6 +52,7 @@ import threading
 import sys
 import os
 import copy
+import unicodedata  # 新增导入
 from types import FunctionType as function
 from typing import Set, List, Dict, Union, Callable, Any, Optional, Iterable, TypedDict
 
@@ -1298,10 +1299,10 @@ def detect_and_break_cycles(groups: List[Dict[str, Any]]) -> None:
             g['proxies'] = new_proxies
             print(f"  已清理组 {g['name']} 的循环引用，保留节点: {new_proxies}")
 
-# ====== 新增：去重函数 ======
+# ====== 改进：去重函数，使用规范化名称作为键 ======
 def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
     """
-    移除 proxy-groups 中重复的组名，保留第一个出现的组。
+    移除 proxy-groups 中重复的组名（基于规范化后的字符串），保留第一个出现的组。
     """
     seen = set()
     to_remove = []
@@ -1309,11 +1310,13 @@ def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
         name = g.get('name')
         if name is None:
             continue
-        if name in seen:
+        # 规范化：去除首尾空白，并转为 NFC 正规形式（统一视觉相同的 Unicode）
+        norm = unicodedata.normalize('NFC', name.strip())
+        if norm in seen:
             to_remove.append(i)
-            print(f"警告：发现重复组名 '{name}'，将移除重复项")
+            print(f"警告：发现重复组名 '{name}'（规范化后为 '{norm}'），将移除重复项")
         else:
-            seen.add(name)
+            seen.add(norm)
     for i in reversed(to_remove):
         del groups[i]
 
@@ -1604,19 +1607,34 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        # [FIX] 移除 existing_names 去重逻辑，直接无条件添加（像基础版一样）
+
+        # [FIX] 使用规范化名称作为去重键，避免因空格/Unicode差异导致的重复
+        existing_norm = set()
+        # 先记录已有的规范化名称（用于跳过已经存在的组名）
+        for g in conf['proxy-groups']:
+            name = g.get('name')
+            if name:
+                existing_norm.add(unicodedata.normalize('NFC', name.strip()))
+
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
+                raw_name = ctg_disp[ctg]
+                norm_name = unicodedata.normalize('NFC', raw_name.strip())
+                if norm_name in existing_norm:
+                    print(f"跳过重复组名（规范化后相同）: '{raw_name}' -> '{norm_name}'")
+                    continue  # 跳过，避免新增重复
+                # 新组，添加
                 disp = ctg_base.copy()
-                disp['name'] = ctg_disp[ctg]
+                disp['name'] = raw_name  # 保留原始显示名（但去重时使用规范化）
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+                existing_norm.add(norm_name)
 
-        # 再次检测循环并去重
+        # 再次检测循环并去重（最终保险）
         detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])  # [FIX] 最后统一去重
+        deduplicate_groups(conf['proxy-groups'])
 
         # 确保 🗺️ 选择地区 组有内容
         if not conf['proxy-groups'][-1].get('proxies'):
@@ -1662,18 +1680,31 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
-        # [FIX] 同样移除 existing_names 逻辑
+
+        # 同样使用规范化去重
+        existing_norm = set()
+        for g in conf['proxy-groups']:
+            name = g.get('name')
+            if name:
+                existing_norm.add(unicodedata.normalize('NFC', name.strip()))
+
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
+                raw_name = ctg_disp[ctg]
+                norm_name = unicodedata.normalize('NFC', raw_name.strip())
+                if norm_name in existing_norm:
+                    print(f"跳过重复组名（规范化后相同）: '{raw_name}' -> '{norm_name}'")
+                    continue
                 disp = ctg_base.copy()
-                disp['name'] = ctg_disp[ctg]
+                disp['name'] = raw_name
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+                existing_norm.add(norm_name)
 
         detect_and_break_cycles(conf['proxy-groups'])
-        deduplicate_groups(conf['proxy-groups'])  # [FIX] 最后统一去重
+        deduplicate_groups(conf['proxy-groups'])
 
         if not conf['proxy-groups'][-1].get('proxies'):
             conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
