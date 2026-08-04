@@ -39,51 +39,11 @@ proxies:
   ws-opts:
     path: /195.123.218.174-443
 - cipher: chacha20-ietf-poly1305
-  name: '未命名 #13'
+  name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_法国_37
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_法国_42
-  password: ND91608427
-  port: 443
-  server: classic-gator.rooster465.autos
-  skip-cert-verify: true
-  sni: classic-gator.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_法国_43
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: star-kiwi.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_法国_44
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
-  tls: true
-  type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
@@ -118,6 +78,46 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
+- name: 🇫🇷_法国_37
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_FR_法国_1
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_法国_43
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷_法国_44
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_259
@@ -131,14 +131,6 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- name: 未知 TROJAN-242
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
 - alterId: 0
   cipher: auto
   name: 未知35
@@ -516,8 +508,17 @@ proxies:
   tls: true
   type: vmess
   uuid: ae91113b-915f-4a56-b998-e52d8a12da39
+- name: '🇫🇷_FR_法国 #4'
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #4'
+  name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209

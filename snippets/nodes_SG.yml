@@ -26,29 +26,23 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- name: 🇸🇬 新加坡|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 52.194.222.108
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬 新加坡2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬 新加坡3|@stairnode
-  password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡
@@ -74,7 +68,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '新加坡3|@ripaojiedian #2'
+- name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -83,7 +77,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '新加坡3|@ripaojiedian #1'
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -106,6 +100,27 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  servername: null
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 以色列 001
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 新加坡 001

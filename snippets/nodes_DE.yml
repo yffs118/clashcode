@@ -24,72 +24,22 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- name: 🇩🇪_德国_25
-  password: ND91608427
-  port: 443
-  server: gentle-raptor.rooster465.autos
-  skip-cert-verify: true
-  sni: gentle-raptor.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪_德国_29
-  password: ND91608427
-  port: 443
-  server: next-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: next-turkey.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪_德国_35
-  password: ND91608427
-  port: 443
-  server: large-baboon.rooster465.autos
-  skip-cert-verify: true
-  sni: large-baboon.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪_德国_36
-  password: ND91608427
-  port: 443
-  server: informed-alpaca.rooster465.autos
-  skip-cert-verify: true
-  sni: informed-alpaca.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: 德国 001
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: rapid-firefly.rooster465.autos
-  skip-cert-verify: true
-  sni: rapid-firefly.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '未命名 #45'
-  password: '!!str 521314'
-  port: 443
-  server: 5.10.215.9
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
   ws-opts:
     headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /Telegram🇨🇳+@WangCai2
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_207
@@ -138,16 +88,90 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇩🇪 Germany Falkenstein | ⏱730m...
-  network: ws
+- name: '🇩🇪_DE_德国_2 #4'
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
+  skip-cert-verify: true
+  sni: gentle-raptor.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '🇩🇪_DE_德国_1 #4'
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  skip-cert-verify: true
+  sni: next-turkey.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪_德国_35
+  password: ND91608427
+  port: 443
+  server: large-baboon.rooster465.autos
+  skip-cert-verify: true
+  sni: large-baboon.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪_德国_36
+  password: ND91608427
+  port: 443
+  server: informed-alpaca.rooster465.autos
+  skip-cert-verify: true
+  sni: informed-alpaca.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  name: '🇩🇪_DE_德国_3 #4'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪_德国_88
   password: '!!str 521314'
   port: 443
-  server: millionaire.levikogjgfdd.ir
+  server: 5.10.215.9
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
+    path: /Telegram🇨🇳+@WangCai2
+- name: 🇩🇪133046 | ⚡️Telegram = t.me/S...
+  password: ND91608427
+  port: 443
+  server: large-baboon.rooster465.autos
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇩🇪133099 | ⚡️Telegram = t.me/S...
+  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
+  network: tcp
+  port: '27726'
+  server: fj260403.freechatup.com
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪133148 | ⚡️Telegram = t.me/L...
   network: tcp
   port: '1080'
   server: Fyfghgg.viranix.ir
@@ -908,6 +932,13 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_17
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪DE-5.75.154.136-0126 | 0.0MB
@@ -1050,6 +1081,13 @@ proxies:
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_4
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm

@@ -166,7 +166,7 @@ proxies:
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯->🇩🇪_DE_德国
+  name: 俄罗斯联邦/Russia
   port: 443
   reality-opts:
     public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
@@ -205,20 +205,76 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 🇷🇺@V2RFA
-  port: 2200
-  server: 212.67.9.113
+- cipher: aes-256-gcm
+  name: Saint-Petersburg🇷🇺
+  password: M09jM0daTkx1cEtwWUNBMjd0Q1lGdlFrampmWTZsemwxazVsT1FQcHgzdmU0dmJ1bUJGT3hpa2ZqMFBkejNwVw==
+  port: 58153
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: St.Peterburg🇷🇺
+  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
+  port: 45855
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: Petersburg🇷🇺
+  password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
+  port: 38211
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: Russia🇷🇺
+  password: Y3dQbUx5YXZodWZnY2JxR3JxQWEwajk2UHAzNEpGckEyY2k2OTAzM0IyRUMwM2JNc1pUV1M1b29uQVY0QW5pYQ==
+  port: 22159
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: Peterburg🇷🇺
+  password: aE1wMkZmT1pEWnNodzJRNU93VnJ4Uk8xcmQ5MWlvc3RvRk1Sb3diV0xodlVtUXJHa3o4UDZUamVlVE9OTE9SWA==
+  port: 25530
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: RU, Peterburg🇷🇺
+  password: dmJ3Y0I4cEMxamRWbVR5RTN1Yk44S3RIOVVteThoNDJaem5XWEVNeEhyQ3kyRWdRanRtWU5jZE1UNW5HZHVNNw==
+  port: 29556
+  server: 94.198.219.24
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '@filembad #4'
+  port: 420
+  server: 201.34.128.57
   tls: false
   type: vless
-  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
-  ws-opts:
-    path: /v1
-- name: 🇷🇺133007 | ⚡️Telegram = t.me/S...
+  uuid: 2400345d-6878-48c3-9f82-debf6c4021dd
+- name: '@filembad #6'
+  port: 445
+  server: 201.34.128.57
+  tls: false
+  type: vless
+  uuid: 2400345d-6878-48c3-9f82-debf6c4021dd
+- name: 🇷🇺133109 | ⚡️Telegram = t.me/S...
   port: 443
-  server: 45.67.215.73
+  server: 45.67.215.99
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- name: 俄罗斯 037
+  network: tcp
+  port: 8443
+  server: 89.19.223.155
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0b752da-101e-46dd-9860-3f089e71ec91
 - alterId: 0
   cipher: auto
   name: 🇬🇧GB-46.175.135.9-0125 | 0.0MB
@@ -448,6 +504,19 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 020
+  network: ws
+  port: 2082
+  server: 185.174.138.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
+  ws-opts:
+    headers:
+      Host: ee.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
   name: 俄罗斯 021
   network: ws
   port: 443
@@ -488,6 +557,15 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 024
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 俄罗斯 025
   network: grpc
   port: 8443
@@ -582,6 +660,18 @@ proxies:
   type: vless
   udp: true
   uuid: 943ecfd7-bea6-4520-8898-e1fa536250cc
+- name: '未知 VLESS-742 #1'
+  network: tcp
+  port: 443
+  server: 89.208.113.16
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: adce7c2a-3191-49ae-b61c-9b8258ea1b0e
+  ws-opts:
+    path: /
 - name: 俄罗斯 034
   network: tcp
   port: 443
@@ -603,17 +693,6 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_256
-  network: tcp
-  port: 8888
-  server: 45.13.119.219
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
 - name: 俄罗斯 038
   network: tcp
   port: 41617
@@ -641,11 +720,25 @@ proxies:
       Host: probabblynot.fazelextremeisreal.com
     path: /
 - cipher: aes-256-gcm
+  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: RU_speednode_0084
+  password: 895b4b796a357570
+  port: 10916
+  server: 176.32.35.51
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
   name: RU_speednode_0083
   password: bdb313adf74c2ede
   port: 20188
   server: 195.133.5.207
-  skip-cert-verify: true
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888

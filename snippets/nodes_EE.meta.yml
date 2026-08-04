@@ -1,34 +1,4 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: EE【机场推荐：https://a9a.xyz】14
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: '!!str a696de84963656de'
-  server: 95.85.224.51
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-  ws-opts:
-    headers:
-      Host: max.ru
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: ❓Other_6
-  network: tcp
-  port: 45176
-  reality-opts:
-    public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M
-    short-id: '!!str 8433cb66b6c3ab6d'
-  server: 185.155.97.58
-  servername: www.googletagmanager.com
-  tls: true
-  type: vless
-  uuid: dc7940e0-6bff-45e3-853d-4007561803c3
 - alterId: 1
   cipher: auto
   name: 爱沙尼亚 001
@@ -42,6 +12,19 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ❓Other_6
+  network: tcp
+  port: 45176
+  reality-opts:
+    public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M
+    short-id: '!!str 8433cb66b6c3ab6d'
+  server: 185.155.97.58
+  servername: www.googletagmanager.com
+  tls: true
+  type: vless
+  uuid: dc7940e0-6bff-45e3-853d-4007561803c3
 - alterId: 0
   cipher: auto
   name: EE-176.112.146.190-0222 | 0.0M...
@@ -93,3 +76,16 @@ proxies:
   tls: true
   type: vless
   uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: est.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384

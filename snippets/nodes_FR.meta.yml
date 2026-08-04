@@ -221,7 +221,7 @@ proxies:
     path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '🇫🇷_FR_法国 #5'
+  name: '🇫🇷_FR_法国 #6'
   network: tcp
   port: 43248
   reality-opts:
@@ -816,13 +816,45 @@ proxies:
   up: 300
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '未命名 #13'
+  name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_218
+  network: ws
+  port: 443
+  server: 57.128.183.3
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_228
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  servername: apjhdggyx.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
 - name: 'FR_speednode_0006 #1'
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
@@ -843,7 +875,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇫🇷_法国_42
+- name: 🇫🇷_FR_法国_1
   password: ND91608427
   port: 443
   server: classic-gator.rooster465.autos
@@ -901,22 +933,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_218
-  network: ws
-  port: 443
-  server: 57.128.183.3
-  servername: apjhdggyx.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
 - name: 🇫🇷_法国_219
   network: ws
   port: 443
@@ -945,22 +961,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_228
-  network: ws
-  port: 443
-  server: 152.228.191.232
-  servername: apjhdggyx.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
 - name: 🇫🇷_法国_242
   network: ws
   port: 443
@@ -1016,6 +1016,22 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 未知 VLESS-483
+  port: 443
+  server: 162.159.38.119
+  tls: false
+  type: vless
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  ws-opts:
+    path: /carbon
+- name: 🇫🇷 France Roubaix | ⏱3153ms | ...
+  port: 443
+  server: 172.67.74.10
+  tls: false
+  type: vless
+  uuid: 577699f7-468d-4b63-ae21-cdcdfd8d11c2
+  ws-opts:
+    path: /GoorBah
 - name: 🇫🇷FR_1004
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -1025,94 +1041,6 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 未知 TROJAN-242
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇳🇱NL_169
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: '!!str a8ae'
-  server: 194.76.154.31
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-- name: '未知 VLESS-742 #1'
-  network: tcp
-  port: 443
-  server: 89.208.113.16
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: adce7c2a-3191-49ae-b61c-9b8258ea1b0e
-  ws-opts:
-    path: /
-- name: 🇫🇷133083 | ⚡️Telegram = t.me/S...
-  port: 22223
-  server: 13.36.140.106
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷133084 | ⚡️Telegram = t.me/S...
-  port: 22224
-  server: 13.36.140.106
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷@V2RFA
-  port: 22222
-  server: 13.39.69.79
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇫🇷@V2RFA #1'
-  port: 22223
-  server: 13.39.69.79
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇫🇷@V2RFA #2'
-  port: 22224
-  server: 13.39.69.79
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 043
-  network: tcp
-  port: 22222
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 044
-  network: tcp
-  port: 22224
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷[@Config] vless-FR-14954142
-  port: 22222
-  server: 52.47.123.79
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alterId: 0
   cipher: auto
   name: 未知35
@@ -1638,6 +1566,26 @@ proxies:
     headers:
       Host: aza002.vaslbash.site
     path: /
+- name: 法国 043
+  network: tcp
+  port: 22222
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 044
+  network: tcp
+  port: 22224
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 法国 045
   network: tcp
   port: 22224
@@ -1772,8 +1720,17 @@ proxies:
   tls: true
   type: vless
   uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
+- name: '🇫🇷_FR_法国 #4'
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #4'
+  name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
@@ -4119,6 +4076,19 @@ proxies:
     headers:
       Host: socks5.revil-time3.workers.dev
     path: /socks5://128.140.46.169:13482
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_44
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RWE5ORdQ2SzuFWX8DlaRP415wbhee9ynJkqC7yFPgQw
+    short-id: '!!str d13ddfca12760d03'
+  server: 51.195.116.82
+  servername: speedtest.net
+  tls: true
+  type: vless
+  uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
 - alpn:
   - h2
   - http/1.1
@@ -4516,6 +4486,19 @@ proxies:
     headers:
       Host: young-dust-b8d9.31-8ba.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1143
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: 77.110.106.98
+  servername: node14.mxvpn.dev
+  tls: true
+  type: vless
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - name: 🇫🇷FR_128
   network: ws
   port: 8880
@@ -8746,6 +8729,19 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txtfp=random
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1179
+  network: ws
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - name: 🇫🇷FR_530
   network: ws
   password: humanity

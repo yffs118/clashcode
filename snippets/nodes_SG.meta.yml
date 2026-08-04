@@ -696,29 +696,23 @@ proxies:
   type: hysteria2
   up: 300
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬 新加坡|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 52.194.222.108
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬 新加坡2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇸🇬 新加坡3|@stairnode
-  password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡(yudou789.top 玉豆免费节点)
   network: ws
@@ -757,7 +751,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '新加坡3|@ripaojiedian #2'
+- name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -766,7 +760,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '新加坡3|@ripaojiedian #1'
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -907,60 +901,33 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 美国 1057
-  network: ws
+- name: 🇸🇬133078 | ⚡️Telegram = t.me/S...
   port: 443
-  server: 162.159.49.14
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 8.219.144.168
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
+  network: tcp
+  port: 18000
+  server: 149.88.23.207
+  servername: null
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 以色列 001
+  network: tcp
+  port: 18000
+  server: 149.88.23.202
+  servername: ''
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 🇸🇬 t.me/Natrixo BB
-  port: 443
-  server: 104.21.2.192
   tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: /sg-melbi
-- name: '🇸🇬 t.me/Natrixo BB #1'
-  port: 443
-  server: 188.114.97.3
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: /sg-melbi
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇸🇬SG_2|1.8MB/s
-  network: ws
-  port: 2096
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.devfp=chrome
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|1.2MB/s
-  port: 443
-  server: 34.126.158.226
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 7f7031b3-cd5c-4ba6-9627-91a9cc702941
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 新加坡 001
@@ -1691,6 +1658,19 @@ proxies:
   tls: true
   type: vless
   uuid: b8f3a337-ad39-4064-95f1-33a725a65877
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_41
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
+    short-id: '!!str d1742269'
+  server: 91.192.81.214
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 607801ac-dbdd-4938-a167-129015d9978e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇬SG_18
