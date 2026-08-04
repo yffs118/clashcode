@@ -703,23 +703,237 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 🇩🇪 Germany Frankfurt am Main |...
-  port: 8443
-  server: 45.192.200.133
+- name: 🇩🇪133090 | ⚡️Telegram = t.me/L...
+  password: DSgrpvSRAu
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪133130 | ⚡️Telegram = t.me/L...
+  port: 2095
+  server: xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir
   tls: false
   type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 0a268813-7200-4d23-9851-74568928fc82
+- name: 🇩🇪133118
+  network: tcp
+  port: 1310
+  server: soskeynets.musicvps.ir
+  tls: false
+  type: vless
+  uuid: 0c67faba-281b-4f37-ba2d-abc4ac3b3414
   ws-opts:
-    path: /GOrbEh
+    headers:
+      Host: play.google.com
+- name: 🇩🇪133146 | ⚡️Telegram = t.me/L...
+  port: 10043
+  server: gov.viranix.ir
+  tls: false
+  type: vless
+  uuid: 1b73f053-2709-4698-bbec-cb20e8a5f288
+- name: '🇩🇪133141 #1'
+  network: tcp
+  port: 2006
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: '🇩🇪133142 #1'
+  network: tcp
+  port: 2007
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: '🇩🇪133143 #1'
+  network: tcp
+  port: 2008
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: 🇩🇪133146
+  network: tcp
+  port: 2011
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: 🇩🇪133147
+  network: tcp
+  port: 2012
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: '🇩🇪133148 #1'
+  network: tcp
+  port: 2013
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: '🇩🇪133149 #1'
+  network: tcp
+  port: 2014
+  server: soskeynets.sav-savteam.ir
+  tls: false
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪133150 #1'
+  network: tcp
+  port: 2015
+  reality-opts:
+    public-key: x0CFoVxzz6ruK2614K5uIamz6R08CikYkTSHZAJgIi4
+    short-id: '!!str fc02d45bd592b576'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133151 #1'
+  network: tcp
+  port: 2016
+  reality-opts:
+    public-key: VdwsPg5C6MsjRbHmldPA8Nrl91LIoD27ImEmB7pHNFI
+    short-id: '!!str 5842ef74513887b4'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133152 #1'
+  network: tcp
+  port: 2017
+  reality-opts:
+    public-key: He7xpVqmrgr_Dg-Mks45tZS_ZR5eky4zpsgd-wREBDg
+    short-id: '!!str b11fa99e5c567d7b'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133154 #1'
+  network: tcp
+  port: 2019
+  reality-opts:
+    public-key: 8EdNoV-BHHhrNlYY_eWlsd0eaUEKdbHtMiOLkVxdjxQ
+    short-id: '!!str bd5113a80b3319e6'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133156 #1'
+  network: tcp
+  port: 2021
+  reality-opts:
+    public-key: pPrZj7vTHT829h2T4HlN9rS4hKmJ0SjdRoM_Tsadu0E
+    short-id: '!!str 76aaf6d8a4113cb1'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133157 #1'
+  network: tcp
+  port: 2022
+  reality-opts:
+    public-key: 2n7f33f4IU6OK_kfTRAZK2bcxmA4Tj51fsR6NvgGii4
+    short-id: '!!str ac6e2ab887f08238'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133158 #1'
+  network: tcp
+  port: 2023
+  reality-opts:
+    public-key: LjMTXWgIV1GLV0W-FMynAZanEA0G7rZeU73yVqp_Yjg
+    short-id: '!!str e1abc1bba2ec038c'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133159 #1'
+  network: tcp
+  port: 2024
+  reality-opts:
+    public-key: bJ3_6Yo5mPqanY_Zak51N4sBCCFUuRcQv-g4bsJcgRs
+    short-id: '!!str 8c01a6514f78d581'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- client-fingerprint: chrome
+  name: '🇩🇪133160 #1'
+  network: tcp
+  port: 2025
+  reality-opts:
+    public-key: iwSZBqyWJ7Ie6qlx3AGQIPlKB6c4aY9I-M1nq40hQA4
+    short-id: '!!str 57bed12e565e9a9e'
+  server: soskeynets.sav-savteam.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2bda81e2-2c0a-4f79-83bb-1f4ff80c817e
+- name: 🇩🇪133139 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 45.159.218.73
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
+  name: 🇩🇪133148 | ⚡️Telegram = t.me/L...
   network: tcp
-  port: '27726'
-  server: fj260403.freechatup.com
+  port: '1080'
+  server: Fyfghgg.viranix.ir
+  servername: ''
   tls: false
   type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -740,7 +954,7 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '@Daily_Configs'
+- name: '@Daily_Configs #15'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: DSgrpvSRAu
@@ -1540,16 +1754,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0a268813-7200-4d23-9851-74568928fc82
-- name: 德国 064
-  network: tcp
-  port: 28018
-  server: 139.59.212.40
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 128976e2-485d-4403-93c0-d1dc82cddcf0
 - name: 德国 065
   network: tcp
   port: 1083
@@ -1560,16 +1764,6 @@ proxies:
   type: vless
   udp: true
   uuid: 179ddf63-c263-40ff-98a1-f53708573059
-- name: 德国 067
-  network: tcp
-  port: 41015
-  server: 138.68.70.170
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23a15ab8-f78e-4a46-a82a-abefb74d21e7
 - name: 德国 068
   network: tcp
   port: 28
@@ -1630,16 +1824,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3f3bb5cc-da8b-4551-8b76-ba223f1a5255
-- name: 德国 074
-  network: tcp
-  port: 25128
-  server: 104.248.253.254
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48830385-d494-4248-999a-3ab38aa42101
 - client-fingerprint: chrome
   name: 德国 075
   network: ws
@@ -1686,16 +1870,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5de3f60c-7cc2-4f66-9177-706a2693dc19
-- name: 德国 079
-  network: tcp
-  port: 39723
-  server: 164.90.167.52
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 617bc80e-7028-4dd5-b6b2-949c035688af
 - name: 德国 080
   network: ws
   port: 2096
@@ -1721,26 +1895,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6263516e-13f4-4a29-8c6b-a999aafa438b
-- name: 德国 082
-  network: tcp
-  port: 27511
-  server: 165.227.155.232
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7617fc5b-a84f-40ee-8e8c-c82b70a7a545
-- name: 德国 083
-  network: tcp
-  port: 35742
-  server: 157.230.101.236
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76b6e40e-52b3-4c8a-9fbd-5d0d7768aa92
 - name: 德国 084
   network: tcp
   port: 24391
@@ -1815,16 +1969,6 @@ proxies:
   type: vless
   udp: true
   uuid: 83b69fd2-ae76-4a35-8f0e-65b90babcc6f
-- name: 德国 091
-  network: tcp
-  port: 32012
-  server: 207.154.224.244
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87c7fbdb-47d2-4f21-8d8e-04124df819ea
 - name: 德国 092
   network: tcp
   port: 62145
@@ -1866,16 +2010,6 @@ proxies:
   type: vless
   udp: true
   uuid: 92929b0d-a473-4ea2-bba5-f651ea263872
-- name: 德国 096
-  network: tcp
-  port: 27416
-  server: 139.59.142.242
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 997db23c-4368-4d82-bd25-508ed8a6ed4e
 - name: 德国 097
   network: tcp
   port: 80
@@ -1917,26 +2051,6 @@ proxies:
   type: vless
   udp: true
   uuid: c85fa9c8-d3d2-47a4-ae31-ce150e074cdc
-- name: 德国 101
-  network: tcp
-  port: 57777
-  server: 206.81.20.187
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d031fbc9-aaf4-4ef1-9be1-b9225cc1d845
-- name: 德国 102
-  network: tcp
-  port: 23519
-  server: 206.81.21.46
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1e3c253-7d5e-4bd5-9f16-52787a63bb65
 - name: 德国 103
   network: tcp
   port: 22222
@@ -2441,19 +2555,6 @@ proxies:
   ws-opts:
     headers:
       Host: 818690d8s71.gogocs.xyz
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_44
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng
-    short-id: '!!str 08'
-  server: 77.73.131.154
-  servername: vindobona.org
-  tls: true
-  type: vless
-  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪DE_32
@@ -2755,19 +2856,6 @@ proxies:
   uuid: 428bed8a-ecc3-4621-ad11-3a8ed90886ec
   ws-opts:
     path: /mashdi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM
-    short-id: '!!str 273940fba6ad8250'
-  server: 159.195.44.159
-  servername: 5.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h2
   - http/1.1
@@ -3077,17 +3165,6 @@ proxies:
     headers:
       Host: germany-2.ariyuz.org
     path: /
-- client-fingerprint: firefox
-  name: 🇩🇪DE_165
-  network: xhttp
-  port: 30160
-  reality-opts:
-    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
-  server: 45.137.43.147
-  servername: yandex.tr
-  tls: true
-  type: vless
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
 - client-fingerprint: chrome
   name: 🇩🇪DE_159
   network: xhttp
@@ -3478,6 +3555,19 @@ proxies:
   tls: true
   type: vless
   uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_19
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc
+    short-id: '!!str d8d3dc6c3ca45dd4'
+  server: 159.195.22.155
+  servername: 2.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   name: 🇩🇪DE_174
   network: ws

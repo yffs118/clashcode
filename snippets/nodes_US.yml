@@ -792,7 +792,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '未命名 #44'
+- name: '未命名 #49'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -836,6 +836,17 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
+  name: US7 120.7MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: fra5.chasem2026sud.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: 未知89 24.7MB/s
   network: tcp
   port: 180
@@ -847,17 +858,6 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 美国 141
-  network: tcp
-  port: 18000
-  server: 38.91.107.49
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
   name: 美国 1062
   network: tcp
   port: 22324
@@ -867,38 +867,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 美国 1063
-  network: tcp
-  port: 18000
-  server: 67.220.85.46
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 美国 1064
-  network: tcp
-  port: 10086
-  server: 107.172.75.141
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
-- alterId: 0
-  cipher: auto
-  name: 美国/凤凰城/United States/Phoenix
-  network: ws
-  port: 39495
-  server: 129.146.77.248
-  tls: false
-  type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  ws-opts:
-    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 未知113 38.4MB/s
@@ -920,37 +888,6 @@ proxies:
   tls: true
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: 美国 1065
-  network: tcp
-  port: 22324
-  server: 216.106.183.35
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸 #8'
-  network: tcp
-  port: 22324
-  server: 216.106.185.141
-  servername: null
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 美国 143
-  network: tcp
-  port: 18000
-  server: 38.110.1.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
   name: 🇨🇦CA-158.51.121.63-0308 | 17.2...
@@ -2332,10 +2269,28 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
+  name: 美国 141
+  network: tcp
+  port: 18000
+  server: 38.91.107.49
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
   name: 美国 142
   network: tcp
   port: 18000
   server: 67.220.95.3
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 美国 143
+  network: tcp
+  port: 18000
+  server: 38.110.1.246
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
@@ -14632,6 +14587,43 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 美国 1063
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  skip-cert-verify: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: 美国 1064
+  network: tcp
+  port: 10086
+  server: 107.172.75.141
+  skip-cert-verify: true
+  type: vmess
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+- alterId: 0
+  cipher: auto
+  name: 美国 1065
+  network: tcp
+  port: 22324
+  server: 216.106.183.35
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 美国/凤凰城/United States/Phoenix
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    path: /cctv13.m3u8
 - name: '美国/San Francisco/United States... #3'
   network: ws
   password: '!!str 521314'
@@ -14644,6 +14636,13 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /Leviko_v2ray
+- cipher: chacha20-ietf-poly1305
+  name: ❓Other_17
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国/San Francisco/United States... #8'
   network: ws
   password: '!!str 521314'
@@ -14709,6 +14708,13 @@ proxies:
   server: 38.246.226.240
   type: vmess
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-45
+  password: EvLfWGe0AKvK
+  port: 54166
+  server: 70.39.198.35
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
@@ -15649,6 +15655,13 @@ proxies:
   sni: 153.75.250.171.sslip.io
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇺🇸US_22
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.245.235.84
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇺🇸US_245
   network: tcp
   password: kkzh2prsyr2ik47as615
@@ -15684,6 +15697,13 @@ proxies:
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 138.199.42.68
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US_12
+  password: RSo52SbxW40r
+  port: 8388
+  server: 108.181.57.93
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 美国_132

@@ -293,17 +293,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 以色列 001
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 新加坡 001
@@ -529,16 +518,6 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
-- name: 新加坡 018
-  network: tcp
-  port: 11616
-  server: 206.189.61.46
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eceae996-62a5-4e44-8f42-a103405fcc38
 - alterId: 0
   cipher: auto
   name: 🇸🇬SG-15.235.147.186-0195 | 0.0...

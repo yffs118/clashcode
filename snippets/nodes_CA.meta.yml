@@ -47,7 +47,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #175'
+  name: '未命名 #299'
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -66,7 +66,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #176'
+  name: '未命名 #300'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -478,6 +478,74 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 🇨🇦133164 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 104.20.39.109
+  tls: false
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    path: /sg-melbi
+- name: 🇨🇦133103 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 104.26.14.85
+  tls: false
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    path: /GOrbEh
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133156 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: '80'
+  server: 104.19.35.138
+  tls: false
+  type: vmess
+  uuid: b720e0b2-aa39-4633-90d8-489ed91038b0
+  ws-opts:
+    headers:
+      Host: m2-sg3.m2network.icu
+    path: /ws?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133157 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: '2095'
+  server: 104.19.45.146
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133215 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: '2086'
+  server: 104.19.42.49
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133216 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: '2086'
+  server: 104.19.46.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦
@@ -1190,19 +1258,6 @@ proxies:
     headers:
       Host: ad-013.pixel9xdmq.info
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
-    short-id: '!!str 3d3c1e645f763ee3'
-  server: 158.69.112.254
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
 - name: 加拿大_7
   network: ws
   port: 443
@@ -1510,19 +1565,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_19
-  network: tcp
-  port: 41373
-  reality-opts:
-    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
-    short-id: '!!str 0e'
-  server: 130.107.73.148
-  servername: google.com
-  tls: true
-  type: vless
-  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
 - name: 加拿大_12
   network: ws
   port: 443

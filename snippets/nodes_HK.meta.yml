@@ -783,6 +783,22 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 中国 129
+  network: tcp
+  port: 45647
+  server: 182.16.61.3
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- name: 🇭🇰133126 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 202.81.231.150
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - alterId: 0
   cipher: auto
   name: 🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰
@@ -800,47 +816,6 @@ proxies:
   cipher: auto
   name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #1'
   network: ws
-  port: '443'
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-13
-  network: ws
-  port: 443
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  servername: mh7R5ArdL0z5jTGY.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mh7R5ArdL0z5jTGY.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #3'
-  network: ws
-  port: '443'
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #4'
-  network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
   servername: 7tImuei1uuFOiXbf.v.3dns.vip
@@ -853,7 +828,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #5'
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #2'
   network: ws
   port: 443
   server: ce0gedpxwou6cqon.v.3dns.vip
@@ -867,21 +842,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #6'
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #7'
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰 #3'
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -892,20 +853,6 @@ proxies:
   ws-opts:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 Join+Telegram:@FarahVPN 🇭🇰
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
 - name: 🇭🇰香港
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
@@ -1077,6 +1024,21 @@ proxies:
   ws-opts:
     headers:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 香港/香港/Hong Kong/Hong Kong-13
+  network: ws
+  port: 443
+  server: mh7r5ardl0z5jtgy.v.3dns.vip
+  servername: mh7R5ArdL0z5jTGY.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mh7R5ArdL0z5jTGY.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -1808,19 +1770,6 @@ proxies:
   ws-opts:
     headers:
       Host: 36cf43b9s298.wagahaha.xyz
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 香港 27
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI
-    short-id: '!!str ee57ea513371ce89'
-  server: code-sandbox.blog
-  servername: code-sandbox.blog
-  tls: true
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - name: '🇭🇰 #5'
   network: ws
   port: 80

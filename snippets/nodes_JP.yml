@@ -218,6 +218,14 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_2|5.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.231.179.245
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵
@@ -662,6 +670,13 @@ proxies:
     headers:
       Host: cvywfavasdc.cymlr.xyz
     path: /ksebupo
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_6
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 日本/东京/Japan/Tokyo-3
@@ -809,14 +824,6 @@ proxies:
     headers:
       Host: Jpn1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_2|5.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.179.245
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

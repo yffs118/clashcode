@@ -1571,16 +1571,6 @@ proxies:
     headers:
       Host: varzesh3.com
     path: /
-- name: 中国 129
-  network: tcp
-  port: 45647
-  server: 182.16.61.3
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇹🇼TW_7
   network: tcp
   port: 10000
@@ -1647,6 +1637,16 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+- name: 中国 135
+  network: tcp
+  port: 45647
+  server: 182.16.61.2
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
 - name: 香港 19
   network: raw
   port: 443
