@@ -142,6 +142,18 @@ proxies:
       Host: xvh.andishehparenting.com
     path: /
 - client-fingerprint: firefox
+  name: 'AE_speednode_0001 #1'
+  network: tcp
+  packet-encoding: ''
+  port: 443
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: grpc
   name: 'RU俄罗斯 #2'
@@ -363,8 +375,24 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - client-fingerprint: chrome
-  name: 🇩🇪 机场推荐:dafei.de 德国 03
+  name: '@hi_proxy_iran #22'
   network: tcp
   packet-encoding: xudp
   port: 33786
@@ -474,7 +502,7 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
-- name: '未命名 #15'
+- name: 🇩🇪_德国_88
   password: '!!str 521314'
   port: 443
   server: 5.10.215.9
@@ -681,7 +709,7 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪 t-me-V2RayyNGvpn 🇩🇪
+- name: 🇩🇪133090 | ⚡️Telegram = t.me/L...
   password: DSgrpvSRAu
   port: 443
   server: 91.107.178.22
@@ -689,6 +717,40 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪133040 | ⚡️Telegram = t.me/L...
+  password: ND91608427
+  port: 443
+  server: gentle-raptor.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪133034 | ⚡️Telegram = t.me/L...
+  password: ND91608427
+  port: 443
+  server: informed-alpaca.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪133039 | ⚡️Telegram = t.me/L...
+  password: ND91608427
+  port: 443
+  server: next-turkey.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇩🇪133041 | ⚡️Telegram = t.me/L...
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 德国 072
+  network: tcp
+  port: 51822
+  server: 5.75.201.77
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
 - name: 🇩🇪 t.me/Natrixo AA
   port: 2053
   server: 104.16.6.70
@@ -703,36 +765,24 @@ proxies:
   tls: false
   type: vless
   uuid: 21b887ba-e23a-48f2-9882-7cb1f1ff9923
-- name: t.me/BetV2ray (8082) DE 🇩🇪|||1...
-  port: 2087
-  server: s2.zynetraq.ir
-  tls: false
+- client-fingerprint: chrome
+  name: 哈萨克斯坦 004
+  network: xhttp
+  port: 443
+  server: 185.136.12.190
+  servername: deu683.lackerdeu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
-  uuid: 6019271d-494d-4db6-2e2b-ae79d9889c2f
-- name: t.me/BetV2ray (8083) DE 🇩🇪|||1...
-  port: 2087
-  server: s2.zynetraq.ir
-  tls: false
-  type: vless
-  uuid: 68fafe6f-246f-4297-1779-c296b18e48d1
-- name: 🇩🇪
-  port: 1234
-  server: 159.69.193.221
-  tls: false
-  type: vless
-  uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
+  udp: true
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
 - name: 🇩🇪133016 | ⚡️Telegram = t.me/S...
   port: 443
   server: e-spectacular.ru
   tls: false
   type: vless
   uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
-- name: 🇩🇪 | @FreeLand8
-  port: 443
-  server: 178.176.128.128
-  tls: false
-  type: vless
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
 - name: 🇩🇪133024 | ⚡️Telegram = t.me/S...
   port: 22222
   server: 18.194.176.73
@@ -762,17 +812,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 未知10
-  network: tcp
-  port: 2053
-  server: 57.129.121.230
-  servername: ''
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -784,7 +823,7 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
+- name: '@Daily_Configs #45'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: DSgrpvSRAu
@@ -1699,16 +1738,6 @@ proxies:
   type: vless
   udp: true
   uuid: 179ddf63-c263-40ff-98a1-f53708573059
-- name: 德国 072
-  network: tcp
-  port: 51822
-  server: 5.75.201.77
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1
 - name: 德国 073
   network: tcp
   port: 41015
@@ -1746,6 +1775,16 @@ proxies:
   skip-cert-verify: false
   tfo: false
   tls: true
+  type: vless
+  udp: true
+  uuid: 35c13bb9-9d22-4d89-bfd2-76fe7abf04ff
+- name: 🇫🇮FI_68
+  network: tcp
+  port: 29
+  server: 194.77.220.41
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vless
   udp: true
   uuid: 35c13bb9-9d22-4d89-bfd2-76fe7abf04ff
@@ -1949,20 +1988,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7d8584e3-410b-4667-a9b3-9a6465d4f999
-- name: 🇩🇪DE_103
-  network: tcp
-  port: 1234
-  server: 159.69.192.171
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7ff55eb0-eff4-4d71-ad1c-e6fe1a6c68d9
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
 - name: 德国 097
   network: tcp
   port: 1001
@@ -2138,6 +2163,19 @@ proxies:
   type: vless
   udp: true
   uuid: fa12c1f5-24be-4119-8506-aad16f3bcd35
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_59
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
+    short-id: '!!str 28415a7918168947'
+  server: 159.195.27.99
+  servername: 1.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alterId: 0
   name: 🇺🇸US美国3
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
@@ -2155,13 +2193,6 @@ proxies:
   skip-cert-verify: true
   sni: www.refersion.com
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_17
-  password: 1hhrqrokj3ag
-  port: 8388
-  server: 209.46.102.22
-  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
@@ -2871,6 +2902,17 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: /websocket?ed=2560
+- name: 🇩🇪DE_128
+  network: tcp
+  port: 1234
+  server: 62.238.63.51
+  tls: false
+  type: vless
+  uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -2886,19 +2928,6 @@ proxies:
     headers:
       Host: nl29.abvpn.net
     path: /xhttp/
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_20
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
-    short-id: '!!str 04bc695105689674'
-  server: 159.195.46.178
-  servername: 4.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -2983,6 +3012,17 @@ proxies:
   ws-opts:
     headers:
       Host: 818690d8s71.gogocs.xyz
+- client-fingerprint: chrome
+  name: 🇩🇪DE_48
+  network: xhttp
+  port: 8443
+  server: ip.kickfarsi.com
+  servername: ger3.kickfarsi.com
+  tls: true
+  type: vless
+  uuid: 412d7fbe-7474-4f1d-86c6-7eebdc628f72
+  ws-opts:
+    path: /
 - client-fingerprint: chrome
   name: 🇩🇪DE_8
   network: ws
@@ -3081,16 +3121,6 @@ proxies:
     headers:
       Host: vo1.erooo12345.xyz
     path: /
-- name: 🇩🇪DE_117
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇩🇪DE_169
   network: tcp
@@ -3118,17 +3148,6 @@ proxies:
     headers:
       Host: germany-2.ariyuz.org
     path: /
-- client-fingerprint: firefox
-  name: 🇩🇪DE_165
-  network: xhttp
-  port: 30160
-  reality-opts:
-    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
-  server: 45.137.43.147
-  servername: yandex.tr
-  tls: true
-  type: vless
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
 - client-fingerprint: chrome
   name: 🇩🇪DE_159
   network: xhttp
@@ -3441,18 +3460,6 @@ proxies:
   type: vless
   uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
 - client-fingerprint: chrome
-  name: 🇩🇪DE_121
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
-    short-id: '!!str 992f3294e2336744'
-  server: 196.240.57.50
-  servername: stats.vk-portal.net
-  tls: true
-  type: vless
-  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
-- client-fingerprint: chrome
   name: 🇩🇪DE_108
   network: tcp
   port: 8443
@@ -3497,31 +3504,6 @@ proxies:
     headers:
       Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_87
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: gr5.levikogjgfdd.ir
-  servername: sellflow.org
-  tls: true
-  type: vless
-  uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_19
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc
-    short-id: '!!str d8d3dc6c3ca45dd4'
-  server: 159.195.22.155
-  servername: 2.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   name: 🇩🇪DE_174
   network: ws

@@ -124,6 +124,12 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
+- name: 🇫🇷133033 | ⚡️Telegram = t.me/L...
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷132993 | ⚡️Telegram = t.me/S...
   password: ND91608427
   port: 443
@@ -500,6 +506,15 @@ proxies:
       Host: a.baradiha.com
     path: /
 - alterId: 0
+  cipher: chacha20-poly1305
+  name: 法国 030
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  skip-cert-verify: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
   cipher: auto
   name: 法国/France
   port: 2096
@@ -570,13 +585,6 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_28
-  password: bBnV36tzt7MKV75aDZTbzG
-  port: 8388
-  server: 141.227.152.129
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064

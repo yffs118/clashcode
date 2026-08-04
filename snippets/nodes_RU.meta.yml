@@ -221,21 +221,6 @@ proxies:
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- client-fingerprint: chrome
-  name: '未命名 #346'
-  network: xhttp
-  port: 30160
-  reality-opts:
-    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
-  server: 45.151.101.197
-  servername: yandex.tr
-  tls: true
-  type: vless
-  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
-  ws-opts:
-    headers:
-      Host: yandex.tr
-    path: /
 - alterId: 0
   cipher: auto
   name: 俄罗斯 001
@@ -555,6 +540,15 @@ proxies:
     path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 026
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 未知86
   network: tcp
   port: 27343
@@ -629,6 +623,19 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯 035
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - name: 俄罗斯 036
   network: tcp
   port: 443
@@ -676,6 +683,13 @@ proxies:
     headers:
       Host: probabblynot.fazelextremeisreal.com
     path: /
+- cipher: aes-256-gcm
+  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: RU_speednode_0083
   password: bdb313adf74c2ede
@@ -1036,18 +1050,6 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
-- client-fingerprint: chrome
-  name: 🇷🇺RU_6
-  network: tcp
-  port: 39771
-  reality-opts:
-    public-key: GMnXK7wz7qTo_IFmPy--pQcODPhYJG_CLaY2Sh4fTCI
-    short-id: '!!str 33f2'
-  server: 45.145.163.115
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: e5bd3d75-06b3-490e-9651-930b1dc29cdb
 - cipher: aes-256-gcm
   name: 🇷🇺RU_21
   password: 81a20429165df87e

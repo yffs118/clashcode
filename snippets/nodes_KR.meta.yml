@@ -143,6 +143,32 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 日本 016
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷 机场推荐:dafei.de 韩国 01
@@ -233,20 +259,6 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 South Korea Incheon | ⏱1362...
-  network: ws
-  port: '10509'
-  server: 115.89.98.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
-  ws-opts:
-    headers:
-      Host: ''
-    path: /arki
-- alterId: 0
-  cipher: auto
   name: 未知64 727.2KB/s
   network: tcp
   port: 443
@@ -256,20 +268,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷 Join+Telegram:@FarahVPN 🇰🇷 #1'
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    headers:
-      Host: ''
-    path: /wsproxy
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -285,14 +283,6 @@ proxies:
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: hg1.yuanbaojc.site
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇰🇷韩国家宽|高速01
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888

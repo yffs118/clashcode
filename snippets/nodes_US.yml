@@ -1,4 +1,12 @@
 proxies:
+- name: '🇺🇸 美国 starcorenode.com 3 #2'
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  sni: 149.104.104.58
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇺🇸 机场推荐:dafei.de 美国 36
   network: ws
@@ -13,22 +21,6 @@ proxies:
     headers:
       Host: yks-dd9.pages.dev
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: ''
-  name: 🇩🇪 DE 039 | ⬇️ 35KB/s
-  network: ws
-  port: 2053
-  server: deapp.jisuyun.top
-  servername: deapp.jisuyun.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
-  ws-opts:
-    headers:
-      Host: deapp.jisuyun.top
-    path: /devm
 - alpn:
   - http/1.1
   name: 未知 TROJAN-240
@@ -44,20 +36,12 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '美国+V2CROSS.COM #2'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇯🇵 Join+Telegram:@FarahVPN 🇯🇵|...
+  name: 美国 佐治亚州亚特兰大市BellSouth公司 - 276m...
   network: ws
   port: 36801
   server: cindy50.ceoiii.com
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -208,9 +192,9 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 美國 #2'
+  name: 🇲🇾 Join+Telegram:@Farah_VPN 🇲🇾
   network: ws
-  port: 36803
+  port: '36803'
   server: cindy52.ceoiii.com
   skip-cert-verify: true
   tls: false
@@ -233,6 +217,17 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
+- name: 'US美国 #26'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: '🇺🇸_US_美国_1 #4'
@@ -618,7 +613,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #1'
   network: tcp
-  password: 02ff28ca-6eec-4531-b8be-aab57073d06b
+  password: 4cc1eba5-b6c5-4bc7-91e5-8207d1935076
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -627,7 +622,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #1'
   network: tcp
-  password: 02ff28ca-6eec-4531-b8be-aab57073d06b
+  password: 4cc1eba5-b6c5-4bc7-91e5-8207d1935076
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -636,7 +631,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #2'
   network: tcp
-  password: 4cc1eba5-b6c5-4bc7-91e5-8207d1935076
+  password: a4a874cd-9e29-4d13-a6d3-5160b8b8da04
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -645,7 +640,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #2'
   network: tcp
-  password: 4cc1eba5-b6c5-4bc7-91e5-8207d1935076
+  password: a4a874cd-9e29-4d13-a6d3-5160b8b8da04
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -654,7 +649,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #3'
   network: tcp
-  password: a4a874cd-9e29-4d13-a6d3-5160b8b8da04
+  password: a54a589f-2982-4066-946e-68a95024ea4f
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -663,7 +658,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #3'
   network: tcp
-  password: a4a874cd-9e29-4d13-a6d3-5160b8b8da04
+  password: a54a589f-2982-4066-946e-68a95024ea4f
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -672,7 +667,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #4'
   network: tcp
-  password: 62036c90-29e3-4241-b32a-cd2d109d4aa7
+  password: 0809ce5b-8550-4af4-997e-7ed47958bde9
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -681,7 +676,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #4'
   network: tcp
-  password: 62036c90-29e3-4241-b32a-cd2d109d4aa7
+  password: 0809ce5b-8550-4af4-997e-7ed47958bde9
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -690,7 +685,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #5'
   network: tcp
-  password: 63afec95-cc1d-4cb5-8359-9cdcae265d26
+  password: 106953a1-6719-4955-afe3-905a3e02585b
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -699,7 +694,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #5'
   network: tcp
-  password: 63afec95-cc1d-4cb5-8359-9cdcae265d26
+  password: 106953a1-6719-4955-afe3-905a3e02585b
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -708,7 +703,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #6'
   network: tcp
-  password: 106953a1-6719-4955-afe3-905a3e02585b
+  password: 5915bde8-1312-457d-9292-da44b5eeb723
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -717,7 +712,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #6'
   network: tcp
-  password: 106953a1-6719-4955-afe3-905a3e02585b
+  password: 5915bde8-1312-457d-9292-da44b5eeb723
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -726,7 +721,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #7'
   network: tcp
-  password: 920d00af-1982-48ed-b969-37338d6faaf7
+  password: 23c9921d-ddd2-40fd-b114-10bf7080cd3d
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -735,7 +730,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #7'
   network: tcp
-  password: 920d00af-1982-48ed-b969-37338d6faaf7
+  password: 23c9921d-ddd2-40fd-b114-10bf7080cd3d
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -744,7 +739,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #8'
   network: tcp
-  password: 23c9921d-ddd2-40fd-b114-10bf7080cd3d
+  password: 595273d9-0218-42db-88e7-32c16319af57
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -753,7 +748,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #8'
   network: tcp
-  password: 23c9921d-ddd2-40fd-b114-10bf7080cd3d
+  password: 595273d9-0218-42db-88e7-32c16319af57
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -762,7 +757,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #9'
   network: tcp
-  password: 595273d9-0218-42db-88e7-32c16319af57
+  password: d09f87ba-383f-4d70-bbb4-f0369feeb8fd
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -771,7 +766,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #9'
   network: tcp
-  password: 595273d9-0218-42db-88e7-32c16319af57
+  password: d09f87ba-383f-4d70-bbb4-f0369feeb8fd
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -780,7 +775,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #10'
   network: tcp
-  password: 80195304-4d1e-46b7-bbbc-a3944c3d8cea
+  password: 0f8da6cc-38c1-4c9b-b384-8799ef2405ba
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -789,7 +784,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #10'
   network: tcp
-  password: 80195304-4d1e-46b7-bbbc-a3944c3d8cea
+  password: 0f8da6cc-38c1-4c9b-b384-8799ef2405ba
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -798,7 +793,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #11'
   network: tcp
-  password: d09f87ba-383f-4d70-bbb4-f0369feeb8fd
+  password: 33bab7cb-5f64-4300-9d4d-b99bff03f6be
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -807,7 +802,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #11'
   network: tcp
-  password: d09f87ba-383f-4d70-bbb4-f0369feeb8fd
+  password: 33bab7cb-5f64-4300-9d4d-b99bff03f6be
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -816,7 +811,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #12'
   network: tcp
-  password: 0f8da6cc-38c1-4c9b-b384-8799ef2405ba
+  password: 0de51313-2070-4fa4-a0e2-f6f78b5329a8
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -825,7 +820,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #12'
   network: tcp
-  password: 0f8da6cc-38c1-4c9b-b384-8799ef2405ba
+  password: 0de51313-2070-4fa4-a0e2-f6f78b5329a8
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -834,7 +829,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #13'
   network: tcp
-  password: 0de51313-2070-4fa4-a0e2-f6f78b5329a8
+  password: acfd7e48-2e63-4069-acfa-d43393d3db45
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -843,7 +838,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #13'
   network: tcp
-  password: 0de51313-2070-4fa4-a0e2-f6f78b5329a8
+  password: acfd7e48-2e63-4069-acfa-d43393d3db45
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -852,7 +847,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #14'
   network: tcp
-  password: acfd7e48-2e63-4069-acfa-d43393d3db45
+  password: 341e2996-44b0-4514-98bc-5abc78cdf698
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -861,7 +856,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #14'
   network: tcp
-  password: acfd7e48-2e63-4069-acfa-d43393d3db45
+  password: 341e2996-44b0-4514-98bc-5abc78cdf698
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -870,7 +865,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0902 | 1倍率 #15'
   network: tcp
-  password: ed67c9fa-9444-478d-b52a-e181a0e1189d
+  password: ac940729-f88b-4599-bc21-ed253efa4543
   port: 24422
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -879,7 +874,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国节点0903 | 1倍率 #15'
   network: tcp
-  password: ed67c9fa-9444-478d-b52a-e181a0e1189d
+  password: ac940729-f88b-4599-bc21-ed253efa4543
   port: 24413
   server: vf3us9.stableq.top
   skip-cert-verify: false
@@ -904,6 +899,70 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 287
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国3
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 225
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - client-fingerprint: chrome
   name: 🇺🇸 机场推荐:dafei.de 美国 30
   network: ws
@@ -1004,6 +1063,15 @@ proxies:
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '美国3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 15775
+  server: 18.163.193.0
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 美国3|@ripaojiedian
@@ -1549,15 +1617,69 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: hamedp71::🇺🇸
+  password: ljqdalu13..
+  port: 8313
+  server: 38.180.135.39
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US-104.243.25.95-6474
+  password: bwhskrskr03
+  port: 253
+  server: 104.243.25.95
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US-199.115.228.30-0209 | 0.0...
+  password: bwhskrskr05
+  port: 253
+  server: 199.115.228.30
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US-97.64.122.63-6456
+  password: bwhskrskr05
+  port: 253
+  server: 97.64.122.63
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US-93.179.112.70-2797
+  password: bwhskrskr06
+  port: 253
+  server: 93.179.112.70
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇺🇸133047 | ⚡️Telegram = t.me/L...
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 Join+Telegram:@FarahVPN 🇺🇸
+  name: US15 216.5MB/s
   network: tcp
-  port: '51360'
-  server: lt.badns.help
-  tls: false
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: US3 194.2MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: fra5.chasem2026sud.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国 071
@@ -1605,16 +1727,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: US14 215.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: 美国 119
@@ -1719,15 +1831,6 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 14625
   server: 18.166.178.12
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇭🇰HK-18.163.100.58-0271 | 0.0M...
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 18.163.100.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -1993,20 +2096,6 @@ proxies:
     headers:
       Host: 99806388192980142300309475767578.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
     path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  name: 美国 053
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: US10
@@ -4197,20 +4286,6 @@ proxies:
     path: /realtime
 - alterId: 0
   cipher: auto
-  name: 美国 225
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 美国 226
   network: ws
   port: 8443
@@ -4971,19 +5046,6 @@ proxies:
     headers:
       Host: cg1c04.waimaojd.com
     path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 美国 287
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 美国 288
@@ -15329,6 +15391,13 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /Leviko_v2ray
+- cipher: chacha20-ietf-poly1305
+  name: ❓Other_17
+  password: hCCWOcIsK5wrFz4OX70rWf
+  port: 443
+  server: 216.105.168.18
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: '美国/San Francisco/United States... #8'
   network: ws
   password: '!!str 521314'
@@ -15394,6 +15463,13 @@ proxies:
   server: 38.246.226.240
   type: vmess
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-45
+  password: EvLfWGe0AKvK
+  port: 54166
+  server: 70.39.198.35
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
@@ -15670,13 +15746,6 @@ proxies:
   server: 173.244.56.9
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_26
-  password: G5p6ww4o67HB
-  port: 8388
-  server: 108.181.0.177
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   h2-opts:
@@ -15741,13 +15810,6 @@ proxies:
     headers:
       Host: jp-oracle-s.sharecentre.online
     path: /
-- cipher: aes-256-cfb
-  name: 🇺🇸US-199.115.228.30-0209 | 0.0...
-  password: bwhskrskr05
-  port: 253
-  server: 199.115.228.30
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇺🇸US-64.112.42.73-0217 | 0.0MB

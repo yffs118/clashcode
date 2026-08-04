@@ -306,6 +306,15 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 026
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 未知86
   network: tcp
   port: 27343
@@ -314,6 +323,13 @@ proxies:
   tls: true
   type: vmess
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
+- cipher: aes-256-gcm
+  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: RU_speednode_0083
   password: bdb313adf74c2ede

@@ -8,6 +8,15 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇨🇳 机场推荐:dafei.de 台湾 01
