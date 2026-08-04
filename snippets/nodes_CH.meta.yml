@@ -86,28 +86,69 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇨🇭CH_1|1.1MB/s
+- alterId: 0
+  cipher: auto
+  name: '瑞士 001 #1'
   network: ws
-  port: '2083'
-  server: 162.159.38.119
-  servername: sw.shadowsinner.fun
+  port: 8080
+  server: 64.110.66.235
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '瑞士 002 #1'
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- client-fingerprint: chrome
+  name: '瑞士 003 #1'
+  network: ws
+  port: 2053
+  server: 185.195.69.119
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 6d60d9a8-401a-4f99-968e-ccae68a6c2f4
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: sw.shadowsinner.fun
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+      Host: forfreeuse.sub-flow.online
     path: /
-  xudp: true
+- name: '瑞士 004 #1'
+  network: tcp
+  port: 2551
+  server: 178.83.157.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: '瑞士 005 #1'
+  network: tcp
+  port: 12596
+  server: 193.134.100.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
 - name: 🇨🇭_瑞士_254
   network: ws
   port: 443
@@ -134,7 +175,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -145,77 +185,12 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 瑞士 001
-  network: ws
-  port: 8080
-  server: 64.110.66.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 瑞士 002
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /
-- client-fingerprint: chrome
-  name: 瑞士 003
-  network: ws
-  port: 2053
-  server: 185.195.69.119
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 瑞士 004
-  network: tcp
-  port: 2551
-  server: 178.83.157.130
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 瑞士 005
-  network: tcp
-  port: 12596
-  server: 193.134.100.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
 - cipher: aes-256-cfb
   name: '🇨🇭_CH_瑞士 #4'
   password: asdKkaskJKfnsa
   port: 80
   server: 84.17.53.163
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -277,7 +252,6 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -416,7 +390,6 @@ proxies:
   port: 1080
   server: 146.70.26.156
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
