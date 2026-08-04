@@ -1,4 +1,63 @@
 proxies:
+- client-fingerprint: chrome
+  name: 'Node #4'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
+    short-id: '!!str accd8c'
+  server: 83.228.235.106
+  servername: varzesh3.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.219
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #2'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.119
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.109
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '🇨🇭_CH_瑞士 #6'
@@ -27,6 +86,12 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- name: 🇨🇭CH_1|3.7MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: 🇨🇭_瑞士_254
   network: ws
   port: 443
@@ -41,683 +106,12 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇨🇭 Швейцария sni=ch.01.naiun.b...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 188.253.12.90
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- name: '🇨🇭 Швейцария sni=ch.01.naiun.b... #1'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 188.253.12.94
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- name: 🇨🇭 Швейцария ⚡ sni=ch.01.naiun...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 188.253.12.99
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- name: 🇨🇭133317 | ⚡️Telegram = t.me/S...
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 20127
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  type: trojan
-- name: 🇨🇭133320 | ⚡️Telegram = t.me/S...
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 40483
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  type: trojan
-- name: 🇨🇭133323 | ⚡️Telegram = t.me/S...
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 42963
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  type: trojan
-- name: 🇨🇭133325 | ⚡️Telegram = t.me/S...
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 62860
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  type: trojan
-- name: 🇨🇭133316 | ⚡️Telegram = t.me/S...
-  password: oeaQHjIg021hag3UB1gHR60iA1iaNSs2
-  port: 65005
-  server: 2----------------------------------------------------3.poki-pakipon.ir
-  type: trojan
-- name: 🇨🇭 Switzerland
-  password: y3b03zx3tznhyo538p4c
-  port: 53261
-  server: 86.106.84.195
-  skip-cert-verify: true
-  type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: '!!str 445ab326fc7c90ac'
-  server: 45.197.134.52
-  servername: storage.yandex.net
-  tls: true
+- name: 🇨🇭133584 | ⚡️Telegram = t.me/S...
+  port: 2053
+  server: dl12sw.cdn-ir-prime.shop
+  tls: false
   type: vless
-  uuid: 05a01432-0302-439f-a88d-8442cd27b7d5
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Швейцария sni=max.ru
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q-MQ5ED1cqC28IdlV8rNg6Ya2yONdCJwecMiFI3o2ic
-    short-id: '!!str 8a282472fee64b17'
-  server: 3.maxg.ch
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 3c509e60-b20a-428a-b8ed-d358f750e0b0
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇩🇪 Германия ⚡ sni=storage.yand... #26'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
-    short-id: '!!str d515d6cfdfe60b02'
-  server: 45.197.134.49
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 4fdec620-73bb-40a7-a8d5-2570a59f1832
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #4'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.10
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #5'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.117
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #6'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.118
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #7'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.120
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #8'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.127
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #11'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.137
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #12'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.142
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #13'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.144
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: 🇨🇭 Швейцария sni=storage.yande...
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.145
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #14'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.150
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #15'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.152
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #16'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.156
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #18'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.163
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #21'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.164
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #23'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.173
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #25'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.177
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #26'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.182
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #28'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.187
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #30'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.198
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #31'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.201
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #32'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.211
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #33'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.226
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #34'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.231
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #36'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.232
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #37'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.235
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария sni=storage.yande... #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.237
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #39'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.23
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #40'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.249
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #41'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.29
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #42'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.44
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #43'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.47
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #44'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.52
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #45'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.53
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #47'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.55
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #48'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.61
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #49'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.75
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #50'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.85
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #51'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.86
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #52'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.8
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #53'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.90
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #55'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.92
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #57'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.95
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #58'
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str cf9d145ad8f1ea55'
-  server: 45.195.137.163
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: daff1228-8d1a-4812-a57a-09604faa5e0c
-- flow: xtls-rprx-vision
-  name: '🇨🇭 Швейцария ⚡ sni=storage.yan... #59'
-  network: raw
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str cf9d145ad8f1ea55'
-  server: gt-ch-02.live
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: daff1228-8d1a-4812-a57a-09604faa5e0c
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭 Швейцария ⚡ sni=es.monkeyvi...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
-    short-id: '!!str bc0c778f819a3a1e'
-  server: 138.124.62.207
-  servername: es.monkeyvillage.pro
-  tls: true
-  type: vless
-  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
-- client-fingerprint: randomized
-  name: 🇨🇭 Швейцария sni=daluan.eu.org
-  network: ws
-  port: 2083
-  server: www.visaeurope.ch
-  servername: daluan.eu.org
-  tls: true
-  type: vless
-  uuid: fc625795-792d-4d9d-9d38-bffe59467d2d
-  ws-opts:
-    headers:
-      Host: daluan.eu.org
-    path: /?ed=2560
+  uuid: d153196c-5325-c0c6-ab83-3f269ed227a4
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -849,19 +243,6 @@ proxies:
   tls: true
   type: vless
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.219
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -1061,19 +442,6 @@ proxies:
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.109
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
   name: 🇨🇭CH_25
@@ -1177,19 +545,6 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #2'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.119
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality

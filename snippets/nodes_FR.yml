@@ -1,36 +1,47 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 法国(免费节点)_6
+  name: 美国 086
   network: ws
-  port: '55009'
-  server: 2001:bc8:32d7:225::3
+  port: 80
+  server: 69.84.182.49
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  udp: true
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
-    path: /0zNW56sF
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- name: 'FR法国(mibei77.com 米贝节点分享) #2'
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: true
+  sni: dimskiee.biz.id
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /WangCai-8
+- name: 'FR法国(mibei77.com 米贝节点分享)_1 #2'
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: true
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /195.123.218.174-443
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_218
   network: ws
   port: 443
   server: 57.128.183.3
-  servername: apjhdggyx.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_228
-  network: ws
-  port: 443
-  server: 152.228.191.232
   servername: apjhdggyx.com
   skip-cert-verify: true
   tls: true
@@ -90,74 +101,9 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- name: 🇫🇷 Франция sni=fr.01.naiun.bil...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 188.253.12.92
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: '🇫🇷 Франция sni=fr.01.naiun.bil... #1'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 188.253.12.98
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: 🇫🇷 Франция ⚡ sni=no-sni
-  network: tcp
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
-  port: 443
-  server: 38.60.136.156
-  skip-cert-verify: false
-  type: trojan
-- name: 🇦🇪 ОАЭ ⚡ sni=www.ignitelimit.c...
-  network: ws
-  password: humanity
-  port: 40443
-  server: 2.144.21.112
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🇫🇷 Франция ⚡ sni=www.calmloud....
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '🇫🇷 Франция ⚡ sni=www.calmloud.... #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 🇫🇷 Франция ⚡ sni=www.creationl...
-  network: ws
-  password: humanity
-  port: 443
-  server: 81.255.155.10
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
 - alterId: 0
   cipher: auto
-  name: 未知35
+  name: 法国 001
   network: tcp
   port: 36864
   server: 2.arzankadeh.cam
@@ -167,7 +113,7 @@ proxies:
   uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
 - alterId: 0
   cipher: auto
-  name: 未知93
+  name: 未知84
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -177,7 +123,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知109 17.3KB/s
+  name: 未知32
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -516,11 +462,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 法国 028
+  name: 未知104
   network: tcp
   port: 27726
   server: 195.133.193.18
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -532,6 +479,14 @@ proxies:
   tls: true
   type: vmess
   uuid: ae91113b-915f-4a56-b998-e52d8a12da39
+- name: 🇫🇷FR-15.237.219.234-32
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  tls: false
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
@@ -583,12 +538,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_28
-  password: bBnV36tzt7MKV75aDZTbzG
-  port: 8388
-  server: 141.227.152.129
-  type: ss
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064

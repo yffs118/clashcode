@@ -45,42 +45,23 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦133290 | ⚡️Telegram = t.me/S...
-  password: MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 Join+Telegram:@FarahVPN 🇨🇦
+  network: ws
   port: 443
-  server: 104.18.6.178
-  type: trojan
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦133215 | ⚡️Telegram = t.me/S...
-  network: ws
-  port: '2086'
-  server: 104.19.42.49
-  tls: false
+  server: 158.51.121.63
+  servername: seribus.org
+  tls: true
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
+      Host: seribus.org
+    path: linkvws
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133216 | ⚡️Telegram = t.me/S...
-  network: ws
-  port: '2086'
-  server: 104.19.46.27
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US16
+  name: US5
   network: tcp
   port: 22324
   server: 23.154.136.47
@@ -599,15 +580,6 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: 加拿大 039
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  skip-cert-verify: true
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: rc4-md5
   name: 🇨🇦CA_4
   password: 14fFPrbezE3HDZzsMOr6
@@ -634,6 +606,12 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_3
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.60-3607 | 0.0M...
   password: PCnnH6SQSnfoS27
@@ -780,12 +758,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 加拿大_30
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
 - cipher: aes-256-gcm
   name: 🇨🇦CA_2
   password: KixLvKzwjekG00rm

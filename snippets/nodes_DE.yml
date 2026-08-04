@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '德國丨yoyapai.com_3 #2'
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -15,11 +23,26 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alpn:
+  - http/1.1
+  name: '🇩🇪DE_2|3.1MB/s #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_1|1009KB/s #1'
+  name: '🇩🇪DE_9|3.1MB/s #1'
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
-  server: 130.61.86.101
+  server: 130.61.178.208
   type: ss
   udp: true
 - alterId: 0
@@ -70,7 +93,8 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇩🇪DE-3.64.59.246-37
+- alterId: 0
+  name: 🇩🇪DE德国2 895.8KB/s
   password: ND91608427
   port: 443
   server: gentle-raptor.rooster465.autos
@@ -106,8 +130,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE-3.124.187.220-40
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪DE德国3 1.1MB/s
   network: tcp
   password: ND91608427
   port: 443
@@ -130,21 +155,47 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /Telegram🇨🇳+@WangCai2
-- name: 🇩🇪 Германия sni=de.01.naiun.bi...
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 188.253.12.96
-  sni: de.01.naiun.bilibili.com
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
+  name: 🇩🇪133605 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: '1080'
+  server: fyfghgg.viranix.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: '[🇩🇪]t.me/ConfigsHub|||14050513...'
   network: tcp
   port: '27726'
   server: fj260403.freechatup.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 t.me/Natrixo BB
+  network: tcp
+  port: '27726'
+  server: fj260205.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知33
+  network: tcp
+  port: 2053
+  server: 57.129.121.230
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
 - alterId: 0
   cipher: auto
   name: 德国 002
@@ -175,7 +226,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知7
+  name: 未知21
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -185,7 +236,7 @@ proxies:
   uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
 - alterId: 0
   cipher: auto
-  name: 未知18
+  name: 未知124
   network: tcp
   port: 8585
   server: 165.227.138.218
@@ -195,7 +246,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: 未知83
+  name: 未知39
   network: tcp
   port: 4452
   server: x2.mehradservice.com
@@ -884,6 +935,18 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- name: 🇸🇦SA-149.104.104.58-01
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_17
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0078 | 0.0M...
   password: e4FCWrgpkji3QY
@@ -1014,6 +1077,12 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_5
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_4
   password: PWpjPo3tqhPN4yRZ
