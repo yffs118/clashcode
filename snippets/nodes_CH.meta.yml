@@ -86,69 +86,6 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- alterId: 0
-  cipher: auto
-  name: '瑞士 001 #1'
-  network: ws
-  port: 8080
-  server: 64.110.66.235
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: '瑞士 002 #1'
-  network: ws
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /
-- client-fingerprint: chrome
-  name: '瑞士 003 #1'
-  network: ws
-  port: 2053
-  server: 185.195.69.119
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: '瑞士 004 #1'
-  network: tcp
-  port: 2551
-  server: 178.83.157.130
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: '瑞士 005 #1'
-  network: tcp
-  port: 12596
-  server: 193.134.100.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
 - name: 🇨🇭_瑞士_254
   network: ws
   port: 443
@@ -163,6 +100,12 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: '[🇨🇭]t.me/ConfigV2RayNG'
+  port: 2020
+  server: 179.237.76.191
+  tls: false
+  type: vless
+  uuid: c877d001-de9f-43d4-87c0-b7474a662424
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -185,6 +128,59 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 瑞士 001
+  network: ws
+  port: 8080
+  server: 64.110.66.235
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 瑞士 002
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- client-fingerprint: chrome
+  name: 瑞士 003
+  network: ws
+  port: 2053
+  server: 185.195.69.119
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 瑞士 004
+  network: tcp
+  port: 2551
+  server: 178.83.157.130
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - cipher: aes-256-cfb
   name: '🇨🇭_CH_瑞士 #4'
   password: asdKkaskJKfnsa
@@ -481,6 +477,19 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_28
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
+    short-id: '!!str d515d6cfdfe60b02'
+  server: 45.195.2.114
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality

@@ -7,21 +7,14 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇳 机场推荐:dafei.de 台湾 01
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
   port: 39201
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v4.cdn.u5mltvhwkm.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇼_台湾_32
@@ -36,12 +29,17 @@ proxies:
   type: vless
   udp: true
   uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 Taiwan New Taipei City | ⏱1...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.161.244
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 加拿大 039
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: 🇹🇼TW_13
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -58,6 +56,12 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-15
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-14
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

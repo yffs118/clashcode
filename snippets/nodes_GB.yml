@@ -8,21 +8,21 @@ proxies:
   type: ss
   udp: true
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_71
+  cipher: auto
+  name: '英國 #2'
   port: 180
   server: 82.198.246.37
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 德国(yudou789.top 玉豆免费节点)_11
+  name: '英國節點 #2'
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -46,16 +46,27 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧133066 | ⚡️Telegram = t.me/S...
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.231.192
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_43
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
+  name: 比利时 007
+  network: ws
+  port: 80
+  server: 57.129.132.223
+  servername: ''
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  ws-opts:
+    headers:
+      Host: google.com
+    path: /vmess/
 - alterId: 64
   cipher: auto
   h2-opts:
@@ -74,17 +85,6 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.37
-  servername: fra5.chasem2026sud.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US15 102.3MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -95,14 +95,13 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.97
-  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '英国 009 #1'
+  name: 英国 009
   network: ws
   port: 443
   server: panel.safeconfigmasoud.com
@@ -116,17 +115,7 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US26 218.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '英国 011 #1'
+  name: 英国 011
   network: ws
   port: 51611
   server: 51.13.38.115
@@ -139,7 +128,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 012 #1'
+  name: 英国 012
   network: ws
   port: 2086
   server: 85.113.71.85
@@ -152,7 +141,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 013 #1'
+  name: 英国 013
   network: ws
   port: 443
   server: 45.85.118.88
@@ -166,7 +155,7 @@ proxies:
     path: /aidapp.lifevws
 - alterId: 64
   cipher: auto
-  name: '英国 014 #1'
+  name: 英国 014
   network: ws
   port: 443
   server: 217.138.197.171
@@ -180,7 +169,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '英国 015 #1'
+  name: 英国 015
   network: ws
   port: 30002
   server: 83.142.225.57
@@ -194,7 +183,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: '英国 016 #1'
+  name: 英国 016
   network: ws
   port: 80
   server: ul-uae2.09vpn.com
@@ -207,7 +196,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '英国 017 #1'
+  name: 英国 017
   network: ws
   port: 443
   server: 144.24.200.164
@@ -221,7 +210,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '英国 018 #1'
+  name: 英国 018
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -234,7 +223,7 @@ proxies:
     path: /ch12y6ij
 - alterId: 0
   cipher: auto
-  name: '英国 019 #1'
+  name: 英国 019
   network: ws
   port: 443
   server: 185.162.228.228
@@ -248,7 +237,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: '英国 020 #1'
+  name: 英国 020
   network: ws
   port: 443
   server: 185.162.228.110
@@ -262,7 +251,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: '英国 021 #1'
+  name: 英国 021
   network: ws
   port: 443
   server: 185.162.228.230
@@ -276,7 +265,7 @@ proxies:
     path: /A2DJOPFT
 - alterId: 4
   cipher: auto
-  name: '英国 022 #1'
+  name: 英国 022
   network: ws
   port: 443
   server: 146.70.46.68
@@ -290,7 +279,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '英国 023 #1'
+  name: 英国 023
   network: ws
   port: 443
   server: 158.180.228.226
@@ -304,7 +293,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 024 #1'
+  name: 英国 024
   network: ws
   port: 443
   server: 217.163.76.147
@@ -318,7 +307,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 025 #1'
+  name: 英国 025
   network: grpc
   port: 443
   server: 146.70.158.111
@@ -328,7 +317,7 @@ proxies:
   uuid: 11ae0edd-2f63-4495-8683-037abbda9986
 - alterId: 0
   cipher: auto
-  name: '英国 026 #1'
+  name: 英国 026
   network: ws
   port: 23451
   server: frankfurt.faforex.eu.org
@@ -341,7 +330,7 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: '英国 027 #1'
+  name: 英国 027
   network: ws
   port: 80
   server: 213.35.113.150
@@ -354,7 +343,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 028 #1'
+  name: 英国 028
   network: ws
   port: 443
   server: 185.162.228.229
@@ -367,16 +356,16 @@ proxies:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧133115 | ⚡️Telegram = t.me/L...
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 144.24.231.192
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 未知 SS-189
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.217
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-197
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.162
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB_2
@@ -397,34 +386,16 @@ proxies:
   server: 82.38.31.191
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '未知 SS-203 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ❓Other_1
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.179
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_139
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_9
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  name: '未知 SS-177 #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_161
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
+  server: 82.38.31.192
   type: ss
 - cipher: rc4-md5
   name: 🇬🇧GB_4
@@ -457,10 +428,16 @@ proxies:
   server: 82.38.31.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_68
+  name: 🇳🇱NL_159
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.202
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_3
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-206
@@ -469,28 +446,22 @@ proxies:
   server: 82.38.31.46
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: '未知 SS-186 #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_137
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.186-5766 | 65.13...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_48
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-196
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.15
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-208
@@ -511,6 +482,12 @@ proxies:
   server: 82.38.31.184
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: '未知 SS-184 #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_60
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -527,6 +504,30 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_13
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_1
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_15
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_14
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_64
