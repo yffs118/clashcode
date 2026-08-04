@@ -12,15 +12,3 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- alterId: 0
-  cipher: auto
-  name: EE-176.112.146.190-0222 | 0.0M...
-  network: ws
-  port: 80
-  server: 176.112.146.190
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-  ws-opts:
-    path: /

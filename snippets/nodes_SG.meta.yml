@@ -64,7 +64,6 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       host: hhtj.hhllfly.kdns.fr
@@ -84,19 +83,22 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- name: 新加坡(yudou789.top 玉豆免费节点)
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
   port: 443
-  server: 20.6.12.145
-  servername: sni.skylee4.cloudns.ch
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.net
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
@@ -108,7 +110,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡2
   network: tcp
@@ -120,7 +121,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -129,16 +129,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 45744
-  server: 16.163.150.174
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -181,7 +171,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjplay.lxdxo.kdns.fr
@@ -257,23 +246,13 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
-  servername: null
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
-  name: 新加坡 001
+  name: 🇸🇬SG-103.253.26.20-0044 | 0.0M...
   network: ws
   port: 443
   server: 103.253.26.20
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -502,19 +481,12 @@ proxies:
   type: vless
   udp: true
   uuid: eceae996-62a5-4e44-8f42-a103405fcc38
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG-15.235.147.186-0195 | 0.0...
-  network: ws
-  port: 80
-  server: 15.235.147.186
-  servername: 🇸🇬SG-15.235.147.186-0195 | 0.0MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-opts:
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG-81.90.189.152-0211 | 0.0M...
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 81.90.189.152
+  type: ss
 - name: 🇸🇬 SG 003 | ⬇️ 20MB/s
   network: ws
   packet-encoding: xudp
@@ -798,7 +770,6 @@ proxies:
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
@@ -811,7 +782,6 @@ proxies:
   skip-cert-verify: true
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
@@ -821,7 +791,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -829,7 +798,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -837,7 +805,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -845,7 +812,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -853,7 +819,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -861,7 +826,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡|@ripaojiedian
@@ -879,7 +843,6 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -887,14 +850,12 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇸🇬SG_55
   password: MajO3weHH7Jv
   port: 8388
   server: 192.124.176.118
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇬SG_21
@@ -927,7 +888,6 @@ proxies:
   server: 116.251.217.65
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬SG_7
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -936,7 +896,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   name: 🇸🇬SG_53
   network: tcp
@@ -957,7 +916,6 @@ proxies:
   skip-cert-verify: true
   sni: 139.59.238.97
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_26
   network: ws
@@ -999,19 +957,6 @@ proxies:
   uuid: b8f3a337-ad39-4064-95f1-33a725a65877
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_41
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
-    short-id: '!!str d1742269'
-  server: 91.192.81.214
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 607801ac-dbdd-4938-a167-129015d9978e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇸🇬SG_18
   network: tcp
   port: 10000
@@ -1029,7 +974,6 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_46
   network: ws
@@ -1051,7 +995,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_45
   network: ws
@@ -1086,7 +1029,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_48
   network: tcp
@@ -1120,7 +1062,6 @@ proxies:
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬SG_17
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -1129,7 +1070,6 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_43
   network: ws
@@ -1181,15 +1121,6 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@Marisa_kristi
-- name: 🇸🇬SG_33
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.163.180.201
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_47
   network: ws
@@ -1224,7 +1155,6 @@ proxies:
   sni: 13.229.110.73
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡_2
   network: ws
   port: 2053
@@ -1257,7 +1187,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇸🇬_SG_新加坡_7
   network: ws
   port: 443
@@ -1269,7 +1199,7 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'
 - name: 🇸🇬_SG_新加坡_37
   network: ws
   port: 443
@@ -1281,4 +1211,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'

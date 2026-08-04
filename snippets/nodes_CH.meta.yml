@@ -100,18 +100,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇨🇭@V2RFA
-  password: UKGgxZwI4G
-  port: 443
-  server: 179.237.75.217
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇨🇭@V2RFA #1'
-  password: xITFB2PCsp
-  port: 2095
-  server: 179.237.75.217
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -124,7 +112,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -135,7 +122,6 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -205,7 +191,6 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -267,7 +252,6 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -406,7 +390,6 @@ proxies:
   port: 1080
   server: 146.70.26.156
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality

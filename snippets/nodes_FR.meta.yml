@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 'FR法国 #8'
+  name: 法国_9
   network: ws
   port: 443
   server: 162.159.43.131
@@ -15,7 +15,7 @@ proxies:
       Host: ld.223350.xyz
     path: /
 - client-fingerprint: chrome
-  name: 'FR法国 #7'
+  name: 'Node #97'
   network: ws
   port: 443
   server: 162.159.49.145
@@ -30,7 +30,7 @@ proxies:
       Host: ld.223350.xyz
     path: /
 - client-fingerprint: chrome
-  name: 'FR法国 #6'
+  name: 'Node #38'
   network: ws
   port: 443
   server: 104.19.87.194
@@ -171,16 +171,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /WangCai-8
 - client-fingerprint: random
-  name: FR法国
+  name: 'FR法国(mibei77.com 米贝节点分享)_8 #3'
   network: ws
   port: 443
   server: 108.162.193.0
   servername: learn00.evany.de5.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -205,12 +204,12 @@ proxies:
       Host: france.io-com-de-dev.org
     path: /api/voip/updates/static/x9i2
 - client-fingerprint: random
-  name: 'FR法国 #5'
+  name: 'FR法国(mibei77.com 米贝节点分享) #3'
   network: ws
   port: 8443
   server: 104.18.42.68
   servername: learn00.evany.de5.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -376,7 +375,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
 - name: 'FR法国(mibei77.com 米贝节点分享)_6 #3'
@@ -407,14 +405,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_218
@@ -454,7 +444,6 @@ proxies:
   tls: true
   type: http
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'FR_speednode_0003 #1'
   password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
@@ -464,7 +453,6 @@ proxies:
   type: http
   udp: true
   username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_37
   password: ND91608427
   port: 443
@@ -474,7 +462,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_FR_法国_1
   password: ND91608427
   port: 443
@@ -484,7 +471,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_43
   password: ND91608427
   port: 443
@@ -494,7 +480,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_44
   password: ND91608427
   port: 443
@@ -504,7 +489,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷_法国_215
   network: ws
   port: 443
@@ -616,52 +600,81 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: '@V2RFA #7'
-  port: 8443
-  server: one-for-all.levikogjgfdd.ir
+- name: 🇫🇷133178 | ⚡️Telegram = t.me/S...
+  port: 42542
+  server: am.nonpath.ir
   tls: false
   type: vless
-  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
-  ws-opts:
-    path: /
-- name: 🇫🇷@V2RFA
+  uuid: 4213de73-5001-4664-8f78-0e84e432c526
+- name: 🇫🇷133082 | ⚡️Telegram = t.me/S...
   port: 22222
-  server: 13.39.69.79
+  server: 13.36.140.106
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇫🇷@V2RFA #1'
+- name: 🇫🇷133083 | ⚡️Telegram = t.me/S...
   port: 22223
-  server: 13.39.69.79
+  server: 13.36.140.106
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇫🇷@V2RFA #2'
+- name: 🇫🇷133084 | ⚡️Telegram = t.me/S...
   port: 22224
-  server: 13.39.69.79
+  server: 13.36.140.106
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 043
-  network: tcp
+- name: 🇫🇷[@Config] vless-FR-14954142
   port: 22222
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  server: 52.47.123.79
+  tls: false
   type: vless
-  udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 044
+- name: 🇫🇷 France Paris | ⏱473ms | ⚡98...
+  port: 12020
+  server: ops.mobleamiri10.ir
+  tls: false
+  type: vless
+  uuid: f3ca0464-f6cc-4c60-a237-df97544ebf8a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇷TR_104
   network: tcp
-  port: 22224
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.129
+  servername: storage.yandex.net
   tls: true
   type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: ❓Other_22
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.64
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷TR_80
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.95
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - alterId: 0
   cipher: auto
   name: 未知35
@@ -1187,6 +1200,26 @@ proxies:
     headers:
       Host: aza002.vaslbash.site
     path: /
+- name: 法国 043
+  network: tcp
+  port: 22222
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 044
+  network: tcp
+  port: 22224
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 法国 045
   network: tcp
   port: 22224
@@ -1201,6 +1234,26 @@ proxies:
   network: tcp
   port: 22222
   server: 15.237.168.93
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 未知 VLESS-781
+  network: tcp
+  port: 22222
+  server: 15.237.234.170
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 048
+  network: tcp
+  port: 22223
+  server: 15.237.234.170
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -1290,19 +1343,6 @@ proxies:
   uuid: ae91113b-915f-4a56-b998-e52d8a12da39
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_116
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM
-    short-id: '!!str 9a4c7d2f8e1b6a3c'
-  server: 51.91.158.180
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 🇫🇷FR_852
   network: tcp
   port: 443
@@ -1322,39 +1362,30 @@ proxies:
   tls: false
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-51.77.212.145-0148 | 0.0M...
-  network: ws
-  port: 80
-  server: 51.77.212.145
-  servername: 🇫🇷FR-51.77.212.145-0148 | 0.0MB
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷FR-146.59.43.129-0241 | 0.0M...
-  network: ws
-  port: 443
-  server: 146.59.43.129
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
-  ws-opts:
-    path: /
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-0079 | 0.0...
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 149.202.82.172
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR-51.38.118.42-0075 | 0.0MB
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-54.36.174.181-0067 | 0.0M...
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
+  type: ss
 - client-fingerprint: random
   name: 🇫🇷FR_807
   network: ws
@@ -1440,6 +1471,20 @@ proxies:
     headers:
       Host: vms.lifetime18.workers.dev
     path: /
+- client-fingerprint: random
+  name: FR法国
+  network: ws
+  port: 443
+  server: 108.162.193.0
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: '%2F'
 - name: 🇫🇷FR_139
   network: ws
   port: 2095
@@ -1470,7 +1515,6 @@ proxies:
   server: 141.101.90.101
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_532
@@ -1499,7 +1543,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
 - client-fingerprint: random
-  name: 🇺🇸 美国 CloudFlare
+  name: 🇫🇷FR_935
   network: ws
   port: 2087
   server: 162.159.18.228
@@ -1757,7 +1801,6 @@ proxies:
   server: 172.66.173.172
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -1780,7 +1823,6 @@ proxies:
   server: 104.17.177.143
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - cipher: chacha20-ietf-poly1305
@@ -1789,7 +1831,6 @@ proxies:
   port: 8388
   server: 141.227.152.129
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_579
   network: ws
   port: 8880
@@ -1883,7 +1924,6 @@ proxies:
   server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
   sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
 - client-fingerprint: chrome
@@ -2062,9 +2102,8 @@ proxies:
   skip-cert-verify: false
   sni: dimskiee.biz.id
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /WangCai-8
+    path: '%2FWangCai-8'
 - client-fingerprint: chrome
   name: 🇫🇷FR_227
   network: ws
@@ -2110,7 +2149,6 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: ios
   name: 🇫🇷FR_934
   network: ws
@@ -2199,7 +2237,6 @@ proxies:
   skip-cert-verify: true
   sni: Gb21-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇫🇷FR_1134
@@ -2209,7 +2246,6 @@ proxies:
   server: 172.64.35.26
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -2261,7 +2297,6 @@ proxies:
   server: 104.21.26.36
   sni: vless.herogoing.top
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - client-fingerprint: chrome
@@ -2325,7 +2360,6 @@ proxies:
   server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -2407,7 +2441,6 @@ proxies:
   server: 104.25.241.194
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -2890,9 +2923,8 @@ proxies:
   skip-cert-verify: false
   sni: support.zoom.us.blackshadow.dpdns.org
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /195.123.218.174-443
+    path: '%2F195.123.218.174-443'
 - client-fingerprint: chrome
   name: 🇫🇷FR_170
   network: ws
@@ -2948,7 +2980,6 @@ proxies:
   server: 104.18.152.77
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_276
@@ -2994,7 +3025,6 @@ proxies:
   server: 104.19.173.68
   sni: azadnet-5vk.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /azadnet-5vk.pages.dev/?ed=2560
 - client-fingerprint: chrome
@@ -3030,7 +3060,6 @@ proxies:
   server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_255
@@ -3068,6 +3097,19 @@ proxies:
     headers:
       Host: orange-bonus-abd9.dalvandimohammadmahdi.workers.dev
     path: /eyJqdW5rIjoiUWtMSnFJZFM2S3JnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6W119
+- client-fingerprint: chrome
+  name: 🇫🇷FR_312
+  network: ws
+  port: 443
+  server: 104.17.136.118
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇷FR_243
@@ -3152,7 +3194,6 @@ proxies:
   skip-cert-verify: true
   sni: shazira.app
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /Novan-ID9
 - client-fingerprint: chrome
@@ -3199,7 +3240,6 @@ proxies:
   server: 104.18.152.143
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3350,7 +3390,6 @@ proxies:
   server: 104.16.174.36
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_49
@@ -3396,7 +3435,6 @@ proxies:
   server: 104.18.152.210
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -3442,7 +3480,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇫🇷FR_1074
+  name: 'FR法国 #3'
   network: ws
   port: 8443
   server: 172.67.201.133
@@ -3454,7 +3492,7 @@ proxies:
   ws-opts:
     headers:
       Host: france.io-com-de-dev.org
-    path: /api/voip/updates/static/x9i2
+    path: '%2Fapi%2Fvoip%2Fupdates%2Fstatic%2Fx9i2'
 - client-fingerprint: random
   name: 🇫🇷FR_978
   network: ws
@@ -3538,7 +3576,6 @@ proxies:
   server: cf.877771.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -3670,19 +3707,6 @@ proxies:
     headers:
       Host: socks5.revil-time3.workers.dev
     path: /socks5://128.140.46.169:13482
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_44
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RWE5ORdQ2SzuFWX8DlaRP415wbhee9ynJkqC7yFPgQw
-    short-id: '!!str d13ddfca12760d03'
-  server: 51.195.116.82
-  servername: speedtest.net
-  tls: true
-  type: vless
-  uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
 - alpn:
   - h2
   - http/1.1
@@ -3772,7 +3796,6 @@ proxies:
   server: join-telegram-channel.tirexnet.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_238
@@ -3810,6 +3833,21 @@ proxies:
     headers:
       Host: young-queen-488a.adriansheykhi730.workers.dev
     path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_1074
+  network: ws
+  port: 8443
+  server: 172.67.201.133
+  servername: france.io-com-de-dev.org
+  tls: true
+  type: vless
+  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
+  ws-opts:
+    headers:
+      Host: france.io-com-de-dev.org
+    path: /api/voip/updates/static/x9i2
 - client-fingerprint: chrome
   name: 🇫🇷FR_630
   network: ws
@@ -3832,7 +3870,6 @@ proxies:
   server: 188.114.96.7
   sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
 - name: 🇫🇷FR_50
@@ -4003,7 +4040,6 @@ proxies:
   server: ip.myip2.qzz.io
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_233
@@ -4037,7 +4073,6 @@ proxies:
   server: 104.16.174.72
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -4080,19 +4115,6 @@ proxies:
     headers:
       Host: young-dust-b8d9.31-8ba.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1143
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: 77.110.106.98
-  servername: node14.mxvpn.dev
-  tls: true
-  type: vless
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - name: 🇫🇷FR_128
   network: ws
   port: 8880
@@ -4111,7 +4133,6 @@ proxies:
   server: xn--b6gac.eu.org
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -4136,7 +4157,6 @@ proxies:
   server: 104.16.174.46
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: random
@@ -4294,7 +4314,6 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_483
@@ -4486,7 +4505,6 @@ proxies:
   server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -4498,7 +4516,6 @@ proxies:
   server: 104.24.163.206
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
 - client-fingerprint: chrome
@@ -4546,7 +4563,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: random
   name: 🇫🇷FR_796
   network: ws
@@ -4567,7 +4583,6 @@ proxies:
   server: 104.18.152.204
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_102
@@ -4601,7 +4616,6 @@ proxies:
   server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: firefox
@@ -4743,7 +4757,6 @@ proxies:
   server: soskeynets.z6-0hlnubjibwzpa85.workers.dev
   sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560
 - client-fingerprint: random
@@ -4759,6 +4772,20 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
+- client-fingerprint: chrome
+  name: 'FR法国 #4'
+  network: ws
+  port: 443
+  server: 104.24.9.6
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
 - name: 🇫🇷FR_1025
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -4767,7 +4794,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_236
   network: ws
@@ -4794,6 +4820,20 @@ proxies:
     headers:
       Host: www.chinns.us.ci
     path: /index
+- client-fingerprint: random
+  name: 'FR法国 #5'
+  network: ws
+  port: 8443
+  server: 104.18.42.68
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: '%2F'
 - client-fingerprint: chrome
   name: 🇫🇷FR_83
   network: ws
@@ -4837,7 +4877,6 @@ proxies:
   server: 162.159.4.103
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -4871,7 +4910,6 @@ proxies:
   server: 104.18.152.208
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_247
@@ -4881,7 +4919,6 @@ proxies:
   server: 104.16.174.44
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_10
@@ -4891,7 +4928,6 @@ proxies:
   server: 104.16.174.121
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_299
@@ -5001,7 +5037,6 @@ proxies:
   server: 104.16.174.34
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: random
@@ -5074,7 +5109,6 @@ proxies:
   server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5097,7 +5131,6 @@ proxies:
   server: cnamefuckxxs.yuchen.icu
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_188
@@ -5186,7 +5219,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_301
   network: ws
@@ -5239,7 +5271,6 @@ proxies:
   port: 10443
   server: 137.74.119.18
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -5247,7 +5278,6 @@ proxies:
   server: cloudflare-ip.mofashi.ltd
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: random
@@ -5263,6 +5293,20 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt?ed=2560
+- client-fingerprint: chrome
+  name: 'FR法国 #6'
+  network: ws
+  port: 443
+  server: 104.19.87.194
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
 - name: 🇫🇷FR_34
   network: ws
   port: 8880
@@ -5320,7 +5364,6 @@ proxies:
   server: 104.26.14.137
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_47
@@ -5330,7 +5373,6 @@ proxies:
   server: blackshadow.dpdns.org
   sni: blackshadow.dpdns.org
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
 - client-fingerprint: chrome
@@ -5442,7 +5484,6 @@ proxies:
   server: 104.21.84.3
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -5554,7 +5595,6 @@ proxies:
   server: 104.18.152.103
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5693,7 +5733,6 @@ proxies:
   server: 104.18.152.246
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_594
@@ -5729,7 +5768,6 @@ proxies:
   skip-cert-verify: true
   sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -5741,7 +5779,6 @@ proxies:
   server: 104.21.17.125
   sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr/hYgAqUlh5GyczDyXP?ed
 - client-fingerprint: chrome
@@ -5788,7 +5825,6 @@ proxies:
   server: 104.18.152.73
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5824,7 +5860,6 @@ proxies:
   server: 104.18.152.144
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -5874,7 +5909,6 @@ proxies:
   port: 8881
   server: 64.31.63.244
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_362
   network: ws
@@ -6011,7 +6045,6 @@ proxies:
   server: vless.herogoing.top
   sni: vless.herogoing.top
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - client-fingerprint: chrome
@@ -6035,7 +6068,6 @@ proxies:
   skip-cert-verify: true
   sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 🇫🇷FR_881
@@ -6144,7 +6176,6 @@ proxies:
   server: 104.16.73.213
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1130
@@ -6154,7 +6185,6 @@ proxies:
   server: 162.159.3.212
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_540
@@ -6176,7 +6206,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_693
   network: ws
@@ -6264,7 +6293,6 @@ proxies:
   server: 45.130.125.158
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_288
@@ -6286,7 +6314,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -6385,7 +6412,6 @@ proxies:
   server: 104.17.111.8
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_601
@@ -6457,7 +6483,6 @@ proxies:
   server: 172.64.146.75
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -6480,7 +6505,6 @@ proxies:
   server: 104.18.152.225
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -6503,7 +6527,6 @@ proxies:
   server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -6628,7 +6651,6 @@ proxies:
   server: 172.67.147.60
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -6690,7 +6712,6 @@ proxies:
   server: jquery.com
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - name: 🇫🇷FR_940
@@ -6700,7 +6721,6 @@ proxies:
   server: 104.18.152.152
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_310
@@ -6757,7 +6777,6 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -6802,17 +6821,6 @@ proxies:
     headers:
       Host: bab-6.site
     path: /vws/
-- name: 🇫🇷FR_396
-  network: ws
-  port: 8880
-  server: 66.235.200.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime47.workers.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
   name: 🇫🇷FR_883
   network: ws
@@ -6834,7 +6842,6 @@ proxies:
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_36
@@ -6868,7 +6875,6 @@ proxies:
   server: 172.64.35.127
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_258
@@ -6878,7 +6884,6 @@ proxies:
   server: 104.16.174.71
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_366
@@ -7076,7 +7081,6 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_1189
   network: tcp
@@ -7145,7 +7149,6 @@ proxies:
   server: 104.16.7.70
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -7196,7 +7199,6 @@ proxies:
   server: cfip.1323123.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - alpn:
@@ -7221,7 +7223,6 @@ proxies:
   server: 104.18.152.175
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -7283,7 +7284,6 @@ proxies:
   server: 104.18.152.207
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_793
@@ -7293,7 +7293,6 @@ proxies:
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
   sni: _acme-challenge.sb.cloudns.biz
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
@@ -7537,9 +7536,8 @@ proxies:
   server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: //assignment
+    path: /%2Fassignment
 - client-fingerprint: chrome
   name: 🇫🇷FR_830
   network: ws
@@ -7757,7 +7755,6 @@ proxies:
   server: 172.67.149.60
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -7866,7 +7863,6 @@ proxies:
   server: 104.18.155.119
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - client-fingerprint: chrome
@@ -7987,7 +7983,6 @@ proxies:
   server: 104.16.174.6
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_267
@@ -8049,7 +8044,6 @@ proxies:
   server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -8063,7 +8057,6 @@ proxies:
   server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_651
@@ -8196,7 +8189,6 @@ proxies:
   server: 104.18.152.219
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_40
@@ -8311,6 +8303,20 @@ proxies:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /?ed=2560
 - client-fingerprint: chrome
+  name: 'FR法国 #7'
+  network: ws
+  port: 443
+  server: 162.159.49.145
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
+- client-fingerprint: chrome
   name: 🇫🇷FR_734
   network: ws
   port: 443
@@ -8323,6 +8329,19 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txtfp=random
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1179
+  network: ws
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - name: 🇫🇷FR_530
   network: ws
   password: humanity
@@ -8330,7 +8349,6 @@ proxies:
   server: 104.18.152.50
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_1126
@@ -8340,7 +8358,6 @@ proxies:
   server: 104.25.242.132
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: random
@@ -8363,7 +8380,6 @@ proxies:
   server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -8390,6 +8406,20 @@ proxies:
     headers:
       Host: square-waterfall-c1de.199-82d.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
+- client-fingerprint: chrome
+  name: 'FR法国 #8'
+  network: ws
+  port: 443
+  server: 162.159.43.131
+  servername: ld.223350.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  ws-opts:
+    headers:
+      Host: ld.223350.xyz
+    path: '%2F'
 - client-fingerprint: chrome
   name: 🇫🇷FR_731
   network: ws
@@ -8447,7 +8477,6 @@ proxies:
   server: app-538961.user-y0o4gm.workers.dev
   sni: app-538961.user-y0o4gm.workers.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
@@ -8514,7 +8543,6 @@ proxies:
   server: 162.159.1.251
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -8561,7 +8589,6 @@ proxies:
   server: cf.0sm.com
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_897
@@ -8593,7 +8620,6 @@ proxies:
   server: 104.18.152.108
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_641
@@ -8705,7 +8731,6 @@ proxies:
   server: 162.159.24.245
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -8839,7 +8864,6 @@ proxies:
   server: 104.16.252.34
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - client-fingerprint: chrome
@@ -8982,6 +9006,19 @@ proxies:
       Host: flat-fire-40ed.96-042.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: chrome
+  name: 🇫🇷FR_1162
+  network: ws
+  port: 443
+  server: 104.16.149.6
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip
+- client-fingerprint: chrome
   name: 🇫🇷FR_917
   network: ws
   port: 8443
@@ -9038,7 +9075,6 @@ proxies:
   server: cdn.tzpro.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /?ed=2048
 - name: 🇫🇷FR_413
@@ -9048,7 +9084,6 @@ proxies:
   server: 86.38.214.205
   sni: www.ignitelimit.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: random

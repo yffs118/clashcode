@@ -1,13 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 德国(yudou789.top 玉豆免费节点)
+  name: '德國丨yoyapai.com_4 #2'
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
   skip-cert-verify: true
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -24,6 +23,22 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   name: '🇩🇪DE_1|1009KB/s #1'
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
@@ -31,7 +46,6 @@ proxies:
   server: 130.61.86.101
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_207
@@ -89,7 +103,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: '🇩🇪_DE_德国_1 #4'
   password: ND91608427
   port: 443
@@ -99,7 +112,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_35
   password: ND91608427
   port: 443
@@ -109,7 +121,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_36
   password: ND91608427
   port: 443
@@ -119,7 +130,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: '🇩🇪_DE_德国_3 #4'
   network: tcp
@@ -131,7 +141,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪_德国_88
   password: '!!str 521314'
   port: 443
@@ -141,14 +150,23 @@ proxies:
   tls: true
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /Telegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-91.195.240.12-0229 | 0.0M...
+  name: 🇩🇪All¹⁰‌ | @BigSmoke_Config|||...
+  network: tcp
+  port: '1080'
+  server: Fyfghgg.viranix.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: 德国 002
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -162,7 +180,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇫🇷FR-141.94.141.20-0283 | 0.0M...
+  name: 德国 003
   network: ws
   port: 80
   server: 141.94.141.20
@@ -899,62 +917,36 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- name: 沙特阿拉伯/利雅德/Saudi Arabia/Riyadh
+- name: SA-149.104.104.58-2349 | 0.083...
   password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
   server: 149.104.104.58
+  skip-cert-verify: false
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_17
   password: 1hhrqrokj3ag
   port: 8388
   server: 209.46.102.22
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0078 | 0.0M...
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 145.239.1.100
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-5.75.154.136-0126 | 0.0MB
+  name: 🇩🇪DE-165.227.175.88-0172 | 0.0...
   network: ws
-  port: 63456
-  server: 5.75.154.136
+  port: 28164
+  server: 165.227.175.88
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: dab6ce8a-8059-4357-9083-c5283e1908b2
+  uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
   ws-opts:
     path: /
-- alterId: 64
-  cipher: auto
-  name: 🇩🇪DE-89.163.157.147-0231 | 0.0...
-  network: ws
-  port: 443
-  server: 89.163.157.147
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪DE-31.22.109.209-0251 | 0.0M...
-  network: ws
-  port: 443
-  server: 31.22.109.209
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 36793d2c-0d5a-4a84-8862-f9c93e9af5b5
-  ws-opts:
-    path: /
-- name: 🇩🇪DE-31.76.11.46-0263 | 0.0MB
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪DE-172.236.192.49-02
@@ -978,7 +970,6 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   name: 🇩🇪 DE 538 | ⬇️ 63KB/s
@@ -990,7 +981,6 @@ proxies:
   sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1007,7 +997,6 @@ proxies:
   skip-cert-verify: true
   sni: ssl.fastly.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
@@ -1023,7 +1012,6 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1031,7 +1019,6 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1039,7 +1026,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪DE_104
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -1048,39 +1034,27 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_5
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_4
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪DE_58
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_86
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_175
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
   server: 158.180.29.33
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888

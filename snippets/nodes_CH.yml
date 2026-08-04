@@ -1,16 +1,4 @@
 proxies:
-- name: 🇨🇭@V2RFA
-  password: UKGgxZwI4G
-  port: 443
-  server: 179.237.75.217
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇨🇭@V2RFA #1'
-  password: xITFB2PCsp
-  port: 2095
-  server: 179.237.75.217
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -44,7 +32,6 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇭CH_3
   network: tcp
   password: y3b03zx3tznhyo538p4c
@@ -53,11 +40,9 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭CH_5
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 146.70.26.156
   type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
