@@ -256,7 +256,7 @@ class Node:
             # Fix IPv6
             self.data['server'] = f"[{self.data['server']}]"
 
-    # ====== 节点类型增强：_load_ss 使用 rsplit ======
+    # ====== 保留基础版原有 _load_vmess（未修改） ======
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
         try: v.update(json.loads(b64decodes(dt)))
@@ -754,7 +754,7 @@ class Node:
     _url_https = _url__legacy
     _url_socks5 = _url__legacy
 
-    # ====== 节点类型增强：clash_data 修复 cipher、reality ======
+    # ====== 保留基础版原有 clash_data（不做修改） ======
     @property
     def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
@@ -762,42 +762,34 @@ class Node:
             ret['server'] = ret['server'][1:-1]
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
-        if 'uuid' not in ret or len(ret['uuid']) != len(DEFAULT_UUID):
+        if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
-        if self.type == 'ss':
-            if 'cipher' not in ret or not ret['cipher'] or ret['cipher'] == 'auto':
-                ret['cipher'] = 'aes-256-gcm'
-        else:
-            if 'cipher' in ret and not ret['cipher']:
-                ret['cipher'] = 'auto'
+        if 'cipher' in ret and not ret['cipher']:
+            ret['cipher'] = 'auto'
         if self.type == 'vless' and 'flow' in ret:
             if ret['flow'].endswith('-udp443'):
                 ret['flow'] = ret['flow'][:-7]
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
         if 'alpn' in ret and isinstance(ret['alpn'], str):
+            # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
+        # A temporary fix for clash-party's `invalid REALITY short ID` error.
         if 'reality-opts' in ret and 'short-id' in ret['reality-opts']:
             ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
+        
+        # ========== [FIX] REALITY requires TLS ==========
+        # 原代码无此段，现在为所有 REALITY 节点强制开启 TLS
         if 'reality-opts' in ret:
             ret['tls'] = True
-            pbk = ret['reality-opts'].get('public-key', '').strip()
-            if pbk:
-                ret['reality-opts']['public-key'] = pbk
-            else:
-                del ret['reality-opts']
-                ret['tls'] = False
+        # ================================================
+        
         return ret
 
-    # ====== 节点类型增强：supports_clash 过滤无效 REALITY 公钥 ======
+    # ====== 保留基础版原有 supports_clash（不做修改） ======
     def supports_clash(self, meta=False) -> bool:
-        if self.type in ('none', '', None):
-            return False
         if self.isfake: return False
-        if self.type == 'ss':
-            if not self.data.get('password'):
-                return False
         if 'obfs' in self.data and 'obfs-password' not in self.data:
             return False
         if self.type == 'vmess':
@@ -806,13 +798,10 @@ class Node:
             supported = CLASH_CIPHER_SS
         elif self.type == 'trojan': return True
         elif not meta: return False
-        else:
-            if self.type == 'vless' and 'reality-opts' in self.data:
-                pbk = self.data['reality-opts'].get('public-key', '').strip()
-                if not pbk:
-                    return False
-            return True
+        else: return True
+        # Vmess / SS / SSR
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
+            # A quick fix for #2
             self.data['tls'] = True
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
@@ -836,6 +825,10 @@ class Node:
 
     def supports_ray(self) -> bool:
         if self.isfake: return False
+        # if self.type == 'ss':
+        #     if 'plugin' in self.data and self.data['plugin']: return False
+        # elif self.type == 'ssr':
+        #     return False
         if self.type == 'socks5' and self.data.get('tls'):
             return False
         return True
@@ -1164,22 +1157,6 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
 
     print(f"共有 {len(rules)} 条规则")
 
-# ====== 新增：去重函数（仅去重，不检测循环） ======
-def deduplicate_groups(groups: List[Dict[str, Any]]) -> None:
-    seen = set()
-    to_remove = []
-    for i, g in enumerate(groups):
-        name = g.get('name')
-        if name is None:
-            continue
-        if name in seen:
-            to_remove.append(i)
-            print(f"警告：发现重复组名 '{name}'，将移除重复项")
-        else:
-            seen.add(name)
-    for i in reversed(to_remove):
-        del groups[i]
-
 def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1444,7 +1421,6 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash
-
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
@@ -1457,15 +1433,6 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-
-        # 确保 🗺️ 选择地区 组有内容
-        if not conf['proxy-groups'][-1].get('proxies'):
-            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
-            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
-
-    # ====== 新增：写入前去重（仅去重，不检测循环） ======
-    deduplicate_groups(conf['proxy-groups'])
-
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
     except:
@@ -1484,7 +1451,6 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash_meta
-
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
@@ -1497,14 +1463,6 @@ def main():
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-
-        if not conf['proxy-groups'][-1].get('proxies'):
-            conf['proxy-groups'][-1]['proxies'] = ['♻ 自动选择']
-            print("警告：'🗺️ 选择地区' 组为空，已填充默认值")
-
-    # ====== 新增：写入前去重（仅去重，不检测循环） ======
-    deduplicate_groups(conf['proxy-groups'])
-
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
