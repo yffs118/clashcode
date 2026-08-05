@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: firefox
-  name: 'Node #59'
+  name: 'Node #151'
   network: ws
   port: 2053
   server: cf4.danfeng.eu.org
@@ -73,7 +73,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬 SG 253 | ⬇️ 4MB/s
+  name: 🇸🇬SG_64
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -115,7 +115,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '🇸🇬SG_3|4.3MB/s #1'
+- name: 🇸🇬SG_4|4.4MB/s
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -125,27 +125,35 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: firefox
+- name: 🇸🇬SG_1|1.5MB/s
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_2|2.8MB/s
+  name: 🇸🇬SG_3|2.0MB/s
   network: ws
-  port: 443
-  server: cos-cdn-c.alicdn.win
-  servername: mms-statlc-2vinw-e.bjedu.men
+  port: '2096'
+  server: 104.17.70.206
+  servername: freenet.sahanwickramasinghevip.shop
   tls: true
   type: vless
   udp: true
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
+  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
   ws-opts:
     headers:
-      Host: mms-static-cache-e.bjedu.men
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /newlogin/login.do
+      Host: freenet.sahanwickramasinghevip.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
   xudp: true
 - client-fingerprint: chrome
-  name: end-gfw.com12@sg89
-  network: tcp
+  name: 🇸🇬_新加坡_20
   port: 8686
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
@@ -469,13 +477,28 @@ proxies:
   type: vless
   udp: true
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- alpn:
+  - http/1.1
+  name: 🇸🇬 SG 537 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
   ech-opts:
     _dns: udp://8.8.8.8
     enable: true
     query-server-name: ip.gs
   encryption: none
-  name: 🇫🇷FR_1061
+  name: 🇫🇷FR_1121
   network: ws
   packet-encoding: xudp
   port: 443
@@ -534,6 +557,14 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
+- name: 🇸🇬SG_29|3.7MB/s
+  password: BxceQaOe
+  port: '26704'
+  server: 95.40.205.94
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -610,101 +641,17 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬SG_55
-  password: MajO3weHH7Jv
-  port: 8388
-  server: 192.124.176.118
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_21
-  network: tcp
-  port: 10000
-  reality-opts:
-    public-key: xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU
-    short-id: '!!str 3b0b73e5'
-  server: sgxi.959555.xyz
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
-- client-fingerprint: chrome
-  name: 🇸🇬SG_44
-  network: ws
-  port: 8443
-  server: 170.114.46.6
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
-- name: 新加坡_3
-  password: '!!str 521314'
-  port: 443
-  server: 116.251.217.65
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-- name: 🇸🇬SG_7
+- name: 🇸🇬SG_4
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
-  server: 47.129.9.33
+  server: 13.229.106.122
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: 🇸🇬SG_53
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: vx8FG1-VAORTBOOeQKugHF6P0MNjibz5Q2KIkGfMvS0
-    short-id: '!!str 15318c564f0cea55'
-  server: 194.233.90.135
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: f78a3431-cdfa-4ead-a97f-63d787f05697
-- name: 🇸🇬SG_39
-  network: tcp
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: 139.59.238.97
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_26
-  network: ws
-  port: 10428
-  server: 159.138.85.179
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  tls: true
-  type: vless
-  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 🇸🇬SG_6
-  network: ws
-  port: 2000
-  server: 13.212.82.58
-  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-  tls: true
-  type: vless
-  uuid: f2a97245-bf76-4eca-9119-110a9ebf38e4
-  ws-opts:
-    headers:
-      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
-    path: /@Marisa_kristi
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_42
+  name: 🇸🇬SG_46
   network: tcp
   port: 4321
   reality-opts:
@@ -715,10 +662,18 @@ proxies:
   tls: true
   type: vless
   uuid: b8f3a337-ad39-4064-95f1-33a725a65877
+- name: 🇸🇬SG_24
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.229.110.73
+  skip-cert-verify: true
+  sni: 13.229.110.73
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_41
-  network: raw
+  name: 未知 VLESS-584
+  network: tcp
   port: 443
   reality-opts:
     public-key: bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc
@@ -728,121 +683,8 @@ proxies:
   tls: true
   type: vless
   uuid: 607801ac-dbdd-4938-a167-129015d9978e
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_18
-  network: tcp
-  port: 10000
-  reality-opts:
-    public-key: xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU
-    short-id: '!!str 3b0b73e5'
-  server: 140.245.50.174
-  servername: gateway.icloud.com
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
-- cipher: aes-256-cfb
-  name: 🇸🇬SG²_1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.16
-  type: ss
-- client-fingerprint: chrome
-  name: 🇸🇬SG_46
-  network: ws
-  port: 2096
-  server: 141.193.213.20
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
   ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
-- name: 🇸🇬SG_9
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.255.220.11
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇸🇬SG_45
-  network: ws
-  port: 8443
-  server: 170.114.45.6
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
-- name: 🇸🇬SG_2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.179.153.191
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇸🇬SG_48
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ
-    short-id: '!!str fb7ebc9996caf9ac'
-  server: 217.217.254.126
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 6b408e62-c5d5-45e1-ae3a-4c9833d46d82
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_15
-  network: tcp
-  port: 17623
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: '!!str 48050fab'
-  server: 3.0.111.82
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: 🇸🇬SG_4
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.106.122
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: 🇸🇬SG_17
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 47.129.3.178
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 🇸🇬SG_43
-  network: ws
-  port: 2096
-  server: 141.193.213.21
-  servername: primelinelk.me
-  tls: true
-  type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
+    path: /
 - name: 新加坡_1
   network: ws
   port: 59404
@@ -855,14 +697,243 @@ proxies:
     headers:
       Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
     path: /@marisa_kristi
-- name: 🇸🇬SG_52
+- client-fingerprint: chrome
+  name: 🇸🇬SG_34
+  network: ws
+  port: 10428
+  server: 159.138.85.179
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  tls: true
+  type: vless
+  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 🇸🇬SG_49
+  network: ws
+  port: 8443
+  server: 170.114.45.6
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
+- client-fingerprint: chrome
+  name: 🇸🇬SG_33
+  network: ws
+  port: 2000
+  server: 13.212.82.58
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  tls: true
+  type: vless
+  uuid: f2a97245-bf76-4eca-9119-110a9ebf38e4
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: random
+  name: 🇸🇬SG_60
+  network: ws
+  port: 443
+  server: 141.11.43.55
+  servername: testcf.motherfuck.dpdns.org
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+  ws-opts:
+    headers:
+      Host: testcf.motherfuck.dpdns.org
+    path: /?proxyip=141.11.43.55:443
+- name: 未知 TROJAN-249
   network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+  password: ND91608427
+  port: 443
+  server: sacred-treefrog.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: sacred-treefrog.rooster465.autos
   type: trojan
+- name: 🇸🇬SG_8
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.255.220.11
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬SG_29
+  network: ws
+  port: 53646
+  server: 54.179.79.12
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  tls: true
+  type: vless
+  uuid: d57b9436-a238-4066-8b11-d23ae57c5982
+  ws-opts:
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 🇸🇬SG_63
+  network: ws
+  port: 443
+  server: 5.223.60.212
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_16
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 47.129.3.178
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬SG_52
+  network: ws
+  port: 2096
+  server: news.zoom.us
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
+- name: 🇸🇬SG_41
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_55
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6EGLBzFEY6G1sy314QU3uONCkd69FIBDLggeGnbvTk8
+  server: 172.104.171.137
+  servername: www.cisco.com
+  tls: true
+  type: vless
+  uuid: c779f96e-7874-4e97-8f6d-154f5eb9a8f6
+- client-fingerprint: chrome
+  name: 🇸🇬SG_53
+  network: ws
+  port: 8443
+  server: support.zoom.us
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
+- client-fingerprint: chrome
+  name: 🇸🇬SG_51
+  network: ws
+  port: 2096
+  server: 141.193.213.20
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
+- name: 🇸🇬SG_30
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 🇸🇬SG_13
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
+  sni: 209.74.81.28
+  tls: false
+  type: hysteria2
+- name: 🇸🇬SG_59
+  network: none
+  port: 24084
+  server: 43.160.231.254
+  tls: false
+  type: vless
+  uuid: 8cbb229f-e9c8-401b-e5a4-3c9e40d43b86
+- name: 新加坡_3
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_61
+  network: ws
+  port: 443
+  server: 139.180.220.7
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_17
+  network: tcp
+  port: 10000
+  reality-opts:
+    public-key: xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU
+    short-id: '!!str 3b0b73e5'
+  server: 140.245.50.174
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  uuid: af6904c1-4349-4448-8e99-0024824a0c33
+- client-fingerprint: chrome
+  name: 🇸🇬SG_47
+  network: ws
+  port: 2096
+  server: 141.193.213.21
+  servername: primelinelk.me
+  tls: true
+  type: vless
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+    path: /xprolk-primeline
+- name: 🇸🇬SG_6
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.9.33
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇸🇬SG_14
@@ -876,37 +947,51 @@ proxies:
   tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 🇸🇬SG_2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.179.153.191
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇸🇬SG_35
+  name: 🇸🇬SG_62
   network: ws
-  port: 59404
-  server: 47.84.67.87
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  port: 443
+  server: 66.42.61.215
+  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
   tls: true
   type: vless
-  uuid: a78b7884-7687-4ce7-81f6-a38f2977a3b4
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-    path: /@Marisa_kristi
+      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+    path: /?ed=2560
 - client-fingerprint: chrome
-  name: 🇸🇬SG_47
-  network: ws
-  port: 2096
-  server: news.zoom.us
-  servername: primelinelk.me
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_21
+  network: raw
+  port: 10000
+  reality-opts:
+    public-key: xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU
+    short-id: '!!str 3b0b73e5'
+  server: sgxi.959555.xyz
+  servername: gateway.icloud.com
   tls: true
   type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-  ws-opts:
-    headers:
-      Host: primelinelk.me
-    path: /xprolk-primeline
+  uuid: af6904c1-4349-4448-8e99-0024824a0c33
+- cipher: aes-256-cfb
+  name: 🇸🇬SG²_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
 - client-fingerprint: chrome
-  name: 🇸🇬SG_50
+  name: 🇸🇬SG_48
   network: ws
   port: 8443
-  server: support.zoom.us
+  server: 170.114.46.6
   servername: primelinelk.me
   tls: true
   type: vless
@@ -915,14 +1000,6 @@ proxies:
     headers:
       Host: primelinelk.me
     path: /xprolk-primeline
-- name: 🇸🇬SG_29
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.110.73
-  skip-cert-verify: true
-  sni: 13.229.110.73
-  tls: false
-  type: hysteria2
 - name: 新加坡_2
   network: ws
   port: 2053
@@ -935,15 +1012,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 🇸🇬SG_51
-  network: tcp
-  port: 443
-  server: freenet.sahanwickramasinghevip.shop
-  servername: freenet.sahanwickramasinghevip.shop
-  tls: true
-  type: vless
-  uuid: 5e107642-469d-4904-b00d-4f899526e964
 - name: 🇸🇬_SG_新加坡_2
   network: ws
   port: 8443

@@ -24,7 +24,7 @@ proxies:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
 - client-fingerprint: chrome
-  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  name: 🇩🇪DE_181
   network: tcp
   password: ND91608427
   port: 443
@@ -34,7 +34,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪 机场推荐:dafei.de 德国 08
+  name: 🇩🇪DE_180
   network: tcp
   password: ND91608427
   port: 443
@@ -45,7 +45,7 @@ proxies:
   udp: true
 - alterId: 0
   client-fingerprint: chrome
-  name: 🇩🇪DE德国2 1005.8KB/s
+  name: '未知 TROJAN-244 #1'
   network: tcp
   password: ND91608427
   port: 443
@@ -56,7 +56,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE-54.93.65.133-23
+  name: 🇩🇪DE_179
   network: tcp
   password: ND91608427
   port: 443
@@ -68,7 +68,7 @@ proxies:
   udp: true
 - alterId: 0
   client-fingerprint: chrome
-  name: 🇩🇪DE德国 765.5KB/s
+  name: 🇩🇪DE_182
   network: tcp
   password: ND91608427
   port: 443
@@ -78,74 +78,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '🇩🇪DE_6|1.3MB/s #1'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hikvision-plus.com
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ramz.xuithree.dpdns.org
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: '🇩🇪DE_9|1.9MB/s #1'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_10|3.4MB/s #1'
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.229.160
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪DE_14|1.8MB/s #1'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: nexigen.pro
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪DE_15|1.3MB/s #1'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: undef.network
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_89
@@ -208,29 +140,26 @@ proxies:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪133797 | ⚡️Telegram = t.me/S...
-  password: HYJzG4Pf7Kh5M47EzzqeBU
-  port: 52873
-  server: 81.19.141.45
+  name: Germany_Frankfurt am Main_ss_1...
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.229.160
   type: ss
-- cipher: aes-128-gcm
-  name: 🇩🇪133873 | ⚡️Telegram = t.me/S...
-  password: join--ZEDMODEON
-  port: 25366
-  server: 45.145.42.70
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_5
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-- name: 🇩🇪133838 | ⚡️Telegram = t.me/S...
-  password: ND91608427
-  port: 443
-  server: 54.93.54.137
-  sni: informed-alpaca.rooster465.autos
+- name: us|5c67|puddincat07@Telegram
+  password: UaQmDQajuW
+  port: 55523
+  server: 185.132.54.106
+  sni: b32-10.cmj0502.cn
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
+  network: tcp
+  port: '27726'
+  server: fj260403.freechatup.com
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
   name: 德国 002
@@ -985,7 +914,7 @@ proxies:
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
 - cipher: aes-256-cfb
-  name: 🇪🇸ES_11
+  name: 🇪🇸ES_16
   password: M3t2ZEQcMGRWBjRa
   port: 9011
   server: 5.188.181.201
@@ -1020,7 +949,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   country: 🇸🇬SG
-  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
+  name: 未知 TROJAN-255
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1108,6 +1037,21 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_1|1.4MB/s
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: nexigen.pro
+  skip-cert-verify: true
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ramz.xuithree.dpdns.org
+    path: /dksk
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1122,7 +1066,14 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- name: 🇩🇪DE_104
+- name: 🇩🇪DE_177
+  network: tcp
+  password: UO36402987
+  port: 443
+  server: many-cricket.rooster465.autos
+  sni: many-cricket.rooster465.autos
+  type: trojan
+- name: 🇩🇪DE_112
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1130,27 +1081,9 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪DE_58
+  name: 🇩🇪DE_66
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_86
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_175
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 158.180.29.33
   type: ss

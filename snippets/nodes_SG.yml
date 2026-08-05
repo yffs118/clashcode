@@ -44,7 +44,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '🇸🇬SG_3|4.3MB/s #1'
+- name: 🇸🇬SG_4|4.4MB/s
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -54,6 +54,12 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 🇸🇬SG_1|1.5MB/s
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
 - alterId: 4
   cipher: auto
   name: 🇸🇬SG-103.253.26.20-0044 | 0.0M...
@@ -287,6 +293,21 @@ proxies:
   type: ss
 - alpn:
   - http/1.1
+  name: 🇸🇬 SG 537 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
   client-fingerprint: chrome
   name: 🇸🇬 SG 701 | ⬇️ 21KB/s
   network: ws
@@ -307,6 +328,14 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬SG_29|3.7MB/s
+  password: BxceQaOe
+  port: '26704'
+  server: 95.40.205.94
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -383,19 +412,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇬SG_55
-  password: MajO3weHH7Jv
-  port: 8388
-  server: 192.124.176.118
-  type: ss
-- name: 新加坡_3
-  password: '!!str 521314'
+- name: 未知 TROJAN-249
+  network: tcp
+  password: ND91608427
   port: 443
-  server: 116.251.217.65
-  sni: hhtj.hhllfly.kdns.fr
+  server: sacred-treefrog.rooster465.autos
+  skip-cert-verify: true
+  sni: sacred-treefrog.rooster465.autos
   type: trojan
-- name: 🇸🇬SG_39
+- name: 🇸🇬SG_41
   network: tcp
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
@@ -403,17 +428,15 @@ proxies:
   skip-cert-verify: true
   sni: 139.59.238.97
   type: trojan
+- name: 新加坡_3
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
 - cipher: aes-256-cfb
   name: 🇸🇬SG²_1
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.16
   type: ss
-- name: 🇸🇬SG_52
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
