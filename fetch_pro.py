@@ -1372,10 +1372,10 @@ def main():
                 else:
                     proxy_list = [_['name'] for _ in payload]
                 print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
-                # ----- 修复：过滤掉与已有组名以及自身组名冲突的节点 -----
+                # 过滤自身及已有组名
                 group_names = [g.get('name') for g in conf['proxy-groups']]
                 exclude = set(group_names)
-                exclude.add(disp['name'])  # 排除自身，避免自环
+                exclude.add(disp['name'])
                 if payload:
                     filtered_names = [name for name in proxy_list if name not in exclude]
                     print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
@@ -1395,27 +1395,21 @@ def main():
         dns_mode: Optional[str] = None
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
-    # ----- 修复 Clash 部分特殊组中的冲突节点名 -----
-    print("\n[DEBUG] Filtering conflict nodes from special groups (Clash)...")
-    region_group_names = set()
+
+    # ----- 通用过滤：对所有 url-test 和 fallback 组，移除所有组名 -----
+    print("\n[DEBUG] General filtering for url-test and fallback groups (Clash):")
+    all_group_names = set(g['name'] for g in conf['proxy-groups'])
     for g in conf['proxy-groups']:
-        name = g.get('name', '')
-        if name in ['🇯🇵 日本', '🇺🇸 美国', '🇨🇳 台湾', '🇨🇳 中国', '🇭🇰 香港', 
-                    '🇨🇦 加拿大', '🇫🇷 法国', '🇸🇬 新加坡', '🇬🇧 英国', 
-                    '🇰🇷 韩国', '🇷🇺 俄罗斯', '🇩🇪 德国']:
-            region_group_names.add(name)
-    special_group_names = ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']
-    for g in conf['proxy-groups']:
-        gname = g.get('name')
-        if gname in special_group_names:
+        if g.get('type') in ('url-test', 'fallback'):
             original = g.get('proxies', [])
             if isinstance(original, list):
-                filtered = [node for node in original if node not in region_group_names]
+                filtered = [p for p in original if p not in all_group_names]
                 g['proxies'] = filtered
                 removed = len(original) - len(filtered)
                 if removed:
-                    print(f"  [DEBUG] Group '{gname}': removed {removed} conflict nodes")
+                    print(f"  [DEBUG] Group '{g['name']}' removed {removed} group-name elements")
     # ------------------------------------------------
+
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
@@ -1456,10 +1450,10 @@ def main():
                 else:
                     proxy_list = [_['name'] for _ in payload]
                 print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
-                # ----- 修复：过滤掉与已有组名以及自身组名冲突的节点 -----
+                # 过滤自身及已有组名
                 group_names = [g.get('name') for g in conf['proxy-groups']]
                 exclude = set(group_names)
-                exclude.add(disp['name'])  # 排除自身，避免自环
+                exclude.add(disp['name'])
                 if payload:
                     filtered_names = [name for name in proxy_list if name not in exclude]
                     print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
@@ -1476,6 +1470,20 @@ def main():
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
 
+    # ----- 通用过滤：对所有 url-test 和 fallback 组，移除所有组名 -----
+    print("\n[DEBUG] General filtering for url-test and fallback groups (Meta):")
+    all_group_names = set(g['name'] for g in conf['proxy-groups'])
+    for g in conf['proxy-groups']:
+        if g.get('type') in ('url-test', 'fallback'):
+            original = g.get('proxies', [])
+            if isinstance(original, list):
+                filtered = [p for p in original if p not in all_group_names]
+                g['proxies'] = filtered
+                removed = len(original) - len(filtered)
+                if removed:
+                    print(f"  [DEBUG] Group '{g['name']}' removed {removed} group-name elements")
+    # ------------------------------------------------
+
     # ----- DEBUG: 写入前打印最终 proxy-groups 摘要 -----
     print("\n[DEBUG] Final proxy-groups in Meta (names and proxies first 3):")
     for g in conf['proxy-groups']:
@@ -1490,30 +1498,9 @@ def main():
         if g.get('name') in ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']:
             print(f"  {g.get('name')}: {g.get('proxies', [])}")
 
-    # ========== 【关键修复】过滤 Meta 部分特殊组中的冲突节点名 ==========
-    print("\n[DEBUG] Filtering conflict nodes from special groups (Meta)...")
-    region_group_names = set()
-    for g in conf['proxy-groups']:
-        name = g.get('name', '')
-        if name in ['🇯🇵 日本', '🇺🇸 美国', '🇨🇳 台湾', '🇨🇳 中国', '🇭🇰 香港', 
-                    '🇨🇦 加拿大', '🇫🇷 法国', '🇸🇬 新加坡', '🇬🇧 英国', 
-                    '🇰🇷 韩国', '🇷🇺 俄罗斯', '🇩🇪 德国']:
-            region_group_names.add(name)
-    for g in conf['proxy-groups']:
-        gname = g.get('name')
-        if gname in ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']:
-            original = g.get('proxies', [])
-            if isinstance(original, list):
-                filtered = [node for node in original if node not in region_group_names]
-                g['proxies'] = filtered
-                removed = len(original) - len(filtered)
-                if removed:
-                    print(f"  [DEBUG] Group '{gname}': removed {removed} conflict nodes")
-    # ===========================================================
-
     # ----- 全面冲突检查 -----
     print("\n[DEBUG] Detailed check for group-name conflicts in all proxies:")
-    all_group_names = [g.get('name') for g in conf['proxy-groups']]
+    all_group_names = set(g.get('name') for g in conf['proxy-groups'])
     for g in conf['proxy-groups']:
         gname = g.get('name')
         proxies = g.get('proxies', [])
