@@ -70,7 +70,7 @@ proxies:
   server: 46.62.189.77
   type: http
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_4|1.0MB/s
+  name: '🇸🇪SE_4|1.0MB/s #1'
   password: amazonskr05
   port: 443
   server: 13.61.13.49
@@ -94,7 +94,7 @@ proxies:
     path: /api/v1/data
 - client-fingerprint: chrome
   encryption: none
-  name: '未命名 #142'
+  name: '未命名 #59'
   network: tcp
   port: 1000
   reality-opts:
@@ -120,24 +120,95 @@ proxies:
   tls: false
   type: hysteria2
   up: ''
-- name: 瑞典/斯德哥尔摩/Sweden/Stockholm
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: 87.121.105.108
-  sni: swe-one.quiet-rogue.site
-  tls: false
-  type: hysteria2
-- client-fingerprint: ios
-  name: 瑞典/Sweden
-  port: 1000
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪_瑞典_36
+  port: 40443
   reality-opts:
-    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-    short-id: '!!str a62d513cd709744a'
-  server: admin.kermanshahi.org
-  servername: knox.cdn-apple.com
+    public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0
+    short-id: '!!str e6bbe5cbfd3a1c9f'
+  server: sw.deeplcdn.com
+  servername: tv.apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+  udp: true
+  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇪_瑞典_41
+  port: 40443
+  reality-opts:
+    public-key: -cxFcuI9vCkNZvlwGFms4bENl_cZbOz2pUMOVCKB4j0
+    short-id: '!!str e6bbe5cbfd3a1c9f'
+  server: 185.189.44.201
+  servername: tv.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
+- name: 🇸🇪133842 | ⚡️Telegram = t.me/L...
+  port: 2052
+  server: 185.146.173.32
+  tls: false
+  type: vless
+  uuid: 0811015a-99a3-4cae-9d56-c3ad37f6cc72
+  ws-opts:
+    path: /@V2RAXX-@V2RAXX?ed=2048
+- name: 🇸🇪133813 | ⚡️Telegram = t.me/S...
+  port: 25365
+  server: 70.34.212.138
+  tls: false
+  type: vless
+  uuid: 0eb5abac-e3a6-48ea-bd24-36e5c5dcfa92
+- name: '🇸🇪 sweden '
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 260abd76-572e-4e86-90b8-316aa8836eff
+- name: '🇸🇪 sweden  #1'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 48c6e7a4-423b-4bad-b4a1-18527abc38cb
+- name: '🇸🇪 sweden  #2'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 6556ea2e-494c-4c5f-8821-31a6efc2e916
+- name: '🇸🇪 sweden  #3'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 943ecfd7-bea6-4520-8898-e1fa536250cc
+- name: 🇸🇪133874 | ⚡️Telegram = t.me/S...
+  port: 8080
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: d617f9de-8905-478d-b30c-f4e5db5b3abc
+  ws-opts:
+    path: /servernett
+- name: 🇸🇪133832 | ⚡️Telegram = t.me/S...
+  port: 8080
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: e6f5d3b2-cae0-4c40-b8f0-32c24ab498d5
+  ws-opts:
+    path: /servernett
+- name: 🇷🇺RU_8
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: 138.124.68.188
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
 - name: 🇫🇷FR_1004
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -154,6 +225,20 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 瑞典 001
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 瑞典 002

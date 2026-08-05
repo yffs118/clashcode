@@ -34,7 +34,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
-  name: 🇸🇬SG新加坡2
+  name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -44,48 +44,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '新加坡3|@ripaojiedian #1'
+- name: '🇸🇬SG_3|4.3MB/s #1'
   network: tcp
   password: BxceQaOe
   port: 26704
   server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇸🇬_新加坡_93
-  password: '!!str 521314'
-  port: 8443
-  server: 116.251.216.23
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
   tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
-  servername: null
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 以色列 001
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 🇸🇬SG-103.253.26.20-0044 | 0.0M...
@@ -406,7 +374,7 @@ proxies:
   tfo: false
   type: ss
 - alterId: 0
-  name: 🇸🇬SG新加坡
+  name: 🇸🇬SG新加坡3
   password: BxceQaOe
   port: 45744
   server: 16.163.150.174

@@ -1,4 +1,27 @@
 proxies:
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '🇨🇦 加拿大 魁北克省蒙特利尔Amazon数据中心 #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-ca-002.fastervpn.world
+  skip-cert-verify: false
+  sni: 127.0.0.1
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇦 加拿大 starcorenode.com #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '!!str 250b5976473a'
+  server: jyvlryz.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - client-fingerprint: chrome
   name: 'CA加拿大丨yoyapai.com #2'
   network: ws
@@ -62,7 +85,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #256'
+  name: '未命名 #117'
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -81,7 +104,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #257'
+  name: '未命名 #118'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -465,54 +488,33 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇦CA_1|1.3MB/s
+  name: 🇨🇦_加拿大_34
   network: tcp
-  port: '48905'
+  port: 48905
   reality-opts:
     public-key: XIubADu7punjUa2oUfHj2vTmUzUJXN_xDrGsmf_LslY
-    short-id: '!!str '
   server: 148.113.180.51
   servername: www.radeon.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: c9cbfe43-4087-4069-8bca-225f9a26a94f
   xudp: true
-- name: 🇨🇦_加拿大_266
-  network: ws
-  port: 443
-  server: 45.133.18.31
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦_加拿大_35
+  port: 5151
+  reality-opts:
+    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
+    short-id: '!!str 69b851'
+  server: 185.206.170.69
+  servername: www.yahoo.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: '>>@oneclickvpnkeys::CA'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.183.85.24
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '>>@oneclickvpnkeys::CA #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 99.79.62.65
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '>>@oneclickvpnkeys::CA #2'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-002.fastervpn.world
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦CA-72.140.224.195-0214 | 0.0...
   password: G!yBwPWH3Vao
@@ -525,6 +527,18 @@ proxies:
   port: 3306
   server: 134.195.196.128
   type: ss
+- name: 🇨🇦133871 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: cd3.postshup.ir
+  tls: false
+  type: vless
+  uuid: 02ea6b0e-21f8-4290-9ecc-854d492705f4
+- name: 🇨🇦133829 | ⚡️Telegram = t.me/L...
+  port: 8080
+  server: www.parsvds.ir
+  tls: false
+  type: vless
+  uuid: 1fcbe196-eecb-4344-91eb-0024682748f1
 - name: 🇨🇦133795 | ⚡️Telegram = t.me/S...
   port: 80
   server: www.speedtest.net
@@ -533,18 +547,89 @@ proxies:
   uuid: 22bc361e-72a2-48e3-ada0-74c16f1926bc
   ws-opts:
     path: '%2FTelegram-free-v2ryyy%3Fed%3D2048'
+- name: 🇨🇦133744 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 8880
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: 3116de53-e9aa-4b9c-a19e-f000b93a8a1b
 - name: 🇨🇦133744 | ⚡️Telegram = t.me/S...
   port: 443
   server: 104.21.83.51
   tls: true
   type: vless
   uuid: 329ebaee-b4ca-44a0-b124-9e8277c2b2e9
+- name: 🇨🇦133745 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 151.101.2.219
+  tls: true
+  type: vless
+  uuid: 3805cd4e-5d2e-4e30-8146-97eb66729b13
+- name: 🇨🇦133802 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.17.108.69
+  tls: false
+  type: vless
+  uuid: 3a17b816-a8ae-415d-a592-29345d7a7591
+  ws-opts:
+    path: '%2Fnova-geo-psiphon-ca'
+- name: 🇨🇦133776 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 104.17.241.218
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦133818 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 104.18.148.64
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦133802 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 104.18.86.59
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦133799 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 104.19.42.229
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦133804 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 104.21.24.127
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
 - name: 🇨🇦133745 | ⚡️Telegram = t.me/S...
   port: 80
   server: 172.67.144.47
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦133851 | ⚡️Telegram = t.me/S...
+  port: 2087
+  server: 173.245.59.15
+  tls: false
+  type: vless
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+- name: 🇨🇦133828 | ⚡️Telegram = t.me/L...
+  port: 8880
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 5c184b44-3ab8-496a-a2bd-3feebcf10293
+  ws-opts:
+    path: '%2F-LiV2ry%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6%3Fed%3D2048'
+- name: 🇨🇦133786 | ⚡️Telegram = t.me/L...
+  port: 443
+  server: 172.67.178.12
+  tls: true
+  type: vless
+  uuid: 5dc23bba-0e31-4016-895f-517ce4b7ccc0
 - name: 🇨🇦133787 | ⚡️Telegram = t.me/S...
   network: ws
   port: 2095
@@ -552,6 +637,20 @@ proxies:
   tls: false
   type: vless
   uuid: 7ad17490-2e19-468c-9d3a-51474bba4a77
+- name: 🇨🇦133904 | ⚡️Telegram = t.me/L...
+  port: 8880
+  server: cdn.discordapp.com
+  tls: false
+  type: vless
+  uuid: 82fdc77c-5def-4930-89a6-afb5cc609d4b
+  ws-opts:
+    path: VPNPROXY?ed=8080
+- name: 🇨🇦133731 | ⚡️Telegram = t.me/S...
+  port: 2095
+  server: 172.64.146.153
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
 - name: 🇨🇦133767 | ⚡️Telegram = t.me/S...
   network: grpc
   port: 8443
@@ -559,7 +658,7 @@ proxies:
   tls: false
   type: vless
   uuid: 89843ae3-922d-4f87-aae2-e1fd5981d4d3
-- name: '未命名 #157'
+- name: 🇨🇦133776 | ⚡️Telegram = t.me/S...
   port: 443
   server: 104.19.230.57
   tls: false
@@ -575,7 +674,21 @@ proxies:
   uuid: 8ceac519-7b18-47a5-b53e-d37ba318b0aa
   ws-opts:
     path: '%2F%3Fed%3D2048'
-- name: 🇨🇦133774 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133783 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 2086
+  server: 104.16.60.8
+  tls: false
+  type: vless
+  uuid: 90ffff6d-0223-426b-baeb-ce733580e083
+- name: 🇨🇦133870 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 933c22c6-8106-463d-9db4-f83b01aea606
+- name: 🇨🇦133823 | ⚡️Telegram = t.me/L...
   port: 2087
   server: www.speedtest.net
   tls: false
@@ -583,23 +696,7 @@ proxies:
   uuid: 97165540-f582-412e-930e-0263b4e1d215
   ws-opts:
     path: '%2F%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL-%40LIGHTNING6-TEL--%40LIGHTNING6-JOIN-%40LIGHTNING6-TEL--%40LIGHTNING6-%40LiV2ray%3Fed%3D2048'
-- name: 🇨🇦133809 | ⚡️Telegram = t.me/S...
-  port: 2087
-  server: 104.18.1.1
-  tls: false
-  type: vless
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-  ws-opts:
-    path: '%2Fdownload.php'
-- name: 🇨🇦133810 | ⚡️Telegram = t.me/S...
-  port: 2087
-  server: 172.67.74.10
-  tls: false
-  type: vless
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-  ws-opts:
-    path: '%2Fdownload.php'
-- name: 🇨🇦133752 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133801 | ⚡️Telegram = t.me/L...
   port: 2086
   server: 108.162.194.165
   tls: false
@@ -607,20 +704,50 @@ proxies:
   uuid: a0fe052d-6ca1-4a9c-b626-7ecf78f386cb
   ws-opts:
     path: '%2F'
-- name: 🇨🇦133782 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133871 | ⚡️Telegram = t.me/L...
+  port: 8880
+  server: serverpars.com
+  tls: false
+  type: vless
+  uuid: ab930976-73b9-43f7-dad1-0702dcfd5b09
+- name: 🇨🇦133867 | ⚡️Telegram = t.me/L...
+  port: 2096
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: b41e1631-ceb3-47c9-ba87-c65a46f2f5a8
+  ws-opts:
+    path: '%2FeOwMtmADY6cWup8R%3Fed%3D2560'
+- name: 🇨🇦133831 | ⚡️Telegram = t.me/L...
   network: ws
   port: 443
   server: 104.16.61.8
   tls: false
   type: vless
   uuid: bea4ddd0-a014-434e-9eb4-f9c8822bf19e
-- name: 🇨🇦133722 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133771 | ⚡️Telegram = t.me/L...
   port: 443
   server: 172.66.44.150
   tls: true
   type: vless
   uuid: bf7e1009-1574-44f7-86df-6cbecd338477
-- name: 🇨🇦133806 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133847 | ⚡️Telegram = t.me/L...
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: c0d0f61d-65d3-4475-b592-3f53010cbc81
+  ws-opts:
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+- name: 🇨🇦133906 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 151.101.0.0
+  tls: false
+  type: vless
+  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
+  ws-opts:
+    path: /?ed=2048
+- name: 🇨🇦133855 | ⚡️Telegram = t.me/L...
   port: 443
   server: 104.21.71.238
   tls: false
@@ -628,7 +755,7 @@ proxies:
   uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
     path: '%2FGOrbEh'
-- name: 🇨🇦133728 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133777 | ⚡️Telegram = t.me/L...
   port: 8080
   server: visa.com
   tls: false
@@ -636,7 +763,31 @@ proxies:
   uuid: cfa59f13-cb9f-4a81-bf8d-2bb6cb52d916
   ws-opts:
     path: '%2FDAILY-CONFIGS%3Fed%3D8080'
-- name: 🇨🇦133783 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133770 | ⚡️Telegram = t.me/L...
+  port: 80
+  server: 172.67.156.67
+  tls: false
+  type: vless
+  uuid: d332dedf-9524-58df-bc28-2292b244afb4
+- name: 🇨🇦133863 | ⚡️Telegram = t.me/L...
+  port: 8443
+  server: 104.19.39.215
+  tls: false
+  type: vless
+  uuid: d80a5fad-5b13-4880-83e9-d455d8ca4418
+- name: 🇨🇦133774 | ⚡️Telegram = t.me/L...
+  port: 8880
+  server: cf-mci.coixconqwe1.ir
+  tls: false
+  type: vless
+  uuid: dbe85a41-4f66-4874-89b2-580c7896951c
+- name: 🇨🇦133773 | ⚡️Telegram = t.me/L...
+  port: 8880
+  server: sourceforge.net
+  tls: false
+  type: vless
+  uuid: dbe85a41-4f66-4874-89b2-580c7896951c
+- name: 🇨🇦133832 | ⚡️Telegram = t.me/L...
   port: 443
   server: 104.18.202.232
   tls: false
@@ -644,61 +795,82 @@ proxies:
   uuid: e6aedcd2-24ad-4bdd-82c5-006d84179197
   ws-opts:
     path: '%2F%3Fed%3D2560'
-- name: 🇨🇦133786 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦133835 | ⚡️Telegram = t.me/L...
   network: ws
   port: 8080
   server: www.parsvds.ir
   tls: false
   type: vless
   uuid: f6e10666-39c0-4529-a4d0-2f942f2c462d
-- name: 🇨🇦133808 | ⚡️Telegram = t.me/S...
-  port: 8443
-  server: 188.114.97.4
-  tls: false
-  type: vless
-  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-  ws-opts:
-    path: '%2Fdownload.php'
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133667 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦133805 | ⚡️Telegram = t.me/L...
   network: ws
-  port: 2052
-  server: 104.19.42.79
+  port: 2086
+  server: 104.19.46.36
   tls: false
   type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: cdn2.freegradely.xyz
+      Host: ip13.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇨🇦133669 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦133719 | ⚡️Telegram = t.me/S...
   network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: 美国 139
-  network: tcp
-  port: 18000
-  server: 23.162.200.198
-  servername: ''
-  skip-cert-verify: true
+  port: 8080
+  server: 104.19.47.53
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: US5
+  name: 🇨🇦133807 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 2086
+  server: 104.19.38.8
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦133911 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: '2095'
+  server: 104.19.45.0
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦
+  network: ws
+  port: '443'
+  server: 158.51.121.63
+  servername: seribus.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: US14
   network: tcp
   port: 22324
   server: 23.154.136.47
@@ -1236,16 +1408,6 @@ proxies:
   type: vless
   udp: true
   uuid: 0aec6598-7fb5-44e6-bff7-a4d550117830
-- name: 加拿大 041
-  network: tcp
-  port: 443
-  server: 51.79.89.68
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 900ca7c5-6c69-4536-b0f8-efa4e3976016
 - cipher: rc4-md5
   name: 🇨🇦CA_4
   password: 14fFPrbezE3HDZzsMOr6
@@ -1254,7 +1416,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 未知43
+  name: 加拿大/蒙特利尔/Canada/Montreal
   network: ws
   port: 443
   server: 158.51.121.63
@@ -1264,8 +1426,6 @@ proxies:
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      host: seribus.org
     path: linkvws
 - alterId: 0
   cipher: auto
@@ -1287,8 +1447,14 @@ proxies:
   port: 8388
   server: 108.181.118.10
   type: ss
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_3
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-3607 | 0.0M...
+  name: 🇨🇦CA-85.208.108.60-3607 | 9.6M...
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 85.208.108.60

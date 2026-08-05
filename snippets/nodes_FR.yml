@@ -37,63 +37,48 @@ proxies:
   ws-opts:
     path: /195.123.218.174-443
 - client-fingerprint: chrome
-  name: 🇫🇷_法国_37
+  name: 🇫🇷 机场推荐:dafei.de 法国 03
   network: tcp
   password: ND91608427
   port: 443
   server: careful-tadpole.rooster465.autos
   skip-cert-verify: true
   sni: careful-tadpole.rooster465.autos
-  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷_法国_43
+  name: 🇫🇷 机场推荐:dafei.de 法国 04
   network: tcp
   password: ND91608427
   port: 443
   server: star-kiwi.rooster465.autos
   skip-cert-verify: true
   sni: star-kiwi.rooster465.autos
-  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷_法国_44
+  name: 🇫🇷 机场推荐:dafei.de 法国 05
   network: tcp
   password: ND91608427
   port: 443
   server: fancy-skink.rooster465.autos
   skip-cert-verify: true
   sni: fancy-skink.rooster465.autos
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_218
+  name: 🇫🇷_法国_218 - 140ms
   network: ws
   port: 443
   server: 57.128.183.3
-  servername: apjhdggyx.com
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇫🇷FR-13.36.175.151-21
-  password: ND91608427
-  port: 443
-  server: classic-gator.rooster465.autos
-  skip-cert-verify: true
-  sni: classic-gator.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: NN_speednode_0019
@@ -119,30 +104,19 @@ proxies:
   port: 8881
   server: 149.202.82.172
   type: ss
-- name: '>>@v2ray1_ng::FR'
-  password: humanity
+- name: 🇫🇷133847 | ⚡️Telegram = t.me/S...
+  password: ND91608427
   port: 443
-  server: 104.17.121.9
+  server: 15.237.137.197
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '>>@v2rayng_fast::FR'
-  password: humanity
+- name: 🇫🇷133849 | ⚡️Telegram = t.me/S...
+  password: ND91608427
   port: 443
-  server: 104.18.32.47
+  server: 15.237.219.234
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '>>@v2rayng_fast::FR #1'
-  password: humanity
-  port: 443
-  server: 104.18.8.83
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 法国 001
+  name: 未知20
   network: tcp
   port: 36864
   server: 2.arzankadeh.cam
@@ -152,7 +126,7 @@ proxies:
   uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
 - alterId: 0
   cipher: auto
-  name: 未知84
+  name: 未知71
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -162,7 +136,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知32
+  name: 未知126 34.9KB/s
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -501,12 +475,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知104
+  name: 法国 028
   network: tcp
   port: 27726
   server: 195.133.193.18
   skip-cert-verify: true
-  tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -524,6 +497,16 @@ proxies:
   tls: false
   type: trojan
   udp: true
+- alterId: 0
+  name: 🇫🇷FR法国 600.6KB/s
+  password: ND91608427
+  port: 443
+  server: classic-gator.rooster465.autos
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #5'
   password: asdKkaskJKfnsa
@@ -531,13 +514,13 @@ proxies:
   server: 51.158.54.209
   type: ss
 - cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0079 | 0.0...
+  name: 🇫🇷FR-149.202.82.172-0079 | 0.1...
   password: KixLvKzwjekG00rm
   port: 8000
   server: 149.202.82.172
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR-51.38.118.42-0075 | 0.0MB
+  name: 🇫🇷FR-51.38.118.42-0075 | 0.047...
   password: Ultr@r00t_2017
   port: 811
   server: 51.38.118.42

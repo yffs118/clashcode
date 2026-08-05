@@ -105,7 +105,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
-  name: 🇸🇬SG新加坡2
+  name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -115,14 +115,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '新加坡3|@ripaojiedian #1'
+- name: '🇸🇬SG_3|4.3MB/s #1'
   network: tcp
   password: BxceQaOe
   port: 26704
   server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
 - client-fingerprint: firefox
   encryption: none
   name: 🇸🇬SG_2|2.8MB/s
@@ -141,55 +143,25 @@ proxies:
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /newlogin/login.do
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇬 SG 771 | ⬇️ 16KB/s
+- client-fingerprint: chrome
+  name: end-gfw.com12@sg89
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: 8686
   reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 64c1fe36c7846400'
-  server: 67.159.52.93
-  servername: findmypackets.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- name: 🇸🇬_新加坡_93
-  password: '!!str 521314'
-  port: 8443
-  server: 116.251.216.23
-  skip-cert-verify: true
-  sni: tjplay.lxdxo.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjplay.lxdxo.kdns.fr
-    path: /
-- client-fingerprint: random
-  name: 🇸🇬_新加坡_137
-  network: ws
-  port: 443
-  server: 141.11.43.55
-  servername: testcf.motherfuck.dpdns.org
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 13.214.172.126
+  servername: www.apple.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 0d251504-8b91-4744-8130-412ec76af13f
-  ws-opts:
-    headers:
-      Host: testcf.motherfuck.dpdns.org
-    path: /?proxyip=141.11.43.55:443
-- name: 🇸🇬_新加坡_224
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+- name: 🇸🇬_新加坡_116
   network: ws
   port: 443
-  server: 43.156.181.203
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 116.251.217.65
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -197,13 +169,13 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇸🇬_新加坡_244
+- name: 🇸🇬_新加坡_118
   network: ws
   port: 443
-  server: 139.180.220.7
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 18.138.34.221
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -211,13 +183,13 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇸🇬_新加坡_250
+- name: 🇸🇬_新加坡_215
   network: ws
   port: 443
-  server: 66.42.61.215
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 116.251.217.107
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -225,71 +197,8 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇸🇬_新加坡_274
-  network: ws
-  port: 443
-  server: 5.223.60.212
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: '>>@oneclickvpnkeys::SG'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.106.122
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '>>@oneclickvpnkeys::SG #1'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.110.73
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '>>@oneclickvpnkeys::SG #2'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 47.129.9.33
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '>>@oneclickvpnkeys::SG #3'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 54.255.220.11
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬
-  network: tcp
-  port: 18000
-  server: 149.88.23.207
-  servername: null
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 以色列 001
-  network: tcp
-  port: 18000
-  server: 149.88.23.202
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 4
   cipher: auto
   name: 🇸🇬SG-103.253.26.20-0044 | 0.0M...
@@ -609,6 +518,22 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 SG 771 | ⬇️ 16KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 64c1fe36c7846400'
+  server: 67.159.52.93
+  servername: findmypackets.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -676,7 +601,7 @@ proxies:
   tfo: false
   type: ss
 - alterId: 0
-  name: 🇸🇬SG新加坡
+  name: 🇸🇬SG新加坡3
   password: BxceQaOe
   port: 45744
   server: 16.163.150.174

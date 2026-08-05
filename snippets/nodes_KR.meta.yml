@@ -116,11 +116,26 @@ proxies:
   type: vless
   udp: true
   uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-- name: 🇰🇷_韩国_150
+- client-fingerprint: chrome
+  name: 🇰🇷_韩国_90
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: /@Marisa_kristi
+- name: 🇰🇷_韩国_124
   network: ws
   port: 443
-  server: 211.49.57.178
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+  server: 211.49.57.175
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
@@ -128,97 +143,32 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇰🇷_韩国_152
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-152.67.218.38-0142 | 0.00...
   network: ws
   port: 443
-  server: 211.49.57.179
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 152.67.218.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇰🇷_韩国_153
-  network: ws
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 012
+  network: tcp
   port: 443
-  server: 123.111.169.70
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: '>>@oneclickvpnkeys::KR'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-kr-003.fastervpn.world
+  server: 140.238.2.250
+  servername: ''
   skip-cert-verify: true
   tls: false
-  type: hysteria2
-- name: '>>@v2nodes::KR'
-  password: ND91608427
-  port: 443
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #1'
-  password: ND91608427
-  port: 443
-  server: distinct-llama.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #2'
-  password: ND91608427
-  port: 443
-  server: exotic-chow.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #3'
-  password: ND91608427
-  port: 443
-  server: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #4'
-  password: ND91608427
-  port: 443
-  server: humorous-malamute.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #5'
-  password: ND91608427
-  port: 443
-  server: intimate-moray.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #6'
-  password: ND91608427
-  port: 443
-  server: main-whippet.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #7'
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: '>>@v2nodes::KR #8'
-  password: ND91608427
-  port: 443
-  server: pure-ram.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -385,15 +335,6 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 012
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - client-fingerprint: chrome
   name: 韩国 013
   network: ws
@@ -456,43 +397,49 @@ proxies:
     headers:
       Host: YouTube-aweikeji
     path: /
-- name: 🇰🇷KR-13.125.239.182-0519 | 15....
+- name: 🇰🇷KR-13.125.239.182-0519 | 34....
   password: ND91608427
   port: 443
   server: saving-octopus.rooster465.autos
   skip-cert-verify: false
   sni: saving-octopus.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-43.203.119.20-0427 | 15.5...
+- name: 🇰🇷KR-43.203.119.20-0427 | 33.6...
   password: ND91608427
   port: 443
   server: uncommon-feline.rooster465.autos
   skip-cert-verify: false
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-3.35.140.99-0520 | 15.487...
+- name: 🇰🇷KR-3.35.140.99-0520 | 33.613...
   password: ND91608427
   port: 443
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: false
   sni: moved-meerkat.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-43.203.247.197-0502 | 15....
+- name: 🇰🇷KR-43.203.247.197-0502 | 28....
   password: ND91608427
   port: 443
   server: definite-malamute.rooster465.autos
   skip-cert-verify: false
   sni: definite-malamute.rooster465.autos
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_1
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-0161 | 0....
+  name: 🇰🇷KR-211.178.105.134-0161 | 12...
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-146.56.118.227-0085 | 0.0...
+  name: 🇰🇷KR-146.56.118.227-0085 | 0.7...
   network: ws
   port: 2052
   server: 146.56.118.227
@@ -503,18 +450,6 @@ proxies:
   ws-opts:
     headers:
       Host: 146.56.118.227
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-0142 | 0.0M...
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
     path: /
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0158 | 0....
