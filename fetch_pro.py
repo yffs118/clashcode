@@ -1366,20 +1366,25 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
-                # ----- DEBUG: 打印该组的 proxies 内容（截取前5个）-----
+                # ----- DEBUG: 打印该组的原始 proxies 内容（截取前5个）-----
                 if not payload:
                     proxy_list = ['REJECT']
                 else:
                     proxy_list = [_['name'] for _ in payload]
-                print(f"    [DEBUG] proxies list (first 5): {proxy_list[:5]}")
-                # 检查是否有组名冲突
+                print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
+                # ----- 修复循环引用：过滤掉与已有组名冲突的节点 -----
                 group_names = [g.get('name') for g in conf['proxy-groups']]
-                conflicts = [name for name in proxy_list if name in group_names]
-                if conflicts:
-                    print(f"    ⚠️⚠️ CONFLICT: proxies contain group names: {conflicts}")
+                if payload:
+                    filtered_names = [name for name in proxy_list if name not in group_names]
+                    print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
+                    if len(filtered_names) < len(proxy_list):
+                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting group-name nodes.")
+                    if not filtered_names:
+                        filtered_names = ['REJECT']
+                else:
+                    filtered_names = ['REJECT']
                 # ------------------------------------
-                if not payload: disp['proxies'] = ['REJECT']
-                else: disp['proxies'] = [_['name'] for _ in payload]
+                disp['proxies'] = filtered_names
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
                 existing_names.append(disp['name'])
@@ -1423,19 +1428,25 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
-                # ----- DEBUG: 打印该组的 proxies 内容（截取前5个）-----
+                # ----- DEBUG: 打印该组的原始 proxies 内容（截取前5个）-----
                 if not payload:
                     proxy_list = ['REJECT']
                 else:
                     proxy_list = [_['name'] for _ in payload]
-                print(f"    [DEBUG] proxies list (first 5): {proxy_list[:5]}")
+                print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
+                # ----- 修复循环引用：过滤掉与已有组名冲突的节点 -----
                 group_names = [g.get('name') for g in conf['proxy-groups']]
-                conflicts = [name for name in proxy_list if name in group_names]
-                if conflicts:
-                    print(f"    ⚠️⚠️ CONFLICT: proxies contain group names: {conflicts}")
+                if payload:
+                    filtered_names = [name for name in proxy_list if name not in group_names]
+                    print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
+                    if len(filtered_names) < len(proxy_list):
+                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting group-name nodes.")
+                    if not filtered_names:
+                        filtered_names = ['REJECT']
+                else:
+                    filtered_names = ['REJECT']
                 # ------------------------------------
-                if not payload: disp['proxies'] = ['REJECT']
-                else: disp['proxies'] = [_['name'] for _ in payload]
+                disp['proxies'] = filtered_names
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
                 existing_names.append(disp['name'])
