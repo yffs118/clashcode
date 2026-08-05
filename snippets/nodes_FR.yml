@@ -1,42 +1,14 @@
 proxies:
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 美国 116
+  name: 法国(免费节点)_6
   network: ws
-  port: 80
-  server: 69.84.182.49
-  skip-cert-verify: true
-  tls: true
+  port: '55009'
+  server: 2001:bc8:32d7:225::3
   type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
   ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- name: 'FR法国(mibei77.com 米贝节点分享) #2'
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  port: 443
-  server: 104.16.148.5
-  skip-cert-verify: true
-  sni: dimskiee.biz.id
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /WangCai-8
-- name: 🏁RELAY-172.67.174.10-19
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  skip-cert-verify: true
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /195.123.218.174-443
-  ws-path: h=%2F195.123.218.174-443
+    path: /0zNW56sF
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_210
@@ -50,11 +22,17 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_562
-  password: diOMBU5IDvJcFqyNPbRjYR
-  port: 10443
-  server: 137.74.119.18
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-0196 | 0.0...
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-54.36.174.181-0207 | 0.0M...
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 54.36.174.181
   type: ss
 - alterId: 0
   cipher: auto
@@ -66,6 +44,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: auto
+  name: 未知54 20.3KB/s
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
   name: 未知66 16.7KB/s
@@ -443,15 +431,6 @@ proxies:
   type: vmess
   uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - alterId: 0
-  name: '未知 TROJAN-236 #1'
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
   name: '未知 TROJAN-237 #1'
   network: tcp
   password: ND91608427
@@ -476,18 +455,6 @@ proxies:
   skip-cert-verify: false
   sni: great-krill.rooster465.autos
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0196 | 0.0...
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-54.36.174.181-0207 | 0.0M...
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇫🇷FR-152.228.191.232-36

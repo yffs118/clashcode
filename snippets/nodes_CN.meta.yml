@@ -56,6 +56,20 @@ proxies:
   server: 106.75.132.91
   skip-cert-verify: true
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳CN-120.240.55.137-0085
+  network: ws
+  port: 38201
+  server: 120.240.55.137
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: aweikeji-YouTube
+    path: /hls/cctv5phd.m3u8
 - client-fingerprint: chrome
   name: 中国 001
   network: ws
@@ -130,6 +144,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 中国 010
+  network: ws
+  port: 443
+  server: 221.204.41.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+  ws-opts:
+    headers:
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - alterId: 0
   cipher: auto
   name: 中国 011
@@ -1520,6 +1548,19 @@ proxies:
     headers:
       Host: 4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev
     path: /photos/register
+- name: 未知 VLESS-432
+  network: tcp
+  port: 35730
+  server: 103.118.29.142
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
+  ws-opts:
+    headers:
+      Host: varzesh3.com
 - flow: ''
   name: 中国 129
   network: ws
@@ -1562,6 +1603,16 @@ proxies:
   type: vless
   udp: true
   uuid: 71a7db14-1b6f-5aec-9e5d-9bd5f8beabab
+- name: 中国 132
+  network: tcp
+  port: 60101
+  server: 198.44.177.117
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
 - name: 中国 133
   network: ws
   port: 443

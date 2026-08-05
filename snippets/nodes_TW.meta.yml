@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-13
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: '🇹🇼TW_1|1.4MB/s #1'
   network: tcp
@@ -25,6 +17,19 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
+- name: 未知 VLESS-445
+  network: tcp
+  port: 10000
+  server: 60.249.101.14
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇹🇼TW_15
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

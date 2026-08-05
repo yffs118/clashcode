@@ -1,20 +1,12 @@
 proxies:
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇪🇪EE_10
-  network: tcp
-  packet-encoding: xudp
+- name: 🇪🇪@FreakConfig
   port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: '!!str a696de84963656de'
-  server: 95.85.224.51
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
+  server: 45.80.108.182
+  tls: false
   type: vless
-  udp: true
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Ffl---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
 - name: 🇪🇪爱沙尼亚
   obfs: salamander
   obfs-password: iknjsvsjagi449mm
@@ -37,22 +29,6 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇪🇪 EE 228 | ⬇️ 112KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 64c1fe36c7846400'
-  server: 185.215.184.31
-  servername: anyfile2file.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇪🇪EE_1

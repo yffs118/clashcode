@@ -1,127 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'Node #31'
-  network: ws
-  port: 8443
-  server: ad-013.pixel9xdmq.info
-  servername: ad-013.pixel9xdmq.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  ws-opts:
-    headers:
-      Host: ad-013.pixel9xdmq.info
-    path: /
-- name: 'Node #14'
-  network: ws
-  port: 80
-  server: 151.101.124.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 'Node #81'
-  network: ws
-  port: 80
-  server: 151.101.127.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- name: 'Node #25'
-  network: ws
-  port: 80
-  server: 151.101.139.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- http-opts:
-    headers:
-      Host:
-      - sudo.domain.direct.Pannel.admin.soon.ab841.com
-    path:
-    - /@SoonTeam
-  name: '未命名 #212'
-  network: xhttp
-  port: 8880
-  server: 198.41.207.201
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
-    path: /@SoonTeam
-- http-opts:
-    headers:
-      Host:
-      - sudo.domain.direct.Pannel.admin.soon.ab841.com
-    path:
-    - /@SoonTeam
-  name: '未命名 #214'
-  network: xhttp
-  port: 8880
-  server: 108.162.195.19
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
-    path: /@SoonTeam
-- client-fingerprint: chrome
-  name: 'Node #119'
-  network: ws
-  port: 443
-  server: 162.159.8.42
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- name: 'Node #16'
-  network: ws
-  port: 8880
-  server: 130.250.137.30
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime05.workers.dev
-    path: /
 - name: 加拿大(免费节点)_1
   network: ws
   port: 443
@@ -475,181 +352,211 @@ proxies:
   type: vless
   udp: true
   uuid: c9cbfe43-4087-4069-8bca-225f9a26a94f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇦 Canada Montreal | ⏱767ms | ...
-  network: tcp
-  port: 5151
-  reality-opts:
-    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
-    short-id: '!!str 69b851'
-  server: 185.206.170.69
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
-- name: 🇨🇦@V2rayng_Fast
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0206 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0084 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0202 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 72.140.224.195
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0216 | 0.0M...
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA_2
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 185.196.61.82
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-0177 | 0.0M...
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0213 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0205 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.58-0215 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.58
+  type: ss
+- name: 🇨🇦@FreakConfig
+  password: MITIVPN
+  port: 443
+  server: 104.18.42.68
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fusa---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #1'
+  password: MITIVPN
+  port: 443
+  server: 104.19.229.21
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde2---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #2'
   password: MiTiVPN
   port: 443
   server: 104.18.6.178
   type: trojan
   ws-opts:
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fnl'
-- name: '🇨🇦@V2rayng_Fast #1'
+- name: '🇨🇦@FreakConfig #3'
+  password: MiTiVPN
+  port: 443
+  server: 104.21.40.208
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #4'
+  password: MiTiVPN
+  port: 443
+  server: 172.66.40.99
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Ffl---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #5'
   password: ersi13mjahoao8e6
   port: 443
   server: assets.fiverr.com
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #2'
+- name: '🇨🇦@FreakConfig #6'
   password: ersi13mjahoao8e6
   port: 443
   server: cctvhikvision.center
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #3'
+- name: '🇨🇦@FreakConfig #7'
   password: ersi13mjahoao8e6
   port: 443
   server: nexigen.pro
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #4'
+- name: '🇨🇦@FreakConfig #8'
   password: ersi13mjahoao8e6
   port: 443
   server: undef.network
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: 🇨🇦134380 | ⚡️Telegram = t.me/S...
+- name: '[🇨🇦]t.me/ConfigV2RayNG'
   password: humanity
   port: 443
-  server: 104.19.64.105
+  server: 172.67.149.60
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-- name: '🇨🇦@V2rayng_Fast #5'
+    path: '%2Fassignment'
+- name: '🇨🇦@FreakConfig #9'
   port: 8080
   server: 104.17.108.65
   tls: false
   type: vless
   uuid: 009971be-4e68-421a-94b5-32e806eef2ef
-- name: '🇨🇦@V2rayng_Fast #6'
+- name: 🇨🇦134383 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: fbi.gov
+  servername: misaka.cndyw.ggff.net
+  tls: false
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+- name: 🇨🇦134391 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: www.4chan.org
+  servername: misaka.cndyw.ggff.net
+  tls: false
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+- name: '🇨🇦@FreakConfig #10'
   port: 443
   server: 104.16.72.251
   tls: false
   type: vless
   uuid: 0fc1c9f0-b29a-44e0-9084-dc79f59f991d
-- name: 🇨🇦134370 | ⚡️Telegram = t.me/S...
-  port: 8080
-  server: www.parsvds.ir
-  tls: false
-  type: vless
-  uuid: 21ed74d2-0689-4920-a9f4-038e516415f4
-  ws-opts:
-    path: SHHPROXY?ed=8080
-- name: 🇨🇦134320 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦134491 | ⚡️Telegram = t.me/S...
   port: 443
-  server: 104.21.22.180
-  tls: false
-  type: vless
-  uuid: 33918b20-9e02-4dc6-8b30-79b2d4b2e0e6
-  ws-opts:
-    path: '%2FeyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0'
-- name: 🇨🇦134368 | ⚡️Telegram = t.me/S...
-  port: 8443
-  server: 162.159.152.2
+  server: 172.67.69.227
   tls: true
   type: vless
-  uuid: 4340114f-ec48-4a1a-ab59-5c4d76546d67
-- name: 🇨🇦134364 | ⚡️Telegram = t.me/S...
+  uuid: 291c2abe-716a-4691-acd0-3b13dc2f7b12
+- name: Free 190 @Outline_Vpn
+  port: 443
+  server: 108.162.195.58
+  tls: false
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    path: '%2Ffdip'
+- name: '🇨🇦@FreakConfig #11'
+  port: 443
+  server: cmcc.877774.xyz
+  tls: false
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    path: '%2Ffdip'
+- name: 🇨🇦134494 | ⚡️Telegram = t.me/S...
   port: 80
-  server: 104.17.225.155
+  server: 104.21.22.159
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134363 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.18.175.80
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134338 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.18.199.76
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134337 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.18.63.18
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134342 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 104.19.40.39
-  tls: false
-  type: vless
-  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: '🇨🇦@V2rayng_Fast #7'
-  port: 2086
-  server: adfsvcx.moritechs.ir
-  tls: false
-  type: vless
-  uuid: 5445e6d0-69b2-4bc5-bc01-28667bbf2278
-- name: '🇨🇦@V2rayng_Fast #8'
+- name: '🇨🇦@FreakConfig #12'
   port: 2086
   server: cxzczx.moritechs.ir
   tls: false
   type: vless
   uuid: 5445e6d0-69b2-4bc5-bc01-28667bbf2278
-- name: 🇨🇦134462 | ⚡️Telegram = t.me/S...
+- name: '🇨🇦@FreakConfig #13'
   port: 443
-  server: 104.17.184.125
-  tls: true
-  type: vless
-  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
-- name: '🇨🇦@V2rayng_Fast #9'
-  port: 443
-  server: one-for-all.levikogjgfdd.ir
+  server: 188.114.98.47
   tls: false
   type: vless
-  uuid: 666c7578-0000-4000-8000-000000000000
+  uuid: 56a182fc-c306-4701-8eef-6f8e08be3d1a
   ws-opts:
-    path: '%2Fflux'
-- name: '🇨🇦@V2rayng_Fast #10'
-  port: 443
-  server: one-for-all.levikogjgfdd.ir
-  tls: false
-  type: vless
-  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
-  ws-opts:
-    path: '%2Fcbasur'
-- name: 🇨🇦134365 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.21.35.39
-  tls: true
-  type: vless
-  uuid: 8a06cca1-d3da-4f66-bd2f-75ff5ee24163
-- name: 🇨🇦134440 | ⚡️Telegram = t.me/S...
+    path: '%2F'
+- name: 🇨🇦134489 | ⚡️Telegram = t.me/L...
   port: 443
   server: 104.24.200.94
   tls: false
   type: vless
   uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-- name: 🇨🇦134438 | ⚡️Telegram = t.me/S...
+- name: 🇨🇦134487 | ⚡️Telegram = t.me/L...
   port: 443
   server: 188.114.97.6
   tls: false
   type: vless
   uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-- name: '🇨🇦@V2rayng_Fast #11'
+- name: '🇨🇦@FreakConfig #14'
   port: 443
   server: www.cnae.top
   tls: false
@@ -657,19 +564,35 @@ proxies:
   uuid: 8d90b4b4-1674-45a5-810e-57d939f53fe2
   ws-opts:
     path: '%2F'
-- name: '🇨🇦@V2rayng_Fast #12'
+- name: '🇨🇦@FreakConfig #15'
+  port: 443
+  server: 104.21.19.53
+  tls: false
+  type: vless
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fusa---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #16'
   port: 443
   server: www.speedtest.net
   tls: false
   type: vless
   uuid: 966adf7f-4dee-4a0a-a374-c8075aeccabb
-- name: 🇨🇦134404 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 172.64.159.64
+- name: 🇨🇦134385 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 172.64.147.227
   tls: false
   type: vless
-  uuid: 977bac99-33d4-408a-91f5-0ce737793a50
-- name: '🇨🇦@V2rayng_Fast #13'
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  ws-opts:
+    path: /QiangLieTuiJian?ed
+- name: 🇨🇦134400 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 172.64.147.79
+  tls: false
+  type: vless
+  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+- name: '🇨🇦@FreakConfig #17'
   port: 2053
   server: 104.25.193.8
   tls: false
@@ -677,7 +600,7 @@ proxies:
   uuid: b2974faf-4dc2-4a6d-9359-7fa657015bee
   ws-opts:
     path: '%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh'
-- name: '🇨🇦@V2rayng_Fast #14'
+- name: '🇨🇦@FreakConfig #18'
   port: 2083
   server: 104.25.193.8
   tls: false
@@ -685,7 +608,7 @@ proxies:
   uuid: b2974faf-4dc2-4a6d-9359-7fa657015bee
   ws-opts:
     path: '%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh'
-- name: '🇨🇦@V2rayng_Fast #15'
+- name: '🇨🇦@FreakConfig #19'
   port: 443
   server: 104.25.193.8
   tls: false
@@ -693,7 +616,7 @@ proxies:
   uuid: b2974faf-4dc2-4a6d-9359-7fa657015bee
   ws-opts:
     path: '%2FIn_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh'
-- name: '🇨🇦@V2rayng_Fast #16'
+- name: '🇨🇦@FreakConfig #20'
   port: 2087
   server: 188.114.96.137
   tls: false
@@ -701,40 +624,47 @@ proxies:
   uuid: c6bf3c6d-3281-481d-8a55-27b331789d28
   ws-opts:
     path: '%2F'
-- name: 🇨🇦134397 | ⚡️Telegram = t.me/S...
-  port: 2053
-  server: chatgpt.com
+- name: '[🇨🇦]t.me/ConfigV2RayNG #5'
+  port: 443
+  server: 173.245.49.115
   tls: false
   type: vless
-  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    path: '%2FGOrbEh'
+- name: 🇨🇦134493 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.148.22
+  tls: false
+  type: vless
+  uuid: dd07b37b-d7ef-4a52-9907-ed5e452feab5
 - client-fingerprint: random
-  name: 🇨🇦134432 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦134481 | ⚡️Telegram = t.me/L...
   port: 443
   server: 104.16.79.73
   tls: false
   type: vless
   uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-- name: 🇨🇦134490 | ⚡️Telegram = t.me/L...
+- name: 🇨🇦134441 | ⚡️Telegram = t.me/S...
   port: 443
   server: 108.162.192.4
   tls: false
   type: vless
   uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-- name: '🌍 @SlipGate_hub #10'
-  network: tcp
+- name: 🇨🇦134433 | ⚡️Telegram = t.me/S...
   port: 443
   server: 172.64.32.2
   tls: false
   type: vless
   uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
 - client-fingerprint: random
-  name: 🇨🇦134439 | ⚡️Telegram = t.me/S...
+  name: 🇨🇦134488 | ⚡️Telegram = t.me/L...
   port: 443
   server: 188.114.97.6
   tls: false
   type: vless
   uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-- name: '🇨🇦@V2rayng_Fast #17'
+- name: '🇨🇦@FreakConfig #21'
   port: 443
   server: smart.rozaneh.xyz
   tls: false
@@ -742,44 +672,79 @@ proxies:
   uuid: e0f1b9fc-9ef6-45f2-a97e-328d4826ee26
   ws-opts:
     path: '%2Fws'
-- name: 🇨🇦134339 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 151.101.65.153
+- name: 美国 1439
+  network: grpc
+  port: 443
+  server: 104.17.239.248
+  servername: sca12.afterdomain.shop
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+- name: '🇨🇦@FreakConfig #22'
+  port: 8443
+  server: 104.16.72.101
   tls: false
   type: vless
-  uuid: ed500a32-05ba-4d2f-a1a8-f8d2a50e1ee9
-- name: 🇨🇦134384 | ⚡️Telegram = t.me/S...
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    path: '%2F'
+- name: 🇨🇦134433 | ⚡️Telegram = t.me/L...
   port: 443
   server: 162.159.3.48
   tls: false
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- name: '未命名 #187'
+- name: 🇨🇦134376 | ⚡️Telegram = t.me/S...
   port: 8443
   server: 162.159.4.221
   skip-cert-verify: false
   tls: false
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- name: 🇨🇦134468 | ⚡️Telegram = t.me/S...
-  port: 8443
-  server: 162.159.4.2
+- name: '未命名 #190'
+  port: 443
+  server: 172.67.170.11
   tls: false
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
-    path: '%2F'
-- name: '🇨🇦@V2rayng_Fast #19'
+    path: /
+- name: '[🇨🇦]t.me/ConfigV2RayNG #13'
   port: 8443
-  server: one-for-all.levikogjgfdd.ir
+  server: 104.27.66.214
   tls: false
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
   ws-opts:
-    path: '%2F'
+    path: '%2Fdownload.php'
+- name: 🇨🇦134395 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.19.33.83
+  servername: ourfast.ccwu.cc
+  tls: false
+  type: vless
+  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
 - alterId: 0
   cipher: auto
-  name: 🇨🇦134512 | ⚡️Telegram = t.me/L...
+  name: 🇨🇦CA-158.51.121.63-0149 | 0.0M...
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦134463 | ⚡️Telegram = t.me/S...
   network: ws
   port: '8443'
   server: 104.17.77.77
@@ -793,26 +758,14 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: 美国 1076
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
+  name: '🇨🇦@FreakConfig #24'
+  network: httpupgrade
+  port: '8080'
+  server: 172.66.44.97
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 美国 125
-  network: tcp
-  port: 18000
-  server: 23.162.200.198
-  servername: null
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: bd079453-339d-4c1f-8859-92e3e7029abd
 - alterId: 0
   cipher: auto
   name: US23
@@ -1404,53 +1357,11 @@ proxies:
   port: 8388
   server: 108.181.118.10
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-0177 | 0.0M...
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 85.208.108.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-72.140.224.195-0202 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 72.140.224.195
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0205 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-196.247.59.154-0206 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.20-0213 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.58-0215 | 0.0M...
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 85.208.108.58
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0216 | 0.0M...
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-196.247.59.154-0084 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 196.247.59.154
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_3
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
@@ -1580,19 +1491,6 @@ proxies:
   ws-opts:
     headers:
       Host: ad-013.orbitqgr7v.info
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦CA_21
-  network: ws
-  port: 8443
-  server: 172.67.185.125
-  servername: ad-013.zen2bswa.info
-  tls: true
-  type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  ws-opts:
-    headers:
-      Host: ad-013.zen2bswa.info
     path: /
 - client-fingerprint: chrome
   name: 🇨🇦CA_25
@@ -1815,6 +1713,20 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: /
 - client-fingerprint: chrome
+  name: 'Node #119'
+  network: ws
+  port: 443
+  server: 162.159.8.42
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇨🇦CA_46
   network: raw
@@ -1847,6 +1759,20 @@ proxies:
   sni: vpn-ca-002.fastervpn.world
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 'Node #121'
+  network: ws
+  port: 443
+  server: 198.41.223.238
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇨🇦CA_1
@@ -1981,6 +1907,12 @@ proxies:
     headers:
       Host: ad-013.pixel9xdmq.info
     path: /
+- name: 加拿大_30
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
 - name: 🇨🇦CA_43
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

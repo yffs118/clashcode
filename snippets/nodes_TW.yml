@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-13
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: '🇹🇼TW_1|1.4MB/s #1'
   network: tcp
@@ -17,6 +9,12 @@ proxies:
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-13
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-15
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

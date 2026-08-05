@@ -45,52 +45,148 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇨🇦@V2rayng_Fast
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0206 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0084 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0202 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 72.140.224.195
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0216 | 0.0M...
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA_2
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 185.196.61.82
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-0177 | 0.0M...
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0213 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0205 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.58-0215 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.58
+  type: ss
+- name: 🇨🇦@FreakConfig
+  password: MITIVPN
+  port: 443
+  server: 104.18.42.68
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fusa---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #1'
+  password: MITIVPN
+  port: 443
+  server: 104.19.229.21
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde2---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #2'
   password: MiTiVPN
   port: 443
   server: 104.18.6.178
   type: trojan
   ws-opts:
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fnl'
-- name: '🇨🇦@V2rayng_Fast #1'
+- name: '🇨🇦@FreakConfig #3'
+  password: MiTiVPN
+  port: 443
+  server: 104.21.40.208
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fde---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #4'
+  password: MiTiVPN
+  port: 443
+  server: 172.66.40.99
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Ffl---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '🇨🇦@FreakConfig #5'
   password: ersi13mjahoao8e6
   port: 443
   server: assets.fiverr.com
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #2'
+- name: '🇨🇦@FreakConfig #6'
   password: ersi13mjahoao8e6
   port: 443
   server: cctvhikvision.center
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #3'
+- name: '🇨🇦@FreakConfig #7'
   password: ersi13mjahoao8e6
   port: 443
   server: nexigen.pro
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: '🇨🇦@V2rayng_Fast #4'
+- name: '🇨🇦@FreakConfig #8'
   password: ersi13mjahoao8e6
   port: 443
   server: undef.network
   type: trojan
   ws-opts:
     path: '%2Fdksk'
-- name: 🇨🇦134380 | ⚡️Telegram = t.me/S...
+- name: '[🇨🇦]t.me/ConfigV2RayNG'
   password: humanity
   port: 443
-  server: 104.19.64.105
+  server: 172.67.149.60
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
+    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 🇨🇦134512 | ⚡️Telegram = t.me/L...
+  name: 🇨🇦CA-158.51.121.63-0149 | 0.0M...
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦134463 | ⚡️Telegram = t.me/S...
   network: ws
   port: '8443'
   server: 104.17.77.77
@@ -104,26 +200,14 @@ proxies:
     path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
-  name: 美国 1076
-  network: tcp
-  port: 18000
-  server: 134.195.196.211
+  name: '🇨🇦@FreakConfig #24'
+  network: httpupgrade
+  port: '8080'
+  server: 172.66.44.97
   servername: ''
-  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 美国 125
-  network: tcp
-  port: 18000
-  server: 23.162.200.198
-  servername: null
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  uuid: bd079453-339d-4c1f-8859-92e3e7029abd
 - alterId: 0
   cipher: auto
   name: US23
@@ -695,53 +779,11 @@ proxies:
   port: 8388
   server: 108.181.118.10
   type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.60-0177 | 0.0M...
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 85.208.108.60
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-72.140.224.195-0202 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 72.140.224.195
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0205 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-196.247.59.154-0206 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 196.247.59.154
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.20-0213 | 0.0M...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.58-0215 | 0.0M...
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 85.208.108.58
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇨🇦CA-85.208.108.93-0216 | 0.0M...
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 85.208.108.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA-196.247.59.154-0084 | 0.0...
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 196.247.59.154
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_3
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
@@ -757,3 +799,9 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+- name: 加拿大_30
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
