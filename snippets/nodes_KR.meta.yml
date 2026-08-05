@@ -125,18 +125,17 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 未知 618.6KB/s
+  name: 🇰🇷KR-152.67.218.38-0142 | 0.0M...
   network: ws
-  port: 80
-  server: 132.145.80.230
-  skip-cert-verify: true
-  tls: true
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   ws-opts:
-    headers:
-      host: kr02.a0a.xyz
-    path: /cctv13.m3u8
+    path: /
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -334,6 +333,20 @@ proxies:
   server: 217.142.138.61
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 未知 618.6KB/s
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      host: kr02.a0a.xyz
+    path: /cctv13.m3u8
 - name: 🇰🇷KR-13.125.239.182-0519 | 15....
   password: ND91608427
   port: 443
@@ -380,18 +393,6 @@ proxies:
   ws-opts:
     headers:
       Host: 146.56.118.227
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-0142 | 0.0M...
-  network: ws
-  port: 443
-  server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  ws-opts:
     path: /
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0158 | 0....
@@ -554,6 +555,19 @@ proxies:
     headers:
       Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
     path: /@Marisa_kristi
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_18
+  network: tcp
+  port: 13672
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_11

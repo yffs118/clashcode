@@ -36,6 +36,13 @@ proxies:
   udp: true
   ws-opts:
     path: /195.123.218.174-443
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰(yudou789.top 玉豆免费节点)_2
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_218
@@ -101,6 +108,12 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 3@shadowsockskeys
+  password: ZmM0Z
+  port: 8388
+  server: 83.171.225.55
+  type: ss
 - alterId: 0
   cipher: auto
   name: 法国 001
@@ -538,12 +551,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_28
-  password: bBnV36tzt7MKV75aDZTbzG
-  port: 8388
-  server: 141.227.152.129
-  type: ss
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064
@@ -882,12 +889,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_655
-  password: diOMBU5IDvJcFqyNPbRjYR
-  port: 10443
-  server: 137.74.119.18
-  type: ss
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f

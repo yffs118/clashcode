@@ -18,10 +18,16 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-15
+  name: 🇹🇼 4@shadowsockskeys
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg00129437x.cybervena.com
+  server: 114.26.123.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 3@shadowsockskeys
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.224.161.244
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW

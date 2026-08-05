@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: '德國丨yoyapai.com_3 #2'
+  name: 德国(yudou789.top 玉豆免费节点)
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
@@ -201,15 +201,45 @@ proxies:
     path: /Telegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: 未知33
+  name: 🇩🇪133605 | ⚡️Telegram = t.me/S...
   network: tcp
-  port: 2053
-  server: 57.129.121.230
+  port: '1080'
+  server: fyfghgg.viranix.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: 🤹 @v2ray_Dalghak
+  network: tcp
+  port: '27726'
+  server: fj260403.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪133602 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: '27726'
+  server: fj260205.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知85
+  network: tcp
+  port: 1080
+  server: Fyfghgg.viranix.ir
   servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - alterId: 0
   cipher: auto
   name: 德国 002
@@ -258,20 +288,6 @@ proxies:
   tls: true
   type: vmess
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
-- alterId: 0
-  cipher: auto
-  name: 德国 006
-  network: ws
-  port: 80
-  server: 159.89.29.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
-  ws-opts:
-    headers:
-      Host: cx.com
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 未知39
@@ -963,6 +979,12 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- name: SA-149.104.104.58-2349 | 0.083...
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_17
   password: 1hhrqrokj3ag
@@ -1099,17 +1121,17 @@ proxies:
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_5
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_4
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_58
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_86

@@ -347,6 +347,13 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
+- cipher: chacha20-ietf-poly1305
+  name: 荷兰(yudou789.top 玉豆免费节点)_2
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -537,6 +544,30 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 3@shadowsockskeys
+  password: ZmM0Z
+  port: 8388
+  server: 83.171.225.55
+  type: ss
+- name: 🇫🇷133627 | ⚡️Telegram = t.me/S...
+  port: 22222
+  server: 15.188.109.137
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇫🇷133626 | ⚡️Telegram = t.me/S...
+  port: 22223
+  server: 15.188.109.137
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇫🇷133625 | ⚡️Telegram = t.me/S...
+  port: 22224
+  server: 15.188.109.137
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 法国
   password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
   port: 35000
@@ -1222,17 +1253,6 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 法国/巴黎/France/Paris
-  port: 443
-  reality-opts:
-    public-key: SAw2LG0CxynFfpOpX9-5PZOxlz7eQloRLSnbQh9pRUs
-  server: fr-6.flowersyellow.ru
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 1b97d3d9-8320-4015-92d7-c94a07ae48fc
 - alterId: 0
   cipher: auto
   name: 法国/France
@@ -1242,32 +1262,6 @@ proxies:
   tls: true
   type: vmess
   uuid: ae91113b-915f-4a56-b998-e52d8a12da39
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_116
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM
-    short-id: '!!str 9a4c7d2f8e1b6a3c'
-  server: 51.91.158.180
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_852
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
-    short-id: '!!str 479826bdfc3eb86e'
-  server: 54.37.75.187
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
 - name: 🇩🇪DE_107
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
@@ -1766,12 +1760,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_28
-  password: bBnV36tzt7MKV75aDZTbzG
-  port: 8388
-  server: 141.227.152.129
-  type: ss
 - name: 🇫🇷FR_579
   network: ws
   port: 8880
@@ -5193,12 +5181,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷FR_655
-  password: diOMBU5IDvJcFqyNPbRjYR
-  port: 10443
-  server: 137.74.119.18
-  type: ss
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -5755,6 +5737,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_231
+  network: tcp
+  port: 12228
+  reality-opts:
+    public-key: hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI
+    short-id: '!!str 59625eb3275249ca'
+  server: 35.180.187.82
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  uuid: 795d5f5b-318c-49a6-844f-ee2ab63bbe94
 - client-fingerprint: chrome
   name: 🇫🇷FR_446
   network: ws

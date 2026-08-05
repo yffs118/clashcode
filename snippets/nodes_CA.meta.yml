@@ -62,7 +62,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #134'
+  name: '未命名 #389'
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -81,7 +81,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: '未命名 #135'
+  name: '未命名 #390'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -476,20 +476,54 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 🇨🇦 Canada Montreal (Ville-Mari...
+  port: 2087
+  server: 104.18.1.1
+  tls: false
+  type: vless
+  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
+- name: '🇨🇦 Canada Montreal (Ville-Mari... #2'
+  port: 2087
+  server: 104.27.66.214
+  tls: false
+  type: vless
+  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
+  ws-opts:
+    path: '%2Fdownload.php'
+- name: '🇨🇦 Canada Montreal (Ville-Mari... #3'
+  port: 2087
+  server: 172.67.74.10
+  tls: false
+  type: vless
+  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
+- name: 🌍 @SlipGate_hub
+  network: tcp
+  port: 443
+  server: 172.66.44.150
+  tls: false
+  type: vless
+  uuid: bf7e1009-1574-44f7-86df-6cbecd338477
+- name: 🇨🇦133728 | ⚡️Telegram = t.me/S...
+  port: 8080
+  server: visa.com
+  tls: false
+  type: vless
+  uuid: cfa59f13-cb9f-4a81-bf8d-2bb6cb52d916
+  ws-opts:
+    path: '%2FDAILY-CONFIGS%3Fed%3D8080'
 - alterId: 0
   cipher: auto
-  name: 🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦
+  name: 🇨🇦133669 | ⚡️Telegram = t.me/S...
   network: ws
-  port: '443'
-  server: 158.51.121.63
-  servername: seribus.org
+  port: 443
+  server: gov.uk
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
   ws-opts:
     headers:
-      Host: seribus.org
-    path: linkvws
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: US5

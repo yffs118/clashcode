@@ -13,7 +13,7 @@ proxies:
       Host: vms.lifetime57.workers.dev
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '德國丨yoyapai.com_3 #2'
+  name: 德国(yudou789.top 玉豆免费节点)
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
@@ -657,38 +657,81 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: Germany D-91|||14050514|vpnmaa...
-  port: 48654
-  server: 104.248.136.146
+- name: 🇩🇪 Germany Nuremberg | ⏱1171ms...
+  network: ws
+  port: 2086
+  server: p01.parsi.sbs
   tls: false
   type: vless
-  uuid: 5930c920-c5b4-4211-a861-fdb3c4c65e04
-- name: Germany D-80|||14050514|vpnmaa...
-  port: 48654
-  server: 165.22.79.95
+  uuid: 1ee1f28d-4975-4d7c-95c7-76172c20eed5
+- name: 🇩🇪@v2ryNG01 همه نت ها
+  port: 80
+  server: tstbot.paydar.site
   tls: false
   type: vless
-  uuid: 5930c920-c5b4-4211-a861-fdb3c4c65e04
-- name: '🇩🇪 Germany Frankfurt am Main |... #1'
-  port: 2200
-  server: 89.127.217.9
+  uuid: 9a279b36-604d-441a-b285-f669e43f6b58
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_852
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: '!!str 479826bdfc3eb86e'
+  server: 54.37.75.187
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+- name: ⭐️ 🇩🇪 t.me/Natrixo AA
+  port: 80
+  server: de.vpnbase.net
   tls: false
   type: vless
-  uuid: 9501f3d6-483f-45c1-ab2c-33266520cd5c
+  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
   ws-opts:
-    headers:
-      Host: rzd.ru
+    path: '%2Fhttp'
 - alterId: 0
   cipher: auto
-  name: 未知33
+  name: 🇩🇪133605 | ⚡️Telegram = t.me/S...
   network: tcp
-  port: 2053
-  server: 57.129.121.230
+  port: '1080'
+  server: fyfghgg.viranix.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+- alterId: 0
+  cipher: auto
+  name: 🤹 @v2ray_Dalghak
+  network: tcp
+  port: '27726'
+  server: fj260403.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪133602 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: '27726'
+  server: fj260205.freechatup.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知85
+  network: tcp
+  port: 1080
+  server: Fyfghgg.viranix.ir
   servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
 - name: 德国
   password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
   port: 443
@@ -805,20 +848,6 @@ proxies:
   tls: true
   type: vmess
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
-- alterId: 0
-  cipher: auto
-  name: 德国 006
-  network: ws
-  port: 80
-  server: 159.89.29.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
-  ws-opts:
-    headers:
-      Host: cx.com
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 未知39
@@ -2082,19 +2111,25 @@ proxies:
   type: vless
   udp: true
   uuid: fa12c1f5-24be-4119-8506-aad16f3bcd35
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_287
+  name: 🇩🇪DE_59
   network: tcp
   port: 443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.179
-  servername: yahoo.com
+    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
+    short-id: '!!str 28415a7918168947'
+  server: 159.195.27.99
+  servername: 1.oncloudnineservicestreang.com
   tls: true
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+- name: SA-149.104.104.58-2349 | 0.083...
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  type: trojan
 - name: 德国/Germany-2
   password: jeLq05gFPe
   port: 443
@@ -2197,6 +2232,23 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 DE 438 | ⬇️ 11KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 4040
+  reality-opts:
+    _spider-x: /
+    public-key: H9OGLRos1CxS7C197U2G6vmAINTN6GMasevL3gX9uEI
+    short-id: '!!str c57bcc26'
+  server: vl1.salar4040.ir
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -2703,6 +2755,12 @@ proxies:
     headers:
       Host: ad-005.clouduhtpv.info
     path: /
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_5
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
 - alpn:
   - h2
   client-fingerprint: firefox
@@ -2797,19 +2855,6 @@ proxies:
     headers:
       Host: nl29.abvpn.net
     path: /xhttp/
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_20
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
-    short-id: '!!str 04bc695105689674'
-  server: 159.195.46.178
-  servername: 4.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - alpn:
   - h2
   client-fingerprint: chrome
@@ -3044,6 +3089,17 @@ proxies:
     headers:
       Host: germany-2.ariyuz.org
     path: /
+- client-fingerprint: firefox
+  name: 🇩🇪DE_165
+  network: xhttp
+  port: 30160
+  reality-opts:
+    public-key: vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k
+  server: 45.137.43.147
+  servername: yandex.tr
+  tls: true
+  type: vless
+  uuid: c46e2605-be24-4555-b7db-0fc6773ad004
 - client-fingerprint: chrome
   name: 🇩🇪DE_159
   network: xhttp
@@ -3424,12 +3480,6 @@ proxies:
   tls: true
   type: vless
   uuid: 7216b4e8-e935-4d68-b959-73d145accdee
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_58
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
 - client-fingerprint: chrome
   name: 🇩🇪DE_23
   network: ws
@@ -3455,6 +3505,19 @@ proxies:
   tls: true
   type: vless
   uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_19
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc
+    short-id: '!!str d8d3dc6c3ca45dd4'
+  server: 159.195.22.155
+  servername: 2.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
   name: 🇩🇪DE_174
   network: ws

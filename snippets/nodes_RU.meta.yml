@@ -204,6 +204,30 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺 02@shadowsockskeys
+  password: vOmnC9uJ6tXdLyIaRGwc2s
+  port: 5223
+  server: 91.196.32.226
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇷🇺02@shadowsockskeys
+  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
+  port: 45855
+  server: 94.198.219.24
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇷🇺4@shadowsockskeys
+  password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
+  port: 38211
+  server: 94.198.219.24
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇷🇺 1@shadowsockskeys
+  password: d99c422199e62b6b
+  port: 10910
+  server: 176.32.34.152
+  type: ss
 - name: 🇷🇺俄罗斯
   password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
   port: 443
@@ -463,19 +487,6 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 020
-  network: ws
-  port: 2082
-  server: 185.174.138.34
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
-  ws-opts:
-    headers:
-      Host: ee.v2jey.fun
-    path: /
-- alterId: 0
-  cipher: auto
   name: 俄罗斯 021
   network: ws
   port: 443
@@ -516,25 +527,6 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 024
-  network: tcp
-  port: 22324
-  server: 5.188.190.252
-  skip-cert-verify: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 俄罗斯 025
-  network: grpc
-  port: 8443
-  server: 185.39.204.155
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇳🇱NL_212
@@ -650,27 +642,6 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_256
-  network: tcp
-  port: 8888
-  server: 45.13.119.219
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
-- name: 俄罗斯 037
-  network: tcp
-  port: 8443
-  server: 89.19.223.155
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f0b752da-101e-46dd-9860-3f089e71ec91
 - name: 俄罗斯 038
   network: tcp
   port: 41617
@@ -737,19 +708,6 @@ proxies:
     headers:
       Host: vms.lifetime54.workers.dev
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_120
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: cZF84xUCciKRXxTA39vNnh0U8CjUZiUSjLzuNTMOzV8
-    short-id: '!!str 33e48a03db900ff3'
-  server: api.kinomir.fun
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 598b823c-d3fc-4013-aae5-837f10080f7a
 - client-fingerprint: qq
   encryption: none
   grpc-opts:

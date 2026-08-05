@@ -31,6 +31,18 @@ proxies:
   type: vless
   udp: true
   uuid: e08c0f4a-9f14-4ab8-bcf4-f79538d65ebc
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 4@shadowsockskeys
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 114.26.123.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼 3@shadowsockskeys
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.224.161.244
+  type: ss
 - name: 🇹🇼TW_13
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -47,12 +59,6 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-15
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
