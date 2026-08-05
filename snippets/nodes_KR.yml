@@ -1,1 +1,162 @@
-proxies: []
+proxies:
+- name: KR韓國丨yoyapai.com
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- alterId: '0'
+  cipher: auto
+  name: 🇰🇷KR_2|107KB/s|C002-260622 01
+  network: raw
+  packet-encoding: xudp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_5|223KB/s 01
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 141.164.45.187
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_6|115KB/s|A004-260618 01
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_7|159KB/s|A004-260618 01
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_8|219KB/s|A004-260618 01
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_9|112KB/s|A004-260618 01
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_10|179KB/s|A004-260618 01
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_11|244KB/s|A004-260618 01
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_12|133KB/s|A004-260618 01
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 141.164.45.187
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR_13|165KB/s|B007-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 132.145.80.230
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers: {}
+    path: /cctv13.m3u8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR_14|147KB/s|B007-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 152.67.218.38
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇰🇷KR_15|210KB/s|C002-260622 01
+  network: http
+  packet-encoding: xudp
+  port: 80
+  server: 217.142.138.61
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_32|112KB/s|A004-260618 01
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  skip-cert-verify: true
+  sni: rr2.tube-cat.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_35|160KB/s|S001-260618 01
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  sub_tag: S001-260618
+  type: ss
+  udp: true

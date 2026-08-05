@@ -1,1 +1,227 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: 🇷🇺_RU俄羅斯丨yoyapai.com
+  password: 895b4b796a357570
+  port: 10910
+  server: 176.32.35.51
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 俄羅斯丨yoyapai.com
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+- alterId: 0
+  cipher: auto
+  name: 俄羅斯
+  network: ws
+  port: 443
+  server: renderer-stream-1-411.mirra.now
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄羅斯丨yoyapai.com_2
+  port: 443
+  reality-opts:
+    public-key: UQLa8BZNvHnwWL7pUnMbO046iRPh0jGhvA2xtjJRgQE
+    short-id: '!!str 8b263e22ba03b4c1'
+  server: 81.177.212.44
+  servername: sw1.panel11.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 039a1658-e86e-475f-a3a4-67cc249acada
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU俄羅斯丨yoyapai.com
+  password: 7e1dd4c55bf85da5
+  port: 30129
+  server: 212.192.13.91
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇷🇺俄羅斯丨yoyapai.com
+  network: ws
+  port: 443
+  server: 109.120.176.37
+  servername: sertraline.adaspoloandco.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
+  ws-opts:
+    headers:
+      Host: sertraline.adaspoloandco.com
+    path: /download.php
+- name: 俄羅斯丨yoyapai.com_3
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: RU俄罗斯(mibei77.com 米贝节点分享)
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 46.8.220.182
+  servername: media2.tcpdoor.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: RU俄罗斯(mibei77.com 米贝节点分享)_2
+  network: grpc
+  port: 7443
+  reality-opts:
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 157.22.241.152
+  servername: icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_1|322KB/s 01
+  network: grpc
+  packet-encoding: xudp
+  port: 2083
+  server: using.neobo-tooth.ru
+  servername: using.neobo-tooth.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_12|443KB/s|A004-260618 01
+  network: grpc
+  packet-encoding: xudp
+  port: 2083
+  server: 45.138.100.226
+  servername: using.neobo-tooth.ru
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  xudp: true
+- encryption: none
+  name: 🇷🇺RU_21|99KB/s|B007-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 2200
+  server: 185.247.16.3
+  sub_tag: B007-260618
+  type: vless
+  udp: true
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    headers:
+      Host: rzd.ru
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /v1
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_22|257KB/s|K001-260618 01
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  sub_tag: K001-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺RU_30|237KB/s|A004-260618 01
+  password: vOmnC9uJ6tXdLyIaRGwc2s
+  port: 5223
+  server: creativeboxde.zanity.net
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_1
+  network: ws
+  port: 22019
+  server: 195.58.49.84
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 8392a60c-32fa-44f4-85d1-05b8c63dbde3
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_2
+  network: tcp
+  port: 8877
+  server: 94.159.106.248
+  sni: ''
+  type: vmess
+  udp: true
+  uuid: 654285e6-23fb-4073-b8de-eba90f562fe6
+- cipher: aes-256-gcm
+  name: 🇷🇺 俄罗斯(yudou789.top 玉豆免费节点)
+  password: bdb313adf74c2ede
+  port: 20188
+  server: 195.133.5.207
+  type: ss
+  udp: true
+- name: 🇷🇺 俄罗斯(yudou789.top 玉豆免费节点) 2
+  network: ws
+  password: cd5637fd-f992-423a-8be0-5b80360f26fc
+  port: 443
+  server: aeryy5gfrp630ww1.lovebaipiao.net
+  skip-cert-verify: true
+  sni: aeryy5gfrp630ww1.lovebaipiao.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: aeryy5gfrp630ww1.lovebaipiao.net
+    path: /images

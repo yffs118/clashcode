@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- ip-version: dual
+  name: 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  password: 7043f742-ca4b-417b-ade0-0416392e72be
+  port: 46926
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 🇨🇳_CN_中国
+  network: tcp
+  port: 5229
+  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
+  type: vmess
+  udp: true
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 🇨🇳_CN_中国->🇨🇿_CZ_捷克
+  network: tcp
+  port: 5228
+  server: cd04809b-sux8g0-t3f7qr-141tv.cu.plebai.net
+  type: vmess
+  udp: true
+  uuid: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b

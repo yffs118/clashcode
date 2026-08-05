@@ -1,1 +1,303 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 新加坡丨yoyapai.com
+  network: ws
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: juzi8186.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: /tv/juzibaipiao?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG新加坡
+  network: ws
+  port: 55009
+  server: 2001:bc8:32d7:225::3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  ws-opts:
+    path: /0zNW56sF
+- name: SG新加坡(mibei77.com 米贝节点分享)
+  network: ws
+  port: 2000
+  server: 188.239.17.75
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇸🇬SG²_1|2.4MB/s|X|History 01
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_8|238KB/s|C002-260622 01
+  network: raw
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.207
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_11|250KB/s|X001-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 10428
+  server: 159.138.85.179
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  sub_tag: X001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇸🇬SG_25|306KB/s|C002-260622 01
+  network: tcp
+  packet-encoding: xudp
+  port: 18000
+  server: 149.88.23.202
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_32|208KB/s|C002-260622 01
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_33|226KB/s 01
+  network: ws
+  packet-encoding: xudp
+  port: 2000
+  server: 13.212.82.58
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: f2a97245-bf76-4eca-9119-110a9ebf38e4
+  ws-opts:
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- name: 🇸🇬SG_34|194KB/s|C002-260622 01
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: 185.159.247.30
+  sub_tag: C002-260622
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_37|155KB/s|A001-260618 01
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇸🇬SG_45|212KB/s|S001-260618 01
+  network: xhttp
+  port: 443
+  server: sg.ethicsdinnerpave.online
+  servername: sg.ethicsdinnerpave.online
+  sub_tag: S001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: sg.ethicsdinnerpave.online
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- name: 🇸🇬SG_46|311KB/s|A004-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 57137
+  server: 104.64.206.42
+  servername: m.zoom.us
+  sub_tag: A004-260618
+  type: vless
+  udp: true
+  uuid: 4476eabb-509c-42d3-bb42-6838bf6fcd1e
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /FREE By Tharuwa (0767597317)
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_47|160KB/s|A004-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 141.193.213.21
+  servername: primelinelk.me
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_48|160KB/s|A004-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 170.114.46.6
+  servername: primelinelk.me
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇬SG_49|235KB/s|A004-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: 170.114.45.6
+  servername: primelinelk.me
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /xprolk-primeline
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_51|328KB/s|P002-260618 01
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 161.118.224.85
+  sub_tag: P002-260618
+  type: ss
+  udp: true
+- name: 🇸🇬 新加坡
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 95.40.107.76
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3
+  password: BxceQaOe
+  port: 45744
+  server: 18.163.90.221
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇸🇬 新加坡_2
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.166.178.12
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3_2
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇸🇬 新加坡_3
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 32434
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3_3
+  password: BxceQaOe
+  port: 45744
+  server: 16.163.150.174
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan

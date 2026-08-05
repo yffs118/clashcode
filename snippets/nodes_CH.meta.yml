@@ -1,1 +1,116 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 瑞士丨yoyapai.com
+  port: 443
+  reality-opts:
+    public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
+    short-id: '!!str accd8c'
+  server: 83.228.235.106
+  servername: varzesh3.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH瑞士丨yoyapai.com
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.219
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH瑞士丨yoyapai.com_1
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.119
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH瑞士丨yoyapai.com_2
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.109
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  name: 🇨🇭CH_1|166KB/s 01
+  network: tcp
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇭CH_25|216KB/s|B007-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.19.229.21
+  servername: pinalo.zenvorix.ir
+  sub_tag: B007-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  ws-opts:
+    headers:
+      Host: pinalo.zenvorix.ir
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /nova-geo-psiphon-ch
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭_CH_瑞士
+  port: 443
+  reality-opts:
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: '!!str 10a5c8e2f4b7d936'
+  server: 199.68.196.79
+  servername: ch.tunnelx.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇨🇭_CH_瑞士_1
+  port: 443
+  reality-opts:
+    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
+    short-id: '!!str 10a5c8e2f4b7d936'
+  server: ch.tunnelx.space
+  servername: ch.tunnelx.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2

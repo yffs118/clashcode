@@ -1,1 +1,208 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 英國
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_1|172KB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_2|330KB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_14|334KB/s 01
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_15|300KB/s 01
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 194.164.92.198
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 🇬🇧GB_17|400KB/s 01
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_22|377KB/s|A004-260618 01
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇬🇧GB_23|203KB/s|A004-260618 01
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_25|165KB/s|B007-260618 01
+  network: tcp
+  packet-encoding: xudp
+  port: 22324
+  server: 66.163.117.58
+  skip-cert-verify: false
+  sub_tag: B007-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_36|405KB/s 01
+  password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
+  port: 8388
+  server: 31.76.80.205
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_106|137KB/s|M002-260618 0...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.21.43.81
+  servername: cg1c12.waimaojd.com
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_107|485KB/s|M002-260618 0...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.67.176.245
+  servername: cg1c12.waimaojd.com
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇬🇧GB_114|133KB/s|M002-260618 0...
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cg1c12.waimaojd.com
+  servername: cg1c12.waimaojd.com
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_129|221KB/s|A003-260618 0...
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 144.24.226.244
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - play.google.com
+    path:
+    - /inuse/forhost
+  name: 🇬🇧GB_130|201KB/s|A003-260618 0...
+  network: http
+  packet-encoding: xudp
+  port: 10053
+  server: Chdxgih.viranix.ir
+  skip-cert-verify: false
+  sub_tag: A003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_136|174KB/s|S001-260618 0...
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.64.45
+  sub_tag: S001-260618
+  type: ss
+  udp: true
+- name: 🇬🇧 英国 Technicolor SA
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  ip-version: dual
+  name: 🇬🇧_GB_英国
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.24.23.55
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true

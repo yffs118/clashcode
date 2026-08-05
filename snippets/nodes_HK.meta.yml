@@ -1,1 +1,640 @@
-proxies: []
+proxies:
+- name: 🇭🇰HK香港節點丨yoyapai.com
+  network: ws
+  port: 443
+  server: 91.193.58.93
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港節點丨yoyapai.com_1
+  network: ws
+  port: 443
+  server: 91.193.58.195
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
+- name: 香港丨yoyapai.com
+  password: 65fQmPHHbPcBCfvSHt
+  port: 443
+  server: au-4.tr202605.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 香港丨yoyapai.com_1
+  network: ws
+  port: 80
+  server: 151.101.77.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?https://t.me/WangCai2🇨🇳
+- name: 香港丨yoyapai.com_2
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 47867
+  server: 18.162.155.166
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港_2
+  network: ws
+  port: 443
+  server: 221.204.41.88
+  servername: speeches-obligations-view-epinions.trycloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+  ws-opts:
+    headers:
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+- name: 🇭🇰HK香港丨yoyapai.com
+  network: ws
+  port: 80
+  server: 91.193.58.243
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_1
+  network: ws
+  port: 80
+  server: 91.193.58.246
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_2
+  network: ws
+  port: 80
+  server: 91.193.58.209
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_3
+  network: ws
+  port: 80
+  server: 91.193.58.197
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_4
+  network: ws
+  port: 80
+  server: 91.193.58.179
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_5
+  network: ws
+  port: 80
+  server: 91.193.58.42
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 香港丨yoyapai.com_3
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 13118
+  server: 43.199.32.78
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰HK香港節點丨yoyapai.com_2
+  network: ws
+  port: 443
+  server: 91.193.58.141
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港節點丨yoyapai.com_3
+  network: ws
+  port: 443
+  server: 91.193.58.117
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港節點丨yoyapai.com_4
+  network: ws
+  port: 80
+  server: 91.193.58.92
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- name: 🇭🇰HK香港節點丨yoyapai.com_5
+  network: ws
+  port: 80
+  server: 91.193.58.93
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  ws-opts:
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 01
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰 香港 04
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 91.110.209.61
+  servername: vp10.pages.dev
+  sub_tag: V004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+    path:
+    - /x
+  name: 🇭🇰 香港 05
+  network: http
+  packet-encoding: xudp
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: false
+  sub_tag: A003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  xudp: true
+- encryption: none
+  name: 🇭🇰 香港 06
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  server: 45.125.32.115
+  sub_tag: A003-260618
+  type: vless
+  udp: true
+  uuid: e2c8fa8c-886d-4649-bd59-cf73bee48b55
+  xudp: true
+- cipher: aes-256-gcm
+  name: 🇭🇰 香港 08
+  password: eEdW951gTq8g
+  port: 8388
+  server: 212.192.13.32
+  sub_tag: K001-260618
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰 香港 09
+  network: ws
+  packet-encoding: xudp
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers: {}
+    max-early-data: 2048
+    path: /arki
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 10
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 43.168.16.112
+  servername: sni.ehb.cc.cd
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 11
+  network: ws
+  port: 443
+  server: 119.8.26.15
+  servername: sni.ehb.cc.cd
+  sub_tag: S001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 12
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 163.61.74.121
+  servername: sni.ehb.cc.cd
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2fp=chrome
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰 香港 13
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 161.248.31.198
+  servername: sni.ehb.cc.cd
+  sub_tag: T001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 14
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  skip-cert-verify: false
+  sub_tag: F003-260618
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers: {}
+    path: /ws-vmess
+  xudp: true
+- name: 🇭🇰 香港 15
+  network: tcp
+  password: BxceQaOe
+  port: 29443
+  server: 18.166.249.45
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  sub_tag: P002-260618
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰 香港3
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 50887
+  server: 95.40.107.76
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港5
+  password: BxceQaOe
+  port: 11035
+  server: 16.163.123.222
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港3_2
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 39412
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港5_2
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.191.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港3_3
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 50887
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇭🇰 香港4
+  password: BxceQaOe
+  port: 11035
+  server: 18.166.225.67
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰 香港5_3
+  password: BxceQaOe
+  port: 29443
+  server: 16.163.150.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '🇭🇰HK香港丨yoyapai.com_2 #1'
+  network: ws
+  port: 80
+  server: 91.193.58.220
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_1_2
+  network: ws
+  port: 80
+  server: 91.193.58.116
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_2_2
+  network: ws
+  port: 80
+  server: 91.193.58.151
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_3_2
+  network: ws
+  port: 80
+  server: 91.193.58.90
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_4_2
+  network: ws
+  port: 80
+  server: 91.193.58.162
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_5_2
+  network: ws
+  port: 80
+  server: 91.193.58.180
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- name: 🇭🇰HK香港丨yoyapai.com_6
+  network: ws
+  port: 80
+  server: 91.193.58.210
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+    path: /pyip=Telegram-WangCai2🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点)
+  port: 9006
+  server: select-hk.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 2
+  port: 11885
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 3
+  port: 9028
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4
+  port: 11985
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 5
+  password: fac593ac-d6aa-4523-bea9-b3eb2a2b3da3
+  port: 13209
+  server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com
+  skip-cert-verify: true
+  sni: 207.yuanul.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 6
+  port: 9027
+  server: select-us.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 7
+  port: 11973
+  server: board-04.ddnskunlun.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 443
+  server: 210.138.37.53
+  servername: DrBKg16eGf3FZlM3.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess

@@ -1,1 +1,215 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 瑞典丨yoyapai.com
+  port: 8443
+  server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: 瑞典丨yoyapai.com_1
+  port: 8443
+  server: 79.127.249.221
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 瑞典丨yoyapai.com_2
+  port: 8443
+  server: 45.159.12.4
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 瑞典丨yoyapai.com_3
+  port: 8443
+  server: 45.159.12.18
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 瑞典節點丨yoyapai.com
+  port: 8443
+  server: 45.159.12.15
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: SE瑞典丨yoyapai.com
+  network: ws
+  port: 80
+  server: 151.101.84.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪SE_12|172KB/s|C002-260622 01
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: cc.ircybersec.org
+  servername: cp.kermanshahi.org
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+  ws-opts:
+    headers:
+      Host: cp.kermanshahi.org
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇸🇪SE_13|332KB/s|F003-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 1443
+  server: 2.26.91.98
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  sub_tag: F003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: d4c6b1ad-9ec4-4273-854a-f0bbf0448ab6
+  ws-opts:
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_19|210KB/s|B007-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_22|173KB/s|B007-260618 01
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_28|264KB/s|R002-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.62.53.26
+  sub_tag: R002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_29|296KB/s|A001-260618 01
+  password: amazonskr05
+  port: 443
+  server: 16.171.242.243
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_30|175KB/s|A001-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.53.38.71
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_31|333KB/s|R002-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  sub_tag: R002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_32|452KB/s|A001-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_33|335KB/s|R002-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
+  sub_tag: R002-260618
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_34|270KB/s|S001-260618 01
+  password: amazonskr05
+  port: 443
+  server: 13.62.231.217
+  sub_tag: S001-260618
+  type: ss
+  udp: true
+- encryption: none
+  name: 🇸🇪SE_36|334KB/s|B007-260618 01
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: vips.irhubby.ir
+  sub_tag: B007-260618
+  type: vless
+  udp: true
+  uuid: af6838cc-338b-41e8-93b2-996b24014659
+  ws-opts:
+    headers:
+      Host: vips.irhubby.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_37|418KB/s|S001-260618 01
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  sub_tag: S001-260618
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇸🇪SE_41|125KB/s|P002-260618 01
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: sw1.tunnelx.space
+  servername: sw1.tunnelx.space
+  sub_tag: P002-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+  xhttp-opts:
+    mode: auto
+    path: /assets
+  xudp: true
