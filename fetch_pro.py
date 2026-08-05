@@ -1,44 +1,23 @@
 #!/usr/bin/env python3
 # ========== User Configs Begin ==========
-# 以下是可以自定义的配置：
-STOP = False              # 暂停抓取节点
-NAME_SHOW_TYPE = False    # 在节点名称前添加如 [Vmess] 的标签
-NAME_NO_FLAGS  = False    # 将节点名称中的地区旗帜改为文本地区码
-NAME_SHOW_SRC  = False    # 在节点名称前显示所属订阅编号 (订阅见 list_result.csv)
-ABFURLS = (           # Adblock 规则黑名单
+STOP = False
+NAME_SHOW_TYPE = False
+NAME_NO_FLAGS  = False
+NAME_SHOW_SRC  = False
+ABFURLS = (
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt",
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers_firstparty.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
-    # "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt",
-    # "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-ag.txt",
-    # "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt",
-    # "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
-    # "https://anti-ad.net/adguard.txt",
     "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.adblock",
-    # "https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt",
-    # "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt",
-    # "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_lite.txt",
     "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt",
-    # "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/domain.txt",
 )
-ABFWHITE = (          # Adblock 规则白名单
+ABFWHITE = (
     "https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-list.txt",
     "file:///./abpwhite.txt",
 )
 # ========== User Configs End ==========
 
-# pyright: reportConstantRedefinition = none
-# pyright: reportMissingTypeStubs = none
-# pyright: reportRedeclaration = none
-# pyright: reportMissingParameterType = none
-# pyright: reportUnnecessaryIsInstance = none
-# pyright: reportUnknownVariableType = none
-# pyright: reportUnknownMemberType = none
-# pyright: reportUnknownArgumentType = none
-# pyright: reportArgumentType = none
-# pyright: reportAttributeAccessIssue = none
-# pyright: reportGeneralTypeIssues = none
 import yaml
 import json
 import base64
@@ -113,7 +92,6 @@ FETCH_TIMEOUT = (6, 30)
 
 BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqrlipsg5Yqg5rK5IOWlsyDmnYMg6L+Q5YqoIG9uZ3RhaXdhbg==').split()
 
-# !!! JUST FOR DEBUGING !!!
 DEBUG_NO_NODES = os.path.exists("local_NO_NODES")
 DEBUG_NO_DYNAMIC = os.path.exists("local_NO_DYNAMIC")
 DEBUG_NO_ADBLOCK = os.path.exists("local_NO_ADBLOCK")
@@ -211,8 +189,6 @@ class Node:
             elif self.type == 'hysteria2':
                 path = data.get('sni', '')+':'
                 path += data.get('obfs-password', '')+':'
-                # print(self.url)
-                # return hash(self.url)
             path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password', '')+data.get('uuid', '')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
@@ -243,19 +219,15 @@ class Node:
     def load_url(self, url: str):
         try: self.type, dt = url.split("://", 1)
         except ValueError: raise NotANode(url)
-        # === Fix begin ===
         if not self.type.isascii():
             self.type = ''.join([_ for _ in self.type if _.isascii()])
             url = self.type+'://'+url.split("://")[1]
         if self.type == 'hy2': self.type = 'hysteria2'
-        # === Fix end ===
-        loader: Optional[Callable[[str, str], None]] = \
-                getattr(self, '_load_'+self.type, None)
+        loader: Optional[Callable[[str, str], None]] = getattr(self, '_load_'+self.type, None)
         if loader: loader(url, dt)
         else: raise UnsupportedType(self.type)
         if ('server' in self.data and ':' in self.data['server'] and 
                 not self.data['server'].startswith('[')):
-            # Fix IPv6
             self.data['server'] = f"[{self.data['server']}]"
 
     def _load_vmess(self, url: str, dt: str):
@@ -313,7 +285,6 @@ class Node:
                 'port': port, 'type': 'ss', 'password': passwd, 'cipher': cipher}
 
     def _load_ssr(self, url: str, dt: str):
-        # TODO: IPv6 server support
         if '?' in url:
             parts = dt.split(':')
         else:
@@ -413,7 +384,6 @@ class Node:
                 if 'reality-opts' not in self.data:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
-            # TODO: Unused key encryption
 
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
@@ -555,11 +525,7 @@ class Node:
             for domain in FAKE_DOMAINS:
                 if self.data['server'] == domain.lstrip('.'): return True
                 if self.data['server'].endswith(domain): return True
-            # TODO: Fake UUID
-            # if self.type == 'vmess' and len(self.data['uuid']) != len(DEFAULT_UUID):
-            #     return True
             if 'sni' in self.data and 'google.com' in self.data['sni'].lower():
-                # That's not designed for China
                 self.data['sni'] = 'www.bing.com'
         except Exception:
             print("无法验证的节点！", file=sys.stderr)
@@ -568,8 +534,7 @@ class Node:
 
     @property
     def url(self) -> str:
-        handler: Optional[Callable[[Node.DATA_TYPE], str]] = \
-                getattr(self, '_url_'+self.type, None)
+        handler: Optional[Callable[[Node.DATA_TYPE], str]] = getattr(self, '_url_'+self.type, None)
         if handler: return handler(self.data)
         else: raise UnsupportedType(self.type)
 
@@ -604,9 +569,7 @@ class Node:
         return f"ss://{passwd}@{data['server']}:{data['port']}#{quote(data['name'])}"
 
     def _url_ssr(self, data: DATA_TYPE) -> str:
-        # TODO: Fix IPv6
-        ret = (':'.join([str(data[_]) for _ in ('server','port',
-                                    'protocol','cipher','obfs')]) +
+        ret = (':'.join([str(data[_]) for _ in ('server','port','protocol','cipher','obfs')]) +
                 b64encodes_safe(data['password']) +
                 f"remarks={b64encodes_safe(data['name'])}")
         for k, urlk in (('obfs-param','obfsparam'), ('protocol-param','protoparam'), ('group','group')):
@@ -747,18 +710,11 @@ class Node:
             elif ret['flow'].endswith('!'):
                 ret['flow'] = ret['flow'][:-1]
         if 'alpn' in ret and isinstance(ret['alpn'], str):
-            # 'alpn' is not a slice
             ret['alpn'] = ret['alpn'].replace(' ','').split(',')
-        # A temporary fix for clash-party's `invalid REALITY short ID` error.
         if 'reality-opts' in ret and 'short-id' in ret['reality-opts']:
             ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
-        
-        # ========== [FIX] REALITY requires TLS ==========
-        # 原代码无此段，现在为所有 REALITY 节点强制开启 TLS
         if 'reality-opts' in ret:
             ret['tls'] = True
-        # ================================================
-        
         return ret
 
     def supports_clash(self, meta=False) -> bool:
@@ -772,9 +728,7 @@ class Node:
         elif self.type == 'trojan': return True
         elif not meta: return False
         else: return True
-        # Vmess / SS / SSR
         if 'network' in self.data and self.data['network'] in ('h2','grpc'):
-            # A quick fix for #2
             self.data['tls'] = True
         if 'cipher' not in self.data: return True
         if not self.data['cipher']: return True
@@ -798,10 +752,6 @@ class Node:
 
     def supports_ray(self) -> bool:
         if self.isfake: return False
-        # if self.type == 'ss':
-        #     if 'plugin' in self.data and self.data['plugin']: return False
-        # elif self.type == 'ssr':
-        #     return False
         if self.type == 'socks5' and self.data.get('tls'):
             return False
         return True
@@ -814,7 +764,7 @@ class Source():
             self.url_source = url
         elif url.startswith('+'):
             self.url_source = url
-            self.date = datetime.datetime.now()# + datetime.timedelta(days=1)
+            self.date = datetime.datetime.now()
             self.gen_url()
         else:
             self.url: str = url
@@ -932,19 +882,15 @@ class Source():
             text = self.content
             if isinstance(text, str):
                 if "proxies:" in text:
-                    # Clash config
                     config = yaml.full_load(text.replace("!<str>","!!str"))
                     sub = config['proxies']
                 elif '://' in text:
-                    # V2Ray raw list
                     sub = text.strip().splitlines()
                 else:
-                    # V2Ray Sub
                     sub = b64decodes(text.strip()).strip().splitlines()
             elif not isinstance(text, (list, tuple)):
                 sub = list(text)
-            else: sub = text # 动态节点抓取后直接传入列表
-
+            else: sub = text
             if 'max' in self.cfg and len(sub) > self.cfg['max']:
                 self.exc_queue.append(f"此订阅有 {len(sub)} 个节点，最大限制为 {self.cfg['max']} 个，忽略此订阅。")
                 self.sub = []
@@ -952,7 +898,7 @@ class Source():
                 if isinstance(sub[0], str):
                     self.sub = [_ for _ in sub if _.split('://', 1)[0] not in self.cfg['ignore']]
                 elif isinstance(sub[0], dict):
-                    self.sub = [_ for _ in sub if _.get('type', '') not in self.cfg['ignore']] #type:ignore
+                    self.sub = [_ for _ in sub if _.get('type', '') not in self.cfg['ignore']]
                 else: self.sub = sub
             else: self.sub = sub
         except KeyboardInterrupt: raise
@@ -1050,7 +996,6 @@ def raw2fastly(url: str) -> str:
         del url[2]
         url = "https://fastly.jsdelivr.net/gh/"+('/'.join(url))
         return url
-        # return "https://ghproxy.cfd/"+url
     return url
 
 def merge_adblock(adblock_name: str, rules: Dict[str, str]):
@@ -1109,8 +1054,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
                 domain_keys.add(domain)
             continue
         segs = domain.split('.')
-        if len(segs) == 4 and domain.replace('.','').isdigit(): # IP
-            for seg in segs: # '223.73.212.020' is not valid
+        if len(segs) == 4 and domain.replace('.','').isdigit():
+            for seg in segs:
                 if not seg: break
                 if seg[0] == '0' and seg != '0': break
             else:
@@ -1134,11 +1079,9 @@ def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
-        # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已启用无节点调试，程序产生的配置不能被直接使用 !!!")
         sources = []
     if DEBUG_NO_DYNAMIC:
-        # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已选择不抓取动态节点 !!!")
         AUTOURLS = AUTOFETCH = []
     print("正在生成动态链接...")
@@ -1282,7 +1225,6 @@ def main():
 
     rules: Dict[str, str] = {}
     if DEBUG_NO_ADBLOCK:
-        # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已关闭对 Adblock 规则的抓取 !!!")
     else:
         merge_adblock(conf['proxy-groups'][-2]['name'], rules)
@@ -1359,12 +1301,10 @@ def main():
         else: print("规则 '"+rule+"' 无法被解析！"); continue
         for kwd in keywords:
             if kwd in rargument and kwd != rargument:
-                # print(rargument, "已被 KEYWORD", kwd, "命中")
                 break
         else:
             for sfx in suffixes:
                 if ('.'+rargument).endswith('.'+sfx) and sfx != rargument:
-                    # print(rargument, "已被 SUFFIX", sfx, "命中")
                     break
             else:
                 k = rtype+','+rargument
@@ -1426,12 +1366,22 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
+                # ----- DEBUG: 打印该组的 proxies 内容（截取前5个）-----
+                if not payload:
+                    proxy_list = ['REJECT']
+                else:
+                    proxy_list = [_['name'] for _ in payload]
+                print(f"    [DEBUG] proxies list (first 5): {proxy_list[:5]}")
+                # 检查是否有组名冲突
+                group_names = [g.get('name') for g in conf['proxy-groups']]
+                conflicts = [name for name in proxy_list if name in group_names]
+                if conflicts:
+                    print(f"    ⚠️⚠️ CONFLICT: proxies contain group names: {conflicts}")
                 # ------------------------------------
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
-                # 更新现有名称列表以便后续检查（可选）
                 existing_names.append(disp['name'])
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
@@ -1473,6 +1423,16 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
+                # ----- DEBUG: 打印该组的 proxies 内容（截取前5个）-----
+                if not payload:
+                    proxy_list = ['REJECT']
+                else:
+                    proxy_list = [_['name'] for _ in payload]
+                print(f"    [DEBUG] proxies list (first 5): {proxy_list[:5]}")
+                group_names = [g.get('name') for g in conf['proxy-groups']]
+                conflicts = [name for name in proxy_list if name in group_names]
+                if conflicts:
+                    print(f"    ⚠️⚠️ CONFLICT: proxies contain group names: {conflicts}")
                 # ------------------------------------
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
@@ -1481,6 +1441,14 @@ def main():
                 existing_names.append(disp['name'])
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
+    # ----- DEBUG: 写入前打印最终 proxy-groups 摘要 -----
+    print("\n[DEBUG] Final proxy-groups in Meta (names and proxies first 3):")
+    for g in conf['proxy-groups']:
+        proxies_show = g.get('proxies', [])
+        if isinstance(proxies_show, list):
+            proxies_show = proxies_show[:3]
+        print(f"  {g.get('name')}: {proxies_show}")
+    # ------------------------------------------------
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
