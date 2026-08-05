@@ -189,7 +189,7 @@ class Node:
             elif self.type == 'hysteria2':
                 path = data.get('sni', '')+':'
                 path += data.get('obfs-password', '')+':'
-            path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password', '')+data.get('uuid', '')
+            path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password, '')+data.get('uuid', '')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
         except Exception:
@@ -1394,6 +1394,28 @@ def main():
         dns_mode: Optional[str] = None
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
+    # ----- 修复 Clash 部分特殊组中的冲突节点名 -----
+    print("\n[DEBUG] Filtering conflict nodes from special groups (Clash)...")
+    # 动态收集所有地区组名称
+    region_group_names = set()
+    for g in conf['proxy-groups']:
+        name = g.get('name', '')
+        if name in ['🇯🇵 日本', '🇺🇸 美国', '🇨🇳 台湾', '🇨🇳 中国', '🇭🇰 香港', 
+                    '🇨🇦 加拿大', '🇫🇷 法国', '🇸🇬 新加坡', '🇬🇧 英国', 
+                    '🇰🇷 韩国', '🇷🇺 俄罗斯', '🇩🇪 德国']:
+            region_group_names.add(name)
+    special_group_names = ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']
+    for g in conf['proxy-groups']:
+        gname = g.get('name')
+        if gname in special_group_names:
+            original = g.get('proxies', [])
+            if isinstance(original, list):
+                filtered = [node for node in original if node not in region_group_names]
+                g['proxies'] = filtered
+                removed = len(original) - len(filtered)
+                if removed:
+                    print(f"  [DEBUG] Group '{gname}': removed {removed} conflict nodes")
+    # ------------------------------------------------
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
@@ -1452,6 +1474,7 @@ def main():
                 existing_names.append(disp['name'])
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
+
     # ----- DEBUG: 写入前打印最终 proxy-groups 摘要 -----
     print("\n[DEBUG] Final proxy-groups in Meta (names and proxies first 3):")
     for g in conf['proxy-groups']:
@@ -1460,14 +1483,36 @@ def main():
             proxies_show = proxies_show[:3]
         print(f"  {g.get('name')}: {proxies_show}")
 
-    # ----- 新增：特定组完整打印 -----
-    special_groups = ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']
+    # ----- 打印特殊组完整列表 -----
     print("\n[DEBUG] Full proxies list for special groups:")
     for g in conf['proxy-groups']:
-        if g.get('name') in special_groups:
+        if g.get('name') in ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']:
             print(f"  {g.get('name')}: {g.get('proxies', [])}")
 
-    # ----- 新增：全面冲突检查 -----
+    # ========== 【关键修复】过滤 Meta 部分特殊组中的冲突节点名 ==========
+    print("\n[DEBUG] Filtering conflict nodes from special groups (Meta)...")
+    # 动态收集所有地区组名称
+    region_group_names = set()
+    for g in conf['proxy-groups']:
+        name = g.get('name', '')
+        if name in ['🇯🇵 日本', '🇺🇸 美国', '🇨🇳 台湾', '🇨🇳 中国', '🇭🇰 香港', 
+                    '🇨🇦 加拿大', '🇫🇷 法国', '🇸🇬 新加坡', '🇬🇧 英国', 
+                    '🇰🇷 韩国', '🇷🇺 俄罗斯', '🇩🇪 德国']:
+            region_group_names.add(name)
+
+    for g in conf['proxy-groups']:
+        gname = g.get('name')
+        if gname in ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']:
+            original = g.get('proxies', [])
+            if isinstance(original, list):
+                filtered = [node for node in original if node not in region_group_names]
+                g['proxies'] = filtered
+                removed = len(original) - len(filtered)
+                if removed:
+                    print(f"  [DEBUG] Group '{gname}': removed {removed} conflict nodes")
+    # ===========================================================
+
+    # ----- 全面冲突检查 -----
     print("\n[DEBUG] Detailed check for group-name conflicts in all proxies:")
     all_group_names = [g.get('name') for g in conf['proxy-groups']]
     for g in conf['proxy-groups']:
