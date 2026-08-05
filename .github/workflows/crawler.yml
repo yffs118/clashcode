@@ -3,7 +3,7 @@ name: Crawler Scheduled Task
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   
+    - cron: '0 */3 * * *'   
     - cron: '0 5 * * *'   # 每天 UTC 5:00 运行（北京时间 13:00）
   workflow_dispatch:
 
