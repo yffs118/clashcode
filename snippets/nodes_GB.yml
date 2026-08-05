@@ -1,18 +1,6 @@
 proxies:
 - alterId: 0
   client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '🇬🇧 英国 Technicolor SA #3'
-  network: raw
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
   name: 'US美国 #26'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -24,21 +12,21 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_71
+  cipher: auto
+  name: '英國 #2'
   port: 180
   server: 82.198.246.37
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 德国(yudou789.top 玉豆免费节点)_11
+  name: '英國節點 #2'
   port: 180
   server: 82.198.246.250
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -62,28 +50,6 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_43
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: api
-  name: 🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧
-  network: grpc
-  port: '2096'
-  server: 57.128.174.124
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ae91113b-915f-4a56-b998-e52d8a12da39
 - alterId: 64
   cipher: auto
   h2-opts:
@@ -98,10 +64,30 @@ proxies:
   uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
 - alterId: 0
   cipher: auto
+  name: 英国 006
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: US13 211.8MB/s
   network: tcp
   port: 180
   server: 82.198.246.233
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 未知30
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -374,34 +360,16 @@ proxies:
       Host: oplg1.cfcdn2.xyz
     path: /AUIKN8AU
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-189
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.217
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-197
+  name: 🇳🇱NL_13
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 82.38.31.162
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_2
-  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
-  port: 1234
-  server: 194.164.92.198
+  server: 82.38.31.32
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_163
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-199
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-206
@@ -434,10 +402,22 @@ proxies:
   server: 82.38.31.191
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_60
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.34
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.186-0174 | 75.67...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_67
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.155
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_2
@@ -470,12 +450,6 @@ proxies:
   server: 82.38.31.202
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '未知 SS-203 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_161
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
@@ -486,6 +460,12 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.184-0120 | 45.4M...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.184
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB_16
@@ -518,6 +498,12 @@ proxies:
   server: 141.98.101.181
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: ❓Other_1
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: '未知 SS-184 #1'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -546,12 +532,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: 9101
   server: 172.99.190.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-208
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-78.129.253.9-0072 | 0.0MB

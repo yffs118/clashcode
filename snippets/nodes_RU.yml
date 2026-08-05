@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 俄罗斯联邦/莫斯科/Russia/Moscow
+  name: '🇷🇺_RU俄羅斯丨yoyapai.com #2'
   password: 895b4b796a357570
   port: 10916
   server: 176.32.35.51
@@ -46,29 +46,35 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 02@shadowsockskeys
-  password: vOmnC9uJ6tXdLyIaRGwc2s
-  port: 5223
-  server: 91.196.32.226
-  type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺02@shadowsockskeys
-  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
-  port: 45855
+  name: Saint-Petersburg🇷🇺
+  password: M09jM0daTkx1cEtwWUNBMjd0Q1lGdlFrampmWTZsemwxazVsT1FQcHgzdmU0dmJ1bUJGT3hpa2ZqMFBkejNwVw==
+  port: 58153
   server: 94.198.219.24
   type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺4@shadowsockskeys
+  name: Petersburg🇷🇺
   password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
   port: 38211
   server: 94.198.219.24
   type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺 1@shadowsockskeys
-  password: d99c422199e62b6b
-  port: 10910
-  server: 176.32.34.152
+  name: Russia🇷🇺
+  password: Y3dQbUx5YXZodWZnY2JxR3JxQWEwajk2UHAzNEpGckEyY2k2OTAzM0IyRUMwM2JNc1pUV1M1b29uQVY0QW5pYQ==
+  port: 22159
+  server: 94.198.219.24
+  type: ss
+- cipher: aes-256-gcm
+  name: RU🇷🇺
+  password: ZHZDYnNhTHFJSVVRN0lLRXBRZ2hpV1lRZUdxZ1pETm43NklzUGtzVDVjalNscWNSU3hYczQ1UE5EQlRkM2hpUw==
+  port: 37780
+  server: 185.154.194.207
+  type: ss
+- cipher: aes-256-gcm
+  name: Peterburg🇷🇺
+  password: aE1wMkZmT1pEWnNodzJRNU93VnJ4Uk8xcmQ5MWlvc3RvRk1Sb3diV0xodlVtUXJHa3o4UDZUamVlVE9OTE9SWA==
+  port: 25530
+  server: 94.198.219.24
   type: ss
 - alterId: 0
   cipher: auto
@@ -299,6 +305,19 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 020
+  network: ws
+  port: 2082
+  server: 185.174.138.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
+  ws-opts:
+    headers:
+      Host: ee.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
   name: 俄罗斯 021
   network: ws
   port: 443
@@ -339,12 +358,15 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
-  password: 2027e830399d8d08
-  port: 10910
-  server: 195.58.48.19
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 024
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 🇷🇺RU-195.133.53.192-0080 | 0.0...

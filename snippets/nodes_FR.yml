@@ -36,12 +36,38 @@ proxies:
   udp: true
   ws-opts:
     path: /195.123.218.174-443
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
-  password: RFK38Cg7APneSB5cWDcpbm
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_37
+  network: tcp
+  password: ND91608427
   port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_43
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_44
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  tls: true
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -59,39 +85,12 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 🇫🇷_法国_37
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇫🇷FR-13.36.175.151-21
   password: ND91608427
   port: 443
   server: classic-gator.rooster465.autos
   skip-cert-verify: true
   sni: classic-gator.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷_法国_43
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: star-kiwi.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷_法国_44
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
   tls: true
   type: trojan
   udp: true
@@ -108,12 +107,39 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 3@shadowsockskeys
-  password: ZmM0Z
-  port: 8388
-  server: 83.171.225.55
+- cipher: aes-256-gcm
+  name: 🇫🇷133775 | ⚡️Telegram = t.me/S...
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 149.202.82.172
   type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷133770 | ⚡️Telegram = t.me/S...
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+- name: '>>@v2ray1_ng::FR'
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '>>@v2rayng_fast::FR'
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '>>@v2rayng_fast::FR #1'
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
   name: 法国 001
@@ -485,13 +511,11 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 法国/France
-  port: 2096
-  server: 57.128.174.124
-  skip-cert-verify: true
-  tls: true
+  name: 法国/France-3
+  port: 2052
+  server: node-uk.connectsuite.org
   type: vmess
-  uuid: ae91113b-915f-4a56-b998-e52d8a12da39
+  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - name: 🇫🇷FR-15.237.219.234-20
   password: ND91608427
   port: 443
@@ -551,6 +575,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_28
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064
@@ -889,6 +919,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_655
+  password: diOMBU5IDvJcFqyNPbRjYR
+  port: 10443
+  server: 137.74.119.18
+  type: ss
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f

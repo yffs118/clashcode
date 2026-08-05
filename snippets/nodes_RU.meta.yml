@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 俄罗斯联邦/莫斯科/Russia/Moscow
+  name: '🇷🇺_RU俄羅斯丨yoyapai.com #2'
   password: 895b4b796a357570
   port: 10916
   server: 176.32.35.51
@@ -146,26 +146,76 @@ proxies:
     headers:
       host: cloudflare.vhub.pro
     path: /websocket
-- client-fingerprint: edge
+- client-fingerprint: firefox
   encryption: none
-  grpc-opts:
-    grpc-service-name: rpc.v2.FeedService
-  name: 🇷🇺RU_1|4.5MB/s
-  network: grpc
-  port: '443'
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺 机场推荐:dafei.de 俄罗斯 01
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
-    short-id: '!!str 93762a4ddf178703'
-  server: 83.217.192.233
-  servername: api.univesalsrv.com
+    public-key: M0OIVB0y6CXMfNZ16OfHfWrHktWU9yZ0rgQ3a9-_gUY
+    short-id: '!!str 4952fc975688bce3'
+  server: 176.98.178.136
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+  uuid: a95b3155-bc03-4789-b367-944b83be8f86
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺 机场推荐:dafei.de 俄罗斯 02
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: CX5f7EdRDtVEgZIgh_ZLE7xYOntoVpk2S_t9EFraJGs
+    short-id: '!!str '
+  server: 153.80.241.60
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: af9471f2-9344-4d84-9fe1-72a264fde38e
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇷🇺RU_1|3.0MB/s
+  network: xhttp
+  port: 443
+  server: 159.194.238.114
+  servername: ru.node.sillyvpn.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_2|1.4MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 7443
+  reality-opts:
+    public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js
+    short-id: '!!str 89136b6e'
+  server: 193.233.74.57
+  servername: www.telekom.de
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 俄罗斯联邦/Russia
+  name: 🇷🇺_俄罗斯_72
   port: 443
   reality-opts:
     public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
@@ -204,30 +254,56 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 02@shadowsockskeys
-  password: vOmnC9uJ6tXdLyIaRGwc2s
-  port: 5223
-  server: 91.196.32.226
-  type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺02@shadowsockskeys
-  password: NlRpZGVNT2l6Q1NBbHZ5NTM3UW80ZmFFd0NRdFREZU94TzMxSGJQZmt4RFJzU0ZDYlZvOUhCOGxJeTluS0tWYw==
-  port: 45855
+  name: Saint-Petersburg🇷🇺
+  password: M09jM0daTkx1cEtwWUNBMjd0Q1lGdlFrampmWTZsemwxazVsT1FQcHgzdmU0dmJ1bUJGT3hpa2ZqMFBkejNwVw==
+  port: 58153
   server: 94.198.219.24
   type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺4@shadowsockskeys
+  name: Petersburg🇷🇺
   password: RWs4VnBncnFaY01udFpvZjFjQm5QQ1BTNEJPQlFFZE5hM25xZ1o2OTdSc1ZXV05BNktJdXI3ckZxbWtrOEhvTg==
   port: 38211
   server: 94.198.219.24
   type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺 1@shadowsockskeys
-  password: d99c422199e62b6b
-  port: 10910
-  server: 176.32.34.152
+  name: Russia🇷🇺
+  password: Y3dQbUx5YXZodWZnY2JxR3JxQWEwajk2UHAzNEpGckEyY2k2OTAzM0IyRUMwM2JNc1pUV1M1b29uQVY0QW5pYQ==
+  port: 22159
+  server: 94.198.219.24
   type: ss
+- cipher: aes-256-gcm
+  name: RU🇷🇺
+  password: ZHZDYnNhTHFJSVVRN0lLRXBRZ2hpV1lRZUdxZ1pETm43NklzUGtzVDVjalNscWNSU3hYczQ1UE5EQlRkM2hpUw==
+  port: 37780
+  server: 185.154.194.207
+  type: ss
+- cipher: aes-256-gcm
+  name: Peterburg🇷🇺
+  password: aE1wMkZmT1pEWnNodzJRNU93VnJ4Uk8xcmQ5MWlvc3RvRk1Sb3diV0xodlVtUXJHa3o4UDZUamVlVE9OTE9SWA==
+  port: 25530
+  server: 94.198.219.24
+  type: ss
+- name: 🇷🇺133764 | ⚡️Telegram = t.me/S...
+  port: 989
+  server: 201.34.128.57
+  tls: false
+  type: vless
+  uuid: 2400345d-6878-48c3-9f82-debf6c4021dd
+- name: 🇷🇺 Russia Moscow | ⏱641ms | ⚡7...
+  port: 2200
+  server: 77.222.46.162
+  tls: false
+  type: vless
+  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
+  ws-opts:
+    path: '%2Fv1'
+- name: 🇷🇺133794 | ⚡️Telegram = t.me/S...
+  port: 50053
+  server: 217.149.30.124
+  tls: false
+  type: vless
+  uuid: e6acf17c-b19c-45ee-afda-373ba72795ce
 - name: 🇷🇺俄罗斯
   password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
   port: 443
@@ -487,6 +563,19 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
+  name: 俄罗斯 020
+  network: ws
+  port: 2082
+  server: 185.174.138.34
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
+  ws-opts:
+    headers:
+      Host: ee.v2jey.fun
+    path: /
+- alterId: 0
+  cipher: auto
   name: 俄罗斯 021
   network: ws
   port: 443
@@ -527,6 +616,15 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 024
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇳🇱NL_212
@@ -668,15 +766,9 @@ proxies:
     headers:
       Host: probabblynot.fazelextremeisreal.com
     path: /
-- cipher: aes-256-gcm
-  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
-  password: 2027e830399d8d08
-  port: 10910
-  server: 195.58.48.19
-  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '俄罗斯联邦/圣彼得堡/Russia/St Petersbur... #1'
+  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -686,54 +778,6 @@ proxies:
   tls: true
   type: vless
   uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯联邦/莫斯科/Russia/Moscow-3
-  port: 443
-  reality-opts:
-    public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI
-    short-id: '!!str ee57ea513371ce89'
-  server: 186.246.3.80
-  servername: code-sandbox.blog
-  tls: true
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- name: 俄罗斯联邦/Russia-2
-  network: ws
-  port: 8880
-  server: 185.148.106.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime54.workers.dev
-    path: /
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: 🇫🇮 FI 579 | ⬇️ 1MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 08124084-34ff-4bd2-ad42-072a508b29d4
-- name: 🇨🇭CH_2
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇷🇺RU-195.133.53.192-0080 | 0.0...

@@ -17,6 +17,14 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇨🇳_CN_中国
+  port: 12528
+  server: 120.227.1.43
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 777 | ⬇️ 15KB/s
@@ -49,14 +57,22 @@ proxies:
     headers:
       Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- name: 🇨🇳_CN_中国
-  port: 12528
-  server: 120.227.1.43
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  port: 30804
+  server: v4.hdacd.com
   skip-cert-verify: true
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: f0169b08-43fd-4dc3-8195-18f6ad2fe39d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇸🇬SG_1|1.6MB/s
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: chrome
   name: 中国 001
   network: ws
@@ -77,7 +93,6 @@ proxies:
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
-  servername: n1747624274.4u9ma.icu
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -96,19 +111,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 未知76
-  network: tcp
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v24.hdacd.com
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: 未知66
@@ -1533,7 +1535,7 @@ proxies:
   type: vmess
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
 - client-fingerprint: chrome
-  name: 中国 126
+  name: '德国/法兰克福/Germany/Frankfurt am M... #3'
   network: ws
   port: 443
   server: 103.228.168.182
@@ -1569,16 +1571,6 @@ proxies:
   skip-cert-verify: false
   tfo: false
   tls: true
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 🇹🇼TW_7
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  skip-cert-verify: false
-  tfo: false
-  tls: false
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
@@ -1638,6 +1630,16 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+- name: 中国 135
+  network: tcp
+  port: 45647
+  server: 182.16.61.2
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
 - name: 香港 19
   network: raw
   port: 443

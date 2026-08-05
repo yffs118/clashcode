@@ -347,31 +347,78 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-- cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
-  password: RFK38Cg7APneSB5cWDcpbm
+- name: 'FR_speednode_0003 #1'
+  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
   port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|1.6MB/s
-  network: xhttp
-  port: '443'
-  server: 199.232.239.244
-  servername: accounts.fastly.com
+  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 3e37ef76-835d-4ad2-a1d3-414ef90532bf
-  xhttp-opts:
-    host: ovd10.global.ssl.fastly.net
-    mode: packet-up
-    path: /
-  xudp: true
+  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
+- name: 🇫🇷 机场推荐:dafei.de 法国 02
+  port: 1088
+  server: 144.91.111.48
+  type: socks5
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_37
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: careful-tadpole.rooster465.autos
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_43
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_44
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷FR_2|1.2MB/s
+  password: f7d95364-607b-11ee-93af-f23c91369f2d
+  port: '443'
+  server: 257fc07f-tcxds0-tv7zgh-1ijh5.fr.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: f7d95364-607b-11ee-93af-f23c91369f2d
+- name: 🇫🇷FR_3|1.1MB/s
+  password: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  port: 443
+  server: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  skip-cert-verify: true
+  sni: 3de61285-t9zts0-tkhmfr-1jm8i.fr.oshuawei.com
+  tls: true
+  type: http
+  username: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- name: 🇫🇷FR_4|1.6MB/s
+  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  port: 443
+  server: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  sni: 7382cbd7-tcxds0-th9kx9-1os43.fr.oshuawei.com
+  tls: true
+  type: http
+  username: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_218
@@ -388,23 +435,12 @@ proxies:
     headers:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
-- name: 'FR_speednode_0003 #1'
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
+- name: 'FR_speednode_0002 #1'
+  port: 23856
+  server: 51.159.225.196
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: 🇫🇷_法国_37
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
-  tls: true
-  type: trojan
   udp: true
 - name: 🇫🇷FR-13.36.175.151-21
   password: ND91608427
@@ -412,24 +448,6 @@ proxies:
   server: classic-gator.rooster465.autos
   skip-cert-verify: true
   sni: classic-gator.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷_法国_43
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  skip-cert-verify: true
-  sni: star-kiwi.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷_法国_44
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
   tls: true
   type: trojan
   udp: true
@@ -544,30 +562,121 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 3@shadowsockskeys
-  password: ZmM0Z
-  port: 8388
-  server: 83.171.225.55
+- name: 🇩🇪DE_107
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: 83.243.86.80
+  sni: prodfr.h2corp.org
+  tls: false
+  type: hysteria2
+- name: 🇩🇪DE_51
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: prodfr.h2corp.org
+  sni: prodfr.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '>>@oneclickvpnkeys::FR #2'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.237.197.139
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '>>@oneclickvpnkeys::FR #3'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 51.44.213.137
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '>>@oneclickvpnkeys::FR #4'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '>>@oneclickvpnkeys::FR #5'
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: 🤖67@oneclickvpnkeys
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 🇫🇷133775 | ⚡️Telegram = t.me/S...
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 149.202.82.172
   type: ss
-- name: 🇫🇷133627 | ⚡️Telegram = t.me/S...
-  port: 22222
-  server: 15.188.109.137
+- cipher: aes-256-gcm
+  name: 🇫🇷133770 | ⚡️Telegram = t.me/S...
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+- name: '>>@v2ray1_ng::FR'
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '>>@v2rayng_fast::FR'
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '>>@v2rayng_fast::FR #1'
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '>>@oneclickvpnkeys::FR #7'
+  port: 443
+  server: 108.162.194.119
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷133626 | ⚡️Telegram = t.me/S...
-  port: 22223
-  server: 15.188.109.137
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+- name: 未知 VLESS-483
+  port: 443
+  server: 162.159.38.119
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 🇫🇷133625 | ⚡️Telegram = t.me/S...
-  port: 22224
-  server: 15.188.109.137
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  ws-opts:
+    path: '%2Fcarbon'
+- name: '>>@oneclickvpnkeys::FR #8'
+  port: 8443
+  server: 104.21.56.8
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 5d3abfa9-bdf5-4334-8383-dcf92df802a5
+- name: '>>@oneclickvpnkeys::FR #9'
+  port: 8443
+  server: ad-018.cloud25075.info
+  tls: false
+  type: vless
+  uuid: 5d3abfa9-bdf5-4334-8383-dcf92df802a5
+- name: '>>@outline_vpn::FR'
+  port: 2053
+  server: 172.64.155.209
+  tls: false
+  type: vless
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
+  ws-opts:
+    path: '%2FJ5aLQOY1R9ONWYCM'
 - name: 法国
   password: 5bc8aea0-04a6-4fcf-9a04-1a51518396a8
   port: 35000
@@ -581,13 +690,6 @@ proxies:
   port: 31568
   server: fr4.sodahub.online
   sni: fr4.sodahub.online
-  tls: false
-  type: hysteria2
-- name: 🇷🇴RO_220
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.214
-  sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
 - name: '🇫🇷法国 #2'
@@ -1035,16 +1137,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 035
-  network: grpc
-  port: 8880
-  server: 151.115.165.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
 - name: 法国 036
   network: grpc
   port: 8880
@@ -1075,7 +1167,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 意大利/Italy
+- name: 法国 039
   network: grpc
   port: 8880
   server: 151.115.167.6
@@ -1253,21 +1345,45 @@ proxies:
     headers:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_852
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DHsthrDRMCGcOyJd4xTce_4CCSAJZGwxCdfNrkB_Pgs
+    short-id: '!!str 479826bdfc3eb86e'
+  server: 54.37.75.187
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_116
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM
+    short-id: '!!str 9a4c7d2f8e1b6a3c'
+  server: 51.91.158.180
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
 - alterId: 0
   cipher: auto
-  name: 法国/France
-  port: 2096
-  server: 57.128.174.124
-  skip-cert-verify: true
-  tls: true
+  name: 法国/France-3
+  port: 2052
+  server: node-uk.connectsuite.org
   type: vmess
-  uuid: ae91113b-915f-4a56-b998-e52d8a12da39
-- name: 🇩🇪DE_107
-  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
-  port: 443
-  server: 83.243.86.80
-  sni: prodfr.h2corp.org
-  tls: false
+  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
+- name: 法国/巴黎/France/Paris-2
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
   type: hysteria2
 - name: 🇫🇷FR-15.237.219.234-20
   password: ND91608427
@@ -1760,6 +1876,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_28
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
 - name: 🇫🇷FR_579
   network: ws
   port: 8880
@@ -2816,6 +2938,19 @@ proxies:
     headers:
       Host: young-wildflower-6b6c.100-52d.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
+- client-fingerprint: chrome
+  name: 🇫🇷FR_577
+  network: ws
+  port: 443
+  server: 198.41.208.112
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -3307,17 +3442,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /fp=randomized
-- name: 🇫🇷FR_104
-  network: ws
-  port: 80
-  server: 104.16.27.134
-  tls: false
-  type: vless
-  uuid: df301b32-1152-4526-9a63-beedd93d3156
-  ws-opts:
-    headers:
-      Host: vl.dalazhi.cloudns.biz
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇷FR_1003
   network: ws
@@ -5181,6 +5305,12 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_655
+  password: diOMBU5IDvJcFqyNPbRjYR
+  port: 10443
+  server: 137.74.119.18
+  type: ss
 - name: 🇫🇷FR_1122
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -5881,6 +6011,19 @@ proxies:
       Host: little-pond-8731.81-68e.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
 - client-fingerprint: chrome
+  name: 🇫🇷FR_862
+  network: ws
+  port: 2083
+  server: 104.17.19.159
+  servername: nova-comet-core-8e95.nova-58d622.workers.dev
+  tls: true
+  type: vless
+  uuid: 0691b704-7742-4248-8787-e72b98ec8c0c
+  ws-opts:
+    headers:
+      Host: nova-comet-core-8e95.nova-58d622.workers.dev
+    path: /
+- client-fingerprint: chrome
   name: 🇫🇷FR_434
   network: ws
   port: 443
@@ -6564,19 +6707,6 @@ proxies:
       Host: fragrant-unit-d662.mmammatrix770088.workers.dev
     path: /sync
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_701
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '!!str 01'
-  server: 62.210.91.2
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- client-fingerprint: chrome
   name: 🇫🇷FR_728
   network: ws
   port: 443
@@ -6620,6 +6750,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_778
+  network: ws
+  port: 443
+  server: 108.162.195.58
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - name: 🇫🇷FR_310
   network: ws
   port: 8880
@@ -7329,6 +7472,17 @@ proxies:
   ws-opts:
     headers:
       Host: node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev
+    path: /
+- name: 🇫🇷FR_158
+  network: ws
+  port: 2095
+  server: 172.67.66.177
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxingnmsl.cnm-fangbinxingnmsl-250.workers.dev
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -8138,19 +8292,6 @@ proxies:
     headers:
       Host: wild-grass-1917.tmpduardoolfsonerluke15.workers.dev
     path: /ws
-- client-fingerprint: chrome
-  name: 🇫🇷FR_290
-  network: ws
-  port: 8443
-  server: ad-004.zen2bswa.info
-  servername: ad-004.zen2bswa.info
-  tls: true
-  type: vless
-  uuid: 901fc0c9-ae4c-4d06-9fed-253b25b68a0e
-  ws-opts:
-    headers:
-      Host: ad-004.zen2bswa.info
-    path: /
 - name: 🇫🇷FR_39
   network: ws
   port: 8880
@@ -8467,19 +8608,6 @@ proxies:
   ws-opts:
     headers:
       Host: odd-wildflower-db1b.yasinmohammad.workers.dev
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1007
-  network: ws
-  port: 2053
-  server: josni.hoyes.cloudns.ch
-  servername: josni.hoyes.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
     path: /
 - name: 🇫🇷FR_294
   network: ws
