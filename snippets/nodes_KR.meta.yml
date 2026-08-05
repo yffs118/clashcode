@@ -137,17 +137,6 @@ proxies:
     headers:
       host: kr02.a0a.xyz
     path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 韩国 012
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -314,6 +303,15 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 012
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - client-fingerprint: chrome
   name: 韩国 013
   network: ws
@@ -349,6 +347,13 @@ proxies:
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: false
   sni: moved-meerkat.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-43.203.247.197-0502 | 15....
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-malamute.rooster465.autos
   type: trojan
 - cipher: aes-256-gcm
   name: 🇰🇷KR_1
@@ -467,14 +472,6 @@ proxies:
   server: 158.180.91.51
   type: socks5
   username: admin
-- name: 🇰🇷 KR 755 | ⬇️ 484KB/s
-  password: '!!str 111'
-  port: 20000
-  server: 101.33.74.115
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '111'
 - delay: 554
   name: 🇰🇷 KR 738 | ⬇️ 77KB/s
   password: ''
@@ -544,18 +541,6 @@ proxies:
   server: 3.34.192.249
   tfo: false
   type: ss
-- name: 13|韩国|@ripaojiedian
-  network: ws
-  password: ji0612uenfs
-  port: 50004
-  server: 110.9.4.54
-  skip-cert-verify: true
-  sni: ji0612e.nfjunka.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ji0612e.nfjunka.xyz
-    path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
 - client-fingerprint: chrome
   name: 🇰🇷KR_12
   network: ws
@@ -591,19 +576,6 @@ proxies:
   port: 8000
   server: 141.164.45.187
   type: ss
-- name: 🇰🇷
-  network: ws
-  port: 16000
-  server: 121.180.225.222
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
 - cipher: aes-256-gcm
   name: 🇰🇷KR_7
   password: Y6R9pAtvxxzmGC
@@ -654,19 +626,6 @@ proxies:
   tls: true
   type: vless
   uuid: d95e62f8-b961-4362-bb07-e1e421b02274
-- name: '🇰🇷 #1'
-  network: ws
-  port: 19530
-  server: 121.180.225.222
-  servername: sni.latonyamadeline.ndjp.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560
 - cipher: aes-256-gcm
   name: 🇰🇷KR_6
   password: RexnBgU7EV5ADxG

@@ -8,6 +8,16 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
+  name: '🇹🇼TW_1|3.4MB/s #1'
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '39221'
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇼_台湾_32
   port: 443

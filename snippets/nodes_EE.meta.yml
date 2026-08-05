@@ -15,24 +15,6 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇪🇪 EE 725 | ⬇️ 1MB/s
-  network: raw
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
-    short-id: '!!str a696de84963656de'
-  server: 95.85.224.51
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
-  xudp: true
 - name: 🇪🇪爱沙尼亚
   obfs: salamander
   obfs-password: iknjsvsjagi449mm

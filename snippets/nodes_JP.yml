@@ -135,17 +135,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 🇯🇵JP日本2
-  network: tcp
-  password: BxceQaOe
-  port: 9408
-  server: 18.166.225.67
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇯🇵_日本_94
   password: '!!str 521314'
   port: 8443
@@ -173,7 +162,7 @@ proxies:
       Host: www.microsoft.com
     path: /home
 - cipher: aes-256-cfb
-  name: jp|f147|puddincat07@Telegram
+  name: Japan_Tokyo_ss_1126
   password: amazonskr05
   port: 443
   server: 13.231.162.164
@@ -181,18 +170,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵133583 | ⚡️Telegram = t.me/S...
+  name: 日本/东京/Japan/Tokyo-3
   network: ws
-  port: '4010'
-  server: 45.76.202.45
-  servername: ''
+  port: 80
+  server: 172.111.146.64
   tls: false
   type: vmess
-  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 未知16
+  network: tcp
+  port: 32203
+  server: 140.235.37.128
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0e288730-2200-4578-8e70-bc2b562bef7f
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  servername: null
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
     headers:
-      Host: ''
-    path: /liksuzcp
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #2'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
+  servername: None
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 日本 001
@@ -628,13 +654,6 @@ proxies:
   port: 443
   server: 149.22.87.204
   type: ss
-- name: 🇯🇵JP-18.181.164.216-3179 | 17....
-  password: ND91608427
-  port: 443
-  server: upright-impala.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-impala.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 日本/Japan-2
@@ -925,6 +944,16 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- alterId: 0
+  name: 🇯🇵JP日本2
+  password: BxceQaOe
+  port: 9408
+  server: 18.166.225.67
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - name: 日本_3
   password: '!!str 521314'
   port: 2053

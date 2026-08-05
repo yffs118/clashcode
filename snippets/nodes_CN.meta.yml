@@ -81,6 +81,21 @@ proxies:
     headers:
       Host: usyun.cc
     path: /trial-gs-relay
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.12-0165 | 0.0MB
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  servername: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
 - alterId: 64
   cipher: auto
   name: 未知97
@@ -1543,20 +1558,6 @@ proxies:
     headers:
       Host: 4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev
     path: /photos/register
-- name: 🇻🇳VN_1
-  network: tcp
-  port: 35730
-  server: 103.118.29.142
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
-  ws-opts:
-    headers:
-      Host: varzesh3.com
-    path: /
 - name: 中国 129
   network: tcp
   port: 45647
@@ -1643,6 +1644,16 @@ proxies:
   type: vless
   udp: true
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+- name: 香港 19
+  network: raw
+  port: 443
+  server: 45.125.32.115
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e2c8fa8c-886d-4649-bd59-cf73bee48b55
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸24 |  4.8MB/s
@@ -1946,4 +1957,4 @@ proxies:
   ws-opts:
     headers:
       Host: juzibaipiao.5112233.xyz
-    path: /?ed=2048
+    path: '%2f%3fed%3d2048'

@@ -61,7 +61,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇫🇷FR-13.36.175.151-33
+- name: 🇫🇷FR-13.36.175.151-21
   password: ND91608427
   port: 443
   server: classic-gator.rooster465.autos
@@ -479,7 +479,7 @@ proxies:
   tls: true
   type: vmess
   uuid: ae91113b-915f-4a56-b998-e52d8a12da39
-- name: 🇫🇷FR-15.237.219.234-32
+- name: 🇫🇷FR-15.237.219.234-20
   password: ND91608427
   port: 443
   server: careful-tadpole.rooster465.autos
@@ -538,6 +538,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_28
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1064
@@ -558,7 +564,7 @@ proxies:
   sni: dimskiee.biz.id
   type: trojan
   ws-opts:
-    path: /WangCai-8
+    path: '%2FWangCai-8'
 - alpn:
   - http/1.1
   name: 🇫🇷FR_1029
@@ -616,7 +622,7 @@ proxies:
   sni: support.zoom.us.blackshadow.dpdns.org
   type: trojan
   ws-opts:
-    path: /195.123.218.174-443
+    path: '%2F195.123.218.174-443'
 - name: 🇫🇷FR_19
   network: ws
   password: humanity
@@ -1191,7 +1197,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: //assignment
+    path: /%2Fassignment
 - name: 🇫🇷FR_832
   network: ws
   password: humanity

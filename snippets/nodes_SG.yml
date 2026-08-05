@@ -55,17 +55,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  name: 🇸🇬SG新加坡
-  network: tcp
-  password: BxceQaOe
-  port: 45744
-  server: 16.163.150.174
+- name: '🇸🇬SG_1|4.4MB/s #1'
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
   type: trojan
-  udp: true
 - name: 🇸🇬_新加坡_93
   password: '!!str 521314'
   port: 8443
@@ -419,6 +414,16 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
+- alterId: 0
+  name: 🇸🇬SG新加坡
+  password: BxceQaOe
+  port: 45744
+  server: 16.163.150.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   name: 🇸🇬SG_55
   password: MajO3weHH7Jv
@@ -451,5 +456,5 @@ proxies:
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
