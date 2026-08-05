@@ -156,21 +156,20 @@ proxies:
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
   ws-opts:
     path: /
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 英国(免费节点)_4
+  name: 未知 VMESS-1221 | free-nodes
   network: ws
-  port: '443'
+  port: 443
   server: mtckundigepwu3up.v.3dns.vip
+  servername: ''
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    headers:
-      host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
-  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
+  name: 🇺🇸US-146.19.49.251-0281
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
   server: 146.19.49.251
@@ -253,15 +252,491 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.178-0154 | 15....
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- name: 🇬🇧134035 | ⚡️Telegram = t.me/L...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.168.21.6
+  type: trojan
+- name: 🇬🇧134083 | ⚡️Telegram = t.me/L...
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.169.218.213
+  type: trojan
+- name: 英国_伦敦
+  network: ws
+  port: 443
+  server: 185.238.228.184
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 英国_貝辛斯托克
+  network: ws
+  port: 443
+  server: 194.36.55.36
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 英国_哈文特
+  network: ws
+  port: 443
+  server: 217.163.76.75
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2security%3Dtls
+- client-fingerprint: random
+  name: '英国_哈文特 #1'
+  network: ws
+  port: 443
+  server: 217.163.76.225
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F'
+- client-fingerprint: random
+  name: '英国_哈文特 #2'
+  network: ws
+  port: 443
+  server: 217.163.76.245
+  servername: xz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: xz.ylks.xyz
+    path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-1341
+  network: tcp
+  port: 443
+  server: 193.142.59.180
+  servername: u695099ueff6480ds124.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: eff6480ds124.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-1354
+  network: tcp
+  port: 443
+  server: 193.142.59.97
+  servername: u695099ubfb7b8f7s861.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: bfb7b8f7s861.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-1310
+  network: tcp
+  port: 443
+  server: s1243.gogocs.xyz
+  servername: u695099ubfb7b8f7s861.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: bfb7b8f7s861.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-1314
+  network: tcp
+  port: 443
+  server: s128.sspcccdn.xyz
+  servername: u695099ueff6480ds124.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: eff6480ds124.gogocs.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: GB VLESS-1287
+  network: tcp
+  port: 443
+  server: s148.uugfw.top
+  servername: u695099ueff6480ds124.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: eff6480ds124.gogocs.xyz
+    path: ''
+- name: 🇬🇧134131 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 2096
+  server: 91.193.58.140
+  tls: false
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: 🇬🇧134132 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 2096
+  server: 91.193.58.157
+  tls: false
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: 🇬🇧134133 | ⚡️Telegram = t.me/L...
+  network: ws
+  port: 2096
+  server: 91.193.58.27
+  tls: false
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: '英国_伦敦 #2'
+  network: ws
+  port: 80
+  server: 51.38.70.15
+  servername: vkvd127.mycdn.me
+  tls: false
+  type: vless
+  uuid: 7415478e-0e1b-4f1a-a048-e54c546df7c6
+  ws-opts:
+    path: '%2Fvless%2F'
+- name: '英国_伦敦 #4'
+  network: ws
+  port: 80
+  server: 51.38.70.15
+  servername: vkvd127.mycdn.me
+  tls: false
+  type: vless
+  uuid: 7415478e-0e1b-4f1a-a048-e54c546df7c6
+  ws-opts:
+    path: /vless/
+- name: 英国_利兹
+  network: ws
+  port: 443
+  server: 94.247.142.241
+  servername: fq521.6789.cloudns.be
+  tls: true
+  type: vless
+  uuid: 775213ac-3976-439a-8977-3277c0e4735d
+  ws-opts:
+    headers:
+      Host: fq521.6789.cloudns.be
+    path: twitterfreecodessecurity%3Dtls
+- name: '英国_哈文特 #3'
+  network: ws
+  port: 443
+  server: 217.163.76.97
+  servername: vz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: vz.ylks.xyz
+    path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
+- name: 🇬🇧 United Kingdom Fareham | ⏱9...
+  port: 443
+  server: meshbuzz.bond
+  tls: false
+  type: vless
+  uuid: 8a6729c4-81d4-4b05-8747-3fffc17b6a64
+  ws-opts:
+    path: '%2Fmashdi'
+- client-fingerprint: chrome
+  name: 🇬🇧GB_2 | ⬇️ 1.7MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: '%2Fws'
+- client-fingerprint: chrome
+  name: 'https://t.me/zyzzzoao ⚡️ #2'
+  network: ws
+  port: 443
+  server: transferwise.com
+  servername: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-uk-1.pArSa.dPdNs.oRg
+    path: '%2Fws'
+- name: '英国_哈文特 #4'
+  network: ws
+  port: 443
+  server: 217.163.76.111
+  servername: zz.linghang.buzz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: zz.linghang.buzz
+    path: '%2Fblue'
+- name: '英国_哈文特 #5'
+  network: ws
+  port: 443
+  server: 217.163.76.11
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2Fblue'
+- name: '英国_哈文特 #6'
+  network: ws
+  port: 443
+  server: 217.163.76.55
+  servername: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: hz.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.oracle.fxxk.dedyn.io'
+- name: '英国_哈文特 #7'
+  network: ws
+  port: 443
+  server: 217.163.76.73
+  servername: jz.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: jz.ylks01.eu.org
+    path: '%2Fblue'
+- name: GB VLESS-110 | free-nodes
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  tls: false
+  type: vless
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      Host: en.tawana.cf.panbehpanel.ir
+    path: '%2F'
+- name: '英国_伦敦 #5'
+  network: ws
+  port: 443
+  server: 185.238.228.212
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fed%3D2048security%3Dtls'
+- name: 英国_Stretford
+  network: ws
+  port: 2053
+  server: 91.193.58.119
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F%3Fed%3D2048security%3Dtls'
+- name: 英国_爱丁堡
+  network: ws
+  port: 443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧
-  network: tcp
-  port: '2052'
-  server: node-uk.connectsuite.org
+  name: '英国_伦敦 #6'
+  network: ws
+  port: 2086
+  server: 172.64.233.43
   tls: false
   type: vmess
-  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '英国_伦敦 #7'
+  network: ws
+  port: 2086
+  server: 172.64.233.7
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '英国_伦敦 #8'
+  network: ws
+  port: 2086
+  server: 172.64.233.17
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '英国_伦敦 #9'
+  network: ws
+  port: 2086
+  server: 172.64.233.27
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '英国_伦敦 #10'
+  network: ws
+  port: 2086
+  server: 172.64.233.32
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '英国_伦敦 #11'
+  network: ws
+  port: 2086
+  server: 172.64.233.35
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 英国_倫敦金融城
+  network: ws
+  port: 443
+  server: 149.7.16.248
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 149.7.16.248
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '英国_倫敦金融城 #1'
+  network: ws
+  port: 443
+  server: 172.99.190.50
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.99.190.50
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '英国_倫敦金融城 #2'
+  network: ws
+  port: 443
+  server: 172.99.190.209
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.99.190.209
+    path: /linkvws
 - name: 🇬🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -371,26 +846,6 @@ proxies:
   uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
 - alterId: 0
   cipher: auto
-  name: US4 454.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US8 467.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 英国 009
   network: ws
   port: 443
@@ -403,16 +858,6 @@ proxies:
     headers:
       Host: panel.safeconfigmasoud.com
     path: /nova-147299-vm
-- alterId: 0
-  cipher: auto
-  name: 英国 010
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: NO-51.13.38.115-0193 | 0.0MB
@@ -884,36 +1329,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 英国 050
-  network: tcp
-  port: 22222
-  server: 51.45.45.205
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-205 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.32
-  type: ss
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: api.v1.data
-  name: 🇬🇧GB_77
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY
-    short-id: '!!str 524efc1f88592266'
-  server: gr005.bamajobin.ir
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 英国/United Kingdom-5
@@ -927,124 +1342,22 @@ proxies:
   type: vless
   uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.187-5969 | 92.71...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-200 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-206 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_149
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-176 #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.191
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_58
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.34
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_62
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_2
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_146
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- cipher: rc4-md5
-  name: 🇬🇧GB_2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_68
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-170 #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.176
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_150
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB_6
+  name: 🇬🇧GB_4
   password: shadowsocks
   port: 443
-  server: 141.98.101.182
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.178-0154 | 15....
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-184 #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.49-0105 | 3.918M...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-175 #1'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
+  server: 141.98.101.181
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-172.99.190.149-0082 | 0.2...
   password: e4FCWrgpkji3QY
   port: 9101
   server: 172.99.190.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-210 #1'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-78.129.253.9-0072 | 0.009...
@@ -1076,12 +1389,6 @@ proxies:
   uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e
   ws-opts:
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: ❓Other_7
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-212.38.189.174-0233 | 0.0...
   password: Y6R9pAtvxxzmGC
@@ -1130,18 +1437,6 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- client-fingerprint: chrome
-  name: 🇬🇧GB_78
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: 2mp1wwmKQyvIVuGujoT0AGoAHwP1IFXlZRj8jB_UnGo
-    short-id: '!!str 61abecf0a82c31f5'
-  server: 46.250.250.149
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 98944209-4d92-41b2-9c24-c5ac17b3b493
 - client-fingerprint: chrome
   name: GB VLESS-270
   network: tcp
@@ -1255,19 +1550,6 @@ proxies:
   tls: true
   type: vless
   uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_15
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
-    short-id: '!!str 6a2e3af684799b19'
-  server: 144.31.213.150
-  servername: cdn.pinecloud.net
-  tls: true
-  type: vless
-  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
 - client-fingerprint: firefox
   name: 🇬🇧GB_57
   network: xhttp
@@ -1322,12 +1604,6 @@ proxies:
     headers:
       Host: ad-010.flux3ni5o.info
     path: /
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_44
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss
 - client-fingerprint: chrome
   name: 🇬🇧GB_45
   network: ws
@@ -1341,25 +1617,6 @@ proxies:
     headers:
       Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
     path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: GB VLESS-1354
-  network: tcp
-  port: 443
-  server: 193.142.59.97
-  servername: u695099ubfb7b8f7s861.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: bfb7b8f7s861.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   name: 🇬🇧GB_104
   network: ws
@@ -1412,25 +1669,6 @@ proxies:
     headers:
       Host: ad-010.flux3ni5o.info
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: GB VLESS-1310
-  network: tcp
-  port: 443
-  server: s1243.gogocs.xyz
-  servername: u695099ubfb7b8f7s861.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: bfb7b8f7s861.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   name: 🇬🇧GB_106
   network: ws
@@ -1459,6 +1697,19 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇬🇧GB_47
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE
+    short-id: '!!str f6e197a0b9f2'
+  server: 107.181.147.22
+  servername: www.techradar.com
+  tls: true
+  type: vless
+  uuid: 5e18094c-18b1-4198-b211-96b40518cecf
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇬🇧GB_70
   network: tcp
   port: 443
@@ -1470,25 +1721,6 @@ proxies:
   tls: true
   type: vless
   uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: GB VLESS-1287
-  network: tcp
-  port: 443
-  server: s148.uugfw.top
-  servername: u695099ueff6480ds124.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: eff6480ds124.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_41
@@ -1603,25 +1835,6 @@ proxies:
   tls: true
   type: vless
   uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: GB VLESS-1314
-  network: tcp
-  port: 443
-  server: s128.sspcccdn.xyz
-  servername: u695099ueff6480ds124.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: eff6480ds124.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_31
@@ -1648,25 +1861,6 @@ proxies:
     headers:
       Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
     path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: GB VLESS-1341
-  network: tcp
-  port: 443
-  server: 193.142.59.180
-  servername: u695099ueff6480ds124.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: eff6480ds124.gogocs.xyz
-    path: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_25
@@ -1700,31 +1894,6 @@ proxies:
   tls: true
   type: vless
   uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_101
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ABNRlkjlonYV9TOFYgjWwz0wn1s6sg_yCErsLYkU_Sg
-    short-id: '!!str d6ff9019a77e354a'
-  server: 144.31.213.225
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 9e3de7f7-a595-4117-b1b6-dc41eb870ab1
-- client-fingerprint: chrome
-  name: 🇬🇧GB_96
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: cevjPz2GmTrXDFXQbGizdN6t4c6m11kclJEf5nOHOTE
-    short-id: '!!str 52dfc493bb6b6c16'
-  server: 46.250.240.80
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 5c53b9e9-fbe8-4c50-a623-73cdafa3886b
 - alpn:
   - h2
   - http/1.1
