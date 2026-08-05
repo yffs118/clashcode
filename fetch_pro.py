@@ -42,7 +42,7 @@ ABFWHITE = (          # Adblock 规则白名单
 import yaml
 import json
 import base64
-from urllib.parse import quote, unquote, urlparse, parse_qs
+from urllib.parse import quote, unquote, urlparse
 import requests
 from requests_file import FileAdapter
 import datetime
@@ -211,6 +211,8 @@ class Node:
             elif self.type == 'hysteria2':
                 path = data.get('sni', '')+':'
                 path += data.get('obfs-password', '')+':'
+                # print(self.url)
+                # return hash(self.url)
             path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password', '')+data.get('uuid', '')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
@@ -256,7 +258,6 @@ class Node:
             # Fix IPv6
             self.data['server'] = f"[{self.data['server']}]"
 
-    # ====== 保留基础版原有 _load_vmess（未修改） ======
     def _load_vmess(self, url: str, dt: str):
         v = VMESS_TEMPLATE.copy()
         try: v.update(json.loads(b64decodes(dt)))
@@ -285,7 +286,6 @@ class Node:
         elif v['net'] == 'grpc' and 'path' in v:
             self.data['grpc-opts'] = {'grpc-service-name': v['path']}
 
-    # ====== 节点类型增强：_load_ss 使用 rsplit ======
     def _load_ss(self, url: str, dt: str):
         info = dt.split('@')
         srvname = info.pop()
@@ -303,12 +303,9 @@ class Node:
             raise UnsupportedType('ss', 'SP')
         info = '@'.join(info)
         if not ':' in info:
-            try:
-                info = b64decodes_safe(info)
-            except Exception:
-                raise UnsupportedType('ss', 'SP')
+            info = b64decodes_safe(info)
         if ':' in info:
-            cipher, passwd = info.rsplit(':', 1)
+            cipher, passwd = info.split(':')
         else:
             cipher = info
             passwd = ''
@@ -343,15 +340,13 @@ class Node:
             elif k == 'protoparam':
                 self.data['protocol-param'] = v
 
-    # ====== 节点类型增强：_load_trojan 使用 parse_qs ======
     def _load_trojan(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)}
         if not parsed.query: return
-        query = parse_qs(parsed.query)
-        for k, vals in query.items():
-            v = vals[0] if vals else ''
+        for kv in parsed.query.split('&'):
+            k,v = kv.split('=', 1)
             if k in ('allowInsecure', 'insecure'):
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'sni': self.data['sni'] = v
@@ -374,16 +369,14 @@ class Node:
                     self.data['ws-opts'] = {}
                 self.data['ws-opts']['path'] = v
 
-    # ====== 节点类型增强：_load_vless 使用 parse_qs，仅当 pbk 非空时设置 ======
     def _load_vless(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)}
         self.data['tls'] = False
         if not parsed.query: return
-        query = parse_qs(parsed.query)
-        for k, vals in query.items():
-            v = vals[0] if vals else ''
+        for kv in parsed.query.split('&'):
+            k,v = kv.split('=', 1)
             if k in ('allowInsecure', 'insecure'):
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'sni': self.data['servername'] = v
@@ -413,21 +406,19 @@ class Node:
             elif k == 'security' and v == 'tls':
                 self.data['tls'] = True
             elif k == 'pbk':
-                if v.strip():
-                    if 'reality-opts' not in self.data:
-                        self.data['reality-opts'] = {}
-                    self.data['reality-opts']['public-key'] = v
+                if 'reality-opts' not in self.data:
+                    self.data['reality-opts'] = {}
+                self.data['reality-opts']['public-key'] = v
             elif k == 'sid':
                 if 'reality-opts' not in self.data:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
+            # TODO: Unused key encryption
 
-    # ====== 节点类型增强：_load_hysteria2 使用 parse_qs，username 可能 None ======
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
-        username = unquote(parsed.username) if parsed.username else ''
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
-                'type': 'hysteria2', 'password': username}
+                'type': 'hysteria2', 'password': unquote(parsed.username)}
         if ':' in parsed.netloc:
             ports = parsed.netloc.split(':')[1]
             if ',' in ports:
@@ -440,9 +431,12 @@ class Node:
             self.data['port'] = 443
         self.data['tls'] = False
         if not parsed.query: return
-        query = parse_qs(parsed.query)
-        for k, vals in query.items():
-            v = vals[0] if vals else ''
+        k = v = ''
+        for kv in parsed.query.split('&'):
+            if '=' in kv:
+                k,v = kv.split('=', 1)
+            else:
+                v += '&' + kv
             if k == 'insecure':
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'alpn':
@@ -451,19 +445,20 @@ class Node:
                 self.data[k] = v
             elif k == 'fp': self.data['client-fingerprint'] = v
 
-    # ====== 节点类型增强：_load_tuic 使用 parse_qs ======
     def _load_tuic(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {
             'name': unquote(parsed.fragment), 'server': parsed.hostname,
             'type': 'tuic', 'uuid': unquote(parsed.username),
-            'password': unquote(parsed.password) if parsed.password else '',
-            'port': parsed.port or 136
+            'password': unquote(parsed.password), 'port': parsed.port or 136
         }
         if not parsed.query: return
-        query = parse_qs(parsed.query)
-        for k, vals in query.items():
-            v = vals[0] if vals else ''
+        k = v = ''
+        for kv in parsed.query.split('&'):
+            if '=' in kv:
+                k,v = kv.split('=', 1)
+            else:
+                v += '&' + kv
             if k == 'allow_insecure':
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'alpn':
@@ -473,24 +468,14 @@ class Node:
             elif k == 'fp': self.data['client-fingerprint'] = v
             elif k == 'congestion_control': self.data['congestion-controller'] = v
 
-    # ====== 节点类型增强：_load__legacy 端口解析截断 ======
     def _load__legacy(self, url: str, dt: str):
         parsed = urlparse(url)
-        port_str = str(parsed.port) if parsed.port is not None else ''
-        if '?' in port_str:
-            port_str = port_str.split('?')[0]
-        elif '&' in port_str:
-            port_str = port_str.split('&')[0]
-        try:
-            port = int(port_str) if port_str else 0
-        except ValueError:
-            port = 0
         self.data = {
             'name': unquote(parsed.fragment),
             'type': 'socks5' if self.type.startswith('socks') else 'http',
             'tls': parsed.scheme == 'https',
             'server': parsed.hostname,
-            'port': port,
+            'port': parsed.port,
             'username': parsed.username,
             'password': parsed.password
         }
@@ -629,7 +614,6 @@ class Node:
                 ret += '&'+urlk+'='+b64encodes_safe(data[k])
         return "ssr://"+ret
 
-    # ====== 节点类型增强：_url_trojan 容错 ======
     def _url_trojan(self, data: DATA_TYPE) -> str:
         passwd = quote(data['password'])
         name = quote(data['name'])
@@ -642,9 +626,7 @@ class Node:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
         if 'network' in data:
             if data['network'] == 'grpc':
-                ret += f"type=grpc&"
-                if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
-                    ret += f"serviceName={data['grpc-opts']['grpc-service-name']}"
+                ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
             elif data['network'] == 'ws':
                 ret += f"type=ws&"
                 if 'ws-opts' in data:
@@ -656,10 +638,8 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 节点类型增强：_url_vless 容错，uuid 默认值 ======
     def _url_vless(self, data: DATA_TYPE) -> str:
-        uuid = data.get('uuid', DEFAULT_UUID)
-        passwd = quote(uuid)
+        passwd = quote(data['uuid'])
         name = quote(data['name'])
         ret = f"vless://{passwd}@{data['server']}:{data['port']}?"
         if 'skip-cert-verify' in data:
@@ -671,8 +651,9 @@ class Node:
         if 'network' in data:
             if data['network'] == 'grpc':
                 ret += f"type=grpc&"
-                if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
+                try:
                     ret += f"serviceName={data['grpc-opts']['grpc-service-name']}&"
+                except KeyError: pass
             elif data['network'] == 'ws':
                 ret += f"type=ws&"
                 if 'ws-opts' in data:
@@ -692,19 +673,13 @@ class Node:
             ret += f"security=tls&"
         elif 'reality-opts' in data:
             opts: Dict[str, str] = data['reality-opts']
-            pbk = opts.get('public-key', '').strip()
-            sid = opts.get('short-id', '').strip()
-            if pbk:
-                ret += f"security=reality&pbk={pbk}&"
-                if sid:
-                    ret += f"sid={sid}&"
+            ret += f"security=reality&pbk={opts.get('public-key','')}&sid={opts.get('short-id','')}&"
         ret = ret.rstrip('&')+'#'+name
         return ret
 
-    # ====== 节点类型增强：_url_hysteria2 容错 ======
     def _url_hysteria2(self, data: DATA_TYPE) -> str:
-        passwd = quote(data.get('password', ''))
-        name = quote(data.get('name', '未命名'))
+        passwd = quote(data['password'])
+        name = quote(data['name'])
         ret = f"hysteria2://{passwd}@{data['server']}:{data['port']}"
         if 'ports' in data:
             ret += ','+data['ports']
@@ -754,7 +729,6 @@ class Node:
     _url_https = _url__legacy
     _url_socks5 = _url__legacy
 
-    # ====== 保留基础版原有 clash_data（不做修改） ======
     @property
     def clash_data(self) -> DATA_TYPE:
         ret = self.data.copy()
@@ -787,7 +761,6 @@ class Node:
         
         return ret
 
-    # ====== 保留基础版原有 supports_clash（不做修改） ======
     def supports_clash(self, meta=False) -> bool:
         if self.isfake: return False
         if 'obfs' in self.data and 'obfs-password' not in self.data:
@@ -1325,6 +1298,11 @@ def main():
         traceback.print_exc()
     else:
         del conf['NoMoreWalls']
+        # ----- DEBUG: 打印 categories_disp -----
+        print("\n[DEBUG] categories_disp content:")
+        for k, v in snip_conf.get('categories_disp', {}).items():
+            print(f"  {k} -> {v}")
+        # -----------------------------------------
         print("正在按地区分类节点...")
         categories = snip_conf['categories']
         for ctg in categories:
@@ -1347,6 +1325,11 @@ def main():
                         ctg_nodes_meta[ctgs[0]].append(node.clash_data)
                     except Exception:
                         traceback.print_exc()
+        # ----- DEBUG: 打印各分类节点数 -----
+        print("\n[DEBUG] ctg_nodes_meta keys and node counts:")
+        for ctg, nodes in ctg_nodes_meta.items():
+            print(f"  {ctg}: {len(nodes)} nodes")
+        # ------------------------------------
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
@@ -1425,14 +1408,31 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        # ----- DEBUG: Clash 部分添加前 -----
+        print("\n[DEBUG] Before adding region groups (Clash):")
+        existing_names = [g.get('name') for g in conf['proxy-groups']]
+        print("  Existing group names:", existing_names)
+        print("  ctg_disp keys and values:")
+        for k, v in ctg_disp.items():
+            print(f"    {k} -> {v}")
+        # ------------------------------------
         for ctg, payload in ctg_nodes.items():
             if ctg in ctg_disp:
                 disp = ctg_base.copy()
                 disp['name'] = ctg_disp[ctg]
+                # ----- DEBUG: 添加前检查 -----
+                print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
+                if disp['name'] in existing_names:
+                    print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
+                else:
+                    print(f"    ✅ New group name.")
+                # ------------------------------------
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+                # 更新现有名称列表以便后续检查（可选）
+                existing_names.append(disp['name'])
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
     except:
@@ -1455,14 +1455,30 @@ def main():
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
         ctg_disp: Dict[str, str] = snip_conf['categories_disp']
+        # ----- DEBUG: Meta 部分添加前 -----
+        print("\n[DEBUG] Before adding region groups (Meta):")
+        existing_names = [g.get('name') for g in conf['proxy-groups']]
+        print("  Existing group names:", existing_names)
+        print("  ctg_disp keys and values:")
+        for k, v in ctg_disp.items():
+            print(f"    {k} -> {v}")
+        # ------------------------------------
         for ctg, payload in ctg_nodes_meta.items():
             if ctg in ctg_disp:
                 disp = ctg_base.copy()
                 disp['name'] = ctg_disp[ctg]
+                # ----- DEBUG: 添加前检查 -----
+                print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
+                if disp['name'] in existing_names:
+                    print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
+                else:
+                    print(f"    ✅ New group name.")
+                # ------------------------------------
                 if not payload: disp['proxies'] = ['REJECT']
                 else: disp['proxies'] = [_['name'] for _ in payload]
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
+                existing_names.append(disp['name'])
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
