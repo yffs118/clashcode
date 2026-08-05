@@ -1448,7 +1448,26 @@ def main():
         if isinstance(proxies_show, list):
             proxies_show = proxies_show[:3]
         print(f"  {g.get('name')}: {proxies_show}")
+
+    # ----- 新增：特定组完整打印 -----
+    special_groups = ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']
+    print("\n[DEBUG] Full proxies list for special groups:")
+    for g in conf['proxy-groups']:
+        if g.get('name') in special_groups:
+            print(f"  {g.get('name')}: {g.get('proxies', [])}")
+
+    # ----- 新增：全面冲突检查 -----
+    print("\n[DEBUG] Detailed check for group-name conflicts in all proxies:")
+    all_group_names = [g.get('name') for g in conf['proxy-groups']]
+    for g in conf['proxy-groups']:
+        gname = g.get('name')
+        proxies = g.get('proxies', [])
+        if isinstance(proxies, list):
+            for p in proxies:
+                if p in all_group_names and p != gname:
+                    print(f"  ⚠️⚠️ CONFLICT: group '{gname}' has proxy '{p}' which is also a group name.")
     # ------------------------------------------------
+
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
