@@ -92,20 +92,12 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- flow: ''
-  name: '%3E%3E%40oneclickvpnkeys::CH'
-  network: ws
-  port: 443
-  server: us1.candyfans.win
-  servername: us1.candyfans.win
-  skip-cert-verify: true
-  tls: true
+- name: 🇨🇭134122 | ⚡️Telegram = t.me/S...
+  port: 2053
+  server: dl12sw.cdn-ir-prime.shop
+  tls: false
   type: vless
-  uuid: d82baa81-c138-49fc-b81e-7ef0eb7ff063
-  ws-opts:
-    headers:
-      Host: us1.candyfans.win
-    path: '%2Fcgunws'
+  uuid: 977d19a2-2cc2-0416-df7d-f951df793ef9
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -156,7 +148,7 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - client-fingerprint: chrome
-  name: 瑞士 003
+  name: 瑞士 004
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -171,17 +163,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 瑞士 004
-  network: tcp
-  port: 2551
-  server: 178.83.157.130
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- name: 瑞士 005
+- name: 瑞士 006
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -197,19 +179,14 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_7
+- name: 🇨🇭CH_3
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.117
-  servername: vl07.skorostnet.space
-  tls: true
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan
 - client-fingerprint: chrome
   name: 🇨🇭CH_8
   network: ws

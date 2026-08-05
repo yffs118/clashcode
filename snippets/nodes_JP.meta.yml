@@ -654,11 +654,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- down: ''
-  fingerprint: ''
+- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
   name: 🇯🇵JP_3
-  obfs: ''
-  obfs-password: ''
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
   server: 45.88.43.116
@@ -666,7 +663,36 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-  up: ''
+- auth: aa3c486e-6a1c-470e-b248-e6c55998206d
+  name: 🇯🇵JP_2|3.8MB/s
+  password: aa3c486e-6a1c-470e-b248-e6c55998206d
+  port: 3488
+  server: c1.bestai.beauty
+  skip-cert-verify: true
+  sni: c1.bestai.beauty
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: jp|68d6|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇯🇵JP_4|1.3MB/s
+  network: raw
+  port: '27407'
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: '!!str e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+  xudp: true
 - alterId: 2
   cipher: auto
   name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 420ms
@@ -692,327 +718,40 @@ proxies:
   type: vless
   udp: true
   uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_15|6.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true
-- name: 日本_Osaka
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 150.230.7.216
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tz.ylks.xyz
-    path: '%2F'
-- name: JP - zhuhai.uk
-  network: ws
-  port: 443
-  server: 8.219.155.125
-  servername: hn205.54dn.96i.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: hn205.54dn.96i.hh.vavava.kdns.fr
-    path: '%2F%3Fed%3D2560'
-- name: 日本_東京都
-  network: ws
-  port: 443
-  server: 43.153.181.217
-  servername: xz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-  ws-opts:
-    headers:
-      Host: xz.ylks.xyz
-    path: '%2F%3Fproxyip%3Dproxyip.jp.fxxk.dedyn.io'
-- name: 日本_东京
-  network: ws
-  port: 443
-  server: 20.210.64.9
-  servername: zdfdf6.azurewebsites.net
-  tls: true
-  type: vless
-  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-  ws-opts:
-    headers:
-      Host: zdfdf6.azurewebsites.net
-    path: '%2F'
-- name: '日本_东京 #1'
-  network: ws
-  port: 47001
-  server: 158.101.154.245
-  servername: vz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: vz.ylks.xyz
-    path: '%2F3b2dg5zv2kftsfko%3Fed%3D2560'
-- name: '日本_東京都 #1'
-  network: ws
-  port: 443
-  server: 43.153.181.217
-  servername: vz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: vz.ylks.xyz
-    path: '%2F%3Fproxyip%3Dproxyip.jp.fxxk.dedyn.io'
-- name: '日本_Osaka #1'
-  network: ws
-  port: 443
-  server: 64.110.104.30
-  servername: vz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: vz.ylks.xyz
-    path: '%2Fpai6buclahf9cxx3%3Fed%3D2560'
-- name: '日本_东京 #2'
-  network: ws
-  port: 443
-  server: 131.186.60.210
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fblue'
-- name: '日本_东京 #3'
-  network: ws
-  port: 80
-  server: 138.2.18.184
-  servername: hz.ylks.xyz
+- name: 🇯🇵JP_1|4.1MB/s|GPT⁺|YT-RU|NF|G...
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
   tls: false
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fblue'
-- name: '日本_Osaka #2'
-  network: ws
-  port: 443
-  server: 150.230.7.216
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fblue'
-- name: '日本_东京 #4'
-  network: ws
-  port: 2053
-  server: 154.92.9.28
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #5'
-  network: ws
-  port: 2083
-  server: 154.92.9.28
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #6'
-  network: ws
-  port: 2087
-  server: 154.92.9.28
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #7'
-  network: ws
-  port: 2096
-  server: 154.92.9.28
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #8'
-  network: ws
-  port: 8443
-  server: 154.92.9.28
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #9'
-  network: ws
-  port: 2053
-  server: 154.92.9.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #10'
-  network: ws
-  port: 2083
-  server: 154.92.9.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #11'
-  network: ws
-  port: 2087
-  server: 154.92.9.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #12'
-  network: ws
-  port: 2096
-  server: 154.92.9.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_东京 #13'
-  network: ws
-  port: 8443
-  server: 154.92.9.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fyoutube-%E7%94%B1%E9%9B%B6%E9%96%8B%E5%A7%8B'
-- name: '日本_東京都 #2'
-  network: ws
-  port: 443
-  server: 43.153.181.217
-  servername: kz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: kz.ylks.xyz
-    path: '%2F%3Fproxyip%3Dproxyip.jp.fxxk.dedyn.io'
-- name: '日本_Osaka #3'
-  network: ws
-  port: 443
-  server: 64.110.104.30
-  servername: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-  ws-opts:
-    headers:
-      Host: hz.ylks.xyz
-    path: '%2Fblue'
-- name: '%3E%3E%40V2RAY_VMESS_free::JP'
-  network: ws
-  port: 12553
-  server: 113.37.149.36
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- client-fingerprint: chrome
-  name: '%3E%3E%40V2RAY_VMESS_free::JP #1'
-  network: ws
-  port: 443
-  server: 160.16.203.210
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- client-fingerprint: chrome
-  name: '%3E%3E%40V2RAY_VMESS_free::JP #2'
-  network: ws
-  port: 19999
-  server: 202.84.53.85
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: x%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 日本 001
+  name: 🇯🇵 Join+Telegram:@FarahVPN 🇯🇵
   network: ws
-  port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  servername: 🇯🇵JP-40.74.100.129-0154 | 0.0MB
-  skip-cert-verify: false
-  tls: true
+  port: 80
+  server: 172.111.146.64
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-146.56.118.227-0085 | 0.7...
+  network: ws
+  port: 2052
+  server: 146.56.118.227
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  ws-opts:
+    headers:
+      Host: 146.56.118.227
     path: /
 - alterId: 0
   cipher: auto
@@ -1028,6 +767,34 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 日本 003
+  network: ws
+  port: 443
+  server: fullaccesstojapannetsubnode1.azurewebsites.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 004
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: 日本 005
@@ -1467,6 +1234,26 @@ proxies:
     headers:
       Host: sw.captainsparo.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan-2
+  network: ws
+  port: 25686
+  server: 140.83.51.161
+  type: vmess
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
+  ws-opts:
+    path: /cctv13.m3u8
 - cipher: aes-128-gcm
   name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1'
   password: ayucloud1
@@ -1491,6 +1278,14 @@ proxies:
   uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
     path: /
+- name: 🇯🇵JP_97
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵JP-185.172.113.101-0076 | 0....
   password: G!yBwPWH3Vao
@@ -1527,6 +1322,22 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵 JP 139 | ⬇️ 609KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 10015
+  reality-opts:
+    public-key: ikCB12OSZuP08JB3pfGfS1QE02Xw7Ddm9k1RDS3ZWmE
+    short-id: '!!str e38d'
+  server: family.bucket.7.kfc-520.com
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
 - name: 🇯🇵 JP 346 | ⬇️ 14KB/s
   port: 10808
   server: 101.36.104.239
@@ -1723,6 +1534,37 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 🇯🇵JP_102
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 57.180.27.225
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_91
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: stunning-mite.rooster465.autos
+  skip-cert-verify: true
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_84
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: right-seahorse.rooster465.autos
+  skip-cert-verify: true
+  sni: right-seahorse.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_38
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: casual-bee.rooster465.autos
+  skip-cert-verify: true
+  sni: casual-bee.rooster465.autos
+  type: trojan
 - name: 🇯🇵JP_82
   network: tcp
   password: ND91608427
@@ -1737,6 +1579,29 @@ proxies:
   server: 103.106.228.126
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+- name: 🇯🇵JP_60
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.182.4.232
+  sni: becoming-hare.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_92
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: internal-sunbird.rooster465.autos
+  skip-cert-verify: true
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_70
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: becoming-hare.rooster465.autos
+  skip-cert-verify: true
+  sni: becoming-hare.rooster465.autos
+  type: trojan
 - name: 🇯🇵JP_2
   password: G0bFosyMJiP4wHB4TggU0j3j
   port: 8443
@@ -1745,6 +1610,68 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 🇯🇵JP_100
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: clear-snail.rooster465.autos
+  skip-cert-verify: true
+  sni: clear-snail.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_61
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 54.65.167.167
+  sni: tough-robin.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_83
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: healthy-louse.rooster465.autos
+  skip-cert-verify: true
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_76
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: better-molly.rooster465.autos
+  skip-cert-verify: true
+  sni: better-molly.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_69
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: moral-buzzard.rooster465.autos
+  skip-cert-verify: true
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_94
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  skip-cert-verify: true
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_89
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 54.199.202.238
+  skip-cert-verify: true
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_105
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 43.207.139.153
+  sni: sensible-mongrel.rooster465.autos
+  type: trojan
 - name: 🇯🇵JP_95
   network: tcp
   password: ND91608427
@@ -1753,6 +1680,85 @@ proxies:
   skip-cert-verify: true
   sni: wise-bengal.rooster465.autos
   type: trojan
+- name: 🇯🇵JP_73
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 43.207.89.29
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_59
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.179.31.199
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_68
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 13.231.232.184
+  sni: better-molly.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_46
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: smart-pup.rooster465.autos
+  skip-cert-verify: true
+  sni: smart-pup.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_103
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: devoted-heron.rooster465.autos
+  skip-cert-verify: true
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_11
+  network: tcp
+  port: 12683
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 103.75.118.228
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 🇯🇵JP_80
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: happy-mutt.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-mutt.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_99
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 3.113.24.17
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_14
+  network: raw
+  port: 11452
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 103.75.118.228
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: 日本_1
   network: ws
   port: 443
@@ -1765,6 +1771,21 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- name: 🇯🇵JP_39
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: tough-robin.rooster465.autos
+  skip-cert-verify: true
+  sni: tough-robin.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_62
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  sni: healthy-louse.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵JP_111
@@ -1778,6 +1799,22 @@ proxies:
   tls: true
   type: vless
   uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- name: 🇯🇵JP_93
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: perfect-slug.rooster465.autos
+  skip-cert-verify: true
+  sni: perfect-slug.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_45
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: social-mutt.rooster465.autos
+  skip-cert-verify: true
+  sni: social-mutt.rooster465.autos
+  type: trojan
 - cipher: aes-256-cfb
   name: 🇯🇵JP_19
   password: amazonskr05
@@ -1790,6 +1827,42 @@ proxies:
   port: 443
   server: 13.192.236.67
   sni: immense-gnu.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_96
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: nearby-egret.rooster465.autos
+  skip-cert-verify: true
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_88
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 3.112.238.99
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1
+  network: tcp
+  port: 10583
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- name: 🇯🇵JP_26
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: thankful-mustang.rooster465.autos
+  skip-cert-verify: true
+  sni: thankful-mustang.rooster465.autos
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
@@ -1817,6 +1890,73 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 🇯🇵JP_98
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: prompt-duckling.rooster465.autos
+  skip-cert-verify: true
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_109
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.181.175.120
+  sni: sure-humpback.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_104
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 43.207.155.134
+  sni: smart-pup.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_81
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: picked-guinea.rooster465.autos
+  skip-cert-verify: true
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_110
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 52.194.230.221
+  sni: happy-mutt.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_86
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_107
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.181.194.227
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_74
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: sensible-mongrel.rooster465.autos
+  skip-cert-verify: true
+  sni: sensible-mongrel.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_72
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 13.192.168.51
+  sni: learning-leopard.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵JP_113
@@ -1830,9 +1970,74 @@ proxies:
   tls: true
   type: vless
   uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- name: 🇯🇵JP_71
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 13.230.118.96
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_77
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: learning-leopard.rooster465.autos
+  skip-cert-verify: true
+  sni: learning-leopard.rooster465.autos
+  type: trojan
 - cipher: aes-256-cfb
   name: 🇯🇵JP_116
   password: amazonskr05
   port: 443
   server: 13.231.179.245
   type: ss
+- name: 🇯🇵JP_87
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: sure-humpback.rooster465.autos
+  skip-cert-verify: true
+  sni: sure-humpback.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_108
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.178.132.111
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- name: 🇯🇵JP_75
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: real-werewolf.rooster465.autos
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: JP日本
+  network: ws
+  port: 2096
+  server: 104.17.70.206
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: '%2Ffree-server.techsonic.dev'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_6
+  network: tcp
+  port: 18007
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
