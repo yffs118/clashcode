@@ -1,22 +1,94 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇪🇪EE_12|212KB/s|S001-260618 01
-  network: ws
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_10
+  network: tcp
+  packet-encoding: xudp
   port: 443
-  server: 87.121.86.131.tyr-agentstvo.tech
-  servername: 87.121.86.131.tyr-agentstvo.tech
-  sub_tag: S001-260618
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: '!!str a696de84963656de'
+  server: 95.85.224.51
+  servername: max.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5083f498-4894-4c81-8648-40a2faf4b545
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+- name: 🇪🇪爱沙尼亚
+  obfs: salamander
+  obfs-password: iknjsvsjagi449mm
+  password: 4z2oldt85p494bgb
+  port: 52025
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alterId: 1
+  cipher: auto
+  name: 爱沙尼亚 001
+  network: ws
+  port: 8080
+  server: 104.160.19.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 87.121.86.131.tyr-agentstvo.tech
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2560
-    path: /websocket
+      Host: download.windowsupdate.com
+    path: /download
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇪🇪 EE 228 | ⬇️ 112KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 64c1fe36c7846400'
+  server: 185.215.184.31
+  servername: anyfile2file.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: est.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_4
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: 5.181.202.15
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: 185.155.97.241
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
