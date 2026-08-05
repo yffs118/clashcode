@@ -1366,24 +1366,25 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
-                # ----- DEBUG: 打印该组的原始 proxies 内容（截取前5个）-----
+                # ----- DEBUG: 打印原始 proxies -----
                 if not payload:
                     proxy_list = ['REJECT']
                 else:
                     proxy_list = [_['name'] for _ in payload]
                 print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
-                # ----- 修复循环引用：过滤掉与已有组名冲突的节点 -----
+                # ----- 修复：过滤掉与已有组名以及自身组名冲突的节点 -----
                 group_names = [g.get('name') for g in conf['proxy-groups']]
+                exclude = set(group_names)
+                exclude.add(disp['name'])  # 排除自身，避免自环
                 if payload:
-                    filtered_names = [name for name in proxy_list if name not in group_names]
+                    filtered_names = [name for name in proxy_list if name not in exclude]
                     print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
                     if len(filtered_names) < len(proxy_list):
-                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting group-name nodes.")
+                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting names.")
                     if not filtered_names:
                         filtered_names = ['REJECT']
                 else:
                     filtered_names = ['REJECT']
-                # ------------------------------------
                 disp['proxies'] = filtered_names
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
@@ -1396,7 +1397,6 @@ def main():
         conf['dns']['enhanced-mode'] = 'fake-ip'
     # ----- 修复 Clash 部分特殊组中的冲突节点名 -----
     print("\n[DEBUG] Filtering conflict nodes from special groups (Clash)...")
-    # 动态收集所有地区组名称
     region_group_names = set()
     for g in conf['proxy-groups']:
         name = g.get('name', '')
@@ -1450,24 +1450,25 @@ def main():
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                 else:
                     print(f"    ✅ New group name.")
-                # ----- DEBUG: 打印该组的原始 proxies 内容（截取前5个）-----
+                # ----- DEBUG: 打印原始 proxies -----
                 if not payload:
                     proxy_list = ['REJECT']
                 else:
                     proxy_list = [_['name'] for _ in payload]
                 print(f"    [DEBUG] original proxies list (first 5): {proxy_list[:5]}")
-                # ----- 修复循环引用：过滤掉与已有组名冲突的节点 -----
+                # ----- 修复：过滤掉与已有组名以及自身组名冲突的节点 -----
                 group_names = [g.get('name') for g in conf['proxy-groups']]
+                exclude = set(group_names)
+                exclude.add(disp['name'])  # 排除自身，避免自环
                 if payload:
-                    filtered_names = [name for name in proxy_list if name not in group_names]
+                    filtered_names = [name for name in proxy_list if name not in exclude]
                     print(f"    [DEBUG] filtered proxies list (first 5): {filtered_names[:5]}")
                     if len(filtered_names) < len(proxy_list):
-                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting group-name nodes.")
+                        print(f"    [DEBUG] Removed {len(proxy_list)-len(filtered_names)} conflicting names.")
                     if not filtered_names:
                         filtered_names = ['REJECT']
                 else:
                     filtered_names = ['REJECT']
-                # ------------------------------------
                 disp['proxies'] = filtered_names
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
@@ -1491,7 +1492,6 @@ def main():
 
     # ========== 【关键修复】过滤 Meta 部分特殊组中的冲突节点名 ==========
     print("\n[DEBUG] Filtering conflict nodes from special groups (Meta)...")
-    # 动态收集所有地区组名称
     region_group_names = set()
     for g in conf['proxy-groups']:
         name = g.get('name', '')
@@ -1499,7 +1499,6 @@ def main():
                     '🇨🇦 加拿大', '🇫🇷 法国', '🇸🇬 新加坡', '🇬🇧 英国', 
                     '🇰🇷 韩国', '🇷🇺 俄罗斯', '🇩🇪 德国']:
             region_group_names.add(name)
-
     for g in conf['proxy-groups']:
         gname = g.get('name')
         if gname in ['♻ 自动选择', '🔰 延迟最低', '✅ 手动选择']:
