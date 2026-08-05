@@ -550,34 +550,16 @@ proxies:
   ws-opts:
     headers:
       Host: cfed.tgzdyz2.top
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇰🇷 KR 005 | ⬇️ 2MB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 10047
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: kr2-r.link-t7.com
-  servername: s0.awsstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
-- name: 🇰🇷KR_2|1.2MB/s
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- delay: 554
+  name: 🇰🇷 KR 738 | ⬇️ 77KB/s
+  password: ''
+  port: 1090
+  server: 121.169.46.116
   skip-cert-verify: true
-  tls: true
-  type: http
+  tls: false
+  type: socks5
   udp: true
-  username: test
+  username: ''
 - name: 'KR韓國丨yoyapai.com #2 - 130ms'
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -920,11 +902,10 @@ proxies:
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - alterId: 0
   cipher: auto
-  name: 🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷
+  name: 韩国 012 - 129ms
   network: tcp
-  port: '443'
+  port: 443
   server: 140.238.2.250
-  servername: ''
   tls: false
   type: vmess
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
@@ -1026,21 +1007,6 @@ proxies:
   tls: true
   type: vless
   uuid: ae6f014e-c539-4278-8f21-66c7ad2bbb47
-- client-fingerprint: chrome
-  name: 🇰🇷_韩国_90
-  network: ws
-  port: 11019
-  server: 211.104.99.209
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
-  ws-opts:
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-    path: /@Marisa_kristi
 - name: 🇰🇷_韩国_124
   network: ws
   port: 443
@@ -1055,12 +1021,6 @@ proxies:
     headers:
       Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇰🇷134541 | ⚡️Telegram = t.me/L...
-  port: 11202
-  server: 146.56.144.32
-  tls: true
-  type: vless
-  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
 - name: 🇰🇷KR
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -1132,6 +1092,25 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 005 | ⬇️ 2MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10047
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr2-r.link-t7.com
+  servername: s0.awsstatic.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
+- client-fingerprint: chrome
+  encryption: none
   name: 🇰🇷 KR 007 | ⬇️ 100KB/s
   network: tcp
   packet-encoding: xudp
@@ -1146,16 +1125,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-- delay: 554
-  name: 🇰🇷 KR 738 | ⬇️ 77KB/s
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
 - name: 🇰🇷 KR 643 | ⬇️ 42KB/s
   password: Og%3D%3D
   port: 1090

@@ -1,32 +1,45 @@
 proxies:
 - client-fingerprint: chrome
-  name: '英国 024 #1'
+  name: 🇵🇱_波兰_213
   network: ws
   port: 443
-  server: 31.76.11.46.cdn-one.org
-  servername: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
   ws-opts:
     headers:
-      Host: 31.76.11.46.cdn-one.org
-    path: /52872/BNzG4FvIAr
-- name: 'US美国 #15'
+      Host: 31.76.251.127.cdn-one.org
+    path: /10336/2GCOqG7bvA
+- alterId: 0
+  name: 'US美国 #1'
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20088
   server: oplosgru-c.catcat321.com
   skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: 'PL波兰 #1'
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
   ws-opts:
-    path: /
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
 - client-fingerprint: chrome
   name: GB VLESS-270
   network: tcp
@@ -218,7 +231,7 @@ proxies:
   tls: true
   type: http
   username: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- name: 🇬🇧 机场推荐:dafei.de 英国 02
+- name: 🇬🇧GB_1|1.5MB/s
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
@@ -778,10 +791,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US8 409.7MB/s
+  name: '英国 003 #1'
   network: tcp
   port: 180
   server: 82.198.246.233
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -802,7 +816,7 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US16 146.0MB/s
+  name: US19 5.3MB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -812,7 +826,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US29 442.6MB/s
+  name: '英国 006 #1'
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -1051,6 +1065,7 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.97
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1252,22 +1267,6 @@ proxies:
   type: vless
   udp: true
   uuid: a733d1a0-6321-46ab-b525-f9da2b44b9c2
-- encryption: none
-  flow: ''
-  name: 'DE德国 #2'
-  network: xhttp
-  port: 2086
-  server: 217.163.76.118
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: b7977b65-cfd8-4db9-a029-6ef014a4ae4a
-  ws-opts:
-    headers:
-      Host: xvh.andishehparenting.com
-    path: '%2F'
 - name: '英国 042 #1'
   network: ws
   port: 8080
@@ -1382,6 +1381,30 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|1.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-fi.emrata.top
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
+  xudp: true
+- encryption: none
+  name: 🇬🇧GB_3|1.0MB/s
+  network: tcp
+  port: '554'
+  server: 77.67.91.133
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.35-0115 | 53.599...
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -1581,7 +1604,7 @@ proxies:
   uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - encryption: none
   flow: ''
-  name: 🇬🇧134131 | ⚡️Telegram = t.me/L...
+  name: 🤖33@oneclickvpnkeys
   network: ws
   port: 2096
   server: 91.193.58.140
@@ -1590,7 +1613,7 @@ proxies:
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
 - encryption: none
   flow: ''
-  name: 🇬🇧134132 | ⚡️Telegram = t.me/L...
+  name: 🤖32@oneclickvpnkeys
   network: ws
   port: 2096
   server: 91.193.58.157
@@ -1599,7 +1622,7 @@ proxies:
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
 - encryption: none
   flow: ''
-  name: 🇬🇧134133 | ⚡️Telegram = t.me/L...
+  name: 🤖31@oneclickvpnkeys
   network: ws
   port: 2096
   server: 91.193.58.27
@@ -2382,14 +2405,14 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 🇬🇧 United Kingdom Slough | ⏱35...
-  port: 443
-  server: 162.159.38.119
+- name: '@MARAMBASHI 🇬🇧|||14050514|mara... #2'
+  port: 8443
+  server: 89.116.250.135
   tls: false
   type: vless
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  uuid: 6fe9fe86-0dc0-4657-806c-1532d92f5640
   ws-opts:
-    path: '%2Fhdgrbws'
+    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512'
 - name: 🇬🇧英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443

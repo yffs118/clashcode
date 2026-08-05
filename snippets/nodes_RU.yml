@@ -1102,6 +1102,7 @@ proxies:
   port: 2082
   server: 185.174.138.34
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
   ws-opts:
@@ -1173,11 +1174,14 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: aes-256-gcm
   name: 🇷🇺 俄罗斯
   password: d1fa2f4b98a38bc8
   port: 10901
   server: 62.76.234.75
+  skip-cert-verify: true
+  tls: true
   type: ss
 - alterId: 0
   cipher: auto
@@ -1257,12 +1261,6 @@ proxies:
     headers:
       Host: us03.gogogoo.cyou
     path: /
-- cipher: aes-256-gcm
-  name: 🇷🇺134421 | ⚡️Telegram = t.me/S...
-  password: b24a80e79cee1d1f
-  port: 10210
-  server: 195.133.5.207
-  type: ss
 - cipher: aes-256-gcm
   name: 🇷🇺RU-195.133.5.207-38
   password: bdb313adf74c2ede

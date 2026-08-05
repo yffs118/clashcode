@@ -1,4 +1,48 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_210
+  network: ws
+  port: 23388
+  server: 2001:bc8:32d7:1a9::2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+- cipher: chacha20-ietf-poly1305
+  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2'
+  password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
+  port: 56985
+  server: e3.cover20.ir
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ...'
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: true
+  sni: dimskiee.biz.id
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /WangCai-8
+- name: 🏁RELAY-172.67.174.10-19
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: true
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /195.123.218.174-443
+  ws-path: h=%2F195.123.218.174-443
 - alterId: '0'
   cipher: auto
   name: 法国(免费节点)_6
@@ -10,7 +54,7 @@ proxies:
   ws-opts:
     path: /0zNW56sF
 - cipher: chacha20-ietf-poly1305
-  name: '未命名 #7'
+  name: '未命名 #6'
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
@@ -417,7 +461,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知34
+  name: '法国 002 #1'
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -427,7 +471,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知54 20.3KB/s
+  name: 未知97
   network: tcp
   port: 27726
   server: fj260205.freechatup.com
@@ -437,7 +481,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知66 16.7KB/s
+  name: '法国 004 #1'
   network: tcp
   port: 27726
   server: fj260203.freechatup.com
@@ -447,7 +491,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知78
+  name: 未知116
   network: tcp
   port: 26126
   server: 188.165.61.68
@@ -457,7 +501,7 @@ proxies:
   uuid: b09b111e-f41c-4145-83c9-029027a5a745
 - alterId: 0
   cipher: auto
-  name: 未知85
+  name: '法国 006 #1'
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -467,7 +511,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知101
+  name: '法国 007 #1'
   network: tcp
   port: 36864
   server: 2.arzankadeh.cam
@@ -783,18 +827,10 @@ proxies:
   network: tcp
   port: 27726
   server: 195.133.193.18
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ...'
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  port: 443
-  server: 104.16.148.5
-  skip-cert-verify: true
-  sni: dimskiee.biz.id
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇫🇷_法国_228 - 157ms - 159ms
@@ -873,10 +909,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 法国 003 - 241ms
+  name: 未知65
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
@@ -1414,19 +1451,12 @@ proxies:
   server: 104.18.152.187
   sni: www.ignitelimit.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_法国_210
-  network: ws
-  port: 23388
-  server: 2001:bc8:32d7:1a9::2
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
-  ws-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 France Paris | ⏱348ms | ⚡11...
+  password: ZmM0Z
+  port: 8388
+  server: 83.171.225.55
+  type: ss
 - alterId: 0
   cipher: auto
   name: 法国/France-3

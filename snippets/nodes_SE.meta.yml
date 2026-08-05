@@ -1,4 +1,24 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: ''
+  http-opts:
+    path:
+    - /api/v1/data
+  name: '瑞典 #2'
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+  server: 84.32.99.238
+  servername: recaptcha.net.cn
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+  ws-opts:
+    path: '%2Fapi%2Fv1%2Fdata'
 - name: 🇸🇪 机场推荐:dafei.de 瑞典 01
   port: 8888
   server: 46.62.189.77
@@ -190,7 +210,7 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 未知27
+  name: SE 22 → tg@nicevpn123
   network: ws
   port: 443
   server: 185.146.173.59
@@ -200,8 +220,6 @@ proxies:
   udp: true
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-opts:
-    headers:
-      host: obdii.cfd
     path: /linkws
 - name: SE 23 → tg@nicevpn123
   password: telegram-id-directvpn
@@ -377,6 +395,7 @@ proxies:
   network: ws
   port: 80
   server: 5.249.160.226
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -948,40 +967,6 @@ proxies:
   tls: true
   type: vless
   uuid: d1c624fc-d0b0-49c7-8afa-e15a5949bc17
-- client-fingerprint: firefox
-  encryption: none
-  flow: ''
-  name: '瑞典 #2'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
-  server: 84.32.99.238
-  servername: recaptcha.net.cn
-  tls: true
-  type: vless
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-  ws-opts:
-    path: '%2Fapi%2Fv1%2Fdata'
-- name: 🇸🇪 direct
-  port: 1000
-  server: sw1.levikogjgfdd.ir
-  tls: false
-  type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
-- name: 🇸🇪134437 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 443
-  server: 85.137.170.110
-  tls: false
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- name: 🇸🇪134541 | ⚡️Telegram = t.me/S...
-  port: 80
-  server: 185.146.173.54
-  tls: false
-  type: vless
-  uuid: d7b9d64c-1f9d-496d-b12d-e86da0e6eb1c
 - name: '瑞典 #1'
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
@@ -1022,6 +1007,13 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇪SE_2
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  sni: swe-one.quiet-rogue.site
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪SE_6

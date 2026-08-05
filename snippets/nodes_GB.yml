@@ -1,16 +1,15 @@
 proxies:
-- name: 'US美国 #15'
+- alterId: 0
+  name: 'US美国 #1'
   network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20088
   server: oplosgru-c.catcat321.com
   skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    path: /
 - alterId: '0'
   cipher: auto
   name: 英国(免费节点)_4
@@ -481,10 +480,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US8 409.7MB/s
+  name: '英国 003 #1'
   network: tcp
   port: 180
   server: 82.198.246.233
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -505,7 +505,7 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US16 146.0MB/s
+  name: US19 5.3MB/s
   network: tcp
   port: 180
   server: 82.198.246.250
@@ -515,7 +515,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US29 442.6MB/s
+  name: '英国 006 #1'
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -754,6 +754,7 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.97
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess

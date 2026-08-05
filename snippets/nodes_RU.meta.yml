@@ -1,4 +1,21 @@
 proxies:
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'RU俄罗斯 #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 33729
+  reality-opts:
+    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
+    short-id: '!!str 0bd4698a48'
+  server: kino.memhd.store
+  servername: ymail.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: RU VLESS-257
@@ -1305,6 +1322,7 @@ proxies:
   port: 2082
   server: 185.174.138.34
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6066abf1-cdb1-4818-d35a-7c8e0ee90320
   ws-opts:
@@ -1576,11 +1594,11 @@ proxies:
   uuid: b79c54f3-68e9-4e9d-8b57-22cbbe978730
 - encryption: none
   flow: ''
-  name: '未命名 #141'
+  name: 俄罗斯(免费节点)_4 - 193ms
   network: ws
   port: 4100
   server: 194.87.161.60
-  tls: false
+  tls: true
   type: vless
   uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
 - encryption: none
@@ -1592,23 +1610,6 @@ proxies:
   tls: true
   type: vless
   uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'RU俄罗斯 #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 33729
-  reality-opts:
-    public-key: b5vvvll6WHFXYBOc-P4iEYNFw_uVALgypTESN0Nup2s
-    short-id: '!!str 0bd4698a48'
-  server: kino.memhd.store
-  servername: ymail.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cf8906f5-63d3-44c2-8c1f-d2906cb3a229
 - encryption: none
   flow: ''
   name: 🇷🇺_俄罗斯_220 - 180ms
@@ -1636,11 +1637,14 @@ proxies:
   tls: false
   type: vless
   uuid: 31c2a8e8-0ab2-4f3f-8767-11f3a35d4228
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: aes-256-gcm
   name: 🇷🇺 俄罗斯
   password: d1fa2f4b98a38bc8
   port: 10901
   server: 62.76.234.75
+  skip-cert-verify: true
+  tls: true
   type: ss
 - encryption: none
   flow: xtls-rprx-vision
@@ -2178,25 +2182,12 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- cipher: aes-256-gcm
-  name: 🇷🇺134421 | ⚡️Telegram = t.me/S...
-  password: b24a80e79cee1d1f
-  port: 10210
-  server: 195.133.5.207
-  type: ss
-- name: 🇷🇺 t.me/Natrixo AA
+- name: '[14134]'
   port: 9443
-  server: 89.208.198.151
+  server: 79.174.78.25
   tls: false
   type: vless
-  uuid: bdba330b-dfc6-001f-93e4-b10f906bf4fb
-- name: 🇷🇺134509 | ⚡️Telegram = t.me/L...
-  network: ws
-  port: 2200
-  server: 31.172.67.215
-  tls: false
-  type: vless
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  uuid: bdba330b-dfc6-0023-93e4-b10f906bf4fb
 - name: '🇹🇷土耳其 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443

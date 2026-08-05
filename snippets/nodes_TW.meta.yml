@@ -246,8 +246,17 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: '🇹🇼TW_1|1.4MB/s #1'
+- name: 🇹🇼TW_3|2.3MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '🇹🇼TW_2|1.3MB/s #1'
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: '39221'
@@ -256,14 +265,6 @@ proxies:
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: 🇹🇼TW_2|3.5MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - encryption: none
   flow: ''
   name: 🇹🇼TW_9
@@ -291,6 +292,12 @@ proxies:
   tls: true
   type: vless
   uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_20
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.224.161.244
+  type: ss
 - name: 🇹🇼TW_15
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

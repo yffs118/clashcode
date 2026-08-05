@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 DE VMESS-1295 | free-nodes
-  port: 80
-  server: y.telewebion.ir.varzesh3.com.de
-  servername: status.play.google.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 524646b7-fe8f-42ee-8b73-e1ccc6855773
-- alterId: 0
-  cipher: auto
   h2-opts: {}
   http-opts: {}
   name: VMESS-未知>德国-NF解锁印度地区非自制剧-ChatG...
@@ -39,14 +29,11 @@ proxies:
   server: hackney-latest-strike.freesocks.work
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU俄罗斯
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 1 → tg@nicevpn123
   password: 36ZCHeabUSfKjfQEvJ4HDV
   port: 54170
   server: 185.242.86.156
-  skip-cert-verify: true
-  tls: true
   type: ss
   udp: true
 - name: 🇩🇪 DE 10 → tg@nicevpn123
@@ -480,7 +467,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知11
+  name: '德国 002 #1'
   network: tcp
   port: 4452
   server: x2.mehradservice.com
@@ -490,7 +477,7 @@ proxies:
   uuid: 389625c7-c891-4f61-9f98-478058744ada
 - alterId: 0
   cipher: auto
-  name: 未知32
+  name: '德国 003 #1'
   network: tcp
   port: 1020
   server: nlt.reata.ir
@@ -500,7 +487,7 @@ proxies:
   uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - alterId: 0
   cipher: auto
-  name: 未知42
+  name: 未知40
   network: tcp
   port: 80
   server: 128.140.109.232
@@ -510,7 +497,7 @@ proxies:
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
   cipher: auto
-  name: 未知53
+  name: 未知70
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -520,7 +507,7 @@ proxies:
   uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa
 - alterId: 0
   cipher: aes-128-gcm
-  name: 未知116
+  name: '德国 006 #1'
   network: tcp
   port: 443
   server: 46.183.187.73
@@ -548,6 +535,7 @@ proxies:
   network: ws
   port: 80
   server: 159.89.29.136
+  servername: ''
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -960,70 +948,27 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_德国_89
+- name: '🇩🇪DE_2|3.8MB/s #1'
   network: ws
+  password: MiTiVPN
   port: 443
-  server: 18.197.218.69
-  servername: apjhdggyx.com
+  server: 104.26.2.173
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
   udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
   ws-opts:
     headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_德国_105
-  network: ws
-  port: 443
-  server: 194.164.192.16
-  servername: apjhdggyx.com
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  name: '🇩🇪DE_7|1.0MB/s #1'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_德国_221
-  network: ws
-  port: 443
-  server: 94.159.108.42
-  servername: apjhdggyx.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_德国_228
-  network: ws
-  port: 443
-  server: 142.132.178.99
-  servername: apjhdggyx.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_218 - 156ms
@@ -1557,22 +1502,23 @@ proxies:
   port: 20001
   server: 8.209.74.72
   type: ss
-- name: 'Germany 🇩🇪 #3'
+- name: 🇩🇪134700 | ⚡️Telegram = t.me/S...
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: 45.80.111.7
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 Join+Telegram:@FarahVPN 🇩🇪
+  name: 🇩🇪 Germany Nuremberg | ⏱353ms ...
   network: tcp
-  port: 2053
-  server: node-de.connectsuite.org
-  tls: true
+  port: '18003'
+  server: 91.107.157.137
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f
+  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0197 | 0.0M...
   password: e4FCWrgpkji3QY
