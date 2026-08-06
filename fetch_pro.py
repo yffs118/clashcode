@@ -1454,28 +1454,32 @@ def main():
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
 
-    # ========== 新增调试：立即读取 list.yml 检查是否有重复组 ==========
-    print("\n[DEBUG] Re-reading list.yml to check for duplicate group names...")
+    # ========== 新增调试：立即读取 list.yml 并详细检查组名冲突 ==========
+    print("\n[DEBUG] Verifying list.yml content for group-name conflicts:")
     try:
         with open("list.yml", 'r', encoding="utf-8") as f:
             loaded = yaml.full_load(f)
-        loaded_groups = loaded.get('proxy-groups', [])
-        loaded_names = [g.get('name') for g in loaded_groups]
-        print(f"  Loaded group names: {loaded_names}")
-        seen_loaded = set()
-        dup_loaded = []
-        for name in loaded_names:
-            if name in seen_loaded:
-                dup_loaded.append(name)
-            else:
-                seen_loaded.add(name)
-        if dup_loaded:
-            print(f"  ⚠️⚠️ list.yml CONTAINS DUPLICATE NAMES: {set(dup_loaded)}")
-        else:
-            print("  No duplicate names in list.yml.")
+        groups = loaded.get('proxy-groups', [])
+        group_names = [g.get('name') for g in groups]
+        print(f"  Group names: {group_names}")
+        all_group_names = set(group_names)
+        conflict_found = False
+        for g in groups:
+            gname = g.get('name')
+            proxies = g.get('proxies', [])
+            # 只打印前5个
+            proxies_show = proxies[:5] if isinstance(proxies, list) else proxies
+            print(f"  Group '{gname}' proxies (first 5): {proxies_show}")
+            if isinstance(proxies, list):
+                for p in proxies:
+                    if p in all_group_names and p != gname:
+                        print(f"    ⚠️⚠️ CONFLICT: proxy '{p}' in group '{gname}' is also a group name.")
+                        conflict_found = True
+        if not conflict_found:
+            print("  ✅ No group-name conflicts found in list.yml.")
     except Exception as e:
-        print(f"  Failed to read list.yml for duplicate check: {e}")
-    # ==================================================================
+        print(f"  Failed to verify list.yml: {e}")
+    # ====================================================================
 
     # Meta
     conf = conf_meta
@@ -1628,7 +1632,33 @@ def main():
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta_snip}, allow_unicode=True).replace('!!str ',''))
 
-    # ========== 新增调试：立即读取 list.meta.yml 检查是否有重复组 ==========
+    # ========== 新增调试：立即读取 list.meta.yml 并详细检查组名冲突 ==========
+    print("\n[DEBUG] Verifying list.meta.yml content for group-name conflicts:")
+    try:
+        with open("list.meta.yml", 'r', encoding="utf-8") as f:
+            loaded = yaml.full_load(f)
+        groups = loaded.get('proxy-groups', [])
+        group_names = [g.get('name') for g in groups]
+        print(f"  Group names: {group_names}")
+        all_group_names = set(group_names)
+        conflict_found = False
+        for g in groups:
+            gname = g.get('name')
+            proxies = g.get('proxies', [])
+            proxies_show = proxies[:5] if isinstance(proxies, list) else proxies
+            print(f"  Group '{gname}' proxies (first 5): {proxies_show}")
+            if isinstance(proxies, list):
+                for p in proxies:
+                    if p in all_group_names and p != gname:
+                        print(f"    ⚠️⚠️ CONFLICT: proxy '{p}' in group '{gname}' is also a group name.")
+                        conflict_found = True
+        if not conflict_found:
+            print("  ✅ No group-name conflicts found in list.meta.yml.")
+    except Exception as e:
+        print(f"  Failed to verify list.meta.yml: {e}")
+    # ========================================================================
+
+    # 原有的读取重复组检查保留
     print("\n[DEBUG] Re-reading list.meta.yml to check for duplicate group names...")
     try:
         with open("list.meta.yml", 'r', encoding="utf-8") as f:
@@ -1649,7 +1679,6 @@ def main():
             print("  No duplicate names in the file.")
     except Exception as e:
         print(f"  Failed to read file for duplicate check: {e}")
-    # ======================================================================
 
     if snip_conf:
         print("正在写出配置片段...")
