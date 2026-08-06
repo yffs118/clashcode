@@ -1,7 +1,14 @@
 proxies:
+- auth: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  name: 德国
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  skip-cert-verify: false
+  sni: node-degame.bangboonet.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: ''
   name: 'Node #47'
   network: tcp
   port: 443
@@ -88,47 +95,12 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 🇨🇭 机场推荐:dafei.de 瑞士 01
+- name: 🇨🇭CH_2|2.4MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-- name: CH 1 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11005
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 2 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11007
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 3 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11006
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 4 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11004
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 5 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11000
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '瑞士 001 #1'
@@ -157,7 +129,6 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇭CH_6
   network: tcp
@@ -196,9 +167,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- encryption: none
-  flow: ''
-  name: '瑞士 006 #1'
+- name: '瑞士 006 #1'
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -209,70 +178,14 @@ proxies:
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
 - auth: 99800091-8337-4112-8756-8cc60eb1ffa8
-  name: 🇨🇭CH_1|3.0MB/s
+  name: 🇨🇭CH_1|1.7MB/s
   password: 99800091-8337-4112-8756-8cc60eb1ffa8
   port: 10808
   server: nl6.unlockvpn.online
   skip-cert-verify: true
   sni: nl6.unlockvpn.online
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_2|3.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.116
-  servername: vl06.skorostnet.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.117
-  servername: vl07.skorostnet.space
-  tls: true
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- name: 🇨🇭CH_3
-  network: tcp
-  password: y3b03zx3tznhyo538p4c
-  port: 53261
-  server: 86.106.84.195
-  skip-cert-verify: true
-  sni: 86.106.84.195
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇨🇭CH_8 - 155ms - 159ms
-  network: ws
-  port: 443
-  server: 91.245.225.17
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_4 - 155ms - 159ms
-  network: tcp
-  port: 443
-  server: 178.83.226.55
-  tls: true
-  type: vless
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- name: 🇨🇭134948 | ⚡️Telegram = t.me/S...
+- name: 🇨🇭134997 | ⚡️Telegram = t.me/L...
   port: 1080
   server: ch-zur.pvdata.host
   tls: false
@@ -300,12 +213,32 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 瑞士/伯尔尼/Switzerland/Bern
+  port: 8464
+  reality-opts:
+    public-key: TGyAcC_Doy-9s59Fra8U5M-9bQCrULrJWNxfMR9mZjE
+    short-id: '!!str bfd331f9'
+  server: edges.api-gateway-dev.top
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 2224085c-ab5e-48ac-bcdb-c67a983f70e2
 - cipher: aes-256-cfb
   name: '🇨🇭_CH_瑞士 #4'
   password: asdKkaskJKfnsa
   port: 80
   server: 84.17.53.163
   type: ss
+- name: 🇨🇭CH_3
+  network: tcp
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan
 - client-fingerprint: chrome
   name: 🇨🇭CH_8
   network: ws
