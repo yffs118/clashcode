@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|5.0MB/s - 107ms
+  password: amazonskr05
+  port: 443
+  server: 13.115.57.197
+  type: ss
+  udp: true
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
   port: 3022
@@ -893,12 +900,6 @@ proxies:
   tls: true
   type: vless
   uuid: f40ea80a-7848-4d49-b2ff-19585e4db8de
-- cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.0MB/s - 107ms
-  password: amazonskr05
-  port: 443
-  server: 13.115.57.197
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇯🇵_日本_94 - 103ms_1 - 110ms
