@@ -46,7 +46,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国 116
+  name: '美国 116 #1'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -191,6 +191,7 @@ proxies:
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: 'FR法国 #1'
   network: tcp
@@ -218,14 +219,14 @@ proxies:
   type: anytls
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2'
+  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2 ...'
   password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
   port: 56985
   server: e3.cover20.ir
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 'FR法国(mibei77.com 米贝节点分享)_4 #2'
+- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ...'
   password: 19877587-ed94-4033-88cd-4ac50a5e8718
   port: 443
   server: 104.16.148.5
@@ -236,7 +237,7 @@ proxies:
   udp: true
   ws-opts:
     path: /WangCai-8
-- name: 'FR法国(mibei77.com 米贝节点分享)_5 #2'
+- name: 🏁RELAY-172.67.174.10-19 - 25ms
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
   server: blackshadow.dpdns.org
@@ -248,6 +249,7 @@ proxies:
   ws-opts:
     path: /195.123.218.174-443
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: 🇫🇷FR_1238
   network: tcp
@@ -388,7 +390,10 @@ proxies:
     headers:
       host: ld.223350.xyz
     path: /
-- name: 法国_11
+- encryption: none
+  flow: ''
+  name: 法国_11
+  network: tcp
   port: 8443
   server: jush.sukario.ir
   skip-cert-verify: true
@@ -421,13 +426,1189 @@ proxies:
       Host: france.havray2025.ir
     max-early-data: 2560
     path: /
+- name: 🇫🇷FR_7|⬇️3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_3|⬇️6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: FRVLESS-75|free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_1|⬇️4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_6|⬇️1.2MB/s
+  network: ws
+  port: 443
+  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
+  ws-opts:
+    headers:
+      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+    path: /@Arshiacomplus
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
+  name: '未命名 #6 - 195ms'
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
+- name: 🇫🇷 FR 1 → tg@nicevpn123 - 75ms
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 10 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 11 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 12 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 13 → tg@nicevpn123
+  password: 1038bc70-fe01-11ee-a6a2-1239d0255272
+  port: 443
+  server: 51.210.182.170
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 14 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 54.38.212.91
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷 FR 15 → tg@nicevpn123
+  password: 278fff60-fc3a-11ee-a4a6-1239d0255272
+  port: 443
+  server: 51.210.182.170
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 16 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 17 → tg@nicevpn123
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: 193.70.112.90
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 18 → tg@nicevpn123 - 140...
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 19 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '美国 375 #1'
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 20 → tg@nicevpn123
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 21 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 22 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 23 → tg@nicevpn123 - 162...
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: fr3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 24 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 25 → tg@nicevpn123
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 26 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 27 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 28 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 29 → tg@nicevpn123 - 145...
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 3 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷FR-149.202.82.172-0196 | 0.0...
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 31 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 32 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 33 → tg@nicevpn123 - 142...
+  password: LE6Ee6PELhVu
+  port: 443
+  server: 92.243.24.236
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 34 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 35 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 36 → tg@nicevpn123
+  port: 35995
+  server: 51.195.140.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 28f08493-de6d-486e-84f5-5abe092ff78b
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 37 → tg@nicevpn123
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 38 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 39 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 4 → tg@nicevpn123
+  password: KkDzY101Oe
+  port: 45816
+  server: 51.195.149.115
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 40 → tg@nicevpn123
+  password: wkmY1R4EcP
+  port: 443
+  server: 45.32.148.182
+  skip-cert-verify: true
+  sni: z-v2-002805.kailib.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 41 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 42 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 43 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 44 → tg@nicevpn123
+  password: cqBAAW0fZcqQ1Bn06jwhro
+  port: 9802
+  server: 92.243.27.51
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 45 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 46 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 47 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '法国 018 #1'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 49 → tg@nicevpn123
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    path: /
+- name: 🇫🇷 FR 5 → tg@nicevpn123
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.181.197.213
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 50 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 51 → tg@nicevpn123
+  password: 7gaTTlW73G
+  port: 49602
+  server: 51.222.157.179
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 52 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.156.123
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 6 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 7 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.169.198
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 8 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.187.126
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 9 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_41
+  network: ws
+  port: 443
+  server: bab-6.site
+  servername: bab-6.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 未知87
+  network: tcp
+  port: 2053
+  server: fr.connfull.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: auto
+  name: 未知26 16.5KB/s
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: '法国 004 #1'
+  network: tcp
+  port: 27726
+  server: fj260203.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: '法国 005 #1'
+  network: tcp
+  port: 26126
+  server: 188.165.61.68
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b09b111e-f41c-4145-83c9-029027a5a745
+- alterId: 0
+  cipher: auto
+  name: '法国 006 #1'
+  network: tcp
+  port: 27726
+  server: fj260304.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知132
+  network: tcp
+  port: 36864
+  server: 2.arzankadeh.cam
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
+- alterId: 0
+  cipher: auto
+  name: '法国 008 #1'
+  network: ws
+  port: 8080
+  server: 141.11.139.82
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '法国 009 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 010 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 011 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.93
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 012 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 013 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 014 #1'
+  network: ws
+  port: 443
+  server: 146.59.118.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 015 #1'
+  network: ws
+  port: 443
+  server: 146.59.55.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 016 #1'
+  network: ws
+  port: 443
+  server: 146.59.70.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 017 #1'
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 019 #1'
+  network: grpc
+  port: 2096
+  server: 51.254.142.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
+- alterId: 0
+  cipher: auto
+  name: '法国 020 #1'
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws?ed=
+- alterId: 0
+  cipher: auto
+  name: '法国 021 #1'
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: '法国 022 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 023 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bamparda.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 024 #1'
+  network: ws
+  port: 2082
+  server: 5.196.29.123
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 025 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 026 #1'
+  network: ws
+  port: 443
+  server: 146.59.118.249
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 027 #1'
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 028 #1'
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '法国 029 #1'
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '法国 030 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: capellare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 031 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 032 #1'
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- name: '法国 033 #1'
+  network: tcp
+  port: 443
+  server: 145.239.173.163
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05e09c8a-a3a9-4bd5-acf9-2c3c87bab827
+- name: '法国 034 #1'
+  network: xhttp
+  port: 28737
+  server: 141.11.167.220
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 723345e4-9c1b-4d92-a349-7c3742f9b61a
+- name: '法国 035 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.164.120
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 036 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.164.134
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 037 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.164.37
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 038 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.164.43
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 039 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.165.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 040 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.166.68
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 041 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.167.188
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 042 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.167.190
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: '法国 043 #1'
+  network: grpc
+  port: 8880
+  server: 151.115.167.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- client-fingerprint: chrome
+  name: '法国 044 #1'
+  network: ws
+  port: 443
+  server: 45.80.108.182
+  servername: Fls1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  ws-opts:
+    headers:
+      Host: Fls1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+    path: /---
+- client-fingerprint: chrome
+  name: 🇫🇷FR_18
+  network: ws
+  port: 443
+  server: 149.202.58.99
+  servername: bab-6.site
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+- name: '法国 046 #1'
+  network: ws
+  port: 2087
+  server: 94.140.0.74
+  servername: aza002.vaslbash.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dca945d2-6d9b-434f-8754-3626a6a75e21
+  ws-opts:
+    headers:
+      Host: aza002.vaslbash.site
+    path: /
+- name: '法国 047 #1'
+  network: tcp
+  port: 22222
+  server: 15.188.109.137
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 048 #1'
+  network: tcp
+  port: 22222
+  server: 15.188.170.185
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 049 #1'
+  network: tcp
+  port: 22223
+  server: 15.188.170.185
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 050 #1'
+  network: tcp
+  port: 22224
+  server: 15.188.170.185
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 051 #1'
+  network: tcp
+  port: 22222
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 052 #1'
+  network: tcp
+  port: 22224
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 053 #1'
+  network: tcp
+  port: 22224
+  server: 15.237.147.218
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 未知 VLESS-781
+  network: tcp
+  port: 22222
+  server: 15.237.234.170
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 055 #1'
+  network: tcp
+  port: 22223
+  server: 15.237.234.170
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 056 #1'
+  network: tcp
+  port: 22222
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 057 #1'
+  network: tcp
+  port: 22223
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '法国 058 #1'
+  network: tcp
+  port: 22224
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  name: '法国 059 #1'
+  network: ws
+  port: 8443
+  server: 51.77.214.109
+  servername: s5gydl.936.us.ci
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - alpn:
   - h2
   - http/1.1
@@ -443,23 +1624,6 @@ proxies:
   type: vless
   udp: true
   uuid: b7aaffba-a242-4064-a076-79cde879441d
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 443
-  server: paul.ns.cloudflare.com
-  servername: ziro.skin
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: ziro.skin
-    path: /xxvclws
   xudp: true
 - client-fingerprint: firefox
   encryption: none
@@ -477,6 +1641,5917 @@ proxies:
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
   xudp: true
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1121 - 12ms
+  network: ws
+  port: 443
+  server: 172.66.44.97
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_240 - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.21.32
+  tls: false
+  type: vless
+  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+- alterId: 0
+  cipher: auto
+  name: '法国 029 #1 - 142ms'
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  tls: true
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: 51.254.133.152
+    path: /
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_2 - 196ms
+  network: ws
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_4 - 161ms
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_3 - 565ms
+  network: ws
+  port: 443
+  server: cloudflare-ip.mofashi.ltd
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_5 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.49.145
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_7 - 2ms
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_8 - 1ms
+  network: ws
+  port: 443
+  server: 104.19.87.194
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_9 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.43.131
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+- encryption: none
+  flow: ''
+  name: 法国(免费节点)_10 - 1ms
+  network: ws
+  port: 443
+  server: 104.24.9.6
+  tls: true
+  type: vless
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+- name: 美国_131
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_7|⬇️3.3MB/s - 2ms
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_3|⬇️6.2MB/s - 1ms
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  tls: true
+  type: vless
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+- encryption: none
+  flow: ''
+  name: FRVLESS-75|free-nodes - 1ms
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1|⬇️4.3MB/s - 1ms
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+- alterId: 0
+  cipher: auto
+  name: '法国 018 #1 - 2ms'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: 94.140.0.110
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_157 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.0.3
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1043 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.141.83
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1045 - 1ms
+  network: ws
+  port: 443
+  server: 188.114.98.66
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1042 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.137.54
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_423 - 2ms
+  network: ws
+  port: 443
+  server: 104.21.2.192
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_410 - 1ms
+  network: ws
+  port: 443
+  server: 198.41.209.80
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_478 - 1ms
+  network: ws
+  port: 443
+  server: 104.21.117.9
+  tls: true
+  type: vless
+  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_262 - 2ms
+  network: ws
+  port: 443
+  server: 172.64.32.6
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_187 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.0.8
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_889 - 1ms
+  network: ws
+  port: 443
+  server: 108.162.192.9
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1062 - 1ms
+  network: ws
+  port: 443
+  server: 172.64.32.7
+  tls: true
+  type: vless
+  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_41 - 193ms
+  network: ws
+  port: 443
+  server: bab-6.site
+  tls: true
+  type: vless
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+- alterId: 0
+  cipher: auto
+  name: '法国 017 #1 - 168ms'
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 146.59.85.226
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 023 #1 - 141ms'
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 51.77.20.140
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 025 #1 - 141ms'
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 91.134.8.101
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 027 #1 - 165ms'
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: 194.9.172.65
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 028 #1 - 147ms'
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: 193.160.130.245
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_464 - 2ms
+  network: ws
+  port: 80
+  server: 188.114.98.112
+  tls: false
+  type: vless
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_893 - 1ms
+  network: ws
+  port: 443
+  server: 104.16.72.251
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_763 - 1ms
+  network: ws
+  port: 8880
+  server: 104.16.72.101
+  tls: false
+  type: vless
+  uuid: 26fb53e4-fd49-4b34-b605-b6cc1b1a06a8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1108 - 1ms
+  network: ws
+  port: 8443
+  server: 104.21.26.97
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_325 - 1ms
+  network: ws
+  port: 8443
+  server: 172.66.3.90
+  tls: true
+  type: vless
+  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1115 - 1ms
+  network: ws
+  port: 2053
+  server: 108.162.195.7
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_180 - 1ms
+  network: ws
+  port: 2095
+  server: 172.64.146.66
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: '法国 044 #1 - 1ms'
+  network: ws
+  port: 443
+  server: 45.80.108.182
+  tls: true
+  type: vless
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1282 - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.36.122
+  tls: false
+  type: vless
+  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_18 - 142ms
+  network: ws
+  port: 443
+  server: 149.202.58.99
+  tls: true
+  type: vless
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_173 - 1ms
+  network: ws
+  port: 8080
+  server: 104.21.44.253
+  tls: false
+  type: vless
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1283 - 1ms
+  network: ws
+  port: 443
+  server: 104.17.248.26
+  tls: true
+  type: vless
+  uuid: c9d1b8e6-f28a-419f-2581-97ad3258c320
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1156 - 1ms
+  network: ws
+  port: 443
+  server: 104.24.192.212
+  tls: true
+  type: vless
+  uuid: c9d1b8e6-f28a-419f-2581-97ad3258c320
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1077 - 1ms
+  network: ws
+  port: 2053
+  server: 104.18.32.47
+  tls: true
+  type: vless
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1047 - 1ms
+  network: ws
+  port: 2053
+  server: 172.64.155.209
+  tls: true
+  type: vless
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
+- encryption: none
+  flow: ''
+  name: '法国 046 #1 - 1ms'
+  network: ws
+  port: 2087
+  server: 94.140.0.74
+  tls: true
+  type: vless
+  uuid: dca945d2-6d9b-434f-8754-3626a6a75e21
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1129 - 36ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.18.42.163
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1289 - 7ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.146.211
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_228 - 157ms - 159ms - 14...
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: 152.228.191.232
+    path: /
+- name: 🇫🇷FR_1304
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  type: trojan
+- name: 🇫🇷FR_1303
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷_法国_207 - 136ms - 142ms
+  network: ws
+  port: 443
+  server: 57.128.183.133
+  tls: true
+  type: vless
+  uuid: 43694943-d64e-4393-a3cd-8c38de1c2a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷_法国_206 - 141ms - 136ms
+  network: ws
+  port: 443
+  server: 57.128.177.198
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- encryption: none
+  flow: ''
+  name: 🇫🇷_法国_226 - 147ms - 142ms
+  network: ws
+  port: 443
+  server: 45.63.114.83
+  tls: true
+  type: vless
+  uuid: 43694943-d64e-4393-a3cd-8c38de1c2a4e
+- name: 🇫🇷134720 | ⚡️Telegram = t.me/S...
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_728
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
+    short-id: '!!str a91045bc'
+  server: 163.5.153.153
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1191
+  network: tcp
+  port: 40133
+  reality-opts:
+    public-key: FDnQBm11AA6TUNmcyQAo0wJnl2mt1oozbOG-FSVi6DU
+    short-id: '!!str 87806cfd2dcfcd'
+  server: 35.181.171.182
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 1e3c6e25-0c65-4927-91cb-79982fd6dafc
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1158
+  network: tcp
+  port: 42287
+  reality-opts:
+    public-key: TeQRou69R4O0YCR0b28I3PF97W9zc3Qf-zUvlOZA43M
+    short-id: '!!str 946e4c05cc69e1'
+  server: 15.237.122.88
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 1fe3eba8-86ef-4bce-9fb4-c7517954b2e2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_854 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.192.0
+  tls: true
+  type: vless
+  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+- encryption: none
+  flow: ''
+  name: 法国_巴黎 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 185.16.110.91
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_200
+  network: tcp
+  port: 12228
+  reality-opts:
+    public-key: hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI
+    short-id: '!!str 59625eb3275249ca'
+  server: 35.180.187.82
+  servername: www.tesla.com
+  tls: true
+  type: vless
+  uuid: 795d5f5b-318c-49a6-844f-ee2ab63bbe94
+- encryption: none
+  flow: ''
+  name: '法国_巴黎 #1 - 1ms - 1ms'
+  network: ws
+  port: 443
+  server: 185.16.110.91
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1272
+  network: tcp
+  port: 8443
+  server: 45.95.233.214
+  servername: frx1.braidx.tech
+  tls: true
+  type: vless
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
+- encryption: none
+  flow: ''
+  name: '法国_巴黎 #2 - 1ms - 1ms'
+  network: ws
+  port: 443
+  server: 185.16.110.103
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '%3E%3E%40FreakConfig::FR - 2ms...'
+  network: xhttp
+  port: 443
+  server: 188.114.96.3
+  tls: true
+  type: vless
+  uuid: a96d28ab-5018-4604-8fd6-2273f0eccaa4
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1190
+  network: tcp
+  port: 17912
+  reality-opts:
+    public-key: r2mEqqAXfLwVVhxuuIvI9koUrBm0wRYII_eFjuUxWg0
+    short-id: '!!str 6901e5e9bf3a8a0b'
+  server: 15.236.201.26
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: b05038a1-acce-4a4d-a952-425b845c981a
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1294 - 166ms - 173ms
+  network: tcp
+  port: 443
+  server: nasnet-162191099-direct.mbghalibaf.com
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 法国_马赛 - 157ms - 158ms
+  network: ws
+  port: 443
+  server: 110.724064.xyz
+  tls: true
+  type: vmess
+  uuid: b11208a0-d0b1-486d-95bb-7e88ed6012b9
+  ws-opts:
+    headers:
+      Host: 110.724064.xyz
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_949 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.6.189
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_803 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1013 - 276ms - 188ms
+  network: ws
+  port: 443
+  server: free77-sg3.node2.top
+  tls: true
+  type: vless
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_917 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.4.189
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_944 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.74.10
+  tls: true
+  type: vless
+  uuid: 577699f7-468d-4b63-ae21-cdcdfd8d11c2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_35 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 104.26.6.23
+  tls: true
+  type: vless
+  uuid: 09e38b01-3bc2-42ac-bb71-68f8b72b8f19
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_858 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 8.39.125.152
+  tls: true
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+- encryption: none
+  flow: ''
+  name: 🇫🇷 FR 776 | ⬇️ 17KB/s - 141ms ...
+  network: ws
+  port: 2096
+  server: 87.98.131.32
+  tls: true
+  type: vless
+  uuid: 7772bb24-976a-45ca-aa76-f4f1b7f50923
+- name: 🇫🇷FR_646 - 2ms - 1ms
+  password: bd85f5fe32d9446a8b1f59e4f710455b
+  port: 443
+  server: 104.24.163.206
+  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_118 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.178.154
+  tls: false
+  type: vless
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1325 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.159.79
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1229 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.16.150.130
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_849 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.134.102
+  tls: false
+  type: vless
+  uuid: abd3678b-f654-404c-adc7-1355865197e1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_115 - 15ms - 16ms
+  network: ws
+  port: 8880
+  server: codecanyon.net
+  tls: false
+  type: vless
+  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1039 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.163.129
+  tls: true
+  type: vless
+  uuid: 66785f3e-d3ee-4308-8010-95e9b58aa36a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_51 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.16.100.66
+  tls: false
+  type: vless
+  uuid: 59a0424b-d36b-4685-bac5-89d50d8969a8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_146 - 15ms - 18ms
+  network: ws
+  port: 8880
+  server: themeforest.net
+  tls: false
+  type: vless
+  uuid: 80f083d3-8348-4514-b075-62f303b7fd86
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_95 - 22ms - 23ms
+  network: ws
+  port: 2095
+  server: cf4.466688.xyz
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_611 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 188.114.97.7
+  tls: true
+  type: vless
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_828 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.52.196
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_394 - 2ms - 1ms
+  network: ws
+  port: 80
+  server: 162.159.252.211
+  tls: false
+  type: vless
+  uuid: 3087ca05-1a7c-45fa-aec9-805adeaedb1b
+- name: 🇫🇷FR_373 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_136 - 2ms - 1ms
+  network: ws
+  port: 2096
+  server: 188.114.97.6
+  tls: true
+  type: vless
+  uuid: c648c6d0-4d3e-4f51-8ee6-4fcdbdddd684
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_58 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 162.159.46.0
+  tls: false
+  type: vless
+  uuid: 01c2fb74-10b5-452d-b893-67cb528b6a8d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1161 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.158.253
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_898 - 1ms - 2ms
+  network: ws
+  port: 8880
+  server: 8.47.69.0
+  tls: false
+  type: vless
+  uuid: a8178248-3cdf-4fb0-ab7b-87c1ab77201c
+- name: 🇫🇷FR_1049 - 2ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.17.125
+  sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1369 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.8.176
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_322 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.25.244.217
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_238 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.81.7
+  tls: false
+  type: vless
+  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_712 - 15ms - 9ms
+  network: ws
+  port: 443
+  server: odd-violet-5440.asdgrweeee13.workers.dev
+  tls: true
+  type: vless
+  uuid: 1443b7a1-7ba9-4ec9-b904-2e867367b5d7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_523 - 2ms - 1ms
+  network: ws
+  port: 2083
+  server: 162.159.36.5
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_323 - 116ms - 111ms
+  network: ws
+  port: 2087
+  server: mfa.gov.ua
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_817 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.6.235
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1102 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_246 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.207.26
+  tls: false
+  type: vless
+  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_77 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.250
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1003 - 33ms - 1ms
+  network: ws
+  port: 8443
+  server: singapore.com
+  tls: true
+  type: vless
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1318 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.40.251
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_539 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.53.160
+  tls: true
+  type: vless
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1329 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.33.232
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇫🇷FR_59 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_862 - 399ms - 574ms
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_632 - 2ms - 1ms
+  network: ws
+  port: 80
+  server: 104.18.109.147
+  tls: false
+  type: vless
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_160 - 24ms - 113ms
+  network: ws
+  port: 2095
+  server: itarmy.com.ua
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_609 - 2ms - 2ms
+  network: ws
+  port: 2087
+  server: 104.18.32.47
+  tls: true
+  type: vless
+  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_846 - 1ms - 2ms
+  network: ws
+  port: 2087
+  server: 162.159.36.117
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_363 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 172.67.75.55
+  tls: true
+  type: vless
+  uuid: b7bda73b-9852-480e-86ff-616789593610
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_660 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 188.114.96.3
+  tls: true
+  type: vless
+  uuid: 0779dc74-2464-461f-90ef-874e4cae7fae
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_919 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 172.67.250.163
+  tls: false
+  type: vless
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b30000002e
+- name: 🇫🇷FR_355 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_620
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  server: 62.210.91.2
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_114 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: 104.18.13.229
+  tls: false
+  type: vless
+  uuid: b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_549 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 23.227.60.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: 🇫🇷FR_844 - 2ms - 2ms
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  sni: vless.herogoing.top
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_571 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 31.185.108.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1106 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.3.189
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_587 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 104.25.217.123
+  tls: false
+  type: vless
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_393 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.135.69
+  tls: true
+  type: vless
+  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_662 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.137.154
+  tls: true
+  type: vless
+  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_830 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 108.162.195.244
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_951 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 173.245.58.121
+  tls: true
+  type: vless
+  uuid: 18141f52-3898-490d-95f1-1608f412bf86
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_979 - 6ms - 1ms
+  network: ws
+  port: 2095
+  server: cdnjs.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1053 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.19.35.164
+  tls: true
+  type: vless
+  uuid: 0ac21825-6826-42bc-8680-9f8f2603c7da
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_124 - 88ms - 239ms
+  network: ws
+  port: 2096
+  server: courses.mftplus.qzz.io
+  tls: true
+  type: vless
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_447 - 2ms - 1ms
+  network: ws
+  port: 2096
+  server: 104.16.241.173
+  tls: true
+  type: vless
+  uuid: d6bbaa54-2fa9-46b9-8f6d-42ccdfc9122b
+- name: 🇫🇷FR_295 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_329 - 10ms - 20ms
+  network: ws
+  port: 2096
+  server: soskeynets.hamrahfree1.workers.dev
+  tls: true
+  type: vless
+  uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_765 - 1ms - 1ms
+  network: ws
+  port: 2052
+  server: 172.67.215.44
+  tls: false
+  type: vless
+  uuid: 86442a2b-417d-426d-9b42-955573b5c6e4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1396 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.87.52
+  tls: true
+  type: vless
+  uuid: 7c76c77b-0e66-4bf6-acdc-fc577bd8af49
+- name: 🇫🇷FR_927 - 11ms - 11ms
+  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  port: 443
+  server: app-538961.user-y0o4gm.workers.dev
+  sni: app-538961.user-y0o4gm.workers.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_824 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.145.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_343 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 104.21.46.101
+  tls: false
+  type: vless
+  uuid: 4a956dfd-b65a-4846-b6da-c85fc79918a5
+- name: 🇫🇷FR_391 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1366 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.239.125
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1128 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.147.104
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: 🇫🇷FR_446 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_430 - 38ms - 18ms
+  network: ws
+  port: 443
+  server: nahan-core.fatitelegram.workers.dev
+  tls: true
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_203 - 5ms - 25ms
+  network: ws
+  port: 8880
+  server: envato.com
+  tls: false
+  type: vless
+  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_119 - 3ms - 1ms
+  network: ws
+  port: 8880
+  server: icook.tw
+  tls: false
+  type: vless
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_709 - 13ms - 13ms
+  network: ws
+  port: 8880
+  server: vmess.a-amr79.workers.dev
+  tls: false
+  type: vless
+  uuid: abd3678b-f654-404c-adc7-1355865197e1
+- name: 🇫🇷FR_218 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_375 - 8ms - 27ms
+  network: ws
+  port: 8880
+  server: www.iplocation.net
+  tls: false
+  type: vless
+  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
+- name: 🇫🇷FR_1181 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1328 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.164.130
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_347 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 🇫🇷FR_1222
+  network: tcp
+  port: 6500
+  reality-opts:
+    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
+  server: france.relvuno.ir
+  servername: play.google.com
+  tls: true
+  type: vless
+  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_964 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.0.1
+  tls: true
+  type: vless
+  uuid: 9a3de3e0-2a6e-4bb2-81bd-1a4e51dfa110
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_110 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.58.113
+  tls: false
+  type: vless
+  uuid: 14e0ab2e-fb3e-4fd1-a6d9-62eeae62976b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1355 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.5.185
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_82 - 3ms - 2ms
+  network: ws
+  port: 443
+  server: 104.21.75.46
+  tls: true
+  type: vless
+  uuid: 690b6997-198a-49d2-8cef-e4c70efc2288
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_66 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.12.116
+  tls: false
+  type: vless
+  uuid: ad85a1ce-3519-4634-9ea1-66c60d3694ba
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_990 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 188.114.98.134
+  tls: true
+  type: vless
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
+- name: 🇫🇷FR_26 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_743 - 2ms - 1ms
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1319 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 104.17.162.2
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_43 - 2ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.176.31
+  tls: false
+  type: vless
+  uuid: b3a5f201-eeaf-40c8-909c-72f4860cefc8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1298 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.24.135.190
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1359 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.48.21
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1133 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.144.66
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1207 - 2ms - 2ms
+  network: ws
+  port: 8443
+  server: 104.16.174.232
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_948 - 1ms - 3ms
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_701 - 11ms - 12ms
+  network: ws
+  port: 2053
+  server: 0406.infinityconfig7.workers.dev
+  tls: true
+  type: vless
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000001
+- name: 🇫🇷FR_519 - 15ms - 24ms
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_931 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.21.23.79
+  tls: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-ac6f9341c0e1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_873 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.187.219
+  tls: false
+  type: vless
+  uuid: f32b0ea8-5b9f-4ee2-b20c-0bdfd2057e1d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1334 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.126.160
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_810 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.8.155
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_409 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_950 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 172.67.180.173
+  tls: true
+  type: vless
+  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
+- name: 🇫🇷FR_1180 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.67.147.60
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_884 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.33.117
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_484 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.235
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_657 - 11ms - 10ms
+  network: ws
+  port: 443
+  server: ez-4b5fd4.appelidmymat.workers.dev
+  tls: true
+  type: vless
+  uuid: 566c0473-382e-aabb-c62a-f5bb00000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1031 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 104.18.3.186
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1235 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.148.6
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1200 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.16.174.227
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_121 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.34.245
+  tls: false
+  type: vless
+  uuid: 0b01d4d8-656d-4d55-8ad5-ed2a362788b5
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_875 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.158.249
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_84 - 10ms - 12ms
+  network: ws
+  port: 443
+  server: o.server5peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: 04cb9c0f-363c-4bf8-a195-2cb8bd43b02a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_872 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.153.110
+  tls: true
+  type: vless
+  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_811 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.33.118
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1308 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.96.35
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_436 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.20.32.53
+  tls: true
+  type: vless
+  uuid: 3bad1d20-8601-49be-86a2-2141d21dec99
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1193 - 16ms - 16ms
+  network: ws
+  port: 443
+  server: 3x-ui-multi-production-e301.up.railway.app
+  tls: true
+  type: vless
+  uuid: 5e24063f-a570-48e7-8888-084f9628501a
+- alterId: 0
+  name: 🇺🇸US美国4
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1326 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 172.64.229.68
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_249 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.17.111.27
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_293 - 11ms - 15ms
+  network: ws
+  port: 443
+  server: free.server6peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: d195909a-eff4-489d-a261-955b904894cb
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_827 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.53.238
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_566 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.21.200.243
+  tls: true
+  type: vless
+  uuid: 7074b9d7-2183-8919-fc11-ca5e00000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_341 - 4ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.25.157.74
+  tls: true
+  type: vless
+  uuid: 3cb4c775-bf08-4158-a0e3-cbae9ac452d7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1281 - 11ms - 21ms
+  network: ws
+  port: 443
+  server: tasiyanc.nova-5e611f.workers.dev
+  tls: true
+  type: vless
+  uuid: 4bde007a-f683-4a43-83ad-e11eff35e6b4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_280 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.19.35.8
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1152 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 172.67.64.127
+  tls: true
+  type: vless
+  uuid: bc687a84-b426-4190-b2d4-c8ec115c5b65
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1384 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.65.1
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_961 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.66.40.139
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_286 - 11ms - 9ms
+  network: ws
+  port: 443
+  server: plain-shadow-821f.pfegehejrrjrjjrj.workers.dev
+  tls: true
+  type: vless
+  uuid: fbca467d-cb8a-4dac-b513-efe5fdd5c591
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1335 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.19.144.255
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1386 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.139.37
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇫🇷FR_1168 - 203ms - 219ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cnamefuckxxs.yuchen.icu
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_64 - 8ms - 24ms
+  network: ws
+  port: 8880
+  server: cf2.466688.xyz
+  tls: false
+  type: vless
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_581 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.21.61.23
+  tls: true
+  type: vless
+  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_962 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: 8.34.70.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_545 - 11ms - 12ms
+  network: ws
+  port: 2096
+  server: peekconfig.hamrahfree2.workers.dev
+  tls: true
+  type: vless
+  uuid: c648c6d0-4d3e-4f51-8ee6-4fcdbdddd684
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_489 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.25.168
+  tls: false
+  type: vless
+  uuid: abd3678b-f654-404c-adc7-1355865197e1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_13 - 115ms - 1ms
+  network: ws
+  port: 8880
+  server: www.baipiao.eu.org
+  tls: false
+  type: vless
+  uuid: 75e19908-ecd0-4c71-99d2-4f343a52a4d9
+- name: 🇫🇷FR_52 - 73ms - 20ms
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  sni: vless.herogoing.top
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_580 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.190.141
+  tls: false
+  type: vless
+  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1159 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.34.21
+  tls: true
+  type: vless
+  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_116 - 11ms - 10ms
+  network: ws
+  port: 443
+  server: mohamad.fantomgavi.workers.dev
+  tls: true
+  type: vless
+  uuid: 8890bbf7-1da1-4c74-8b01-71d261688a4f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_303 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.153.4
+  tls: true
+  type: vless
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_913 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.148.22
+  tls: true
+  type: vless
+  uuid: e8141d34-8c3a-42f7-9ef6-be4900000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_720 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.8.176
+  tls: true
+  type: vless
+  uuid: 7da33b25-cdd6-e481-afcf-c5d532361a70
+- name: 🇫🇷FR_216 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_845 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 162.159.17.128
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_887 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.251.148
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_444 - 25ms - 14ms
+  network: ws
+  port: 443
+  server: biyapain.biyapainbache.workers.dev
+  tls: true
+  type: vless
+  uuid: 5a5fba4d-6ae8-4975-936d-bb643fb15957
+- name: 🇫🇷FR_338 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_231 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1353 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.69.244
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_926 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.153.57
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_576 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.66.140.62
+  tls: false
+  type: vless
+  uuid: 5a4d9f40-56db-402a-9fbc-31c9229bdcf6
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1284 - 14ms - 10ms
+  network: ws
+  port: 443
+  server: empty-water-a05b.gfbghfbfngbdgbghngf.workers.dev
+  tls: true
+  type: vless
+  uuid: f6a92fa2-5685-3c70-16d5-ba38b388dbbf
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_835 - 143ms - 145ms
+  network: ws
+  port: 443
+  server: 104.155.124.198
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_606 - 25ms - 5ms
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: jquery.com
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_171 - 380ms - 2ms
+  network: ws
+  port: 8880
+  server: cf5.466688.xyz
+  tls: false
+  type: vless
+  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1116 - 40ms - 20ms
+  network: ws
+  port: 443
+  server: testcf.motherfuck.dpdns.org
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1370 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.82.185
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1225 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 172.67.195.73
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_969 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 172.67.148.26
+  tls: false
+  type: vless
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_125 - 2ms - 1ms
+  network: ws
+  port: 2053
+  server: 188.114.97.6
+  tls: true
+  type: vless
+  uuid: 8cf1e524-ce8c-4c63-8440-3ecd687f5e8d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_806 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.53.218
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1012 - 1ms - 1ms
+  network: ws
+  port: 2052
+  server: 104.17.95.220
+  tls: false
+  type: vless
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 🇫🇷FR_1293
+  network: tcp
+  port: 6500
+  reality-opts:
+    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
+  server: 57.130.31.6
+  servername: play.google.com
+  tls: true
+  type: vless
+  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1201 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.8
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_631 - 8ms - 6ms
+  network: ws
+  port: 2095
+  server: support.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_869 - 20ms - 10ms
+  network: ws
+  port: 443
+  server: event-bus-c22219-edg.staging-api-5de174.workers.dev
+  tls: true
+  type: vless
+  uuid: 850371e8-bce4-4500-abd7-2a76df3b78da
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1379 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.178.91
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_641 - 3ms - 5ms
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_30 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 198.41.208.252
+  tls: false
+  type: vless
+  uuid: d6bdda67-168d-4501-a2c1-ef01070cb327
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_172 - 6ms - 6ms
+  network: ws
+  port: 2095
+  server: cloudflare-dns.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_372 - 10ms - 12ms
+  network: ws
+  port: 443
+  server: summer-meadow-af5b.woowoorrrkk.workers.dev
+  tls: true
+  type: vless
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_840 - 59ms - 1ms
+  network: ws
+  port: 443
+  server: icook.hk
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_86 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.17.158.218
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_825 - 493ms - 402ms
+  network: ws
+  port: 443
+  server: alist.sm.uy
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1388 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 162.159.129.226
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1278 - 3ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.16.174.181
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1352 - 2ms - 1ms
+  network: ws
+  port: 2096
+  server: 104.18.12.110
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1203 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.148.4
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_131 - 61ms - 56ms
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1387 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.142.212
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_254 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.15.212
+  tls: false
+  type: vless
+  uuid: 902fd911-ca5d-49a6-99ad-47372a266804
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_833 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 162.159.11.220
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_401 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 104.21.11.152
+  tls: false
+  type: vless
+  uuid: d7a8ae86-9904-4f71-8fe4-d754ded610d7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_57 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 104.25.244.62
+  tls: false
+  type: vless
+  uuid: 3076f0f0-558c-cbb3-0570-ca4200000014
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_955 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.17.146.18
+  tls: true
+  type: vless
+  uuid: a039c938-0792-424a-8a8a-d0508c7fcab1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_237 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.152.71
+  tls: false
+  type: vless
+  uuid: 21b93e91-5bb1-4d6d-9093-1fd09ae06903
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_550 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 104.25.122.72
+  tls: false
+  type: vless
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1338 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.33.59
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_3 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.67.75.194
+  tls: true
+  type: vless
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+- name: 🇫🇷FR_1171 - 316ms - 316ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.877771.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_509 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.212.81
+  tls: true
+  type: vless
+  uuid: 52322144-50c7-9d9f-6ba9-fdb600000003
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1358 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.10.136
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1127 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.26.7.214
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_6 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_470 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.26.12.41
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- name: 🇫🇷FR_1177 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.3.212
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_448 - 13ms - 9ms
+  network: ws
+  port: 443
+  server: soskeynets-meadow-af5b.woowoorrrkk.workers.dev
+  tls: true
+  type: vless
+  uuid: a8890c1b-3622-3106-c4be-d8671be32d2b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1340 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.17.25.48
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_433 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.67.219.176
+  tls: true
+  type: vless
+  uuid: f2f4e2dc-3e7b-402f-a461-b48acc6aa310
+- name: 🇫🇷FR_230 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_400 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.43.121
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_676 - 10ms - 11ms
+  network: ws
+  port: 8080
+  server: server1.poludiro.workers.dev
+  tls: false
+  type: vless
+  uuid: d98c1be3-7837-4d8a-a9fc-05e7a807ccb0
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1306 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.121.89
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_314 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.147.22
+  tls: true
+  type: vless
+  uuid: 2db92da9-8ffb-491b-81d6-6e8d50876020
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1383 - 14ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.18.11.39
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_829 - 2ms - 2ms
+  network: ws
+  port: 8443
+  server: 172.64.154.5
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1111 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.19.54.116
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- name: 🇫🇷FR_1024 - 1ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 188.114.96.7
+  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_153 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 172.67.164.152
+  tls: true
+  type: vless
+  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_881 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 188.114.97.3
+  tls: true
+  type: vless
+  uuid: c5db14f6-2a21-401c-8160-a8093ff4ffd3
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1377 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.52.53
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_126 - 14ms - 13ms
+  network: ws
+  port: 443
+  server: server15.peekconf1-741.workers.dev
+  tls: true
+  type: vless
+  uuid: 78b9ac78-ebdf-4e51-8114-f6b0cd6d2169
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_399 - 16ms - 147ms
+  network: ws
+  port: 8880
+  server: upwork.com
+  tls: false
+  type: vless
+  uuid: 52fb52b1-82de-4c6f-b7d3-599ce5d57f1c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_841 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 8.6.112.0
+  tls: true
+  type: vless
+  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_848 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 172.67.186.192
+  tls: true
+  type: vless
+  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_63 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 172.64.189.5
+  tls: true
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_534 - 11ms - 10ms
+  network: ws
+  port: 443
+  server: billowing-sunset-e340.qaraatayi.workers.dev
+  tls: true
+  type: vless
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_102 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 162.159.48.193
+  tls: false
+  type: vless
+  uuid: ba746959-18e7-471c-b00f-fa5cdd930abf
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_894 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.22.240
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: 🇫🇷FR_404 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_594 - 12ms - 11ms
+  network: ws
+  port: 443
+  server: cgxgqcheiamna-jks01fidlsnqojwf-s.aliama.workers.dev
+  tls: true
+  type: vless
+  uuid: d8c14c5c-a80a-4f6f-a5fb-52071849c443
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_117 - 10ms - 9ms
+  network: ws
+  port: 443
+  server: purple-butterfly-8496.erfannull36.workers.dev
+  tls: true
+  type: vless
+  uuid: 29fb68bb-ff05-4fd4-8393-cc6c05d81a79
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1219 - 2ms - 2ms
+  network: ws
+  port: 2086
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: bba14c1d-f08c-4c9a-ac87-cf85d38d8aff
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1275 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.148.12
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1307 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.115.223
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1380 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.15.182
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_14 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.66.214.247
+  tls: false
+  type: vless
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_621 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.153.235
+  tls: true
+  type: vless
+  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_378 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.66.3.133
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1109 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1034 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 172.67.170.206
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_978 - 7ms - 6ms
+  network: ws
+  port: 443
+  server: hcaptcha.com
+  tls: true
+  type: vless
+  uuid: 60631b26-691b-40dc-9255-436a9b612754
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_937 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.40.56
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1210 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.148.9
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_222 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.16.72.21
+  tls: false
+  type: vless
+  uuid: 26fb53e4-fd49-4b34-b605-b6cc1b1a06a8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_40 - 106ms - 85ms
+  network: ws
+  port: 2083
+  server: fans.liverpool.qzz.io
+  tls: true
+  type: vless
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_107 - 8ms - 25ms
+  network: ws
+  port: 8880
+  server: anydesk.com
+  tls: false
+  type: vless
+  uuid: e431026f-d605-4a52-8b3b-0912a68dc9d1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_605 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 45.130.125.126
+  tls: true
+  type: vless
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1295 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.12
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_511 - 3ms - 2ms
+  network: ws
+  port: 8880
+  server: chat.openai.com
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_992 - 2ms - 1ms
+  network: ws
+  port: 2052
+  server: 104.17.201.245
+  tls: false
+  type: vless
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_474 - 12ms - 16ms
+  network: ws
+  port: 443
+  server: o.server2peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: ca185ddd-de24-4bc0-b907-232fe947b538
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_16 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 173.245.58.214
+  tls: true
+  type: vless
+  uuid: 88203f09-90ad-4e89-8707-cc26cf2a1591
+- name: 🇫🇷FR_1279 - 16ms - 17ms
+  password: eb2b32c4-8844-4e79-8ec8-133a8a3aca3c
+  port: 443
+  server: yuzhenb886.dpdns.org
+  sni: yuzhenb886.dpdns.org
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_814 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.52.97
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1098 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.159.76
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1206 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.11
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_799 - 2ms - 1ms
+  network: ws
+  port: 80
+  server: 104.27.2.172
+  tls: false
+  type: vless
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000025
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_198 - 78ms - 15ms
+  network: ws
+  port: 80
+  server: e33xr.qzz.io
+  tls: false
+  type: vless
+  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
+- name: 🇫🇷FR_227 - 1ms - 2ms
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1277 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 162.159.43.219
+  tls: true
+  type: vless
+  uuid: fb5f9d98-f658-4546-8e93-74815ec25d0d
+- name: 🇫🇷FR_214 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_501 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.20.39.109
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1208 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.148.11
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1209 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.6
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_403 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 172.67.213.218
+  tls: true
+  type: vless
+  uuid: e6b59d15-364c-4025-899a-84efa291d651
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1202 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.9
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1300 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.244
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_977 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 104.17.134.117
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_461 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 88.216.69.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_148 - 2ms - 2ms
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 7201b2cd-0675-4c1a-9c76-07ca14ffcf08
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1322 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.159.105
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_272 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.151.77
+  tls: true
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000000
+- name: 🇫🇷FR_402 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_714 - 9ms - 12ms
+  network: ws
+  port: 443
+  server: app-q0zc4t.user-4gfyh5.workers.dev
+  tls: true
+  type: vless
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_745 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 104.21.19.53
+  tls: false
+  type: vless
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000003
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1357 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.11.234
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_852 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.96.1
+  tls: true
+  type: vless
+  uuid: 0836463b-214f-4af6-aa85-85a56a62388e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1368 - 2ms - 1ms
+  network: ws
+  port: 2096
+  server: 104.18.11.39
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_74 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.56.202
+  tls: false
+  type: vless
+  uuid: f769b7ea-9cd1-4d61-b578-7644b7c8eb3d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_8 - 1ms - 2ms
+  network: ws
+  port: 8880
+  server: 162.159.156.214
+  tls: false
+  type: vless
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_80 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 172.67.215.201
+  tls: true
+  type: vless
+  uuid: f8fff57f-224a-4ae3-80c1-a9299796ad7c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_455 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.247
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_839 - 172ms - 225ms
+  network: ws
+  port: 443
+  server: cu.877774.xyz
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_367 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.147.118
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_656 - 18ms - 12ms
+  network: ws
+  port: 2083
+  server: volexproxy.karjadidd.workers.dev
+  tls: true
+  type: vless
+  uuid: 766f6c65-0000-4000-8000-787000000002
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_90 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.28
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_206 - 12ms - 1ms
+  network: ws
+  port: 2087
+  server: www.shopify.com
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1022 - 16ms - 18ms
+  network: ws
+  port: 443
+  server: ez-3f629f.ezaccess13e8669.workers.dev
+  tls: true
+  type: vless
+  uuid: 15d5b6ed-8a00-c843-fe6d-b6a300000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_48 - 12ms - 1ms
+  network: ws
+  port: 8880
+  server: skk.moe
+  tls: false
+  type: vless
+  uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_422 - 11ms - 11ms
+  network: ws
+  port: 443
+  server: free.server14peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_273 - 393ms - 2ms
+  network: ws
+  port: 2095
+  server: cf.090227.xyz
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_44 - 2ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.16.43.192
+  tls: true
+  type: vless
+  uuid: 88e32d76-b49f-44ee-a90a-1ad01d542d55
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1245 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.19.214.98
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_773 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 104.16.248.249
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1313 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.144.40
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_212 - 4ms - 2ms
+  network: ws
+  port: 2053
+  server: 104.17.172.114
+  tls: true
+  type: vless
+  uuid: ad4ae058-cd7e-4e69-a6f7-aee7ce7b0e6e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_708 - 11ms - 10ms
+  network: ws
+  port: 443
+  server: bpb-panel-4e2c.sakwra939.workers.dev
+  tls: true
+  type: vless
+  uuid: d713a25e-d96c-4755-94f4-9a0e0cd1ad68
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1035 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.143.54
+  tls: false
+  type: vless
+  uuid: b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_639 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.174.249
+  tls: true
+  type: vless
+  uuid: 26b35808-f1e1-4b97-8c69-46796f058d8b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_469 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.23.117
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- name: 🇫🇷FR_359 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1356 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.18.12
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_945 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 104.27.66.214
+  tls: true
+  type: vless
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1330 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.40.124
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- client-fingerprint: firefox
+  encryption: none
+  flow: ''
+  name: 🇫🇷FR_39
+  network: xhttp
+  port: 32202
+  reality-opts:
+    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
+    short-id: '!!str f57d8f26'
+  server: 62.210.24.143
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
+  ws-opts:
+    path: /G3EEoH63
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_731 - 10ms - 22ms
+  network: ws
+  port: 443
+  server: channel.t-me-sh4dow-vpn.workers.dev
+  tls: true
+  type: vless
+  uuid: 9ec16323-954c-4b09-aec9-367e18844fa8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_952 - 3ms - 2ms
+  network: ws
+  port: 443
+  server: 141.101.114.8
+  tls: true
+  type: vless
+  uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1336 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 104.17.59.88
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1367 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.62.191
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_900 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.1.1
+  tls: true
+  type: vless
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_521 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 172.67.133.44
+  tls: false
+  type: vless
+  uuid: af19ce98-b58b-43ef-9f0d-2ae6343e28fe
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_290 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.185.65
+  tls: false
+  type: vless
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000003
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1378 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.123.78
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_787 - 12ms - 11ms
+  network: ws
+  port: 443
+  server: small-scene-f215.amiralizarefast1.workers.dev
+  tls: true
+  type: vless
+  uuid: d9f94532-c4d4-4f94-ba23-6eb6d35bfc7d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_538 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.55.229
+  tls: false
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_490 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.75.235
+  tls: true
+  type: vless
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_481 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.19.35.206
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1205 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.148.3
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_328 - 1ms - 1ms
+  network: ws
+  port: 2082
+  server: 104.19.1.100
+  tls: false
+  type: vless
+  uuid: e11664a1-39e9-4dd8-a432-b712ec423262
+- name: 🇫🇷FR_735 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_818 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.43.28
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1382 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 198.41.223.220
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1351 - 431ms - 561ms
+  network: ws
+  port: 443
+  server: cdn.9889888.xyz
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_807 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 162.159.0.70
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_896 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.26.14.85
+  tls: true
+  type: vless
+  uuid: fec70375-29cf-46cf-b314-536c74feee94
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1345 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.34.50
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1271 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.10
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_984 - 9ms - 23ms
+  network: ws
+  port: 443
+  server: ld.242311.xyz
+  tls: true
+  type: vless
+  uuid: af563223-7402-4ecd-bbf9-10f7410753fa
+- name: 🇫🇷FR_1007 - 263ms - 236ms
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_213 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.67.78.139
+  tls: true
+  type: vless
+  uuid: ad4ae058-cd7e-4e69-a6f7-aee7ce7b0e6e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_792 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 188.114.96.7
+  tls: true
+  type: vless
+  uuid: 362a79a2-ce89-8d2d-355c-f1f5071a445f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_351 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: www.shopify.com
+  tls: false
+  type: vless
+  uuid: ce977d82-824b-4209-87f1-0719f78d6a2e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_663 - 11ms - 9ms
+  network: ws
+  port: 443
+  server: free.server11peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_296 - 11ms - 10ms
+  network: ws
+  port: 2096
+  server: peekconfig.hamrahfree1.workers.dev
+  tls: true
+  type: vless
+  uuid: c49a0981-6d37-4ec0-9a01-1b63ccc07e4f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_930 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.21.35.235
+  tls: true
+  type: vless
+  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1316 - 1ms - 3ms
+  network: ws
+  port: 443
+  server: 104.17.150.33
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_365 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.25.245.126
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_865 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: chat.openai.com
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1105 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.26.12.31
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_813 - 26ms - 13ms
+  network: ws
+  port: 443
+  server: fancy-wind-799d.cloudneryacc.workers.dev
+  tls: true
+  type: vless
+  uuid: 9fa6d846-5961-8e0e-ce27-77de00000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1146 - 11ms - 10ms
+  network: ws
+  port: 443
+  server: hi.n2foriran.workers.dev
+  tls: true
+  type: vless
+  uuid: 58e78cf6-2b50-40fb-b6bf-ec7eae5b5000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_443 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.88.129
+  tls: false
+  type: vless
+  uuid: 82a3c394-55b7-4780-93a0-5f45c0e89625
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_976 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.26.3.138
+  tls: true
+  type: vless
+  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
+- name: 🇫🇷FR_313 - 25ms - 16ms
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_88 - 10ms - 21ms
+  network: ws
+  port: 443
+  server: ezaccess-project-4c7950.ez-dc9bbb.workers.dev
+  tls: true
+  type: vless
+  uuid: 96e341a7-3077-4613-b482-41bd9c90cc4d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_79 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.215.39
+  tls: true
+  type: vless
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_69 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: 104.16.107.139
+  tls: false
+  type: vless
+  uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
+- name: 🇫🇷FR_1167 - 456ms - 197ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cfip.1323123.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_1247 - 1ms - 1ms
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1143 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.36.20
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_483 - 2ms - 2ms
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_28 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_537 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 104.17.158.173
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1331 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.103.247
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_675 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.68.193
+  tls: true
+  type: vless
+  uuid: ed0e05af-49ab-4ea8-a39c-634855811b03
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1227 - 3ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.16.174.194
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_532 - 2ms - 5ms
+  network: ws
+  port: 2083
+  server: 172.64.145.202
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: 🇫🇷FR_229 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_909 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.26.6.214
+  tls: false
+  type: vless
+  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_908 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.143.139
+  tls: false
+  type: vless
+  uuid: 18907dc3-7e4c-476f-9ed8-b360db563bf9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_832 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_284 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 45.130.125.207
+  tls: true
+  type: vless
+  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1321 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.169.177
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_270 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.136.118
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_596 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.21.23.72
+  tls: false
+  type: vless
+  uuid: f4e6476f-40d0-40cb-841f-cc2f6909ff20
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1305 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.215.32
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_164 - 753ms - 15ms
+  network: ws
+  port: 8880
+  server: cf1.466688.xyz
+  tls: false
+  type: vless
+  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_93 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.19.164.155
+  tls: true
+  type: vless
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_21 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  tls: true
+  type: vless
+  uuid: 893096ae-ed76-4440-bc34-f77c4872540f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_2 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  tls: true
+  type: vless
+  uuid: 2db92da9-8ffb-491b-81d6-6e8d50876020
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_36 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.42.163
+  tls: false
+  type: vless
+  uuid: ce977d82-824b-4209-87f1-0719f78d6a2e
+- name: 🇫🇷FR_439 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_801 - 12ms - 10ms
+  network: ws
+  port: 443
+  server: ez-541f9d.ezaccess1d3db24.workers.dev
+  tls: true
+  type: vless
+  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_17 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 173.245.58.162
+  tls: true
+  type: vless
+  uuid: 3290f561-d94d-426e-8e1b-52ab0d441786
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1364 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 198.41.223.32
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_208 - 17ms - 145ms
+  network: ws
+  port: 8880
+  server: deepl.com
+  tls: false
+  type: vless
+  uuid: f15a5586-23f6-453f-97f5-c301b949e699
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_94 - 2ms - 1ms
+  network: xhttp
+  port: 443
+  server: saas.sin.fan
+  tls: true
+  type: vless
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_379 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 104.16.249.249
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_890 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.19.64.105
+  tls: true
+  type: vless
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_360 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 173.245.58.92
+  tls: true
+  type: vless
+  uuid: ad40a583-2d59-44ff-88cf-b5db0e1e00a7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_182 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.66.132.196
+  tls: false
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1147 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 172.66.47.45
+  tls: true
+  type: vless
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_176 - 23ms - 1ms
+  network: ws
+  port: 8880
+  server: www.gov.ua
+  tls: false
+  type: vless
+  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 🇫🇷FR_1292
+  network: tcp
+  port: 6500
+  reality-opts:
+    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
+  server: 54.37.6.39
+  servername: play.google.com
+  tls: true
+  type: vless
+  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1184 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.18.42.54
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1099 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.94.161
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_564 - 2ms - 1ms
+  network: ws
+  port: 2053
+  server: fans.liverpool.qzz.io
+  tls: true
+  type: vless
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1309 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.19.34.6
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_129 - 2ms - 2ms
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1224 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.17.31.225
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- name: 🇫🇷FR_1183 - 4ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.24.245
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_315 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 172.67.78.254
+  tls: true
+  type: vless
+  uuid: fc8a0708-951a-4027-860f-2a154ebc4dd7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_298 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: 104.16.100.215
+  tls: false
+  type: vless
+  uuid: c6d29888-78d5-446a-b2f0-f3968e6d1634
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_15 - 66ms - 67ms
+  network: ws
+  port: 443
+  server: cf-vless-4cf55824.aimall.fr
+  tls: true
+  type: vless
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+- name: 🇫🇷FR_1266 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1137 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.36.5
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_377 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 173.245.58.115
+  tls: false
+  type: vless
+  uuid: 8e32697d-c23c-4b6b-9790-f46a7b94958d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_750 - 12ms - 12ms
+  network: ws
+  port: 443
+  server: o.server3peekconfig.workers.dev
+  tls: true
+  type: vless
+  uuid: 78abbe41-95dd-4f6f-a500-1450913fb933
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_139 - 10ms - 11ms
+  network: ws
+  port: 8880
+  server: cf9.466688.xyz
+  tls: false
+  type: vless
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+- name: 🇫🇷FR_12 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1101 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_331 - 10ms - 11ms
+  network: ws
+  port: 443
+  server: nameless-moon-7c4d.shafmrhjlos23.workers.dev
+  tls: true
+  type: vless
+  uuid: 89c5493f-9485-85e5-c43f-df0600000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1255 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 104.16.174.176
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_243 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 162.159.21.178
+  tls: false
+  type: vless
+  uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_132 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.146.116
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_837 - 141ms - 146ms
+  network: ws
+  port: 443
+  server: 35.241.172.224
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1327 - 416ms - 408ms
+  network: ws
+  port: 443
+  server: cucc.cloudflare.seeck.cn
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_133 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 8.35.211.145
+  tls: true
+  type: vless
+  uuid: a039c938-0792-424a-8a8a-d0508c7fcab1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1086 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 8.6.112.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 🇫🇷FR_1223
+  network: tcp
+  port: 6500
+  reality-opts:
+    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
+  server: helsinki.zestmarket.ir
+  servername: play.google.com
+  tls: true
+  type: vless
+  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_419 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.212
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1100 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_34 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: download.yunzhongzhuan.com
+  tls: false
+  type: vless
+  uuid: 20f21d96-3700-46d9-9f63-5933403c0c18
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_411 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 188.114.96.3
+  tls: true
+  type: vless
+  uuid: 756e8f39-04e8-436d-b5c6-905d37d9562c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_459 - 2ms - 1ms
+  network: ws
+  port: 2083
+  server: 188.114.97.7
+  tls: true
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_912 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.2.189
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_98 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.25.123.12
+  tls: true
+  type: vless
+  uuid: 3a8aa3ad-d125-4285-8542-3a1832187f5d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_805 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.38.215
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_192 - 2ms - 2ms
+  network: xhttp
+  port: 443
+  server: mfa.gov.ua
+  tls: true
+  type: vless
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_128 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.64.88.251
+  tls: false
+  type: vless
+  uuid: efb0a3fe-af52-45c5-b397-1a6866d88d67
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_821 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.18.37.191
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_816 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 162.159.6.103
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1375 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.67.45
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_47 - 16ms - 16ms
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_791 - 5ms - 1ms
+  network: ws
+  port: 80
+  server: 104.25.118.238
+  tls: false
+  type: vless
+  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_617 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 0406.infinityconfig7.workers.dev
+  tls: true
+  type: vless
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1023 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.156.87
+  tls: true
+  type: vless
+  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_135 - 2ms - 1ms
+  network: ws
+  port: 2096
+  server: 188.114.96.2
+  tls: true
+  type: vless
+  uuid: 8d82944e-17b9-473f-a456-dec9a6e21471
+- name: 🇫🇷FR_232 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_73 - 7ms - 7ms
+  network: ws
+  port: 2095
+  server: docs.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_22 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.66.200.130
+  tls: false
+  type: vless
+  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_495 - 25ms - 1ms
+  network: ws
+  port: 8880
+  server: www.whatismyip.com
+  tls: false
+  type: vless
+  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_995 - 10ms - 24ms
+  network: ws
+  port: 443
+  server: restless-boat-ebf2.moha102030.workers.dev
+  tls: true
+  type: vless
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_302 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.17.149.233
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_578 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 172.67.131.114
+  tls: false
+  type: vless
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_895 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.67.75.172
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1029 - 11ms - 26ms
+  network: ws
+  port: 443
+  server: server3.pegibol940.workers.dev
+  tls: true
+  type: vless
+  uuid: 5da16620-0386-4da3-a252-12a6380ed1a6
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1240 - 1ms - 2ms
+  network: ws
+  port: 2087
+  server: 172.64.145.166
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_938 - 156ms - 1ms
+  network: ws
+  port: 443
+  server: time.is
+  tls: true
+  type: vless
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_300 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.219.238
+  tls: false
+  type: vless
+  uuid: d98c1be3-7837-4d8a-a9fc-05e7a807ccb0
+- name: 🇫🇷FR_1124 - 10ms - 14ms
+  password: Telegram_healer_config
+  port: 443
+  server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
+  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_111 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.6.237
+  tls: true
+  type: vless
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_670 - 17ms - 11ms
+  network: ws
+  port: 443
+  server: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  tls: true
+  type: vless
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_593 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.21.137
+  tls: false
+  type: vless
+  uuid: 580af126-448f-407b-a4c2-785e702cd8ea
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_158 - 5ms - 1ms
+  network: ws
+  port: 8080
+  server: billowing-sunset-e340.qaraatayi.workers.dev
+  tls: false
+  type: vless
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_54 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 162.159.36.20
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- name: 🇫🇷FR_1170 - 9ms - 14ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cdn.tzpro.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_686 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.20.28.74
+  tls: false
+  type: vless
+  uuid: 80cead8e-0d28-4b0a-bacd-8005471a5c39
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_260 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 172.66.47.45
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_61 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.20.214
+  tls: true
+  type: vless
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_822 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.7.178
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_19 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_92 - 1ms - 1ms
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: 104.18.155.119
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_407 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.212.83
+  tls: true
+  type: vless
+  uuid: 52322144-50c7-9d9f-6ba9-fdb600000005
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_81 - 6ms - 5ms
+  network: ws
+  port: 2095
+  server: ns.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_193 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.181.19
+  tls: false
+  type: vless
+  uuid: 70853635-5b3e-4561-bd3f-4354b56194de
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_78 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.20.32.49
+  tls: true
+  type: vless
+  uuid: 3bad1d20-8601-49be-86a2-2141d21dec99
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_819 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.146.59
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_1165 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_994 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: restless-boat-ebf2.moha102030.workers.dev
+  tls: false
+  type: vless
+  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
+- name: 🇫🇷FR_152 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1021 - 1ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.89.41
+  sni: tO6r63-kkChIGHQM2.VxZ0dDUq7To7su0cdqf.wORKeRS.dEV
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_703 - 6ms - 6ms
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
+- name: 🇫🇷FR_228 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_834 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: developers.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1009 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.21.94.81
+  tls: true
+  type: vless
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1291 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.7
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_165 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.27.82.154
+  tls: false
+  type: vless
+  uuid: 0ed342c3-eb45-4d63-83a1-697252636ca9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_902 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.18.1.1
+  tls: true
+  type: vless
+  uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_494 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 198.41.208.112
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1056 - 1ms - 1ms
+  network: ws
+  port: 2096
+  server: 108.162.194.34
+  tls: true
+  type: vless
+  uuid: 6eda0aac-4964-46c2-9132-1fda49cc7dcf
+- name: 🇫🇷FR_1172 - 113ms - 2ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: xn--b6gac.eu.org
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_31 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.16.72.41
+  tls: false
+  type: vless
+  uuid: 1bc8fb2a-3bee-4ae0-aa12-957885e63e18
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1212 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.135.190
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1371 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.105.166
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1365 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.211.252
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1091 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.26.13.23
+  tls: false
+  type: vless
+  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1350 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.167.134
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_196 - 146ms - 178ms
+  network: ws
+  port: 8880
+  server: soskeynets.yunzhongzhuan.com
+  tls: false
+  type: vless
+  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_874 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 173.245.58.217
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_32 - 3ms - 1ms
+  network: ws
+  port: 8880
+  server: 162.159.140.78
+  tls: false
+  type: vless
+  uuid: 7111212b-6bc3-459a-85b4-3b13038a19f8
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1374 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.49.185
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_72 - 7ms - 5ms
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1004 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 172.67.96.178
+  tls: false
+  type: vless
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000023
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_258 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 188.114.97.3
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1246 - 706ms - 460ms
+  network: ws
+  port: 443
+  server: orange.seeck.cn
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1237 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 104.24.135.190
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_725 - 10ms - 24ms
+  network: ws
+  port: 2086
+  server: muddy-shadow-8905.qara-atayi-1.workers.dev
+  tls: false
+  type: vless
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_87 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 104.18.131.112
+  tls: false
+  type: vless
+  uuid: 3087ca05-1a7c-45fa-aec9-805adeaedb1b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_507 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: 66.235.200.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_780 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 173.245.49.114
+  tls: false
+  type: vless
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_920 - 287ms - 479ms
+  network: ws
+  port: 443
+  server: img.yust.eu.org
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_923 - 202ms - 184ms
+  network: ws
+  port: 443
+  server: cmcc.877774.xyz
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1110 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 190.93.246.79
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_241 - 2ms - 1ms
+  network: ws
+  port: 2083
+  server: 104.27.78.203
+  tls: true
+  type: vless
+  uuid: 3727b0ac-9f3e-4da8-895e-33f739e9d9bb
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_558 - 1ms - 2ms
+  network: ws
+  port: 8880
+  server: 104.17.123.204
+  tls: false
+  type: vless
+  uuid: 06bfb14e-66cc-48ca-a429-b9301dba2f81
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1373 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.35.137
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1038 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.26.15.4
+  tls: true
+  type: vless
+  uuid: 6c397d68-11aa-44a4-8814-3a853f950240
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1385 - 1ms - 2ms
+  network: ws
+  port: 2083
+  server: 104.18.11.39
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_860 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.246.247
+  tls: true
+  type: vless
+  uuid: 690b6997-198a-49d2-8cef-e4c70efc2288
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1299 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.148.1
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1376 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.18.12.110
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_76 - 14ms - 15ms
+  network: ws
+  port: 443
+  server: 002.inc-electrocell-001-002.workers.dev
+  tls: true
+  type: vless
+  uuid: 36a857e4-f3d4-43aa-8b90-d7da849da989
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_65 - 296ms - 5ms
+  network: ws
+  port: 8880
+  server: cf7.466688.xyz
+  tls: false
+  type: vless
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_113 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.144.29
+  tls: false
+  type: vless
+  uuid: 85e14d59-02ea-4642-a317-50f1e1691660
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_619 - 1ms - 1ms
+  network: ws
+  port: 80
+  server: 104.16.72.162
+  tls: false
+  type: vless
+  uuid: e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_831 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 108.162.192.161
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_60 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.0.1
+  tls: true
+  type: vless
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_793 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 45.192.224.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_37 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.24.152.211
+  tls: false
+  type: vless
+  uuid: def8ed1e-e07b-40e0-9bc0-7a2ba2cedd56
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_996 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.66.43.117
+  tls: true
+  type: vless
+  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1324 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.246.71
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_390 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.191.15
+  tls: false
+  type: vless
+  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1130 - 2ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.174.164
+  tls: true
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000000
+- name: 🇫🇷FR_506 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1182 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_963 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 104.18.241.114
+  tls: false
+  type: vless
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_772 - 2ms - 1ms
+  network: ws
+  port: 2086
+  server: 173.245.59.67
+  tls: false
+  type: vless
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_958 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.58.104
+  tls: true
+  type: vless
+  uuid: af563223-7402-4ecd-bbf9-10f7410753fa
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1333 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.96.255
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_808 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 172.64.35.32
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_24 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1090 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.5.189
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_764 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.11.118
+  tls: false
+  type: vless
+  uuid: 17b2ed22-5fd0-47ad-b5f0-658379379ced
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_770 - 2ms - 1ms
+  network: ws
+  port: 80
+  server: 162.159.40.49
+  tls: false
+  type: vless
+  uuid: 57bd62cf-5550-4075-8fa3-d4519aae8df0
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_733 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 104.21.4.10
+  tls: false
+  type: vless
+  uuid: 9ef1d60d-9e38-49c5-9405-131e11be1f9c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_812 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 162.159.3.186
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1361 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.34.183
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: 🇫🇷FR_1174 - 2ms - 2ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.21.84.3
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1019 - 12ms - 9ms
+  network: ws
+  port: 8080
+  server: soskeynets-hat-f95e.ilia-1000-a.workers.dev
+  tls: false
+  type: vless
+  uuid: e3eff0b8-7276-3179-e538-a53000000002
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_91 - 3ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.18.9.41
+  tls: true
+  type: vless
+  uuid: 90a656ff-c77a-4b6d-87f4-a0b2cec91373
+- name: 🇫🇷FR_449 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_168 - 2ms - 2ms
+  network: ws
+  port: 8880
+  server: cf4.466688.xyz
+  tls: false
+  type: vless
+  uuid: 1a5e2e63-64e2-4737-95b6-c2ee60c979a1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_790 - 7ms - 2ms
+  network: ws
+  port: 2095
+  server: www.udemy.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_767 - 2ms - 1ms
+  network: ws
+  port: 2086
+  server: 172.67.89.31
+  tls: false
+  type: vless
+  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_266 - 6ms - 3ms
+  network: ws
+  port: 443
+  server: medium.com
+  tls: true
+  type: vless
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1287 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.16.149.4
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1087 - 1ms - 1ms
+  network: ws
+  port: 8080
+  server: 172.67.170.118
+  tls: false
+  type: vless
+  uuid: e3eff0b8-7276-3179-e538-a53000000002
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_520 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.17.22.232
+  tls: true
+  type: vless
+  uuid: ad4ae058-cd7e-4e69-a6f7-aee7ce7b0e6e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_904 - 1ms - 2ms
+  network: ws
+  port: 8443
+  server: 104.18.1.1
+  tls: true
+  type: vless
+  uuid: a039c938-0792-424a-8a8a-d0508c7fcab1
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_386 - 9ms - 8ms
+  network: ws
+  port: 2087
+  server: cf.9999669.xyz
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_179 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.45.213
+  tls: true
+  type: vless
+  uuid: a5b1d1ec-327c-f1c5-5856-b34600000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_502 - 2ms - 1ms
+  network: ws
+  port: 2083
+  server: 188.114.98.0
+  tls: true
+  type: vless
+  uuid: 273e9057-8167-4d17-8de3-d44c82037cda
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_112 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.18.12.149
+  tls: true
+  type: vless
+  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1363 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 172.64.53.183
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_561 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.30.170
+  tls: false
+  type: vless
+  uuid: 243ad93d-9732-4e19-9784-8b1a642cff70
+- name: 🇫🇷FR_1166 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.4.103
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1187 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.148.244
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_933 - 1ms - 1ms
+  network: ws
+  port: 2087
+  server: 162.159.18.228
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1262 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 104.16.149.2
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_809 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 162.159.2.40
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1041 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.77.94
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- name: 🇫🇷FR_1175 - 2ms - 3ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  sni: yks-dd9.pages.dev
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_751 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.24.237.67
+  tls: true
+  type: vless
+  uuid: 91875754-7fcc-5ba9-9573-5a43215dfd0f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_327 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.17.112.113
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_261 - 1ms - 1ms
+  network: ws
+  port: 2083
+  server: 172.66.44.211
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_55 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 108.162.192.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1341 - 1ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.17.25.48
+  tls: true
+  type: vless
+  uuid: 0d251504-8b91-4744-8130-412ec76af13f
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_417 - 3ms - 3ms
+  network: ws
+  port: 2095
+  server: openai.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1204 - 1ms - 1ms
+  network: ws
+  port: 8443
+  server: 104.16.174.228
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_251 - 2ms - 1ms
+  network: ws
+  port: 443
+  server: 104.21.4.230
+  tls: true
+  type: vless
+  uuid: 850371e8-bce4-4500-abd7-2a76df3b78da
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_299 - 17ms - 30ms
+  network: ws
+  port: 2095
+  server: www.whatismyip.net
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: 🇫🇷FR_123 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_256 - 2ms - 1ms
+  network: ws
+  port: 8443
+  server: 188.114.97.8
+  tls: true
+  type: vless
+  uuid: 9c63fd59-f9ee-446e-97ec-0bf2de21ed7b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_257 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.64.94.251
+  tls: false
+  type: vless
+  uuid: 9f4b666c-ecf1-49e9-8ab8-9ae2c4f4c613
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_536 - 1ms - 2ms
+  network: ws
+  port: 443
+  server: 172.67.134.82
+  tls: true
+  type: vless
+  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_319 - 34ms - 25ms
+  network: ws
+  port: 8880
+  server: cloudflare-ech.com
+  tls: false
+  type: vless
+  uuid: 2d212f81-7ea2-4d0b-884c-a6497ab41143
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_185 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.66.170.53
+  tls: false
+  type: vless
+  uuid: 68662961-6c5f-48c1-b807-6398f3287dbc
+- name: 🇫🇷FR_1267 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_294 - 2ms - 1ms
+  network: ws
+  port: 2053
+  server: 173.245.59.159
+  tls: true
+  type: vless
+  uuid: 54502a61-2af6-40e7-8331-2c9fc40e5903
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_836 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 108.162.193.0
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_225 - 10ms - 11ms
+  network: ws
+  port: 443
+  server: ez-6174e8.nova-970a2c.workers.dev
+  tls: true
+  type: vless
+  uuid: a140f7c4-78aa-ba57-8d45-3f2d00000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_239 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.17.170.132
+  tls: false
+  type: vless
+  uuid: 2ff7eec6-da48-46ab-b770-5c83400a528c
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1354 - 1ms - 8ms
+  network: ws
+  port: 443
+  server: 198.41.223.79
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1226 - 2ms - 1ms
+  network: ws
+  port: 2087
+  server: 172.64.53.194
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_9 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.16.106.213
+  tls: false
+  type: vless
+  uuid: 8cde6cd0-7903-4aef-8ce8-528fa9677d7b
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_795 - 3ms - 1ms
+  network: ws
+  port: 443
+  server: 8.47.69.9
+  tls: true
+  type: vless
+  uuid: 11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_761 - 1ms - 1ms
+  network: ws
+  port: 2086
+  server: 104.27.68.164
+  tls: false
+  type: vless
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
+- name: 🇫🇷FR_943 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_782 - 2ms - 1ms
+  network: ws
+  port: 8880
+  server: 104.18.10.118
+  tls: false
+  type: vless
+  uuid: 8b9986f7-889c-4213-bc64-fafe012fabd6
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_141 - 16ms - 1ms
+  network: ws
+  port: 8880
+  server: www.ipget.net
+  tls: false
+  type: vless
+  uuid: 41ce10f9-748b-46a0-be7c-e29d863aa028
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_143 - 1ms - 1ms
+  network: ws
+  port: 2095
+  server: 172.67.66.177
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_924 - 2ms - 1ms
+  network: ws
+  port: 80
+  server: 172.67.185.65
+  tls: false
+  type: vless
+  uuid: d682c8f4-e719-577e-cbe9-2e5b00000002
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_414 - 1ms - 1ms
+  network: ws
+  port: 8880
+  server: 172.67.179.98
+  tls: false
+  type: vless
+  uuid: 82a3c394-55b7-4780-93a0-5f45c0e89625
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_413 - 12ms - 11ms
+  network: ws
+  port: 443
+  server: icy-morning-df86.alisooltaniiii2024ali.workers.dev
+  tls: true
+  type: vless
+  uuid: 7ba17ba6-8d1d-4968-882b-f5a3b43eb51d
+- name: 🇫🇷FR_515 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_932 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.27.52.69
+  tls: true
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000000
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1211 - 2ms - 1ms
+  network: ws
+  port: 2053
+  server: 104.24.135.190
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇫🇷FR_217 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1083 - 1ms - 1ms
+  network: ws
+  port: 443
+  server: 104.26.13.31
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_1311 - 401ms - 396ms
+  network: ws
+  port: 443
+  server: youxuan.cf.090227.xyz
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇫🇷FR_96 - 20ms - 61ms
+  network: ws
+  port: 8880
+  server: cf10.466688.xyz
+  tls: false
+  type: vless
+  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1061
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  server: 62.210.91.10
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- encryption: none
+  flow: ''
+  name: 🇫🇷134798 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: 80
+  server: fr2.foot8all.ir
+  tls: false
+  type: vless
+  uuid: da31680a-2a6b-4031-b7fa-70fd8d696089
+- encryption: none
+  flow: ''
+  name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰 - 151ms
+  network: ws
+  port: 80
+  server: 199.232.170.177
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
 - client-fingerprint: chrome
   name: 🇫🇷_法国_206
   network: ws
@@ -563,721 +7638,6 @@ proxies:
   sni: fr2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_41
-  network: ws
-  port: 443
-  server: bab-6.site
-  servername: bab-6.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 法国 002
-  network: tcp
-  port: 2053
-  server: fr.connfull.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
-- alterId: 0
-  cipher: auto
-  name: 未知97
-  network: tcp
-  port: 27726
-  server: fj260205.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 法国 004
-  network: tcp
-  port: 27726
-  server: fj260203.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 未知116
-  network: tcp
-  port: 26126
-  server: 188.165.61.68
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b09b111e-f41c-4145-83c9-029027a5a745
-- alterId: 0
-  cipher: auto
-  name: 法国 006
-  network: tcp
-  port: 27726
-  server: fj260304.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 法国 007
-  network: tcp
-  port: 36864
-  server: 2.arzankadeh.cam
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
-- alterId: 0
-  cipher: auto
-  name: 法国 008
-  network: ws
-  port: 8080
-  server: 141.11.139.82
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 法国 009
-  network: ws
-  port: 443
-  server: 91.134.8.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: lammaland.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 010
-  network: ws
-  port: 443
-  server: 91.134.8.92
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: yichueng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 011
-  network: ws
-  port: 443
-  server: 91.134.8.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: pelang.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 012
-  network: ws
-  port: 443
-  server: 91.134.8.100
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kampong.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 013
-  network: ws
-  port: 443
-  server: 91.134.8.102
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: serkat.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 014
-  network: ws
-  port: 443
-  server: 146.59.118.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: lammaland.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 015
-  network: ws
-  port: 443
-  server: 146.59.55.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: o.metuji.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 016
-  network: ws
-  port: 443
-  server: 146.59.70.146
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: yichueng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 017
-  network: ws
-  port: 443
-  server: 146.59.85.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: pelang.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 018
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 019
-  network: grpc
-  port: 2096
-  server: 51.254.142.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
-- alterId: 0
-  cipher: auto
-  name: 法国 020
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws?ed=
-- alterId: 0
-  cipher: auto
-  name: 法国 021
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: 法国 022
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 023
-  network: ws
-  port: 443
-  server: 51.77.20.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: bamparda.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 024
-  network: ws
-  port: 2082
-  server: 5.196.29.123
-  skip-cert-verify: true
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 025
-  network: ws
-  port: 443
-  server: 91.134.8.101
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 026
-  network: ws
-  port: 443
-  server: 146.59.118.249
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 027
-  network: ws
-  port: 443
-  server: 194.9.172.65
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 028
-  network: ws
-  port: 443
-  server: 193.160.130.245
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 法国 029
-  network: ws
-  port: 80
-  server: 51.254.133.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-  ws-opts:
-    headers:
-      Host: fr5.niekotin.de
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 法国 030
-  network: ws
-  port: 443
-  server: 51.77.20.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: capellare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 031
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: a.baradiha.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 032
-  network: tcp
-  port: 27726
-  server: 195.133.193.18
-  skip-cert-verify: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- name: 法国 033
-  network: tcp
-  port: 443
-  server: 145.239.173.163
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05e09c8a-a3a9-4bd5-acf9-2c3c87bab827
-- name: 法国 034
-  network: xhttp
-  port: 28737
-  server: 141.11.167.220
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 723345e4-9c1b-4d92-a349-7c3742f9b61a
-- name: 法国 035
-  network: grpc
-  port: 8880
-  server: 151.115.164.120
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 036
-  network: grpc
-  port: 8880
-  server: 151.115.164.134
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 037
-  network: grpc
-  port: 8880
-  server: 151.115.164.37
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 038
-  network: grpc
-  port: 8880
-  server: 151.115.164.43
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 039
-  network: grpc
-  port: 8880
-  server: 151.115.165.172
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 040
-  network: grpc
-  port: 8880
-  server: 151.115.166.68
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 041
-  network: grpc
-  port: 8880
-  server: 151.115.167.188
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 042
-  network: grpc
-  port: 8880
-  server: 151.115.167.190
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- name: 法国 043
-  network: grpc
-  port: 8880
-  server: 151.115.167.6
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
-- client-fingerprint: chrome
-  name: 法国 044
-  network: ws
-  port: 443
-  server: 45.80.108.182
-  servername: Fls1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  ws-opts:
-    headers:
-      Host: Fls1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-    path: /---
-- client-fingerprint: chrome
-  name: 🇫🇷FR_18
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
-- name: 法国 046
-  network: ws
-  port: 2087
-  server: 94.140.0.74
-  servername: aza002.vaslbash.site
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dca945d2-6d9b-434f-8754-3626a6a75e21
-  ws-opts:
-    headers:
-      Host: aza002.vaslbash.site
-    path: /
-- name: 法国 047
-  network: tcp
-  port: 22222
-  server: 15.188.109.137
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 048
-  network: tcp
-  port: 22222
-  server: 15.188.170.185
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 049
-  network: tcp
-  port: 22223
-  server: 15.188.170.185
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 050
-  network: tcp
-  port: 22224
-  server: 15.188.170.185
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 051
-  network: tcp
-  port: 22222
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 052
-  network: tcp
-  port: 22224
-  server: 15.188.211.23
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 053
-  network: tcp
-  port: 22224
-  server: 15.237.147.218
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 未知 VLESS-781
-  network: tcp
-  port: 22222
-  server: 15.237.234.170
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 055
-  network: tcp
-  port: 22223
-  server: 15.237.234.170
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 056
-  network: tcp
-  port: 22222
-  server: 35.181.204.6
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 057
-  network: tcp
-  port: 22223
-  server: 35.181.204.6
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 法国 058
-  network: tcp
-  port: 22224
-  server: 35.181.204.6
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- client-fingerprint: chrome
-  name: 法国 059
-  network: ws
-  port: 8443
-  server: 51.77.214.109
-  servername: s5gydl.936.us.ci
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-- flow: xtls-rprx-vision
-  name: 法国/France
-  port: 443
-  server: nasnet-162191099-direct.mbghalibaf.com
-  servername: nasnet-162191099-direct.mbghalibaf.com
-  tls: true
-  type: vless
-  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
 - name: 法国/巴黎/France/Paris-3
   password: f64c72a1-7e1f-4dd1-8929-7e41682542e2
   port: 10086
@@ -1306,38 +7666,6 @@ proxies:
   skip-cert-verify: false
   sni: great-krill.rooster465.autos
   type: trojan
-- alterId: 0
-  name: '未知 TROJAN-236 #1'
-  password: ND91608427
-  port: 443
-  server: careful-tadpole.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: '未知 TROJAN-237 #1'
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: classic-gator.rooster465.autos
-  skip-cert-verify: true
-  sni: classic-gator.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-149.202.82.172-0196 | 0.0...
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇫🇷FR-54.36.174.181-0207 | 0.0M...
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 54.36.174.181
-  type: ss
 - name: 🇫🇷 FR 317 | ⬇️ 6KB/s
   password: ''
   port: 1080
@@ -1564,19 +7892,6 @@ proxies:
     headers:
       Host: tianshu.kevqwkt451.workers.dev
     path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1190
-  network: tcp
-  port: 17912
-  reality-opts:
-    public-key: r2mEqqAXfLwVVhxuuIvI9koUrBm0wRYII_eFjuUxWg0
-    short-id: '!!str 6901e5e9bf3a8a0b'
-  server: 15.236.201.26
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: b05038a1-acce-4a4d-a952-425b845c981a
 - name: 🇫🇷FR_373
   network: ws
   password: humanity
@@ -1849,19 +8164,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_620
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '!!str 01'
-  server: 62.210.91.2
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - client-fingerprint: chrome
   name: 🇫🇷FR_609
   network: ws
@@ -2279,17 +8581,6 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1222
-  network: tcp
-  port: 6500
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: france.relvuno.ir
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
-- client-fingerprint: chrome
   name: 🇫🇷FR_1366
   network: ws
   port: 443
@@ -2531,13 +8822,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇫🇷FR_1303
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: star-kiwi.rooster465.autos
-  sni: star-kiwi.rooster465.autos
-  type: trojan
 - name: 🇫🇷FR_43
   network: ws
   port: 8080
@@ -3182,16 +9466,6 @@ proxies:
   uuid: fbca467d-cb8a-4dac-b513-efe5fdd5c591
   ws-opts:
     path: /eyJqdW5rIjoiMTZpQjhzZjhJS08iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1272
-  network: tcp
-  port: 8443
-  server: 45.95.233.214
-  servername: frx1.braidx.tech
-  tls: true
-  type: vless
-  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
 - client-fingerprint: chrome
   name: 🇫🇷FR_1263
   network: ws
@@ -3559,19 +9833,6 @@ proxies:
     headers:
       Host: shrill-fog-67af.235-e6a.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_200
-  network: tcp
-  port: 12228
-  reality-opts:
-    public-key: hvyaRhFtrj3cGv1Ya5uXpE256i2PoUi2fOgU0KlvKmI
-    short-id: '!!str 59625eb3275249ca'
-  server: 35.180.187.82
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  uuid: 795d5f5b-318c-49a6-844f-ee2ab63bbe94
 - alpn:
   - http/1.1
   name: 🇫🇷FR_606
@@ -3583,17 +9844,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1293
-  network: tcp
-  port: 6500
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: 57.130.31.6
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
 - client-fingerprint: random
   name: 🇫🇷FR_825
   network: ws
@@ -4134,6 +10384,19 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 🇫🇷FR_470
+  network: ws
+  port: 443
+  server: 104.26.12.41
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - name: 🇫🇷FR_1177
   network: ws
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -4397,19 +10660,6 @@ proxies:
     headers:
       Host: server15.peekconf1-741.workers.dev
     path: /eyJqdW5rIjoiOUZIcXVMV3FlbnoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR_841
-  network: ws
-  port: 443
-  server: 8.6.112.0
-  servername: asmaos.uk
-  tls: true
-  type: vless
-  uuid: 427d85cd-a2a8-4668-8118-0d43d2d57f77
-  ws-opts:
-    headers:
-      Host: asmaos.uk
-    path: /
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -5574,20 +11824,6 @@ proxies:
     headers:
       Host: chopin.adaspoloandco.com
     path: /download.php
-- client-fingerprint: firefox
-  name: 🇫🇷FR_39
-  network: xhttp
-  port: 32202
-  reality-opts:
-    public-key: bGe_-nAtOq6_w_2mv6pcmD8RzJP65Tti-vyMP2hAwDc
-    short-id: '!!str f57d8f26'
-  server: 62.210.24.143
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
-  ws-opts:
-    path: /G3EEoH63
 - client-fingerprint: chrome
   name: 🇫🇷FR_35
   network: ws
@@ -6770,17 +13006,6 @@ proxies:
     headers:
       Host: chopin.adaspoloandco.com
     path: /download.php
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1292
-  network: tcp
-  port: 6500
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: 54.37.6.39
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
 - client-fingerprint: firefox
   name: 🇫🇷FR_360
   network: ws
@@ -6944,17 +13169,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /fp=randomized
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1223
-  network: tcp
-  port: 6500
-  reality-opts:
-    public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
-  server: helsinki.zestmarket.ir
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: 1a6d2f60-6c75-470b-891a-457b13d70a8e
 - client-fingerprint: chrome
   name: 🇫🇷FR_1327
   network: ws
@@ -7435,6 +13649,19 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
+- client-fingerprint: random
+  name: 🇫🇷FR_1138
+  network: ws
+  port: 443
+  server: 104.16.248.48
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - client-fingerprint: random
   name: 🇫🇷FR_816
   network: ws
@@ -8397,19 +14624,6 @@ proxies:
     headers:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1158
-  network: tcp
-  port: 42287
-  reality-opts:
-    public-key: TeQRou69R4O0YCR0b28I3PF97W9zc3Qf-zUvlOZA43M
-    short-id: '!!str 946e4c05cc69e1'
-  server: 15.237.122.88
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: 1fe3eba8-86ef-4bce-9fb4-c7517954b2e2
 - client-fingerprint: chrome
   name: 🇫🇷FR_258
   network: ws
@@ -8423,19 +14637,6 @@ proxies:
     headers:
       Host: newwk1.f1w.de5.net
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1191
-  network: tcp
-  port: 40133
-  reality-opts:
-    public-key: FDnQBm11AA6TUNmcyQAo0wJnl2mt1oozbOG-FSVi6DU
-    short-id: '!!str 87806cfd2dcfcd'
-  server: 35.181.171.182
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: 1e3c6e25-0c65-4927-91cb-79982fd6dafc
 - name: 🇫🇷FR_725
   network: ws
   port: 2086
@@ -8978,13 +15179,6 @@ proxies:
     headers:
       Host: muddy-shadow-8905.qara-atayi-1.workers.dev
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-- name: 🇫🇷FR_1304
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: fancy-skink.rooster465.autos
-  sni: fancy-skink.rooster465.autos
-  type: trojan
 - client-fingerprint: chrome
   name: 🇫🇷FR_812
   network: ws
@@ -9479,19 +15673,6 @@ proxies:
       Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
     path: /?ed=2560
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_728
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0
-    short-id: '!!str a91045bc'
-  server: 163.5.153.153
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-- client-fingerprint: chrome
   name: 🇫🇷FR_345
   network: ws
   port: 443
@@ -9909,19 +16090,6 @@ proxies:
     headers:
       Host: square-brook-e650.353-3ac.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1061
-  network: tcp
-  port: 23576
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '!!str 01'
-  server: 62.210.91.10
-  servername: fuck.rkn
-  tls: true
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - client-fingerprint: chrome
   name: 🇫🇷FR_413
   network: ws
