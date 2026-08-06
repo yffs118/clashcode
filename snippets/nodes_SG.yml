@@ -318,6 +318,149 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 🇸🇬SG_4|⬇️5.1MB/s - 2ms
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '新加坡 010 #1 - 167ms'
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  tls: false
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 013 #1 - 167ms'
+  network: ws
+  port: 80
+  server: 139.59.255.209
+  tls: false
+  type: vmess
+  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
+  ws-opts:
+    headers:
+      Host: 139.59.255.209
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 015 #1 - 480ms'
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 016 #1 - 583ms'
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /
+- name: 新加坡(免费节点)_3 - 169ms - 169ms
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+- name: 🇸🇬 SG 27 → tg@nicevpn123 - 168...
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬 SG 39 → tg@nicevpn123 - 162...
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: sg3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬 SG 29 → tg@nicevpn123 - 185...
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: sg2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 40 → tg@nicevpn123 - 169...
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+- name: 🇸🇬 SG 7 → tg@nicevpn123 - 169m...
+  password: I4bO2YDEgs
+  port: 443
+  server: 188.166.252.91
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+- name: 🇸🇬SG_41 - 167ms - 168ms
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  type: trojan
+- name: 🇸🇬_SG_新加坡 - 429ms - 112ms
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬_SG_新加坡_2 - 119ms - 112ms
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬_SG_新加坡_5 - 118ms - 112ms
+  password: IQ68037294
+  port: 443
+  server: fun-salmon.rooster465.autos
+  skip-cert-verify: true
+  sni: fun-salmon.rooster465.autos
+  type: trojan
+- name: 🇸🇬_SG_新加坡_3 - 801ms - 114ms
+  password: FC60532879
+  port: 443
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: helpful-possum.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬_SG_新加坡 - 175ms - 173ms
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.049.node-for-bigairport.win
+  type: ss
+- name: 🇸🇬_SG_新加坡_1 - 117ms
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: true
+  sni: resolved-gelding.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 新加坡/新加坡/Singapore/Singapore

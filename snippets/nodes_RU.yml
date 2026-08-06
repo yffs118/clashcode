@@ -1,26 +1,26 @@
 proxies:
 - client-fingerprint: chrome
-  name: 俄罗斯 001
+  name: 香港 46 - 181ms - 180ms
   network: tcp
   password: ND91608427
   port: 443
   server: dynamic-grubworm.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 未知 TROJAN-272 | free-nodes
+  name: 🇯🇵JP_80 - 116ms - 116ms
   network: tcp
   password: ND91608427
   port: 443
   server: happy-mutt.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: happy-mutt.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 俄罗斯 003
+  name: 🇯🇵JP_83 - 110ms - 112ms
   network: tcp
   password: ND91608427
   port: 443
@@ -30,12 +30,12 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 未知 TROJAN-285 | free-nodes
+  name: 🇱🇺LU_3 - 183ms - 425ms
   network: tcp
   password: ND91608427
   port: 443
   server: relaxed-gull.rooster465.autos
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: relaxed-gull.rooster465.autos
   type: trojan
   udp: true
@@ -381,8 +381,150 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 010 #1 - 191ms'
+  network: ws
+  port: 443
+  server: 37.220.161.249
+  tls: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: 37.220.161.249
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 017 #1 - 2ms'
+  network: ws
+  port: 443
+  server: 194.76.18.113
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 194.76.18.113
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 018 #1 - 1ms'
+  network: ws
+  port: 443
+  server: 194.76.18.197
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 194.76.18.197
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 019 #1 - 934ms'
+  network: ws
+  port: 443
+  server: 93.93.89.118
+  tls: true
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: 93.93.89.118
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 020 #1 - 346ms'
+  network: ws
+  port: 443
+  server: renderer-stream-1-411.mirra.now
+  tls: false
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '俄罗斯 025 #1 - 180ms'
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇷🇺 RU 17 → tg@nicevpn123 - 1ms...
+  password: maHanVPpN
+  port: 80
+  server: 185.176.24.84
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇷🇺 RU 16 → tg@nicevpn123 - 132...
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 5.188.181.201
+  type: ss
+- name: 🇷🇺 RU 1 → tg@nicevpn123 - 161m...
+  password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- name: 🇷🇺 RU 18 → tg@nicevpn123 - 158...
+  password: 8b47d63f-1f8e-4f8e-a1e8-ead3686e5da6
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- name: 🇷🇺 RU 29 → tg@nicevpn123 - 160...
+  password: d2b376a2-c9b7-42be-8f52-26c0987f2884
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- name: 🇷🇺 RU 61 → tg@nicevpn123 - 159...
+  password: bf2307e1-a58f-41c2-8392-d76197fc2866
+  port: 443
+  server: nl-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺 RU 70 → tg@nicevpn123 - 194...
+  network: ws
+  port: 80
+  server: 85.117.234.167
+  tls: false
+  type: vmess
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    headers:
+      Host: 85.117.234.167
+    path: /
+- name: 🇷🇺 RU 73 → tg@nicevpn123 - 158...
+  password: 01278779-3f58-4477-8ae7-7b82033a5d2e
+  port: 443
+  server: hk-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯联邦_圣彼得堡 - 146ms - 159ms - 1...
+  network: ws
+  port: 12910
+  server: 22.lwdh.us
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    headers:
+      Host: 22.lwdh.us
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
+  name: '俄罗斯联邦/圣彼得堡/Russia/St Petersbur... #1'
   password: eAfQb4p8exIxYlbiO04QPQ
   port: 1080
   server: 193.233.216.247

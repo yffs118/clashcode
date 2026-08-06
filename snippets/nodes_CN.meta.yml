@@ -9,7 +9,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 中国 002
+  name: trojan-106541849 - 146ms - 146...
   network: tcp
   password: BxceQaOe
   port: 443
@@ -807,11 +807,12 @@ proxies:
   uuid: dd3c5ce4-6741-4cdb-a54d-bf43475969e5
 - alterId: 0
   cipher: auto
-  name: 中国 070
+  name: '中国 065 #1 - 147ms'
   network: http
   port: 45719
   server: 8.210.206.163
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: a220dad2-a34e-4460-b0f7-eaba9c46e639
 - alterId: 0
@@ -957,11 +958,12 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 中国 083
+  name: '中国 078 #1 - 389ms'
   network: ws
   port: 60852
   server: hkgb707.ifastcdncache.com
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
   ws-opts:
@@ -1547,7 +1549,9 @@ proxies:
   type: vless
   udp: true
   uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
-- name: '🇺🇸_US_美国 #5'
+- encryption: none
+  flow: ''
+  name: '🇺🇸_US_美国 #5'
   network: tcp
   port: 10000
   server: 180.178.60.252
@@ -1557,13 +1561,15 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 中国 133
+- encryption: none
+  flow: ''
+  name: 未知 VLESS-445 - 139ms - 140ms
   network: tcp
   port: 10000
   server: 60.249.101.14
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
@@ -1649,7 +1655,9 @@ proxies:
     headers:
       Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
     path: /glasspanel/0038ba35_0_1bdabe931208/
-- name: 中国 140
+- encryption: none
+  flow: ''
+  name: 中国 135 - 19ms - 8ms - 34ms
   network: tcp
   port: 45647
   server: 182.16.61.2
@@ -1702,7 +1710,10 @@ proxies:
     headers:
       Host: cdn-alman1.arfilter2.blog
     path: /-Arfilter-TEL--
-- name: 🇨🇳_CN_中国
+- encryption: none
+  flow: ''
+  name: 🇨🇳_CN_中国 - 216ms
+  network: tcp
   port: 12528
   server: 120.227.1.43
   skip-cert-verify: true
@@ -1728,3 +1739,242 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰 - 290ms
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- encryption: none
+  flow: ''
+  name: '中国 001 #1 - 182ms'
+  network: ws
+  port: 443
+  server: www.usyun.cc
+  tls: true
+  type: vless
+  uuid: 73c2c97d-48ae-46c6-96d9-192bf4608ce7
+- alterId: 0
+  cipher: auto
+  name: '中国 012 #1 - 165ms'
+  network: ws
+  port: 2096
+  server: twdx6.baidupi.top
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: twdx6.baidupi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '中国 043 #1 - 153ms'
+  network: ws
+  port: 80
+  server: 182.16.1.194
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: 182.16.1.194
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '中国 044 #1 - 172ms'
+  network: ws
+  port: 8080
+  server: yh7.dtku41.xyz
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: yh7.dtku41.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '中国 045 #1 - 139ms'
+  network: ws
+  port: 443
+  server: 211.22.180.68
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 211.22.180.68
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '中国 055 #1 - 150ms'
+  network: ws
+  port: 443
+  server: fullaccesstohongkongnet.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /
+- encryption: none
+  flow: ''
+  name: '中国 126 #1 - 158ms'
+  network: ws
+  port: 443
+  server: 103.228.168.182
+  tls: true
+  type: vless
+  uuid: 0977bddb-a758-4033-96dd-57468e02ea81
+- encryption: none
+  flow: ''
+  name: '中国 130 #1 - 2ms'
+  network: ws
+  port: 8880
+  server: 45.194.53.30
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: '中国 132 #1 - 148ms'
+  network: tcp
+  port: 60101
+  server: 198.44.177.117
+  tls: true
+  type: vless
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
+- encryption: none
+  flow: ''
+  name: '中国 133 #1 - 2ms'
+  network: ws
+  port: 443
+  server: 27.50.49.20
+  tls: true
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+- encryption: none
+  flow: ''
+  name: '中国 135 #1 - 150ms'
+  network: ws
+  port: 8443
+  server: 103.148.73.176
+  tls: true
+  type: vless
+  uuid: e5ce79f9-fdac-4e80-8286-a15b96fded72
+- encryption: none
+  flow: ''
+  name: '中国 136 #1 - 1ms'
+  network: ws
+  port: 443
+  server: 156.243.83.167
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇨🇳 CN 21 → tg@nicevpn123 - 49m...
+  password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
+  port: 48009
+  server: k9.b99.buzz
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳 CN 110 → tg@nicevpn123 - 10...
+  password: e6f8da28-345b-46aa-9ef8-edf27777a533
+  port: 48009
+  server: k9.b99.buzz
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳 CN 167 → tg@nicevpn123 - 49...
+  password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
+  port: 48009
+  server: k9.b99.buzz
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳 CN 501 → tg@nicevpn123 - 49...
+  password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
+  port: 48009
+  server: k9.b99.buzz
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇳 CN 394 → tg@nicevpn123 - 51...
+  password: 35e9f1cc-4fd4-4242-8f55-5549b47d3848
+  port: 48009
+  server: k9.b99.buzz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #4 - 145ms - 187ms - 35...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 42142
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 中国_Qinnan - 146ms - 329ms - 30...
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 36521
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #3 - 145ms - 190ms - 32...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 40172
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 中国_广州市 - 166ms - 343ms - 285ms
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 15474
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #5 - 146ms - 162ms - 18...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 42213
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #1 - 146ms - 329ms - 35...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 28039
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #2 - 145ms - 257ms - 29...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 36698
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_Qinnan #1 - 146ms - 162ms -...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 48003
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #6 - 146ms - 162ms - 16...'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 45379
+  server: cm1.akaochangnode.xyz
+  type: ss
+- encryption: none
+  flow: ''
+  name: 中国 129 - 23ms - 52ms - 8ms
+  network: tcp
+  port: 45647
+  server: 182.16.61.3
+  tls: true
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- encryption: none
+  flow: ''
+  name: 中国 001 - 193ms - 151ms - 168ms
+  network: ws
+  port: 443
+  server: www.usyun.cc
+  tls: true
+  type: vless
+  uuid: 4d56a93a-1879-4b0d-b22e-69f4828711a1
