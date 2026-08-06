@@ -1349,10 +1349,10 @@ def main():
         if p.supports_meta():
             clash_data = p.clash_data
             # ========== 添加调试打印：在构建代理列表时 ==========
-            if 'reality-opts' in clash_data:
-                print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 含 reality-opts: {clash_data['reality-opts']}")
-            else:
-                print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 不含 reality-opts")
+            # if 'reality-opts' in clash_data:
+            #     print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 含 reality-opts: {clash_data['reality-opts']}")
+            # else:
+            #     print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 不含 reality-opts")
             # ====================================================
             clash_data_snip = clash_data.copy()
             if ('client-fingerprint' in clash_data and
