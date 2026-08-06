@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: firefox
+  name: 'Node #151'
+  network: ws
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: juzi8186.qea.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: /tv/juzibaipiao?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 法国(免费节点)_6
+  network: ws
+  port: '55009'
+  server: 2001:bc8:32d7:225::3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  ws-opts:
+    path: /0zNW56sF
 - name: 新加坡(免费节点)_1
   network: ws
   port: 59404
@@ -40,52 +68,583 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_64
-  network: ws
-  packet-encoding: xudp
-  port: 2096
-  server: 104.17.70.206
-  servername: free-server.techsonic.dev
+- down: 300
+  name: 新加坡节点0601 | 1倍率
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 01401032-7583-4181-b7b9-7a74bd108f2f
+  port: 45103
+  server: v4sg6.stableq.top
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- name: 🇰🇷 KR 755 | ⬇️ 484KB/s
-  password: '!!str 111'
-  port: 20000
-  server: 101.33.74.115
-  skip-cert-verify: true
-  type: socks5
-  udp: true
-  username: '111'
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇬 机场推荐:dafei.de 新加坡 03
-  network: ws
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: 新加坡节点0602 | 1倍率
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 01401032-7583-4181-b7b9-7a74bd108f2f
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: 新加坡节点0603 | 1倍率
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 01401032-7583-4181-b7b9-7a74bd108f2f
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: efea2c6d-ea7f-4fd5-96c5-60853289cde6
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: efea2c6d-ea7f-4fd5-96c5-60853289cde6
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: efea2c6d-ea7f-4fd5-96c5-60853289cde6
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: b7931d06-8bb6-49ae-b840-d97b5cf100f6
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: b7931d06-8bb6-49ae-b840-d97b5cf100f6
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: b7931d06-8bb6-49ae-b840-d97b5cf100f6
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 1131ae9b-cd74-4f93-801c-e8713b841b66
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 1131ae9b-cd74-4f93-801c-e8713b841b66
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 1131ae9b-cd74-4f93-801c-e8713b841b66
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 3d021fb2-b188-49d2-a9a5-a1f198fcea4d
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 3d021fb2-b188-49d2-a9a5-a1f198fcea4d
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 3d021fb2-b188-49d2-a9a5-a1f198fcea4d
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: d7223d02-f800-426f-a759-2ae2041ce8bc
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: d7223d02-f800-426f-a759-2ae2041ce8bc
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: d7223d02-f800-426f-a759-2ae2041ce8bc
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 85241b99-1761-4453-9bf4-3695a8cdad26
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 85241b99-1761-4453-9bf4-3695a8cdad26
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 85241b99-1761-4453-9bf4-3695a8cdad26
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: aa40f710-3534-4cb2-922c-d9280ce18d7b
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: aa40f710-3534-4cb2-922c-d9280ce18d7b
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: aa40f710-3534-4cb2-922c-d9280ce18d7b
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 5669e219-c3f0-41df-86f7-e0565b449544
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 5669e219-c3f0-41df-86f7-e0565b449544
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 5669e219-c3f0-41df-86f7-e0565b449544
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 2006cb62-c71f-4130-9418-8936a17443c4
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 2006cb62-c71f-4130-9418-8936a17443c4
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 2006cb62-c71f-4130-9418-8936a17443c4
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 8f82a090-18b6-46d5-a1fb-10937e1d18de
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 8f82a090-18b6-46d5-a1fb-10937e1d18de
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 8f82a090-18b6-46d5-a1fb-10937e1d18de
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: f24b7f6e-dd33-485e-9b78-cc551877c097
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: f24b7f6e-dd33-485e-9b78-cc551877c097
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: f24b7f6e-dd33-485e-9b78-cc551877c097
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: 7cd835ea-32c7-46a4-9537-344946e349d0
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 7cd835ea-32c7-46a4-9537-344946e349d0
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: 7cd835ea-32c7-46a4-9537-344946e349d0
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: b9b945a5-80a2-42e7-ba05-aced9f2d8130
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: b9b945a5-80a2-42e7-ba05-aced9f2d8130
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: b9b945a5-80a2-42e7-ba05-aced9f2d8130
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: d70209e1-0d96-4862-981e-649379b0511b
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: d70209e1-0d96-4862-981e-649379b0511b
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: d70209e1-0d96-4862-981e-649379b0511b
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: cf7a10be-8e26-457e-9ae3-201fa7093825
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: cf7a10be-8e26-457e-9ae3-201fa7093825
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: cf7a10be-8e26-457e-9ae3-201fa7093825
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0601 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: 9noYJA0bODeBONED
+  password: ffe524e2-f16a-4e4d-9127-6e74f0a3de16
+  port: 45103
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 800
+  name: '新加坡节点0602 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: ffe524e2-f16a-4e4d-9127-6e74f0a3de16
+  port: 45203
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '新加坡节点0603 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: v3DkmNCkTvHQOenK
+  password: ffe524e2-f16a-4e4d-9127-6e74f0a3de16
+  port: 45303
+  server: v4sg6.stableq.top
+  skip-cert-verify: false
+  sni: v4sg6.stableq.top
+  type: hysteria2
+  up: 300
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
   port: 443
-  server: cos-cdn-c.alicdn.win
-  servername: mms-statlc-2vinw-e.bjedu.men
-  tls: true
-  type: vless
-  udp: true
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-  ws-opts:
-    headers:
-      Host: mms-static-cache-e.bjedu.men
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /newlogin/login.do
-  xudp: true
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: cn|b24b|puddincat07@Telegram
   network: tcp
@@ -94,6 +653,35 @@ proxies:
   server: 106.75.132.91
   skip-cert-verify: true
   type: trojan
+- auth: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  name: 🇸🇬 机场推荐:dafei.de 新加坡 02
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬 机场推荐:dafei.de 新加坡 03
+  network: ws
+  port: 2096
+  server: 104.17.70.206
+  servername: freenet.sahanwickramasinghevip.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
+  ws-opts:
+    headers:
+      Host: freenet.sahanwickramasinghevip.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+  xudp: true
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -296,7 +884,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
-- name: 🇸🇬 SG 27 → tg@nicevpn123
+- name: 🇸🇬 SG 27 → tg@nicevpn123 - 168...
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: 139.162.49.215
@@ -310,7 +898,7 @@ proxies:
   server: 54.251.168.143
   type: ss
   udp: true
-- name: 🇸🇬 SG 29 → tg@nicevpn123
+- name: 🇸🇬 SG 29 → tg@nicevpn123 - 185...
   password: 557340ab-4ae8-4593-989f-a8053bec73b6
   port: 443
   server: sg2-full.privateip.net
@@ -406,7 +994,7 @@ proxies:
   uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
   ws-opts:
     path: /TG@dns68公益节点
-- name: 🇸🇬 SG 39 → tg@nicevpn123
+- name: 🇸🇬 SG 39 → tg@nicevpn123 - 162...
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
   server: sg3-full.privateip.net
@@ -421,7 +1009,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇸🇬 SG 40 → tg@nicevpn123
+  name: 🇸🇬 SG 40 → tg@nicevpn123 - 169...
   password: amazonskr05
   port: 443
   server: 13.250.57.60
@@ -454,7 +1042,7 @@ proxies:
   server: 18.142.225.182
   type: ss
   udp: true
-- name: 🇸🇬 SG 7 → tg@nicevpn123
+- name: 🇸🇬 SG 7 → tg@nicevpn123 - 169m...
   password: I4bO2YDEgs
   port: 443
   server: 188.166.252.91
@@ -701,6 +1289,29 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
+- name: 🇸🇬SG_1|1.5MB/s
+  network: ws
+  port: '8880'
+  server: www.glassdoor.com
+  type: vless
+  udp: true
+  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
+  ws-opts:
+    headers:
+      Host: red-disk-58df.153-2ce.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇸🇬SG_2|5.0MB/s #1'
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '29072'
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - encryption: none
   flow: ''
   name: 新加坡(免费节点)_2 - 168ms
@@ -719,62 +1330,19 @@ proxies:
   type: trojan
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_64 - 1ms
-  network: ws
-  port: 2096
-  server: 104.17.70.206
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_3|2.0MB/s - 1ms
-  network: ws
-  port: 2096
-  server: 104.17.70.206
-  tls: true
-  type: vless
-  uuid: bbb97927-d9d8-475e-928b-b723e61f5e51
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_116 - 169ms
+  name: 🇸🇬 机场推荐:dafei.de 新加坡 03 - 110m...
   network: ws
   port: 443
-  server: 116.251.217.65
+  server: cos-cdn-c.alicdn.win
   tls: true
   type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_118 - 181ms
-  network: ws
-  port: 443
-  server: 18.138.34.221
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_215 - 170ms
-  network: ws
-  port: 443
-  server: 116.251.217.107
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- name: 🇸🇬SG_4 | ⬇️ 5.1MB/s - 1ms
+  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
+- name: 🇸🇬SG_4|⬇️5.1MB/s - 1ms
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
   server: 104.18.1.196
-  sni: sg-trojan.andfree.my.id
-  type: trojan
-- name: 🇸🇬SG_41
-  network: tcp
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
   skip-cert-verify: true
-  sni: 139.59.238.97
+  sni: sg-trojan.andfree.my.id
   type: trojan
 - encryption: none
   flow: ''
@@ -785,6 +1353,100 @@ proxies:
   tls: true
   type: vless
   uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+- alterId: 0
+  cipher: auto
+  name: '新加坡 010 #1 - 168ms'
+  network: ws
+  port: 80
+  server: 139.99.61.154
+  tls: false
+  type: vmess
+  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
+  ws-opts:
+    headers:
+      Host: 139.99.61.154
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 013 #1 - 167ms'
+  network: ws
+  port: 80
+  server: 139.59.255.209
+  tls: false
+  type: vmess
+  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
+  ws-opts:
+    headers:
+      Host: 139.59.255.209
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 015 #1 - 387ms'
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 016 #1 - 368ms'
+  network: ws
+  port: 5100
+  server: st-2.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-2.dnspro.icu
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇸🇬_新加坡_116 - 169ms - 169ms
+  network: ws
+  port: 443
+  server: 116.251.217.65
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇸🇬_新加坡_118 - 181ms - 168ms
+  network: ws
+  port: 443
+  server: 18.138.34.221
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- encryption: none
+  flow: ''
+  name: 🇸🇬_新加坡_215 - 170ms - 170ms
+  network: ws
+  port: 443
+  server: 116.251.217.107
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+- name: '🇸🇬SG-54.255.35.23-6228 | 16.32... #1'
+  password: ND91608427
+  port: 443
+  server: tidy-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: tidy-gelding.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG_41
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  type: trojan
 - client-fingerprint: ios
   encryption: none
   flow: xtls-rprx-vision
@@ -801,16 +1463,7 @@ proxies:
   uuid: 0c9839aa-c64f-4791-9137-420432605987
 - encryption: none
   flow: ''
-  name: 新加坡_新加坡 - 168ms
-  network: ws
-  port: 36322
-  server: 168.138.179.107
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #1 - 1ms'
+  name: '新加坡_新加坡 #1 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.186
@@ -819,7 +1472,7 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #2 - 2ms'
+  name: '新加坡_新加坡 #2 - 2ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.46
@@ -828,7 +1481,16 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #3 - 169ms'
+  name: 新加坡_新加坡 - 168ms - 169ms
+  network: ws
+  port: 36322
+  server: 168.138.179.107
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+- encryption: none
+  flow: ''
+  name: '新加坡_新加坡 #3 - 169ms - 169ms'
   network: ws
   port: 443
   server: 8.219.144.168
@@ -882,7 +1544,7 @@ proxies:
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #6 - 3ms'
+  name: '新加坡_新加坡 #6 - 3ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.186
@@ -891,7 +1553,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #7 - 1ms'
+  name: '新加坡_新加坡 #7 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.46
@@ -900,7 +1562,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #8 - 1ms'
+  name: '新加坡_新加坡 #8 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.65
@@ -909,7 +1571,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #9 - 1ms'
+  name: '新加坡_新加坡 #9 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.237.224
@@ -918,7 +1580,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #4 - 168ms'
+  name: '新加坡_新加坡 #4 - 168ms - 168ms'
   network: ws
   port: 36322
   server: 168.138.179.107
@@ -927,7 +1589,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #10 - 169ms'
+  name: '新加坡_新加坡 #10 - 169ms - 168ms'
   network: ws
   port: 443
   server: 8.219.144.168
@@ -936,7 +1598,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #16 - 1ms'
+  name: '新加坡_新加坡 #16 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.46
@@ -945,7 +1607,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #17 - 1ms'
+  name: '新加坡_新加坡 #17 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.65
@@ -954,7 +1616,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #18 - 1ms'
+  name: '新加坡_新加坡 #18 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.237.150
@@ -963,7 +1625,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #11 - 169ms'
+  name: '新加坡_新加坡 #11 - 169ms - 169ms'
   network: ws
   port: 36322
   server: 168.138.179.107
@@ -972,7 +1634,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #19 - 169ms'
+  name: '新加坡_新加坡 #19 - 169ms - 169ms'
   network: ws
   port: 443
   server: 8.219.144.168
@@ -1023,7 +1685,7 @@ proxies:
   uuid: b8f3a337-ad39-4064-95f1-33a725a65877
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #24 - 1ms'
+  name: '新加坡_新加坡 #24 - 1ms - 1ms'
   network: ws
   port: 443
   server: 206.238.236.65
@@ -1032,7 +1694,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '新加坡_新加坡 #22 - 168ms'
+  name: '新加坡_新加坡 #22 - 168ms - 168ms'
   network: ws
   port: 36322
   server: 168.138.179.107
@@ -1048,77 +1710,9 @@ proxies:
   tls: true
   type: vless
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-- alterId: 0
-  cipher: auto
-  name: 新加坡 010 - 168ms
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  tls: false
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 013 - 168ms
-  network: ws
-  port: 80
-  server: 139.59.255.209
-  tls: false
-  type: vmess
-  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
-  ws-opts:
-    headers:
-      Host: 139.59.255.209
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 015 - 491ms
-  network: ws
-  port: 9111
-  server: st-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 016 - 675ms
-  network: ws
-  port: 5100
-  server: st-2.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-2.dnspro.icu
-    path: /
-- name: 🇸🇬 SG 537 | ⬇️ 3MB/s - 2ms
-  password: MiTiVPN
-  port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_34 - 172ms
-  network: ws
-  port: 10428
-  server: 159.138.85.179
-  tls: true
-  type: vless
-  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_49 - 1ms
+  name: 🇸🇬SG_49 - 1ms - 1ms
   network: ws
   port: 8443
   server: 170.114.45.6
@@ -1127,7 +1721,16 @@ proxies:
   uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_33 - 169ms
+  name: 🇸🇬SG_34 - 172ms - 171ms
+  network: ws
+  port: 10428
+  server: 159.138.85.179
+  tls: true
+  type: vless
+  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_33 - 169ms - 169ms
   network: ws
   port: 2000
   server: 13.212.82.58
@@ -1136,7 +1739,7 @@ proxies:
   uuid: f2a97245-bf76-4eca-9119-110a9ebf38e4
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_60 - 171ms
+  name: 🇸🇬SG_60 - 171ms - 168ms
   network: ws
   port: 443
   server: 141.11.43.55
@@ -1145,7 +1748,7 @@ proxies:
   uuid: 0d251504-8b91-4744-8130-412ec76af13f
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_29 - 170ms
+  name: 🇸🇬SG_29 - 170ms - 168ms
   network: ws
   port: 53646
   server: 54.179.79.12
@@ -1154,7 +1757,7 @@ proxies:
   uuid: d57b9436-a238-4066-8b11-d23ae57c5982
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_63 - 175ms
+  name: 🇸🇬SG_63 - 175ms - 166ms
   network: ws
   port: 443
   server: 5.223.60.212
@@ -1163,7 +1766,7 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_52 - 91ms
+  name: 🇸🇬SG_52 - 91ms - 9ms
   network: ws
   port: 2096
   server: news.zoom.us
@@ -1172,7 +1775,7 @@ proxies:
   uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_53 - 5ms
+  name: 🇸🇬SG_53 - 5ms - 1ms
   network: ws
   port: 8443
   server: support.zoom.us
@@ -1181,7 +1784,7 @@ proxies:
   uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_51 - 2ms
+  name: 🇸🇬SG_51 - 2ms - 1ms
   network: ws
   port: 2096
   server: 141.193.213.20
@@ -1190,7 +1793,7 @@ proxies:
   uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_61 - 168ms
+  name: 🇸🇬SG_61 - 168ms - 167ms
   network: ws
   port: 443
   server: 139.180.220.7
@@ -1199,7 +1802,7 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_47 - 2ms
+  name: 🇸🇬SG_47 - 2ms - 1ms
   network: ws
   port: 2096
   server: 141.193.213.21
@@ -1208,7 +1811,7 @@ proxies:
   uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_62 - 167ms
+  name: 🇸🇬SG_62 - 167ms - 168ms
   network: ws
   port: 443
   server: 66.42.61.215
@@ -1217,7 +1820,7 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_48 - 1ms
+  name: 🇸🇬SG_48 - 1ms - 1ms
   network: ws
   port: 8443
   server: 170.114.46.6
@@ -1226,13 +1829,45 @@ proxies:
   uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
 - encryption: none
   flow: ''
-  name: 🇸🇬_SG_新加坡_2 - 1ms
+  name: 🇸🇬_SG_新加坡_2 - 1ms - 1ms
   network: ws
   port: 8443
   server: 27.50.49.232
   tls: true
   type: vless
   uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+- name: 🇸🇬_SG_新加坡 - 429ms
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬_SG_新加坡_2 - 119ms
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 🇸🇬_SG_新加坡_5 - 118ms
+  password: IQ68037294
+  port: 443
+  server: fun-salmon.rooster465.autos
+  skip-cert-verify: true
+  sni: fun-salmon.rooster465.autos
+  type: trojan
+- name: 🇸🇬_SG_新加坡_3 - 801ms
+  password: FC60532879
+  port: 443
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: helpful-possum.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬_SG_新加坡 - 175ms
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.049.node-for-bigairport.win
+  type: ss
 - client-fingerprint: chrome
   name: 🇸🇬_新加坡_20
   port: 8686
@@ -1288,6 +1923,19 @@ proxies:
     headers:
       Host: hn205.54dn.96i.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 🇸🇬135028 | ⚡️Telegram = t.me/S...
+  port: 6300
+  server: alafi.marzban-locations.com
+  tls: false
+  type: vless
+  uuid: 8f6ccdb2-2b4e-4834-a90b-344bff490402
+- alterId: 0
+  cipher: auto
+  name: 新加坡/新加坡/Singapore/Singapore
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬 SG 013 | ⬇️ 27KB/s
@@ -1305,6 +1953,26 @@ proxies:
   udp: true
   uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
 - alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_64
+  network: ws
+  packet-encoding: xudp
+  port: 2096
+  server: 104.17.70.206
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- alpn:
   - http/1.1
   name: 🇸🇬 SG 537 | ⬇️ 3MB/s
   network: ws
@@ -1319,26 +1987,6 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: 🇸🇬 SG 569 | ⬇️ 56KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi
 - name: 🇸🇬 SG 647 | ⬇️ 8KB/s
   password: admin
   port: 1080

@@ -114,7 +114,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇳 CN 110 → tg@nicevpn123
+  name: 🇨🇳 CN 110 → tg@nicevpn123 - 10...
   password: e6f8da28-345b-46aa-9ef8-edf27777a533
   port: 48009
   server: k9.b99.buzz
@@ -636,7 +636,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇳 CN 167 → tg@nicevpn123
+  name: 🇨🇳 CN 167 → tg@nicevpn123 - 49...
   password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
   port: 48009
   server: k9.b99.buzz
@@ -1056,7 +1056,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇳 CN 21 → tg@nicevpn123
+  name: 🇨🇳 CN 21 → tg@nicevpn123 - 49m...
   password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
   port: 48009
   server: k9.b99.buzz
@@ -2736,7 +2736,7 @@ proxies:
       Host: yes.cnmjcn.net
     path: /
 - cipher: aes-256-gcm
-  name: 🇨🇳 CN 394 → tg@nicevpn123
+  name: 🇨🇳 CN 394 → tg@nicevpn123 - 51...
   password: 35e9f1cc-4fd4-4242-8f55-5549b47d3848
   port: 48009
   server: k9.b99.buzz
@@ -3715,7 +3715,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇨🇳 CN 501 → tg@nicevpn123
+  name: 🇨🇳 CN 501 → tg@nicevpn123 - 49...
   password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
   port: 48009
   server: k9.b99.buzz
@@ -4427,20 +4427,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '中国 010 #1'
-  network: ws
-  port: 443
-  server: 221.204.41.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-- alterId: 0
-  cipher: auto
   name: '中国 012 #1'
   network: ws
   port: 2096
@@ -4660,20 +4646,6 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: '中国 029 #1'
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: '中国 030 #1'
@@ -5697,63 +5669,9 @@ proxies:
     headers:
       Host: 120.233.29.189
     path: /rocket
-- cipher: chacha20-ietf-poly1305
-  name: 中国_广州市 - 166ms
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 15474
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #1 - 146ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 28039
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 中国_Qinnan - 146ms
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 36521
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #2 - 145ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 36698
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #3 - 145ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 40172
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #4 - 145ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 42142
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #5 - 146ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 42213
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_广州市 #6 - 146ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 45379
-  server: cm1.akaochangnode.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '中国_Qinnan #1 - 146ms'
-  password: 2b92ff00-2550-411e-b76d-29778b8f4655
-  port: 48003
-  server: cm1.akaochangnode.xyz
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 中国 042 - 148ms
+  name: '中国 043 #1 - 176ms'
   network: ws
   port: 80
   server: 182.16.1.194
@@ -5766,7 +5684,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 中国 043 - 184ms
+  name: '中国 044 #1 - 178ms'
   network: ws
   port: 8080
   server: yh7.dtku41.xyz
@@ -5779,7 +5697,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 中国 044 - 141ms
+  name: '中国 045 #1 - 140ms'
   network: ws
   port: 443
   server: 211.22.180.68
@@ -5792,7 +5710,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 中国 054 - 150ms
+  name: '中国 055 #1 - 152ms'
   network: ws
   port: 443
   server: fullaccesstohongkongnet.azurewebsites.net
@@ -5803,6 +5721,60 @@ proxies:
     headers:
       Host: fullaccesstohongkongnet.azurewebsites.net
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #1 - 146ms - 329ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 28039
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #4 - 145ms - 187ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 42142
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #3 - 145ms - 190ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 40172
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 中国_Qinnan - 146ms - 329ms
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 36521
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #2 - 145ms - 257ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 36698
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 中国_广州市 - 166ms - 343ms
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 15474
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #5 - 146ms - 162ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 42213
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_广州市 #6 - 146ms - 162ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 45379
+  server: cm1.akaochangnode.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '中国_Qinnan #1 - 146ms - 162ms'
+  password: 2b92ff00-2550-411e-b76d-29778b8f4655
+  port: 48003
+  server: cm1.akaochangnode.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇨🇳_中国_237

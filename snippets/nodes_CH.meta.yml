@@ -1,4 +1,74 @@
 proxies:
+- auth: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  name: 德国
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  skip-cert-verify: false
+  sni: node-degame.bangboonet.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 'Node #47'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
+    short-id: '!!str accd8c'
+  server: 83.228.235.106
+  servername: varzesh3.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #2'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.219
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.119
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇨🇭 #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
+    short-id: '!!str e3d38cee79d4f94c'
+  server: 45.195.137.109
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '🇨🇭_CH_瑞士 #6'
@@ -27,28 +97,12 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 🇨🇭 机场推荐:dafei.de 瑞士 01
+- name: 🇨🇭CH_1|1.3MB/s
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 185.232.117.117
-  servername: vl07.skorostnet.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  xudp: true
 - name: CH 1 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11005
@@ -163,6 +217,36 @@ proxies:
   type: vless
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_2|2.8MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.114
+  servername: vl04.skorostnet.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 185.232.117.117
+  servername: vl07.skorostnet.space
+  tls: true
+  type: vless
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
 - name: 🇨🇭CH_3
   network: tcp
   password: y3b03zx3tznhyo538p4c
@@ -173,7 +257,7 @@ proxies:
   type: trojan
 - encryption: none
   flow: ''
-  name: 🇨🇭CH_8 - 155ms
+  name: 🇨🇭CH_8 - 155ms - 159ms
   network: ws
   port: 443
   server: 91.245.225.17
@@ -182,13 +266,27 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_4 - 155ms
+  name: 🇨🇭CH_4 - 155ms - 159ms
   network: tcp
   port: 443
   server: 178.83.226.55
   tls: true
   type: vless
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
+- name: 🇨🇭134948 | ⚡️Telegram = t.me/S...
+  port: 1080
+  server: ch-zur.pvdata.host
+  tls: false
+  type: socks5
+  username: TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO
+- name: '🇨🇭 ConfigV2RayNG '
+  port: 443
+  server: millionaire.levikogjgfdd.ir
+  tls: false
+  type: vless
+  uuid: f6b5a6a3-f3e1-63ca-bb68-bdc400000000
+  ws-opts:
+    path: '%2F'
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -218,32 +316,6 @@ proxies:
   server: 84.17.53.163
   type: ss
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.119
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.109
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
   name: 🇨🇭CH_8
   network: ws
   port: 443
@@ -270,16 +342,3 @@ proxies:
   tls: true
   type: vless
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #2'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.219
-  servername: storage.yandex.net
-  tls: true
-  type: vless
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08

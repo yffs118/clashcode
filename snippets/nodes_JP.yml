@@ -1,4 +1,97 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '美國節點_1 #2'
+  network: ws
+  port: 24202
+  server: 2a02:6ea0:d32f::f8fe:349b
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+  ws-opts:
+    headers:
+      Host: 2a02:6ea0:d32f::f8fe:349b
+    path: /github.com/Alvin9999-newpac/fanqiang
+- cipher: chacha20-ietf-poly1305
+  name: '日本節點丨yoyapai.com #2 - 106ms - ...'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  port: 2377
+  server: 54.250.165.160
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: 'Node #157'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 54.46.77.161
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #57'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 18.166.58.27
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #36'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 95.40.51.248
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #98'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 35.77.80.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #106'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 18.163.123.229
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #41'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.181.205.36
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 'Node #171'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 43.199.32.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
 - name: 日本(免费节点)_3
   network: ws
   password: '!!str 521314'
@@ -12,6 +105,78 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- client-fingerprint: chrome
+  name: 🇯🇵 日本
+  password: yEnxJlVC
+  port: 51012
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: '日本 015 #1'
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇯🇵 日本4
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.72
+  tfo: false
+  type: ss
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
   port: 3022
@@ -289,7 +454,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇯🇵 JP 4 → tg@nicevpn123
+  name: 🇯🇵 JP 4 → tg@nicevpn123 - 105m...
   password: amazonskr05
   port: 443
   server: 3.112.218.182
@@ -394,7 +559,7 @@ proxies:
     headers:
       Host: jp5g.xn--vhq70hxyat50h6wk.com
     path: /
-- name: 🇯🇵 JP 50 → tg@nicevpn123
+- name: 🇯🇵 JP 50 → tg@nicevpn123 - 105...
   password: d22c4619-9dd1-41b1-a00e-c565a09066c8
   port: 443
   server: 139.162.91.35
@@ -691,7 +856,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 菲律宾/马尼拉/Philippines/Manila
+  name: '日本 002 #1'
   network: ws
   port: 80
   server: 61.245.11.60
@@ -719,7 +884,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 004 #1'
+  name: 日本/Japan-3
   network: ws
   port: 80
   server: 168.138.43.75
@@ -862,34 +1027,6 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- alterId: 64
-  cipher: auto
-  name: '日本 015 #1'
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: '日本 016 #1'
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
 - alterId: 4
   cipher: auto
   name: '日本 017 #1'
@@ -1105,15 +1242,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '日本節點丨yoyapai.com #2 - 106ms'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 54.250.165.160
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_日本_94 - 109ms
+  name: 🇯🇵_日本_94 - 103ms
   network: ws
   port: 443
   server: 210.138.37.53
@@ -1124,6 +1255,19 @@ proxies:
     headers:
       Host: 210.138.37.53
     path: /
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵...
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: cindy50.ceoiii.com
+    path: /
 - name: 日本_3
   password: '!!str 521314'
   port: 2053
@@ -1131,38 +1275,203 @@ proxies:
   skip-cert-verify: true
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 JP 12 → tg@nicevpn123 - 1ms
+  network: ws
+  port: 8443
+  server: 45.85.119.65
+  tls: true
+  type: vmess
+  uuid: 2b6ff9f6-00b6-4bc7-e16f-a7f1f4d43e4c
+  ws-opts:
+    headers:
+      Host: 45.85.119.65
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 49 → tg@nicevpn123 - 384...
+  network: tcp
+  port: 28785
+  server: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 56 → tg@nicevpn123 - 131...
+  network: tcp
+  port: 28788
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 58 → tg@nicevpn123 - 300...
+  network: tcp
+  port: 28783
+  server: tfu6i-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 64 → tg@nicevpn123 - 125...
+  network: tcp
+  port: 28783
+  server: vo20e-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 70 → tg@nicevpn123 - 117...
+  network: tcp
+  port: 448
+  server: cm5hi-g05.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 71 → tg@nicevpn123 - 110...
+  network: tcp
+  port: 444
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 72 → tg@nicevpn123 - 352...
+  network: tcp
+  port: 444
+  server: 2ssti-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 73 → tg@nicevpn123 - 140...
+  network: tcp
+  port: 449
+  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 74 → tg@nicevpn123 - 128...
+  network: tcp
+  port: 446
+  server: od7ld-g03.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- alterId: 0
+  cipher: auto
+  name: '日本 004 #1 - 112ms'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  tls: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: 168.138.43.75
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 006 #1 - 166ms'
+  network: ws
+  port: 80
+  server: 3h-philippines1.09vpn.com
+  tls: true
+  type: vmess
+  uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
+  ws-opts:
+    headers:
+      Host: 3h-philippines1.09vpn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 008 #1 - 104ms'
+  network: ws
+  port: 14954
+  server: 91.200.242.187
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: 91.200.242.187
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '日本 020 #1 - 150ms'
+  network: ws
+  port: 48885
+  server: 134.122.184.88
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 134.122.184.88
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 023 #1 - 152ms'
+  network: ws
+  port: 443
+  server: kr-arm2.018999.xyz
+  tls: true
+  type: vmess
+  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
+  ws-opts:
+    headers:
+      Host: kr-arm2.018999.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 027 #1 - 107ms'
+  network: ws
+  port: 443
+  server: 47.245.42.92
+  tls: true
+  type: vmess
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  ws-opts:
+    headers:
+      Host: 47.245.42.92
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 031 #1 - 319ms'
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /
 - cipher: aes-256-cfb
   name: 🇯🇵JP_115
   password: amazonskr05
   port: 443
   server: 13.231.162.164
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 未知24
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v35.hdacd.com
-  ws-path: /
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_3|4.0MB/s - 11ms
+  name: 🇯🇵JP_3|4.0MB/s - 11ms - 77ms
   password: fjlfjafl231303831
   port: 1313
   server: 260323.1.0.l3.unclemanco.com
   type: ss
-- cipher: aes-256-cfb
-  name: jp|68d6|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
   name: 🇯🇵JP_12
   password: shadowsocks
@@ -1276,6 +1585,13 @@ proxies:
   server: 43.207.139.153
   skip-cert-verify: true
   sni: sensible-mongrel.rooster465.autos
+  type: trojan
+- name: '🇯🇵JP-43.207.140.98-6247 | 28.8... #1'
+  password: ND91608427
+  port: 443
+  server: 43.207.140.98
+  skip-cert-verify: false
+  sni: right-seahorse.rooster465.autos
   type: trojan
 - name: 🇯🇵JP_104
   network: tcp
@@ -1517,102 +1833,11 @@ proxies:
   skip-cert-verify: true
   sni: tough-robin.rooster465.autos
   type: trojan
-- name: 日本_Osaka - 112ms
+- name: 日本_Osaka - 112ms - 111ms
   password: NISHIKUITAN222
   port: 443
   server: 150.230.7.216
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本/Japan - 112ms
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: 168.138.43.75
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 006 - 184ms
-  network: ws
-  port: 80
-  server: 3h-philippines1.09vpn.com
-  tls: true
-  type: vmess
-  uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
-  ws-opts:
-    headers:
-      Host: 3h-philippines1.09vpn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 008 - 123ms
-  network: ws
-  port: 14954
-  server: 91.200.242.187
-  tls: false
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: 91.200.242.187
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 日本 020 - 147ms
-  network: ws
-  port: 48885
-  server: 134.122.184.88
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: 134.122.184.88
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 023 - 145ms
-  network: ws
-  port: 443
-  server: kr-arm2.018999.xyz
-  tls: true
-  type: vmess
-  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
-  ws-opts:
-    headers:
-      Host: kr-arm2.018999.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 027 - 108ms
-  network: ws
-  port: 443
-  server: 47.245.42.92
-  tls: true
-  type: vmess
-  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
-  ws-opts:
-    headers:
-      Host: 47.245.42.92
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 031 - 300ms
-  network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /
 - cipher: aes-128-gcm
   name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1 - 232m...'
   password: ayucloud1
@@ -1620,7 +1845,7 @@ proxies:
   server: 260323.1.0.l3.unclemanco.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 JP 001 | ⬇️ 23MB/s - 107ms
+  name: 🇯🇵 JP 001 | ⬇️ 23MB/s - 107ms ...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   port: 2377
   server: 43.206.229.103
@@ -1660,15 +1885,55 @@ proxies:
   port: 443
   server: 13.231.179.245
   type: ss
+- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本_1 - 10ms
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本/Japan
+  name: 🇯🇵_JP_日本 - 108ms
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本 - 299ms
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵
   network: ws
-  port: 80
+  port: '80'
+  server: 172.111.146.64
+  tls: false
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵 #2'
+  network: ws
+  port: '80'
   server: 168.138.43.75
+  servername: None
+  tls: false
   type: vmess
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   ws-opts:
+    headers:
+      Host: None
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -1679,31 +1944,19 @@ proxies:
   type: vmess
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
+    headers:
+      Host: 140.83.51.161
     path: /cctv13.m3u8
-- cipher: aes-128-gcm
-  name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1'
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 819
-  server: 260323.1.0.l3.unclemanco.com
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+  port: 30806
+  server: v6.hdacd.com
   skip-cert-verify: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本_1
-  password: fjlfjafl231303831
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: 1313
-  server: 260323.1.0.l3.unclemanco.com
-  skip-cert-verify: true
-  type: ss
-  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇯🇵JP-13.231.232.184-6020 | 28....
   password: ND91608427
   port: 443
@@ -1722,32 +1975,6 @@ proxies:
   server: trs03.bolab.net
   skip-cert-verify: false
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-210.138.37.53-20
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-headers:
-    Host: DrBKg16eGf3FZlM3.v.3dns.vip
-  ws-path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP-20.194.178.35-26
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-headers:
-    Host: ajax.microsoft.com
-  ws-path: /hls/cctv5phd.m3u8
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵 JP 001 | ⬇️ 23MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv

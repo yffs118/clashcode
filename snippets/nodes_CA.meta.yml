@@ -10,11 +10,132 @@ proxies:
     short-id: '!!str 250b5976473a'
   server: 167.17.68.205
   servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
   uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+- name: 'Node #14'
+  network: ws
+  port: 80
+  server: 151.101.124.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #81'
+  network: ws
+  port: 80
+  server: 151.101.127.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #25'
+  network: ws
+  port: 80
+  server: 151.101.139.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #111'
+  network: xhttp
+  port: 8880
+  server: 198.41.207.201
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #113'
+  network: xhttp
+  port: 8880
+  server: 108.162.195.19
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- client-fingerprint: chrome
+  name: 'Node #119'
+  network: ws
+  port: 443
+  server: 162.159.8.42
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 'Node #16'
+  network: ws
+  port: 8880
+  server: 130.250.137.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: 'Node #31'
+  network: ws
+  port: 8443
+  server: ad-013.pixel9xdmq.info
+  servername: ad-013.pixel9xdmq.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.pixel9xdmq.info
+    path: /
 - name: 加拿大(免费节点)_1
   network: ws
   port: 443
@@ -935,7 +1056,7 @@ proxies:
     headers:
       Host: sg3.abcvpn.icu
     path: /mnqpvws
-- name: 🇨🇦 CA 58 → tg@nicevpn123
+- name: 🇨🇦 CA 13 → tg@nicevpn123 - 1ms
   password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
   port: 443
   server: 23.227.38.11
@@ -1647,6 +1768,7 @@ proxies:
   port: 35034
   server: 165.154.195.38
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - name: '加拿大 040 #1'
@@ -1669,13 +1791,6 @@ proxies:
   type: vless
   udp: true
   uuid: 900ca7c5-6c69-4536-b0f8-efa4e3976016
-- name: 加拿大_30
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
 - encryption: none
   flow: ''
   name: 加拿大(免费节点)_1 - 1ms
@@ -1687,7 +1802,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_3 - 3ms
+  name: 加拿大(免费节点)_3 - 1ms
   network: ws
   port: 443
   server: 172.64.146.229
@@ -1696,7 +1811,16 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_4 - 2ms
+  name: 加拿大(免费节点)_2 - 437ms
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 加拿大(免费节点)_4 - 1ms
   network: ws
   port: 443
   server: 104.18.44.198
@@ -1714,7 +1838,16 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_6 - 1ms
+  name: 加拿大(免费节点)_5 - 1ms
+  network: ws
+  port: 443
+  server: 198.41.223.238
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 加拿大(免费节点)_6 - 2ms
   network: ws
   port: 443
   server: 172.64.42.44
@@ -1759,7 +1892,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_11 - 2ms
+  name: 加拿大(免费节点)_11 - 1ms
   network: ws
   port: 443
   server: 172.64.151.158
@@ -1799,6 +1932,15 @@ proxies:
   network: ws
   port: 443
   server: 162.159.1.170
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 加拿大(免费节点)_29 - 1ms
+  network: ws
+  port: 443
+  server: 162.159.8.42
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -1849,7 +1991,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_23 - 1ms
+  name: 加拿大(免费节点)_23 - 3ms
   network: ws
   port: 8443
   server: 104.18.37.237
@@ -1858,7 +2000,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_24 - 2ms
+  name: 加拿大(免费节点)_24 - 1ms
   network: ws
   port: 443
   server: 172.64.52.18
@@ -1883,6 +2025,95 @@ proxies:
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- name: 🇨🇦 CA 10 → tg@nicevpn123 - 2ms
+  password: dGKXcHgs3P
+  port: 80
+  server: 23.227.60.186
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 19 → tg@nicevpn123 - 1ms
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: 23.227.39.24
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 23 → tg@nicevpn123 - 1ms
+  network: ws
+  port: 8080
+  server: 23.227.38.44
+  tls: false
+  type: vmess
+  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  ws-opts:
+    headers:
+      Host: 23.227.38.44
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 45 → tg@nicevpn123 - 1ms
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      Host: 23.227.38.23
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 56 → tg@nicevpn123 - 83m...
+  network: tcp
+  port: 3389
+  server: 142.93.144.99
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦 CA 61 → tg@nicevpn123 - 1ms
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: 23.227.38.22
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇦CA-158.51.121.63-0149 | 0.0M...
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 158.51.121.63
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇨🇦CA_19 - 1ms
+  network: ws
+  port: 2087
+  server: 104.18.1.1
+  tls: true
+  type: vless
+  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
 - cipher: aes-128-gcm
   name: 🇨🇦CA_3
   password: shadowsocks
@@ -1901,14 +2132,14 @@ proxies:
   port: 8080
   server: 137.184.174.93
   type: ss
-- name: 加拿大_多伦多 - 45ms
+- name: 加拿大_多伦多 - 45ms - 48ms
   password: NISHIKUITAN222
   port: 443
   server: tz.ylks.xyz
   type: trojan
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #1 - 3ms'
+  name: '加拿大_多伦多 #1 - 3ms - 1ms'
   network: ws
   port: 443
   server: 172.66.44.55
@@ -1917,7 +2148,7 @@ proxies:
   uuid: 104380d8-f859-421a-bd11-29b2c9fbfa99
 - encryption: none
   flow: ''
-  name: CA VLESS-24 | free-nodes - 4ms
+  name: CA VLESS-24 | free-nodes - 4ms...
   network: ws
   port: 80
   server: nodejs.org
@@ -1926,16 +2157,7 @@ proxies:
   uuid: 1a94fbd9-79d2-4aa7-bf1d-074f678d27ab
 - encryption: none
   flow: ''
-  name: 🤖34@oneclickvpnkeys
-  network: ws
-  port: 8443
-  server: 172.64.80.1
-  tls: false
-  type: vless
-  uuid: 2e8beadd-99bf-4fda-8692-8493886504bc
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #2 - 3ms'
+  name: '加拿大_多伦多 #2 - 3ms - 1ms'
   network: ws
   port: 2083
   server: 172.66.46.220
@@ -1944,7 +2166,7 @@ proxies:
   uuid: 34208027-101c-4e79-a0e3-87f62ef214e6
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_2 | ⬇️ 3.7MB/s - 3ms
+  name: 🇨🇦CA_2 | ⬇️ 3.7MB/s - 3ms - 2m...
   network: ws
   port: 80
   server: nodejs.org
@@ -1953,7 +2175,7 @@ proxies:
   uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #3 - 1ms'
+  name: '加拿大_多伦多 #3 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 172.67.171.49
@@ -1962,7 +2184,7 @@ proxies:
   uuid: 3d4a6c53-216c-525e-b118-61a90fcd48e2
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #4 - 1ms'
+  name: '加拿大_多伦多 #4 - 1ms - 1ms'
   network: ws
   port: 80
   server: 172.67.192.49
@@ -1971,7 +2193,7 @@ proxies:
   uuid: 4808e2ce-14f4-4f5e-b8f4-59fb92fffa09
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #6 - 2ms'
+  name: '加拿大_多伦多 #6 - 2ms - 1ms'
   network: ws
   port: 443
   server: japan.com
@@ -1980,25 +2202,7 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #7 - 69ms'
-  network: ws
-  port: 443
-  server: malaysia.com
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #5 - 118ms'
-  network: ws
-  port: 443
-  server: cnv6.xxxxxxxx.tk
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #9 - 25ms'
+  name: '加拿大_多伦多 #9 - 25ms - 25ms'
   network: ws
   port: 443
   server: singapore.com
@@ -2007,7 +2211,7 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #11 - 2ms'
+  name: '加拿大_多伦多 #11 - 2ms - 6ms'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2016,16 +2220,7 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #10 - 16ms'
-  network: ws
-  port: 443
-  server: time.is
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #12 - 24ms'
+  name: '加拿大_多伦多 #12 - 24ms - 15ms'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2034,7 +2229,16 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #8 - 146ms'
+  name: '加拿大_多伦多 #7 - 69ms - 145ms'
+  network: ws
+  port: 443
+  server: malaysia.com
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #8 - 146ms - 26ms'
   network: ws
   port: 8443
   server: russia.com
@@ -2043,13 +2247,31 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_1 | ⬇️ 4.9MB/s - 1ms
+  name: 🇨🇦CA_1 | ⬇️ 4.9MB/s - 1ms - 1m...
   network: ws
   port: 80
   server: 104.18.32.47
   tls: false
   type: vless
   uuid: 4a8d4562-7192-4e83-8a24-75515a1666a3
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #10 - 16ms - 66ms'
+  network: ws
+  port: 443
+  server: time.is
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #5 - 118ms - 121ms'
+  network: ws
+  port: 443
+  server: cnv6.xxxxxxxx.tk
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: ''
   name: 🇨🇦134120 | ⚡️Telegram = t.me/L...
@@ -2070,7 +2292,7 @@ proxies:
   uuid: 50414e45-4c5f-5a45-5553-87784dde8e7a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #13 - 1ms'
+  name: '加拿大_多伦多 #13 - 1ms - 1ms'
   network: ws
   port: 80
   server: 104.26.14.16
@@ -2079,7 +2301,7 @@ proxies:
   uuid: 518bd7b3-f67c-4fce-f601-54506be8969c
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #14 - 1ms'
+  name: '加拿大_多伦多 #14 - 1ms - 1ms'
   network: ws
   port: 8080
   server: 104.18.130.234
@@ -2088,16 +2310,7 @@ proxies:
   uuid: 53d90869-2563-44a6-936c-068032e30068
 - encryption: none
   flow: ''
-  name: 🤖39@oneclickvpnkeys
-  network: grpc
-  port: 2084
-  server: 46.8.237.5
-  tls: false
-  type: vless
-  uuid: 59b2ff61-808d-4dcc-b74a-fa283ff82c42
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #15 - 2ms'
+  name: '加拿大_多伦多 #15 - 2ms - 1ms'
   network: ws
   port: 2052
   server: 104.26.13.8
@@ -2106,7 +2319,7 @@ proxies:
   uuid: 6247d8e0-3b38-54e7-ae86-de8bd6c10111
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #16 - 1ms'
+  name: '加拿大_多伦多 #16 - 1ms - 1ms'
   network: ws
   port: 443
   server: 188.114.97.160
@@ -2115,7 +2328,7 @@ proxies:
   uuid: 6324e2ab-9801-4768-8d6c-cb9e657807eb
 - encryption: none
   flow: ''
-  name: CA VLESS-56 | free-nodes - 2ms
+  name: CA VLESS-56 | free-nodes - 2ms...
   network: ws
   port: 80
   server: nodejs.org
@@ -2124,7 +2337,7 @@ proxies:
   uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #17 - 1ms'
+  name: '加拿大_多伦多 #17 - 1ms - 1ms'
   network: ws
   port: 80
   server: 104.18.63.2
@@ -2133,7 +2346,7 @@ proxies:
   uuid: 781a8eb4-c4f7-4f99-9dee-e80369dbf1ec
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #18 - 2ms'
+  name: '加拿大_多伦多 #18 - 2ms - 1ms'
   network: ws
   port: 443
   server: 162.159.136.81
@@ -2142,7 +2355,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #19 - 1ms'
+  name: '加拿大_多伦多 #19 - 1ms - 1ms'
   network: ws
   port: 443
   server: 172.67.172.221
@@ -2151,7 +2364,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #21 - 1ms'
+  name: '加拿大_多伦多 #21 - 1ms - 1ms'
   network: ws
   port: 443
   server: 172.67.74.117
@@ -2160,7 +2373,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #20 - 2ms'
+  name: '加拿大_多伦多 #20 - 2ms - 1ms'
   network: ws
   port: 443
   server: 172.67.173.212
@@ -2169,7 +2382,7 @@ proxies:
   uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #22 - 1ms'
+  name: '加拿大_多伦多 #22 - 1ms - 1ms'
   network: ws
   port: 443
   server: 172.66.45.4
@@ -2178,7 +2391,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: 加拿大_蒙特利尔 - 9ms
+  name: 加拿大_蒙特利尔 - 9ms - 16ms
   network: ws
   port: 443
   server: bpfav2.pages.dev
@@ -2187,7 +2400,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #23 - 47ms'
+  name: '加拿大_多伦多 #23 - 47ms - 54ms'
   network: ws
   port: 443
   server: vz.ylks.xyz
@@ -2196,7 +2409,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #29 - 62ms'
+  name: '加拿大_多伦多 #29 - 62ms - 61ms'
   network: ws
   port: 443
   server: 192.18.148.248
@@ -2205,7 +2418,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_蒙特利尔 #1 - 75ms'
+  name: '加拿大_蒙特利尔 #1 - 75ms - 109ms'
   network: ws
   port: 443
   server: 168.138.71.220
@@ -2214,7 +2427,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #30 - 1ms'
+  name: '加拿大_多伦多 #30 - 1ms - 1ms'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2223,16 +2436,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #34 - 36ms'
-  network: ws
-  port: 443
-  server: hz.ylks.xyz
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #35 - 35ms'
+  name: '加拿大_多伦多 #35 - 35ms - 32ms'
   network: ws
   port: 80
   server: hz.ylks.xyz
@@ -2241,7 +2445,52 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #37 - 6ms'
+  name: '加拿大_多伦多 #34 - 36ms - 33ms'
+  network: ws
+  port: 443
+  server: hz.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #43 - 3ms - 1ms'
+  network: ws
+  port: 2087
+  server: ip.sb
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #44 - 3ms - 1ms'
+  network: ws
+  port: 2096
+  server: ip.sb
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #42 - 5ms - 1ms'
+  network: ws
+  port: 2083
+  server: ip.sb
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #45 - 1ms - 1ms'
+  network: ws
+  port: 2087
+  server: japan.com
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #37 - 6ms - 141ms'
   network: ws
   port: 2053
   server: icook.tw
@@ -2250,25 +2499,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #39 - 5ms'
-  network: ws
-  port: 2096
-  server: icook.tw
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #38 - 5ms'
-  network: ws
-  port: 2087
-  server: icook.tw
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #40 - 1ms'
+  name: '加拿大_多伦多 #40 - 1ms - 90ms'
   network: ws
   port: 443
   server: icook.tw
@@ -2277,7 +2508,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #41 - 2ms'
+  name: '加拿大_多伦多 #41 - 2ms - 69ms'
   network: ws
   port: 8443
   server: icook.tw
@@ -2286,43 +2517,25 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #43 - 3ms'
-  network: ws
-  port: 2087
-  server: ip.sb
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #44 - 3ms'
+  name: '加拿大_多伦多 #39 - 5ms - 142ms'
   network: ws
   port: 2096
-  server: ip.sb
+  server: icook.tw
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #42 - 5ms'
-  network: ws
-  port: 2083
-  server: ip.sb
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #45 - 1ms'
+  name: '加拿大_多伦多 #38 - 5ms - 109ms'
   network: ws
   port: 2087
-  server: japan.com
+  server: icook.tw
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #46 - 1ms'
+  name: '加拿大_多伦多 #46 - 1ms - 1ms'
   network: ws
   port: 443
   server: japan.com
@@ -2331,7 +2544,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #50 - 1ms'
+  name: '加拿大_多伦多 #50 - 1ms - 1ms'
   network: ws
   port: 2087
   server: malaysia.com
@@ -2340,16 +2553,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #51 - 2ms'
-  network: ws
-  port: 443
-  server: malaysia.com
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #56 - 1ms'
+  name: '加拿大_多伦多 #56 - 1ms - 1ms'
   network: ws
   port: 2087
   server: russia.com
@@ -2358,7 +2562,16 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #55 - 2ms'
+  name: '加拿大_多伦多 #51 - 2ms - 2ms'
+  network: ws
+  port: 443
+  server: malaysia.com
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #55 - 2ms - 1ms'
   network: ws
   port: 2083
   server: russia.com
@@ -2367,16 +2580,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #58 - 2ms'
-  network: ws
-  port: 8443
-  server: russia.com
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #57 - 2ms'
+  name: '加拿大_多伦多 #57 - 2ms - 1ms'
   network: ws
   port: 2096
   server: russia.com
@@ -2385,25 +2589,16 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #62 - 2ms'
-  network: ws
-  port: 443
-  server: singapore.com
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #66 - 2ms'
+  name: '加拿大_多伦多 #58 - 2ms - 2ms'
   network: ws
   port: 8443
-  server: singapore.com
+  server: russia.com
   tls: true
   type: vless
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #71 - 1ms'
+  name: '加拿大_多伦多 #71 - 1ms - 2ms'
   network: ws
   port: 8443
   server: time.is
@@ -2412,7 +2607,16 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #67 - 2ms'
+  name: '加拿大_多伦多 #66 - 2ms - 3ms'
+  network: ws
+  port: 8443
+  server: singapore.com
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #67 - 2ms - 3ms'
   network: ws
   port: 443
   server: time.is
@@ -2421,7 +2625,16 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #72 - 1ms'
+  name: '加拿大_多伦多 #62 - 2ms - 4ms'
+  network: ws
+  port: 443
+  server: singapore.com
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #72 - 1ms - 5ms'
   network: ws
   port: 2096
   server: www.baipiao.eu.org
@@ -2430,7 +2643,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_蒙特利尔 #2 - 7ms'
+  name: '加拿大_蒙特利尔 #2 - 7ms - 8ms'
   network: ws
   port: 443
   server: www.digitalocean.com
@@ -2439,43 +2652,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #74 - 232ms'
-  network: ws
-  port: 2096
-  server: www.gco.gov.qa
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #76 - 134ms'
-  network: ws
-  port: 8443
-  server: www.gco.gov.qa
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #75 - 226ms'
-  network: ws
-  port: 443
-  server: www.gco.gov.qa
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #73 - 233ms'
-  network: ws
-  port: 2053
-  server: www.gco.gov.qa
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #79 - 2ms'
+  name: '加拿大_多伦多 #79 - 2ms - 1ms'
   network: ws
   port: 2053
   server: www.gov.ua
@@ -2484,7 +2661,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #80 - 1ms'
+  name: '加拿大_多伦多 #80 - 1ms - 1ms'
   network: ws
   port: 8443
   server: www.gov.ua
@@ -2493,7 +2670,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #81 - 2ms'
+  name: '加拿大_多伦多 #81 - 2ms - 1ms'
   network: ws
   port: 2053
   server: www.hugedomains.com
@@ -2502,7 +2679,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #82 - 1ms'
+  name: '加拿大_多伦多 #82 - 1ms - 1ms'
   network: ws
   port: 2083
   server: www.hugedomains.com
@@ -2511,7 +2688,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #83 - 1ms'
+  name: '加拿大_多伦多 #83 - 1ms - 1ms'
   network: ws
   port: 2096
   server: www.hugedomains.com
@@ -2520,7 +2697,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #84 - 1ms'
+  name: '加拿大_多伦多 #84 - 1ms - 1ms'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2529,7 +2706,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #88 - 2ms'
+  name: '加拿大_多伦多 #88 - 2ms - 1ms'
   network: ws
   port: 8443
   server: www.hugedomains.com
@@ -2538,7 +2715,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #89 - 1ms'
+  name: '加拿大_多伦多 #89 - 1ms - 1ms'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2547,7 +2724,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #92 - 25ms'
+  name: '加拿大_多伦多 #92 - 25ms - 28ms'
   network: ws
   port: 2087
   server: www.whatismyip.com
@@ -2556,7 +2733,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #93 - 1ms'
+  name: '加拿大_多伦多 #93 - 1ms - 1ms'
   network: ws
   port: 8443
   server: www.whatismyip.com
@@ -2565,7 +2742,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #94 - 2ms'
+  name: '加拿大_多伦多 #94 - 2ms - 1ms'
   network: ws
   port: 2053
   server: xn--b6gac.eu.org
@@ -2574,7 +2751,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #95 - 1ms'
+  name: '加拿大_多伦多 #95 - 1ms - 1ms'
   network: ws
   port: 2096
   server: xn--b6gac.eu.org
@@ -2583,7 +2760,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #96 - 7ms'
+  name: '加拿大_多伦多 #96 - 7ms - 2ms'
   network: ws
   port: 443
   server: xn--b6gac.eu.org
@@ -2592,7 +2769,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #97 - 1ms'
+  name: '加拿大_多伦多 #97 - 1ms - 1ms'
   network: ws
   port: 80
   server: xn--b6gac.eu.org
@@ -2601,7 +2778,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #98 - 1ms'
+  name: '加拿大_多伦多 #98 - 1ms - 1ms'
   network: ws
   port: 8443
   server: xn--b6gac.eu.org
@@ -2610,7 +2787,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #99 - 35ms'
+  name: '加拿大_多伦多 #99 - 35ms - 27ms'
   network: ws
   port: 443
   server: zz.linghang.buzz
@@ -2619,7 +2796,16 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_蒙特利尔 #3 - 179ms'
+  name: '加拿大_多伦多 #78 - 179ms - 23ms'
+  network: ws
+  port: 8443
+  server: www.gov.se
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_蒙特利尔 #3 - 179ms - 66ms'
   network: ws
   port: 2083
   server: www.gov.se
@@ -2628,16 +2814,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #78 - 179ms'
-  network: ws
-  port: 8443
-  server: www.gov.se
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '加拿大_多伦多 #77 - 179ms'
+  name: '加拿大_多伦多 #77 - 179ms - 1ms'
   network: ws
   port: 2096
   server: www.gov.se
@@ -2646,7 +2823,57 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #100 - 10ms'
+  name: '加拿大_多伦多 #75 - 226ms - 229ms'
+  network: ws
+  port: 443
+  server: www.gco.gov.qa
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #73 - 233ms - 228ms'
+  network: ws
+  port: 2053
+  server: www.gco.gov.qa
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #76 - 134ms - 229ms'
+  network: ws
+  port: 8443
+  server: www.gco.gov.qa
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #74 - 232ms - 230ms'
+  network: ws
+  port: 2096
+  server: www.gco.gov.qa
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇦CA_46
+  network: raw
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: '!!str 0e'
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- encryption: none
+  flow: ''
+  name: '加拿大_多伦多 #100 - 10ms - 19ms'
   network: ws
   port: 443
   server: rmgy.pages.dev
@@ -2655,7 +2882,7 @@ proxies:
   uuid: b1634f7c-a569-4587-adb0-e1ed8cf27966
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #101 - 2ms'
+  name: '加拿大_多伦多 #101 - 2ms - 1ms'
   network: ws
   port: 443
   server: cnv6.xxxxxxxx.tk
@@ -2664,7 +2891,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #102 - 1ms'
+  name: '加拿大_多伦多 #102 - 1ms - 1ms'
   network: ws
   port: 443
   server: japan.com
@@ -2673,7 +2900,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #103 - 1ms'
+  name: '加拿大_多伦多 #103 - 1ms - 1ms'
   network: ws
   port: 443
   server: malaysia.com
@@ -2682,7 +2909,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #104 - 2ms'
+  name: '加拿大_多伦多 #104 - 2ms - 1ms'
   network: ws
   port: 8443
   server: russia.com
@@ -2691,7 +2918,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #105 - 1ms'
+  name: '加拿大_多伦多 #105 - 1ms - 1ms'
   network: ws
   port: 443
   server: singapore.com
@@ -2700,7 +2927,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #106 - 2ms'
+  name: '加拿大_多伦多 #106 - 2ms - 1ms'
   network: ws
   port: 443
   server: time.is
@@ -2709,7 +2936,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #107 - 1ms'
+  name: '加拿大_多伦多 #107 - 1ms - 1ms'
   network: ws
   port: 443
   server: www.hugedomains.com
@@ -2718,7 +2945,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_蒙特利尔 #5 - 2ms'
+  name: '加拿大_蒙特利尔 #5 - 2ms - 1ms'
   network: ws
   port: 443
   server: www.udemy.com
@@ -2727,7 +2954,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #108 - 1ms'
+  name: '加拿大_多伦多 #108 - 1ms - 1ms'
   network: ws
   port: 443
   server: 188.114.97.141
@@ -2736,7 +2963,7 @@ proxies:
   uuid: d7bbfe83-b037-48ae-996c-b98ed0441ba2
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #110 - 1ms'
+  name: '加拿大_多伦多 #110 - 1ms - 1ms'
   network: ws
   port: 443
   server: 104.16.17.195
@@ -2745,7 +2972,7 @@ proxies:
   uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #111 - 2ms'
+  name: '加拿大_多伦多 #111 - 2ms - 1ms'
   network: ws
   port: 80
   server: 104.18.10.7
@@ -2754,7 +2981,7 @@ proxies:
   uuid: de20645d-cb33-436c-8d62-d0cf0fec9e4e
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #112 - 1ms'
+  name: '加拿大_多伦多 #112 - 1ms - 1ms'
   network: ws
   port: 80
   server: 104.17.71.153
@@ -2772,7 +2999,7 @@ proxies:
   uuid: edb4028d-e5f9-4d79-835c-7604fbd119b3
 - encryption: none
   flow: ''
-  name: '加拿大_多伦多 #113 - 1ms'
+  name: '加拿大_多伦多 #113 - 1ms - 1ms'
   network: ws
   port: 2096
   server: 14.102.228.210
@@ -2807,7 +3034,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #115 - 1ms'
+  name: '加拿大_多伦多 #115 - 1ms - 1ms'
   network: ws
   port: 8880
   server: 104.16.68.38
@@ -2820,7 +3047,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #116 - 1ms'
+  name: '加拿大_多伦多 #116 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.18.14.19
@@ -2833,7 +3060,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #117 - 2ms'
+  name: '加拿大_多伦多 #117 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.18.15.19
@@ -2846,7 +3073,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #119 - 1ms'
+  name: '加拿大_多伦多 #119 - 1ms - 1ms'
   network: ws
   port: 443
   server: 104.18.206.97
@@ -2859,7 +3086,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #120 - 1ms'
+  name: '加拿大_多伦多 #120 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -2872,7 +3099,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #121 - 2ms'
+  name: '加拿大_多伦多 #121 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.123.11
@@ -2885,20 +3112,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #122 - 2ms'
-  network: ws
-  port: 2086
-  server: 104.19.21.230
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.21.230
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #124 - 2ms'
+  name: '加拿大_多伦多 #124 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.21.71
@@ -2911,20 +3125,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #126 - 2ms'
-  network: ws
-  port: 2086
-  server: 104.19.38.12
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.38.12
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #127 - 1ms'
+  name: '加拿大_多伦多 #127 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.38.22
@@ -2937,20 +3138,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #128 - 2ms'
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: 104.19.38.62
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #133 - 2ms'
+  name: '加拿大_多伦多 #133 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.32.216
@@ -2963,7 +3151,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #134 - 7ms'
+  name: '加拿大_多伦多 #134 - 7ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.32.226
@@ -2976,20 +3164,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #137 - 6ms'
-  network: ws
-  port: 2095
-  server: 104.19.45.0
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: 104.19.45.0
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #138 - 1ms'
+  name: '加拿大_多伦多 #138 - 1ms - 2ms'
   network: ws
   port: 2086
   server: 104.19.45.19
@@ -3002,7 +3177,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #141 - 1ms'
+  name: '加拿大_多伦多 #141 - 1ms - 2ms'
   network: ws
   port: 2086
   server: 104.19.45.11
@@ -3015,33 +3190,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #140 - 1ms'
-  network: ws
-  port: 2095
-  server: 104.19.45.194
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: 104.19.45.194
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #142 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.45.13
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.45.13
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #146 - 2ms'
+  name: '加拿大_多伦多 #146 - 2ms - 2ms'
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -3054,33 +3203,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #148 - 2ms'
-  network: ws
-  port: 2095
-  server: 104.19.45.83
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: 104.19.45.83
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #144 - 3ms'
+  name: '加拿大_多伦多 #142 - 1ms - 3ms'
   network: ws
   port: 2086
-  server: 104.19.45.31
+  server: 104.19.45.13
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: 104.19.45.31
+      Host: 104.19.45.13
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #149 - 1ms'
+  name: '加拿大_多伦多 #149 - 1ms - 2ms'
   network: ws
   port: 2086
   server: 104.19.45.90
@@ -3093,7 +3229,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #150 - 1ms'
+  name: '加拿大_多伦多 #144 - 3ms - 2ms'
+  network: ws
+  port: 2086
+  server: 104.19.45.31
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: 104.19.45.31
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大_多伦多 #150 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.46.103
@@ -3106,59 +3255,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #151 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: 104.19.46.233
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #153 - 2ms'
-  network: ws
-  port: 2086
-  server: 104.19.46.36
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.46.36
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #154 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.46.39
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.46.39
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #155 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.46.33
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.46.33
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #156 - 2ms'
+  name: '加拿大_多伦多 #156 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.46.63
@@ -3171,7 +3268,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #157 - 2ms'
+  name: '加拿大_多伦多 #157 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.47.122
@@ -3184,7 +3281,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #159 - 1ms'
+  name: '加拿大_多伦多 #159 - 1ms - 2ms'
   network: ws
   port: 2086
   server: 104.19.47.36
@@ -3197,7 +3294,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #158 - 2ms'
+  name: '加拿大_多伦多 #158 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.47.22
@@ -3210,7 +3307,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #160 - 1ms'
+  name: '加拿大_多伦多 #160 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.47.32
@@ -3223,7 +3320,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #163 - 1ms'
+  name: '加拿大_多伦多 #163 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.47.75
@@ -3236,46 +3333,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大_Montreal - 68ms
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 158.51.121.36
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #162 - 2ms'
-  network: ws
-  port: 2086
-  server: 104.19.47.65
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.47.65
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #166 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.47.79
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 104.19.47.79
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #164 - 2ms'
+  name: '加拿大_多伦多 #164 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.47.77
@@ -3288,7 +3346,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #167 - 2ms'
+  name: '加拿大_多伦多 #167 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.47.88
@@ -3301,7 +3359,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #169 - 1ms'
+  name: '加拿大_多伦多 #169 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.57.24
@@ -3314,7 +3372,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #172 - 2ms'
+  name: '加拿大_多伦多 #172 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.19.59.89
@@ -3327,7 +3385,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #174 - 2ms'
+  name: '加拿大_多伦多 #174 - 2ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.59.99
@@ -3340,20 +3398,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #175 - 1ms'
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: 104.19.51.232
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #177 - 2ms'
+  name: '加拿大_多伦多 #177 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.0.50
@@ -3366,7 +3411,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #178 - 1ms'
+  name: '加拿大_多伦多 #178 - 1ms - 3ms'
   network: ws
   port: 2052
   server: 104.26.0.56
@@ -3379,7 +3424,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #180 - 1ms'
+  name: '加拿大_多伦多 #180 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 104.26.0.66
@@ -3392,7 +3437,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #183 - 1ms'
+  name: '加拿大_多伦多 #183 - 1ms - 2ms'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -3405,7 +3450,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #182 - 2ms'
+  name: '加拿大_多伦多 #182 - 2ms - 1ms'
   network: ws
   port: 80
   server: 104.26.15.148
@@ -3418,7 +3463,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #184 - 1ms'
+  name: '加拿大_多伦多 #184 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.10.11
@@ -3431,7 +3476,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #185 - 1ms'
+  name: '加拿大_多伦多 #185 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.12.140
@@ -3444,7 +3489,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #186 - 1ms'
+  name: '加拿大_多伦多 #186 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.12.31
@@ -3457,7 +3502,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #187 - 1ms'
+  name: '加拿大_多伦多 #187 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.13.31
@@ -3470,7 +3515,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #190 - 1ms'
+  name: '加拿大_多伦多 #190 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.112
@@ -3483,7 +3528,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #191 - 1ms'
+  name: '加拿大_多伦多 #191 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.113
@@ -3496,7 +3541,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #194 - 1ms'
+  name: '加拿大_多伦多 #194 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.145
@@ -3509,7 +3554,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #193 - 1ms'
+  name: '加拿大_多伦多 #193 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.123
@@ -3522,7 +3567,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #195 - 1ms'
+  name: '加拿大_多伦多 #195 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.56
@@ -3535,7 +3580,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #196 - 1ms'
+  name: '加拿大_多伦多 #196 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.57
@@ -3548,7 +3593,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #171 - 12ms'
+  name: '加拿大_多伦多 #171 - 12ms - 1ms'
   network: ws
   port: 2052
   server: 104.19.57.4
@@ -3561,7 +3606,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #197 - 1ms'
+  name: '加拿大_多伦多 #197 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.66
@@ -3574,7 +3619,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #199 - 1ms'
+  name: '加拿大_多伦多 #199 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.67
@@ -3587,7 +3632,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #201 - 1ms'
+  name: '加拿大_多伦多 #201 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.88
@@ -3600,7 +3645,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #202 - 1ms'
+  name: '加拿大_多伦多 #202 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.5.90
@@ -3613,7 +3658,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #203 - 1ms'
+  name: '加拿大_多伦多 #203 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.7.132
@@ -3626,7 +3671,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #206 - 1ms'
+  name: '加拿大_多伦多 #206 - 1ms - 1ms'
   network: ws
   port: 2052
   server: 104.26.7.152
@@ -3639,7 +3684,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #209 - 1ms'
+  name: '加拿大_多伦多 #209 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.26.9.156
@@ -3652,7 +3697,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #210 - 1ms'
+  name: '加拿大_多伦多 #210 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.20.17.186
@@ -3665,7 +3710,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #212 - 1ms'
+  name: '加拿大_多伦多 #212 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 104.20.25.146
@@ -3678,46 +3723,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #216 - 1ms'
-  network: ws
-  port: 443
-  server: 104.21.46.121
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: 104.21.46.121
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #215 - 2ms'
-  network: ws
-  port: 443
-  server: 104.21.28.62
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: 104.21.28.62
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #217 - 2ms'
-  network: ws
-  port: 443
-  server: 104.21.53.183
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: 104.21.53.183
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #218 - 2ms'
+  name: '加拿大_多伦多 #218 - 2ms - 1ms'
   network: ws
   port: 443
   server: 104.21.69.44
@@ -3730,20 +3736,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #222 - 1ms'
-  network: ws
-  port: 443
-  server: 162.159.8.120
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: 162.159.8.120
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #223 - 1ms'
+  name: '加拿大_多伦多 #223 - 1ms - 1ms'
   network: ws
   port: 443
   server: 162.159.1.94
@@ -3756,7 +3749,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #224 - 1ms'
+  name: '加拿大_多伦多 #224 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 162.159.140.19
@@ -3769,7 +3762,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #227 - 2ms'
+  name: '加拿大_多伦多 #227 - 2ms - 1ms'
   network: ws
   port: 2086
   server: 162.159.140.56
@@ -3782,7 +3775,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #229 - 1ms'
+  name: '加拿大_多伦多 #229 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 162.159.140.66
@@ -3795,7 +3788,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #230 - 1ms'
+  name: '加拿大_多伦多 #230 - 1ms - 2ms'
   network: ws
   port: 2086
   server: 162.159.140.77
@@ -3808,7 +3801,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #231 - 1ms'
+  name: '加拿大_多伦多 #231 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 162.159.140.91
@@ -3821,20 +3814,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #235 - 1ms'
-  network: ws
-  port: 443
-  server: 172.67.156.210
-  tls: true
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: 172.67.156.210
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #237 - 1ms'
+  name: '加拿大_多伦多 #237 - 1ms - 1ms'
   network: ws
   port: 443
   server: 172.67.170.13
@@ -3847,20 +3827,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #241 - 1ms'
-  network: ws
-  port: 443
-  server: 172.67.181.241
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 172.67.181.241
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #240 - 1ms'
+  name: '加拿大_多伦多 #240 - 1ms - 1ms'
   network: ws
   port: 443
   server: 172.67.175.56
@@ -3873,46 +3840,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #245 - 1ms'
-  network: ws
-  port: 443
-  server: 172.67.136.233
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: 172.67.136.233
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #246 - 1ms'
-  network: ws
-  port: 443
-  server: 172.67.216.29
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: 172.67.216.29
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #248 - 2ms'
-  network: ws
-  port: 443
-  server: 172.67.223.119
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: 172.67.223.119
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #249 - 1ms'
+  name: '加拿大_多伦多 #249 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 172.67.74.112
@@ -3925,7 +3853,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #252 - 1ms'
+  name: '加拿大_多伦多 #252 - 1ms - 1ms'
   network: ws
   port: 443
   server: 173.245.59.8
@@ -3938,7 +3866,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #250 - 1ms'
+  name: '加拿大_多伦多 #250 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 172.67.71.187
@@ -3951,7 +3879,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #253 - 1ms'
+  name: '加拿大_多伦多 #253 - 1ms - 1ms'
   network: ws
   port: 443
   server: 188.114.96.1
@@ -3964,7 +3892,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #254 - 2ms'
+  name: '加拿大_多伦多 #254 - 2ms - 1ms'
   network: ws
   port: 443
   server: 188.114.96.2
@@ -3977,7 +3905,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #256 - 1ms'
+  name: '加拿大_多伦多 #256 - 1ms - 1ms'
   network: ws
   port: 443
   server: 188.114.96.3
@@ -3990,7 +3918,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #255 - 2ms'
+  name: '加拿大_多伦多 #255 - 2ms - 1ms'
   network: ws
   port: 443
   server: 188.114.96.3
@@ -4003,7 +3931,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #257 - 2ms'
+  name: '加拿大_多伦多 #257 - 2ms - 1ms'
   network: ws
   port: 443
   server: 188.114.97.8
@@ -4016,7 +3944,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #258 - 2ms'
+  name: '加拿大_多伦多 #258 - 2ms - 1ms'
   network: ws
   port: 443
   server: 188.114.97.2
@@ -4029,20 +3957,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #260 - 1ms'
-  network: ws
-  port: 443
-  server: 188.114.97.21
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 188.114.97.21
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #259 - 2ms'
+  name: '加拿大_多伦多 #259 - 2ms - 1ms'
   network: ws
   port: 443
   server: 188.114.97.2
@@ -4055,7 +3970,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #262 - 1ms'
+  name: '加拿大_多伦多 #262 - 1ms - 2ms'
   network: ws
   port: 443
   server: cdnjs.com
@@ -4068,33 +3983,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #266 - 2ms'
-  network: ws
-  port: 2086
-  server: icook.tw
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: icook.tw
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #264 - 3ms'
-  network: ws
-  port: 443
-  server: discord.com
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: discord.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #277 - 2ms'
+  name: '加拿大_多伦多 #277 - 2ms - 1ms'
   network: ws
   port: 2086
   server: skk.moe
@@ -4107,20 +3996,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_蒙特利尔 #6 - 52ms'
+  name: '加拿大_多伦多 #264 - 3ms - 5ms'
   network: ws
-  port: 2086
-  server: fbi.gov
-  tls: false
+  port: 443
+  server: discord.com
+  tls: true
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
     headers:
-      Host: fbi.gov
+      Host: discord.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #282 - 2ms'
+  name: '加拿大_多伦多 #282 - 2ms - 1ms'
   network: ws
   port: 2086
   server: russia.com
@@ -4133,7 +4022,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #280 - 2ms'
+  name: '加拿大_多伦多 #280 - 2ms - 1ms'
   network: ws
   port: 8880
   server: russia.com
@@ -4146,7 +4035,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #284 - 2ms'
+  name: 加拿大_Montreal - 68ms - 68ms
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 158.51.121.36
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大_多伦多 #284 - 2ms - 1ms'
   network: ws
   port: 80
   server: russia.com
@@ -4159,7 +4061,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #285 - 2ms'
+  name: '加拿大_多伦多 #285 - 2ms - 2ms'
   network: ws
   port: 2086
   server: www.visa.com
@@ -4172,20 +4074,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #261 - 154ms'
-  network: ws
-  port: 443
-  server: ParsVds.ir
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: ParsVds.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大_渥太華 - 1ms
+  name: 加拿大_渥太華 - 1ms - 1ms
   network: ws
   port: 2052
   server: 23.227.38.13
@@ -4198,46 +4087,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_渥太華 #1 - 1ms'
-  network: ws
-  port: 2086
-  server: 23.227.38.3
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 23.227.38.3
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_渥太華 #3 - 2ms'
-  network: ws
-  port: 2086
-  server: 23.227.38.5
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: 23.227.38.5
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_渥太華 #5 - 1ms'
-  network: ws
-  port: 2086
-  server: 23.227.38.6
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: 23.227.38.6
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_渥太華 #10 - 1ms'
+  name: '加拿大_渥太華 #10 - 1ms - 1ms'
   network: ws
   port: 2086
   server: 23.227.38.8
@@ -4247,32 +4097,6 @@ proxies:
   ws-opts:
     headers:
       Host: 23.227.38.8
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #275 - 274ms'
-  network: ws
-  port: 2095
-  server: sdhdffjblkgfh_cdn.hfhfb.homes
-  tls: false
-  type: vmess
-  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
-  ws-opts:
-    headers:
-      Host: sdhdffjblkgfh_cdn.hfhfb.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '加拿大_多伦多 #287 - 338ms'
-  network: ws
-  port: 80
-  server: www.zula.ir
-  tls: false
-  type: vmess
-  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
-  ws-opts:
-    headers:
-      Host: www.zula.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -4302,7 +4126,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大_多伦多 #278 - 477ms'
+  name: '加拿大_蒙特利尔 #6 - 52ms - 79ms'
+  network: ws
+  port: 2086
+  server: fbi.gov
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: fbi.gov
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大_多伦多 #275 - 274ms - 243ms'
+  network: ws
+  port: 2095
+  server: sdhdffjblkgfh_cdn.hfhfb.homes
+  tls: false
+  type: vmess
+  uuid: 3b8e69d8-1f1b-4b96-8754-2a8ec38e716f
+  ws-opts:
+    headers:
+      Host: sdhdffjblkgfh_cdn.hfhfb.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大_多伦多 #287 - 338ms - 388ms'
+  network: ws
+  port: 80
+  server: www.zula.ir
+  tls: false
+  type: vmess
+  uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9
+  ws-opts:
+    headers:
+      Host: www.zula.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大_多伦多 #278 - 477ms - 295ms'
   network: ws
   port: 443
   server: parsvds.com
@@ -4313,22 +4176,9 @@ proxies:
     headers:
       Host: parsvds.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦CA-158.51.121.63-0535 | 36.2...
-  network: ws
-  port: 443
-  server: 158.51.121.63
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 158.51.121.63
-    path: /
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_44 - 1ms
+  name: 🇨🇦CA_44 - 1ms - 1ms
   network: ws
   port: 2087
   server: 104.26.0.7
@@ -4337,16 +4187,7 @@ proxies:
   uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_17 - 2ms
-  network: ws
-  port: 2087
-  server: 104.27.66.214
-  tls: true
-  type: vless
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-- encryption: none
-  flow: ''
-  name: 🇨🇦CA_25 - 1ms
+  name: 🇨🇦CA_25 - 1ms - 1ms
   network: ws
   port: 8443
   server: 172.67.179.33
@@ -4355,7 +4196,7 @@ proxies:
   uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_20 - 3ms
+  name: 🇨🇦CA_20 - 3ms - 1ms
   network: ws
   port: 2087
   server: 188.114.97.6
@@ -4364,22 +4205,13 @@ proxies:
   uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_24 - 1ms
+  name: 🇨🇦CA_24 - 1ms - 1ms
   network: ws
   port: 8443
   server: 104.21.51.196
   tls: true
   type: vless
   uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-- encryption: none
-  flow: ''
-  name: 🇨🇦CA_19 - 1ms
-  network: ws
-  port: 2087
-  server: 104.18.1.1
-  tls: true
-  type: vless
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
@@ -4396,7 +4228,7 @@ proxies:
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_56 - 62ms
+  name: 🇨🇦CA_56 - 62ms - 62ms
   network: ws
   port: 443
   server: 45.133.18.31
@@ -4405,25 +4237,18 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_27 - 1ms
+  name: 🇨🇦CA_27 - 1ms - 1ms
   network: ws
   port: 2087
   server: 198.41.208.99
   tls: true
   type: vless
   uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-- encryption: none
-  flow: ''
-  name: 🇨🇦CA_16 - 1ms
-  network: ws
-  port: 2087
-  server: 172.67.74.10
-  tls: true
-  type: vless
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇦_加拿大_34
+  network: tcp
   port: 48905
   reality-opts:
     public-key: XIubADu7punjUa2oUfHj2vTmUzUJXN_xDrGsmf_LslY
@@ -4434,165 +4259,641 @@ proxies:
   type: vless
   udp: true
   uuid: c9cbfe43-4087-4069-8bca-225f9a26a94f
-- name: 🇨🇦134748 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134748 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 188.114.97.3
   tls: false
   type: vless
   uuid: 056c2a0a-a8be-4c9b-8e3a-f7e1466267dc
-- name: 🇨🇦134777 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134777 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 172.67.133.4
   tls: false
   type: vless
   uuid: 22b3cbba-e6ac-485a-9321-976a0415eab7
-- name: 🇨🇦134670 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134670 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.21.29.236
   tls: true
   type: vless
   uuid: 29b3cbba-e6ac-485a-9481-976a7305eab9
-- name: 🇨🇦134674 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134674 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.21.19.82
   tls: true
   type: vless
   uuid: 33b3cbba-e6ac-485a-9481-976a2945eab9
-- name: 🇨🇦134633 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134633 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.18.209.121
   tls: false
   type: vless
   uuid: 3e208617-6a52-4971-a3da-a19cd8ab7a63
-- name: 🇨🇦134673 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134673 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 104.18.181.48
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134752 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134752 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 104.18.200.69
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134672 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134783 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: 80
+  server: 104.18.23.239
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- encryption: none
+  flow: ''
+  name: 🇨🇦134672 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 104.19.40.96
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134755 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134755 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 80
   server: 104.21.235.45
   tls: false
   type: vless
   uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
-- name: 🇨🇦134780 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134780 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.17.246.203
   tls: true
   type: vless
   uuid: 46dbac8b-eaba-4275-940c-819f95d16916
-- name: '未命名 #78'
-  port: 443
-  server: 104.17.149.233
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: '%2Fsg-melbi'
-- name: 🇨🇦134688 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 104.25.245.126
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: '%2Fsg-melbi'
-- name: 🇨🇦134690 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 162.159.2.228
-  tls: false
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    path: '%2Fsg-melbi'
-- name: 🇨🇦134749 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134749 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 8080
   server: 104.21.69.44
   tls: false
   type: vless
   uuid: 6b735d73-6ae4-4194-8ff9-3a030b32e0a6
-- name: 🇨🇦134754 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134754 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 8080
   server: 104.21.68.89
   tls: false
   type: vless
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- name: 🇨🇦134719 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134719 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.18.139.67
   tls: false
   type: vless
   uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3
-- alpn:
-  - h3
-  - h2
-  - http/1.1
+- encryption: none
+  flow: ''
   name: 🇨🇦134695 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: 104.16.74.207
   tls: false
   type: vless
   uuid: 901ff980-0727-4a6b-8417-5d9be8948ff6
-- name: 🇨🇦134616 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134616 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 443
   server: www.speedtest.net
   tls: false
   type: vless
   uuid: cccf62bc-7acf-4029-ada1-4b3952110b7d
-  ws-opts:
-    path: '%2FeyJqdW5rIjoickg0WGJ1UzA2dzBtIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiYnBiLnlvdXNlZi5pc2VnYXJvLmNvbSJdfQ'
-- name: 🇨🇦134739 | ⚡️Telegram = t.me/S...
-  port: 443
-  server: 151.101.194.133
-  tls: true
-  type: vless
-  uuid: cefffd1d-cc58-4560-b4d1-44f1af528f30
-- name: 🇨🇦134671 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134671 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 8080
   server: 162.159.152.2
   tls: false
   type: vless
   uuid: cfa59f13-cb9f-4a81-bf8d-2bb6cb52d916
-- name: 🇨🇦134804 | ⚡️Telegram = t.me/S...
+- encryption: none
+  flow: ''
+  name: 🇨🇦134804 | ⚡️Telegram = t.me/S...
+  network: tcp
   port: 2052
   server: 172.66.213.38
   tls: false
   type: vless
   uuid: da31680a-2a6b-4031-b7fa-70fd8d696089
-- name: 🇨🇦134767 | ⚡️Telegram = t.me/L...
-  port: 443
-  server: 104.17.3.81
+- encryption: none
+  flow: ''
+  name: 🇨🇦134793 | ⚡️Telegram = t.me/S...
+  network: tcp
+  port: 2052
+  server: cdn3.portalcode.ir
   tls: false
   type: vless
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  uuid: da31680a-2a6b-4031-b7fa-70fd8d696089
+- name: 🇨🇦134874 | ⚡️Telegram = t.me/S...
+  password: MITIVPN
+  port: 443
+  server: 104.17.158.32
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FussA---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
+- name: '[🇨🇦]t.me/ConfigV2RayNG'
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[🇨🇦]t.me/ConfigV2RayNG #2'
+  port: 8443
+  server: 104.16.6.189
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇨🇦134867 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 056c2a0a-a8be-4c9b-8e3a-f7e1466267dc
+  ws-opts:
+    path: '%2FPROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM%3Fed%3D2048'
+- name: 🇨🇦134968 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 104.16.4.103
+  tls: false
+  type: vless
+  uuid: 05e056d2-5808-4809-8202-41c14d6b2bc8
+  ws-opts:
+    path: '%2F250e'
+- name: 🇨🇦134966 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 104.17.121.110
+  tls: false
+  type: vless
+  uuid: 05e056d2-5808-4809-8202-41c14d6b2bc8
+  ws-opts:
+    path: '%2F250e'
+- name: 🇨🇦134967 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 05e056d2-5808-4809-8202-41c14d6b2bc8
+  ws-opts:
+    path: '%2F250e'
+- name: 🇨🇦134871 | ⚡️Telegram = t.me/S...
+  port: 8443
+  server: 104.19.71.14
+  tls: true
+  type: vless
+  uuid: 0705db4a-e41b-4c3f-ac24-1094ba165b12
+- name: 🇨🇦135011 | ⚡️Telegram = t.me/S...
+  port: 2095
+  server: 104.16.7.70
+  tls: false
+  type: vless
+  uuid: 2b5f8588-87f6-40af-a785-322c8fa1df77
+  ws-opts:
+    path: '%2FXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXnXn%3Fed%3D2560'
+- name: 🇨🇦134930 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.17.108.1
+  tls: false
+  type: vless
+  uuid: 2f11528c-eaa3-484e-920e-e5f1f1174b78
+- name: 🇨🇦134979 | ⚡️Telegram = t.me/S...
+  port: 2083
+  server: 104.21.94.168
+  tls: true
+  type: vless
+  uuid: 3351bedb-836a-4017-b966-fe11ddafede2
+- name: 🇨🇦134866 | ⚡️Telegram = t.me/S...
+  port: 2096
+  server: 172.66.47.2
+  tls: false
+  type: vless
+  uuid: 3fa4c645-f6a7-4a02-85ee-7289530a6d1e
+  ws-opts:
+    path: /
+- name: 🇨🇦134965 | ⚡️Telegram = t.me/S...
+  port: 2082
+  server: 104.18.1.125
+  tls: false
+  type: vless
+  uuid: 416f18ec-11f3-4648-9693-8c6480d0662d
+- name: 🇨🇦135033 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.155.205
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135021 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.160.252
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134964 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.19.190
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135015 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.231.76
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134919 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.239.53
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134963 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.17.99.191
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134939 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.113.46
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134989 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.18.167
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134984 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.214.233
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134985 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.29.14
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134913 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.37.2
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134914 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.66.140
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134865 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.84.230
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134990 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.88.48
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135014 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.88.79
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134975 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.19.40.18
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134991 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.19.40.242
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135024 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.19.53.130
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135005 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.26.11.233
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135004 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.26.15.98
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135008 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 172.67.153.184
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦135019 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 172.67.170.85
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134937 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 188.114.97.91
+  tls: false
+  type: vless
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+- name: 🇨🇦134878 | ⚡️Telegram = t.me/S...
+  port: 8080
+  server: www.speedtest.net
+  tls: false
+  type: vless
+  uuid: 443779ba-7694-44ce-95c1-2f10682de4fa
+  ws-opts:
+    path: '%2F'
+- name: 🇨🇦134887 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 162.159.141.83
+  tls: false
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    path: '%2Fsg-melbi'
+- name: 🇨🇦134938 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 104.18.13.149
+  tls: false
+  type: vless
+  uuid: 4f6f85f9-9d32-4684-a952-338d2208e1af
+- name: 🇨🇦135025 | ⚡️Telegram = t.me/S...
+  port: 2095
+  server: 104.21.90.103
+  tls: false
+  type: vless
+  uuid: 515f7b29-206c-4036-8230-4270cca0a1f2
+- name: 🇨🇦134977 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 172.67.157.202
+  tls: false
+  type: vless
+  uuid: 76b3cbba-e6ac-485a-9481-336a0415eab9
+- name: 🇨🇦135016 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: 2095
+  server: 172.67.204.84
+  tls: false
+  type: vless
+  uuid: 77dcf971-8fc9-4286-b5a8-ada39b05b5c3
+- name: 🇨🇦135007 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 172.67.138.69
+  tls: false
+  type: vless
+  uuid: 78d8c4e0-ef1e-4321-8e90-77ddd5a694d3
+- name: 🇨🇦134934 | ⚡️Telegram = t.me/S...
+  port: 2095
+  server: www.parsvds.ir
+  tls: false
+  type: vless
+  uuid: 7ad17490-2e19-468c-9d3a-51474bba4a77
+  ws-opts:
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
+- name: 🇨🇦134931 | ⚡️Telegram = t.me/S...
+  port: 2052
+  server: 104.21.88.174
+  tls: false
+  type: vless
+  uuid: 81e09a82-fe8d-4393-aefb-747322b20795
+  ws-opts:
+    path: '%2Fwss'
+- name: 🇨🇦135012 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.21.84.35
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+- name: 🇨🇦134888 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 172.67.196.67
+  tls: false
+  type: vless
+  uuid: 9daedbaa-5ad7-49d9-866b-ab252a376977
+- name: 🇨🇦134962 | ⚡️Telegram = t.me/S...
+  network: ws
+  port: 2095
+  server: 104.17.147.22
+  tls: false
+  type: vless
+  uuid: a24c1e9e-c10d-4e8d-b614-2a988603958c
+- name: 🇨🇦135017 | ⚡️Telegram = t.me/S...
+  port: 2053
+  server: 172.67.151.170
+  tls: true
+  type: vless
+  uuid: b897434d-892e-46a6-a760-361a92e0b911
+- name: 🇨🇦134972 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 104.17.121.110
+  tls: false
+  type: vless
+  uuid: c0a7e427-1034-485a-b5c7-4449bd04b28d
+  ws-opts:
+    path: '%2Fmmd'
+- name: 🇨🇦134980 | ⚡️Telegram = t.me/S...
+  port: 2053
+  server: 172.67.69.236
+  tls: true
+  type: vless
+  uuid: cd8002d9-e8fd-4411-8bb6-fc80310ff81d
+- name: '[🇨🇦]t.me/ConfigV2RayNG #6'
+  port: 443
+  server: 173.245.49.115
+  tls: false
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    path: '%2FGOrbEh'
+- name: 🇨🇦135018 | ⚡️Telegram = t.me/S...
+  port: 8080
+  server: 172.67.163.103
+  tls: false
+  type: vless
+  uuid: d3b99623-7f42-499f-9c40-224b52d18d46
+- name: '[🇨🇦]t.me/ConfigV2RayNG #15'
+  port: 2053
+  server: 104.21.234.13
+  tls: false
+  type: vless
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  ws-opts:
+    path: '%2FeyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ%3D%3D%3Fed%3D2560'
+- name: '[🇨🇦]t.me/ConfigV2RayNG #16'
+  port: 443
+  server: 104.21.234.13
+  tls: false
+  type: vless
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  ws-opts:
+    path: '%2FeyJqdW5rIjoidDJpVVJEQndqZyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjkxLjE4Ni4yMTkuODIiXX0%3D%3Fed%3D2560'
+- name: '[🇨🇦]t.me/ConfigV2RayNG #17'
+  port: 443
+  server: 188.114.97.3
+  tls: false
+  type: vless
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  ws-opts:
+    path: '%2FeyJqdW5rIjoidmJOWHUwYnBOS00zT04iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5MS4xODYuMjE5LjgyIl19%3Fed%3D2560'
+- name: 🇨🇦135020 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.19.24.0
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+- name: 🇨🇦135029 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 104.19.30.118
+  tls: false
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  ws-opts:
+    path: JOIN-FILTERK0SH%2F%3Fed%3D2048
+- name: 🇨🇦135026 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 172.64.97.194
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+- name: 🇨🇦134961 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 172.67.192.119
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+- name: 🇨🇦135001 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 172.67.55.97
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+- name: 🇨🇦134960 | ⚡️Telegram = t.me/S...
+  port: 443
+  server: 198.41.209.50
+  tls: true
+  type: vless
+  uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+- name: 🇨🇦134988 | ⚡️Telegram = t.me/S...
+  port: 8443
+  server: 104.21.6.67
+  tls: false
+  type: vless
+  uuid: da7d53de-e5be-4544-96a6-7db560867ee0
+- name: '[🇨🇦]t.me/ConfigV2RayNG #18'
+  port: 443
+  server: 104.16.71.182
+  tls: false
+  type: vless
+  uuid: f178a8ac-48ca-4510-8a16-4ef6f972f240
+  ws-opts:
+    path: '%2FeyJqdW5rIjoiYTJzRVB1QW1HQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0'
+- name: '[🇨🇦]t.me/ConfigV2RayNG #19'
+  port: 443
+  server: 104.16.71.7
+  tls: false
+  type: vless
+  uuid: f178a8ac-48ca-4510-8a16-4ef6f972f240
+  ws-opts:
+    path: '%2FeyJqdW5rIjoiOE9MZ0g0cE00WlMiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed'
+- name: 🇨🇦134900 | ⚡️Telegram = t.me/S...
+  port: 8880
+  server: 104.17.121.110
+  tls: false
+  type: vless
+  uuid: f3d6c244-772a-428f-b8fe-e2d632cd76e4
+- name: '[🇨🇦]t.me/ConfigV2RayNG #22'
+  port: 8443
+  server: 104.27.66.214
+  tls: false
+  type: vless
+  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
+  ws-opts:
+    path: '%2Fdownload.php'
+- name: 🇨🇦135013 | ⚡️Telegram = t.me/S...
+  port: 80
+  server: 188.114.96.3
+  tls: false
+  type: vless
+  uuid: ffa6526a-3b07-4bdd-a77f-d8d1d3ec868e
 - alterId: 0
   cipher: auto
-  name: 未知51
+  name: 🇨🇦135038 | ⚡️Telegram = t.me/S...
   network: ws
-  port: 443
-  server: 158.51.121.63
-  servername: seribus.org
-  skip-cert-verify: true
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   ws-opts:
     headers:
-      host: seribus.org
-    path: linkvws
+      Host: ''
+    path: /lMnsZUN4/
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大
@@ -5004,20 +5305,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 'Node #119'
-  network: ws
-  port: 443
-  server: 162.159.8.42
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
 - name: 加拿大_22
   network: ws
   port: 8443
@@ -5038,20 +5325,6 @@ proxies:
   sni: vpn-ca-002.fastervpn.world
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 'Node #121'
-  network: ws
-  port: 443
-  server: 198.41.223.238
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
 - name: 加拿大_12
   network: ws
   port: 443
