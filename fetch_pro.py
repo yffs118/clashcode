@@ -1433,18 +1433,19 @@ def main():
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
 
-    # ----- 通用过滤：对所有 url-test 和 fallback 组，移除所有组名 -----
-    print("\n[DEBUG] General filtering for url-test and fallback groups (Clash):")
+    # ----- 通用过滤：移除所有组内与组名同名的代理（对 relay 和 loadbalance 保留） -----
+    print("\n[DEBUG] General filtering: removing all group names from proxies (Clash):")
     all_group_names = set(g['name'] for g in conf['proxy-groups'])
     for g in conf['proxy-groups']:
-        if g.get('type') in ('url-test', 'fallback'):
-            original = g.get('proxies', [])
-            if isinstance(original, list):
-                filtered = [p for p in original if p not in all_group_names]
-                g['proxies'] = filtered
-                removed = len(original) - len(filtered)
-                if removed:
-                    print(f"  [DEBUG] Group '{g['name']}' removed {removed} group-name elements")
+        if g.get('type') in ('relay', 'loadbalance'):
+            continue
+        original = g.get('proxies', [])
+        if isinstance(original, list):
+            filtered = [p for p in original if p not in all_group_names]
+            g['proxies'] = filtered
+            removed = len(original) - len(filtered)
+            if removed:
+                print(f"  [DEBUG] Group '{g['name']}' removed {removed} conflicting group-name elements")
     # ------------------------------------------------
 
     with open("list.yml", 'w', encoding="utf-8") as f:
@@ -1563,18 +1564,19 @@ def main():
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
 
-    # ----- 通用过滤：对所有 url-test 和 fallback 组，移除所有组名 -----
-    print("\n[DEBUG] General filtering for url-test and fallback groups (Meta):")
+    # ----- 通用过滤：移除所有组内与组名同名的代理（对 relay 和 loadbalance 保留） -----
+    print("\n[DEBUG] General filtering: removing all group names from proxies (Meta):")
     all_group_names = set(g['name'] for g in conf['proxy-groups'])
     for g in conf['proxy-groups']:
-        if g.get('type') in ('url-test', 'fallback'):
-            original = g.get('proxies', [])
-            if isinstance(original, list):
-                filtered = [p for p in original if p not in all_group_names]
-                g['proxies'] = filtered
-                removed = len(original) - len(filtered)
-                if removed:
-                    print(f"  [DEBUG] Group '{g['name']}' removed {removed} group-name elements")
+        if g.get('type') in ('relay', 'loadbalance'):
+            continue
+        original = g.get('proxies', [])
+        if isinstance(original, list):
+            filtered = [p for p in original if p not in all_group_names]
+            g['proxies'] = filtered
+            removed = len(original) - len(filtered)
+            if removed:
+                print(f"  [DEBUG] Group '{g['name']}' removed {removed} conflicting group-name elements")
     # ------------------------------------------------
 
     # ========== 新增调试：在最终写入前再次检查所有组名重复 ==========
