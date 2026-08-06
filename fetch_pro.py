@@ -1499,7 +1499,33 @@ def main():
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
 
-    # ========== 新增调试：立即读取 list.yml 并详细检查组名冲突，专门搜索冲突节点 ==========
+    # ========== 新增调试：用 clash 命令行测试 list.yml ==========
+    print("\n[DEBUG] Testing list.yml with clash -t -f ...")
+    import subprocess
+    import shutil
+    clash_path = shutil.which("clash")
+    if clash_path:
+        list_yml_path = os.path.abspath("list.yml")
+        try:
+            result = subprocess.run(
+                [clash_path, "-t", "-f", list_yml_path],
+                capture_output=True,
+                text=True,
+                timeout=10
+            )
+            if result.returncode == 0:
+                print(f"  ✅ clash -t passed: {result.stdout.strip()}")
+            else:
+                print(f"  ❌ clash -t FAILED with code {result.returncode}")
+                print(f"  stdout: {result.stdout.strip()}")
+                print(f"  stderr: {result.stderr.strip()}")
+        except Exception as e:
+            print(f"  ⚠️ Failed to run clash -t: {e}")
+    else:
+        print("  ⚠️ 'clash' not found in PATH, skipping external test.")
+    # ====================================================================
+
+    # ========== 新增调试：立即读取 list.yml 并详细检查组名冲突 ==========
     print("\n[DEBUG] Verifying list.yml content for group-name conflicts:")
     try:
         with open("list.yml", 'r', encoding="utf-8") as f:
