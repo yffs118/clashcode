@@ -724,10 +724,10 @@ class Node:
             ret['tls'] = True
 
         # ========== 添加调试打印：clash_data 返回前 reality-opts ==========
-        if 'reality-opts' in ret:
-            print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 的 reality-opts: {ret['reality-opts']}")
-        else:
-            print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 无 reality-opts")
+        # if 'reality-opts' in ret:
+        #     print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 的 reality-opts: {ret['reality-opts']}")
+        # else:
+        #     print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 无 reality-opts")
         # ================================================================
 
         return ret
