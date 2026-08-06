@@ -12,25 +12,11 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.7OfqpNn32vxiGtDBEBKrafssSGN--VjL6KnaqC_5qA0.TdLILcJUcfxBZzqSa3tTBwB9x2Z-MHImCOYxTXqisIc7ycN-QgYdwwaBVSNq-Zi_KeiZ0WhMPUiKQ5Iudyu2oYgRAbyuVscbVIQ60itdQqBCsQpFBMoKBtZBTSk9ZRc84MtihYmqjWgZRlknrcO3GSSBLMIzkPGyaGkjNvEU9vBpvGgTQ8oDRPjCAsIQXzt7HWWK9iouKkkc30RXLWUWWtc90Et-BnkR6qqUD7pZzHK7h2eyVEdi5KkcsPRidRSk4tFFNyCXWsko4DGf1TOXshOZZoVuPtmW-5THZKk3cbaXcxJBfgyrSWedW5Ol_FWlETU7QNieunY6LVLBmOq8OaQWm6uuDRVKYAp9bdNuY8MQcQq-prUvtmSgCamggyeeiBnCxrZDAcYiG9dC9xcpYLN8xuafooCxlusxk1AGHBmyPISLA5MqA1ExErmW3OuXqji_vIwVJCAgQQOCHrgqA3duAimZfihbsflXqjWKqEJ45qCrP8AVg1ApAqTCMvWT4zGeDnWR7zeu_DSDm6wmAnA-w1Ix1kma_FpjLvCsXUOgi9s8HsalIMkWl2YnGkcIPaQm9aBp83O3_fSbYNbBVnqcX7ZQsUYvGuqlZTgSQNMk3-LMSrQmKmOmB2oIEAykxvw24pmPtbZ16ooxzANS_GpbfNgw9JeZrNQ_fYEiNmqjMzd0nuehdqDPnSe3XdtO21DE0iDBzoVSEppKcxcfwtCDNTcxMkV_7EwOdRBoV5FtEYSA_1VCapmjsfeGUspqdfwH58eV81q4yACN-8VqixSvzxBU-WTNbuYroaOT8fBYinRvXdsdefRzSxTBKFdhkYyPUpmLorbAktoFbxorqcqJjyoEuhQJcBMRQrI3PZpP7vrO1mMTcvivOXwOYelug2pdOZBbTHdSaHBP4ryvGqg6yZTPtDCZgLsK6szIi7FyWeTJ8ZAns7iKteYRjZgUmfsYYloeuvC-qMbCeKVV1LCC2nZ9UHKt2SJ1a8p4Gfk3FsqZ1HHHHJyWMCiomPkn2HLPk-ZAidohNfyEzrMvWmlz6pcnpqytFWaffHFrgFsIaPO3dmYjKBdkuSFrNhilDThlUwI9sGOPnBg3a_WVV8SWdOef5_VR4ZCjQlfJzGR6V4kvSQUDKUm1obUmY-oHSLLE5mUNFYqrwUxmoxh7BswrwktvGGM8eBIaK5gyegdEeKcWn8YfWauM0JWdyruBeZYLxIFFYZe-zrszFggapgNGMElr0RG2k3MGQ-LAm-nHy_FshcdQqjCCQmN2lkp67aKe3RrKSrIlIshKkZMwZ7owIOmL7zGKgCmzSLKVLPSfqHkBZGmlHZoaDPJPawg6vSYpt5M_d3lmRbMz4IMZvmINqSu1wSFM7PW0aOCLHxpKh0W9bTkwJ0J3N_y7wXQgDfUeE_iUGqKCDeACNDCqbPkGkkuXSzeFfqp_sAAomlwGnQqX-kXLJvJVWPZSkky1JHvFK2CMfqmJHaYaTHypkHCwtnZY11REu8menMxXBHqHCbeG0MIPcnaRL_QTuYyhTh6GHnSk-abEFNgcnzRknlCo2UsYOul-VuqAw4GLt0Q
-  name: 🇪🇪 机场推荐:dafei.de 爱沙尼亚 01
-  network: ws
-  port: 443
-  server: d-ee.cloud-cdn.xyz
-  tls: false
-  type: vless
-  udp: true
-  uuid: b55a6115-07f5-4464-85b5-7059ce4701f3
-  ws-opts:
-    headers:
-      Host: d-ee.cloud-cdn.xyz
-    path: /api-ee
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_9
-  network: tcp
+  name: 🇪🇪 EE 725 | ⬇️ 1MB/s
+  network: raw
   packet-encoding: xudp
   port: 443
   reality-opts:
@@ -46,7 +32,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_12
+  name: 🇪🇪 EE 228 | ⬇️ 112KB/s
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -60,45 +46,30 @@ proxies:
   type: vless
   udp: true
   uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_1
+  name: 🇪🇪EE_2 - 187ms - 209ms
   network: tcp
   port: 443
-  reality-opts:
-    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
-    short-id: '!!str 15aa18f971da1f81'
   server: 185.155.97.241
-  servername: web.max.ru
   tls: true
   type: vless
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-- client-fingerprint: qq
-  encryption: none
+- encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_3
-  network: raw
+  name: 🇪🇪EE_1 - 218ms - 249ms
+  network: tcp
   port: 443
-  reality-opts:
-    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
-    short-id: '!!str 15aa18f971da1f81'
   server: est.vrsvpn.com
-  servername: web.max.ru
   tls: true
   type: vless
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_5
+  name: 🇪🇪EE_6 - 144ms - 147ms
   network: tcp
   port: 31845
-  reality-opts:
-    public-key: QRfBKijY94gn30sQWyklYIr4UyEXpoqakbN7fY1R_DQ
-    short-id: '!!str 4a1f967b1da8'
   server: 95.85.228.84
-  servername: www.cloudflare.com
   tls: true
   type: vless
   uuid: 88652810-6723-4087-bc65-e7c65cb4fc90
@@ -276,8 +247,8 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_2
-  network: tcp
+  name: 爱沙尼亚/Estonia
+  network: raw
   port: 45176
   reality-opts:
     public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M

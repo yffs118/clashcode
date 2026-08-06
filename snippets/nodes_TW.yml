@@ -1,126 +1,19 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_16
+  name: 🇹🇼TW_19 - 136ms - 150ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 36.224.147.65
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_17
+  name: 🇹🇼TW_20 - 136ms - 135ms
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 36.224.161.244
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_6
+  name: 🇹🇼TW_6|302KB/s|X001-260618 01 ...
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
   port: 50099
   server: R3MRCG00129437X.cybervena.com
   type: ss
-- name: 🇹🇼_台湾_91
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-tw-1.gocmydns.com
-  skip-cert-verify: true
-  sni: academy.nvidia.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇹🇼_台湾_92
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-tw-2.cmycmydns.com
-  skip-cert-verify: true
-  sni: academy.nvidia.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇹🇼_台湾_93
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-tw-4.gocmydns.com
-  skip-cert-verify: true
-  sni: academy.nvidia.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇹🇼_台湾_94
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-tw-5.gocmydns.com
-  skip-cert-verify: true
-  sni: academy.nvidia.com
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: eea28d8c-2132-4147-85d5-93b4bd405b34
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,13|台湾|@ripaojiedian
-  network: ws
-  port: 46005
-  server: fadawtawd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 12|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 46005
-  server: fadawtawd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: fadawtawd.zhangwei.li
-    path: /zh-cn

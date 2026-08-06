@@ -34,12 +34,12 @@ proxies:
     path: /trial-gs-relay
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-0227 | 0.884...
+  name: 香港/香港/Hong Kong/Hong Kong-2
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
   servername: n1747624274.4u9ma.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
@@ -1537,22 +1537,19 @@ proxies:
     headers:
       Host: 120.233.29.189
     path: /rocket
-- name: 未知 VLESS-442
+- name: '中国 131 #1'
   network: tcp
   port: 35730
   server: 103.118.29.142
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 376dc930-a905-4e75-a2d5-bb801a6adc25
-  ws-opts:
-    headers:
-      Host: varzesh3.com
 - encryption: none
   flow: ''
-  name: 🇺🇸US_369
+  name: '🇺🇸_US_美国 #1'
   network: tcp
   port: 10000
   server: 180.178.60.252
@@ -1564,7 +1561,7 @@ proxies:
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - encryption: none
   flow: ''
-  name: 未知 VLESS-445
+  name: 未知 VLESS-445 - 139ms - 140ms
   network: tcp
   port: 10000
   server: 60.249.101.14
@@ -1590,14 +1587,14 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: /
-- name: 🇫🇷FR_1578
+- name: '中国 135 #1'
   network: ws
   port: 8880
   server: 45.194.53.30
   servername: vms.lifetime19.workers.dev
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -1713,7 +1710,7 @@ proxies:
     path: /-Arfilter-TEL--
 - encryption: none
   flow: ''
-  name: 🇨🇳_中国_146
+  name: 🇨🇳_CN_中国 - 216ms
   network: tcp
   port: 12528
   server: 120.227.1.43
@@ -1963,11 +1960,11 @@ proxies:
   type: ss
 - encryption: none
   flow: ''
-  name: 🇺🇸US_91
+  name: 中国 129 - 23ms - 52ms - 8ms
   network: tcp
   port: 45647
   server: 182.16.61.3
-  tls: false
+  tls: true
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - encryption: none
@@ -1979,321 +1976,3 @@ proxies:
   tls: true
   type: vless
   uuid: 4d56a93a-1879-4b0d-b22e-69f4828711a1
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳CN-120.240.55.137-0085 | 0.0...
-  network: ws
-  port: 38201
-  server: 120.240.55.137
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: aweikeji-YouTube
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸24 |  4.8MB/s
-  network: tcp
-  port: 5229
-  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
-  ws-headers:
-    Host: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国2|@ripaojiedian
-  network: tcp
-  port: 23903
-  server: usz1.fgmcx.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- name: 14|CN_speednode_0042
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 27201
-  server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0043
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 27102
-  server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0044
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 27103
-  server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0045
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 42881
-  server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0046
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43393
-  server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0047
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43383
-  server: aafrtpfxr.myl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0048
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 27001
-  server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0049
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 22271
-  server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0050
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 22269
-  server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0051
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 46668
-  server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0052
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 34017
-  server: aafrtpfxr.aul01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0053
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43394
-  server: aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0054
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43395
-  server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0055
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43396
-  server: aafrtpfxr.vnl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0056
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43591
-  server: aafrtpfxr.nll01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0057
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 27408
-  server: aafrtpfxr.phl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0058
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 42883
-  server: aafrtpfxr.pkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0059
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 46925
-  server: aafrtpfxr.rul01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0060
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43397
-  server: aafrtpfxr.trl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0061
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 33505
-  server: aafrtpfxr.usl02i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0062
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 33506
-  server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0063
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 34016
-  server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0064
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43583
-  server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0065
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43498
-  server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0066
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 44397
-  server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0067
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43497
-  server: aafrtpfxr.ael01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0068
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43590
-  server: aafrtpfxr.arl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- name: 14|CN_speednode_0069
-  password: e254ed63-33df-4ca8-a980-7d0d9f510a93
-  port: 43586
-  server: aafrtpfxr.brl01i9zjfegelp.5xfsur8v62.gosdk.xyz
-  skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省湛江市 移动
-  port: 35001
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省汕头市 移动
-  port: 17233
-  server: db99765c-suvds0-svgpxu-y2gs.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 联通
-  port: 5229
-  server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 山东省 电信
-  port: 14100
-  server: 144.255.36.254
-  tls: false
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇨🇳 广东省 联通 2
-  port: 5228
-  server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- name: 🇨🇳_CN_中国_38
-  network: ws
-  port: 2053
-  server: 103.184.44.62
-  servername: juzibaipiao.5112233.xyz
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-  ws-opts:
-    headers:
-      Host: juzibaipiao.5112233.xyz
-    path: '%2f%3fed%3d2048'
