@@ -386,10 +386,10 @@ class Node:
                 self.data['reality-opts']['short-id'] = v
 
         # ========== 添加调试打印：_load_vless 解析后 reality-opts ==========
-        if 'reality-opts' in self.data:
-            print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 的 reality-opts: {self.data['reality-opts']}")
-        else:
-            print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 无 reality-opts")
+        # if 'reality-opts' in self.data:
+        #     print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 的 reality-opts: {self.data['reality-opts']}")
+        # else:
+        #     print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 无 reality-opts")
         # ============================================================
 
     def _load_hysteria2(self, url: str, dt: str):
