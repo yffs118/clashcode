@@ -6,408 +6,9 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
-- name: 🇫🇷 FR 1 → tg@nicevpn123 - 75ms...
-  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
-  port: 443
-  server: ca-trojan.bonds.id
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 10 → tg@nicevpn123
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 11 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 51.178.87.37
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 12 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 13 → tg@nicevpn123
-  password: 1038bc70-fe01-11ee-a6a2-1239d0255272
-  port: 443
-  server: 51.210.182.170
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇫🇷 FR 14 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 54.38.212.91
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6
-  ws-opts:
-    path: /?ed=2048
-- name: 🇫🇷 FR 15 → tg@nicevpn123
-  password: 278fff60-fc3a-11ee-a4a6-1239d0255272
-  port: 443
-  server: 51.210.182.170
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 16 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 17 → tg@nicevpn123
-  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
-  port: 443
-  server: 193.70.112.90
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 18 → tg@nicevpn123 - 140...
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 19 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '美国 399 #1'
-  network: http
-  port: 3389
-  server: 51.159.155.52
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 20 → tg@nicevpn123
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 21 → tg@nicevpn123
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 22 → tg@nicevpn123
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 23 → tg@nicevpn123 - 162...
-  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
-  port: 443
-  server: fr3-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 24 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 25 → tg@nicevpn123
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 26 → tg@nicevpn123
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 51.178.87.37
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 27 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 28 → tg@nicevpn123
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 29 → tg@nicevpn123 - 145...
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 3 → tg@nicevpn123
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 30 → tg@nicevpn123
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 31 → tg@nicevpn123
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 32 → tg@nicevpn123
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 33 → tg@nicevpn123 - 142...
-  password: LE6Ee6PELhVu
-  port: 443
-  server: 92.243.24.236
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 34 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 35 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 FR 36 → tg@nicevpn123
-  port: 35995
-  server: 51.195.140.87
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 28f08493-de6d-486e-84f5-5abe092ff78b
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 37 → tg@nicevpn123
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷 FR 38 → tg@nicevpn123
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 39 → tg@nicevpn123
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 4 → tg@nicevpn123
-  password: KkDzY101Oe
-  port: 45816
-  server: 51.195.149.115
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 40 → tg@nicevpn123
-  password: wkmY1R4EcP
-  port: 443
-  server: 45.32.148.182
-  skip-cert-verify: true
-  sni: z-v2-002805.kailib.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 41 → tg@nicevpn123
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 42 → tg@nicevpn123
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 43 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇫🇷 FR 44 → tg@nicevpn123
-  password: cqBAAW0fZcqQ1Bn06jwhro
-  port: 9802
-  server: 92.243.27.51
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 45 → tg@nicevpn123
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 46 → tg@nicevpn123
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 47 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '法国 019 #1'
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷 FR 49 → tg@nicevpn123
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    path: /
-- name: 🇫🇷 FR 5 → tg@nicevpn123
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.181.197.213
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 50 → tg@nicevpn123
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 51 → tg@nicevpn123
-  password: 7gaTTlW73G
-  port: 49602
-  server: 51.222.157.179
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 52 → tg@nicevpn123
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.156.123
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 6 → tg@nicevpn123
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷 FR 7 → tg@nicevpn123
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.169.198
-  type: ss
-  udp: true
-- name: 🇫🇷 FR 8 → tg@nicevpn123
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.187.126
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷 FR 9 → tg@nicevpn123
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 149.202.82.172
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '法国 003 #1'
+  name: 未知110 14.0KB/s - 192ms - 321ms
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
@@ -417,7 +18,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: '法国 004 #1'
+  name: '法国 006 #1 - 190ms'
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -427,7 +28,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: '法国 005 #1'
+  name: '法国 007 #1 - 277ms'
   network: tcp
   port: 36864
   server: 2.arzankadeh.cam
@@ -437,7 +38,7 @@ proxies:
   uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
 - alterId: 0
   cipher: auto
-  name: '法国 006 #1'
+  name: 法国 006
   network: tcp
   port: 26126
   server: 188.165.61.68
@@ -447,7 +48,7 @@ proxies:
   uuid: b09b111e-f41c-4145-83c9-029027a5a745
 - alterId: 0
   cipher: auto
-  name: '法国 007 #1'
+  name: '法国 003 #1 - 189ms'
   network: tcp
   port: 27726
   server: fj260205.freechatup.com
@@ -457,7 +58,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: '法国 008 #1'
+  name: 法国 008
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -467,7 +68,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: '法国 009 #1'
+  name: 法国 009
   network: ws
   port: 8080
   server: 141.11.139.82
@@ -480,7 +81,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '法国 010 #1'
+  name: 法国 010
   network: ws
   port: 443
   server: 91.134.8.88
@@ -494,7 +95,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 011 #1'
+  name: 法国 011
   network: ws
   port: 443
   server: 91.134.8.92
@@ -508,7 +109,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 012 #1'
+  name: 法国 012
   network: ws
   port: 443
   server: 91.134.8.93
@@ -522,7 +123,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 013 #1'
+  name: 法国 013
   network: ws
   port: 443
   server: 91.134.8.100
@@ -536,7 +137,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 014 #1'
+  name: 法国 014
   network: ws
   port: 443
   server: 91.134.8.102
@@ -550,7 +151,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 015 #1'
+  name: 法国 015
   network: ws
   port: 443
   server: 146.59.118.250
@@ -564,7 +165,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 016 #1'
+  name: 法国 016
   network: ws
   port: 443
   server: 146.59.55.50
@@ -578,7 +179,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 017 #1'
+  name: 法国 017
   network: ws
   port: 443
   server: 146.59.70.146
@@ -592,7 +193,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 018 #1'
+  name: 法国 018
   network: ws
   port: 443
   server: 146.59.85.226
@@ -606,7 +207,20 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 020 #1'
+  name: 法国 019
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 020
   network: grpc
   port: 2096
   server: 51.254.142.162
@@ -616,7 +230,7 @@ proxies:
   uuid: 388add20-90e0-40b7-b891-74ed3b817d71
 - alterId: 0
   cipher: auto
-  name: '法国 021 #1'
+  name: 法国 021
   network: ws
   port: 443
   server: 163.5.159.231
@@ -630,7 +244,7 @@ proxies:
     path: /linkws?ed=
 - alterId: 0
   cipher: auto
-  name: '法国 022 #1'
+  name: 法国 022
   network: ws
   port: 443
   server: 146.19.168.161
@@ -644,7 +258,7 @@ proxies:
     path: /link
 - alterId: 0
   cipher: auto
-  name: '法国 023 #1'
+  name: 法国 023
   network: ws
   port: 443
   server: 51.77.20.137
@@ -658,7 +272,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 024 #1'
+  name: 法国 024
   network: ws
   port: 443
   server: 51.77.20.140
@@ -672,7 +286,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 025 #1'
+  name: 法国 025
   network: ws
   port: 2082
   server: 5.196.29.123
@@ -685,7 +299,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 026 #1'
+  name: 法国 026
   network: ws
   port: 443
   server: 91.134.8.101
@@ -699,7 +313,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 027 #1'
+  name: 法国 027
   network: ws
   port: 443
   server: 146.59.118.249
@@ -713,7 +327,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 028 #1'
+  name: 法国 028
   network: ws
   port: 443
   server: 194.9.172.65
@@ -727,7 +341,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 029 #1'
+  name: 法国 029
   network: ws
   port: 443
   server: 193.160.130.245
@@ -741,7 +355,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '法国 030 #1'
+  name: 法国 030
   network: ws
   port: 80
   server: 51.254.133.152
@@ -755,7 +369,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '法国 031 #1'
+  name: 法国 031
   network: ws
   port: 443
   server: 51.77.20.136
@@ -769,7 +383,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 032 #1'
+  name: 法国 032
   network: ws
   port: 443
   server: 51.77.20.132
@@ -783,7 +397,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 033 #1'
+  name: '法国 032 #1 - 1184ms'
   network: tcp
   port: 27726
   server: 195.133.193.18
@@ -910,6 +524,36 @@ proxies:
   server: 104.18.152.97
   skip-cert-verify: true
   sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷 FR 1 → tg@nicevpn123 - 75ms...
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 18 → tg@nicevpn123 - 140...
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 29 → tg@nicevpn123 - 145...
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 149.202.82.172
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 33 → tg@nicevpn123 - 142...
+  password: LE6Ee6PELhVu
+  port: 443
+  server: 92.243.24.236
+  type: ss
+- name: 🇫🇷 FR 23 → tg@nicevpn123 - 162...
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: fr3-full.privateip.net
+  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto

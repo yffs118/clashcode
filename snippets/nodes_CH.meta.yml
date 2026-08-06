@@ -1,42 +1,7 @@
 proxies:
-- name: CH 1 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11005
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 2 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11007
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 3 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11006
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 4 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11004
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 5 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11000
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '瑞士 001 #1'
+  name: 瑞士 001
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -49,7 +14,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '瑞士 002 #1'
+  name: 瑞士 002
   network: ws
   port: 443
   server: 140.238.212.95
@@ -64,7 +29,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '瑞士 003 #1'
+  name: '瑞士 003 #1 - 173ms'
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -75,7 +40,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-- name: '瑞士 004 #1'
+- name: 瑞士 004
   network: tcp
   port: 62145
   server: 141.148.235.203
@@ -86,7 +51,7 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: '瑞士 005 #1'
+  name: 瑞士 005
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -101,7 +66,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: '瑞士 006 #1'
+- name: 瑞士 006
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -113,7 +78,7 @@ proxies:
   uuid: d8b42cd5-a149-4356-9e61-000000000000
 - encryption: none
   flow: ''
-  name: '瑞士 007 #1'
+  name: '瑞士 006 #1 - 218ms'
   network: tcp
   port: 12596
   server: 193.134.100.23
