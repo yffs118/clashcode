@@ -1,313 +1,13 @@
 proxies:
-- cipher: aes-256-gcm
-  name: SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT...
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 144.217.164.29
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-未知>德国-NF解锁印度地区非自制剧-ChatG...
-  network: ws
-  port: 8080
-  server: 547.rtxconfigz.shop
-  servername: node4.rtxconfigz.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  ws-opts:
-    headers:
-      HOST: node4.rtxconfigz.com
-    path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '美国 303 #1 - 48ms'
-  network: ws
-  port: 8443
-  server: t1.620720.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: t1.620720.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-... #1'
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.154.204.7
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP...
-  network: ws
-  port: 80
-  server: 15.235.41.200
-  skip-cert-verify: true
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: chacha20-ietf-poly1305
-  name: SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y...
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: 71.19.148.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-美国-NF解锁自制剧-ChatGPT-TikTo...
-  network: ws
-  port: 45979
-  server: 38.92.10.226
-  skip-cert-verify: true
-  type: vmess
-  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-  ws-opts:
-    path: /test
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-Ti... #1'
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 23.95.76.59
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 'VMESS-加拿大-NF解锁加拿大地区非自制剧-ChatGP... #1'
-  network: ws
-  port: 80
-  server: 51.79.102.253
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y... #1'
-  password: qFvn2fNEvBgM5knffrN96q
-  port: 9483
-  server: 92.118.112.101
-  type: ss
-- cipher: aes-256-gcm
-  name: 'SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y... #2'
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 15.204.247.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y... #3'
-  password: p78naCf2EfOlRSLTX0wFVx
-  port: 443
-  server: pupas-shirting-unsung.freesocks.work
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-Ti... #1'
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 79.127.233.170
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 'VMESS-美国-NF解锁自制剧-ChatGPT-TikTo... #1'
-  network: ws
-  port: 443
-  server: v2ray.codefyinc.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: v2ray.codefyinc.com
-    path: /vmessws
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y... #4'
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 'VMESS-美国-NF解锁自制剧-ChatGPT-TikTo... #2'
-  network: ws
-  port: 20086
-  server: 198.23.174.168
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2b36304b-4f88-4ff5-9033-f4d57dbb5490
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 波兰 003
-  network: ws
-  port: 443
-  server: cg1c07.waimaojd.com
-  servername: cg1c07.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c07.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-美国>德国-NF解锁印度地区非自制剧-ChatG...
-  network: ws
-  port: 8080
-  server: support.zoom.us
-  servername: node4.rtxconfigz.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-  ws-opts:
-    headers:
-      HOST: node4.rtxconfigz.com
-    path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 美国 329
-  network: ws
-  port: 443
-  server: 209.126.84.189
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: 209.126.84.189
-    path: /vmessws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: '美国 306 #1 - 15ms'
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-未知>美国-NF解锁自制剧-ChatGPT-Ti...
-  network: ws
-  port: 2083
-  server: hgtrojan.zabc.net
-  servername: hgtrojan.zabc.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
-  ws-opts:
-    headers:
-      HOST: hgtrojan.zabc.net
-    path: /e6395c20
-- cipher: chacha20-ietf-poly1305
-  name: 'SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y... #5'
-  password: 86039b71-ba82-4ca8-838e-87086ae666de
-  port: 10011
-  server: 107.175.87.207
-  type: ss
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 美国 332
-  network: ws
-  port: 443
-  server: cg1c01.waimaojd.com
-  servername: cg1c01.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      Host: cg1c01.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: VMESS-美国-ChatGPT-TikTok-YouTub...
-  network: ws
-  port: 443
-  server: cg1c04.waimaojd.com
-  servername: cg1c04.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      HOST: cg1c04.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 'VMESS-美国-ChatGPT-TikTok-YouTub... #1'
-  network: ws
-  port: 443
-  server: cg1c14.waimaojd.com
-  servername: cg1c14.waimaojd.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: be8e3136-b874-4085-bd23-ec3699300490
-  ws-opts:
-    headers:
-      HOST: cg1c14.waimaojd.com
-    path: /api/v1/graphql
 - cipher: aes-256-cfb
-  name: 11|tg频道:@ripaojiedian
+  name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -640,7 +340,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
+- name: 香港3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -648,7 +348,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|香港4|@ripaojiedian
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -656,7 +356,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|香港5|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -664,7 +364,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 11,12|日本|@ripaojiedian
+- name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -672,7 +372,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -680,7 +380,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: 日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -688,7 +388,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡|@ripaojiedian
+- name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -696,7 +396,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡2|@ripaojiedian
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
@@ -704,7 +404,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|新加坡3|@ripaojiedian
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -712,7 +412,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|美国|@ripaojiedian
+- name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -720,7 +420,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国2|@ripaojiedian
+- name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -728,7 +428,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|美国3|@ripaojiedian
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -1460,23 +1160,23 @@ proxies:
     headers:
       Host: zecjk.com
     path: /
-- name: xx|bd39|puddincat07@Telegram
+- name: '美国 055 #1 - 24ms'
   network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: xx|bf34|puddincat07@Telegram
+- name: 亚太地区 002
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '39221'
+  port: 39221
   server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: us|52aa|puddincat07@Telegram
+- name: 美国 079
   network: tcp
   password: 5CRphqBLXI
   port: 55604
@@ -6972,6 +6672,20 @@ proxies:
     path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
 - alterId: 0
   cipher: auto
+  name: '美国 303 #1 - 48ms'
+  network: ws
+  port: 8443
+  server: t1.620720.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 加拿大 004
   network: ws
   port: 80
@@ -6983,6 +6697,20 @@ proxies:
     headers:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 波兰 003
+  network: ws
+  port: 443
+  server: cg1c07.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c07.waimaojd.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   name: 美国 328
@@ -6998,6 +6726,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 美国 329
+  network: ws
+  port: 443
+  server: 209.126.84.189
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '美国 306 #1 - 15ms'
+  network: ws
+  port: 443
+  server: sy4.620720.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
   name: 美国 331
   network: ws
   port: 2083
@@ -7010,6 +6765,20 @@ proxies:
     headers:
       Host: hgtrojan.zabc.net
     path: /e6395c20
+- alterId: 0
+  cipher: auto
+  name: 美国 332
+  network: ws
+  port: 443
+  server: cg1c01.waimaojd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: be8e3136-b874-4085-bd23-ec3699300490
+  ws-opts:
+    headers:
+      Host: cg1c01.waimaojd.com
+    path: /api/v1/graphql
 - alterId: 0
   cipher: auto
   name: 美国 333
@@ -24127,9 +23896,9 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 2
   cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian - 190ms
   network: tcp
-  port: '30807'
+  port: 30807
   server: v10.hdacd.com
   servername: ''
   tls: false
@@ -24754,6 +24523,24 @@ proxies:
     headers:
       Host: p132.613055.xyz
     path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.154.204.7
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-Ti...
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 23.95.76.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-Ti...
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 79.127.233.170
+  type: ss
 - alterId: 0
   cipher: auto
   name: '波兰 003 #1 - 23ms'
@@ -24769,7 +24556,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'VMESS-美国>德国-NF解锁印度地区非自制剧-ChatG... #1'
+  name: VMESS-美国>德国-NF解锁印度地区非自制剧-ChatG...
   network: ws
   port: 8080
   server: support.zoom.us
@@ -24782,7 +24569,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'VMESS-未知>美国-NF解锁自制剧-ChatGPT-Ti... #1'
+  name: VMESS-未知>美国-NF解锁自制剧-ChatGPT-Ti...
   network: ws
   port: 2083
   server: hgtrojan.zabc.net
@@ -24808,7 +24595,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'VMESS-美国-ChatGPT-TikTok-YouTub... #2'
+  name: VMESS-美国-ChatGPT-TikTok-YouTub...
   network: ws
   port: 443
   server: cg1c04.waimaojd.com
@@ -24821,7 +24608,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 'VMESS-美国-ChatGPT-TikTok-YouTub... #3'
+  name: 'VMESS-美国-ChatGPT-TikTok-YouTub... #1'
   network: ws
   port: 443
   server: cg1c14.waimaojd.com
@@ -35850,11 +35637,10 @@ proxies:
   skip-cert-verify: true
   sni: becoming-hare.rooster465.autos
   type: trojan
-- name: xx|dd58|puddincat07@Telegram
+- name: xx|dd58|puddincat07@Telegram -...
   password: ND91608427
   port: 443
   server: definite-sturgeon.rooster465.autos
-  skip-cert-verify: false
   sni: definite-sturgeon.rooster465.autos
   type: trojan
 - name: 未知 TROJAN-238 - 144ms - 141ms
@@ -49234,12 +49020,11 @@ proxies:
       Host: uk-full.privateip.net
     path: /
 - cipher: aes-256-cfb
-  name: us|92fd|puddincat07@Telegram
+  name: us|92fd|puddincat07@Telegram -...
   password: amazonskr05
   port: 443
   server: 3.85.61.177
   type: ss
-  udp: true
 - name: '🇩🇪DE_7|1.0MB/s #1 - 86ms - 12m...'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -49256,12 +49041,11 @@ proxies:
   type: vmess
   uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
 - cipher: aes-256-cfb
-  name: se|9a78|puddincat07@Telegram
+  name: se|9a78|puddincat07@Telegram -...
   password: amazonskr05
   port: 443
   server: 13.61.13.49
   type: ss
-  udp: true
 - name: '🇺🇸 美国 CloudFlare节点 3 #2 - 26ms...'
   password: ersi13mjahoao8e6
   port: 443
@@ -49546,12 +49330,11 @@ proxies:
   sni: ramz.xuithree.dpdns.org
   type: trojan
 - cipher: aes-256-cfb
-  name: jp|68d6|puddincat07@Telegram
+  name: jp|68d6|puddincat07@Telegram -...
   password: amazonskr05
   port: 443
   server: 13.231.227.228
   type: ss
-  udp: true
 - name: 🏳️_未知_110 - 342ms - 1070ms
   password: humanity
   port: 443
@@ -52899,13 +52682,11 @@ proxies:
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - cipher: aes-256-cfb
-  name: kr|9179|puddincat07@Telegram
+  name: kr|9179|puddincat07@Telegram -...
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
-  skip-cert-verify: false
   type: ss
-  udp: false
 - alterId: 0
   cipher: auto
   name: vmess-188190764 - 312ms - 234m...
@@ -55210,64 +54991,3 @@ proxies:
     headers:
       Host: yg4.ygkkk.dpdns.org
     path: /
-- name: cn|b24b|puddincat07@Telegram
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: br|f0c4|puddincat07@Telegram
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 137.131.177.94
-  type: ss
-- alterId: 0
-  name: xx|7fd8|puddincat07@Telegram
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hyperon.site
-  skip-cert-verify: true
-  sni: ramz.xuithree.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: xx|4a51|puddincat07@Telegram
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: hikvision-plus.com
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: xx|027a|puddincat07@Telegram
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- name: us|5c67|puddincat07@Telegram
-  password: UaQmDQajuW
-  port: 55523
-  server: 185.132.54.106
-  sni: b32-10.cmj0502.cn
-  type: trojan
