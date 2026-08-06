@@ -1,79 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港2
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: '中国 034 #1'
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
-- client-fingerprint: chrome
-  name: 🇭🇰 香港4
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港5
-  port: 54104
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港6
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港7
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39301
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇭🇰 香港8
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
 - name: 香港_1
   network: ws
   port: 443
@@ -127,114 +52,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-128-gcm
-  name: 🇭🇰 HK 1 → tg@nicevpn123
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.223.223
-  type: ss
-  udp: true
-- name: 🇭🇰 HK 10 → tg@nicevpn123 - 379...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: chjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '中国 048 #1'
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
-- name: 🇭🇰 HK 2 → tg@nicevpn123
-  password: 2b38ff78-05bb-4261-895c-440950cf0dbd
-  port: 42030
-  server: 210.17.253.122
-  skip-cert-verify: true
-  sni: hkg01.service.nahidacloud.top
-  type: trojan
-  udp: true
-- cipher: aes-128-gcm
-  name: 🇭🇰 HK 3 → tg@nicevpn123
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 1.65.139.54
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 4 → tg@nicevpn123
-  network: ws
-  port: 55576
-  server: 202.81.231.30
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 32daf1ff-4b08-4c22-b997-1c24ff34c43a
-  ws-opts:
-    path: /
-- alterId: 32
-  cipher: auto
-  name: 🇭🇰 HK 8 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: hrgdvpn.flycdnedc55.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: hrgdvpn.flycdnedc55.vip
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 6 → tg@nicevpn123
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
-- name: 🇭🇰 HK 9 → tg@nicevpn123 - 373m...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: hkjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 12|香港|@ripaojiedian
@@ -255,7 +72,7 @@ proxies:
   udp: true
 - encryption: none
   flow: ''
-  name: 香港_1 - 314ms
+  name: 香港_1 - 218ms
   network: ws
   port: 443
   server: s1.db-link.in
@@ -277,19 +94,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-5 - ...
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-3 - ...
   network: ws
   port: 443
@@ -303,20 +107,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #1'
+  name: 香港/香港/Hong Kong/Hong Kong-5 - ...
   network: ws
   port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #2'
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #1'
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -329,20 +133,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #3'
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #4'
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #2'
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -352,6 +143,32 @@ proxies:
   ws-opts:
     headers:
       Host: nycqg19zkwacpm1b.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #3'
+  network: ws
+  port: 443
+  server: ejomsxptp19apygl.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ejomsxptp19apygl.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #4'
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qtkdr8jxe3wefxjm.v.3dns.vip
     path: /
 - alterId: 0
   cipher: auto
@@ -368,6 +185,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #5'
+  network: ws
+  port: 443
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wwafj5lhl6bi8au9.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-8 - ...
   network: ws
   port: 443
@@ -379,6 +209,24 @@ proxies:
     headers:
       Host: zudssgtmrqg9lpvi.v.3dns.vip
     path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  name: HK VLESS-1304 - 112ms - 116ms
+  network: tcp
+  port: 443
+  server: s306.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+- encryption: none
+  flow: xtls-rprx-vision
+  name: HK VLESS-1338 - 154ms - 154ms
+  network: tcp
+  port: 443
+  server: 212.192.15.191
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - alterId: 0
   cipher: auto
   name: 🇭🇰 Join+Telegram:@FarahVPN 🇭🇰 ...
@@ -392,40 +240,21 @@ proxies:
     headers:
       Host: u2frxj0g13vdi0wo.v.3dns.vip
     path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #5'
-  network: ws
+- name: 🇭🇰 HK 9 → tg@nicevpn123 - 373m...
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
-    path: /
-- encryption: none
-  flow: xtls-rprx-vision
-  name: HK VLESS-1304 - 112ms - 342ms
-  network: tcp
+  server: hkjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
+- name: 🇭🇰 HK 10 → tg@nicevpn123 - 379...
+  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
-  server: s306.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- encryption: none
-  flow: xtls-rprx-vision
-  name: HK VLESS-1338 - 154ms - 212ms
-  network: tcp
-  port: 443
-  server: 212.192.15.191
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  server: chjs.lydurlclub.top
+  skip-cert-verify: true
+  type: trojan
 - encryption: none
   flow: ''
-  name: '🇭🇰 #9 - 1ms - 1ms - 10ms'
+  name: '🇭🇰 #9 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.243
@@ -434,7 +263,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #7 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #7 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.246
@@ -443,7 +272,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #11 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #11 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.209
@@ -452,7 +281,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #5 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #5 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.197
@@ -461,7 +290,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #2 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #2 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.179
@@ -470,7 +299,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #3 - 1ms - 1ms - 9ms'
+  name: '🇭🇰 #3 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
   server: 91.193.58.42
@@ -479,7 +308,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰 #1 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #1 - 1ms - 1ms - 1ms'
   network: ws
   port: 443
   server: 91.193.58.93
@@ -488,7 +317,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰 #10 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #10 - 1ms - 1ms - 1ms'
   network: ws
   port: 443
   server: 91.193.58.195
@@ -497,7 +326,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰 #4 - 1ms - 1ms - 6ms'
+  name: '🇭🇰 #4 - 1ms - 1ms - 2ms'
   network: ws
   port: 443
   server: 91.193.58.141
@@ -506,7 +335,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: 🇭🇰 - 2ms - 1ms - 5ms
+  name: 🇭🇰 - 2ms - 1ms - 1ms
   network: ws
   port: 443
   server: 91.193.58.117
@@ -515,19 +344,19 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰 #8 - 1ms - 1ms - 5ms'
+  name: '🇭🇰 #6 - 1ms - 1ms - 1ms'
   network: ws
   port: 80
-  server: 91.193.58.92
+  server: 91.193.58.93
   tls: false
   type: vless
   uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
 - encryption: none
   flow: ''
-  name: '🇭🇰 #6 - 1ms - 1ms - 5ms'
+  name: '🇭🇰 #8 - 1ms - 1ms - 3ms'
   network: ws
   port: 80
-  server: 91.193.58.93
+  server: 91.193.58.92
   tls: false
   type: vless
   uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
@@ -548,7 +377,7 @@ proxies:
   type: trojan
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 34 - 205ms - 127ms
+  name: 香港 34 - 205ms - 199ms
   network: tcp
   port: 443
   server: 186.246.3.80
@@ -557,7 +386,7 @@ proxies:
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - encryption: none
   flow: ''
-  name: 香港 02 - 363ms - 237ms - 317ms
+  name: 香港 02 - 363ms - 237ms - 245ms
   network: grpc
   port: 444
   server: hk.vrsvpn.com
@@ -566,7 +395,7 @@ proxies:
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 09 - 140ms - 122ms
+  name: 香港 09 - 140ms - 149ms
   network: tcp
   port: 40443
   server: 186.246.21.156
@@ -575,7 +404,7 @@ proxies:
   uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 06 - 659ms - 267ms
+  name: 香港 06 - 659ms - 543ms
   network: tcp
   port: 40443
   server: billing.netraidly.ru
@@ -584,7 +413,7 @@ proxies:
   uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 10 - 140ms - 137ms
+  name: 香港 10 - 140ms - 145ms
   network: tcp
   port: 40443
   server: 186.246.19.79
@@ -593,7 +422,7 @@ proxies:
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 17 - 145ms - 222ms
+  name: 香港 17 - 145ms - 147ms
   network: tcp
   port: 40443
   server: us2.levikogjgfdd.ir
@@ -602,7 +431,7 @@ proxies:
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 04 - 1219ms - 342ms
+  name: 香港 04 - 1219ms - 318ms
   network: tcp
   port: 40443
   server: private.netraidly.ru
@@ -611,7 +440,7 @@ proxies:
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 33 - 219ms - 232ms
+  name: 香港 33 - 219ms - 160ms
   network: tcp
   port: 21001
   server: fv2026.node2.top
@@ -620,7 +449,7 @@ proxies:
   uuid: 74199cb4-6d12-404a-9529-14de3bffec9c
 - encryption: none
   flow: ''
-  name: '香港 #4 - 408ms - 149ms - 277ms'
+  name: '香港 #4 - 408ms - 149ms - 167ms'
   network: ws
   port: 443
   server: s1.db-link.in
@@ -629,7 +458,7 @@ proxies:
   uuid: 9523a24b-f6bf-339e-9950-32829162ffc2
 - encryption: none
   flow: ''
-  name: '香港_柴灣 #1 - 1ms - 1ms - 5ms'
+  name: '香港_柴灣 #1 - 1ms - 1ms - 1ms'
   network: ws
   port: 443
   server: 27.50.49.13
@@ -638,7 +467,7 @@ proxies:
   uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
 - encryption: none
   flow: ''
-  name: 香港_柴灣 - 2ms - 1ms - 5ms
+  name: 香港_柴灣 - 2ms - 1ms - 1ms
   network: ws
   port: 443
   server: 27.50.48.222
@@ -692,7 +521,7 @@ proxies:
   type: trojan
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 42 - 181ms - 331ms
+  name: 香港 42 - 181ms - 306ms
   network: tcp
   port: 52317
   server: jingji2.hj3hk.top
@@ -701,7 +530,7 @@ proxies:
   uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 28 - 145ms - 204ms
+  name: 香港 28 - 145ms - 145ms
   network: tcp
   port: 21001
   server: 141.11.76.57
@@ -710,10 +539,128 @@ proxies:
   uuid: cec3ab07-a087-42fc-932b-0efc97b41b16
 - encryption: none
   flow: xtls-rprx-vision
-  name: 香港 43 - 298ms - 553ms
+  name: 香港 43 - 298ms - 178ms
   network: tcp
   port: 29121
   server: jiaqiang.hj2hkt.top
   tls: true
   type: vless
   uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com - 1ms
+  network: ws
+  port: 80
+  server: 91.193.58.220
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_1 - 1ms
+  network: ws
+  port: 80
+  server: 91.193.58.116
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_2 - 13ms
+  network: ws
+  port: 80
+  server: 91.193.58.151
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_3 - 2ms
+  network: ws
+  port: 80
+  server: 91.193.58.90
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_4 - 2ms
+  network: ws
+  port: 80
+  server: 91.193.58.162
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_5 - 2ms
+  network: ws
+  port: 80
+  server: 91.193.58.180
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK香港丨yoyapai.com_6 - 1ms
+  network: ws
+  port: 80
+  server: 91.193.58.210
+  tls: false
+  type: vless
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- encryption: none
+  flow: ''
+  name: 🇭🇰 香港 04 - 152ms
+  network: ws
+  port: 443
+  server: 91.110.209.61
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+- encryption: none
+  flow: ''
+  name: 🇭🇰 香港 10 - 151ms
+  network: ws
+  port: 443
+  server: 43.168.16.112
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- encryption: none
+  flow: ''
+  name: 🇭🇰 香港 12 - 197ms
+  network: ws
+  port: 443
+  server: 163.61.74.121
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 14 - 147ms
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /
+- encryption: none
+  flow: ''
+  name: 🇭🇰 香港 13 - 195ms
+  network: ws
+  port: 443
+  server: 161.248.31.198
+  tls: true
+  type: vless
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- name: 🇭🇰 香港 17 - 171ms
+  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
+  port: 443
+  server: kaizen-hk-3.gocmydns.com
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
