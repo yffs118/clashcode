@@ -47,6 +47,343 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: 🇸🇬 SG 1 → tg@nicevpn123
+  password: ISpGyFeSDr06
+  port: 17418
+  server: 175.41.172.250
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 10 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.61.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 11 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20177
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 12 → tg@nicevpn123
+  password: 15f804fa-27be-4b0f-85d4-cead43a483ef
+  port: 30020
+  server: us05.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 13 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.229.184.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 14 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.179.101.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 15 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.221.231.138
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 16 → tg@nicevpn123
+  password: yR7hP9aw5L
+  port: 443
+  server: 134.209.105.33
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 17 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.142.56.221
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 18 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: sg5g.xn--vhq70hxyat50h6wk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: sg5g.xn--vhq70hxyat50h6wk.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 19 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20175
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 2 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 20 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.141.207.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 21 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.221.183.250
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 22 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20181
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 23 → tg@nicevpn123
+  network: ws
+  port: 34237
+  server: 8.218.136.67
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 345c1562-1449-36ca-adf6-d3d683476712
+  ws-opts:
+    path: /db00
+- name: 🇸🇬 SG 24 → tg@nicevpn123
+  password: 15f804fa-27be-4b0f-85d4-cead43a483ef
+  port: 30018
+  server: sg04.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: sg04.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 25 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.229.57.68
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 26 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20180
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 27 → tg@nicevpn123 - 168...
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 28 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 29 → tg@nicevpn123 - 185...
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: sg2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 3 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.169.147.64
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 30 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- name: 🇸🇬 SG 31 → tg@nicevpn123
+  password: e9edd1db-e6f0-4c37-9be7-135335a81e6c
+  port: 30020
+  server: 128.199.13.40
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 32 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.219
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 33 → tg@nicevpn123
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: 139.162.39.206
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 SG 42 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.63.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 35 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20182
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 36 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 37 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.217.85.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    path: /TG@dns68免费节点
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 38 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.210.9.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  ws-opts:
+    path: /TG@dns68公益节点
+- name: 🇸🇬 SG 39 → tg@nicevpn123 - 162...
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: sg3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 4 → tg@nicevpn123
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 8.210.89.240
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 40 → tg@nicevpn123 - 169...
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 41 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.228.23.150
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 5 → tg@nicevpn123
+  network: ws
+  port: 99
+  server: 128.199.161.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    path: /v2ray
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 6 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.142.225.182
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 7 → tg@nicevpn123 - 169m...
+  password: I4bO2YDEgs
+  port: 443
+  server: 188.166.252.91
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- name: 🇸🇬 SG 8 → tg@nicevpn123
+  password: af7d4ea7-e793-4030-9766-9a13e1f099f5
+  port: 443
+  server: 139.162.50.211
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 9 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20172
+  server: 139.59.119.251
+  type: ss
+  udp: true
 - alterId: 4
   cipher: auto
   name: '新加坡 001 #1'
@@ -65,6 +402,20 @@ proxies:
   cipher: auto
   name: '新加坡 002 #1'
   network: ws
+  port: 443
+  server: me.khantry.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
+  ws-opts:
+    headers:
+      Host: me.khantry.net
+    path: /khantri
+- alterId: 0
+  cipher: auto
+  name: '新加坡 003 #1'
+  network: ws
   port: 80
   server: 172.104.182.226
   skip-cert-verify: true
@@ -76,7 +427,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 003 #1'
+  name: '新加坡 004 #1'
   network: ws
   port: 8848
   server: 23.101.27.60
@@ -89,7 +440,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 004 #1'
+  name: '新加坡 005 #1'
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -102,7 +453,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 005 #1'
+  name: '新加坡 006 #1'
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -115,7 +466,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 006 #1'
+  name: '新加坡 007 #1'
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -128,7 +479,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 007 #1'
+  name: '新加坡 008 #1'
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -141,7 +492,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: '新加坡 008 #1'
+  name: '新加坡 009 #1'
   network: ws
   port: 30010
   server: 103.254.152.82
@@ -155,7 +506,7 @@ proxies:
     path: /path/191019072927
 - alterId: 1
   cipher: auto
-  name: '新加坡 009 #1'
+  name: '新加坡 010 #1'
   network: ws
   port: 21888
   server: 104.248.148.147
@@ -168,7 +519,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 010 #1'
+  name: '新加坡 011 #1'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -181,7 +532,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '新加坡 011 #1'
+  name: '新加坡 012 #1'
   network: ws
   port: 16737
   server: 139.180.211.152
@@ -194,7 +545,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 012 #1'
+  name: '新加坡 013 #1'
   network: ws
   port: 18063
   server: 139.180.211.152
@@ -207,7 +558,7 @@ proxies:
     path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: '新加坡 013 #1'
+  name: '新加坡 014 #1'
   network: ws
   port: 80
   server: 139.59.255.209
@@ -220,7 +571,7 @@ proxies:
     path: /cloudfast
 - alterId: 0
   cipher: auto
-  name: '新加坡 014 #1'
+  name: '新加坡 015 #1'
   network: ws
   port: 63086
   server: 159.27.90.254
@@ -234,7 +585,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '新加坡 015 #1'
+  name: '新加坡 016 #1'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -247,7 +598,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '新加坡 016 #1'
+  name: '新加坡 017 #1'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -260,7 +611,7 @@ proxies:
     path: /iso
 - alterId: 4
   cipher: auto
-  name: '新加坡 017 #1'
+  name: '新加坡 018 #1'
   network: ws
   port: 443
   server: 103.253.26.134
@@ -272,54 +623,30 @@ proxies:
     headers:
       Host: eeh7iewe.com
     path: /ws
-- name: 新加坡(免费节点)_3 - 169ms
-  password: '!!str 521314'
+- alterId: 0
+  cipher: auto
+  name: '新加坡 019 #1'
+  network: ws
   port: 443
-  server: 116.251.217.65
+  server: 66.42.55.118
   skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-- name: 🇸🇬SG_4|⬇️5.1MB/s - 1ms
+  tls: true
+  type: vmess
+  uuid: ca1a9dcd-35c3-4b08-80d3-db0e9de16331
+  ws-opts:
+    headers:
+      Host: v02.guanpinhao.top
+    path: /RdIyx6hMMR
+- name: 🇸🇬SG_4|⬇️5.1MB/s - 5ms
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
   server: 104.18.1.196
   skip-cert-verify: true
   sni: sg-trojan.andfree.my.id
   type: trojan
-- name: 🇸🇬 SG 27 → tg@nicevpn123 - 168...
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
-  port: 443
-  server: 139.162.49.215
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬 SG 29 → tg@nicevpn123 - 185...
-  password: 557340ab-4ae8-4593-989f-a8053bec73b6
-  port: 443
-  server: sg2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬 SG 39 → tg@nicevpn123 - 162...
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
-  port: 443
-  server: sg3-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG 40 → tg@nicevpn123 - 169...
-  password: amazonskr05
-  port: 443
-  server: 13.250.57.60
-  type: ss
-- name: 🇸🇬 SG 7 → tg@nicevpn123 - 169m...
-  password: I4bO2YDEgs
-  port: 443
-  server: 188.166.252.91
-  skip-cert-verify: true
-  sni: aka.ms
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '新加坡 010 #1 - 168ms'
+  name: '新加坡 010 #1 - 230ms'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -332,7 +659,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 013 #1 - 167ms'
+  name: '新加坡 013 #1 - 228ms'
   network: ws
   port: 80
   server: 139.59.255.209
@@ -345,20 +672,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 015 #1 - 387ms'
-  network: ws
-  port: 9111
-  server: st-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '新加坡 016 #1 - 368ms'
+  name: '新加坡 016 #1 - 412ms'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -369,39 +683,59 @@ proxies:
     headers:
       Host: st-2.dnspro.icu
     path: /
+- alterId: 0
+  cipher: auto
+  name: '新加坡 015 #1 - 507ms'
+  network: ws
+  port: 9111
+  server: st-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: st-1.dnspro.icu
+    path: /
+- name: 新加坡(免费节点)_3 - 169ms - 228ms
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
 - name: 🇸🇬SG-54.255.35.23-6228 | 16.32...
   password: ND91608427
   port: 443
   server: tidy-gelding.rooster465.autos
   sni: tidy-gelding.rooster465.autos
   type: trojan
-- name: 🇸🇬SG_41 - 167ms
+- name: 🇸🇬SG_41 - 167ms - 230ms
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
   server: 139.59.238.97
   skip-cert-verify: true
   sni: 139.59.238.97
   type: trojan
-- name: 🇸🇬_SG_新加坡 - 429ms
+- name: 🇸🇬_SG_新加坡 - 429ms - 313ms
   password: IQ68037294
   port: 443
   server: apt-midge.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬_SG_新加坡_2 - 119ms
+- name: 🇸🇬_SG_新加坡_2 - 119ms - 294ms
   password: IQ68037294
   port: 443
   server: endless-kiwi.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬_SG_新加坡_5 - 118ms
+- name: 🇸🇬_SG_新加坡_5 - 118ms - 176ms
   password: IQ68037294
   port: 443
   server: fun-salmon.rooster465.autos
   skip-cert-verify: true
   sni: fun-salmon.rooster465.autos
   type: trojan
-- name: 🇸🇬_SG_新加坡_3 - 801ms
+- name: 🇸🇬_SG_新加坡_3 - 801ms - 172ms
   password: FC60532879
   port: 443
   server: helpful-possum.rooster465.autos
@@ -409,8 +743,15 @@ proxies:
   sni: helpful-possum.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬_SG_新加坡 - 175ms
+  name: 🇸🇬_SG_新加坡 - 175ms - 603ms
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 19000
   server: ss.049.node-for-bigairport.win
   type: ss
+- name: 🇸🇬_SG_新加坡_1 - 176ms
+  password: IQ68037294
+  port: 443
+  server: meet-doe.rooster465.autos
+  skip-cert-verify: true
+  sni: meet-doe.rooster465.autos
+  type: trojan

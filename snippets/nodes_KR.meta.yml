@@ -2,7 +2,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: '日本 016 #1'
+  name: '日本 024 #1'
   network: ws
   port: 30000
   server: 137.220.130.58
@@ -26,7 +26,399 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 🇰🇷 KR 1 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: awskr1.072659.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c21712a5-24f5-41b5-8700-55f1835d0490
+  ws-opts:
+    headers:
+      Host: awskr1.072659.xyz
+    path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 10 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 58449
+  server: 203.234.238.140
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 11 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 42978
+  server: p230.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 12 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 57743
+  server: p238.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 13 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 50942
+  server: p233.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 14 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 42978
+  server: 221.150.109.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 15 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.180.9.46
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 33 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 50942
+  server: 222.112.15.134
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 17 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.125.127.101
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 18 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 42839
+  server: p236.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 19 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 4315
+  server: 125.141.26.10
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 2 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 4005
+  server: 203.234.238.145
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 20 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 58449
+  server: p234.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 21 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 43926
+  server: 221.150.109.87
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 22 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 57729
+  server: p228.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 23 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 51472
+  server: p222.panda001.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 24 → tg@nicevpn123
+  port: 10001
+  server: 103.214.68.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ebca5f68-bf59-4081-e658-f158839c2f5c
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 25 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.209.11.98
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 26 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 58449
+  server: 222.112.15.140
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 27 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 54345
+  server: 211.201.169.70
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 28 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 51472
+  server: p232.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 29 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 42839
+  server: 221.150.109.18
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 3 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 49032
+  server: p221.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 30 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 42185
+  server: p220.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 31 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.180.133.185
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 32 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 54345
+  server: 218.237.185.230
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 34 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 58449
+  server: p226.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 35 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.125.25.193
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 36 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.180.156.133
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 37 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.180.138.72
+  type: ss
+  udp: true
+- name: 🇰🇷 KR 38 → tg@nicevpn123
+  password: 3df22ece-e33a-429a-bbbc-72f468755d5c
+  port: 443
+  server: 59.16.152.27
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 39 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 43926
+  server: p231.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇰🇷 KR 4 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 57743
+  server: 221.150.109.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 40 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 54345
+  server: p110.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 41 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 51472
+  server: 221.150.109.88
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 42 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 49032
+  server: 125.141.26.7
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 43 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 10218
+  server: p229.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 44 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 10218
+  server: 125.141.26.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 45 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 49032
+  server: p227.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 46 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 5304
+  server: p078.panda001.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 KR 47 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 52.78.50.117
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4400260c-f088-4748-af5c-cacce1156de0
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 5 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.125.31.113
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 6 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 53258
+  server: p220.panda001.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 7 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.124.212.29
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 8 → tg@nicevpn123
+  password: qwerREWQ@@
+  port: 4005
+  server: p225.panda004.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷 KR 9 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.125.19.50
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '韩国 001 #1'
+  network: tcp
+  port: 443
+  server: 132.145.89.30
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  xudp: true
+- client-fingerprint: chrome
+  name: '韩国 002 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: chief-bluegill.rooster465.autos
+  skip-cert-verify: true
+  sni: chief-bluegill.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '韩国 003 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '韩国 004 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 52.79.210.229
+  skip-cert-verify: false
+  sni: chief-bluegill.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '韩国 005 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 3.35.140.99
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '韩国 006 #1'
   network: ws
   port: 80
   server: 132.145.80.230
@@ -40,7 +432,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: '韩国 002 #1'
+  name: '韩国 007 #1'
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -53,7 +445,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '韩国 003 #1'
+  name: '韩国 008 #1'
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -66,7 +458,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '韩国 004 #1'
+  name: '韩国 009 #1'
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -79,7 +471,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 005 #1'
+  name: '韩国 010 #1'
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -93,7 +485,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: '韩国 006 #1'
+  name: '韩国 011 #1'
   network: ws
   port: 443
   server: 202.79.161.188
@@ -107,7 +499,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 007 #1'
+  name: '韩国 012 #1'
   network: ws
   port: 443
   server: 202.79.160.243
@@ -121,7 +513,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '韩国 008 #1'
+  name: '韩国 013 #1'
   network: ws
   port: 443
   server: 202.79.160.164
@@ -135,7 +527,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '韩国 009 #1'
+  name: '韩国 014 #1'
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -149,7 +541,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '韩国 010 #1'
+  name: '韩国 015 #1'
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -163,7 +555,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: '韩国 011 #1'
+  name: '韩国 016 #1'
   network: ws
   port: 80
   server: 92.223.61.25
@@ -174,45 +566,40 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /
-- client-fingerprint: chrome
-  name: '韩国 012 #1'
+- alterId: 0
+  cipher: auto
+  name: '韩国 001 #1 - 183ms'
   network: ws
-  port: 12209
-  server: 119.207.86.66
-  servername: cfed.tgzdyz2.top
-  skip-cert-verify: false
-  tfo: false
+  port: 80
+  server: 132.145.80.230
   tls: true
-  type: vless
-  udp: true
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   ws-opts:
     headers:
-      Host: cfed.tgzdyz2.top
-- encryption: none
-  flow: ''
-  name: 🇰🇷_韩国_90 - 149ms
+      Host: 132.145.80.230
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '韩国 005 #1 - 185ms'
   network: ws
-  port: 11019
-  server: 211.104.99.209
-  tls: true
-  type: vless
-  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
-- name: 🇰🇷KR_51 - 137ms
-  password: ND91608427
   port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR_59 - 144ms
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /
+- name: 🇰🇷KR_59 - 144ms - 199ms
   password: ND91608427
   port: 443
   server: uncommon-feline.rooster465.autos
   skip-cert-verify: true
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 韩国(免费节点)_1 - 129ms
+- name: 韩国(免费节点)_1 - 129ms - 186ms
   password: '!!str 521314'
   port: 443
   server: 118.218.10.159
@@ -232,32 +619,6 @@ proxies:
     headers:
       Host: 152.67.218.38
     path: /
-- alterId: 0
-  cipher: auto
-  name: '韩国 001 #1 - 129ms'
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  tls: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: 132.145.80.230
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '韩国 005 #1 - 130ms'
-  network: ws
-  port: 443
-  server: fullaccesstokoreannetsubnode1.azurewebsites.net
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
-    path: /
 - name: 'KR韓國丨yoyapai.com #2 - 130ms - ...'
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -276,7 +637,7 @@ proxies:
   uuid: 57A71E7F-E6B5-42BF-A4A6-47ECCBE7F50C
 - encryption: none
   flow: ''
-  name: 🇰🇷_韩国_124 - 129ms - 130ms
+  name: 🇰🇷_韩国_124 - 129ms - 130ms - 18...
   network: ws
   port: 443
   server: 211.49.57.175
@@ -295,22 +656,40 @@ proxies:
   port: 6123
   server: 211.178.105.134
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_22 - 277ms
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_19 - 153ms
+  name: 🇰🇷KR_19 - 153ms - 227ms
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_13 - 149ms
+  name: 🇰🇷KR_13 - 149ms - 221ms
   password: RexnBgU7EV5ADxG
   port: 7002
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_22 - 277ms - 396ms
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_24 - 141ms - 301ms
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_15 - 157ms - 223ms
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_4 - 306ms - 376ms
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
@@ -319,135 +698,110 @@ proxies:
   port: 4652
   server: 218.237.185.230
   type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_24 - 141ms
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_15 - 157ms
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_4 - 306ms
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 141.164.45.187
-  type: ss
-- name: 🇰🇷KR_66 - 133ms
+- name: 🇰🇷KR_66 - 133ms - 189ms
   password: ND91608427
   port: 443
   server: 3.36.59.34
   skip-cert-verify: true
   sni: select-ferret.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_60 - 133ms
+- name: 🇰🇷KR_60 - 133ms - 191ms
   password: ND91608427
   port: 443
   server: 43.201.46.108
   skip-cert-verify: true
   sni: exotic-chow.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_57 - 133ms
+- name: 🇰🇷KR_57 - 133ms - 190ms
   password: ND91608427
   port: 443
   server: 43.203.119.20
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_55 - 132ms
+- name: 🇰🇷KR_55 - 132ms - 190ms
   password: ND91608427
   port: 443
   server: 43.203.244.203
   sni: grateful-owl.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_69 - 133ms
+- name: 🇰🇷KR_69 - 133ms - 190ms
   password: ND91608427
   port: 443
   server: 52.78.13.238
   skip-cert-verify: true
   sni: upward-puma.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_61 - 163ms
-  password: ND91608427
-  port: 443
-  server: chief-bluegill.rooster465.autos
-  skip-cert-verify: true
-  sni: chief-bluegill.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR_42 - 137ms
+- name: 🇰🇷KR_42 - 137ms - 201ms
   password: ND91608427
   port: 443
   server: communal-sunbird.rooster465.autos
   skip-cert-verify: true
   sni: communal-sunbird.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_65 - 139ms
+- name: 🇰🇷KR_65 - 139ms - 197ms
   password: ND91608427
   port: 443
   server: exotic-chow.rooster465.autos
   skip-cert-verify: true
   sni: exotic-chow.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_53 - 152ms
+- name: 🇰🇷KR_53 - 152ms - 203ms
   password: ND91608427
   port: 443
   server: distinct-llama.rooster465.autos
   skip-cert-verify: true
   sni: distinct-llama.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_63 - 160ms
+- name: 🇰🇷KR_63 - 160ms - 199ms
   password: ND91608427
   port: 443
   server: grateful-owl.rooster465.autos
   skip-cert-verify: true
   sni: grateful-owl.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_64 - 137ms
+- name: 🇰🇷KR_64 - 137ms - 199ms
   password: ND91608427
   port: 443
   server: humorous-malamute.rooster465.autos
   skip-cert-verify: true
   sni: humorous-malamute.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_58 - 141ms
+- name: 🇰🇷KR_58 - 141ms - 199ms
   password: ND91608427
   port: 443
   server: intimate-moray.rooster465.autos
   skip-cert-verify: true
   sni: intimate-moray.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_45 - 137ms
+- name: 🇰🇷KR_45 - 137ms - 196ms
   password: ND91608427
   port: 443
   server: main-whippet.rooster465.autos
   skip-cert-verify: true
   sni: main-whippet.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_62 - 138ms
+- name: 🇰🇷KR_62 - 138ms - 203ms
   password: ND91608427
   port: 443
   server: pure-ram.rooster465.autos
   skip-cert-verify: true
   sni: pure-ram.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_56 - 137ms
+- name: 🇰🇷KR_56 - 137ms - 203ms
   password: ND91608427
   port: 443
   server: select-ferret.rooster465.autos
   skip-cert-verify: true
   sni: select-ferret.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_54 - 154ms
+- name: 🇰🇷KR_54 - 154ms - 195ms
   password: ND91608427
   port: 443
   server: striking-maggot.rooster465.autos
   skip-cert-verify: true
   sni: striking-maggot.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_52 - 136ms
+- name: 🇰🇷KR_52 - 136ms - 204ms
   password: ND91608427
   port: 443
   server: upward-puma.rooster465.autos
@@ -456,7 +810,7 @@ proxies:
   type: trojan
 - encryption: none
   flow: ''
-  name: KR - zhuhai.uk - 129ms - 128ms
+  name: KR - zhuhai.uk - 129ms - 128ms...
   network: ws
   port: 443
   server: 141.164.42.2
@@ -465,7 +819,7 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
 - encryption: none
   flow: ''
-  name: 韩国_首尔特别市 - 128ms - 129ms
+  name: 韩国_首尔特别市 - 128ms - 129ms - 184...
   network: ws
   port: 34237
   server: 193.123.244.37
@@ -474,7 +828,7 @@ proxies:
   uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_1 - 133ms
+  name: 🇰🇷KR_1 - 133ms - 189ms
   network: tcp
   port: 13672
   server: 3.39.4.109
@@ -483,7 +837,7 @@ proxies:
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_3 - 133ms
+  name: 🇰🇷KR_3 - 133ms - 187ms
   network: raw
   port: 18967
   server: 3.39.4.109
@@ -492,7 +846,7 @@ proxies:
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - encryption: none
   flow: ''
-  name: '韩国_首尔特别市 #1 - 128ms - 129ms'
+  name: '韩国_首尔特别市 #1 - 128ms - 129ms - ...'
   network: ws
   port: 34237
   server: 193.123.244.37
@@ -510,7 +864,7 @@ proxies:
   uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
 - encryption: none
   flow: ''
-  name: '韩国_首尔特别市 #2 - 128ms - 129ms'
+  name: '韩国_首尔特别市 #2 - 128ms - 129ms - ...'
   network: ws
   port: 34237
   server: 193.123.244.37
@@ -528,7 +882,7 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
 - encryption: none
   flow: ''
-  name: '韩国_首尔特别市 #5 - 128ms - 129ms'
+  name: '韩国_首尔特别市 #5 - 128ms - 129ms - ...'
   network: ws
   port: 34237
   server: 193.123.244.37
@@ -546,7 +900,7 @@ proxies:
   uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
 - alterId: 0
   cipher: auto
-  name: 韩国 012 - 129ms - 129ms
+  name: 韩国 012 - 129ms - 129ms - 183ms
   network: tcp
   port: 443
   server: 140.238.2.250
@@ -555,7 +909,7 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_27 - 172ms
+  name: 🇰🇷KR_27 - 172ms - 117ms
   network: tcp
   port: 443
   server: 178.83.31.93
@@ -564,7 +918,7 @@ proxies:
   uuid: 4a97788b-5d8a-410c-875c-ba36930e185e
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇰🇷KR_8 - 197ms
+  name: 🇰🇷KR_8 - 197ms - 213ms
   network: tcp
   port: 443
   server: ako.pagate.top
@@ -573,7 +927,7 @@ proxies:
   uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
 - encryption: none
   flow: ''
-  name: 🇰🇷KR_20 - 136ms - 136ms
+  name: 🇰🇷KR_20 - 136ms - 136ms - 190m...
   network: ws
   port: 12016
   server: 220.72.143.166
@@ -582,7 +936,7 @@ proxies:
   uuid: 0735b6f3-fdaa-4413-9c98-9af58e8a9052
 - encryption: none
   flow: ''
-  name: 🇰🇷KR_17 - 138ms - 141ms
+  name: 🇰🇷KR_17 - 138ms - 141ms - 195m...
   network: ws
   port: 30017
   server: 211.48.30.184
@@ -590,26 +944,8 @@ proxies:
   type: vless
   uuid: beec57a5-8266-4279-b279-f495bdc70699
 - encryption: none
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_2 - 127ms
-  network: raw
-  port: 443
-  server: 132.145.89.30
-  tls: true
-  type: vless
-  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-- encryption: none
   flow: ''
-  name: 🇰🇷KR_18 - 158ms - 832ms
-  network: ws
-  port: 11019
-  server: 211.104.99.209
-  tls: true
-  type: vless
-  uuid: cca6ecec-5305-49d0-8adf-3b40aaaa50d6
-- encryption: none
-  flow: ''
-  name: 🇰🇷KR_23 - 141ms - 145ms
+  name: 🇰🇷KR_23 - 141ms - 145ms - 203m...
   network: ws
   port: 36389
   server: 183.107.137.157
