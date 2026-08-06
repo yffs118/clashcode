@@ -6,44 +6,13 @@ proxies:
   server: 13.115.57.197
   type: ss
   udp: true
-- name: 🇯🇵 日本|@stairnode
-  password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 13.231.134.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 日本(yudou789.top 玉豆免费节点)
-  port: 56738
-  server: 103.127.243.59
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 日本 001
+  name: '日本 001 #1'
   network: http
   port: 53268
   server: 47.74.43.250
@@ -51,7 +20,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- name: 日本 002
+- name: '日本 002 #1'
   network: ws
   port: 443
   server: 91.193.58.93
@@ -127,7 +96,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 日本 009
+  name: '日本 009 #1'
   network: ws
   port: 2052
   server: 146.56.118.227
@@ -155,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 011
+  name: '日本 011 #1'
   network: ws
   port: 80
   server: 61.245.11.60
@@ -169,7 +138,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 日本 012
+  name: '日本 012 #1'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -183,7 +152,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 日本 013
+  name: '日本 013 #1'
   network: ws
   port: 11188
   server: 140.238.42.147
@@ -196,7 +165,7 @@ proxies:
     path: /hello
 - alterId: 0
   cipher: auto
-  name: 日本 014
+  name: '日本 014 #1'
   network: ws
   port: 80
   server: 3h-philippines1.09vpn.com
@@ -210,7 +179,7 @@ proxies:
     path: /vmess/
 - alterId: 1
   cipher: auto
-  name: 日本 015
+  name: '日本 015 #1'
   network: ws
   port: 33333
   server: 146.56.45.242
@@ -223,7 +192,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 016
+  name: '日本 016 #1'
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -236,7 +205,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 017
+  name: '日本 017 #1'
   network: ws
   port: 10241
   server: 52.197.107.193
@@ -249,7 +218,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 日本 018
+  name: '日本 018 #1'
   network: ws
   port: 8080
   server: 146.56.157.76
@@ -262,7 +231,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 019
+  name: '日本 019 #1'
   network: ws
   port: 8080
   server: 146.56.179.139
@@ -275,7 +244,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 020
+  name: '日本 020 #1'
   network: ws
   port: 8080
   server: bnm.skyin.net
@@ -288,7 +257,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 021
+  name: '日本 021 #1'
   network: ws
   port: 8080
   server: bst.n48.net
@@ -301,7 +270,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 022
+  name: '日本 022 #1'
   network: ws
   port: 8080
   server: 193.32.151.103
@@ -314,7 +283,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: 日本 023
+  name: '日本 023 #1'
   network: ws
   port: 443
   server: 134.122.139.79
@@ -328,7 +297,7 @@ proxies:
     path: /path/011410073331
 - alterId: 64
   cipher: auto
-  name: 日本 024
+  name: '日本 024 #1'
   network: ws
   port: 30000
   server: 137.220.130.58
@@ -342,7 +311,7 @@ proxies:
     path: /path/011410073331
 - alterId: 4
   cipher: auto
-  name: 日本 025
+  name: '日本 025 #1'
   network: ws
   port: 443
   server: 202.61.141.130
@@ -356,7 +325,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 日本 026
+  name: '日本 026 #1'
   network: ws
   port: 80
   server: max8.flash5g.com
@@ -369,7 +338,7 @@ proxies:
     path: /AnhBin
 - alterId: 64
   cipher: auto
-  name: 日本 027
+  name: '日本 027 #1'
   network: ws
   port: 46666
   server: 103.72.5.227
@@ -383,7 +352,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 日本 028
+  name: '日本 028 #1'
   network: ws
   port: 48885
   server: 134.122.184.88
@@ -397,7 +366,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 日本 029
+  name: '日本 029 #1'
   network: ws
   port: 443
   server: 146.56.162.25
@@ -411,7 +380,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: 日本 030
+  name: '日本 030 #1'
   network: ws
   port: 3331
   server: f1f3227.u1.glados-config.net
@@ -425,7 +394,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: 日本 031
+  name: '日本 031 #1'
   network: ws
   port: 443
   server: kr-arm2.018999.xyz
@@ -439,7 +408,7 @@ proxies:
     path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
 - alterId: 0
   cipher: auto
-  name: 日本 032
+  name: '日本 032 #1'
   network: ws
   port: 443
   server: 172.105.223.136
@@ -453,7 +422,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 033
+  name: '日本 033 #1'
   network: ws
   port: 3331
   server: f1f3227.v1.glados-config.net
@@ -466,7 +435,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: 日本 034
+  name: '日本 034 #1'
   network: ws
   port: 443
   server: 124.156.225.184
@@ -480,7 +449,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 035
+  name: '日本 035 #1'
   network: ws
   port: 443
   server: 47.245.42.92
@@ -494,7 +463,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 036
+  name: '日本 036 #1'
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -508,7 +477,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 日本 037
+  name: '日本 037 #1'
   network: ws
   port: 8080
   server: 193.32.148.12
@@ -521,7 +490,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 日本 038
+  name: '日本 038 #1'
   network: ws
   port: 5001
   server: steam.dnspro.icu
@@ -534,7 +503,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 日本 039
+  name: '日本 039 #1'
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -547,7 +516,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 日本 040
+  name: '日本 040 #1'
   network: ws
   port: 443
   server: cvywfavasdc.cymlr.xyz
@@ -559,7 +528,7 @@ proxies:
     headers:
       Host: cvywfavasdc.cymlr.xyz
     path: /ksebupo
-- name: 日本 041
+- name: '日本 041 #1'
   network: ws
   port: 443
   server: 91.193.58.201
@@ -575,7 +544,7 @@ proxies:
       Host: vangoghhh.info
     path: /rdfgtws
 - client-fingerprint: chrome
-  name: 日本 042
+  name: '日本 042 #1'
   network: ws
   port: 2096
   server: 91.193.58.137
@@ -592,7 +561,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: ''
-  name: 日本 043
+  name: '日本 043 #1'
   network: ws
   port: 2096
   server: 91.193.58.140
@@ -609,7 +578,7 @@ proxies:
     path: /free-server.techsonic.dev
 - client-fingerprint: chrome
   flow: ''
-  name: 日本 044
+  name: '日本 044 #1'
   network: ws
   port: 2096
   server: 91.193.58.157
@@ -626,7 +595,7 @@ proxies:
     path: /free-server.techsonic.dev
 - client-fingerprint: chrome
   flow: ''
-  name: 日本 045
+  name: '日本 045 #1'
   network: ws
   port: 2096
   server: 91.193.58.27
@@ -641,7 +610,7 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- name: 日本 046
+- name: '日本 046 #1'
   network: tcp
   port: 62145
   server: 158.247.123.7
@@ -652,7 +621,7 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: 日本 047
+  name: '日本 047 #1'
   network: ws
   port: 2083
   server: 91.193.58.215
@@ -668,7 +637,7 @@ proxies:
       Host: vlso300.1d.mom
     path: /socks5=888:888
 - client-fingerprint: chrome
-  name: 日本 048
+  name: '日本 048 #1'
   network: ws
   port: 2053
   server: 91.193.58.217
@@ -684,7 +653,7 @@ proxies:
       Host: vlso200.1d.mom
     path: /socks5=888:888
 - client-fingerprint: chrome
-  name: 日本 049
+  name: '日本 049 #1'
   network: ws
   port: 2083
   server: 91.193.59.32
@@ -699,7 +668,7 @@ proxies:
     headers:
       Host: vlsovip.1d.mom
     path: /socks5=888:888
-- name: 日本 050
+- name: '日本 050 #1'
   network: ws
   port: 443
   server: 151.101.109.223
@@ -714,7 +683,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /
-- name: 日本 051
+- name: '日本 051 #1'
   network: ws
   port: 2096
   server: 91.193.58.128
@@ -729,6 +698,55 @@ proxies:
     headers:
       Host: sw.captainsparo.ir
     path: /
+- name: 'US美国 #15 - 10ms - 11ms'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - 90ms
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本|@stairnode
+  password: BxceQaOe
+  port: 3022
+  server: 52.194.222.108
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本(yudou789.top 玉豆免费节点)
+  port: 56738
+  server: 103.127.243.59
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - name: 🇯🇵JP_1|3.9MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17962
@@ -737,29 +755,6 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) - 110...
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  sni: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 420ms - ...
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '日本 002 #1 - 167ms'
@@ -914,6 +909,15 @@ proxies:
     headers:
       Host: 210.138.37.53
     path: /
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 420ms - ...
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - encryption: none
   flow: ''
   name: 'JP日本(mibei77.com 米贝节点分享)_9 #2 ...'
@@ -923,13 +927,6 @@ proxies:
   tls: true
   type: vless
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: 🇭🇰_HK_中国香港->🇯🇵_JP_日本 - 90ms
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
 - name: 🇯🇵JP_70 - 118ms - 205ms
   password: ND91608427
   port: 443

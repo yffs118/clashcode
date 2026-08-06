@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 瑞士 001
+  name: '瑞士 001 #1'
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -14,7 +14,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 瑞士 002
+  name: '瑞士 002 #1'
   network: ws
   port: 443
   server: 140.238.212.95
@@ -40,7 +40,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-- name: 瑞士 004
+- name: '瑞士 004 #1'
   network: tcp
   port: 62145
   server: 141.148.235.203
@@ -51,7 +51,7 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: 瑞士 005
+  name: '瑞士 005 #1'
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -66,7 +66,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 瑞士 006
+- name: '瑞士 006 #1'
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -88,6 +88,12 @@ proxies:
   type: vless
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
+- cipher: aes-256-cfb
+  name: 🇨🇭_CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
+  type: ss
 - name: 🇨🇭CH_1|1.1MB/s
   port: 9443
   server: 37.120.213.210
