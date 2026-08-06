@@ -1,7 +1,7 @@
 proxies:
 - alterId: 4
   cipher: auto
-  name: '新加坡 001 #1'
+  name: 新加坡 001
   network: ws
   port: 443
   server: 103.253.26.20
@@ -15,7 +15,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 002 #1'
+  name: 新加坡 002
   network: ws
   port: 443
   server: me.khantry.net
@@ -29,7 +29,7 @@ proxies:
     path: /khantri
 - alterId: 0
   cipher: auto
-  name: '新加坡 003 #1'
+  name: 新加坡 003
   network: ws
   port: 80
   server: 172.104.182.226
@@ -42,7 +42,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 004 #1'
+  name: 新加坡 004
   network: ws
   port: 8848
   server: 23.101.27.60
@@ -55,7 +55,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 005 #1'
+  name: 新加坡 005
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -68,7 +68,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 006 #1'
+  name: 新加坡 006
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -81,7 +81,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 007 #1'
+  name: 新加坡 007
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -94,7 +94,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 008 #1'
+  name: 新加坡 008
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -107,7 +107,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: '新加坡 009 #1'
+  name: 新加坡 009
   network: ws
   port: 30010
   server: 103.254.152.82
@@ -121,7 +121,7 @@ proxies:
     path: /path/191019072927
 - alterId: 1
   cipher: auto
-  name: '新加坡 010 #1'
+  name: 新加坡 010
   network: ws
   port: 21888
   server: 104.248.148.147
@@ -134,7 +134,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 011 #1'
+  name: 新加坡 011
   network: ws
   port: 80
   server: 139.99.61.154
@@ -147,7 +147,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '新加坡 012 #1'
+  name: 新加坡 012
   network: ws
   port: 16737
   server: 139.180.211.152
@@ -160,7 +160,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 013 #1'
+  name: 新加坡 013
   network: ws
   port: 18063
   server: 139.180.211.152
@@ -173,7 +173,7 @@ proxies:
     path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: '新加坡 014 #1'
+  name: 新加坡 014
   network: ws
   port: 80
   server: 139.59.255.209
@@ -186,7 +186,7 @@ proxies:
     path: /cloudfast
 - alterId: 0
   cipher: auto
-  name: '新加坡 015 #1'
+  name: 新加坡 015
   network: ws
   port: 63086
   server: 159.27.90.254
@@ -200,7 +200,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '新加坡 016 #1'
+  name: 新加坡 016
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -213,7 +213,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '新加坡 017 #1'
+  name: 新加坡 017
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -226,7 +226,7 @@ proxies:
     path: /iso
 - alterId: 4
   cipher: auto
-  name: '新加坡 018 #1'
+  name: 新加坡 018
   network: ws
   port: 443
   server: 103.253.26.134
@@ -240,7 +240,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '新加坡 019 #1'
+  name: 新加坡 019
   network: ws
   port: 443
   server: 66.42.55.118
@@ -252,6 +252,83 @@ proxies:
     headers:
       Host: v02.guanpinhao.top
     path: /RdIyx6hMMR
+- client-fingerprint: firefox
+  name: '新加坡丨yoyapai.com #2'
+  network: ws
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: juzi8186.qea.ccwu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: /tv/juzibaipiao?ed=2560
+- alterId: '0'
+  cipher: auto
+  name: 法国(免费节点)_6
+  network: ws
+  port: '55009'
+  server: 2001:bc8:32d7:225::3
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  ws-opts:
+    path: /0zNW56sF
+- name: 新加坡(免费节点)_1
+  network: ws
+  port: 59404
+  server: 47.84.67.87
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a78b7884-7687-4ce7-81f6-a38f2977a3b4
+  ws-opts:
+    headers:
+      host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+    path: /@Marisa_kristi
+- name: 新加坡(免费节点)_2
+  network: ws
+  port: 2053
+  server: 149.118.55.215
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      host: t1s1.rittbo.kdns.fr
+    path: /
+- name: 新加坡(免费节点)_3
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: hhtj.hhllfly.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: 🇸🇬 机场推荐:dafei.de 新加坡 01
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
 - alpn:
   - h2
   - http/1.1
@@ -352,613 +429,6 @@ proxies:
     headers:
       Host: sni.skylee4.cloudns.ch
     path: /proxyip=ProxyIP.CMLiussss.net
-- name: 🇸🇬SG_4|⬇️5.1MB/s - 2ms
-  password: a9570330-769d-11ef-90dc-1577c1651679
-  port: 443
-  server: 104.18.1.196
-  skip-cert-verify: true
-  sni: sg-trojan.andfree.my.id
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 新加坡(yudou789.top 玉豆免费节点) - 169...
-  network: ws
-  port: 443
-  server: 20.6.12.145
-  tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-- alterId: 0
-  cipher: auto
-  name: '新加坡 010 #1 - 167ms'
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  tls: false
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '新加坡 013 #1 - 167ms'
-  network: ws
-  port: 80
-  server: 139.59.255.209
-  tls: false
-  type: vmess
-  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
-  ws-opts:
-    headers:
-      Host: 139.59.255.209
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '新加坡 015 #1 - 480ms'
-  network: ws
-  port: 9111
-  server: st-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '新加坡 016 #1 - 583ms'
-  network: ws
-  port: 5100
-  server: st-2.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-2.dnspro.icu
-    path: /
-- encryption: none
-  flow: ''
-  name: 新加坡(免费节点)_2 - 168ms - 169ms
-  network: ws
-  port: 2053
-  server: 149.118.55.215
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- name: 新加坡(免费节点)_3 - 169ms - 169ms
-  password: '!!str 521314'
-  port: 443
-  server: 116.251.217.65
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇸🇬 机场推荐:dafei.de 新加坡 03 - 110m...
-  network: ws
-  port: 443
-  server: cos-cdn-c.alicdn.win
-  tls: true
-  type: vless
-  uuid: c95edc3e-cb00-4504-ae38-9d36d96a08ca
-- name: 🇸🇬 SG 27 → tg@nicevpn123 - 168...
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
-  port: 443
-  server: 139.162.49.215
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬 SG 39 → tg@nicevpn123 - 162...
-  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
-  port: 443
-  server: sg3-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬 SG 29 → tg@nicevpn123 - 185...
-  password: 557340ab-4ae8-4593-989f-a8053bec73b6
-  port: 443
-  server: sg2-full.privateip.net
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇸🇬 SG 40 → tg@nicevpn123 - 169...
-  password: amazonskr05
-  port: 443
-  server: 13.250.57.60
-  type: ss
-- name: 🇸🇬 SG 7 → tg@nicevpn123 - 169m...
-  password: I4bO2YDEgs
-  port: 443
-  server: 188.166.252.91
-  skip-cert-verify: true
-  sni: aka.ms
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_116 - 169ms - 169ms - 1...
-  network: ws
-  port: 443
-  server: 116.251.217.65
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_118 - 181ms - 168ms - 1...
-  network: ws
-  port: 443
-  server: 18.138.34.221
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬_新加坡_215 - 170ms - 170ms - 1...
-  network: ws
-  port: 443
-  server: 116.251.217.107
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- name: 🇸🇬SG-54.255.35.23-6228 | 16.32...
-  password: ND91608427
-  port: 443
-  server: tidy-gelding.rooster465.autos
-  sni: tidy-gelding.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG_41 - 167ms - 168ms
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: 139.59.238.97
-  type: trojan
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_54 - 168ms - 168ms
-  network: tcp
-  port: 8899
-  server: 168.138.166.89
-  tls: true
-  type: vless
-  uuid: 0c9839aa-c64f-4791-9137-420432605987
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #1 - 1ms - 1ms - 2ms'
-  network: ws
-  port: 443
-  server: 206.238.236.186
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #2 - 2ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.236.46
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: 新加坡_新加坡 - 168ms - 169ms - 168m...
-  network: ws
-  port: 36322
-  server: 168.138.179.107
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #3 - 169ms - 169ms - 1...'
-  network: ws
-  port: 443
-  server: 8.219.144.168
-  tls: true
-  type: vless
-  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬 SG 771 | ⬇️ 16KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 64c1fe36c7846400'
-  server: 67.159.52.93
-  servername: findmypackets.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_5 - 189ms - 194ms
-  network: tcp
-  port: 10574
-  server: 3.0.111.82
-  tls: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_14 - 169ms - 175ms
-  network: tcp
-  port: 12972
-  server: 3.0.111.82
-  tls: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #6 - 3ms - 1ms - 2ms'
-  network: ws
-  port: 443
-  server: 206.238.236.186
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #7 - 1ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.236.46
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #8 - 1ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.236.65
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #9 - 1ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.237.224
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #4 - 168ms - 168ms - 1...'
-  network: ws
-  port: 36322
-  server: 168.138.179.107
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #10 - 169ms - 168ms - ...'
-  network: ws
-  port: 443
-  server: 8.219.144.168
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #16 - 1ms - 1ms - 2ms'
-  network: ws
-  port: 443
-  server: 206.238.236.46
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #17 - 1ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.236.65
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #18 - 1ms - 1ms - 1ms'
-  network: ws
-  port: 443
-  server: 206.238.237.150
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #11 - 169ms - 169ms - ...'
-  network: ws
-  port: 36322
-  server: 168.138.179.107
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #19 - 169ms - 169ms - ...'
-  network: ws
-  port: 443
-  server: 8.219.144.168
-  tls: true
-  type: vless
-  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_17 - 167ms - 168ms
-  network: tcp
-  port: 10000
-  server: 140.245.50.174
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_21 - 371ms - 320ms
-  network: raw
-  port: 10000
-  server: sgxi.959555.xyz
-  tls: true
-  type: vless
-  uuid: af6904c1-4349-4448-8e99-0024824a0c33
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_46 - 168ms - 167ms
-  network: tcp
-  port: 4321
-  server: 152.42.217.27
-  tls: true
-  type: vless
-  uuid: b8f3a337-ad39-4064-95f1-33a725a65877
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #24 - 1ms - 1ms - 2ms'
-  network: ws
-  port: 443
-  server: 206.238.236.65
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-- encryption: none
-  flow: ''
-  name: '新加坡_新加坡 #22 - 168ms - 168ms - ...'
-  network: ws
-  port: 36322
-  server: 168.138.179.107
-  tls: true
-  type: vless
-  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
-- encryption: none
-  flow: ''
-  name: '%3E%3E%40V2RAY_VMESS_free::SG ...'
-  network: ws
-  port: 2053
-  server: 91.192.81.154
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_49 - 1ms - 1ms - 1ms
-  network: ws
-  port: 8443
-  server: 170.114.45.6
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_34 - 172ms - 171ms - 170m...
-  network: ws
-  port: 10428
-  server: 159.138.85.179
-  tls: true
-  type: vless
-  uuid: 9abc2783-1f8f-4197-80cd-2810394bab52
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_33 - 169ms - 169ms - 169m...
-  network: ws
-  port: 2000
-  server: 13.212.82.58
-  tls: true
-  type: vless
-  uuid: f2a97245-bf76-4eca-9119-110a9ebf38e4
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_60 - 171ms - 168ms - 170m...
-  network: ws
-  port: 443
-  server: 141.11.43.55
-  tls: true
-  type: vless
-  uuid: 0d251504-8b91-4744-8130-412ec76af13f
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_29 - 170ms - 168ms - 171m...
-  network: ws
-  port: 53646
-  server: 54.179.79.12
-  tls: true
-  type: vless
-  uuid: d57b9436-a238-4066-8b11-d23ae57c5982
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_63 - 175ms - 166ms - 167m...
-  network: ws
-  port: 443
-  server: 5.223.60.212
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_52 - 91ms - 9ms - 26ms
-  network: ws
-  port: 2096
-  server: news.zoom.us
-  tls: true
-  type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_53 - 5ms - 1ms - 3ms
-  network: ws
-  port: 8443
-  server: support.zoom.us
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_51 - 2ms - 1ms - 1ms
-  network: ws
-  port: 2096
-  server: 141.193.213.20
-  tls: true
-  type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_61 - 168ms - 167ms - 167m...
-  network: ws
-  port: 443
-  server: 139.180.220.7
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_47 - 2ms - 1ms - 1ms
-  network: ws
-  port: 2096
-  server: 141.193.213.21
-  tls: true
-  type: vless
-  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_62 - 167ms - 168ms - 167m...
-  network: ws
-  port: 443
-  server: 66.42.61.215
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_48 - 1ms - 1ms - 1ms
-  network: ws
-  port: 8443
-  server: 170.114.46.6
-  tls: true
-  type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
-- encryption: none
-  flow: ''
-  name: 🇸🇬_SG_新加坡_2 - 1ms - 1ms - 2ms
-  network: ws
-  port: 8443
-  server: 27.50.49.232
-  tls: true
-  type: vless
-  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
-- name: 🇸🇬_SG_新加坡 - 429ms - 112ms
-  password: IQ68037294
-  port: 443
-  server: apt-midge.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬_SG_新加坡_2 - 119ms - 112ms
-  password: IQ68037294
-  port: 443
-  server: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 🇸🇬_SG_新加坡_5 - 118ms - 112ms
-  password: IQ68037294
-  port: 443
-  server: fun-salmon.rooster465.autos
-  skip-cert-verify: true
-  sni: fun-salmon.rooster465.autos
-  type: trojan
-- name: 🇸🇬_SG_新加坡_3 - 801ms - 114ms
-  password: FC60532879
-  port: 443
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: true
-  sni: helpful-possum.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇬_SG_新加坡 - 175ms - 173ms
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19000
-  server: ss.049.node-for-bigairport.win
-  type: ss
-- encryption: none
-  flow: ''
-  name: SG新加坡(mibei77.com 米贝节点分享) - 16...
-  network: ws
-  port: 2000
-  server: 188.239.17.75
-  tls: true
-  type: vless
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_45|212KB/s|S001-260618 01...
-  network: xhttp
-  port: 443
-  server: sg.ethicsdinnerpave.online
-  tls: true
-  type: vless
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_48|271KB/s|B007-260618 01...
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  tls: false
-  type: vless
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_49|230KB/s|M002-260618 01...
-  network: ws
-  port: 80
-  server: 170.114.45.6
-  tls: false
-  type: vless
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-- encryption: none
-  flow: ''
-  name: 🇸🇬SG_50|232KB/s|S004-260618 01...
-  network: ws
-  port: 80
-  server: support.zoom.us
-  tls: false
-  type: vless
-  uuid: cac6ec8f-99f0-44c5-814f-2f3f65e4db74
-- name: 🇸🇬_SG_新加坡_1 - 117ms
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
-  skip-cert-verify: true
-  sni: resolved-gelding.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 新加坡/新加坡/Singapore/Singapore
@@ -1017,26 +487,6 @@ proxies:
     headers:
       Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- ech-opts:
-    _dns: udp://8.8.8.8
-    enable: true
-    query-server-name: ip.gs
-  encryption: none
-  name: 🇸🇬 SG 646 | ⬇️ 697KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 172.66.44.97
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - name: 🇸🇬 SG 647 | ⬇️ 8KB/s
   password: admin
   port: 1080
@@ -1065,6 +515,22 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬 SG 771 | ⬇️ 16KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: '!!str 64c1fe36c7846400'
+  server: 67.159.52.93
+  servername: findmypackets.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 631ee34f-4faf-0003-b49d-e6f50403cf0e
 - alterId: 0
   name: 🇸🇬SG新加坡
   password: BxceQaOe
