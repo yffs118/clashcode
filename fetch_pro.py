@@ -1517,8 +1517,10 @@ def main():
                 print(f"  ✅ clash -t passed: {result.stdout.strip()}")
             else:
                 print(f"  ❌ clash -t FAILED with code {result.returncode}")
-                print(f"  stdout: {result.stdout.strip()}")
-                print(f"  stderr: {result.stderr.strip()}")
+                if result.stdout.strip():
+                    print(f"  stdout: {result.stdout.strip()}")
+                if result.stderr.strip():
+                    print(f"  stderr: {result.stderr.strip()}")
         except Exception as e:
             print(f"  ⚠️ Failed to run clash -t: {e}")
     else:
@@ -1708,6 +1710,31 @@ def main():
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta_snip}, allow_unicode=True).replace('!!str ',''))
+
+    # ========== 新增调试：对 list.meta.yml 也进行 clash 测试（可选） ==========
+    print("\n[DEBUG] Testing list.meta.yml with clash -t -f ...")
+    if clash_path:
+        list_meta_yml_path = os.path.abspath("list.meta.yml")
+        try:
+            result = subprocess.run(
+                [clash_path, "-t", "-f", list_meta_yml_path],
+                capture_output=True,
+                text=True,
+                timeout=10
+            )
+            if result.returncode == 0:
+                print(f"  ✅ clash -t passed for list.meta.yml: {result.stdout.strip()}")
+            else:
+                print(f"  ❌ clash -t FAILED for list.meta.yml with code {result.returncode}")
+                if result.stdout.strip():
+                    print(f"  stdout: {result.stdout.strip()}")
+                if result.stderr.strip():
+                    print(f"  stderr: {result.stderr.strip()}")
+        except Exception as e:
+            print(f"  ⚠️ Failed to run clash -t on list.meta.yml: {e}")
+    else:
+        print("  ⚠️ 'clash' not found, skipping test for list.meta.yml.")
+    # ========================================================================
 
     # ========== 新增调试：立即读取 list.meta.yml 并详细检查组名冲突 ==========
     print("\n[DEBUG] Verifying list.meta.yml content for group-name conflicts:")
