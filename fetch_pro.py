@@ -1369,6 +1369,21 @@ def main():
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
 
+    # ========== 新增调试：在 Meta 处理前打印 conf_meta 的 proxy-groups ==========
+    print("\n[DEBUG META] Before any Meta modifications, conf_meta proxy-groups names:")
+    print([g.get('name') for g in conf_meta['proxy-groups']])
+    # 检查是否有重复
+    seen_pre = set()
+    dup_pre = []
+    for name in [g.get('name') for g in conf_meta['proxy-groups']]:
+        if name in seen_pre:
+            dup_pre.append(name)
+        else:
+            seen_pre.add(name)
+    if dup_pre:
+        print(f"  ⚠️⚠️ ALREADY DUPLICATE in conf_meta before Meta: {set(dup_pre)}")
+    # ======================================================================
+
     # Clash
     conf['proxies'] = proxies
     for group in conf['proxy-groups']:
@@ -1454,6 +1469,22 @@ def main():
     for group in conf['proxy-groups']:
         if not group['proxies']:
             group['proxies'] = names_clash_meta
+
+    # ========== 新增调试：进入 Meta 添加前，打印当前 conf 组名 ==========
+    print("\n[DEBUG META] After setting proxies, before adding region groups, conf proxy-groups names:")
+    current_names_before_add = [g.get('name') for g in conf['proxy-groups']]
+    print(current_names_before_add)
+    seen_before = set()
+    dup_before = []
+    for name in current_names_before_add:
+        if name in seen_before:
+            dup_before.append(name)
+        else:
+            seen_before.add(name)
+    if dup_before:
+        print(f"  ⚠️⚠️ DUPLICATE BEFORE ADDING REGION GROUPS: {set(dup_before)}")
+    # =================================================================
+
     if snip_conf:
         conf['proxy-groups'][-1]['proxies'] = []
         ctg_selects: List[str] = conf['proxy-groups'][-1]['proxies']
@@ -1501,6 +1532,20 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
                 existing_names.append(disp['name'])
+
+                # ========== 新增调试：添加后立即打印所有组名并检查重复 ==========
+                current_names_after_add = [g.get('name') for g in conf['proxy-groups']]
+                print(f"    [DEBUG META] After adding '{disp['name']}', all names: {current_names_after_add}")
+                seen_after = set()
+                dup_after = []
+                for name in current_names_after_add:
+                    if name in seen_after:
+                        dup_after.append(name)
+                    else:
+                        seen_after.add(name)
+                if dup_after:
+                    print(f"    ⚠️⚠️ DUPLICATE DETECTED RIGHT AFTER ADD: {set(dup_after)}")
+                # =============================================================
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
 
@@ -1517,6 +1562,23 @@ def main():
                 if removed:
                     print(f"  [DEBUG] Group '{g['name']}' removed {removed} group-name elements")
     # ------------------------------------------------
+
+    # ========== 新增调试：在最终写入前再次检查所有组名重复 ==========
+    print("\n[DEBUG META] Before writing list.meta.yml, final proxy-groups names:")
+    final_names = [g.get('name') for g in conf['proxy-groups']]
+    print(final_names)
+    seen_final = set()
+    dup_final = []
+    for name in final_names:
+        if name in seen_final:
+            dup_final.append(name)
+        else:
+            seen_final.add(name)
+    if dup_final:
+        print(f"  ⚠️⚠️ FINAL DUPLICATE NAMES: {set(dup_final)}")
+    else:
+        print("  No duplicate names found.")
+    # ========================================================
 
     # ----- DEBUG: 写入前打印最终 proxy-groups 摘要 -----
     print("\n[DEBUG] Final proxy-groups in Meta (names and proxies first 3):")
