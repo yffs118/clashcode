@@ -1,7 +1,5 @@
 proxies:
-- encryption: none
-  flow: ''
-  name: 🇸🇪SE_3 | ⬇️ 3.2MB/s - 187ms - ...
+- name: 🇸🇪SE_3|⬇️3.2MB/s
   network: tcp
   port: 443
   server: secdn17.suio.me
@@ -25,7 +23,7 @@ proxies:
   uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - alterId: 0
   cipher: auto
-  name: 瑞典 001
+  name: '瑞典 001 #1'
   network: ws
   port: 443
   server: 185.146.173.59
@@ -39,7 +37,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: none
-  name: 瑞典 002
+  name: '瑞典 002 #1'
   network: ws
   port: 443
   server: 185.146.173.64
@@ -53,7 +51,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 瑞典 003
+  name: '瑞典 003 #1'
   network: ws
   port: 443
   server: 185.146.173.158
@@ -67,17 +65,16 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '瑞典 004 #1 - 128ms'
+  name: '瑞典 004 #1'
   network: http
   port: 80
   server: 217.142.138.61
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - alterId: 0
   cipher: auto
-  name: 瑞典 005
+  name: '瑞典 005 #1'
   network: ws
   port: 80
   server: 5.249.160.226
@@ -91,7 +88,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: 瑞典 006
+  name: '瑞典 006 #1'
   network: ws
   port: 8080
   server: 141.147.161.53
@@ -104,7 +101,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 瑞典 007
+  name: '瑞典 007 #1'
   network: ws
   port: 80
   server: 185.146.173.25
@@ -117,7 +114,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 008
+  name: '瑞典 008 #1'
   network: ws
   port: 80
   server: myvpshosting.name.ng
@@ -130,7 +127,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 瑞典 009
+  name: '瑞典 009 #1'
   network: ws
   port: 31002
   server: 37.120.209.126
@@ -144,7 +141,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 瑞典 010
+  name: '瑞典 010 #1'
   network: ws
   port: 443
   server: 148.135.33.227
@@ -158,7 +155,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 瑞典 011
+  name: '瑞典 011 #1'
   network: ws
   port: 37002
   server: 148.135.31.41
@@ -172,7 +169,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 瑞典 012
+  name: '瑞典 012 #1'
   network: ws
   port: 31005
   server: 148.135.31.61
@@ -186,7 +183,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 瑞典 013
+  name: '瑞典 013 #1'
   network: ws
   port: 443
   server: 148.135.38.107
@@ -200,7 +197,7 @@ proxies:
     path: /path/1704363182493
 - alterId: 64
   cipher: auto
-  name: 瑞典 014
+  name: '瑞典 014 #1'
   network: ws
   port: 443
   server: 148.135.9.156
@@ -214,7 +211,7 @@ proxies:
     path: /path/1704363182493
 - alterId: 64
   cipher: auto
-  name: 瑞典 015
+  name: '瑞典 015 #1'
   network: ws
   port: 443
   server: 148.135.31.171
@@ -228,7 +225,7 @@ proxies:
     path: /path/1703924658447
 - alterId: 64
   cipher: auto
-  name: 瑞典 016
+  name: '瑞典 016 #1'
   network: ws
   port: 443
   server: 148.135.33.140
@@ -242,7 +239,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 0
   cipher: auto
-  name: 瑞典 017
+  name: '瑞典 017 #1'
   network: ws
   port: 443
   server: 185.146.173.129
@@ -256,7 +253,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 64
   cipher: auto
-  name: 瑞典 018
+  name: '瑞典 018 #1'
   network: ws
   port: 443
   server: 148.135.14.99
@@ -268,7 +265,7 @@ proxies:
     headers:
       Host: www.20414124.xyz
     path: /path/1704188270531
-- name: 瑞典 019
+- name: '瑞典 019 #1'
   network: ws
   port: 2052
   server: 185.146.173.32
@@ -283,7 +280,7 @@ proxies:
     headers:
       Host: xn--047h.v2raxx6.shop.
     path: /
-- name: 瑞典 020
+- name: '瑞典 020 #1'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -298,7 +295,7 @@ proxies:
     headers:
       Host: rb24.ir
     path: ws/?ed=2048/
-- name: 瑞典 021
+- name: '瑞典 021 #1'
   network: ws
   port: 80
   server: 185.146.173.68
@@ -313,7 +310,7 @@ proxies:
     headers:
       Host: 1.www.speedtest.net.zula.ir.zemestanil.ir
     path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
-- name: 瑞典 022
+- name: '瑞典 022 #1'
   network: ws
   port: 2095
   server: 185.146.173.200
@@ -328,7 +325,7 @@ proxies:
     headers:
       Host: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
     path: /DigiconnecT?ed=1024
-- name: 瑞典 023
+- name: '瑞典 023 #1'
   network: ws
   port: 8080
   server: 185.146.173.58
@@ -343,7 +340,7 @@ proxies:
     headers:
       Host: dcc10.servernet.fun.
     path: /servernett
-- name: 瑞典 024
+- name: '瑞典 024 #1'
   network: ws
   port: 80
   server: 185.146.173.54
@@ -358,7 +355,7 @@ proxies:
     headers:
       Host: Pt1.vless.site.
     path: /vless
-- name: 瑞典 025
+- name: '瑞典 025 #1'
   network: tcp
   port: 2044
   server: 185.246.131.170
@@ -368,248 +365,3 @@ proxies:
   type: vless
   udp: true
   uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-- encryption: none
-  flow: ''
-  name: '瑞典 #2 - 154ms'
-  network: xhttp
-  port: 443
-  server: 84.32.99.238
-  tls: true
-  type: vless
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-- encryption: none
-  flow: ''
-  name: 瑞典/Sweden - 184ms
-  network: tcp
-  port: 1000
-  server: admin.kermanshahi.org
-  tls: true
-  type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
-- name: SE 12 → tg@nicevpn123 - 1ms
-  password: dGKXcHgs3P
-  port: 80
-  server: 185.146.173.66
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: SE 20 → tg@nicevpn123 - 1ms
-  network: ws
-  port: 443
-  server: 185.146.173.129
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 185.146.173.129
-    path: /
-- alterId: 0
-  cipher: auto
-  name: SE 22 → tg@nicevpn123 - 1ms
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 185.146.173.59
-    path: /
-- alterId: 0
-  cipher: none
-  name: '瑞典 002 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 185.146.173.64
-  tls: true
-  type: vmess
-  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
-  ws-opts:
-    headers:
-      Host: 185.146.173.64
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '瑞典 003 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: 185.146.173.158
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '瑞典 007 #1 - 2ms'
-  network: ws
-  port: 80
-  server: 185.146.173.25
-  tls: false
-  type: vmess
-  uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690
-  ws-opts:
-    headers:
-      Host: 185.146.173.25
-    path: /
-- encryption: none
-  flow: ''
-  name: '瑞典 019 #1 - 1ms'
-  network: ws
-  port: 2052
-  server: 185.146.173.32
-  tls: true
-  type: vless
-  uuid: 0811015a-99a3-4cae-9d56-c3ad37f6cc72
-- encryption: none
-  flow: ''
-  name: '瑞典 020 #1 - 147ms'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: true
-  type: vless
-  uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
-- encryption: none
-  flow: ''
-  name: '瑞典 021 #1 - 2ms'
-  network: ws
-  port: 80
-  server: 185.146.173.68
-  tls: true
-  type: vless
-  uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
-- encryption: none
-  flow: ''
-  name: '瑞典 022 #1 - 2ms'
-  network: ws
-  port: 2095
-  server: 185.146.173.200
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  flow: ''
-  name: '瑞典 023 #1 - 1ms'
-  network: ws
-  port: 8080
-  server: 185.146.173.58
-  tls: true
-  type: vless
-  uuid: d617f9de-8905-478d-b30c-f4e5db5b3abc
-- encryption: none
-  flow: ''
-  name: '瑞典 024 #1 - 1ms'
-  network: ws
-  port: 80
-  server: 185.146.173.54
-  tls: true
-  type: vless
-  uuid: d7b9d64c-1f9d-496d-b12d-e86da0e6eb1c
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_24 - 161ms
-  password: amazonskr05
-  port: 443
-  server: 13.61.13.49
-  type: ss
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪_瑞典_41 - 158ms
-  network: tcp
-  port: 40443
-  server: 185.189.44.201
-  tls: true
-  type: vless
-  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪_瑞典_36 - 356ms
-  network: tcp
-  port: 40443
-  server: sw.deeplcdn.com
-  tls: true
-  type: vless
-  uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_5 - 171ms
-  network: tcp
-  port: 443
-  server: 148.253.211.10
-  tls: true
-  type: vless
-  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
-- encryption: none
-  flow: ''
-  name: 🇸🇪_SE_瑞典 - 169ms - 166ms
-  network: ws
-  port: 443
-  server: 5.178.109.158
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- encryption: none
-  flow: ''
-  name: 🇸🇪134105 | ⚡️Telegram = t.me/S...
-  network: tcp
-  port: 80
-  server: 185.146.173.231
-  tls: false
-  type: vless
-  uuid: 9ad2883c-1c39-4e42-8ec0-38abd3fa914e
-- encryption: none
-  flow: ''
-  name: 瑞典 019 - 1ms - 1ms
-  network: ws
-  port: 80
-  server: 185.146.173.68
-  tls: true
-  type: vless
-  uuid: 056c2a0a-a8be-4c9b-8e3a-f7e1466267dc
-- encryption: none
-  flow: ''
-  name: 瑞典 021 - 1ms - 1ms
-  network: ws
-  port: 8080
-  server: 185.146.173.58
-  tls: true
-  type: vless
-  uuid: 30c1c7d4-94c9-4473-902f-8f53d7326c60
-- name: 🇸🇪 SE 722 | ⬇️ 1MB/s - 1ms - 1...
-  password: MiTiVPN
-  port: 443
-  server: 104.17.112.113
-  sni: sws-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇸🇪SE_23 - 169ms - 164ms
-  network: ws
-  port: 443
-  server: 212.237.219.183
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: ''
-  name: 🇸🇪SE_11 - 182ms - 171ms
-  network: ws
-  port: 1443
-  server: 2.26.91.98
-  tls: true
-  type: vless
-  uuid: d4c6b1ad-9ec4-4273-854a-f0bbf0448ab6
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪_SE_瑞典 - 160ms
-  network: tcp
-  port: 443
-  server: 82.29.43.42
-  tls: true
-  type: vless
-  uuid: 635a1c4e-122b-45f5-8339-03bce6039739

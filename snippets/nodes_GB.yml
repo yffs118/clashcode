@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
 - alterId: 0
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_56
@@ -21,7 +27,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 英国 002
+  name: '英国 002 #1'
   network: ws
   port: 51611
   server: 51.13.38.115
@@ -35,17 +41,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_55 - 8...
+  name: '英国 003 #1'
   network: tcp
   port: 180
   server: 82.198.246.233
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 英国 004
+  name: '英国 004 #1'
   network: ws
   port: 443
   server: panel.safeconfigmasoud.com
@@ -59,27 +65,27 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: 德国(yudou789.top 玉豆免费节点)_11 - 8...
+  name: '英国 005 #1'
   network: tcp
   port: 180
   server: 82.198.246.250
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美国(yudou789.top 玉豆免费节点)_71 - 8...
+  cipher: auto
+  name: '英国 006 #1'
   network: tcp
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 64
   cipher: auto
-  name: 英国 007
+  name: '英国 007 #1'
   network: h2
   port: 443
   server: 51.15.119.36
@@ -89,7 +95,7 @@ proxies:
   uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
 - alterId: 0
   cipher: auto
-  name: 英国 008
+  name: '英国 008 #1'
   network: ws
   port: 2086
   server: 85.113.71.85
@@ -102,7 +108,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 009
+  name: '英国 009 #1'
   network: ws
   port: 443
   server: 45.85.118.88
@@ -116,7 +122,7 @@ proxies:
     path: /aidapp.lifevws
 - alterId: 64
   cipher: auto
-  name: 英国 010
+  name: '英国 010 #1'
   network: ws
   port: 443
   server: 217.138.197.171
@@ -130,7 +136,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 英国 011
+  name: '英国 011 #1'
   network: ws
   port: 30002
   server: 83.142.225.57
@@ -144,7 +150,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 英国 012
+  name: '英国 012 #1'
   network: ws
   port: 80
   server: ul-uae2.09vpn.com
@@ -157,7 +163,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 英国 013
+  name: '英国 013 #1'
   network: ws
   port: 443
   server: 144.24.200.164
@@ -171,7 +177,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 英国 014
+  name: '英国 014 #1'
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -184,7 +190,7 @@ proxies:
     path: /ch12y6ij
 - alterId: 0
   cipher: auto
-  name: 英国 015
+  name: '英国 015 #1'
   network: ws
   port: 443
   server: 185.162.228.228
@@ -198,7 +204,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 英国 016
+  name: '英国 016 #1'
   network: ws
   port: 443
   server: 185.162.228.110
@@ -212,7 +218,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 英国 017
+  name: '英国 017 #1'
   network: ws
   port: 443
   server: 185.162.228.230
@@ -226,7 +232,7 @@ proxies:
     path: /A2DJOPFT
 - alterId: 4
   cipher: auto
-  name: 英国 018
+  name: '英国 018 #1'
   network: ws
   port: 443
   server: 146.70.46.68
@@ -240,7 +246,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 英国 019
+  name: '英国 019 #1'
   network: ws
   port: 443
   server: 158.180.228.226
@@ -254,7 +260,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 020
+  name: '英国 020 #1'
   network: ws
   port: 443
   server: 217.163.76.147
@@ -268,7 +274,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 021
+  name: '英国 021 #1'
   network: grpc
   port: 443
   server: 146.70.158.111
@@ -278,7 +284,7 @@ proxies:
   uuid: 11ae0edd-2f63-4495-8683-037abbda9986
 - alterId: 0
   cipher: auto
-  name: 英国 022
+  name: '英国 022 #1'
   network: ws
   port: 23451
   server: frankfurt.faforex.eu.org
@@ -291,7 +297,7 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: 英国 023
+  name: '英国 023 #1'
   network: ws
   port: 80
   server: 213.35.113.150
@@ -304,300 +310,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_56 - 8...
+  name: '英国 025 #1'
   network: tcp
   port: 180
   server: 82.198.246.97
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_23 - 2...
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇬🇧 GB 23 → tg@nicevpn123 - 138...
-  password: 1d7692c0-f51c-11ee-91eb-1239d0255272
-  port: 443
-  server: 51.38.65.155
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB 25 → tg@nicevpn123 - 168...
-  network: ws
-  port: 80
-  server: 213.35.113.150
-  tls: false
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: 213.35.113.150
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧3 |  2.8MB/s - 160ms
-  password: mps3FwmDjLrWaOVg
-  port: 443
-  server: series-a2.varzesh360.co
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 英国/United Kingdom-3 - 138ms
-  network: ws
-  port: 80
-  server: 57.129.132.223
-  tls: true
-  type: vmess
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
-  ws-opts:
-    headers:
-      Host: 57.129.132.223
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 009 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 45.85.118.88
-  tls: true
-  type: vmess
-  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
-  ws-opts:
-    headers:
-      Host: 45.85.118.88
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '英国 010 #1 - 158ms'
-  network: ws
-  port: 443
-  server: 217.138.197.171
-  tls: true
-  type: vmess
-  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
-  ws-opts:
-    headers:
-      Host: 217.138.197.171
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 014 #1 - 153ms'
-  network: ws
-  port: 80
-  server: eu-2.hihu.net
-  tls: false
-  type: vmess
-  uuid: 1ebc4fa0-ff27-11ef-b935-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: eu-2.hihu.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 015 #1 - 2ms'
-  network: ws
-  port: 443
-  server: 185.162.228.228
-  tls: true
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  ws-opts:
-    headers:
-      Host: 185.162.228.228
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 016 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 185.162.228.110
-  tls: true
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  ws-opts:
-    headers:
-      Host: 185.162.228.110
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 017 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 185.162.228.230
-  tls: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    headers:
-      Host: 185.162.228.230
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国 020 #1 - 1ms'
-  network: ws
-  port: 443
-  server: 217.163.76.147
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 217.163.76.147
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.35-0115 | 53.599...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.35
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.218-0164 | 22.87...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.218
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.184-0131 | 52.33...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.184
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.187-0098 | 50.74...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.155-0110 | 55.43...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.155
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.49-0182 | 48.279...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_44 - 141ms
-  password: shadowsocks
-  port: 443
-  server: 158.173.24.73
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB_7 - 140ms
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-- cipher: rc4-md5
-  name: 🇬🇧GB_2 - 135ms
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #6 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.43
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.43
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #7 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.7
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.7
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #8 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.17
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.17
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #9 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.27
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.27
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #10 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.32
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.32
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '英国_伦敦 #11 - 1ms - 1ms'
-  network: ws
-  port: 2086
-  server: 172.64.233.35
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: 172.64.233.35
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 028 - 1ms - 1ms
-  network: ws
-  port: 443
-  server: 185.162.228.229
-  tls: true
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  ws-opts:
-    headers:
-      Host: 185.162.228.229
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_100 - 205ms
-  password: nfqXKhEmvHdOUVqFyNLnvx
-  port: 5228
-  server: creativeboxnl2.zanity.net
-  type: ss

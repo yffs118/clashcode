@@ -1,4 +1,79 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: '中国 029 #1'
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
 - name: 香港_2
   network: tcp
   password: BxceQaOe
@@ -9,7 +84,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -40,257 +115,11 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '🇭🇰 香港|@ripaojiedian #1 - 184ms'
+  name: 12|香港|@ripaojiedian
   network: tcp
-  port: 30807
+  port: '30807'
   server: v10.hdacd.com
   servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK12 988.5KB/s - 165ms
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: drbkg16egf3fzlm3.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK2 3.2KB/s - 544ms
-  network: ws
-  port: 443
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: m01c7b2z26dtqgee.v.3dns.vip
-    path: /
-- name: 香港 45 - 180ms
-  password: ND91608427
-  port: 443
-  server: ace-starling.rooster465.autos
-  skip-cert-verify: true
-  sni: ace-starling.rooster465.autos
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰...
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0pffuabk.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-3 - ...
-  network: ws
-  port: 443
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ce0gedpxwou6cqon.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #1'
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejomsxptp19apygl.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-5 - ...
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #2'
-  network: ws
-  port: 443
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mh7r5ardl0z5jtgy.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #3'
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #4'
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-2 - ...
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰... #5'
-  network: ws
-  port: 443
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-8 - ...
-  network: ws
-  port: 443
-  server: zudssgtmrqg9lpvi.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: zudssgtmrqg9lpvi.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 Join+Telegram:@FarahVPN 🇭🇰 ...
-  network: ws
-  port: 443
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: u2frxj0g13vdi0wo.v.3dns.vip
-    path: /
-- name: 🇭🇰 HK 10 → tg@nicevpn123 - 379...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: chjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-- name: 🇭🇰 HK 9 → tg@nicevpn123 - 373m...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: hkjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-- name: Hong Kong_Central_trojan_1143 ...
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-hk-2.gocmydns.com
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
-- name: 香港 46 - 181ms
-  password: ND91608427
-  port: 443
-  server: dynamic-grubworm.rooster465.autos
-  skip-cert-verify: true
-  sni: dynamic-grubworm.rooster465.autos
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-7 - ...
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
-- name: 🇭🇰 HK 203 | ⬇️ 18MB/s - 27ms -...
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-- name: 🇭🇰HK-185.244.208.210-19 - 297m...
-  password: 订阅内容解析错误订阅内容解析错误ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 🇭🇰 HK 778 | ⬇️ 1MB/s - 1ms - 1...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-- name: 🇭🇰 HK 719 | ⬇️ 3MB/s - 2ms - 1...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-- name: 🇭🇰 HK 775 | ⬇️ 727KB/s - 2ms -...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.16.252.34
-  sni: yks-dd9.pages.dev
-  type: trojan

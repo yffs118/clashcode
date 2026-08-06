@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 瑞士 001
+  name: '瑞士 001 #1'
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -14,7 +14,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 瑞士 002
+  name: '瑞士 002 #1'
   network: ws
   port: 443
   server: 140.238.212.95
@@ -27,9 +27,8 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_6 - 168ms
+  name: '瑞士 003 #1'
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -41,7 +40,7 @@ proxies:
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
 - client-fingerprint: chrome
-  name: 瑞士 004
+  name: '瑞士 004 #1'
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -56,7 +55,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 瑞士 005
+- name: '瑞士 005 #1'
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -66,9 +65,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- encryption: none
-  flow: ''
-  name: '瑞士 006 #1 - 223ms'
+- name: '瑞士 006 #1'
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -78,37 +75,9 @@ proxies:
   type: vless
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_7 - 133ms
-  network: tcp
-  port: 443
-  server: 185.232.117.117
-  tls: true
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- name: 🇨🇭CH_3 - 160ms
-  password: y3b03zx3tznhyo538p4c
-  port: 53261
-  server: 86.106.84.195
-  skip-cert-verify: true
-  sni: 86.106.84.195
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇨🇭CH_8 - 155ms - 159ms
-  network: ws
-  port: 443
-  server: 91.245.225.17
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_4 - 155ms - 159ms
-  network: tcp
-  port: 443
-  server: 178.83.226.55
-  tls: true
-  type: vless
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+- cipher: aes-256-cfb
+  name: 🇨🇭_CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
+  type: ss
