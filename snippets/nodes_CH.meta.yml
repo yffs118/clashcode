@@ -1,137 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: 'Node #47'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
-    short-id: '!!str accd8c'
-  server: 83.228.235.106
-  servername: varzesh3.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #2'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.219
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.119
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇨🇭 #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
-    short-id: '!!str e3d38cee79d4f94c'
-  server: 45.195.137.109
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭_CH_瑞士 #6'
-  port: 443
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: 199.68.196.79
-  servername: ch.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇨🇭_CH_瑞士 #5'
-  port: 443
-  reality-opts:
-    public-key: q_lfutznS1iTS7bGphTIGMYVeht-8clcf_IfzIf4mBQ
-    short-id: '!!str 10a5c8e2f4b7d936'
-  server: ch.tunnelx.space
-  servername: ch.tunnelx.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 🇨🇭CH_2|2.4MB/s
-  port: 9443
-  server: 37.120.213.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: CH 1 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11005
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 2 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11007
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 3 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11006
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 4 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11004
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: CH 5 → tg@nicevpn123
-  password: 55319b01-5d85-48a2-a40a-0b3fc1985755
-  port: 11000
-  server: 64.110.64.80
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '瑞士 001 #1'
+  name: 瑞士 001
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -144,7 +14,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '瑞士 002 #1'
+  name: 瑞士 002
   network: ws
   port: 443
   server: 140.238.212.95
@@ -156,10 +26,10 @@ proxies:
     headers:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_6
+  name: 🇨🇭CH_6 - 168ms
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -171,7 +41,7 @@ proxies:
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
 - client-fingerprint: chrome
-  name: '瑞士 004 #1'
+  name: 瑞士 004
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -186,7 +56,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: '瑞士 005 #1'
+- name: 瑞士 005
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -198,7 +68,7 @@ proxies:
   uuid: d8b42cd5-a149-4356-9e61-000000000000
 - encryption: none
   flow: ''
-  name: '瑞士 006 #1'
+  name: '瑞士 006 #1 - 223ms'
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -208,31 +78,16 @@ proxies:
   type: vless
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
-- auth: 99800091-8337-4112-8756-8cc60eb1ffa8
-  name: 🇨🇭瑞士
-  password: 99800091-8337-4112-8756-8cc60eb1ffa8
-  port: 10808
-  server: nl6.unlockvpn.online
-  skip-cert-verify: true
-  sni: nl6.unlockvpn.online
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
+- encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_7
+  name: 🇨🇭CH_7 - 133ms
   network: tcp
   port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
   server: 185.232.117.117
-  servername: vl07.skorostnet.space
   tls: true
   type: vless
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-- name: 🇨🇭CH_3
-  network: tcp
+- name: 🇨🇭CH_3 - 160ms
   password: y3b03zx3tznhyo538p4c
   port: 53261
   server: 86.106.84.195
@@ -254,61 +109,6 @@ proxies:
   network: tcp
   port: 443
   server: 178.83.226.55
-  tls: true
-  type: vless
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- alpn:
-  - h3
-  name: 'کانال تلگرام : Free_VPN_CH@ #1'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org
-  tls: false
-  type: hysteria2
-- name: 'کانال تلگرام : Free_VPN_CH@ #3'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 5.175.249.174
-  skip-cert-verify: false
-  sni: api.kermanshahi.org@freenettir
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: '🇨🇭_CH_瑞士 #4'
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 84.17.53.163
-  type: ss
-- client-fingerprint: chrome
-  name: 🇨🇭CH_8
-  network: ws
-  port: 443
-  server: 91.245.225.17
-  servername: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: b8k86.z3xq.fzi.hh.vavava.kdns.fr
-    path: /?ed=2560
-- alpn:
-  - channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpn-channel@networld_vpnـ
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_4
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 178.83.226.55
-  servername: sellflow.org
   tls: true
   type: vless
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
