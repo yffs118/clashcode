@@ -1364,7 +1364,6 @@ def main():
     for hashp, node in merged.items():
         node_name = node.data['name']
         if node_name in ctg_disp_values:
-            # 找到该节点来自哪些源
             src_ids = used.get(hashp, {})
             src_names = [sources_obj[sid].url for sid in src_ids if sid in sources_obj]
             conflicting_node_names[node_name] = src_names
@@ -1450,6 +1449,19 @@ def main():
     else:
         conf['dns']['enhanced-mode'] = 'fake-ip'
 
+    # ========== 调试：过滤前检查冲突节点 ==========
+    print("\n[DEBUG] Before filtering, checking for conflicting node names in proxies:")
+    all_group_names = set(g['name'] for g in conf['proxy-groups'])
+    conflict_names = {'🇯🇵 日本', '🇩🇪 德国'}  # 根据 ctg_disp 动态获取也可
+    for g in conf['proxy-groups']:
+        gname = g.get('name')
+        proxies = g.get('proxies', [])
+        if isinstance(proxies, list):
+            for p in proxies:
+                if p in conflict_names and p != gname:
+                    print(f"  ⚠️ BEFORE: Group '{gname}' contains '{p}'")
+    # ==============================================
+
     # ----- 通用过滤：移除所有组内与组名同名的代理（对 relay 和 loadbalance 保留） -----
     print("\n[DEBUG] General filtering: removing all group names from proxies (Clash):")
     all_group_names = set(g['name'] for g in conf['proxy-groups'])
@@ -1458,6 +1470,10 @@ def main():
             continue
         original = g.get('proxies', [])
         if isinstance(original, list):
+            # 打印移除的具体元素
+            removed_items = [p for p in original if p in all_group_names]
+            if removed_items:
+                print(f"  [DEBUG] Group '{g['name']}' will remove: {removed_items}")
             filtered = [p for p in original if p not in all_group_names]
             g['proxies'] = filtered
             removed = len(original) - len(filtered)
@@ -1465,13 +1481,25 @@ def main():
                 print(f"  [DEBUG] Group '{g['name']}' removed {removed} conflicting group-name elements")
     # ------------------------------------------------
 
+    # ========== 调试：过滤后检查冲突节点 ==========
+    print("\n[DEBUG] After filtering, checking for conflicting node names in proxies:")
+    all_group_names = set(g['name'] for g in conf['proxy-groups'])
+    for g in conf['proxy-groups']:
+        gname = g.get('name')
+        proxies = g.get('proxies', [])
+        if isinstance(proxies, list):
+            for p in proxies:
+                if p in conflict_names and p != gname:
+                    print(f"  ⚠️ AFTER: Group '{gname}' contains '{p}'")
+    # ==============================================
+
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
 
-    # ========== 新增调试：立即读取 list.yml 并详细检查组名冲突 ==========
+    # ========== 新增调试：立即读取 list.yml 并详细检查组名冲突，专门搜索冲突节点 ==========
     print("\n[DEBUG] Verifying list.yml content for group-name conflicts:")
     try:
         with open("list.yml", 'r', encoding="utf-8") as f:
@@ -1490,6 +1518,10 @@ def main():
                 for p in proxies:
                     if p in all_group_names and p != gname:
                         print(f"    ⚠️⚠️ CONFLICT: proxy '{p}' in group '{gname}' is also a group name.")
+                        conflict_found = True
+                    # 专门检查冲突节点
+                    if p in conflict_names and p != gname:
+                        print(f"    ⚠️⚠️ CONFLICT NODE: '{p}' in group '{gname}' is also a region group name.")
                         conflict_found = True
         if not conflict_found:
             print("  ✅ No group-name conflicts found in list.yml.")
@@ -1584,14 +1616,17 @@ def main():
     if dns_mode:
         conf['dns']['enhanced-mode'] = dns_mode
 
-    # ----- 通用过滤：移除所有组内与组名同名的代理（对 relay 和 loadbalance 保留） -----
-    print("\n[DEBUG] General filtering: removing all group names from proxies (Meta):")
+    # ----- Meta 通用过滤（同样添加详细调试） -----
+    print("\n[DEBUG] General filtering (Meta): removing all group names from proxies (Meta):")
     all_group_names = set(g['name'] for g in conf['proxy-groups'])
     for g in conf['proxy-groups']:
         if g.get('type') in ('relay', 'loadbalance'):
             continue
         original = g.get('proxies', [])
         if isinstance(original, list):
+            removed_items = [p for p in original if p in all_group_names]
+            if removed_items:
+                print(f"  [DEBUG] Group '{g['name']}' will remove: {removed_items}")
             filtered = [p for p in original if p not in all_group_names]
             g['proxies'] = filtered
             removed = len(original) - len(filtered)
@@ -1667,6 +1702,10 @@ def main():
                 for p in proxies:
                     if p in all_group_names and p != gname:
                         print(f"    ⚠️⚠️ CONFLICT: proxy '{p}' in group '{gname}' is also a group name.")
+                        conflict_found = True
+                    # 专门检查冲突节点
+                    if p in conflict_names and p != gname:
+                        print(f"    ⚠️⚠️ CONFLICT NODE: '{p}' in group '{gname}' is also a region group name.")
                         conflict_found = True
         if not conflict_found:
             print("  ✅ No group-name conflicts found in list.meta.yml.")
