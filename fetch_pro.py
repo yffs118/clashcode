@@ -1394,6 +1394,8 @@ def main():
                 print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
                 if disp['name'] in existing_names:
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
+                    # ========== 修复：跳过重复组 ==========
+                    continue
                 else:
                     print(f"    ✅ New group name.")
                 # ----- DEBUG: 打印原始 proxies -----
@@ -1472,6 +1474,8 @@ def main():
                 print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
                 if disp['name'] in existing_names:
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
+                    # ========== 修复：跳过重复组 ==========
+                    continue
                 else:
                     print(f"    ✅ New group name.")
                 # ----- DEBUG: 打印原始 proxies -----
