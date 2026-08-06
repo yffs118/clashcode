@@ -40,13 +40,13 @@ jobs:
       run: git pull origin main --rebase
 
     - name: 执行任务
-      run: python ./fetch_probak.py
+      run: python ./fetch_pro2.py
 
     # ========== 测试节点连通性 ==========
- #   - name: 测试节点连通性
- #     run: python ./speed.py list.meta.yml list.metaspeed.yml
+    - name: 测试节点连通性
+      run: python ./speed.py list.meta.yml list.metaspeed.yml
       # 如果测速失败，不影响后续提交（可选）
- #     continue-on-error: true
+      continue-on-error: true
 
     # ====== 合并提交和推送步骤 ======
     - name: 提交并推送更改
