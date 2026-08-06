@@ -385,6 +385,13 @@ class Node:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
 
+        # ========== 添加调试打印：_load_vless 解析后 reality-opts ==========
+        if 'reality-opts' in self.data:
+            print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 的 reality-opts: {self.data['reality-opts']}")
+        else:
+            print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 无 reality-opts")
+        # ============================================================
+
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
@@ -715,6 +722,14 @@ class Node:
             ret['reality-opts']['short-id'] = '!!str '+ret['reality-opts']['short-id']
         if 'reality-opts' in ret:
             ret['tls'] = True
+
+        # ========== 添加调试打印：clash_data 返回前 reality-opts ==========
+        if 'reality-opts' in ret:
+            print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 的 reality-opts: {ret['reality-opts']}")
+        else:
+            print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 无 reality-opts")
+        # ================================================================
+
         return ret
 
     def supports_clash(self, meta=False) -> bool:
@@ -1324,6 +1339,12 @@ def main():
     for p in merged.values():
         if p.supports_meta():
             clash_data = p.clash_data
+            # ========== 添加调试打印：在构建代理列表时 ==========
+            if 'reality-opts' in clash_data:
+                print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 含 reality-opts: {clash_data['reality-opts']}")
+            else:
+                print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 不含 reality-opts")
+            # ====================================================
             clash_data_snip = clash_data.copy()
             if ('client-fingerprint' in clash_data and
                     clash_data['client-fingerprint'] == global_fp):
