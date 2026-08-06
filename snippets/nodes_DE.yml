@@ -16,7 +16,7 @@ proxies:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
 - client-fingerprint: chrome
-  name: 💫7@oneclickvpnkeys - 149ms - 1...
+  name: 🇩🇪DE_183
   network: tcp
   password: ND91608427
   port: 443
@@ -27,7 +27,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: '德国 002 #1'
+  name: 未知6
   network: tcp
   port: 443
   server: 46.183.187.73
@@ -37,7 +37,7 @@ proxies:
   uuid: 92a048ec-a160-497e-8069-c2e902626d7a
 - alterId: 0
   cipher: auto
-  name: '德国 003 #1'
+  name: 未知16
   network: tcp
   port: 4452
   server: x2.mehradservice.com
@@ -47,17 +47,17 @@ proxies:
   uuid: 389625c7-c891-4f61-9f98-478058744ada
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 Germany Nuremberg | ⏱353ms ...
+  name: 未知17
   network: tcp
   port: 18003
   server: 91.107.157.137
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: e41f1455-24f5-4d28-9588-a2cba790171c
 - alterId: 0
   cipher: auto
-  name: '德国 005 #1'
+  name: 未知72
   network: tcp
   port: 1020
   server: nlt.reata.ir
@@ -1263,27 +1263,31 @@ proxies:
     headers:
       Host: 142.132.178.99
     path: /
-- name: 🇩🇪DE_179 - 159ms - 153ms
+- name: 🇩🇪DE_189
+  network: tcp
   password: ND91608427
   port: 443
   server: next-turkey.rooster465.autos
   skip-cert-verify: true
   sni: next-turkey.rooster465.autos
   type: trojan
-- name: 🇩🇪DE_182 - 155ms - 176ms
+- name: 未知 TROJAN-263
+  network: tcp
   password: ND91608427
   port: 443
   server: rapid-firefly.rooster465.autos
   skip-cert-verify: true
   sni: rapid-firefly.rooster465.autos
   type: trojan
-- name: 🇩🇪 DE 736 | ⬇️ 63KB/s - 1ms - ...
+- name: 🏳️_未知_101
   password: MITIVPN
   port: 443
   server: 188.114.98.0
   skip-cert-verify: true
   sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  tls: true
   type: trojan
+  udp: true
 - name: 🇩🇪 DE 10 → tg@nicevpn123 - 166...
   password: 8ea03cb9-e073-4904-8081-f43cb43fddac
   port: 443
@@ -1359,20 +1363,23 @@ proxies:
   server: fr-full.privateip.net
   skip-cert-verify: true
   type: trojan
-- name: '🇩🇪DE_2|3.8MB/s #1 - 1ms - 1ms'
+- name: 🏳️_未知_102
   password: MiTiVPN
   port: 443
   server: 104.26.2.173
   skip-cert-verify: true
   sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  tls: true
   type: trojan
+  udp: true
 - name: '🇩🇪DE_7|1.0MB/s #1 - 86ms - 12m...'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   type: trojan
-- name: 🇩🇪DE_181 - 176ms - 157ms
+- name: 🇩🇪DE_174
+  network: tcp
   password: ND91608427
   port: 443
   server: informed-alpaca.rooster465.autos
@@ -1380,19 +1387,19 @@ proxies:
   sni: informed-alpaca.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_10 - 153ms - 154ms
+  name: 🇩🇪DE_12
   password: 1hhrqrokj3ag
   port: 8388
   server: 209.46.102.22
   type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪DE_66 - 143ms - 152ms
+  name: 🇩🇪DE_28
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 213.202.208.199
   type: ss
 - cipher: aes-256-gcm
-  name: 🇩🇪DE_5 - 149ms - 151ms
+  name: 🇩🇪DE_2
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
@@ -1413,7 +1420,8 @@ proxies:
   port: 443
   server: 3.69.0.8
   type: trojan
-- name: 🇩🇪DE_177 - 153ms - 160ms
+- name: 🇩🇪DE_150
+  network: tcp
   password: UO36402987
   port: 443
   server: many-cricket.rooster465.autos
@@ -1446,7 +1454,7 @@ proxies:
   sni: 31.76.11.46.cdn-one.org
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3 - 147ms - 152ms
+  name: 🇩🇪DE_69
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
@@ -1476,8 +1484,195 @@ proxies:
   sni: com.digitalposts.dpdns.org
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_187|402KB/s|T001-260618 0...
+  name: 🇩🇪DE_187
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: 59924
   server: 130.61.178.74
+  type: ss
+- name: 🇩🇪_德国_67
+  password: NQ26071394
+  port: 443
+  server: proper-marlin.rooster465.autos
+  skip-cert-verify: true
+  sni: proper-marlin.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇩🇪_德国_68
+  password: NQ26071394
+  port: 443
+  server: usable-dogfish.rooster465.autos
+  skip-cert-verify: true
+  sni: usable-dogfish.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0197 | 0.0M...
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 145.239.1.100
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE-85.114.138.92-0083 | 0.0M...
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 85.114.138.92
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-49.12.203.80-0082 | 0.0MB
+  password: 6kA7b3f9Aw2508erQ3W7D4
+  port: 40960
+  server: 49.12.203.80
+  type: ss
+- client-fingerprint: chrome
+  name: 🇩🇪 DE 759 | ⬇️ 235KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  country: 🇸🇬SG
+  name: 🇩🇪 DE 784 | ⬇️ 362KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 716 | ⬇️ 15KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s1-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  name: 🇩🇪 DE 721 | ⬇️ 1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dde1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 736 | ⬇️ 63KB/s
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 188.114.98.0
+  skip-cert-verify: true
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- country: 🇸🇬SG
+  name: 🇩🇪 DE 741 | ⬇️ 295KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: Hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 747 | ⬇️ 361KB/s
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: 🇩🇪 DE 763 | ⬇️ 328KB/s
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_210
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.229.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_188
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.178.208
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_192
+  network: ws
+  password: ersi13mjahoao8e6
+  port: 443
+  server: hyperon.site
+  sni: ramz.xuithree.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /dksk
+- name: 🇩🇪DE_100
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: 157.254.38.210
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_211
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 92.5.168.59
   type: ss

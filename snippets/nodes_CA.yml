@@ -36,7 +36,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '加拿大 001 #1'
+  name: US9
   network: tcp
   port: 22324
   server: 23.154.136.47
@@ -46,7 +46,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 未知128 - 195ms - 481ms
+  name: 未知69
   network: tcp
   port: 31100
   server: mmmdpanel.alishot.com.tr
@@ -654,19 +654,19 @@ proxies:
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-128-gcm
-  name: 🇨🇦CA_3 - 22ms - 21ms
+  name: 🇨🇦CA-149.22.95.183-0133 | 90.8...
   password: shadowsocks
   port: 443
   server: 149.22.95.183
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦CA_2 - 61ms - 61ms
+  name: 🇨🇦CA_1
   password: KixLvKzwjekG00rm
   port: 8080
   server: 185.196.61.82
   type: ss
 - cipher: rc4-md5
-  name: 🇨🇦CA_4 - 85ms - 100ms
+  name: 🇨🇦CA-137.184.174.93-0116 | 76....
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
@@ -1846,3 +1846,71 @@ proxies:
     headers:
       Host: parsvds.com
     path: /
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.60-0177 | 0.0M...
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 85.208.108.60
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-72.140.224.195-0202 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 72.140.224.195
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0205 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0206 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 196.247.59.154
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.20-0213 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.58-0215 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.58
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦CA-85.208.108.93-0216 | 0.0M...
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 85.208.108.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇦CA-196.247.59.154-0084 | 0.0...
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦加拿大 01 | 1x CA
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦 加拿大 01 | 1x CA
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇨🇦CA_58
+  password: b53722b462aad765
+  port: 7011
+  server: 166.88.130.210
+  type: ss

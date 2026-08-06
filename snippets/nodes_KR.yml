@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇰🇷KR_61 - 163ms - 144ms
+  name: 🇰🇷KR_62
   network: tcp
   password: ND91608427
   port: 443
@@ -10,7 +10,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_51 - 137ms - 147ms
+  name: 🇰🇷KR_78
   network: tcp
   password: ND91608427
   port: 443
@@ -20,7 +20,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: trojan-260680491 - 134ms - 133...
+  name: 🇰🇷KR_76
   network: tcp
   password: ND91608427
   port: 443
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: trojan-268441800 - 133ms - 132...
+  name: 🇰🇷KR_85
   network: tcp
   password: ND91608427
   port: 443
@@ -41,7 +41,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '韩国 006 #1'
+  name: 韩国/首尔特别市/South Korea/Seoul
   network: ws
   port: 80
   server: 132.145.80.230
@@ -215,14 +215,15 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /
-- name: 🇰🇷KR_59 - 144ms - 137ms
+- name: 🇰🇷KR_49
+  network: tcp
   password: ND91608427
   port: 443
   server: uncommon-feline.rooster465.autos
   skip-cert-verify: true
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 韩国(免费节点)_1 - 129ms - 130ms
+- name: 韩国_1
   password: '!!str 521314'
   port: 443
   server: 118.218.10.159
@@ -250,30 +251,31 @@ proxies:
   sni: tjsp.hhxaf.cc.cd
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0225 | 0.11...
+  name: 🇰🇷KR-221.139.79.57-0225 | 0.90...
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-0174 | 0....
+  name: 🇰🇷KR-211.178.105.134-0174 | 2....
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_22 - 277ms - 401ms
+  name: 🇰🇷KR-218.237.185.230-0220 | 1....
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0226 | 0....
+  name: '🇰🇷KR-218.237.185.230-0226 | 0.... #1'
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
-- name: 🇰🇷KR_66 - 133ms - 133ms
+- name: 🇰🇷KR_66
+  network: tcp
   password: ND91608427
   port: 443
   server: 3.36.59.34
@@ -287,16 +289,20 @@ proxies:
   skip-cert-verify: true
   sni: exotic-chow.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_57 - 133ms - 133ms
+- name: 🇰🇷KR_58
+  network: tcp
   password: ND91608427
   port: 443
   server: 43.203.119.20
+  skip-cert-verify: false
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_55 - 132ms - 133ms
+- name: 🇰🇷KR_59
+  network: tcp
   password: ND91608427
   port: 443
   server: 43.203.244.203
+  skip-cert-verify: false
   sni: grateful-owl.rooster465.autos
   type: trojan
 - name: 🇰🇷KR_69 - 133ms - 133ms
@@ -306,77 +312,88 @@ proxies:
   skip-cert-verify: true
   sni: upward-puma.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_42 - 137ms - 137ms
+- name: 🇰🇷KR_77
+  network: tcp
   password: ND91608427
   port: 443
   server: communal-sunbird.rooster465.autos
   skip-cert-verify: true
   sni: communal-sunbird.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_53 - 152ms - 136ms
+- name: 🇰🇷KR_80
+  network: tcp
   password: ND91608427
   port: 443
   server: distinct-llama.rooster465.autos
   skip-cert-verify: true
   sni: distinct-llama.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_63 - 160ms - 139ms
+- name: 🇰🇷KR_46
+  network: tcp
   password: ND91608427
   port: 443
   server: grateful-owl.rooster465.autos
   skip-cert-verify: true
   sni: grateful-owl.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_64 - 137ms - 144ms
+- name: 🇰🇷KR_64
+  network: tcp
   password: ND91608427
   port: 443
   server: humorous-malamute.rooster465.autos
   skip-cert-verify: true
   sni: humorous-malamute.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_58 - 141ms - 144ms
+- name: 🇰🇷KR_50
+  network: tcp
   password: ND91608427
   port: 443
   server: intimate-moray.rooster465.autos
   skip-cert-verify: true
   sni: intimate-moray.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_45 - 137ms - 145ms
+- name: 🇰🇷KR_69
+  network: tcp
   password: ND91608427
   port: 443
   server: main-whippet.rooster465.autos
   skip-cert-verify: true
   sni: main-whippet.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_62 - 138ms - 137ms
+- name: 🇰🇷KR_63
+  network: tcp
   password: ND91608427
   port: 443
   server: pure-ram.rooster465.autos
   skip-cert-verify: true
   sni: pure-ram.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_56 - 137ms - 146ms
+- name: 🇰🇷KR_73
+  network: tcp
   password: ND91608427
   port: 443
   server: select-ferret.rooster465.autos
   skip-cert-verify: true
   sni: select-ferret.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_65 - 139ms - 575ms
+- name: 🇰🇷KR_65
+  network: tcp
   password: ND91608427
   port: 443
   server: exotic-chow.rooster465.autos
   skip-cert-verify: true
   sni: exotic-chow.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_54 - 154ms - 139ms
+- name: 🇰🇷KR_81
+  network: tcp
   password: ND91608427
   port: 443
   server: striking-maggot.rooster465.autos
   skip-cert-verify: true
   sni: striking-maggot.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_52 - 136ms - 143ms
+- name: 🇰🇷KR_55
+  network: tcp
   password: ND91608427
   port: 443
   server: upward-puma.rooster465.autos
@@ -392,3 +409,231 @@ proxies:
   tls: false
   type: vmess
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- name: 🇰🇷_韩国_49
+  password: NQ26071394
+  port: 443
+  server: engaging-elf.rooster465.autos
+  skip-cert-verify: true
+  sni: engaging-elf.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_55
+  password: NQ26071394
+  port: 443
+  server: massive-ocelot.rooster465.autos
+  skip-cert-verify: true
+  sni: massive-ocelot.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_56
+  password: NQ26071394
+  port: 443
+  server: organic-locust.rooster465.autos
+  skip-cert-verify: true
+  sni: organic-locust.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_59
+  password: NQ26071394
+  port: 443
+  server: fit-marten.rooster465.autos
+  skip-cert-verify: true
+  sni: fit-marten.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_65
+  password: NQ26071394
+  port: 443
+  server: inviting-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: inviting-ferret.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_66
+  password: NQ26071394
+  port: 443
+  server: capable-jay.rooster465.autos
+  skip-cert-verify: true
+  sni: capable-jay.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷_韩国_71
+  password: NQ26071394
+  port: 443
+  server: firm-krill.rooster465.autos
+  skip-cert-verify: true
+  sni: firm-krill.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 韩国/首尔特别市/South Korea/Seoul-2
+  port: 443
+  server: 140.238.2.250
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: '🇰🇷KR-152.67.218.38-0204 | 0.0M... #1'
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国/首尔特别市/South Korea/Seoul-3
+  port: 80
+  server: 217.142.138.61
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- name: 🇰🇷KR-54.180.228.238-6082 | 17....
+  password: ND91608427
+  port: 443
+  server: pure-ram.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-43.201.103.8-5945 | 17.14...
+  password: ND91608427
+  port: 443
+  server: intimate-moray.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-152.67.218.38-0264 | 8.74...
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_26
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR-141.164.45.187-0167 | 0.0...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.34.192.249
+  tfo: false
+  type: ss
+- name: 13|韩国|@ripaojiedian
+  network: ws
+  password: ji0612uenfs
+  port: 50004
+  server: 110.9.4.54
+  skip-cert-verify: true
+  sni: ji0612e.nfjunka.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ji0612e.nfjunka.xyz
+    path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_9
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_19
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 141.164.45.187
+  type: ss
+- name: 🇰🇷KR_30
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_15
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_27
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_25
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_13
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
+  type: ss

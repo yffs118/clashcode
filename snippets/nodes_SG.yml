@@ -1,7 +1,7 @@
 proxies:
 - alterId: 4
   cipher: auto
-  name: '新加坡 001 #1'
+  name: 🇸🇬SG-103.253.26.20-0232 | 0.0M...
   network: ws
   port: 443
   server: 103.253.26.20
@@ -343,7 +343,7 @@ proxies:
     headers:
       Host: st-2.dnspro.icu
     path: /
-- name: 新加坡(免费节点)_3 - 169ms - 169ms
+- name: 新加坡_3
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
@@ -381,13 +381,16 @@ proxies:
   skip-cert-verify: true
   sni: aka.ms
   type: trojan
-- name: 🇸🇬SG-54.255.35.23-6228 | 16.32...
+- name: 🇸🇬SG_68
+  network: tcp
   password: ND91608427
   port: 443
   server: tidy-gelding.rooster465.autos
+  skip-cert-verify: true
   sni: tidy-gelding.rooster465.autos
   type: trojan
-- name: 🇸🇬SG_41 - 167ms - 168ms
+- name: 🇸🇬SG_40
+  network: tcp
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
   server: 139.59.238.97
@@ -433,3 +436,159 @@ proxies:
   skip-cert-verify: true
   sni: resolved-gelding.rooster465.autos
   type: trojan
+- name: 🇸🇬_新加坡_53
+  password: NQ26071394
+  port: 443
+  server: alert-titmouse.rooster465.autos
+  skip-cert-verify: true
+  sni: alert-titmouse.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬_新加坡_69
+  password: NQ26071394
+  port: 443
+  server: verified-ringtail.rooster465.autos
+  skip-cert-verify: true
+  sni: verified-ringtail.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 新加坡/新加坡/Singapore/Singapore
+  port: 18000
+  server: 149.88.23.202
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alpn:
+  - http/1.1
+  name: 🇸🇬 SG 537 | ⬇️ 3MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇸🇬 SG 701 | ⬇️ 21KB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 🇸🇬 SG 770 | ⬇️ 1MB/s
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  port: 23910
+  server: hzz9.fgmcx.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.96.166
+  tfo: false
+  type: ss
+- alterId: 0
+  name: 🇸🇬SG新加坡
+  password: BxceQaOe
+  port: 26704
+  server: 95.40.205.94
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_71
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 161.118.248.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇬SG²_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_72
+  password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
+  port: 56927
+  server: 161.118.234.55
+  type: ss
