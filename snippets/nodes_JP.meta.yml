@@ -353,7 +353,7 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: chrome
-  name: 🇯🇵135035 | ⚡️Telegram = t.me/S...
+  name: '未命名 #172'
   network: tcp
   port: 27407
   reality-opts:
@@ -372,27 +372,6 @@ proxies:
   skip-cert-verify: true
   sni: c1.bestai.beauty
   type: hysteria2
-- name: 🇯🇵 日本|@stairnode
-  password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 13.231.134.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 日本(yudou789.top 玉豆免费节点)
@@ -403,6 +382,189 @@ proxies:
   type: vmess
   udp: true
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+- name: '日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 4099
+  server: 16.162.3.64
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '日本2|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 44229
+  server: 95.40.107.76
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '日本3|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 54876
+  server: 18.163.100.58
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '🇯🇵JP_1|4.7MB/s #1'
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- name: 🇯🇵JP_3|2.0MB/s
+  password: kZqh4Dk9rrkxfI4B
+  port: 8888
+  server: 45.192.198.137
+  type: socks5
+  username: u1179940355
+- alterId: 2
+  cipher: auto
+  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 17416
+  security: tls
+  server: 103.133.240.115
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  network: ws
+  port: 30003
+  security: tls
+  server: 140.235.10.14
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  network: ws
+  port: 15807
+  server: 138.2.112.117
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 176.124.223.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 30001
+  security: tls
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 7152
+  security: tls
+  server: 8.219.129.246
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 42769
+  server: 45.143.131.216
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: 🇯🇵 Japan Osaka | ⏱777ms | ⚡424...
+  port: 10000
+  server: 14.137.238.144
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- name: 🇯🇵JP
+  password: STYyftThFn
+  port: 12765
+  server: freedom.chenlan.top
+  skip-cert-verify: true
+  sni: freedom.chenlan.top
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-146.56.118.227-0188 | 0.0...
@@ -419,7 +581,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 002 #1'
+  name: 日本 002
   network: ws
   port: 80
   server: 61.245.11.60
@@ -433,7 +595,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '日本 003 #1'
+  name: 日本 003
   network: ws
   port: 443
   server: fullaccesstojapannetsubnode1.azurewebsites.net
@@ -461,7 +623,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: '日本 005 #1'
+  name: 日本 005
   network: ws
   port: 11188
   server: 140.238.42.147
@@ -474,7 +636,7 @@ proxies:
     path: /hello
 - alterId: 0
   cipher: auto
-  name: '日本 006 #1'
+  name: 日本 006
   network: ws
   port: 80
   server: 3h-philippines1.09vpn.com
@@ -488,7 +650,7 @@ proxies:
     path: /vmess/
 - alterId: 1
   cipher: auto
-  name: '日本 007 #1'
+  name: 日本 007
   network: ws
   port: 33333
   server: 146.56.45.242
@@ -501,7 +663,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 008 #1'
+  name: 日本 008
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -514,7 +676,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 009 #1'
+  name: 日本 009
   network: ws
   port: 10241
   server: 52.197.107.193
@@ -527,7 +689,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: '日本 010 #1'
+  name: 日本 010
   network: ws
   port: 8080
   server: 146.56.157.76
@@ -540,7 +702,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 011 #1'
+  name: 日本 011
   network: ws
   port: 8080
   server: 146.56.179.139
@@ -553,7 +715,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 012 #1'
+  name: 日本 012
   network: ws
   port: 8080
   server: bnm.skyin.net
@@ -566,7 +728,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 013 #1'
+  name: 日本 013
   network: ws
   port: 8080
   server: bst.n48.net
@@ -579,7 +741,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 014 #1'
+  name: 日本 014
   network: ws
   port: 8080
   server: 193.32.151.103
@@ -592,7 +754,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: '日本 015 #1'
+  name: 日本 015
   network: ws
   port: 443
   server: 134.122.139.79
@@ -606,7 +768,7 @@ proxies:
     path: /path/011410073331
 - alterId: 64
   cipher: auto
-  name: '日本 016 #1'
+  name: 日本 016
   network: ws
   port: 30000
   server: 137.220.130.58
@@ -620,7 +782,7 @@ proxies:
     path: /path/011410073331
 - alterId: 4
   cipher: auto
-  name: '日本 017 #1'
+  name: 日本 017
   network: ws
   port: 443
   server: 202.61.141.130
@@ -634,7 +796,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '日本 018 #1'
+  name: 日本 018
   network: ws
   port: 80
   server: max8.flash5g.com
@@ -647,7 +809,7 @@ proxies:
     path: /AnhBin
 - alterId: 64
   cipher: auto
-  name: '日本 019 #1'
+  name: 日本 019
   network: ws
   port: 46666
   server: 103.72.5.227
@@ -661,7 +823,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '日本 020 #1'
+  name: 日本 020
   network: ws
   port: 48885
   server: 134.122.184.88
@@ -675,7 +837,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: '日本 021 #1'
+  name: 日本 021
   network: ws
   port: 443
   server: 146.56.162.25
@@ -689,7 +851,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '日本 022 #1'
+  name: 日本 022
   network: ws
   port: 3331
   server: f1f3227.u1.glados-config.net
@@ -703,7 +865,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '日本 023 #1'
+  name: 日本 023
   network: ws
   port: 443
   server: kr-arm2.018999.xyz
@@ -717,7 +879,7 @@ proxies:
     path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
 - alterId: 0
   cipher: auto
-  name: '日本 024 #1'
+  name: 日本 024
   network: ws
   port: 443
   server: 172.105.223.136
@@ -731,7 +893,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 025 #1'
+  name: 日本 025
   network: ws
   port: 3331
   server: f1f3227.v1.glados-config.net
@@ -744,7 +906,7 @@ proxies:
     path: /s/f1f3227.fm.apple.com:111548
 - alterId: 0
   cipher: auto
-  name: '日本 026 #1'
+  name: 日本 026
   network: ws
   port: 443
   server: 124.156.225.184
@@ -758,7 +920,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 027 #1'
+  name: 日本 027
   network: ws
   port: 443
   server: 47.245.42.92
@@ -772,7 +934,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 028 #1'
+  name: 日本 028
   network: ws
   port: 443
   server: seoul02.zgjok.com
@@ -786,7 +948,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 029 #1'
+  name: 日本 029
   network: ws
   port: 8080
   server: 193.32.148.12
@@ -799,7 +961,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '日本 030 #1'
+  name: 日本 030
   network: ws
   port: 5001
   server: steam.dnspro.icu
@@ -812,7 +974,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '日本 031 #1'
+  name: 日本 031
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -825,7 +987,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '日本 032 #1'
+  name: 日本 032
   network: ws
   port: 443
   server: cvywfavasdc.cymlr.xyz
@@ -837,7 +999,7 @@ proxies:
     headers:
       Host: cvywfavasdc.cymlr.xyz
     path: /ksebupo
-- name: '日本 033 #1'
+- name: 日本 033
   network: ws
   port: 443
   server: 91.193.58.201
@@ -853,7 +1015,7 @@ proxies:
       Host: vangoghhh.info
     path: /rdfgtws
 - client-fingerprint: chrome
-  name: '日本 034 #1'
+  name: 日本 034
   network: ws
   port: 2096
   server: 91.193.58.137
@@ -868,7 +1030,7 @@ proxies:
     headers:
       Host: mrhamid.hamidrezaamjady.workers.dev
     path: /
-- name: '日本 035 #1'
+- name: 日本 035
   network: ws
   port: 443
   server: 151.101.109.223
@@ -883,7 +1045,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: /
-- name: '日本 036 #1'
+- name: 日本 036
   network: ws
   port: 2096
   server: 91.193.58.128
@@ -898,41 +1060,6 @@ proxies:
     headers:
       Host: sw.captainsparo.ir
     path: /
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇯🇵JP_1|4.7MB/s
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- name: 🇯🇵JP_3|2.0MB/s
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  type: socks5
-  username: u1179940355
-- alterId: 2
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 291ms
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵134973 | ⚡️Telegram = t.me/S...
-  port: 20071
-  server: 217.142.227.105
-  tls: false
-  type: vless
-  uuid: 90235096-9296-3d36-c77c-715577598fd5
 - alterId: 0
   cipher: auto
   name: 日本/Japan
@@ -965,6 +1092,18 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_12
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_9
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
 - name: 🇯🇵JP_104
   network: tcp
   password: ND91608427
@@ -1158,6 +1297,12 @@ proxies:
   uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
   ws-opts:
     path: /
+- cipher: aes-128-gcm
+  name: 🇯🇵JP_10
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵JP-185.172.113.101-0199 | 0....
   password: G!yBwPWH3Vao
@@ -1526,6 +1671,19 @@ proxies:
   server: 3.113.24.17
   sni: nearby-egret.rooster465.autos
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_14
+  network: raw
+  port: 11452
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 103.75.118.228
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: 日本_1
   network: ws
   port: 443
@@ -1585,6 +1743,19 @@ proxies:
   server: 3.112.238.99
   sni: stunning-mite.rooster465.autos
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1
+  network: tcp
+  port: 10583
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.114.220.22
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇯🇵JP_112

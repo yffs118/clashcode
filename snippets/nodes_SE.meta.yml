@@ -69,7 +69,7 @@ proxies:
   http-opts:
     path:
     - /api/v1/data
-  name: '瑞典 #2'
+  name: '瑞典 #1'
   network: xhttp
   port: 443
   reality-opts:
@@ -104,7 +104,7 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: random
-  name: '美国 056 #1'
+  name: 美国 056
   network: ws
   port: 443
   server: ct.877774.xyz
@@ -117,372 +117,6 @@ proxies:
     headers:
       Host: se-sto.862400.xyz
     path: /announcement
-- name: 🇸🇪SE_3|⬇️3.2MB/s
-  network: tcp
-  port: 443
-  server: secdn17.suio.me
-  servername: secdn17.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- grpc-opts:
-    grpc-service-name: JNIR
-  name: 未知VLESS-49|free-nodes
-  network: grpc
-  port: 504
-  server: dd.openaccessnode.com
-  servername: nobitex.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-- alterId: 0
-  cipher: auto
-  name: '瑞典 001 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: none
-  name: '瑞典 002 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.64
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
-  ws-opts:
-    headers:
-      Host: nl1.vmess.site
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '瑞典 003 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '瑞典 004 #1'
-  network: http
-  port: 80
-  server: 217.142.138.61
-  skip-cert-verify: true
-  type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: '瑞典 005 #1'
-  network: ws
-  port: 80
-  server: 5.249.160.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
-  ws-opts:
-    headers:
-      Host: 5.249.160.226
-    path: /vmess
-- alterId: 1
-  cipher: auto
-  name: '瑞典 006 #1'
-  network: ws
-  port: 8080
-  server: 141.147.161.53
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: '瑞典 007 #1'
-  network: ws
-  port: 80
-  server: 185.146.173.25
-  skip-cert-verify: true
-  type: vmess
-  uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '瑞典 008 #1'
-  network: ws
-  port: 80
-  server: myvpshosting.name.ng
-  skip-cert-verify: true
-  type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
-  ws-opts:
-    headers:
-      Host: myvpshosting.name.ng
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '瑞典 009 #1'
-  network: ws
-  port: 31002
-  server: 37.120.209.126
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
-  ws-opts:
-    headers:
-      Host: www.68547476.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: '瑞典 010 #1'
-  network: ws
-  port: 443
-  server: 148.135.33.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.60988297.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '瑞典 011 #1'
-  network: ws
-  port: 37002
-  server: 148.135.31.41
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.24003370.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '瑞典 012 #1'
-  network: ws
-  port: 31005
-  server: 148.135.31.61
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.77632849.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '瑞典 013 #1'
-  network: ws
-  port: 443
-  server: 148.135.38.107
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.13861936.xyz
-    path: /path/1704363182493
-- alterId: 64
-  cipher: auto
-  name: '瑞典 014 #1'
-  network: ws
-  port: 443
-  server: 148.135.9.156
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.30121911.xyz
-    path: /path/1704363182493
-- alterId: 64
-  cipher: auto
-  name: '瑞典 015 #1'
-  network: ws
-  port: 443
-  server: 148.135.31.171
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.72672771.xyz
-    path: /path/1703924658447
-- alterId: 64
-  cipher: auto
-  name: '瑞典 016 #1'
-  network: ws
-  port: 443
-  server: 148.135.33.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.31270022.xyz
-    path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: '瑞典 017 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.129
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: nt-haze-7dad.rogap16875.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 64
-  cipher: auto
-  name: '瑞典 018 #1'
-  network: ws
-  port: 443
-  server: 148.135.14.99
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20414124.xyz
-    path: /path/1704188270531
-- name: '瑞典 019 #1'
-  network: ws
-  port: 2052
-  server: 185.146.173.32
-  servername: xn--047h.v2raxx6.shop.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0811015a-99a3-4cae-9d56-c3ad37f6cc72
-  ws-opts:
-    headers:
-      Host: xn--047h.v2raxx6.shop.
-    path: /
-- name: '瑞典 020 #1'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: rb24.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/
-- name: '瑞典 021 #1'
-  network: ws
-  port: 80
-  server: 185.146.173.68
-  servername: 1.www.speedtest.net.zula.ir.zemestanil.ir
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
-  ws-opts:
-    headers:
-      Host: 1.www.speedtest.net.zula.ir.zemestanil.ir
-    path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
-- name: '瑞典 022 #1'
-  network: ws
-  port: 2095
-  server: 185.146.173.200
-  servername: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
-    path: /DigiconnecT?ed=1024
-- name: '瑞典 023 #1'
-  network: ws
-  port: 8080
-  server: 185.146.173.58
-  servername: dcc10.servernet.fun.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d617f9de-8905-478d-b30c-f4e5db5b3abc
-  ws-opts:
-    headers:
-      Host: dcc10.servernet.fun.
-    path: /servernett
-- name: '瑞典 024 #1'
-  network: ws
-  port: 80
-  server: 185.146.173.54
-  servername: Pt1.vless.site.
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7b9d64c-1f9d-496d-b12d-e86da0e6eb1c
-  ws-opts:
-    headers:
-      Host: Pt1.vless.site.
-    path: /vless
-- name: '瑞典 025 #1'
-  network: tcp
-  port: 2044
-  server: 185.246.131.170
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪_瑞典_36
@@ -511,12 +145,30 @@ proxies:
   type: vless
   udp: true
   uuid: ed2c5f6c-8383-4f7a-a231-c28916489f76
-- name: 🇸🇪135032 | ⚡️Telegram = t.me/S...
-  port: 8880
-  server: 185.146.173.37
+- name: '🇸🇪 sweden '
+  port: 35412
+  server: 87.242.85.201
   tls: false
   type: vless
-  uuid: e9e2aa09-d3b5-4ee1-b646-1128466d25e1
+  uuid: 260abd76-572e-4e86-90b8-316aa8836eff
+- name: '🇸🇪 sweden  #1'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 48c6e7a4-423b-4bad-b4a1-18527abc38cb
+- name: '🇸🇪 sweden  #2'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 6556ea2e-494c-4c5f-8821-31a6efc2e916
+- name: '🇸🇪 sweden  #3'
+  port: 35412
+  server: 87.242.85.201
+  tls: false
+  type: vless
+  uuid: 943ecfd7-bea6-4520-8898-e1fa536250cc
 - name: 瑞典/斯德哥尔摩/Sweden/Stockholm-3
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
@@ -547,6 +199,350 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 瑞典 001
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: none
+  name: 瑞典 002
+  network: ws
+  port: 443
+  server: 185.146.173.64
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  ws-opts:
+    headers:
+      Host: nl1.vmess.site
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 瑞典 003
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 瑞典 004
+  network: http
+  port: 80
+  server: 217.142.138.61
+  skip-cert-verify: true
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 瑞典 005
+  network: ws
+  port: 80
+  server: 5.249.160.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 86afaa7e-e00c-4c05-a7d1-44e7ba91d77a
+  ws-opts:
+    headers:
+      Host: 5.249.160.226
+    path: /vmess
+- alterId: 1
+  cipher: auto
+  name: 瑞典 006
+  network: ws
+  port: 8080
+  server: 141.147.161.53
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 瑞典 007
+  network: ws
+  port: 80
+  server: 185.146.173.25
+  skip-cert-verify: true
+  type: vmess
+  uuid: e3cb5c38-1168-46ad-aec4-62ffd3614690
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 瑞典 008
+  network: ws
+  port: 80
+  server: myvpshosting.name.ng
+  skip-cert-verify: true
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: myvpshosting.name.ng
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 瑞典 009
+  network: ws
+  port: 31002
+  server: 37.120.209.126
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+  ws-opts:
+    headers:
+      Host: www.68547476.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: 瑞典 010
+  network: ws
+  port: 443
+  server: 148.135.33.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.60988297.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 瑞典 011
+  network: ws
+  port: 37002
+  server: 148.135.31.41
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.24003370.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 瑞典 012
+  network: ws
+  port: 31005
+  server: 148.135.31.61
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.77632849.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 瑞典 013
+  network: ws
+  port: 443
+  server: 148.135.38.107
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.13861936.xyz
+    path: /path/1704363182493
+- alterId: 64
+  cipher: auto
+  name: 瑞典 014
+  network: ws
+  port: 443
+  server: 148.135.9.156
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.30121911.xyz
+    path: /path/1704363182493
+- alterId: 64
+  cipher: auto
+  name: 瑞典 015
+  network: ws
+  port: 443
+  server: 148.135.31.171
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.72672771.xyz
+    path: /path/1703924658447
+- alterId: 64
+  cipher: auto
+  name: 瑞典 016
+  network: ws
+  port: 443
+  server: 148.135.33.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.31270022.xyz
+    path: /path/1704188270531
+- alterId: 0
+  cipher: auto
+  name: 瑞典 017
+  network: ws
+  port: 443
+  server: 185.146.173.129
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: nt-haze-7dad.rogap16875.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 64
+  cipher: auto
+  name: 瑞典 018
+  network: ws
+  port: 443
+  server: 148.135.14.99
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20414124.xyz
+    path: /path/1704188270531
+- name: 瑞典 019
+  network: ws
+  port: 2052
+  server: 185.146.173.32
+  servername: xn--047h.v2raxx6.shop.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0811015a-99a3-4cae-9d56-c3ad37f6cc72
+  ws-opts:
+    headers:
+      Host: xn--047h.v2raxx6.shop.
+    path: /
+- name: 瑞典 020
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  servername: rb24.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/
+- name: 瑞典 021
+  network: ws
+  port: 80
+  server: 185.146.173.68
+  servername: 1.www.speedtest.net.zula.ir.zemestanil.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39848671-e667-4b6d-bff6-e38e34f536c4
+  ws-opts:
+    headers:
+      Host: 1.www.speedtest.net.zula.ir.zemestanil.ir
+    path: /PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM-PROXY_MTM?ed=2048
+- name: 瑞典 022
+  network: ws
+  port: 2095
+  server: 185.146.173.200
+  servername: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
+    path: /DigiconnecT?ed=1024
+- name: 瑞典 023
+  network: ws
+  port: 8080
+  server: 185.146.173.58
+  servername: dcc10.servernet.fun.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d617f9de-8905-478d-b30c-f4e5db5b3abc
+  ws-opts:
+    headers:
+      Host: dcc10.servernet.fun.
+    path: /servernett
+- name: 瑞典 024
+  network: ws
+  port: 80
+  server: 185.146.173.54
+  servername: Pt1.vless.site.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7b9d64c-1f9d-496d-b12d-e86da0e6eb1c
+  ws-opts:
+    headers:
+      Host: Pt1.vless.site.
+    path: /vless
+- name: 瑞典 025
+  network: tcp
+  port: 2044
+  server: 185.246.131.170
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
 - client-fingerprint: ios
   name: 瑞典/Sweden
   port: 1000

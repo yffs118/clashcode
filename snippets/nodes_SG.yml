@@ -33,38 +33,42 @@ proxies:
   server: 106.75.132.91
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬SG_4|⬇️5.1MB/s
-  network: ws
-  password: a9570330-769d-11ef-90dc-1577c1651679
-  port: 443
-  server: 104.18.1.196
+- name: '新加坡|@ripaojiedian #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.163.100.58
   skip-cert-verify: true
-  sni: sg-trojan.andfree.my.id
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.166.178.12
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    path: /welcome
-- name: 🇸🇬 新加坡|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 52.194.222.108
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@stairnode
+- name: '新加坡3|@ripaojiedian #1'
+  network: tcp
   password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
+  port: 26704
+  server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 4
   cipher: auto
   name: 🇸🇬SG-103.253.26.20-0232 | 0.0M...
@@ -81,7 +85,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 002 #1'
+  name: 新加坡 002
   network: ws
   port: 80
   server: 172.104.182.226
@@ -94,7 +98,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 003 #1'
+  name: 新加坡 003
   network: ws
   port: 8848
   server: 23.101.27.60
@@ -107,7 +111,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 004 #1'
+  name: 新加坡 004
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -120,7 +124,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 005 #1'
+  name: 新加坡 005
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -133,7 +137,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 006 #1'
+  name: 新加坡 006
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -146,7 +150,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 007 #1'
+  name: 新加坡 007
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -159,7 +163,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: '新加坡 008 #1'
+  name: 新加坡 008
   network: ws
   port: 30010
   server: 103.254.152.82
@@ -173,7 +177,7 @@ proxies:
     path: /path/191019072927
 - alterId: 1
   cipher: auto
-  name: '新加坡 009 #1'
+  name: 新加坡 009
   network: ws
   port: 21888
   server: 104.248.148.147
@@ -186,7 +190,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 010 #1'
+  name: 新加坡 010
   network: ws
   port: 80
   server: 139.99.61.154
@@ -199,7 +203,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '新加坡 011 #1'
+  name: 新加坡 011
   network: ws
   port: 16737
   server: 139.180.211.152
@@ -212,7 +216,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 012 #1'
+  name: 新加坡 012
   network: ws
   port: 18063
   server: 139.180.211.152
@@ -225,7 +229,7 @@ proxies:
     path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: '新加坡 013 #1'
+  name: 新加坡 013
   network: ws
   port: 80
   server: 139.59.255.209
@@ -238,7 +242,7 @@ proxies:
     path: /cloudfast
 - alterId: 0
   cipher: auto
-  name: '新加坡 014 #1'
+  name: 新加坡 014
   network: ws
   port: 63086
   server: 159.27.90.254
@@ -252,7 +256,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '新加坡 015 #1'
+  name: 新加坡 015
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -265,7 +269,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '新加坡 016 #1'
+  name: 新加坡 016
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -278,7 +282,7 @@ proxies:
     path: /iso
 - alterId: 4
   cipher: auto
-  name: '新加坡 017 #1'
+  name: 新加坡 017
   network: ws
   port: 443
   server: 103.253.26.134
@@ -341,14 +345,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 🇸🇬SG_2|5.0MB/s
-  network: tcp
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '29072'
-  server: 106.75.132.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

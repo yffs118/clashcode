@@ -23,6 +23,28 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- name: '🇩🇪DE_3|1015KB/s #1'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 Join+Telegram:@Farah_VPN 🇩🇪
+  network: tcp
+  port: '27726'
+  server: fj260403.freechatup.com
+  tls: false
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
   name: 未知33
@@ -55,7 +77,7 @@ proxies:
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - alterId: 0
   cipher: auto
-  name: '德国 005 #1'
+  name: 德国 005
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -75,7 +97,7 @@ proxies:
   uuid: 92a048ec-a160-497e-8069-c2e902626d7a
 - alterId: 0
   cipher: auto
-  name: '德国 007 #1'
+  name: 德国 007
   network: ws
   port: 443
   server: sgp.kapok.buzz
@@ -89,7 +111,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 008 #1'
+  name: 德国 008
   network: ws
   port: 80
   server: 159.89.29.136
@@ -103,7 +125,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: '德国 009 #1'
+  name: 德国 009
   network: ws
   port: 8080
   server: 130.61.253.111
@@ -116,7 +138,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '德国 010 #1'
+  name: 德国 010
   network: ws
   port: 8880
   server: 185.16.110.212
@@ -129,7 +151,7 @@ proxies:
     path: /dabai
 - alterId: 0
   cipher: auto
-  name: '德国 011 #1'
+  name: 德国 011
   network: ws
   port: 443
   server: 141.94.155.224
@@ -143,7 +165,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '德国 012 #1'
+  name: 德国 012
   network: ws
   port: 443
   server: 141.94.155.228
@@ -157,7 +179,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '德国 013 #1'
+  name: 德国 013
   network: ws
   port: 443
   server: 141.94.155.229
@@ -171,7 +193,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '德国 014 #1'
+  name: 德国 014
   network: ws
   port: 443
   server: 141.95.126.134
@@ -185,7 +207,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '德国 015 #1'
+  name: 德国 015
   network: ws
   port: 443
   server: ua-full.privateip.net
@@ -199,7 +221,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 016 #1'
+  name: 德国 016
   network: ws
   port: 443
   server: us-full.privateip.net
@@ -213,7 +235,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 017 #1'
+  name: 德国 017
   network: ws
   port: 443
   server: jp-full.privateip.net
@@ -227,7 +249,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 018 #1'
+  name: 德国 018
   network: ws
   port: 443
   server: de2-full.privateip.net
@@ -241,7 +263,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 019 #1'
+  name: 德国 019
   network: ws
   port: 443
   server: kz-full.privateip.net
@@ -255,7 +277,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 020 #1'
+  name: 德国 020
   network: ws
   port: 443
   server: nl2-full.privateip.net
@@ -269,7 +291,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 021 #1'
+  name: 德国 021
   network: ws
   port: 443
   server: tr-full.privateip.net
@@ -283,7 +305,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 022 #1'
+  name: 德国 022
   network: ws
   port: 443
   server: it-full.privateip.net
@@ -297,7 +319,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 023 #1'
+  name: 德国 023
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -311,7 +333,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 024 #1'
+  name: 德国 024
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -325,7 +347,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 025 #1'
+  name: 德国 025
   network: ws
   port: 443
   server: 185.135.9.208
@@ -339,7 +361,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: '德国 026 #1'
+  name: 德国 026
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -353,7 +375,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 027 #1'
+  name: 德国 027
   network: ws
   port: 443
   server: nl-full.privateip.net
@@ -367,7 +389,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 028 #1'
+  name: 德国 028
   network: ws
   port: 443
   server: hk-full.privateip.net
@@ -381,7 +403,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 029 #1'
+  name: 德国 029
   network: ws
   port: 443
   server: ca-full.privateip.net
@@ -395,7 +417,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 030 #1'
+  name: 德国 030
   network: ws
   port: 443
   server: au-full.privateip.net
@@ -409,7 +431,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 031 #1'
+  name: 德国 031
   network: ws
   port: 443
   server: es-full.privateip.net
@@ -423,7 +445,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 032 #1'
+  name: 德国 032
   network: ws
   port: 443
   server: uk2-full.privateip.net
@@ -437,7 +459,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 033 #1'
+  name: 德国 033
   network: ws
   port: 443
   server: uk-full.privateip.net
@@ -451,7 +473,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 034 #1'
+  name: 德国 034
   network: ws
   port: 443
   server: sg-full.privateip.net
@@ -465,7 +487,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: '德国 035 #1'
+  name: 德国 035
   network: ws
   port: 443
   server: us2-full.privateip.net
@@ -479,7 +501,7 @@ proxies:
     path: /RACEVPN
 - alterId: 64
   cipher: auto
-  name: '德国 036 #1'
+  name: 德国 036
   network: ws
   port: 30001
   server: 89.163.247.25
@@ -493,7 +515,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '德国 037 #1'
+  name: 德国 037
   network: ws
   port: 443
   server: 194.15.196.172
@@ -507,7 +529,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: '德国 038 #1'
+  name: 德国 038
   network: ws
   port: 443
   server: 139.162.178.95
@@ -521,7 +543,7 @@ proxies:
     path: /linkwsd
 - alterId: 0
   cipher: auto
-  name: '德国 039 #1'
+  name: 德国 039
   network: ws
   port: 443
   server: 130.61.23.77
@@ -535,7 +557,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '德国 040 #1'
+  name: 德国 040
   network: ws
   port: 8080
   server: 138.68.90.231
@@ -548,7 +570,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '德国 041 #1'
+  name: 德国 041
   network: http
   port: 40969
   server: 5.161.106.72
@@ -557,7 +579,7 @@ proxies:
   uuid: 2fb9f60e-d4dc-458b-e3b2-d9b44f9bbd9e
 - alterId: 0
   cipher: auto
-  name: '德国 042 #1'
+  name: 德国 042
   network: http
   port: 50978
   server: 5.161.106.72
@@ -566,7 +588,7 @@ proxies:
   uuid: 89e6248b-0152-4317-a6ed-b6a0cf41f2cb
 - alterId: 0
   cipher: auto
-  name: '德国 043 #1'
+  name: 德国 043
   network: http
   port: 443
   server: 157.90.20.18
@@ -575,7 +597,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 044 #1'
+  name: 德国 044
   network: http
   port: 443
   server: 5.75.168.155
@@ -584,7 +606,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 045 #1'
+  name: 德国 045
   network: http
   port: 443
   server: 94.130.25.155
@@ -593,7 +615,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 046 #1'
+  name: 德国 046
   network: http
   port: 443
   server: 167.235.136.155
@@ -602,7 +624,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 047 #1'
+  name: 德国 047
   network: http
   port: 443
   server: 65.21.240.108
@@ -611,7 +633,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 048 #1'
+  name: 德国 048
   network: http
   port: 443
   server: 5.75.247.192
@@ -620,7 +642,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: '德国 049 #1'
+  name: 德国 049
   network: http
   port: 443
   server: 88.198.104.211
@@ -629,7 +651,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 4
   cipher: auto
-  name: '德国 050 #1'
+  name: 德国 050
   network: ws
   port: 443
   server: 146.0.42.87
@@ -643,7 +665,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '德国 051 #1'
+  name: 德国 051
   network: ws
   port: 443
   server: www.vpslook.com
@@ -657,7 +679,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 052 #1'
+  name: 德国 052
   network: ws
   port: 443
   server: 132.145.232.171
@@ -671,7 +693,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '德国 053 #1'
+  name: 德国 053
   network: ws
   port: 443
   server: 193.122.58.158
@@ -685,7 +707,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 054 #1'
+  name: 德国 054
   network: ws
   port: 2095
   server: 185.135.9.247
@@ -698,7 +720,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 055 #1'
+  name: 德国 055
   network: ws
   port: 2095
   server: 185.135.9.19
@@ -711,7 +733,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 056 #1'
+  name: 德国 056
   network: ws
   port: 443
   server: 172.104.247.121
@@ -725,7 +747,7 @@ proxies:
     path: /linkws
 - alterId: 64
   cipher: auto
-  name: '德国 057 #1'
+  name: 德国 057
   network: ws
   port: 30005
   server: 89.163.231.19
@@ -739,7 +761,7 @@ proxies:
     path: /path/240811062813
 - alterId: 0
   cipher: auto
-  name: '德国 058 #1'
+  name: 德国 058
   network: ws
   port: 443
   server: 80.158.63.104
@@ -753,7 +775,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: '德国 059 #1'
+  name: 德国 059
   network: ws
   port: 80
   server: 194.233.81.16
@@ -766,7 +788,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 060 #1'
+  name: 德国 060
   network: ws
   port: 80
   server: 141.94.141.20
@@ -779,7 +801,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '德国 062 #1'
+  name: 德国 062
   network: tcp
   port: 2053
   server: 178.63.237.158
@@ -788,36 +810,19 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: '德国 063 #1'
+  name: 德国 063
   network: tcp
   port: 51459
   server: 91.107.139.186
   skip-cert-verify: true
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-- name: 🇩🇪DE_3|1015KB/s
-  network: ws
-  password: MiTiVPN
+- name: SA-149.104.104.58-0173 | 2.671...
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 104.26.2.173
-  skip-cert-verify: true
-  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  server: 149.104.104.58
+  skip-cert-verify: false
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪@FreakConfig|||14050515|frea...
-  network: tcp
-  port: '2030'
-  server: 185.173.104.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e4b36391-014f-4462-809c-8e64aa84359e
 - alterId: 0
   name: 🇩🇪DE_179
   network: tcp
@@ -990,12 +995,6 @@ proxies:
   password: XKFKl2rULjIp74
   port: 8008
   server: 185.226.172.8
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_66
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_3
