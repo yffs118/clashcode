@@ -1578,6 +1578,16 @@ proxies:
   type: vless
   udp: true
   uuid: fa12c1f5-24be-4119-8506-aad16f3bcd35
+- name: 🇩🇪DE_1|1.0MB/s
+  obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: ik0zt621uw9iqvsi
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇩🇪_德国_89 - 139ms

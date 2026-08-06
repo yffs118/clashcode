@@ -113,6 +113,12 @@ proxies:
   type: vless
   udp: true
   uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
+- name: 🇨🇭CH_1|1.6MB/s
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
 - encryption: none
   flow: xtls-rprx-vision
   name: 🇨🇭CH_7 - 133ms
