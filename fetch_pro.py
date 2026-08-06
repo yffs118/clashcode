@@ -1503,6 +1503,10 @@ def main():
                 disp['name'] = ctg_disp[ctg]
                 # ----- DEBUG: 添加前检查 -----
                 print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
+                # ========== 新增调试：打印 repr 以显示不可见字符 ==========
+                print(f"    [DEBUG] disp['name'] repr: {repr(disp['name'])}")
+                print(f"    [DEBUG] existing_names repr: {[repr(n) for n in existing_names]}")
+                # ==========================================================
                 if disp['name'] in existing_names:
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
                     # ========== 修复：跳过重复组 ==========
@@ -1611,6 +1615,29 @@ def main():
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_meta_snip}, allow_unicode=True).replace('!!str ',''))
+
+    # ========== 新增调试：立即读取 list.meta.yml 检查是否有重复组 ==========
+    print("\n[DEBUG] Re-reading list.meta.yml to check for duplicate group names...")
+    try:
+        with open("list.meta.yml", 'r', encoding="utf-8") as f:
+            loaded = yaml.full_load(f)
+        loaded_groups = loaded.get('proxy-groups', [])
+        loaded_names = [g.get('name') for g in loaded_groups]
+        print(f"  Loaded group names: {loaded_names}")
+        seen_loaded = set()
+        dup_loaded = []
+        for name in loaded_names:
+            if name in seen_loaded:
+                dup_loaded.append(name)
+            else:
+                seen_loaded.add(name)
+        if dup_loaded:
+            print(f"  ⚠️⚠️ FILE CONTAINS DUPLICATE NAMES: {set(dup_loaded)}")
+        else:
+            print("  No duplicate names in the file.")
+    except Exception as e:
+        print(f"  Failed to read file for duplicate check: {e}")
+    # ======================================================================
 
     if snip_conf:
         print("正在写出配置片段...")
