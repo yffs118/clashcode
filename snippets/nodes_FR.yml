@@ -1,9 +1,408 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 荷兰(yudou789.top 玉豆免费节点)_2
+  name: '未命名 #6 - 195ms'
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 1 → tg@nicevpn123 - 75ms
+  password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: ca-trojan.bonds.id
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 10 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 11 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 12 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 13 → tg@nicevpn123
+  password: 1038bc70-fe01-11ee-a6a2-1239d0255272
+  port: 443
+  server: 51.210.182.170
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 14 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 54.38.212.91
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6
+  ws-opts:
+    path: /?ed=2048
+- name: 🇫🇷 FR 15 → tg@nicevpn123
+  password: 278fff60-fc3a-11ee-a4a6-1239d0255272
+  port: 443
+  server: 51.210.182.170
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 16 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 17 → tg@nicevpn123
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: 193.70.112.90
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 18 → tg@nicevpn123 - 140...
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 19 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '美国 375 #1'
+  network: http
+  port: 3389
+  server: 51.159.155.52
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 20 → tg@nicevpn123
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 21 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 22 → tg@nicevpn123
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 23 → tg@nicevpn123 - 162...
+  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
+  port: 443
+  server: fr3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 24 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 25 → tg@nicevpn123
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 26 → tg@nicevpn123
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 51.178.87.37
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 27 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 28 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 29 → tg@nicevpn123 - 145...
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 3 → tg@nicevpn123
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 30 → tg@nicevpn123
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 31 → tg@nicevpn123
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 32 → tg@nicevpn123
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 33 → tg@nicevpn123 - 142...
+  password: LE6Ee6PELhVu
+  port: 443
+  server: 92.243.24.236
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 34 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 35 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 36 → tg@nicevpn123
+  port: 35995
+  server: 51.195.140.87
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 28f08493-de6d-486e-84f5-5abe092ff78b
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 37 → tg@nicevpn123
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 38 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 39 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 4 → tg@nicevpn123
+  password: KkDzY101Oe
+  port: 45816
+  server: 51.195.149.115
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 40 → tg@nicevpn123
+  password: wkmY1R4EcP
+  port: 443
+  server: 45.32.148.182
+  skip-cert-verify: true
+  sni: z-v2-002805.kailib.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 41 → tg@nicevpn123
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 42 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 43 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 44 → tg@nicevpn123
+  password: cqBAAW0fZcqQ1Bn06jwhro
+  port: 9802
+  server: 92.243.27.51
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 45 → tg@nicevpn123
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 46 → tg@nicevpn123
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 47 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '法国 018 #1'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷 FR 49 → tg@nicevpn123
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    path: /
+- name: 🇫🇷 FR 5 → tg@nicevpn123
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.181.197.213
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 50 → tg@nicevpn123
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 51 → tg@nicevpn123
+  password: 7gaTTlW73G
+  port: 49602
+  server: 51.222.157.179
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 52 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.156.123
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 6 → tg@nicevpn123
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷 FR 7 → tg@nicevpn123
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.169.198
+  type: ss
+  udp: true
+- name: 🇫🇷 FR 8 → tg@nicevpn123
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.187.126
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇫🇷 FR 9 → tg@nicevpn123
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 149.202.82.172
   type: ss
   udp: true
 - alterId: 0
@@ -207,19 +606,6 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '法国 018 #1'
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
   name: '法国 019 #1'
   network: grpc
   port: 2096
@@ -402,8 +788,593 @@ proxies:
   port: 27726
   server: 195.133.193.18
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ...'
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  skip-cert-verify: true
+  sni: dimskiee.biz.id
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2 ...'
+  password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
+  port: 56985
+  server: e3.cover20.ir
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '法国 029 #1 - 142ms'
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  tls: true
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: 51.254.133.152
+    path: /
+- name: 🇫🇷FR_1 - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.97
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '法国 018 #1 - 2ms'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: 94.140.0.110
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 017 #1 - 168ms'
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 146.59.85.226
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 023 #1 - 141ms'
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 51.77.20.140
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 025 #1 - 141ms'
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 91.134.8.101
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 027 #1 - 165ms'
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: 194.9.172.65
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 028 #1 - 147ms'
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: 193.160.130.245
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇫🇷_法国_228 - 157ms - 159ms - 14...
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: 152.228.191.232
+    path: /
+- name: 🇫🇷FR_1304 - 152ms
+  password: ND91608427
+  port: 443
+  server: fancy-skink.rooster465.autos
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  type: trojan
+- name: 🇫🇷FR_1303 - 159ms
+  password: ND91608427
+  port: 443
+  server: star-kiwi.rooster465.autos
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  type: trojan
+- name: 🇫🇷134720 | ⚡️Telegram = t.me/S...
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 法国_马赛 - 157ms - 158ms
+  network: ws
+  port: 443
+  server: 110.724064.xyz
+  tls: true
+  type: vmess
+  uuid: b11208a0-d0b1-486d-95bb-7e88ed6012b9
+  ws-opts:
+    headers:
+      Host: 110.724064.xyz
+    path: /
+- name: 🇫🇷FR_646 - 2ms - 1ms
+  password: bd85f5fe32d9446a8b1f59e4f710455b
+  port: 443
+  server: 104.24.163.206
+  sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
+  type: trojan
+- name: 🇫🇷FR_373 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1049 - 2ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.17.125
+  sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
+  type: trojan
+- name: 🇫🇷FR_59 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_862 - 399ms - 574ms
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+- name: 🇫🇷FR_355 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_844 - 2ms - 2ms
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  sni: vless.herogoing.top
+  type: trojan
+- name: 🇫🇷FR_295 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_927 - 11ms - 11ms
+  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  port: 443
+  server: app-538961.user-y0o4gm.workers.dev
+  sni: app-538961.user-y0o4gm.workers.dev
+  type: trojan
+- name: 🇫🇷FR_391 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_446 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_218 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1181 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.26
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_26 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_743 - 2ms - 1ms
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 443
+  server: 104.19.173.68
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+- name: 🇫🇷FR_948 - 1ms - 3ms
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_519 - 15ms - 24ms
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_409 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1180 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.67.147.60
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_897 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1168 - 203ms - 219ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cnamefuckxxs.yuchen.icu
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_52 - 73ms - 20ms
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  sni: vless.herogoing.top
+  type: trojan
+- name: 🇫🇷FR_216 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_338 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_231 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_606 - 25ms - 5ms
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: jquery.com
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+- name: 🇫🇷FR_1171 - 316ms - 316ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cf.877771.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_6 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1177 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.3.212
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_230 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1024 - 1ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 188.114.96.7
+  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
+  type: trojan
+- name: 🇫🇷FR_404 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1279 - 16ms - 17ms
+  password: eb2b32c4-8844-4e79-8ec8-133a8a3aca3c
+  port: 443
+  server: yuzhenb886.dpdns.org
+  sni: yuzhenb886.dpdns.org
+  type: trojan
+- name: 🇫🇷FR_227 - 1ms - 2ms
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_214 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_402 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.155
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_359 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_735 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1007 - 263ms - 236ms
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_313 - 25ms - 16ms
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1167 - 456ms - 197ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cfip.1323123.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_1247 - 1ms - 1ms
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+- name: 🇫🇷FR_483 - 2ms - 2ms
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_28 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_229 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_439 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1183 - 4ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.24.245
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_1266 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.17.111.4
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_12 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_232 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1124 - 10ms - 14ms
+  password: Telegram_healer_config
+  port: 443
+  server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
+  sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
+  type: trojan
+- name: 🇫🇷FR_1170 - 9ms - 14ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: cdn.tzpro.xyz
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_19 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_92 - 1ms - 1ms
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: 104.18.155.119
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+- name: 🇫🇷FR_1165 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.1.251
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_152 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1021 - 1ms - 1ms
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.89.41
+  sni: tO6r63-kkChIGHQM2.VxZ0dDUq7To7su0cdqf.wORKeRS.dEV
+  type: trojan
+- name: 🇫🇷FR_228 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1172 - 113ms - 2ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: xn--b6gac.eu.org
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_506 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1182 - 2ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.35.127
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_24 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1174 - 2ms - 2ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.21.84.3
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_449 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1166 - 1ms - 1ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.4.103
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_1175 - 2ms - 3ms
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.241.194
+  sni: yks-dd9.pages.dev
+  type: trojan
+- name: 🇫🇷FR_123 - 2ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1267 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_943 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_515 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_217 - 1ms - 1ms
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
 - cipher: aes-256-cfb
   name: 🇫🇷_FR_法国
   password: asdKkaskJKfnsa
