@@ -385,13 +385,6 @@ class Node:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
 
-        # ========== 添加调试打印：_load_vless 解析后 reality-opts ==========
-        # if 'reality-opts' in self.data:
-        #     print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 的 reality-opts: {self.data['reality-opts']}")
-        # else:
-        #     print(f"[DEBUG _load_vless] 节点 '{self.data['name']}' 无 reality-opts")
-        # ============================================================
-
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
@@ -723,25 +716,16 @@ class Node:
         if 'reality-opts' in ret:
             ret['tls'] = True
 
-        # ========== 添加调试打印：clash_data 返回前 reality-opts ==========
-        # if 'reality-opts' in ret:
-        #     print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 的 reality-opts: {ret['reality-opts']}")
-        # else:
-        #     print(f"[DEBUG clash_data] 节点 '{ret.get('name','?')}' 无 reality-opts")
-        # ================================================================
-
         return ret
 
     def supports_clash(self, meta=False) -> bool:
         if self.isfake: return False
 
-        # ========== 新增 Reality 完整性检查 ==========
         if 'reality-opts' in self.data:
             opts = self.data['reality-opts']
             if 'public-key' not in opts or not opts['public-key']:
                 print(f"[警告] 节点 '{self.data.get('name', '?')}' 的 reality-opts 缺少 public-key，已忽略")
                 return False
-        # =========================================
 
         if 'obfs' in self.data and 'obfs-password' not in self.data:
             return False
@@ -1264,11 +1248,9 @@ def main():
         traceback.print_exc()
     else:
         del conf['NoMoreWalls']
-        # ----- DEBUG: 打印 categories_disp -----
         print("\n[DEBUG] categories_disp content:")
         for k, v in snip_conf.get('categories_disp', {}).items():
             print(f"  {k} -> {v}")
-        # -----------------------------------------
         print("正在按地区分类节点...")
         categories = snip_conf['categories']
         for ctg in categories:
@@ -1291,11 +1273,9 @@ def main():
                         ctg_nodes_meta[ctgs[0]].append(node.clash_data)
                     except Exception:
                         traceback.print_exc()
-        # ----- DEBUG: 打印各分类节点数 -----
         print("\n[DEBUG] ctg_nodes_meta keys and node counts:")
         for ctg, nodes in ctg_nodes_meta.items():
             print(f"  {ctg}: {len(nodes)} nodes")
-        # ------------------------------------
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
                 yaml.dump({'proxies': proxies}, f, allow_unicode=True)
@@ -1348,12 +1328,6 @@ def main():
     for p in merged.values():
         if p.supports_meta():
             clash_data = p.clash_data
-            # ========== 添加调试打印：在构建代理列表时 ==========
-            # if 'reality-opts' in clash_data:
-            #     print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 含 reality-opts: {clash_data['reality-opts']}")
-            # else:
-            #     print(f"[DEBUG main loop] 节点 '{clash_data['name']}' 不含 reality-opts")
-            # ====================================================
             clash_data_snip = clash_data.copy()
             if ('client-fingerprint' in clash_data and
                     clash_data['client-fingerprint'] == global_fp):
@@ -1372,7 +1346,6 @@ def main():
     # ========== 新增调试：在 Meta 处理前打印 conf_meta 的 proxy-groups ==========
     print("\n[DEBUG META] Before any Meta modifications, conf_meta proxy-groups names:")
     print([g.get('name') for g in conf_meta['proxy-groups']])
-    # 检查是否有重复
     seen_pre = set()
     dup_pre = []
     for name in [g.get('name') for g in conf_meta['proxy-groups']]:
@@ -1407,9 +1380,12 @@ def main():
                 disp['name'] = ctg_disp[ctg]
                 # ----- DEBUG: 添加前检查 -----
                 print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
+                # ========== 新增调试：打印 repr 以显示不可见字符 ==========
+                print(f"    [DEBUG] disp['name'] repr: {repr(disp['name'])}")
+                print(f"    [DEBUG] existing_names repr: {[repr(n) for n in existing_names]}")
+                # ==========================================================
                 if disp['name'] in existing_names:
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
-                    # ========== 修复：跳过重复组 ==========
                     continue
                 else:
                     print(f"    ✅ New group name.")
@@ -1436,6 +1412,20 @@ def main():
                 conf['proxy-groups'].append(disp)
                 ctg_selects.append(disp['name'])
                 existing_names.append(disp['name'])
+
+                # ========== 新增调试：添加后立即打印所有组名并检查重复 ==========
+                current_names_after_add = [g.get('name') for g in conf['proxy-groups']]
+                print(f"    [DEBUG Clash] After adding '{disp['name']}', all names: {current_names_after_add}")
+                seen_after = set()
+                dup_after = []
+                for name in current_names_after_add:
+                    if name in seen_after:
+                        dup_after.append(name)
+                    else:
+                        seen_after.add(name)
+                if dup_after:
+                    print(f"    ⚠️⚠️ DUPLICATE DETECTED RIGHT AFTER ADD: {set(dup_after)}")
+                # =============================================================
     try:
         dns_mode: Optional[str] = conf['dns']['enhanced-mode']
     except:
@@ -1462,6 +1452,29 @@ def main():
         f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
         f.write(yaml.dump({'proxies': proxies_snip}, allow_unicode=True).replace('!!str ',''))
+
+    # ========== 新增调试：立即读取 list.yml 检查是否有重复组 ==========
+    print("\n[DEBUG] Re-reading list.yml to check for duplicate group names...")
+    try:
+        with open("list.yml", 'r', encoding="utf-8") as f:
+            loaded = yaml.full_load(f)
+        loaded_groups = loaded.get('proxy-groups', [])
+        loaded_names = [g.get('name') for g in loaded_groups]
+        print(f"  Loaded group names: {loaded_names}")
+        seen_loaded = set()
+        dup_loaded = []
+        for name in loaded_names:
+            if name in seen_loaded:
+                dup_loaded.append(name)
+            else:
+                seen_loaded.add(name)
+        if dup_loaded:
+            print(f"  ⚠️⚠️ list.yml CONTAINS DUPLICATE NAMES: {set(dup_loaded)}")
+        else:
+            print("  No duplicate names in list.yml.")
+    except Exception as e:
+        print(f"  Failed to read list.yml for duplicate check: {e}")
+    # ==================================================================
 
     # Meta
     conf = conf_meta
@@ -1503,13 +1516,10 @@ def main():
                 disp['name'] = ctg_disp[ctg]
                 # ----- DEBUG: 添加前检查 -----
                 print(f"  [DEBUG] About to add group: {disp['name']} (from ctg={ctg})")
-                # ========== 新增调试：打印 repr 以显示不可见字符 ==========
                 print(f"    [DEBUG] disp['name'] repr: {repr(disp['name'])}")
                 print(f"    [DEBUG] existing_names repr: {[repr(n) for n in existing_names]}")
-                # ==========================================================
                 if disp['name'] in existing_names:
                     print(f"    ⚠️ DUPLICATE DETECTED! '{disp['name']}' already exists in proxy-groups.")
-                    # ========== 修复：跳过重复组 ==========
                     continue
                 else:
                     print(f"    ✅ New group name.")
