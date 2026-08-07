@@ -1,4 +1,520 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '日本 001 #1'
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- client-fingerprint: chrome
+  name: 🇯🇵JP_68 - 106ms - 106ms - 163m...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 13.231.232.184
+  skip-cert-verify: true
+  sni: better-molly.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_86 - 106ms - 107ms - 158m...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_107 - 105ms - 105ms - 162...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.181.194.227
+  skip-cert-verify: true
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_110 - 106ms - 106ms - 165...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 52.194.230.221
+  skip-cert-verify: true
+  sni: happy-mutt.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: trojan-260680494 - 106ms - 105...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 54.249.34.120
+  skip-cert-verify: true
+  sni: social-mutt.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '日本 008 #1'
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 18.182.4.232
+  skip-cert-verify: false
+  sni: becoming-hare.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '日本 009 #1'
+  network: ws
+  port: 2052
+  server: 146.56.118.227
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
+  ws-opts:
+    headers:
+      Host: 146.56.118.227
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 003 #1 - 124ms - 180ms'
+  network: ws
+  port: 443
+  server: fullaccesstojapannetsubnode1.azurewebsites.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstojapannetsubnode1.azurewebsites.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 011 #1'
+  network: ws
+  port: 80
+  server: 61.245.11.60
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: 61.245.11.60
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan-2
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '日本 013 #1'
+  network: ws
+  port: 11188
+  server: 140.238.42.147
+  skip-cert-verify: true
+  type: vmess
+  uuid: 798550eb-c374-4113-b0d5-530e7d4ddedc
+  ws-opts:
+    headers:
+      Host: 140.238.42.147
+    path: /hello
+- alterId: 0
+  cipher: auto
+  name: '日本 014 #1'
+  network: ws
+  port: 80
+  server: 3h-philippines1.09vpn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
+  ws-opts:
+    headers:
+      Host: 3h-philippines1.09vpn.com
+    path: /vmess/
+- alterId: 1
+  cipher: auto
+  name: '日本 015 #1'
+  network: ws
+  port: 33333
+  server: 146.56.45.242
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 016 #1'
+  network: ws
+  port: 14954
+  server: 91.200.242.187
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 017 #1'
+  network: ws
+  port: 10241
+  server: 52.197.107.193
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 1
+  cipher: auto
+  name: '日本 018 #1'
+  network: ws
+  port: 8080
+  server: 146.56.157.76
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 019 #1'
+  network: ws
+  port: 8080
+  server: 146.56.179.139
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 020 #1'
+  network: ws
+  port: 8080
+  server: bnm.skyin.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: i1.hdslb.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 021 #1'
+  network: ws
+  port: 8080
+  server: bst.n48.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: i1.hdslb.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 022 #1'
+  network: ws
+  port: 8080
+  server: 193.32.151.103
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 64
+  cipher: auto
+  name: '日本 023 #1'
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: '日本 024 #1'
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- alterId: 4
+  cipher: auto
+  name: '日本 025 #1'
+  network: ws
+  port: 443
+  server: 202.61.141.130
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: 202.61.141.130
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '日本 026 #1'
+  network: ws
+  port: 80
+  server: max8.flash5g.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4e25f91f-603c-4e83-b002-c26030757816
+  ws-opts:
+    headers:
+      Host: max8.flash5g.com
+    path: /AnhBin
+- alterId: 64
+  cipher: auto
+  name: '日本 027 #1'
+  network: ws
+  port: 46666
+  server: 103.72.5.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.16004350.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '日本 028 #1'
+  network: ws
+  port: 48885
+  server: 134.122.184.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.13146165.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: '日本 029 #1'
+  network: ws
+  port: 443
+  server: 146.56.162.25
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '日本 030 #1'
+  network: ws
+  port: 3331
+  server: f1f3227.u1.glados-config.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: f1f3227.u1.glados-config.net
+    path: /s/f1f3227.fm.apple.com:111548
+- alterId: 0
+  cipher: auto
+  name: '日本 031 #1'
+  network: ws
+  port: 443
+  server: kr-arm2.018999.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
+  ws-opts:
+    headers:
+      Host: kr-arm2.018999.xyz
+    path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
+- alterId: 0
+  cipher: auto
+  name: '日本 032 #1'
+  network: ws
+  port: 443
+  server: 172.105.223.136
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8964ea79-1422-460e-b6e2-a16e83a22aab
+  ws-opts:
+    headers:
+      Host: www.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 033 #1'
+  network: ws
+  port: 3331
+  server: f1f3227.v1.glados-config.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: f1f3227.v1.glados-config.net
+    path: /s/f1f3227.fm.apple.com:111548
+- alterId: 0
+  cipher: auto
+  name: '日本 034 #1'
+  network: ws
+  port: 443
+  server: 124.156.225.184
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58
+  ws-opts:
+    headers:
+      Host: azjp.pengui.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 035 #1'
+  network: ws
+  port: 443
+  server: 47.245.42.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  ws-opts:
+    headers:
+      Host: n1753598452.wpg27.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 036 #1'
+  network: ws
+  port: 443
+  server: seoul02.zgjok.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
+  ws-opts:
+    headers:
+      Host: seoul02.zgjok.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '日本 037 #1'
+  network: ws
+  port: 8080
+  server: 193.32.148.12
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '日本 038 #1'
+  network: ws
+  port: 5001
+  server: steam.dnspro.icu
+  skip-cert-verify: true
+  type: vmess
+  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
+  ws-opts:
+    headers:
+      Host: steam.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: '日本 039 #1'
+  network: ws
+  port: 20025
+  server: sh-cn-1.dnspro.icu
+  skip-cert-verify: true
+  type: vmess
+  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
+  ws-opts:
+    headers:
+      Host: sh-cn-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: '日本 040 #1'
+  network: ws
+  port: 443
+  server: cvywfavasdc.cymlr.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  ws-opts:
+    headers:
+      Host: cvywfavasdc.cymlr.xyz
+    path: /ksebupo
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 95.40.58.84
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇯🇵_JP_日本
@@ -9,15 +525,14 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  name: 🇺🇸US美国5
+- name: 🇯🇵 JP 756 | ⬇️ 205KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
-  tls: true
+  tls: false
   type: trojan
   udp: true
   ws-opts:
@@ -152,525 +667,25 @@ proxies:
   type: vmess
   udp: true
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-- alterId: 0
+- alterId: 2
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 日本 001
-  network: http
-  port: 53268
-  server: 47.74.43.250
-  skip-cert-verify: true
+  name: 🇨🇳_CN_中国->🇯🇵_JP_日本 - 457ms
+  network: tcp
+  port: 30806
+  server: v6.hdacd.com
   tls: false
   type: vmess
-  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
-- client-fingerprint: chrome
-  name: 🇯🇵JP_68 - 106ms - 106ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 13.231.232.184
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 日本(免费节点)_3 - 157ms
+  password: '!!str 521314'
+  port: 2053
+  server: 103.106.228.126
   skip-cert-verify: true
-  sni: better-molly.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_86 - 106ms - 107ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 18.181.164.216
-  skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_107 - 105ms - 105ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 18.181.194.227
-  skip-cert-verify: true
-  sni: moral-buzzard.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_110 - 106ms - 106ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 52.194.230.221
-  skip-cert-verify: true
-  sni: happy-mutt.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: trojan-260680494 - 106ms - 105...
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 54.249.34.120
-  skip-cert-verify: true
-  sni: social-mutt.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_60 - 106ms - 106ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 18.182.4.232
-  skip-cert-verify: false
-  sni: becoming-hare.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 日本 009
-  network: ws
-  port: 2052
-  server: 146.56.118.227
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498
-  ws-opts:
-    headers:
-      Host: 146.56.118.227
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '日本 003 #1 - 124ms'
-  network: ws
-  port: 443
-  server: fullaccesstojapannetsubnode1.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstojapannetsubnode1.azurewebsites.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 011
-  network: ws
-  port: 80
-  server: 61.245.11.60
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: 61.245.11.60
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 日本/Japan-3
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: 日本 013
-  network: ws
-  port: 11188
-  server: 140.238.42.147
-  skip-cert-verify: true
-  type: vmess
-  uuid: 798550eb-c374-4113-b0d5-530e7d4ddedc
-  ws-opts:
-    headers:
-      Host: 140.238.42.147
-    path: /hello
-- alterId: 0
-  cipher: auto
-  name: 日本 014
-  network: ws
-  port: 80
-  server: 3h-philippines1.09vpn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e7d6a050-e52a-4d85-ac26-95f85e44e8f4
-  ws-opts:
-    headers:
-      Host: 3h-philippines1.09vpn.com
-    path: /vmess/
-- alterId: 1
-  cipher: auto
-  name: 日本 015
-  network: ws
-  port: 33333
-  server: 146.56.45.242
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 016
-  network: ws
-  port: 14954
-  server: 91.200.242.187
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 017
-  network: ws
-  port: 10241
-  server: 52.197.107.193
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 1
-  cipher: auto
-  name: 日本 018
-  network: ws
-  port: 8080
-  server: 146.56.157.76
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 019
-  network: ws
-  port: 8080
-  server: 146.56.179.139
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 020
-  network: ws
-  port: 8080
-  server: bnm.skyin.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: i1.hdslb.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 021
-  network: ws
-  port: 8080
-  server: bst.n48.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: i1.hdslb.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 022
-  network: ws
-  port: 8080
-  server: 193.32.151.103
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 64
-  cipher: auto
-  name: 日本 023
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 日本 024
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- alterId: 4
-  cipher: auto
-  name: 日本 025
-  network: ws
-  port: 443
-  server: 202.61.141.130
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: 202.61.141.130
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 日本 026
-  network: ws
-  port: 80
-  server: max8.flash5g.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4e25f91f-603c-4e83-b002-c26030757816
-  ws-opts:
-    headers:
-      Host: max8.flash5g.com
-    path: /AnhBin
-- alterId: 64
-  cipher: auto
-  name: 日本 027
-  network: ws
-  port: 46666
-  server: 103.72.5.227
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.16004350.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: 日本 028
-  network: ws
-  port: 48885
-  server: 134.122.184.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.13146165.xyz
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 日本 029
-  network: ws
-  port: 443
-  server: 146.56.162.25
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 日本 030
-  network: ws
-  port: 3331
-  server: f1f3227.u1.glados-config.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: f1f3227.u1.glados-config.net
-    path: /s/f1f3227.fm.apple.com:111548
-- alterId: 0
-  cipher: auto
-  name: 日本 031
-  network: ws
-  port: 443
-  server: kr-arm2.018999.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
-  ws-opts:
-    headers:
-      Host: kr-arm2.018999.xyz
-    path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
-- alterId: 0
-  cipher: auto
-  name: 日本 032
-  network: ws
-  port: 443
-  server: 172.105.223.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8964ea79-1422-460e-b6e2-a16e83a22aab
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 033
-  network: ws
-  port: 3331
-  server: f1f3227.v1.glados-config.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: f1f3227.v1.glados-config.net
-    path: /s/f1f3227.fm.apple.com:111548
-- alterId: 0
-  cipher: auto
-  name: 日本 034
-  network: ws
-  port: 443
-  server: 124.156.225.184
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7a010436-7b4a-4e65-ade4-844ba074ad58
-  ws-opts:
-    headers:
-      Host: azjp.pengui.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 035
-  network: ws
-  port: 443
-  server: 47.245.42.92
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
-  ws-opts:
-    headers:
-      Host: n1753598452.wpg27.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 036
-  network: ws
-  port: 443
-  server: seoul02.zgjok.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1a1e5196-eab4-4772-9012-65c27f19a524
-  ws-opts:
-    headers:
-      Host: seoul02.zgjok.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 日本 037
-  network: ws
-  port: 8080
-  server: 193.32.148.12
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 日本 038
-  network: ws
-  port: 5001
-  server: steam.dnspro.icu
-  skip-cert-verify: true
-  type: vmess
-  uuid: d4c93465-70f0-30d5-ab5f-a8881f3f49e7
-  ws-opts:
-    headers:
-      Host: steam.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 日本 039
-  network: ws
-  port: 20025
-  server: sh-cn-1.dnspro.icu
-  skip-cert-verify: true
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: sh-cn-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 日本 040
-  network: ws
-  port: 443
-  server: cvywfavasdc.cymlr.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
-  ws-opts:
-    headers:
-      Host: cvywfavasdc.cymlr.xyz
-    path: /ksebupo
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 9408
-  server: 95.40.58.84
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: hhtj.hhllfly.kdns.fr
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '日本 002 #1 - 167ms'
+  name: 日本 011 - 239ms
   network: ws
   port: 80
   server: 61.245.11.60
@@ -683,7 +698,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 004 #1 - 112ms'
+  name: 日本/Japan-3 - 1222ms
   network: ws
   port: 80
   server: 168.138.43.75
@@ -696,7 +711,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 006 #1 - 190ms'
+  name: 日本 014 - 314ms
   network: ws
   port: 80
   server: 3h-philippines1.09vpn.com
@@ -709,7 +724,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 008 #1 - 104ms'
+  name: 日本 016 - 162ms
   network: ws
   port: 14954
   server: 91.200.242.187
@@ -722,7 +737,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '日本 020 #1 - 150ms'
+  name: 日本 028 - 197ms
   network: ws
   port: 48885
   server: 134.122.184.88
@@ -735,7 +750,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 023 #1 - 137ms'
+  name: 日本 031 - 210ms
   network: ws
   port: 443
   server: kr-arm2.018999.xyz
@@ -748,7 +763,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 027 #1 - 109ms'
+  name: 日本 035 - 164ms
   network: ws
   port: 443
   server: 47.245.42.92
@@ -761,7 +776,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '日本 031 #1 - 485ms'
+  name: 日本 039 - 516ms
   network: ws
   port: 20025
   server: sh-cn-1.dnspro.icu
@@ -773,14 +788,14 @@ proxies:
       Host: sh-cn-1.dnspro.icu
     path: /
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_1|5.0MB/s - 107ms
+  name: 🇯🇵JP_1|5.0MB/s - 107ms - 158ms
   password: amazonskr05
   port: 443
   server: 13.115.57.197
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_日本_94 - 103ms_1 - 110ms
+  name: 🇯🇵_日本_94 - 103ms_1 - 110ms - 1...
   network: ws
   port: 443
   server: 210.138.37.53
@@ -792,13 +807,6 @@ proxies:
     headers:
       Host: 210.138.37.53
     path: /
-- name: 日本(免费节点)_3 - 104ms - 106ms
-  password: '!!str 521314'
-  port: 2053
-  server: 103.106.228.126
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇯🇵 JP 12 → tg@nicevpn123 - 1ms...
@@ -826,13 +834,13 @@ proxies:
   type: trojan
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 JP 49 → tg@nicevpn123 - 384...
+  name: 🇯🇵 JP 56 → tg@nicevpn123 - 131...
   network: tcp
-  port: 28785
-  server: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
+  port: 28788
+  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
   tls: true
   type: vmess
-  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 1
   cipher: auto
   name: 🇯🇵 JP 58 → tg@nicevpn123 - 300...
@@ -844,13 +852,22 @@ proxies:
   uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 JP 56 → tg@nicevpn123 - 131...
+  name: 🇯🇵 JP 72 → tg@nicevpn123 - 352...
   network: tcp
-  port: 28788
-  server: 1ridh-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  port: 444
+  server: 2ssti-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 JP 49 → tg@nicevpn123 - 384...
+  network: tcp
+  port: 28785
+  server: lotn9-g03.jp06-7c5a-vm0.entry.fr0307a.art
   tls: true
   type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
 - alterId: 1
   cipher: auto
   name: 🇯🇵 JP 64 → tg@nicevpn123 - 125...
@@ -862,13 +879,13 @@ proxies:
   uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 JP 72 → tg@nicevpn123 - 352...
+  name: 🇯🇵 JP 71 → tg@nicevpn123 - 110...
   network: tcp
   port: 444
-  server: 2ssti-g01.jp04-3771-vm0.entry.fr0307a.art
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
   tls: false
   type: vmess
-  uuid: b52da429-91a0-3834-a4e0-0ed299ba8121
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
 - alterId: 1
   cipher: auto
   name: 🇯🇵 JP 73 → tg@nicevpn123 - 140...
@@ -880,13 +897,13 @@ proxies:
   uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 1
   cipher: auto
-  name: 🇯🇵 JP 71 → tg@nicevpn123 - 110...
+  name: 🇯🇵 JP 70 → tg@nicevpn123 - 117...
   network: tcp
-  port: 444
-  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  port: 448
+  server: cm5hi-g05.jp04-3771-vm0.entry.fr0307a.art
   tls: false
   type: vmess
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
 - alterId: 1
   cipher: auto
   name: 🇯🇵 JP 74 → tg@nicevpn123 - 128...
@@ -896,17 +913,8 @@ proxies:
   tls: false
   type: vmess
   uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 JP 70 → tg@nicevpn123 - 117...
-  network: tcp
-  port: 448
-  server: cm5hi-g05.jp04-3771-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 4b991d1c-f7a2-348e-b785-8daf386b6864
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_115 - 106ms - 107ms
+  name: 🇯🇵JP_115 - 106ms - 107ms - 162...
   password: amazonskr05
   port: 443
   server: 13.231.162.164
@@ -918,108 +926,101 @@ proxies:
   server: 260323.1.0.l3.unclemanco.com
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_12 - 104ms - 105ms
+  name: 🇯🇵JP_12 - 104ms - 105ms - 157m...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_10 - 105ms - 105ms
+  name: 🇯🇵JP_10 - 105ms - 105ms - 157m...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP_9 - 104ms - 105ms
+  name: 🇯🇵JP_9 - 104ms - 105ms - 158ms
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
-- name: 🇯🇵JP_71 - 105ms - 107ms
+- name: 🇯🇵JP_71 - 105ms - 107ms - 164m...
   password: ND91608427
   port: 443
   server: 13.230.118.96
   skip-cert-verify: true
   sni: real-werewolf.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_108 - 106ms - 107ms
+- name: 🇯🇵JP_108 - 106ms - 107ms - 163...
   password: ND91608427
   port: 443
   server: 18.178.132.111
   skip-cert-verify: true
   sni: devoted-heron.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_109 - 105ms - 106ms
+- name: 🇯🇵JP_109 - 105ms - 106ms - 163...
   password: ND91608427
   port: 443
   server: 18.181.175.120
   skip-cert-verify: true
   sni: sure-humpback.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_99 - 106ms - 108ms
+- name: 🇯🇵JP_99 - 106ms - 108ms - 163m...
   password: ND91608427
   port: 443
   server: 3.113.24.17
   skip-cert-verify: true
   sni: nearby-egret.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_105 - 105ms - 106ms
+- name: 🇯🇵JP_105 - 105ms - 106ms - 158...
   password: ND91608427
   port: 443
   server: 43.207.139.153
   skip-cert-verify: true
   sni: sensible-mongrel.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_73 - 105ms - 106ms
+- name: 🇯🇵JP_73 - 105ms - 106ms - 163m...
   password: ND91608427
   port: 443
   server: 43.207.89.29
   skip-cert-verify: true
   sni: relaxing-bluebird.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_89 - 105ms - 105ms
+- name: 🇯🇵JP_89 - 105ms - 105ms - 158m...
   password: ND91608427
   port: 443
   server: 54.199.202.238
   skip-cert-verify: true
   sni: definite-sturgeon.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_61 - 106ms - 107ms
+- name: 🇯🇵JP_61 - 106ms - 107ms - 163m...
   password: ND91608427
   port: 443
   server: 54.65.167.167
   skip-cert-verify: true
   sni: tough-robin.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_76 - 126ms - 111ms
-  password: ND91608427
-  port: 443
-  server: better-molly.rooster465.autos
-  skip-cert-verify: true
-  sni: better-molly.rooster465.autos
-  type: trojan
-- name: 🇯🇵JP_103 - 117ms - 111ms
+- name: 🇯🇵JP_103 - 117ms - 111ms - 173...
   password: ND91608427
   port: 443
   server: devoted-heron.rooster465.autos
   skip-cert-verify: true
   sni: devoted-heron.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_96 - 110ms - 110ms
+- name: 🇯🇵JP_96 - 110ms - 110ms - 173m...
   password: ND91608427
   port: 443
   server: nearby-egret.rooster465.autos
   skip-cert-verify: true
   sni: nearby-egret.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_98 - 110ms - 111ms
+- name: 🇯🇵JP_98 - 110ms - 111ms - 171m...
   password: ND91608427
   port: 443
   server: prompt-duckling.rooster465.autos
   skip-cert-verify: true
   sni: prompt-duckling.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_84 - 116ms - 111ms
+- name: 🇯🇵JP_84 - 116ms - 111ms - 174m...
   password: ND91608427
   port: 443
   server: right-seahorse.rooster465.autos
@@ -1031,26 +1032,26 @@ proxies:
   port: 443
   server: 150.230.7.216
   type: trojan
-- cipher: aes-128-gcm
-  name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1 - 232m...'
-  password: ayucloud1
-  port: 819
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵 JP 001 | ⬇️ 23MB/s - 107ms ...
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   port: 2377
   server: 43.206.229.103
   type: ss
-- name: 🇯🇵JP_82 - 117ms - 111ms
+- cipher: aes-128-gcm
+  name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1 - 232m...'
+  password: ayucloud1
+  port: 819
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- name: 🇯🇵JP_82 - 117ms - 111ms - 412m...
   password: ND91608427
   port: 443
   server: immense-gnu.rooster465.autos
   skip-cert-verify: true
   sni: immense-gnu.rooster465.autos
   type: trojan
-- name: 🇯🇵JP_95 - 111ms - 111ms
+- name: 🇯🇵JP_95 - 111ms - 111ms - 172m...
   password: ND91608427
   port: 443
   server: wise-bengal.rooster465.autos
@@ -1058,19 +1059,19 @@ proxies:
   sni: wise-bengal.rooster465.autos
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_19 - 105ms - 106ms
+  name: 🇯🇵JP_19 - 105ms - 106ms - 165m...
   password: amazonskr05
   port: 443
   server: 52.194.190.172
   type: ss
-- name: 🇯🇵JP_67 - 105ms - 106ms
+- name: 🇯🇵JP_67 - 105ms - 106ms - 160m...
   password: ND91608427
   port: 443
   server: 13.192.236.67
   sni: immense-gnu.rooster465.autos
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇯🇵JP_116 - 105ms - 108ms
+  name: 🇯🇵JP_116 - 105ms - 108ms - 158...
   password: amazonskr05
   port: 443
   server: 13.231.179.245
@@ -1082,685 +1083,663 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇯🇵_JP_日本 - 299ms - 3...
-  network: tcp
-  port: 30806
-  server: v6.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 分享日记_307 - 110ms
+- name: 分享日记_307 - 110ms - 173ms
   password: IQ68037294
   port: 443
   server: busy-slug.rooster465.autos
   sni: busy-slug.rooster465.autos
   type: trojan
-- name: 分享日记_308 - 192ms
+- name: 分享日记_308 - 192ms - 136ms
   password: '!!str 521314'
   port: 443
   server: 107.161.174.99
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_310 - 214ms
+- name: 分享日记_310 - 214ms - 183ms
   password: IQ68037294
   port: 443
   server: square-anchovy.rooster465.autos
   sni: square-anchovy.rooster465.autos
   type: trojan
-- name: 分享日记_309 - 291ms
+- name: 分享日记_309 - 291ms - 175ms
   password: IQ68037294
   port: 443
   server: key-sponge.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 分享日记_313 - 302ms
+- name: 分享日记_313 - 302ms - 175ms
   password: IQ68037294
   port: 443
   server: premium-perch.rooster465.autos
   sni: premium-perch.rooster465.autos
   type: trojan
-- name: 分享日记_314 - 110ms
+- name: 分享日记_314 - 110ms - 169ms
   password: IQ68037294
   port: 443
   server: pleased-lobster.rooster465.autos
   skip-cert-verify: true
   sni: pleased-lobster.rooster465.autos
   type: trojan
-- name: 分享日记_317 - 330ms
+- name: 分享日记_317 - 330ms - 251ms
   password: XG59623478
   port: 443
   server: growing-oyster.rooster465.autos
   type: trojan
-- name: 分享日记_321 - 168ms
+- name: 分享日记_323 - 111ms - 167ms
+  password: IQ68037294
+  port: 443
+  server: intense-basilisk.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 分享日记_321 - 168ms - 225ms
   password: '!!str 521314'
   port: 443
   server: 129.212.231.216
   skip-cert-verify: true
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_322 - 176ms
+- name: 分享日记_322 - 176ms - 242ms
   password: KV63147582
   port: 443
   server: 91.199.84.224
   sni: pretty-vervet.rooster465.autos
   type: trojan
-- name: 分享日记_323 - 111ms
-  password: IQ68037294
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 分享日记_325 - 119ms
+- name: 分享日记_325 - 119ms - 172ms
   password: IQ68037294
   port: 443
   server: pleased-sawfly.rooster465.autos
   type: trojan
-- name: 分享日记_329 - 112ms
-  password: IQ68037294
-  port: 443
-  server: giving-bird.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 分享日记_330 - 250ms
+- name: 分享日记_330 - 250ms - 167ms
   password: IQ68037294
   port: 443
   server: pumped-eft.rooster465.autos
   sni: pumped-eft.rooster465.autos
   type: trojan
-- name: 分享日记_335 - 117ms
+- name: 分享日记_336 - 2ms - 5ms
+  password: 2f211aae-3678-47a6-b231-46304443772f
+  port: 443
+  server: 188.114.97.82
+  sni: cdir-0203.wlfvip.com
+  type: trojan
+- name: 分享日记_329 - 112ms - 174ms
+  password: IQ68037294
+  port: 443
+  server: giving-bird.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 分享日记_335 - 117ms - 172ms
   password: IQ68037294
   port: 443
   server: pet-albacore.rooster465.autos
   skip-cert-verify: true
   sni: pet-albacore.rooster465.autos
   type: trojan
-- name: 分享日记_336 - 2ms
-  password: 2f211aae-3678-47a6-b231-46304443772f
-  port: 443
-  server: 188.114.97.82
-  sni: cdir-0203.wlfvip.com
-  type: trojan
-- name: 分享日记_337 - 111ms
+- name: 分享日记_337 - 111ms - 166ms
   password: IQ68037294
   port: 443
   server: proud-honeybee.rooster465.autos
   sni: proud-honeybee.rooster465.autos
   type: trojan
-- name: 分享日记_342 - 291ms
+- name: 分享日记_342 - 291ms - 167ms
   password: IQ68037294
   port: 443
   server: full-mackerel.rooster465.autos
   type: trojan
-- name: 分享日记_345 - 113ms
+- name: 分享日记_345 - 113ms - 172ms
   password: IQ68037294
   port: 443
   server: whole-perch.rooster465.autos
   skip-cert-verify: true
   sni: whole-perch.rooster465.autos
   type: trojan
-- name: 分享日记_347 - 182ms
+- name: 分享日记_347 - 182ms - 251ms
   password: IQ68037294
   port: 443
   server: wealthy-loon.rooster465.autos
   sni: wealthy-loon.rooster465.autos
   type: trojan
-- name: 分享日记_348 - 142ms
-  password: IQ68037294
-  port: 443
-  server: neat-whale.rooster465.autos
-  sni: neat-whale.rooster465.autos
-  type: trojan
-- name: 分享日记_349 - 111ms
+- name: 分享日记_349 - 111ms - 172ms
   password: IQ68037294
   port: 443
   server: guided-warthog.rooster465.autos
   skip-cert-verify: true
   sni: guided-warthog.rooster465.autos
   type: trojan
-- name: 分享日记_351 - 110ms
+- name: 分享日记_351 - 110ms - 167ms
   password: IQ68037294
   port: 443
   server: literate-grizzly.rooster465.autos
   sni: literate-grizzly.rooster465.autos
   type: trojan
-- name: 分享日记_352 - 113ms
+- name: 分享日记_348 - 142ms - 203ms
+  password: IQ68037294
+  port: 443
+  server: neat-whale.rooster465.autos
+  sni: neat-whale.rooster465.autos
+  type: trojan
+- name: 分享日记_356 - 8ms - 5ms
+  password: humanity
+  port: 443
+  server: 162.159.38.119
+  sni: www.gossipglove.com
+  type: trojan
+- name: 分享日记_355 - 158ms - 93ms
+  password: NQ26071394
+  port: 443
+  server: ready-kangaroo.rooster465.autos
+  sni: ready-kangaroo.rooster465.autos
+  type: trojan
+- name: 分享日记_354 - 153ms - 95ms
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
+- name: 分享日记_352 - 113ms - 167ms
   password: IQ68037294
   port: 443
   server: brave-cattle.rooster465.autos
   skip-cert-verify: true
   sni: brave-cattle.rooster465.autos
   type: trojan
-- name: 分享日记_354 - 153ms
-  password: PD07395842
-  port: 443
-  server: pro-crane.rooster465.autos
-  type: trojan
-- name: 分享日记_355 - 158ms
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  sni: ready-kangaroo.rooster465.autos
-  type: trojan
-- name: 分享日记_356 - 8ms
-  password: humanity
-  port: 443
-  server: 162.159.38.119
-  sni: www.gossipglove.com
-  type: trojan
-- name: 分享日记_359 - 164ms
+- name: 分享日记_359 - 164ms - 93ms
   password: IQ68037294
   port: 443
   server: desired-pony.rooster465.autos
   type: trojan
-- name: 分享日记_367 - 30ms
+- name: 分享日记_369 - 152ms - 99ms
+  password: XG59623478
+  port: 443
+  server: renewed-chigger.rooster465.autos
+  type: trojan
+- name: 分享日记_367 - 30ms - 103ms
   password: humanity
   port: 443
   server: www.multiplydose.com
   skip-cert-verify: true
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_369 - 152ms
-  password: XG59623478
-  port: 443
-  server: renewed-chigger.rooster465.autos
-  type: trojan
-- name: 分享日记_370 - 148ms
+- name: 分享日记_370 - 148ms - 102ms
   password: IQ68037294
   port: 443
   server: whole-woodcock.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 分享日记_371 - 146ms
+- name: 分享日记_371 - 146ms - 101ms
   password: ON38567014
   port: 443
   server: literate-coyote.rooster465.autos
   type: trojan
-- name: 分享日记_373 - 146ms
-  password: ON38567014
-  port: 443
-  server: actual-aardvark.rooster465.autos
-  type: trojan
-- name: 分享日记_374 - 162ms
+- name: 分享日记_374 - 162ms - 93ms
   password: IQ68037294
   port: 443
   server: humane-bird.rooster465.autos
   type: trojan
-- name: 分享日记_375 - 137ms
+- name: 分享日记_373 - 146ms - 107ms
+  password: ON38567014
+  port: 443
+  server: actual-aardvark.rooster465.autos
+  type: trojan
+- name: 分享日记_376 - 178ms - 126ms
+  password: KV63147582
+  port: 443
+  server: more-trout.rooster465.autos
+  sni: more-trout.rooster465.autos
+  type: trojan
+- name: 分享日记_382 - 136ms - 83ms
+  password: OD90375861
+  port: 443
+  server: 52.212.156.233
+  sni: wired-tick.rooster465.autos
+  type: trojan
+- name: 分享日记_375 - 137ms - 199ms
   password: JA96378052
   port: 443
   server: careful-cow.rooster465.autos
   skip-cert-verify: true
   sni: careful-cow.rooster465.autos
   type: trojan
-- name: 分享日记_376 - 178ms
-  password: KV63147582
-  port: 443
-  server: more-trout.rooster465.autos
-  sni: more-trout.rooster465.autos
-  type: trojan
-- name: 分享日记_380 - 182ms
-  password: IQ68037294
-  port: 443
-  server: strong-haddock.rooster465.autos
-  sni: strong-haddock.rooster465.autos
-  type: trojan
-- name: 分享日记_382 - 136ms
-  password: OD90375861
-  port: 443
-  server: 52.212.156.233
-  sni: wired-tick.rooster465.autos
-  type: trojan
-- name: 分享日记_381 - 157ms
-  password: PD07395842
-  port: 443
-  server: pretty-quail.rooster465.autos
-  type: trojan
-- name: 分享日记_389 - 111ms
-  password: IQ68037294
-  port: 443
-  server: robust-toucan.rooster465.autos
-  sni: robust-toucan.rooster465.autos
-  type: trojan
-- name: 分享日记_393 - 2ms
+- name: 分享日记_393 - 2ms - 6ms
   password: humanity
   port: 443
   server: 188.114.99.0
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_392 - 189ms
+- name: 分享日记_381 - 157ms - 93ms
+  password: PD07395842
+  port: 443
+  server: pretty-quail.rooster465.autos
+  type: trojan
+- name: 分享日记_380 - 182ms - 251ms
   password: IQ68037294
   port: 443
-  server: sensible-haddock.rooster465.autos
-  sni: sensible-haddock.rooster465.autos
+  server: strong-haddock.rooster465.autos
+  sni: strong-haddock.rooster465.autos
   type: trojan
-- name: 分享日记_395 - 129ms
-  password: IQ68037294
-  port: 443
-  server: prepared-turkey.rooster465.autos
-  sni: prepared-turkey.rooster465.autos
-  type: trojan
-- name: 分享日记_397 - 2ms
+- name: 分享日记_397 - 2ms - 5ms
   password: humanity
   port: 443
   server: 104.21.40.34
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_398 - 142ms
-  password: XG59623478
+- name: 分享日记_389 - 111ms - 167ms
+  password: IQ68037294
   port: 443
-  server: concise-buck.rooster465.autos
-  sni: concise-buck.rooster465.autos
+  server: robust-toucan.rooster465.autos
+  sni: robust-toucan.rooster465.autos
   type: trojan
-- name: 分享日记_401 - 3ms
+- name: 分享日记_401 - 3ms - 6ms
   password: humanity
   port: 443
   server: 8.6.112.6
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_403 - 170ms
+- name: 分享日记_395 - 129ms - 168ms
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  sni: prepared-turkey.rooster465.autos
+  type: trojan
+- name: 分享日记_392 - 189ms - 251ms
+  password: IQ68037294
+  port: 443
+  server: sensible-haddock.rooster465.autos
+  sni: sensible-haddock.rooster465.autos
+  type: trojan
+- name: 分享日记_403 - 170ms - 118ms
   password: KV63147582
   port: 443
   server: game-firefly.rooster465.autos
   type: trojan
-- name: 分享日记_409 - 155ms
+- name: 分享日记_409 - 155ms - 95ms
   password: NQ26071394
   port: 443
   server: thorough-falcon.rooster465.autos
   type: trojan
-- name: 分享日记_412 - 142ms
+- name: 分享日记_398 - 142ms - 203ms
+  password: XG59623478
+  port: 443
+  server: concise-buck.rooster465.autos
+  sni: concise-buck.rooster465.autos
+  type: trojan
+- name: 分享日记_412 - 142ms - 198ms
   password: PD07395842
   port: 443
   server: true-pony.rooster465.autos
   type: trojan
-- name: 分享日记_380_2 - 117ms
-  password: IQ68037294
-  port: 443
-  server: major-duckling.rooster465.autos
-  type: trojan
-- name: 分享日记_388 - 1ms
+- name: 分享日记_388 - 1ms - 6ms
   password: '!!str 521314'
   port: 443
   server: 104.16.97.215
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_381_2 - 119ms
-  password: IQ68037294
-  port: 443
-  server: novel-bat.rooster465.autos
-  type: trojan
-- name: 分享日记_385_2 - 121ms
-  password: IQ68037294
-  port: 443
-  server: amazed-burro.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 分享日记_390_2 - 140ms
+- name: 分享日记_390_2 - 140ms - 80ms
   password: '!!str 521314'
   port: 443
   server: 104.248.161.136
   skip-cert-verify: true
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_391_2 - 118ms
+- name: 分享日记_380_2 - 117ms - 173ms
+  password: IQ68037294
+  port: 443
+  server: major-duckling.rooster465.autos
+  type: trojan
+- name: 分享日记_385_2 - 121ms - 173ms
+  password: IQ68037294
+  port: 443
+  server: amazed-burro.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- name: 分享日记_391_2 - 118ms - 172ms
   password: IQ68037294
   port: 443
   server: saving-sawfly.rooster465.autos
   skip-cert-verify: true
   sni: saving-sawfly.rooster465.autos
   type: trojan
-- name: 分享日记_392_2 - 167ms
-  password: KV63147582
-  port: 443
-  server: electric-sturgeon.rooster465.autos
-  sni: electric-sturgeon.rooster465.autos
-  type: trojan
-- name: 分享日记_394_2 - 175ms
-  password: NQ26071394
-  port: 443
-  server: pretty-mollusk.rooster465.autos
-  sni: pretty-mollusk.rooster465.autos
-  type: trojan
-- name: 分享日记_395_2 - 187ms
-  password: HW85960347
-  port: 443
-  server: eminent-lamb.rooster465.autos
-  sni: eminent-lamb.rooster465.autos
-  type: trojan
-- name: 分享日记_399_2 - 1ms
+- name: 分享日记_399_2 - 1ms - 5ms
   password: '!!str 521314'
   port: 443
   server: 104.16.99.215
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_397_2 - 185ms
-  password: CF68213490
+- name: 分享日记_392_2 - 167ms - 117ms
+  password: KV63147582
   port: 443
-  server: well-marmot.rooster465.autos
-  sni: well-marmot.rooster465.autos
+  server: electric-sturgeon.rooster465.autos
+  sni: electric-sturgeon.rooster465.autos
   type: trojan
-- name: 分享日记_401_2 - 192ms
-  password: OD90375861
+- name: 分享日记_394_2 - 175ms - 118ms
+  password: NQ26071394
   port: 443
-  server: modest-foal.rooster465.autos
-  sni: modest-foal.rooster465.autos
+  server: pretty-mollusk.rooster465.autos
+  sni: pretty-mollusk.rooster465.autos
   type: trojan
-- name: 分享日记_402_2 - 112ms
+- name: 分享日记_381_2 - 119ms - 276ms
+  password: IQ68037294
+  port: 443
+  server: novel-bat.rooster465.autos
+  type: trojan
+- name: 分享日记_402_2 - 112ms - 172ms
   password: IQ68037294
   port: 443
   server: glowing-deer.rooster465.autos
   type: trojan
-- name: 分享日记_403_2 - 185ms
-  password: KV63147582
+- name: 分享日记_395_2 - 187ms - 245ms
+  password: HW85960347
   port: 443
-  server: amused-peacock.rooster465.autos
-  skip-cert-verify: true
-  sni: amused-peacock.rooster465.autos
+  server: eminent-lamb.rooster465.autos
+  sni: eminent-lamb.rooster465.autos
   type: trojan
-- name: 分享日记_406_2 - 185ms
-  password: ON38567014
-  port: 443
-  server: leading-ram.rooster465.autos
-  skip-cert-verify: true
-  sni: leading-ram.rooster465.autos
-  type: trojan
-- name: 分享日记_407_2 - 113ms
+- name: 分享日记_407_2 - 113ms - 171ms
   password: IQ68037294
   port: 443
   server: growing-tuna.rooster465.autos
   skip-cert-verify: true
   sni: growing-tuna.rooster465.autos
   type: trojan
-- name: 分享日记_411_2 - 110ms
+- name: 分享日记_411_2 - 110ms - 167ms
   password: IQ68037294
   port: 443
   server: enhanced-dassie.rooster465.autos
   sni: enhanced-dassie.rooster465.autos
   type: trojan
-- name: 分享日记_414_2 - 111ms
-  password: IQ68037294
-  port: 443
-  server: casual-stallion.rooster465.autos
-  type: trojan
-- name: 分享日记_419_2 - 158ms
-  password: OD90375861
-  port: 443
-  server: big-bonefish.rooster465.autos
-  skip-cert-verify: true
-  sni: big-bonefish.rooster465.autos
-  type: trojan
-- name: 分享日记_424 - 119ms
-  password: IQ68037294
-  port: 443
-  server: immortal-woodcock.rooster465.autos
-  skip-cert-verify: true
-  sni: immortal-woodcock.rooster465.autos
-  type: trojan
-- name: 分享日记_431 - 23ms
+- name: 分享日记_397_2 - 185ms - 249ms
   password: CF68213490
   port: 443
-  server: 16.145.201.0
-  sni: capable-eel.rooster465.autos
+  server: well-marmot.rooster465.autos
+  sni: well-marmot.rooster465.autos
   type: trojan
-- name: 分享日记_449 - 138ms
-  password: JA96378052
+- name: 分享日记_401_2 - 192ms - 251ms
+  password: OD90375861
   port: 443
-  server: absolute-bobcat.rooster465.autos
-  skip-cert-verify: true
-  sni: absolute-bobcat.rooster465.autos
+  server: modest-foal.rooster465.autos
+  sni: modest-foal.rooster465.autos
   type: trojan
-- name: 分享日记_450 - 144ms
+- name: 分享日记_403_2 - 185ms - 250ms
   password: KV63147582
   port: 443
-  server: selected-bison.rooster465.autos
-  sni: selected-bison.rooster465.autos
+  server: amused-peacock.rooster465.autos
+  skip-cert-verify: true
+  sni: amused-peacock.rooster465.autos
   type: trojan
-- name: 分享日记_462 - 2ms
+- name: 分享日记_462 - 2ms - 5ms
   password: humanity
   port: 443
   server: 104.18.32.37
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_465 - 2ms
+- name: 分享日记_465 - 2ms - 5ms
   password: humanity
   port: 443
   server: 172.64.147.131
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_469 - 157ms
+- name: 分享日记_406_2 - 185ms - 263ms
+  password: ON38567014
+  port: 443
+  server: leading-ram.rooster465.autos
+  skip-cert-verify: true
+  sni: leading-ram.rooster465.autos
+  type: trojan
+- name: 分享日记_431 - 23ms - 81ms
+  password: CF68213490
+  port: 443
+  server: 16.145.201.0
+  sni: capable-eel.rooster465.autos
+  type: trojan
+- name: 分享日记_414_2 - 111ms - 173ms
+  password: IQ68037294
+  port: 443
+  server: casual-stallion.rooster465.autos
+  type: trojan
+- name: 分享日记_476 - 27ms - 21ms
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: true
+  type: trojan
+- name: 分享日记_469 - 157ms - 98ms
   password: IQ68037294
   port: 443
   server: immune-earwig.rooster465.autos
   skip-cert-verify: true
   sni: immune-earwig.rooster465.autos
   type: trojan
-- name: 分享日记_471 - 161ms
-  password: IQ68037294
-  port: 443
-  server: definite-giraffe.rooster465.autos
-  sni: definite-giraffe.rooster465.autos
-  type: trojan
-- name: 分享日记_473 - 190ms
-  password: C0ldgdugd-vpnjantit.com
-  port: 4443
-  server: se1.vpnjantit.com
-  skip-cert-verify: true
-  sni: se1.vpnjantit.com
-  type: trojan
-- name: 分享日记_476 - 27ms
-  password: humanity
-  port: 443
-  server: www.gossipglove.com
-  skip-cert-verify: true
-  type: trojan
-- name: 分享日记_481 - 1ms
+- name: 分享日记_481 - 1ms - 6ms
   password: humanity
   port: 443
   server: 104.18.7.147
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_475 - 155ms
-  password: NQ26071394
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  sni: lucky-marmot.rooster465.autos
-  type: trojan
-- name: 分享日记_483 - 2ms
+- name: 分享日记_483 - 2ms - 5ms
   password: humanity
   port: 443
   server: 172.64.147.143
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_484 - 1ms
+- name: 分享日记_419_2 - 158ms - 208ms
+  password: OD90375861
+  port: 443
+  server: big-bonefish.rooster465.autos
+  skip-cert-verify: true
+  sni: big-bonefish.rooster465.autos
+  type: trojan
+- name: 分享日记_484 - 1ms - 5ms
   password: humanity
   port: 443
   server: 141.193.213.21
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_487 - 1ms
+- name: 分享日记_424 - 119ms - 187ms
+  password: IQ68037294
+  port: 443
+  server: immortal-woodcock.rooster465.autos
+  skip-cert-verify: true
+  sni: immortal-woodcock.rooster465.autos
+  type: trojan
+- name: 分享日记_487 - 1ms - 5ms
   password: humanity
   port: 443
   server: 104.17.131.88
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_488 - 3ms
+- name: 分享日记_488 - 3ms - 6ms
   password: humanity
   port: 443
   server: 172.64.147.252
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_479 - 159ms
+- name: 分享日记_471 - 161ms - 105ms
   password: IQ68037294
   port: 443
-  server: firm-warthog.rooster465.autos
+  server: definite-giraffe.rooster465.autos
+  sni: definite-giraffe.rooster465.autos
   type: trojan
-- name: 分享日记_482 - 154ms
-  password: PD07395842
-  port: 443
-  server: tough-pigeon.rooster465.autos
-  type: trojan
-- name: 分享日记_496 - 1ms
+- name: 分享日记_496 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.64.147.166
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_500 - 1ms
+- name: 分享日记_500 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.67.180.92
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_502 - 147ms
-  password: IQ68037294
-  port: 443
-  server: 63.182.30.36
-  sni: aware-pika.rooster465.autos
-  type: trojan
-- name: 分享日记_506 - 1ms
+- name: 分享日记_506 - 1ms - 5ms
   password: humanity
   port: 443
   server: 104.20.6.134
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_507 - 1ms
-  password: humanity
+- name: 分享日记_449 - 138ms - 208ms
+  password: JA96378052
   port: 443
-  server: 172.64.152.42
-  sni: www.multiplydose.com
+  server: absolute-bobcat.rooster465.autos
+  skip-cert-verify: true
+  sni: absolute-bobcat.rooster465.autos
   type: trojan
-- name: 分享日记_513 - 1ms
+- name: 分享日记_513 - 1ms - 5ms
   password: humanity
   port: 443
   server: 45.130.125.162
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_518 - 143ms
-  password: NQ26071394
+- name: 分享日记_450 - 144ms - 212ms
+  password: KV63147582
   port: 443
-  server: square-pheasant.rooster465.autos
+  server: selected-bison.rooster465.autos
+  sni: selected-bison.rooster465.autos
   type: trojan
-- name: 分享日记_522 - 162ms
-  password: ON38567014
-  port: 443
-  server: unique-gobbler.rooster465.autos
+- name: 分享日记_473 - 190ms - 149ms
+  password: C0ldgdugd-vpnjantit.com
+  port: 4443
+  server: se1.vpnjantit.com
+  skip-cert-verify: true
+  sni: se1.vpnjantit.com
   type: trojan
-- name: 分享日记_525 - 1ms
+- name: 分享日记_525 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.64.147.24
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_532 - 1ms
+- name: 分享日记_532 - 1ms - 5ms
   password: humanity
   port: 443
   server: 104.16.147.104
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_533 - 1ms
+- name: 分享日记_533 - 1ms - 5ms
   password: humanity
   port: 443
   server: 198.202.211.1
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_534 - 2ms
+- name: 分享日记_475 - 155ms - 97ms
+  password: NQ26071394
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  sni: lucky-marmot.rooster465.autos
+  type: trojan
+- name: 分享日记_534 - 2ms - 5ms
   password: humanity
   port: 443
   server: 81.255.155.10
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_535 - 146ms
-  password: NQ26071394
+- name: 分享日记_507 - 1ms - 68ms
+  password: humanity
   port: 443
-  server: powerful-squid.rooster465.autos
+  server: 172.64.152.42
+  sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_536 - 153ms
+- name: 分享日记_479 - 159ms - 92ms
   password: IQ68037294
   port: 443
-  server: casual-bullfrog.rooster465.autos
-  sni: casual-bullfrog.rooster465.autos
+  server: firm-warthog.rooster465.autos
   type: trojan
-- name: 分享日记_539 - 1ms
+- name: 分享日记_539 - 1ms - 5ms
   password: humanity
   port: 443
   server: 208.103.161.110
   skip-cert-verify: true
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_541 - 153ms
+- name: 分享日记_482 - 154ms - 92ms
   password: PD07395842
   port: 443
-  server: present-warthog.rooster465.autos
+  server: tough-pigeon.rooster465.autos
   type: trojan
-- name: 分享日记_543 - 152ms
-  password: NQ26071394
+- name: 分享日记_502 - 147ms - 89ms
+  password: IQ68037294
   port: 443
-  server: grateful-bedbug.rooster465.autos
+  server: 63.182.30.36
+  sni: aware-pika.rooster465.autos
   type: trojan
-- name: 分享日记_545 - 144ms
-  password: NQ26071394
+- name: 分享日记_522 - 162ms - 97ms
+  password: ON38567014
   port: 443
-  server: renewed-phoenix.rooster465.autos
+  server: unique-gobbler.rooster465.autos
   type: trojan
-- name: 分享日记_546 - 21ms
+- name: 分享日记_546 - 21ms - 62ms
   password: humanity
   port: 443
   server: www.creationlong.org
   type: trojan
-- name: 分享日记_553 - 152ms
-  password: CF68213490
+- name: 分享日记_535 - 146ms - 94ms
+  password: NQ26071394
   port: 443
-  server: emerging-weevil.rooster465.autos
+  server: powerful-squid.rooster465.autos
   type: trojan
-- name: 分享日记_557 - 152ms
-  password: IQ68037294
-  port: 443
-  server: 35.180.10.212
-  sni: firm-warthog.rooster465.autos
-  type: trojan
-- name: 分享日记_558 - 1ms
+- name: 分享日记_558 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.66.47.69
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_562 - 111ms
-  password: IQ68037294
+- name: 分享日记_543 - 152ms - 95ms
+  password: NQ26071394
   port: 443
-  server: still-mastodon.rooster465.autos
-  skip-cert-verify: true
-  sni: still-mastodon.rooster465.autos
+  server: grateful-bedbug.rooster465.autos
   type: trojan
-- name: 分享日记_574 - 1ms
+- name: 分享日记_541 - 153ms - 97ms
+  password: PD07395842
+  port: 443
+  server: present-warthog.rooster465.autos
+  type: trojan
+- name: 分享日记_574 - 1ms - 6ms
   password: humanity
   port: 443
   server: 202.37.33.80
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_575 - 1ms
+- name: 分享日记_575 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.64.147.227
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
-- name: 分享日记_580 - 1ms
+- name: 分享日记_545 - 144ms - 103ms
+  password: NQ26071394
+  port: 443
+  server: renewed-phoenix.rooster465.autos
+  type: trojan
+- name: 分享日记_580 - 1ms - 5ms
   password: humanity
   port: 443
   server: 172.64.155.209
   sni: www.gossipglove.com
   type: trojan
+- name: 分享日记_557 - 152ms - 84ms
+  password: IQ68037294
+  port: 443
+  server: 35.180.10.212
+  sni: firm-warthog.rooster465.autos
+  type: trojan
+- name: 分享日记_553 - 152ms - 96ms
+  password: CF68213490
+  port: 443
+  server: emerging-weevil.rooster465.autos
+  type: trojan
+- name: 分享日记_518 - 143ms - 208ms
+  password: NQ26071394
+  port: 443
+  server: square-pheasant.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 分享日记_9 - 27ms
+  name: 分享日记_9 - 27ms - 99ms
   network: ws
   port: 443
   server: 2cdn.njkrpl.com
@@ -1771,152 +1750,159 @@ proxies:
     headers:
       Host: 2cdn.njkrpl.com
     path: /
-- name: 分享日记_378_2 - 2ms
+- name: 分享日记_562 - 111ms - 174ms
+  password: IQ68037294
+  port: 443
+  server: still-mastodon.rooster465.autos
+  skip-cert-verify: true
+  sni: still-mastodon.rooster465.autos
+  type: trojan
+- name: 分享日记_536 - 153ms - 272ms
+  password: IQ68037294
+  port: 443
+  server: casual-bullfrog.rooster465.autos
+  sni: casual-bullfrog.rooster465.autos
+  type: trojan
+- name: 分享日记_378_2 - 2ms - 6ms
   password: '!!str 521314'
   port: 443
   server: wangcai.yunzhongzhuan.com
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_379_3 - 1ms
+- name: 分享日记_379_3 - 1ms - 6ms
   password: '!!str 521314'
   port: 443
   server: 104.16.100.215
   sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_383_2 - 183ms
-  password: KV63147582
+- name: 分享日记_401_3 - 3ms - 6ms
+  password: '!!str 521314'
   port: 443
-  server: desired-tahr.rooster465.autos
-  sni: desired-tahr.rooster465.autos
+  server: soskeynets.yunzhongzhuan.com
+  sni: tjplay.lxdxo.kdns.fr
   type: trojan
-- name: 分享日记_384_2 - 193ms
-  password: NQ26071394
-  port: 443
-  server: electric-gibbon.rooster465.autos
-  sni: electric-gibbon.rooster465.autos
-  type: trojan
-- name: 分享日记_386_3 - 189ms
-  password: KV63147582
-  port: 443
-  server: pretty-vervet.rooster465.autos
-  sni: pretty-vervet.rooster465.autos
-  type: trojan
-- name: 分享日记_391_3 - 186ms
+- name: 分享日记_391_3 - 186ms - 118ms
   password: JA96378052
   port: 443
   server: enabling-snipe.rooster465.autos
   sni: enabling-snipe.rooster465.autos
   type: trojan
-- name: 分享日记_397_3 - 111ms
+- name: 分享日记_397_3 - 111ms - 170ms
   password: IQ68037294
   port: 443
   server: harmless-imp.rooster465.autos
   skip-cert-verify: true
   sni: harmless-imp.rooster465.autos
   type: trojan
-- name: 分享日记_396_2 - 194ms
-  password: IQ68037294
+- name: 分享日记_383_2 - 183ms - 250ms
+  password: KV63147582
   port: 443
-  server: engaging-llama.rooster465.autos
-  sni: engaging-llama.rooster465.autos
+  server: desired-tahr.rooster465.autos
+  sni: desired-tahr.rooster465.autos
   type: trojan
-- name: 分享日记_399_3 - 119ms
+- name: 分享日记_399_3 - 119ms - 169ms
   password: IQ68037294
   port: 443
   server: humane-hawk.rooster465.autos
   skip-cert-verify: true
   sni: humane-hawk.rooster465.autos
   type: trojan
-- name: 分享日记_401_3 - 3ms
-  password: '!!str 521314'
+- name: 分享日记_384_2 - 193ms - 260ms
+  password: NQ26071394
   port: 443
-  server: soskeynets.yunzhongzhuan.com
-  sni: tjplay.lxdxo.kdns.fr
+  server: electric-gibbon.rooster465.autos
+  sni: electric-gibbon.rooster465.autos
   type: trojan
-- name: 分享日记_406_3 - 149ms
-  password: XG59623478
-  port: 443
-  server: stirring-dane.rooster465.autos
-  sni: stirring-dane.rooster465.autos
-  type: trojan
-- name: 分享日记_408_3 - 137ms
-  password: KV63147582
-  port: 443
-  server: 87.121.33.171
-  sni: selected-bison.rooster465.autos
-  type: trojan
-- name: 分享日记_426 - 20ms
-  password: PD07395842
-  port: 443
-  server: 54.69.49.203
-  sni: sharing-chipmunk.rooster465.autos
-  type: trojan
-- name: 分享日记_443 - 22ms
-  password: ON38567014
-  port: 443
-  server: 52.32.130.95
-  skip-cert-verify: true
-  sni: tidy-gopher.rooster465.autos
-  type: trojan
-- name: 分享日记_448 - 151ms
-  password: PD07395842
-  port: 443
-  server: united-bedbug.rooster465.autos
-  type: trojan
-- name: 分享日记_489 - 1ms
+- name: 分享日记_489 - 1ms - 5ms
   password: humanity
   port: 443
   server: 162.159.17.189
   skip-cert-verify: true
   sni: www.multiplydose.com
   type: trojan
-- name: 分享日记_513_2 - 156ms
-  password: ON38567014
+- name: 分享日记_386_3 - 189ms - 250ms
+  password: KV63147582
   port: 443
-  server: one-quail.rooster465.autos
+  server: pretty-vervet.rooster465.autos
+  sni: pretty-vervet.rooster465.autos
   type: trojan
-- name: 分享日记_515_2 - 2ms
+- name: 分享日记_515_2 - 2ms - 5ms
   password: humanity
   port: 443
   server: 45.130.125.2
   sni: Www.cReaTIOnLONG.OrG
   type: trojan
-- name: 分享日记_532_2 - 2ms
+- name: 分享日记_532_2 - 2ms - 5ms
   password: humanity
   port: 443
   server: 216.24.57.1
   sni: www.creationlong.org
   type: trojan
-- name: 分享日记_548 - 151ms
+- name: 分享日记_443 - 22ms - 81ms
+  password: ON38567014
+  port: 443
+  server: 52.32.130.95
+  skip-cert-verify: true
+  sni: tidy-gopher.rooster465.autos
+  type: trojan
+- name: 分享日记_406_3 - 149ms - 204ms
+  password: XG59623478
+  port: 443
+  server: stirring-dane.rooster465.autos
+  sni: stirring-dane.rooster465.autos
+  type: trojan
+- name: 分享日记_396_2 - 194ms - 253ms
+  password: IQ68037294
+  port: 443
+  server: engaging-llama.rooster465.autos
+  sni: engaging-llama.rooster465.autos
+  type: trojan
+- name: 分享日记_579 - 1ms - 7ms
+  password: humanity
+  port: 443
+  server: chatgpt.com
+  sni: www.gossipglove.com
+  type: trojan
+- name: 分享日记_408_3 - 137ms - 193ms
+  password: KV63147582
+  port: 443
+  server: 87.121.33.171
+  sni: selected-bison.rooster465.autos
+  type: trojan
+- name: 分享日记_448 - 151ms - 98ms
+  password: PD07395842
+  port: 443
+  server: united-bedbug.rooster465.autos
+  type: trojan
+- name: 分享日记_513_2 - 156ms - 94ms
+  password: ON38567014
+  port: 443
+  server: one-quail.rooster465.autos
+  type: trojan
+- name: 分享日记_548 - 151ms - 97ms
   password: ON38567014
   port: 443
   server: workable-crawdad.rooster465.autos
   type: trojan
-- name: 分享日记_556 - 170ms
-  password: PD07395842
-  port: 443
-  server: enough-basilisk.rooster465.autos
-  type: trojan
-- name: 分享日记_561_2 - 155ms
+- name: 分享日记_561_2 - 155ms - 98ms
   password: PD07395842
   port: 443
   server: fast-ghost.rooster465.autos
   sni: fast-ghost.rooster465.autos
   type: trojan
-- name: 分享日记_566_2 - 148ms
+- name: 分享日记_556 - 170ms - 117ms
+  password: PD07395842
+  port: 443
+  server: enough-basilisk.rooster465.autos
+  type: trojan
+- name: 分享日记_566_2 - 148ms - 100ms
   password: KV63147582
   port: 443
   server: legible-possum.rooster465.autos
   skip-cert-verify: true
   sni: legible-possum.rooster465.autos
   type: trojan
-- name: 分享日记_579 - 1ms
-  password: humanity
-  port: 443
-  server: chatgpt.com
-  sni: www.gossipglove.com
-  type: trojan
-- name: 分享日记_578 - 178ms
+- name: 分享日记_578 - 178ms - 256ms
   password: NQ26071394
   port: 443
   server: full-ox.rooster465.autos
@@ -1924,16 +1910,26 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 日本/Japan-2
+  name: 日本/Japan
   network: ws
   port: 25686
   server: 140.83.51.161
   type: vmess
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
-    headers:
-      Host: 140.83.51.161
     path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 日本/东京/Japan/Tokyo-2
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers:
+      Host: 172.111.146.64
+    path: /vmess/
 - cipher: chacha20-ietf-poly1305
   name: 🇯🇵 JP 001 | ⬇️ 23MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -1947,10 +1943,10 @@ proxies:
   type: ss
   udp: false
 - alterId: 0
-  name: 🇯🇵JP日本
+  name: 🇯🇵JP日本3
   password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
+  port: 9408
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: true

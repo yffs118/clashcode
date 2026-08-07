@@ -1,4 +1,407 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 未知18 22.0KB/s
+  network: tcp
+  port: 27726
+  server: fj260306.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知20 3.7KB/s - 200ms
+  network: tcp
+  port: 27726
+  server: fj260304.freechatup.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知23
+  network: tcp
+  port: 36864
+  server: 2.arzankadeh.cam
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
+- alterId: 0
+  cipher: auto
+  name: 未知95
+  network: tcp
+  port: 26126
+  server: 188.165.61.68
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b09b111e-f41c-4145-83c9-029027a5a745
+- alterId: 0
+  cipher: auto
+  name: 未知118 - 205ms
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: '法国 008 #1'
+  network: tcp
+  port: 2053
+  server: fr.connfull.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: auto
+  name: '法国 009 #1'
+  network: ws
+  port: 8080
+  server: 141.11.139.82
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: '法国 010 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 011 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 012 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.93
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 013 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 014 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 015 #1'
+  network: ws
+  port: 443
+  server: 146.59.118.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 016 #1'
+  network: ws
+  port: 443
+  server: 146.59.55.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 017 #1'
+  network: ws
+  port: 443
+  server: 146.59.70.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 018 #1'
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 019 #1'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 020 #1'
+  network: grpc
+  port: 2096
+  server: 51.254.142.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
+- alterId: 0
+  cipher: auto
+  name: '法国 021 #1'
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws?ed=
+- alterId: 0
+  cipher: auto
+  name: '法国 022 #1'
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: '法国 023 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 024 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bamparda.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 025 #1'
+  network: ws
+  port: 2082
+  server: 5.196.29.123
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 026 #1'
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 027 #1'
+  network: ws
+  port: 443
+  server: 146.59.118.249
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '法国 028 #1'
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 029 #1'
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '法国 030 #1'
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '法国 031 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: capellare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '法国 032 #1'
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 未知40 25.5KB/s
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #1'
   password: asdKkaskJKfnsa
@@ -18,7 +421,7 @@ proxies:
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ...'
+- name: 'FR法国(mibei77.com 米贝节点分享) #2 - ... #1'
   password: 19877587-ed94-4033-88cd-4ac50a5e8718
   port: 443
   server: 104.16.148.5
@@ -30,7 +433,7 @@ proxies:
   ws-opts:
     path: /WangCai-8
 - cipher: chacha20-ietf-poly1305
-  name: '未命名 #6 - 195ms - 215ms'
+  name: '未命名 #6 - 195ms - 215ms - 160ms'
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
@@ -38,371 +441,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知18 13.2KB/s
-  network: tcp
-  port: 27726
-  server: fj260306.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 未知66
-  network: tcp
-  port: 36864
-  server: 2.arzankadeh.cam
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5f0c8c9f-4a4c-47ac-9ac1-1b2aec295b58
-- alterId: 0
-  cipher: auto
-  name: 未知96
-  network: tcp
-  port: 26126
-  server: 188.165.61.68
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b09b111e-f41c-4145-83c9-029027a5a745
-- alterId: 0
-  cipher: auto
-  name: 未知132
-  network: tcp
-  port: 2053
-  server: fr.connfull.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
-- alterId: 0
-  cipher: auto
-  name: 法国 009
+  name: 法国 030 - 86ms
   network: ws
-  port: 8080
-  server: 141.11.139.82
-  skip-cert-verify: true
+  port: 80
+  server: 51.254.133.152
+  tls: true
   type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
   ws-opts:
     headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 法国 010
-  network: ws
-  port: 443
-  server: 91.134.8.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: lammaland.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 011
-  network: ws
-  port: 443
-  server: 91.134.8.92
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: yichueng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 012
-  network: ws
-  port: 443
-  server: 91.134.8.93
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: pelang.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 013
-  network: ws
-  port: 443
-  server: 91.134.8.100
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kampong.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 014
-  network: ws
-  port: 443
-  server: 91.134.8.102
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: serkat.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 015
-  network: ws
-  port: 443
-  server: 146.59.118.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: lammaland.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 016
-  network: ws
-  port: 443
-  server: 146.59.55.50
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: o.metuji.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 017
-  network: ws
-  port: 443
-  server: 146.59.70.146
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: yichueng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 018
-  network: ws
-  port: 443
-  server: 146.59.85.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: pelang.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 019
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
+      Host: 51.254.133.152
     path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 020
-  network: grpc
-  port: 2096
-  server: 51.254.142.162
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
-- alterId: 0
-  cipher: auto
-  name: 法国 021
-  network: ws
+- name: 🇫🇷FR_3|2.5MB/s - 6ms
+  password: humanity
   port: 443
-  server: 163.5.159.231
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws?ed=
+  server: 104.18.152.97
+  sni: www.ignitelimit.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 法国 022
-  network: ws
-  port: 443
-  server: 146.19.168.161
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: az05.beyondy.cfd
-    path: /link
-- alterId: 0
-  cipher: auto
-  name: 法国 023
-  network: ws
-  port: 443
-  server: 51.77.20.137
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 024
-  network: ws
-  port: 443
-  server: 51.77.20.140
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: bamparda.com
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 025
-  network: ws
-  port: 2082
-  server: 5.196.29.123
-  skip-cert-verify: true
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 026
-  network: ws
-  port: 443
-  server: 91.134.8.101
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 027
-  network: ws
-  port: 443
-  server: 146.59.118.249
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 法国 028
-  network: ws
-  port: 443
-  server: 194.9.172.65
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
-  ws-opts:
-    headers:
-      Host: beyonddbc.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 029
-  network: ws
-  port: 443
-  server: 193.160.130.245
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 法国 031
-  network: ws
-  port: 443
-  server: 51.77.20.136
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: capellare.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 法国 032
-  network: ws
-  port: 443
-  server: 51.77.20.132
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: a.baradiha.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '法国 004 #1 - 193ms'
-  network: tcp
-  port: 27726
-  server: fj260203.freechatup.com
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: '法国 017 #1 - 168ms'
+  name: 法国 018 - 108ms
   network: ws
   port: 443
   server: 146.59.85.226
@@ -415,7 +473,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 018 #1 - 1ms'
+  name: 法国 019 - 5ms
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -428,7 +486,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 023 #1 - 146ms'
+  name: 法国 024 - 86ms
   network: ws
   port: 443
   server: 51.77.20.140
@@ -441,7 +499,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 025 #1 - 144ms'
+  name: 法国 026 - 86ms
   network: ws
   port: 443
   server: 91.134.8.101
@@ -454,7 +512,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 027 #1 - 168ms'
+  name: 法国 028 - 103ms
   network: ws
   port: 443
   server: 194.9.172.65
@@ -467,7 +525,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 028 #1 - 153ms'
+  name: 法国 029 - 89ms
   network: ws
   port: 443
   server: 193.160.130.245
@@ -480,30 +538,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '法国 029 #1 - 148ms'
-  network: ws
-  port: 80
-  server: 51.254.133.152
+  name: 未知105 30.6KB/s
+  network: tcp
+  port: 27726
+  server: fj260203.freechatup.com
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-  ws-opts:
-    headers:
-      Host: 51.254.133.152
-    path: /
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - cipher: chacha20-ietf-poly1305
-  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2 ...'
+  name: 'FR法国(mibei77.com 米贝节点分享)_3 #2 ... #1'
   password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
   port: 56985
   server: e3.cover20.ir
   type: ss
-- name: 🇫🇷FR_1 - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
 - name: 🇫🇷 FR 1 → tg@nicevpn123 - 75ms...
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
@@ -547,28 +595,23 @@ proxies:
     headers:
       Host: 152.228.191.232
     path: /
-- name: 🇫🇷FR_1304 - 152ms - 158ms
+- name: 🇫🇷FR_1304 - 152ms - 158ms - 92...
   password: ND91608427
   port: 443
   server: fancy-skink.rooster465.autos
   skip-cert-verify: true
   sni: fancy-skink.rooster465.autos
   type: trojan
-- name: 🇫🇷FR_1303 - 159ms - 151ms
+- name: 🇫🇷FR_1303 - 159ms - 151ms - 95...
   password: ND91608427
   port: 443
   server: star-kiwi.rooster465.autos
   skip-cert-verify: true
   sni: star-kiwi.rooster465.autos
   type: trojan
-- name: 🇫🇷134720 | ⚡️Telegram = t.me/S...
-  password: QV31589740
-  port: 443
-  server: great-krill.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: 法国_马赛 - 157ms - 158ms - 153ms
+  name: 法国_马赛 - 157ms - 158ms - 153ms ...
   network: ws
   port: 443
   server: 110.724064.xyz
@@ -579,29 +622,41 @@ proxies:
     headers:
       Host: 110.724064.xyz
     path: /
-- name: 🇫🇷FR_646 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_646 - 2ms - 1ms - 1ms - 6...
   password: bd85f5fe32d9446a8b1f59e4f710455b
   port: 443
   server: 104.24.163.206
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
-- name: 🇫🇷FR_373 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_373 - 2ms - 1ms - 2ms - 5...
   password: humanity
   port: 443
   server: 104.16.174.34
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1049 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_1049 - 2ms - 1ms - 2ms - ...
   password: Telegram_healer_config
   port: 443
   server: 104.21.17.125
   sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
   type: trojan
-- name: 🇫🇷FR_59 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_59 - 1ms - 1ms - 1ms - 6m...
   password: humanity
   port: 443
   server: 104.18.152.113
   sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_355 - 1ms - 1ms - 1ms - 5...
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_844 - 2ms - 2ms - 1ms - 5...
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  sni: vless.herogoing.top
   type: trojan
 - name: 🇫🇷FR_862 - 399ms - 574ms - 305...
   password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
@@ -609,96 +664,114 @@ proxies:
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
   sni: _acme-challenge.sb.cloudns.biz
   type: trojan
-- name: 🇫🇷FR_355 - 1ms - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_844 - 2ms - 2ms - 1ms
-  password: bpb-trojan
-  port: 443
-  server: 104.21.26.36
-  sni: vless.herogoing.top
-  type: trojan
-- name: 🇫🇷FR_295 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_295 - 2ms - 1ms - 2ms - 6...
   password: humanity
   port: 443
   server: 104.16.174.46
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_927 - 11ms - 11ms - 16ms
+- name: 🇫🇷FR_927 - 11ms - 11ms - 16ms ...
   password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
   port: 443
   server: app-538961.user-y0o4gm.workers.dev
   sni: app-538961.user-y0o4gm.workers.dev
   type: trojan
-- name: 🇫🇷FR_391 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_391 - 1ms - 1ms - 2ms - 6...
   password: humanity
   port: 443
   server: 104.18.152.204
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_446 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_446 - 1ms - 1ms - 1ms - 6...
   password: humanity
   port: 443
   server: 104.18.152.246
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_218 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_218 - 2ms - 1ms - 2ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.225
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1181 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_1181 - 2ms - 1ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 172.64.35.26
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_26 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_26 - 1ms - 1ms - 1ms - 5m...
   password: humanity
   port: 443
   server: 104.16.174.37
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_743 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_743 - 2ms - 1ms - 2ms - 6...
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
   server: 104.19.173.68
   sni: azadnet-5vk.pages.dev
   type: trojan
-- name: 🇫🇷FR_948 - 1ms - 3ms - 2ms
+- name: 🇫🇷FR_948 - 1ms - 3ms - 2ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.152
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_519 - 15ms - 24ms - 21ms
+- name: 🇫🇷FR_519 - 15ms - 24ms - 21ms ...
   password: humanity
   port: 443
   server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_409 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_409 - 1ms - 1ms - 2ms - 5...
   password: humanity
   port: 443
   server: 104.17.111.3
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1180 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_1180 - 2ms - 1ms - 2ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 172.67.147.60
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_897 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_897 - 2ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 172.67.149.60
   sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_216 - 1ms - 1ms - 1ms - 7...
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_338 - 1ms - 1ms - 1ms - 5...
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_231 - 1ms - 1ms - 1ms - 5...
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_52 - 73ms - 20ms - 23ms -...
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  sni: vless.herogoing.top
+  type: trojan
+- name: 🇫🇷FR_606 - 25ms - 5ms - 6ms - ...
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: jquery.com
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
 - name: 🇫🇷FR_1168 - 203ms - 219ms - 19...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -706,53 +779,29 @@ proxies:
   server: cnamefuckxxs.yuchen.icu
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_216 - 1ms - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.16.174.44
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_52 - 73ms - 20ms - 23ms
-  password: bpb-trojan
-  port: 443
-  server: vless.herogoing.top
-  sni: vless.herogoing.top
-  type: trojan
-- name: 🇫🇷FR_338 - 1ms - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.16.174.72
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_231 - 1ms - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_606 - 25ms - 5ms - 6ms
-  password: 988sR-269PKCKlb&3pMrFTEr
-  port: 443
-  server: jquery.com
-  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
-  type: trojan
-- name: 🇫🇷FR_6 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_6 - 1ms - 1ms - 2ms - 6ms
   password: humanity
   port: 443
   server: 104.18.152.219
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1177 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1177 - 1ms - 1ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 162.159.3.212
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_230 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_230 - 1ms - 1ms - 1ms - 6...
   password: humanity
   port: 443
   server: 141.101.90.101
   sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_1024 - 1ms - 1ms - 1ms - ...
+  password: Telegram_healer_config
+  port: 443
+  server: 188.114.96.7
+  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
   type: trojan
 - name: 🇫🇷FR_1171 - 316ms - 316ms - 30...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -760,55 +809,55 @@ proxies:
   server: cf.877771.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_1024 - 1ms - 1ms - 1ms
-  password: Telegram_healer_config
-  port: 443
-  server: 188.114.96.7
-  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
-  type: trojan
-- name: 🇫🇷FR_404 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_404 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.175
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1279 - 16ms - 17ms - 17ms
+- name: 🇫🇷FR_1279 - 16ms - 17ms - 17ms...
   password: eb2b32c4-8844-4e79-8ec8-133a8a3aca3c
   port: 443
   server: yuzhenb886.dpdns.org
   sni: yuzhenb886.dpdns.org
   type: trojan
-- name: 🇫🇷FR_227 - 1ms - 2ms - 1ms
+- name: 🇫🇷FR_227 - 1ms - 2ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.16.174.6
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_214 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_214 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_402 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_402 - 1ms - 1ms - 2ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_359 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_359 - 2ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 86.38.214.205
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_735 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_735 - 2ms - 1ms - 1ms - 6...
   password: humanity
   port: 443
   server: 104.18.152.50
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_313 - 25ms - 16ms - 15ms
+- name: 🇫🇷FR_1247 - 1ms - 1ms - 1ms - ...
+  password: MiTiVPN
+  port: 443
+  server: 104.18.36.192
+  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+- name: 🇫🇷FR_313 - 25ms - 16ms - 15ms ...
   password: humanity
   port: 443
   server: ip.myip2.qzz.io
@@ -820,11 +869,17 @@ proxies:
   server: 2.144.21.112
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1247 - 1ms - 1ms - 1ms
-  password: MiTiVPN
+- name: 🇫🇷FR_483 - 2ms - 2ms - 1ms - 6...
+  password: humanity
   port: 443
-  server: 104.18.36.192
-  sni: hk1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 🇫🇷FR_28 - 1ms - 1ms - 1ms - 5m...
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.ignitelimit.com
   type: trojan
 - name: 🇫🇷FR_1167 - 456ms - 197ms - 21...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
@@ -832,176 +887,158 @@ proxies:
   server: cfip.1323123.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_483 - 2ms - 2ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_28 - 1ms - 1ms - 1ms
-  password: humanity
-  port: 443
-  server: 104.18.152.229
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_229 - 2ms - 1ms - 2ms
-  password: humanity
-  port: 443
-  server: 104.26.14.137
-  sni: www.ignitelimit.com
-  type: trojan
-- name: 🇫🇷FR_439 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_439 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.144
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1183 - 4ms - 1ms - 1ms
+- name: 🇫🇷FR_1183 - 4ms - 1ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 162.159.24.245
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_1266 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1266 - 1ms - 1ms - 1ms - ...
   password: humanity
   port: 443
   server: 104.17.111.4
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_12 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_12 - 2ms - 1ms - 1ms - 5m...
   password: humanity
   port: 443
   server: 104.16.174.121
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_232 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_232 - 1ms - 1ms - 1ms - 6...
   password: humanity
   port: 443
   server: 45.130.125.158
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1124 - 10ms - 14ms - 13ms
+- name: 🇫🇷FR_1124 - 10ms - 14ms - 13ms...
   password: Telegram_healer_config
   port: 443
   server: 6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev
   sni: 6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV
   type: trojan
-- name: 🇫🇷FR_1170 - 9ms - 14ms - 18ms
+- name: 🇫🇷FR_1170 - 9ms - 14ms - 18ms ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: cdn.tzpro.xyz
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_19 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_19 - 1ms - 1ms - 1ms - 6m...
   password: humanity
   port: 443
   server: 104.18.152.77
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_92 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_92 - 1ms - 1ms - 1ms - 7m...
   password: 988sR-269PKCKlb&3pMrFTEr
   port: 443
   server: 104.18.155.119
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
-- name: 🇫🇷FR_1165 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1165 - 1ms - 1ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 162.159.1.251
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_152 - 2ms - 1ms - 1ms
+- name: 🇫🇷FR_152 - 2ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1021 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1021 - 1ms - 1ms - 1ms - ...
   password: Telegram_healer_config
   port: 443
   server: 104.21.89.41
   sni: tO6r63-kkChIGHQM2.VxZ0dDUq7To7su0cdqf.wORKeRS.dEV
   type: trojan
-- name: 🇫🇷FR_228 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_228 - 1ms - 1ms - 2ms - 6...
   password: humanity
   port: 443
   server: 104.16.174.71
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1172 - 113ms - 2ms - 2ms
+- name: 🇫🇷FR_1172 - 113ms - 2ms - 2ms ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: xn--b6gac.eu.org
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_506 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_506 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1182 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_1182 - 2ms - 1ms - 2ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 172.64.35.127
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_24 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_24 - 1ms - 1ms - 1ms - 7m...
   password: humanity
   port: 443
   server: 104.18.152.143
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1174 - 2ms - 2ms - 1ms
+- name: 🇫🇷FR_1174 - 2ms - 2ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 104.21.84.3
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_449 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_449 - 1ms - 1ms - 1ms - 6...
   password: humanity
   port: 443
   server: 104.18.152.210
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1166 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1166 - 1ms - 1ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 162.159.4.103
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_1175 - 2ms - 3ms - 1ms
+- name: 🇫🇷FR_1175 - 2ms - 3ms - 1ms - ...
   password: 87961f9d-bee1-4377-826b-e169e7891c4f
   port: 443
   server: 104.25.241.194
   sni: yks-dd9.pages.dev
   type: trojan
-- name: 🇫🇷FR_123 - 2ms - 1ms - 2ms
+- name: 🇫🇷FR_123 - 2ms - 1ms - 2ms - 6...
   password: humanity
   port: 443
   server: 104.18.23.63
   skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1267 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_1267 - 1ms - 1ms - 1ms - ...
   password: humanity
   port: 443
   server: 104.26.15.137
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_943 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_943 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.16.174.12
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_515 - 1ms - 1ms - 2ms
+- name: 🇫🇷FR_515 - 1ms - 1ms - 2ms - 6...
   password: humanity
   port: 443
   server: 104.18.152.207
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_217 - 1ms - 1ms - 1ms
+- name: 🇫🇷FR_217 - 1ms - 1ms - 1ms - 5...
   password: humanity
   port: 443
   server: 104.18.152.187
@@ -1121,7 +1158,7 @@ proxies:
   server: 104.18.152.108
   sni: www.ignitelimit.com
   type: trojan
-- name: 🇫🇷FR_1167|195KB/s 01 - 4ms
+- name: 🇫🇷FR_1167|195KB/s 01 - 4ms - 5...
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
   server: 185.18.250.252
@@ -1151,13 +1188,15 @@ proxies:
   server: 172.67.132.19
   sni: VRE6R9qRbQI0t25TG.SRTB0M3hdbwr2cJZ8fjUr.WoRKeRS.dev
   type: trojan
-- alterId: 0
-  name: 🇫🇷FR法国
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  skip-cert-verify: true
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
+- name: 🇫🇷FR_1301|378KB/s|A001-260618 ...
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: 2096
+  server: jumao91.shop
+  sni: jumao91.shop
   type: trojan
-  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 法国/巴黎/France/Paris-4
+  password: pFNN9jKe8jwD
+  port: 32245
+  server: 38.180.92.242
+  type: ss

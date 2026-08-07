@@ -10,16 +10,7 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - encryption: none
   flow: ''
-  name: 🇹🇼TW_18 - 139ms - 139ms
-  network: ws
-  port: 443
-  server: 60.248.219.78
-  tls: true
-  type: vless
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-- encryption: none
-  flow: ''
-  name: 🇹🇼TW_9 - 138ms - 140ms
+  name: 🇹🇼TW_9 - 138ms - 140ms - 187ms
   network: tcp
   port: 10000
   server: 60.249.101.13
@@ -28,7 +19,7 @@ proxies:
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - encryption: none
   flow: ''
-  name: 🇹🇼TW_12 - 139ms - 139ms
+  name: 🇹🇼TW_12 - 139ms - 139ms - 195m...
   network: tcp
   port: 10000
   server: 60.249.101.16
@@ -36,7 +27,7 @@ proxies:
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_20 - 136ms - 135ms
+  name: 🇹🇼TW_20 - 136ms - 135ms - 193m...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 36.224.161.244
@@ -56,17 +47,3 @@ proxies:
   port: 50099
   server: R3MRCG00129437X.cybervena.com
   type: ss
-- name: 台湾/台北市/Taiwan/Taipei
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-- name: 台湾/台北市/Taiwan/Taipei-2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 103.115.109.49
-  skip-cert-verify: true
-  sni: https://t.me/oneclickvpnkeys
-  type: hysteria2

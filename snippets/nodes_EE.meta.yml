@@ -1,7 +1,7 @@
 proxies:
 - alterId: 1
   cipher: auto
-  name: 爱沙尼亚 001
+  name: '爱沙尼亚 001 #1'
   network: ws
   port: 8080
   server: 104.160.19.22
@@ -31,7 +31,7 @@ proxies:
   uuid: 631ee34f-4faf-4ad7-b49d-e6f50403cf0e
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_2 - 187ms - 209ms
+  name: 🇪🇪EE_2 - 187ms - 209ms - 111ms
   network: tcp
   port: 443
   server: 185.155.97.241
@@ -40,7 +40,7 @@ proxies:
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_1 - 218ms - 249ms
+  name: 🇪🇪EE_1 - 218ms - 249ms - 143ms
   network: tcp
   port: 443
   server: est.vrsvpn.com
@@ -49,7 +49,7 @@ proxies:
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_6 - 144ms - 147ms
+  name: 🇪🇪EE_6 - 144ms - 147ms - 93ms
   network: tcp
   port: 31845
   server: 95.85.228.84
@@ -58,7 +58,7 @@ proxies:
   uuid: 88652810-6723-4087-bc65-e7c65cb4fc90
 - encryption: none
   flow: ''
-  name: 爱沙尼亚_塔林 - 1ms - 1ms - 2ms
+  name: 爱沙尼亚_塔林 - 1ms - 1ms - 2ms - 6m...
   network: ws
   port: 8443
   server: 45.80.110.12
@@ -67,7 +67,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #1 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #1 - 1ms - 1ms - 1ms -...'
   network: ws
   port: 2087
   server: 45.80.110.130
@@ -76,7 +76,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #2 - 2ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #2 - 2ms - 1ms - 1ms -...'
   network: ws
   port: 8443
   server: 45.80.110.203
@@ -85,7 +85,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #3 - 2ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #3 - 2ms - 1ms - 1ms -...'
   network: ws
   port: 2083
   server: 45.80.110.209
@@ -94,7 +94,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #4 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #4 - 1ms - 1ms - 1ms -...'
   network: ws
   port: 2053
   server: 45.80.110.211
@@ -103,7 +103,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #5 - 1ms - 1ms - 2ms'
+  name: '爱沙尼亚_塔林 #5 - 1ms - 1ms - 2ms -...'
   network: ws
   port: 2087
   server: 45.80.110.212
@@ -112,7 +112,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #6 - 1ms - 5ms - 2ms'
+  name: '爱沙尼亚_塔林 #6 - 1ms - 5ms - 2ms -...'
   network: ws
   port: 8443
   server: 45.80.110.212
@@ -121,7 +121,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #7 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #7 - 1ms - 1ms - 1ms -...'
   network: ws
   port: 2087
   server: 45.80.110.215
@@ -130,7 +130,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #9 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #9 - 1ms - 1ms - 1ms -...'
   network: ws
   port: 2087
   server: 45.80.110.222
@@ -139,7 +139,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #10 - 1ms - 1ms - 2ms'
+  name: '爱沙尼亚_塔林 #10 - 1ms - 1ms - 2ms ...'
   network: ws
   port: 2053
   server: 45.80.110.223
@@ -148,7 +148,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #11 - 2ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #11 - 2ms - 1ms - 1ms ...'
   network: ws
   port: 2053
   server: 45.80.110.230
@@ -157,7 +157,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #12 - 2ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #12 - 2ms - 1ms - 1ms ...'
   network: ws
   port: 2087
   server: 45.80.110.230
@@ -166,7 +166,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #13 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #13 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 2053
   server: 45.80.110.238
@@ -175,7 +175,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #14 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #14 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 2087
   server: 45.80.110.241
@@ -184,7 +184,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #15 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #15 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 8443
   server: 45.80.110.245
@@ -193,16 +193,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #16 - 1ms - 2ms - 1ms'
-  network: ws
-  port: 8443
-  server: 45.80.110.2
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-- encryption: none
-  flow: ''
-  name: '爱沙尼亚_塔林 #17 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #17 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 2083
   server: 45.80.110.5
@@ -211,7 +202,16 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #18 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #16 - 1ms - 2ms - 1ms ...'
+  network: ws
+  port: 8443
+  server: 45.80.110.2
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+- encryption: none
+  flow: ''
+  name: '爱沙尼亚_塔林 #18 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 2087
   server: 45.80.110.84
@@ -220,7 +220,7 @@ proxies:
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
 - encryption: none
   flow: ''
-  name: '爱沙尼亚_塔林 #19 - 1ms - 1ms - 1ms'
+  name: '爱沙尼亚_塔林 #19 - 1ms - 1ms - 1ms ...'
   network: ws
   port: 2087
   server: 45.80.110.96
@@ -243,7 +243,7 @@ proxies:
   uuid: dc7940e0-6bff-45e3-853d-4007561803c3
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪EE_4 - 171ms - 169ms
+  name: 🇪🇪EE_4 - 171ms - 169ms - 131ms
   network: tcp
   port: 443
   server: 5.181.202.15
@@ -252,7 +252,7 @@ proxies:
   uuid: a03df445-0666-4d61-acde-9705009e409c
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇪🇪_EE_爱沙尼亚 - 241ms - 258ms
+  name: 🇪🇪_EE_爱沙尼亚 - 241ms - 258ms - 2...
   network: tcp
   port: 443
   server: eston3.o4ka-internet.com

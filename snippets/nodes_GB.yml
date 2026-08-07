@@ -5,8 +5,320 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- client-fingerprint: chrome
+  name: 法国/巴黎/France/Paris-3
+  network: tcp
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  skip-cert-verify: false
+  sni: great-krill.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
-  name: 🇺🇸US美国6
+  cipher: auto
+  name: US23 232.2MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: US 182.2MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '英国 005 #1'
+  network: ws
+  port: 443
+  server: panel.safeconfigmasoud.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f7983cd4-e487-4138-bde3-477ab31ba25d
+  ws-opts:
+    headers:
+      Host: panel.safeconfigmasoud.com
+    path: /nova-147299-vm
+- alterId: 0
+  cipher: auto
+  name: '英国 006 #1'
+  network: tcp
+  port: 30000
+  server: 158.94.216.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8306d734-79a7-4598-aba8-78206d345346
+- alterId: 0
+  cipher: auto
+  name: 英国(yudou789.top 玉豆免费节点)_55 - 6...
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 64
+  cipher: auto
+  name: '英国 008 #1'
+  network: h2
+  port: 443
+  server: 51.15.119.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
+- alterId: 0
+  cipher: auto
+  name: '英国 009 #1'
+  network: ws
+  port: 51611
+  server: 51.13.38.115
+  skip-cert-verify: true
+  type: vmess
+  uuid: 297f4b35-a321-44b9-8a90-2d486d1153c1
+  ws-opts:
+    headers:
+      Host: 51.13.38.115
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 010 #1'
+  network: ws
+  port: 2086
+  server: 85.113.71.85
+  skip-cert-verify: true
+  type: vmess
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 011 #1'
+  network: ws
+  port: 443
+  server: 45.85.118.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
+  ws-opts:
+    headers:
+      Host: hstr1675520106270.aidapp.life
+    path: /aidapp.lifevws
+- alterId: 64
+  cipher: auto
+  name: '英国 012 #1'
+  network: ws
+  port: 443
+  server: 217.138.197.171
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
+  ws-opts:
+    headers:
+      Host: www.29870011.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: '英国 013 #1'
+  network: ws
+  port: 30002
+  server: 83.142.225.57
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
+  ws-opts:
+    headers:
+      Host: www.52710324.xyz
+    path: /path/191019072927
+- alterId: 0
+  cipher: auto
+  name: '英国 014 #1'
+  network: ws
+  port: 80
+  server: ul-uae2.09vpn.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 7f52b81e-bc96-4772-8359-b7dacb216ca3
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '英国 015 #1'
+  network: ws
+  port: 443
+  server: 144.24.200.164
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '英国 016 #1'
+  network: ws
+  port: 80
+  server: eu-2.hihu.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ebc4fa0-ff27-11ef-b935-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /ch12y6ij
+- alterId: 0
+  cipher: auto
+  name: '英国 017 #1'
+  network: ws
+  port: 443
+  server: 185.162.228.228
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-opts:
+    headers:
+      Host: lg1.trump2023.us
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: '英国 018 #1'
+  network: ws
+  port: 443
+  server: 185.162.228.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: '英国 019 #1'
+  network: ws
+  port: 443
+  server: 185.162.228.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  ws-opts:
+    headers:
+      Host: lg10.cfcdn1.xyz
+    path: /A2DJOPFT
+- alterId: 4
+  cipher: auto
+  name: '英国 020 #1'
+  network: ws
+  port: 443
+  server: 146.70.46.68
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: uk-manchester.eiw2eemo.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: '英国 021 #1'
+  network: ws
+  port: 443
+  server: 158.180.228.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 022 #1'
+  network: ws
+  port: 443
+  server: 217.163.76.147
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 023 #1'
+  network: grpc
+  port: 443
+  server: 146.70.158.111
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 11ae0edd-2f63-4495-8683-037abbda9986
+- alterId: 0
+  cipher: auto
+  name: '英国 024 #1'
+  network: ws
+  port: 23451
+  server: frankfurt.faforex.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582
+  ws-opts:
+    headers:
+      Host: us-new03.daluquan.top
+    path: /itdog?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '英国 025 #1'
+  network: ws
+  port: 80
+  server: 213.35.113.150
+  skip-cert-verify: true
+  type: vmess
+  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 英国(yudou789.top 玉豆免费节点)_56 - 5...
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  name: 🇬🇧GB英国
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20088
   server: oplosgru-c.catcat321.com
@@ -16,7 +328,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇬🇧GB英国
+  name: 🇺🇸US美国
   network: tcp
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
@@ -27,7 +339,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-196 - 159ms - 155ms
+  name: 未知 SS-196 - 159ms - 155ms - 96...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.15
@@ -62,311 +374,9 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US3 257.8MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US11
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英国 005
-  network: ws
-  port: 443
-  server: panel.safeconfigmasoud.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f7983cd4-e487-4138-bde3-477ab31ba25d
-  ws-opts:
-    headers:
-      Host: panel.safeconfigmasoud.com
-    path: /nova-147299-vm
-- alterId: 0
-  cipher: auto
-  name: 未知62
-  network: tcp
-  port: 30000
-  server: 158.94.216.239
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8306d734-79a7-4598-aba8-78206d345346
-- alterId: 0
-  cipher: auto
-  name: US15 254.7MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 64
-  cipher: auto
-  name: 英国 008
-  network: h2
-  port: 443
-  server: 51.15.119.36
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05b6b25b-bb5d-4dcd-9710-31e374ffa584
-- alterId: 0
-  cipher: auto
-  name: 英国 009
-  network: ws
-  port: 51611
-  server: 51.13.38.115
-  skip-cert-verify: true
-  type: vmess
-  uuid: 297f4b35-a321-44b9-8a90-2d486d1153c1
-  ws-opts:
-    headers:
-      Host: 51.13.38.115
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 010
-  network: ws
-  port: 2086
-  server: 85.113.71.85
-  skip-cert-verify: true
-  type: vmess
-  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 011
-  network: ws
-  port: 443
-  server: 45.85.118.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ee30d3ff-da14-4ea8-bcd2-02e8ee3667de
-  ws-opts:
-    headers:
-      Host: hstr1675520106270.aidapp.life
-    path: /aidapp.lifevws
-- alterId: 64
-  cipher: auto
-  name: 英国 012
-  network: ws
-  port: 443
-  server: 217.138.197.171
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 435c978e-2f48-4194-8d04-38cc79a24421
-  ws-opts:
-    headers:
-      Host: www.29870011.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: 英国 013
-  network: ws
-  port: 30002
-  server: 83.142.225.57
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
-  ws-opts:
-    headers:
-      Host: www.52710324.xyz
-    path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: 英国 014
-  network: ws
-  port: 80
-  server: ul-uae2.09vpn.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7f52b81e-bc96-4772-8359-b7dacb216ca3
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 英国 015
-  network: ws
-  port: 443
-  server: 144.24.200.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 英国 016
-  network: ws
-  port: 80
-  server: eu-2.hihu.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1ebc4fa0-ff27-11ef-b935-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /ch12y6ij
-- alterId: 0
-  cipher: auto
-  name: 英国 017
-  network: ws
-  port: 443
-  server: 185.162.228.228
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  ws-opts:
-    headers:
-      Host: lg1.trump2023.us
-    path: /ECTCJ0DF
-- alterId: 0
-  cipher: auto
-  name: 英国 018
-  network: ws
-  port: 443
-  server: 185.162.228.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-  ws-opts:
-    headers:
-      Host: oplg1.cfcdn2.xyz
-    path: /AUIKN8AU
-- alterId: 0
-  cipher: auto
-  name: 英国 019
-  network: ws
-  port: 443
-  server: 185.162.228.230
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
-  ws-opts:
-    headers:
-      Host: lg10.cfcdn1.xyz
-    path: /A2DJOPFT
-- alterId: 4
-  cipher: auto
-  name: 英国 020
-  network: ws
-  port: 443
-  server: 146.70.46.68
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: uk-manchester.eiw2eemo.com
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 英国 021
-  network: ws
-  port: 443
-  server: 158.180.228.226
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 022
-  network: ws
-  port: 443
-  server: 217.163.76.147
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国 023
-  network: grpc
-  port: 443
-  server: 146.70.158.111
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 11ae0edd-2f63-4495-8683-037abbda9986
-- alterId: 0
-  cipher: auto
-  name: 英国 024
-  network: ws
-  port: 23451
-  server: frankfurt.faforex.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: 36fb7fe7-b1e7-4f65-a2d5-ce944d44f582
-  ws-opts:
-    headers:
-      Host: us-new03.daluquan.top
-    path: /itdog?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 英国 025
-  network: ws
-  port: 80
-  server: 213.35.113.150
-  skip-cert-verify: true
-  type: vmess
-  uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_56 - 8...
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: 英国(yudou789.top 玉豆免费节点)_23 - 2...
+  name: 英国(yudou789.top 玉豆免费节点)_23 - 3...
   network: tcp
   port: 30836
   server: v36.hdacd.com
@@ -375,7 +385,20 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '英国 009 #1 - 1ms'
+  name: 英国 005 - 195ms
+  network: ws
+  port: 443
+  server: panel.safeconfigmasoud.com
+  tls: true
+  type: vmess
+  uuid: f7983cd4-e487-4138-bde3-477ab31ba25d
+  ws-opts:
+    headers:
+      Host: panel.safeconfigmasoud.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 011 - 6ms
   network: ws
   port: 443
   server: 45.85.118.88
@@ -388,7 +411,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '英国 010 #1 - 164ms'
+  name: 英国 012 - 108ms
   network: ws
   port: 443
   server: 217.138.197.171
@@ -401,7 +424,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 014 #1 - 223ms'
+  name: 英国 016 - 177ms
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -414,7 +437,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 015 #1 - 1ms'
+  name: 英国 017 - 5ms
   network: ws
   port: 443
   server: 185.162.228.228
@@ -427,7 +450,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 016 #1 - 2ms'
+  name: 英国 018 - 5ms
   network: ws
   port: 443
   server: 185.162.228.110
@@ -440,7 +463,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 017 #1 - 1ms'
+  name: 英国 019 - 5ms
   network: ws
   port: 443
   server: 185.162.228.230
@@ -453,7 +476,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 020 #1 - 2ms'
+  name: 英国 022 - 5ms
   network: ws
   port: 443
   server: 217.163.76.147
@@ -466,7 +489,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国 023 #1 - 168ms'
+  name: 英国 025 - 2257ms
   network: ws
   port: 80
   server: 213.35.113.150
@@ -514,26 +537,26 @@ proxies:
   server: 82.38.31.49
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB_44 - 141ms - 138ms
+  name: 🇬🇧GB_44 - 141ms - 138ms - 84ms
   password: shadowsocks
   port: 443
   server: 158.173.24.73
   type: ss
 - cipher: aes-256-gcm
-  name: 英国/United Kingdom
+  name: 英国/United Kingdom - 83ms
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
 - cipher: rc4-md5
-  name: 🇬🇧GB_2 - 135ms - 144ms
+  name: 英国/金丝雀码头/United Kingdom/Canary...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
   type: ss
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #6 - 1ms - 1ms - 1ms'
+  name: '英国_伦敦 #6 - 1ms - 1ms - 1ms - 6...'
   network: ws
   port: 2086
   server: 172.64.233.43
@@ -546,7 +569,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #8 - 1ms - 1ms - 1ms'
+  name: '英国_伦敦 #8 - 1ms - 1ms - 1ms - 6...'
   network: ws
   port: 2086
   server: 172.64.233.17
@@ -559,7 +582,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #7 - 1ms - 1ms - 1ms'
+  name: '英国_伦敦 #7 - 1ms - 1ms - 1ms - 6...'
   network: ws
   port: 2086
   server: 172.64.233.7
@@ -572,7 +595,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #10 - 1ms - 1ms - 1ms'
+  name: '英国_伦敦 #10 - 1ms - 1ms - 1ms - ...'
   network: ws
   port: 2086
   server: 172.64.233.32
@@ -585,7 +608,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #9 - 1ms - 1ms - 2ms'
+  name: '英国_伦敦 #9 - 1ms - 1ms - 2ms - 5...'
   network: ws
   port: 2086
   server: 172.64.233.27
@@ -598,7 +621,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '英国_伦敦 #11 - 1ms - 1ms - 2ms'
+  name: '英国_伦敦 #11 - 1ms - 1ms - 2ms - ...'
   network: ws
   port: 2086
   server: 172.64.233.35
@@ -611,7 +634,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 028 - 1ms - 1ms - 1ms
+  name: 英国 028 - 1ms - 1ms - 1ms - 6ms
   network: ws
   port: 443
   server: 185.162.228.229
@@ -623,15 +646,7 @@ proxies:
       Host: 185.162.228.229
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 NL 099 | ⬇️ 505KB/s
-  password: nfqXKhEmvHdOUVqFyNLnvx
-  port: 5228
-  server: creativeboxnl2.zanity.net
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_36|405KB/s 01 - 168ms
+  name: 🇬🇧GB_36|405KB/s 01 - 168ms - 1...
   password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
   port: 8388
   server: 31.76.80.205

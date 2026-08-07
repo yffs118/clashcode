@@ -1,38 +1,30 @@
 proxies:
-- name: 'KR韓國丨yoyapai.com #2 - 130ms - ...'
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 211.49.57.179
-  skip-cert-verify: true
-  sni: tjsp.hhxaf.cc.cd
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 韩国(免费节点)_1
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 118.218.10.159
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: hhtj.hhllfly.kdns.fr
-    path: /
+- cipher: aes-256-cfb
+  name: kr|9179|puddincat07@Telegram -...
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
-  name: 🇰🇷KR_61 - 163ms - 144ms
+  name: 🇰🇷KR_61 - 163ms - 144ms - 197m...
   network: tcp
   password: ND91608427
   port: 443
   server: chief-bluegill.rooster465.autos
   skip-cert-verify: true
   sni: chief-bluegill.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇰🇷KR_51 - 137ms - 147ms - 196m...
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -71,7 +63,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: 韩国 007
+  name: '韩国 007 #1'
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -84,7 +76,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 008
+  name: '韩国 008 #1'
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -97,7 +89,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 009
+  name: '韩国 009 #1'
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -110,7 +102,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 010
+  name: '韩国 010 #1'
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -124,7 +116,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: 韩国 011
+  name: '韩国 011 #1'
   network: ws
   port: 443
   server: 202.79.161.188
@@ -138,7 +130,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 012
+  name: '韩国 012 #1'
   network: ws
   port: 443
   server: 202.79.160.243
@@ -152,7 +144,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 韩国 013
+  name: '韩国 013 #1'
   network: ws
   port: 443
   server: 202.79.160.164
@@ -166,7 +158,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 014
+  name: '韩国 014 #1'
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -180,7 +172,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 015
+  name: '韩国 015 #1'
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -194,7 +186,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 016
+  name: '韩国 016 #1'
   network: ws
   port: 80
   server: 92.223.61.25
@@ -205,30 +197,42 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /
-- cipher: aes-256-cfb
-  name: kr|9179|puddincat07@Telegram -...
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  name: '韩国 001 #1 - 129ms'
-  network: ws
-  port: 80
-  server: 132.145.80.230
+- name: 'KR韓國丨yoyapai.com #2 - 130ms - ...'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
   tls: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 132.145.80.230
+      Host: tjsp.hhxaf.cc.cd
     path: /
+- name: 韩国(免费节点)_1
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 118.218.10.159
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: hhtj.hhllfly.kdns.fr
+    path: /
+- name: 韩国(免费节点)_1 - 187ms
+  password: '!!str 521314'
+  port: 443
+  server: 118.218.10.159
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '韩国 005 #1 - 129ms'
+  name: 韩国 010 - 171ms
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -239,13 +243,6 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /
-- name: 韩国(免费节点)_1 - 129ms - 130ms
-  password: '!!str 521314'
-  port: 443
-  server: 118.218.10.159
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.67.218.38-0204 | 0.0M...
@@ -272,7 +269,7 @@ proxies:
   server: 211.178.105.134
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR_22 - 277ms - 401ms
+  name: 🇰🇷KR_22 - 277ms - 401ms - 455m...
   password: qwerREWQ@@
   port: 4652
   server: p141.panda001.net
@@ -283,69 +280,55 @@ proxies:
   port: 4652
   server: 218.237.185.230
   type: ss
-- name: 🇰🇷KR_66 - 133ms - 133ms
+- name: 🇰🇷KR_66 - 133ms - 133ms - 184m...
   password: ND91608427
   port: 443
   server: 3.36.59.34
   skip-cert-verify: true
   sni: select-ferret.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_60 - 133ms - 147ms
+- name: 🇰🇷KR_60 - 133ms - 147ms - 184m...
   password: ND91608427
   port: 443
   server: 43.201.46.108
   skip-cert-verify: true
   sni: exotic-chow.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_57 - 133ms - 133ms
+- name: 🇰🇷KR_57 - 133ms - 133ms - 185m...
   password: ND91608427
   port: 443
   server: 43.203.119.20
   sni: uncommon-feline.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_69 - 133ms - 133ms
+- name: 🇰🇷KR_69 - 133ms - 133ms - 190m...
   password: ND91608427
   port: 443
   server: 52.78.13.238
   skip-cert-verify: true
   sni: upward-puma.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_42 - 137ms - 137ms
+- name: 🇰🇷KR_42 - 137ms - 137ms - 192m...
   password: ND91608427
   port: 443
   server: communal-sunbird.rooster465.autos
   skip-cert-verify: true
   sni: communal-sunbird.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_63 - 160ms - 139ms
+- name: 🇰🇷KR_63 - 160ms - 139ms - 209m...
   password: ND91608427
   port: 443
   server: grateful-owl.rooster465.autos
   skip-cert-verify: true
   sni: grateful-owl.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_58 - 141ms - 144ms
-  password: ND91608427
-  port: 443
-  server: intimate-moray.rooster465.autos
-  skip-cert-verify: true
-  sni: intimate-moray.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR_45 - 137ms - 145ms
+- name: 🇰🇷KR_45 - 137ms - 145ms - 296m...
   password: ND91608427
   port: 443
   server: main-whippet.rooster465.autos
   skip-cert-verify: true
   sni: main-whippet.rooster465.autos
   type: trojan
-- name: 🇰🇷KR_62 - 138ms - 137ms
-  password: ND91608427
-  port: 443
-  server: pure-ram.rooster465.autos
-  skip-cert-verify: true
-  sni: pure-ram.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR_52 - 136ms - 143ms
+- name: 🇰🇷KR_52 - 136ms - 143ms - 323m...
   password: ND91608427
   port: 443
   server: upward-puma.rooster465.autos
@@ -354,7 +337,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 韩国 012 - 129ms - 129ms - 129ms
+  name: 韩国 012 - 129ms - 129ms - 129ms...
   network: tcp
   port: 443
   server: 140.238.2.250
@@ -363,14 +346,21 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-2
-  port: 443
-  server: 140.238.2.250
+  name: 韩国/春川市/South Korea/Chuncheon
+  port: 8888
+  server: 146.56.112.110
   type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - alterId: 0
   cipher: auto
-  name: 韩国/春川市/South Korea/Chuncheon
+  name: 韩国/首尔特别市/South Korea/Seoul-2
+  port: 80
+  server: 217.142.138.61
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 韩国/春川市/South Korea/Chuncheon-2
   network: ws
   port: 443
   server: 152.67.218.38
@@ -381,7 +371,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul-3
-  port: 80
-  server: 217.142.138.61
+  port: 443
+  server: 140.238.2.250
   type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
