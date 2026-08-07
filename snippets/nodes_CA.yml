@@ -36,6 +36,31 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: 🇨🇦_CA_加拿大
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: teams.microsoft.com
+    path: /
+- name: 美国(免费节点)_113
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /in-pdr
+- alterId: 0
+  cipher: auto
   name: US9
   network: tcp
   port: 22324
@@ -565,31 +590,6 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: teams.microsoft.com
-    path: /
-- name: 美国(免费节点)_113
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /in-pdr
 - name: 🇨🇦 CA 10 → tg@nicevpn123 - 2ms...
   password: dGKXcHgs3P
   port: 80

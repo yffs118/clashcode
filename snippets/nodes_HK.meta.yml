@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #4'
+  name: '🇭🇰_HK_中国香港_1 #5'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: true
@@ -9,7 +9,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港3|@ripaojiedian
+- name: 美国 001
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17111
@@ -17,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 美国 002
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -25,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 美国 003
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -33,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 日本|@ripaojiedian
+- name: 美国 004
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -96,7 +96,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 美国3|@ripaojiedian
+- name: 美国 010
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -114,6 +114,69 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 🇭🇰 HK VLESS-1332 | free-nodes
+  network: tcp
+  port: 443
+  server: s299.sspcccdn.xyz
+  servername: u695099uccbf75e5s298.wagahaha.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: ccbf75e5s298.wagahaha.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 🇭🇰 HK VLESS-1368 | free-nodes
+  network: tcp
+  port: 443
+  server: s306.gogocs.xyz
+  servername: u695099uccbf75e5s298.wagahaha.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: ccbf75e5s298.wagahaha.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 🇭🇰 HK VLESS-1376 | free-nodes
+  network: tcp
+  port: 443
+  server: 212.192.15.191
+  servername: u695099uccbf75e5s298.wagahaha.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: ccbf75e5s298.wagahaha.xyz
+    path: ''
 - name: '香港丨yoyapai.com #2'
   password: 65fQmPHHbPcBCfvSHt
   port: 443
@@ -144,6 +207,22 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 中国 015
+  network: ws
+  port: 443
+  server: 221.204.41.88
+  servername: speeches-obligations-view-epinions.trycloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+  ws-opts:
+    headers:
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - name: '🇭🇰HK香港丨yoyapai.com #2'
   network: ws
   port: 80
@@ -231,6 +310,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 日本 002
+  network: ws
+  port: 443
+  server: 91.193.58.93
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
 - name: '🇭🇰HK香港節點丨yoyapai.com_1 #2'
   network: ws
   port: 443
@@ -301,97 +394,6 @@ proxies:
     path: /pyip=Telegram🇨🇳+@WangCai2
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) - 110...
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  skip-cert-verify: true
-  sni: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: chrome
-  name: 'HK香港(mibei77.com 米贝节点分享)_1 #2'
-  network: ws
-  port: 11019
-  server: 211.104.99.209
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
-  ws-opts:
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-    path: /@Marisa_kristi
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK VLESS-1336 | free-nodes
-  network: tcp
-  port: 443
-  server: s299.sspcccdn.xyz
-  servername: u695099uccbf75e5s298.wagahaha.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK VLESS-1372 | free-nodes
-  network: tcp
-  port: 443
-  server: s306.gogocs.xyz
-  servername: u695099uccbf75e5s298.wagahaha.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇭🇰 HK VLESS-1380 | free-nodes
-  network: tcp
-  port: 443
-  server: 212.192.15.191
-  servername: u695099uccbf75e5s298.wagahaha.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- alterId: 0
-  cipher: auto
-  name: HK11 39.0KB/s
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: HK7 13.6KB/s
   network: ws
   port: 443
@@ -403,19 +405,6 @@ proxies:
   ws-opts:
     headers:
       host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: '0'
-  cipher: auto
-  name: 香港(免费节点)_4
-  network: ws
-  port: '443'
-  server: mh7r5ardl0z5jtgy.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: mh7R5ArdL0z5jTGY.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -430,20 +419,6 @@ proxies:
   ws-opts:
     headers:
       host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: HK21
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: ejOMsxPtP19APyGL.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -535,6 +510,38 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 5077
+  server: 18.166.178.12
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29444
+  server: 16.162.161.131
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 🇭🇰HK_2|2.7MB/s
+  password: <password>
+  port: 8443
+  server: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
+  sni: 2520dda7-tcxds0-tgzvop-hns7.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
 - encryption: none
   flow: ''
   name: 香港_1 - 218ms
@@ -1082,6 +1089,20 @@ proxies:
   tls: false
   type: vless
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- alterId: 0
+  cipher: auto
+  name: HK香港(mibei77.com 米贝节点分享) - 110...
+  network: ws
+  port: 443
+  server: 210.138.37.53
+  sni: DrBKg16eGf3FZlM3.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: DrBKg16eGf3FZlM3.v.3dns.vip
+    path: /ws-vmess
 - encryption: none
   flow: ''
   name: 🇭🇰 香港 04 - 152ms

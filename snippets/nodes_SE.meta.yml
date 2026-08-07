@@ -1,4 +1,119 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 'Node #60 - 164ms - 166ms'
+  network: tcp
+  port: 8443
+  server: 45.159.12.191
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  encryption: none
+  flow: ''
+  name: 'Node #105 - 163ms - 171ms'
+  network: tcp
+  port: 8443
+  server: 79.127.249.221
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: 'Node #62 - 164ms - 165ms'
+  network: tcp
+  port: 8443
+  server: 45.159.12.4
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: 'Node #79 - 164ms - 164ms'
+  network: tcp
+  port: 8443
+  server: 45.159.12.18
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: 'Node #2 - 166ms - 172ms'
+  network: tcp
+  port: 8443
+  server: 45.159.12.15
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 'SE瑞典丨yoyapai.com #2'
+  network: ws
+  port: 80
+  server: 151.101.84.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: vlgrpc
+  name: 瑞典/斯德哥尔摩/Sweden/Stockholm-2
+  network: grpc
+  port: 443
+  server: srv-5728.atlanta-games.com
+  servername: srv-5728.atlanta-games.com
+  sub_tag: noCache
+  tls: true
+  type: vless
+  udp: true
+  uuid: 843b7f51-16cc-42ca-a047-8d32879ff1e5
+  xudp: true
+- encryption: none
+  flow: ''
+  name: 🇸🇪SE_3 | ⬇️ 3.2MB/s - 187ms - ...
+  network: tcp
+  port: 443
+  server: secdn17.suio.me
+  servername: secdn17.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- grpc-opts:
+    grpc-service-name: JNIR
+  name: 未知VLESS-49|free-nodes
+  network: grpc
+  port: 504
+  server: dd.openaccessnode.com
+  servername: nobitex.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - alterId: 0
   cipher: auto
   name: 瑞典 001
@@ -90,21 +205,6 @@ proxies:
   ws-opts:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-1238 | free-nodes
-  network: ws
-  port: 80
-  server: myvpshosting.name.ng
-  servername: myvpshosting.name.ng
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
-  ws-opts:
-    headers:
-      Host: myvpshosting.name.ng
     path: /
 - alterId: 64
   cipher: auto
@@ -359,139 +459,6 @@ proxies:
     headers:
       Host: 4.v.v.V-_-_-V2ray-_-_-V.v.v.v.www.speedtest.net.www.zula.ir.vu.cloudflare.com.mashtimJi.iR.
     path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: 'Node #60 - 164ms - 166ms'
-  network: tcp
-  port: 8443
-  server: 45.159.12.191
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: 'Node #105 - 163ms - 171ms'
-  network: tcp
-  port: 8443
-  server: 79.127.249.221
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: 'Node #62 - 164ms - 165ms'
-  network: tcp
-  port: 8443
-  server: 45.159.12.4
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: 'Node #79 - 164ms - 164ms'
-  network: tcp
-  port: 8443
-  server: 45.159.12.18
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: 'Node #2 - 166ms - 172ms'
-  network: tcp
-  port: 8443
-  server: 45.159.12.15
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 'SE瑞典丨yoyapai.com #2'
-  network: ws
-  port: 80
-  server: 151.101.84.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: ''
-  http-opts:
-    path:
-    - /api/v1/data
-  name: '瑞典 #2 - 154ms - 166ms'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
-  server: 84.32.99.238
-  servername: recaptcha.net.cn
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vlgrpc
-  name: 瑞典/斯德哥尔摩/Sweden/Stockholm-2
-  network: grpc
-  port: 443
-  server: srv-5728.atlanta-games.com
-  servername: srv-5728.atlanta-games.com
-  sub_tag: noCache
-  tls: true
-  type: vless
-  udp: true
-  uuid: 843b7f51-16cc-42ca-a047-8d32879ff1e5
-  xudp: true
-- encryption: none
-  flow: ''
-  name: 🇸🇪SE_3 | ⬇️ 3.2MB/s - 187ms - ...
-  network: tcp
-  port: 443
-  server: secdn17.suio.me
-  servername: secdn17.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- grpc-opts:
-    grpc-service-name: JNIR
-  name: 未知VLESS-49|free-nodes
-  network: grpc
-  port: 504
-  server: dd.openaccessnode.com
-  servername: nobitex.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - alterId: 0
   cipher: auto
   name: '瑞典 001 #1 - 1ms'
@@ -611,6 +578,15 @@ proxies:
   tls: true
   type: vless
   uuid: d7b9d64c-1f9d-496d-b12d-e86da0e6eb1c
+- encryption: none
+  flow: ''
+  name: '瑞典 #2 - 154ms - 166ms'
+  network: xhttp
+  port: 443
+  server: 84.32.99.238
+  tls: true
+  type: vless
+  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
 - encryption: none
   flow: ''
   name: 瑞典/Sweden - 184ms - 169ms
