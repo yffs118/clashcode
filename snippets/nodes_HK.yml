@@ -9,37 +9,32 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '美国 001 #1'
+- alterId: 0
+  name: 🇭🇰HK香港
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17111
-  server: 18.163.100.58
+  port: 5077
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
-- name: '美国 002 #1'
+  udp: true
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 50115
-  server: 16.162.3.64
+  port: 27161
+  server: 43.198.209.68
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '美国 003 #1'
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 16.162.3.64
+  port: 29444
+  server: 16.162.161.131
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '美国 004 #1'
-  network: tcp
-  password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
   name: 🇯🇵JP日本2
@@ -68,6 +63,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -87,17 +90,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '美国 010 #1'
-  network: tcp
-  password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #5 - 334ms'
+  name: 🇭🇰_香港_142 - 328ms
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -105,33 +100,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  name: 🇭🇰HK香港
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 5077
-  server: 18.166.178.12
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: 香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 43.198.209.68
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29444
-  server: 16.162.161.131
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '香港丨yoyapai.com #2'
   password: 65fQmPHHbPcBCfvSHt
   port: 443
@@ -160,6 +128,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: HK23 1.8KB/s
+  network: ws
+  port: 443
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
   name: HK 24.9KB/s
   network: ws
   port: 443
@@ -171,6 +153,19 @@ proxies:
   ws-opts:
     headers:
       host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: '0'
+  cipher: auto
+  name: 香港(免费节点)_4
+  network: ws
+  port: '443'
+  server: mh7r5ardl0z5jtgy.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      host: mh7R5ArdL0z5jTGY.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -185,6 +180,19 @@ proxies:
   ws-opts:
     headers:
       host: vah4urdzl3jdx5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: '0'
+  cipher: auto
+  name: 香港(免费节点)_6
+  network: ws
+  port: '443'
+  server: ejomsxptp19apygl.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      host: ejOMsxPtP19APyGL.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
@@ -244,167 +252,6 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong - 88...
-  network: ws
-  port: 443
-  server: 6jdvarazgu3qqr6q.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6jdvarazgu3qqr6q.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-7 - ...
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: drbkg16egf3fzlm3.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-9 - ...
-  network: ws
-  port: 443
-  server: nycqg19zkwacpm1b.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-5 - ...
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qtkdr8jxe3wefxjm.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-10 -...
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
-    path: /
-- name: 🇭🇰 HK 9 → tg@nicevpn123 - 373m...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: hkjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-- name: 🇭🇰 HK 10 → tg@nicevpn123 - 379...
-  password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
-  port: 443
-  server: chjs.lydurlclub.top
-  skip-cert-verify: true
-  type: trojan
-- name: Hong Kong_Central_trojan_1143 ...
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-hk-2.gocmydns.com
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '香港/香港/Hong Kong/Hong Kong-7 - ... #1'
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  tls: false
-  type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
-- name: 🇭🇰 HK 203 | ⬇️ 18MB/s - 27ms -...
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-- name: 🇭🇰 HK 778 | ⬇️ 1MB/s - 1ms - 1...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-- name: 🇭🇰HK-185.244.208.210-19 - 297m...
-  password: 订阅内容解析错误订阅内容解析错误ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-- name: 🇭🇰 HK 719 | ⬇️ 3MB/s - 2ms - 1...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-- name: 🇭🇰 HK 775 | ⬇️ 727KB/s - 2ms -...
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.16.252.34
-  sni: yks-dd9.pages.dev
-  type: trojan
-- name: 🇭🇰 香港 17 - 171ms - 371ms
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: 443
-  server: kaizen-hk-3.gocmydns.com
-  sni: www.zueuqnpjvcllc.co
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) - 177...
-  network: ws
-  port: 443
-  server: 210.138.37.53
-  sni: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 14 - 781ms
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-5
   network: ws
   port: 443
@@ -417,83 +264,6 @@ proxies:
   ws-opts:
     headers:
       Host: wwafj5LHl6bI8aU9.v.3dns.vip
-    path: /ws-vmess
-- name: 🇭🇰 HK 203 | ⬇️ 18MB/s
-  network: ws
-  password: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
-  port: 443
-  server: cdn2.bpcdn.cc
-  skip-cert-verify: true
-  sni: 9l3ysxf7rj3nz549.tkgogocsgo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 9l3ysxf7rj3nz549.tkgogocsgo.top
-    path: /images
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 279 | ⬇️ 3KB/s
-  network: ws
-  port: 443
-  server: 47.92.245.88
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-    path: /ws-vmess
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 778 | ⬇️ 1MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.66.173.172
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 719 | ⬇️ 3MB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.25.242.132
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  name: 🇭🇰 HK 775 | ⬇️ 727KB/s
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 104.16.252.34
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    max-early-data: 2048
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 777 | ⬇️ 15KB/s
-  network: ws
-  port: 443
-  server: 47.92.245.88
-  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto

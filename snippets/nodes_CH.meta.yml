@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '瑞士 001 #1'
+  name: 瑞士 001
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -14,7 +14,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '瑞士 002 #1'
+  name: 瑞士 002
   network: ws
   port: 443
   server: 140.238.212.95
@@ -27,9 +27,8 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '瑞士 003 #1 - 173ms - 113ms'
+  name: 瑞士 003
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -40,7 +39,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-- name: '瑞士 004 #1'
+- name: 瑞士 004
   network: tcp
   port: 62145
   server: 141.148.235.203
@@ -51,7 +50,7 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: '瑞士 005 #1'
+  name: 瑞士 005
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -66,7 +65,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: '瑞士 006 #1'
+- name: 瑞士 006
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -76,9 +75,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- encryption: none
-  flow: ''
-  name: '瑞士 006 #1 - 218ms - 162ms'
+- name: 瑞士 007
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -95,10 +92,7 @@ proxies:
   server: 84.17.53.163
   type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: 'Node #47 - 157ms - 159ms - 103...'
-  network: tcp
+  name: '瑞士丨yoyapai.com #2'
   port: 443
   reality-opts:
     public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
@@ -180,37 +174,3 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-- name: 🇨🇭CH_3 - 160ms - 154ms - 96ms
-  password: y3b03zx3tznhyo538p4c
-  port: 53261
-  server: 86.106.84.195
-  skip-cert-verify: true
-  sni: 86.106.84.195
-  type: trojan
-- encryption: none
-  flow: ''
-  name: 🇨🇭CH_8 - 155ms - 159ms - 152ms...
-  network: ws
-  port: 443
-  server: 91.245.225.17
-  tls: true
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_4 - 155ms - 159ms - 155ms...
-  network: tcp
-  port: 443
-  server: 178.83.226.55
-  tls: true
-  type: vless
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭_CH_瑞士_2 - 414ms - 237ms
-  network: tcp
-  port: 443
-  server: nl1.samovargate.com
-  tls: true
-  type: vless
-  uuid: 82b5b465-3307-4a25-acef-abd1649bbedf
