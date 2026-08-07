@@ -1,18 +1,15 @@
 proxies:
-- name: '瑞士 001 #1'
+- name: 瑞士 001
   network: tcp
   port: 62145
   server: 141.148.236.62
-  skip-cert-verify: false
-  tfo: false
-  tls: false
   type: vless
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '瑞士 002 #1'
+  name: 瑞士 002
   network: ws
   port: 8080
   server: 64.110.66.235
@@ -25,7 +22,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '瑞士 003 #1'
+  name: 瑞士 003
   network: ws
   port: 443
   server: 140.238.212.95
@@ -38,9 +35,8 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: 瑞士 003 - 161ms - 143ms
+  name: 瑞士 004
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -51,7 +47,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-- name: '瑞士 005 #1'
+- name: 瑞士 005
   network: tcp
   port: 62145
   server: 141.148.241.72
@@ -62,9 +58,7 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: '瑞士 006 #1 - 128ms'
+  name: 瑞士 006
   network: xhttp
   port: 443
   server: 193.247.82.92
@@ -76,7 +70,7 @@ proxies:
   udp: true
   uuid: c5c55441-6b1d-4a44-aa35-da5a015e7df9
 - client-fingerprint: chrome
-  name: '瑞士 007 #1'
+  name: 瑞士 007
   network: ws
   port: 2053
   server: 185.195.69.119
@@ -91,7 +85,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: '瑞士 008 #1'
+- name: 瑞士 008
   network: tcp
   port: 2551
   server: 178.83.157.130
@@ -101,9 +95,7 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- encryption: none
-  flow: ''
-  name: 瑞士 007 - 216ms - 198ms
+- name: 瑞士 009
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -120,10 +112,7 @@ proxies:
   server: 84.17.53.163
   type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: '瑞士丨yoyapai.com #2 - 153ms - 12...'
-  network: tcp
+  name: '瑞士丨yoyapai.com #2'
   port: 443
   reality-opts:
     public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
@@ -227,12 +216,3 @@ proxies:
   type: hysteria2
   udp: true
   up: ''
-- encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇭_CH_瑞士 - 338ms - 317ms
-  network: tcp
-  port: 443
-  server: nl1.samovargate.com
-  tls: true
-  type: vless
-  uuid: 82b5b465-3307-4a25-acef-abd1649bbedf
