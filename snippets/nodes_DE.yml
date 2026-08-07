@@ -16,79 +16,15 @@ proxies:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4|4.3MB/s
+  name: 🇩🇪DE_4|4.3MB/s - 149ms
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
+  port: 59924
   server: 130.61.102.202
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 德国 001
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: 54.93.54.137
-  skip-cert-verify: false
-  sni: informed-alpaca.rooster465.autos
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 德国 002
-  network: tcp
-  port: 443
-  server: 46.183.187.73
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 92a048ec-a160-497e-8069-c2e902626d7a
 - alterId: 0
   cipher: auto
-  name: 未知116
-  network: tcp
-  port: 4452
-  server: x2.mehradservice.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 389625c7-c891-4f61-9f98-478058744ada
-- alterId: 0
-  cipher: auto
-  name: 未知94
-  network: tcp
-  port: 18003
-  server: 91.107.157.137
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
-- alterId: 0
-  cipher: auto
-  name: 未知61
-  network: tcp
-  port: 1020
-  server: nlt.reata.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-- alterId: 0
-  cipher: auto
-  name: 德国 006
-  network: ws
-  port: 443
-  server: sgp.kapok.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
-  ws-opts:
-    headers:
-      Host: sgp.kapok.buzz
-    path: /4befdd8a6/
-- alterId: 0
-  cipher: auto
-  name: 德国 007
+  name: '德国 004 #1'
   network: ws
   port: 80
   server: 159.89.29.136
@@ -100,9 +36,90 @@ proxies:
     headers:
       Host: cx.com
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 未知52
+  network: tcp
+  port: 1020
+  server: nlt.reata.ir
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+- alterId: 0
+  cipher: auto
+  name: 未知59
+  network: tcp
+  port: 18003
+  server: 91.107.157.137
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e41f1455-24f5-4d28-9588-a2cba790171c
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 未知60
+  network: tcp
+  port: 443
+  server: 46.183.187.73
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 92a048ec-a160-497e-8069-c2e902626d7a
+- alterId: 0
+  cipher: auto
+  name: 未知120
+  network: tcp
+  port: 2053
+  server: de.connfull.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 169168a8-a59d-4f35-9f2f-612b0c76eeec
+- alterId: 0
+  cipher: auto
+  name: 未知127
+  network: tcp
+  port: 8585
+  server: 165.227.138.218
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
+- alterId: 0
+  cipher: auto
+  name: 德国(yudou789.top 玉豆免费节点) - 145m...
+  network: ws
+  port: 443
+  server: 18.197.218.69
+  skip-cert-verify: true
+  sni: apjhdggyx.com
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- alterId: 0
+  cipher: auto
+  name: '德国 011 #1'
+  network: ws
+  port: 443
+  server: sgp.kapok.buzz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  ws-opts:
+    headers:
+      Host: sgp.kapok.buzz
+    path: /4befdd8a6/
 - alterId: 1
   cipher: auto
-  name: 德国 008
+  name: '德国 012 #1'
   network: ws
   port: 8080
   server: 130.61.253.111
@@ -115,7 +132,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 德国 009
+  name: '德国 013 #1'
   network: ws
   port: 8880
   server: 185.16.110.212
@@ -128,7 +145,7 @@ proxies:
     path: /dabai
 - alterId: 0
   cipher: auto
-  name: 德国 010
+  name: '德国 014 #1'
   network: ws
   port: 443
   server: 141.94.155.224
@@ -142,7 +159,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 德国 011
+  name: '德国 015 #1'
   network: ws
   port: 443
   server: 141.94.155.228
@@ -156,7 +173,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 德国 012
+  name: '德国 016 #1'
   network: ws
   port: 443
   server: 141.94.155.229
@@ -170,7 +187,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 德国 013
+  name: '德国 017 #1'
   network: ws
   port: 443
   server: 141.95.126.134
@@ -184,7 +201,7 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 德国 014
+  name: '德国 018 #1'
   network: ws
   port: 443
   server: ua-full.privateip.net
@@ -198,7 +215,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 015
+  name: '德国 019 #1'
   network: ws
   port: 443
   server: us-full.privateip.net
@@ -212,7 +229,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 016
+  name: '德国 020 #1'
   network: ws
   port: 443
   server: jp-full.privateip.net
@@ -226,7 +243,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 017
+  name: '德国 021 #1'
   network: ws
   port: 443
   server: de2-full.privateip.net
@@ -240,7 +257,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 018
+  name: '德国 022 #1'
   network: ws
   port: 443
   server: kz-full.privateip.net
@@ -254,7 +271,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 019
+  name: '德国 023 #1'
   network: ws
   port: 443
   server: nl2-full.privateip.net
@@ -268,7 +285,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 020
+  name: '德国 024 #1'
   network: ws
   port: 443
   server: tr-full.privateip.net
@@ -282,7 +299,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 021
+  name: '德国 025 #1'
   network: ws
   port: 443
   server: it-full.privateip.net
@@ -296,7 +313,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 022
+  name: '德国 026 #1'
   network: ws
   port: 443
   server: de-full.privateip.net
@@ -310,7 +327,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 023
+  name: '德国 027 #1'
   network: ws
   port: 443
   server: fr-full.privateip.net
@@ -324,7 +341,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 024
+  name: '德国 028 #1'
   network: ws
   port: 443
   server: 185.135.9.208
@@ -338,7 +355,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 德国 025
+  name: '德国 029 #1'
   network: ws
   port: 443
   server: in-full.privateip.net
@@ -352,7 +369,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 026
+  name: '德国 030 #1'
   network: ws
   port: 443
   server: nl-full.privateip.net
@@ -366,7 +383,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 027
+  name: '德国 031 #1'
   network: ws
   port: 443
   server: hk-full.privateip.net
@@ -380,7 +397,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 028
+  name: '德国 032 #1'
   network: ws
   port: 443
   server: ca-full.privateip.net
@@ -394,7 +411,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 029
+  name: '德国 033 #1'
   network: ws
   port: 443
   server: au-full.privateip.net
@@ -408,7 +425,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 030
+  name: '德国 034 #1'
   network: ws
   port: 443
   server: es-full.privateip.net
@@ -422,7 +439,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 031
+  name: '德国 035 #1'
   network: ws
   port: 443
   server: uk2-full.privateip.net
@@ -436,7 +453,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 032
+  name: '德国 036 #1'
   network: ws
   port: 443
   server: uk-full.privateip.net
@@ -450,7 +467,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 033
+  name: '德国 037 #1'
   network: ws
   port: 443
   server: sg-full.privateip.net
@@ -464,7 +481,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 德国 034
+  name: '德国 038 #1'
   network: ws
   port: 443
   server: us2-full.privateip.net
@@ -478,7 +495,7 @@ proxies:
     path: /RACEVPN
 - alterId: 64
   cipher: auto
-  name: 德国 035
+  name: '德国 039 #1'
   network: ws
   port: 30001
   server: 89.163.247.25
@@ -492,7 +509,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 德国 036
+  name: '德国 040 #1'
   network: ws
   port: 443
   server: 194.15.196.172
@@ -506,7 +523,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 德国 037
+  name: '德国 041 #1'
   network: ws
   port: 443
   server: 139.162.178.95
@@ -520,7 +537,7 @@ proxies:
     path: /linkwsd
 - alterId: 0
   cipher: auto
-  name: 德国 038
+  name: '德国 042 #1'
   network: ws
   port: 443
   server: 130.61.23.77
@@ -534,7 +551,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 德国 039
+  name: '德国 043 #1'
   network: ws
   port: 8080
   server: 138.68.90.231
@@ -547,7 +564,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 德国 040
+  name: '德国 044 #1'
   network: http
   port: 40969
   server: 5.161.106.72
@@ -556,7 +573,7 @@ proxies:
   uuid: 2fb9f60e-d4dc-458b-e3b2-d9b44f9bbd9e
 - alterId: 0
   cipher: auto
-  name: 德国 041
+  name: '德国 045 #1'
   network: http
   port: 50978
   server: 5.161.106.72
@@ -565,16 +582,17 @@ proxies:
   uuid: 89e6248b-0152-4317-a6ed-b6a0cf41f2cb
 - alterId: 0
   cipher: auto
-  name: 德国 042
+  name: 德国 042 - 149ms
   network: http
   port: 443
   server: 157.90.20.18
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 043
+  name: '德国 047 #1'
   network: http
   port: 443
   server: 5.75.168.155
@@ -583,34 +601,37 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 044
+  name: 德国 044 - 149ms
   network: http
   port: 443
   server: 94.130.25.155
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 045
+  name: 德国 045 - 149ms
   network: http
   port: 443
   server: 167.235.136.155
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 046
+  name: 德国 046 - 172ms
   network: http
   port: 443
   server: 65.21.240.108
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 047
+  name: '德国 051 #1'
   network: http
   port: 443
   server: 5.75.247.192
@@ -619,7 +640,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 德国 048
+  name: '德国 052 #1'
   network: http
   port: 443
   server: 88.198.104.211
@@ -628,7 +649,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 4
   cipher: auto
-  name: 德国 049
+  name: '德国 053 #1'
   network: ws
   port: 443
   server: 146.0.42.87
@@ -642,7 +663,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 德国 050
+  name: '德国 054 #1'
   network: ws
   port: 443
   server: www.vpslook.com
@@ -656,7 +677,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 051
+  name: '德国 055 #1'
   network: ws
   port: 443
   server: 132.145.232.171
@@ -670,7 +691,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 德国 052
+  name: '德国 056 #1'
   network: ws
   port: 443
   server: 193.122.58.158
@@ -684,7 +705,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 053
+  name: '德国 057 #1'
   network: ws
   port: 2095
   server: 185.135.9.247
@@ -697,7 +718,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 054
+  name: '德国 058 #1'
   network: ws
   port: 2095
   server: 185.135.9.19
@@ -710,7 +731,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 055
+  name: '德国 059 #1'
   network: ws
   port: 443
   server: 172.104.247.121
@@ -724,7 +745,7 @@ proxies:
     path: /linkws
 - alterId: 64
   cipher: auto
-  name: 德国 056
+  name: '德国 060 #1'
   network: ws
   port: 30005
   server: 89.163.231.19
@@ -738,7 +759,7 @@ proxies:
     path: /path/240811062813
 - alterId: 0
   cipher: auto
-  name: 德国 057
+  name: '德国 061 #1'
   network: ws
   port: 443
   server: 80.158.63.104
@@ -752,7 +773,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 德国 058
+  name: '德国 062 #1'
   network: ws
   port: 80
   server: 194.233.81.16
@@ -765,7 +786,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 059
+  name: '德国 063 #1'
   network: ws
   port: 80
   server: 141.94.141.20
@@ -778,7 +799,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 德国 060
+  name: '德国 064 #1'
   network: tcp
   port: 2053
   server: 178.63.237.158
@@ -787,16 +808,18 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 德国 061
+  name: '德国 065 #1'
   network: tcp
   port: 51459
   server: 91.107.139.186
+  servername: ''
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
 - alterId: 0
   cipher: auto
-  name: 未知131
+  name: 未知131 - 151ms
   network: tcp
   port: 80
   server: 128.140.109.232
@@ -805,7 +828,7 @@ proxies:
   type: vmess
   uuid: 05a178f9-e6ba-4006-93d7-3d980cdc3a76
 - cipher: chacha20-ietf-poly1305
-  name: 德国(yudou789.top 玉豆免费节点)
+  name: 德国(yudou789.top 玉豆免费节点) - 18ms
   password: XUMTygEM1jVYIvysXKqA5T
   port: 443
   server: hackney-latest-strike.freesocks.work
@@ -827,12 +850,501 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_德国_154 - 118ms
+  network: ws
+  port: 2053
+  server: deapp.jisuyun.top
+  tls: true
+  type: vmess
+  uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
+  ws-opts:
+    headers:
+      Host: deapp.jisuyun.top
+    path: /devm
+- name: 德国 001 - 141ms
+  password: ND91608427
+  port: 443
+  server: 54.93.54.137
+  sni: informed-alpaca.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 德国 006 - 163ms
+  network: ws
+  port: 443
+  server: sgp.kapok.buzz
+  tls: true
+  type: vmess
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  ws-opts:
+    headers:
+      Host: sgp.kapok.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 007 - 150ms
+  network: ws
+  port: 80
+  server: 159.89.29.136
+  tls: true
+  type: vmess
+  uuid: d20d6ede-433c-11ed-b81f-cfd905df9958
+  ws-opts:
+    headers:
+      Host: 159.89.29.136
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 德国 008 - 150ms
+  network: ws
+  port: 8080
+  server: 130.61.253.111
+  tls: false
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: 130.61.253.111
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 009 - 1ms
+  network: ws
+  port: 8880
+  server: 185.16.110.212
+  tls: false
+  type: vmess
+  uuid: b209dfbf-6bb0-30b2-a77a-286e230466b5
+  ws-opts:
+    headers:
+      Host: 185.16.110.212
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 014 - 186ms
+  network: ws
+  port: 443
+  server: ua-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 7a7d1976-87dd-44b1-b290-b815770bff35
+  ws-opts:
+    headers:
+      Host: ua-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 015 - 172ms
+  network: ws
+  port: 443
+  server: us-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: c036e15b-338a-4e72-a0c2-3ec23a7daefc
+  ws-opts:
+    headers:
+      Host: us-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 016 - 169ms
+  network: ws
+  port: 443
+  server: jp-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 1c3f3cc3-e856-45ec-a824-a742c0bfcdcf
+  ws-opts:
+    headers:
+      Host: jp-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 017 - 179ms
+  network: ws
+  port: 443
+  server: de2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 0069f6f7-5b7d-4a0f-82f2-8e689d88c9be
+  ws-opts:
+    headers:
+      Host: de2-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 019 - 161ms
+  network: ws
+  port: 443
+  server: nl2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce
+  ws-opts:
+    headers:
+      Host: nl2-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 018 - 187ms
+  network: ws
+  port: 443
+  server: kz-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: fc5348ee-1fb4-4050-af65-bba3580df5fd
+  ws-opts:
+    headers:
+      Host: kz-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 020 - 159ms
+  network: ws
+  port: 443
+  server: tr-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 5d23f47a-0c7f-4280-82e5-5993d50e1f18
+  ws-opts:
+    headers:
+      Host: tr-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 021 - 179ms
+  network: ws
+  port: 443
+  server: it-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: adf0e49b-36b3-41fa-b2df-2977c35e1021
+  ws-opts:
+    headers:
+      Host: it-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 022 - 192ms
+  network: ws
+  port: 443
+  server: de-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 6c317171-a223-4466-ad3b-ec73f4267668
+  ws-opts:
+    headers:
+      Host: de-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 024 - 2ms
+  network: ws
+  port: 443
+  server: 185.135.9.208
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 185.135.9.208
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 023 - 183ms
+  network: ws
+  port: 443
+  server: fr-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 19e84929-f022-406a-ae78-7d0a11c0dd14
+  ws-opts:
+    headers:
+      Host: fr-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 025 - 159ms
+  network: ws
+  port: 443
+  server: in-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: bbc7813a-5d9d-4e97-807c-3aed8189c4cb
+  ws-opts:
+    headers:
+      Host: in-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 026 - 168ms
+  network: ws
+  port: 443
+  server: nl-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: f269033e-a955-4dee-9345-948ed5b77838
+  ws-opts:
+    headers:
+      Host: nl-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 027 - 159ms
+  network: ws
+  port: 443
+  server: hk-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: f2c48b2f-c581-4d7d-846e-8bd97d93bd65
+  ws-opts:
+    headers:
+      Host: hk-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 028 - 158ms
+  network: ws
+  port: 443
+  server: ca-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 8da41d0a-0454-4ced-a7e2-4de2a3dcc525
+  ws-opts:
+    headers:
+      Host: ca-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 029 - 168ms
+  network: ws
+  port: 443
+  server: au-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: ba7c1e18-3ee7-4eff-8ab3-5c73f2d5193c
+  ws-opts:
+    headers:
+      Host: au-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 030 - 159ms
+  network: ws
+  port: 443
+  server: es-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 60a1ba92-c2d8-4f39-b6ed-bacf45920cb3
+  ws-opts:
+    headers:
+      Host: es-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 031 - 160ms
+  network: ws
+  port: 443
+  server: uk2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: e35347c5-cf24-417a-9f78-fee217850aaa
+  ws-opts:
+    headers:
+      Host: uk2-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 032 - 165ms
+  network: ws
+  port: 443
+  server: uk-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 61e02165-c985-469a-ab70-c437bb8b9200
+  ws-opts:
+    headers:
+      Host: uk-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 033 - 167ms
+  network: ws
+  port: 443
+  server: sg-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: b220d0b0-575d-43d4-b88b-896ddd151532
+  ws-opts:
+    headers:
+      Host: sg-full.privateip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 034 - 159ms
+  network: ws
+  port: 443
+  server: us2-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 393d5461-5589-458f-9d20-51b6f7f9802b
+  ws-opts:
+    headers:
+      Host: us2-full.privateip.net
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 德国 035 - 148ms
+  network: ws
+  port: 30001
+  server: 89.163.247.25
+  tls: true
+  type: vmess
+  uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
+  ws-opts:
+    headers:
+      Host: 89.163.247.25
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 050 - 216ms
+  network: ws
+  port: 443
+  server: www.vpslook.com
+  tls: true
+  type: vmess
+  uuid: 4993f14e-5f9b-4249-dc43-99f4fdea84be
+  ws-opts:
+    headers:
+      Host: www.vpslook.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 051 - 146ms
+  network: ws
+  port: 443
+  server: 132.145.232.171
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: 132.145.232.171
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 052 - 146ms
+  network: ws
+  port: 443
+  server: 193.122.58.158
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: 193.122.58.158
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 053 - 5ms
+  network: ws
+  port: 2095
+  server: 185.135.9.247
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: 185.135.9.247
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国 054 - 1ms
+  network: ws
+  port: 2095
+  server: 185.135.9.19
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: 185.135.9.19
+    path: /
+- name: 🇩🇪 机场推荐:dafei.de 德国 02 - 24ms
+  password: yprw6pncbfhyu4uw
+  port: 2087
+  server: uwu.blueknightnet.qzz.io
+  sni: uwu.dianaw.cc.cd
+  type: trojan
 - cipher: aes-256-cfb
   name: 西班牙/马德里/Spain/Madrid
   password: VcFuyXvND2yQWSFY
   port: 9054
   server: 5.188.181.201
   type: ss
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪 DE 674 | ⬇️ 31KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: 🇩🇪_DE_德国_3 - 151ms
+  password: ND91608427
+  port: 443
+  server: rapid-firefly.rooster465.autos
+  skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_1|196KB/s 01 - 144ms
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_32|276KB/s 01 - 544ms
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_58|66KB/s|A004-260618 01 ...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- name: 🇩🇪DE_134|362KB/s|A001-260618 0...
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+- name: 🇩🇪DE_137|151KB/s|B007-260618 0...
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+- name: 🇩🇪DE_142|286KB/s|S004-260618 0...
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+- name: 🇩🇪DE_238|242KB/s|P002-260618 0...
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
 - client-fingerprint: chrome
   name: 🇩🇪 DE 679 | ⬇️ 38KB/s
   network: tcp
@@ -863,12 +1375,3 @@ proxies:
   sni: Hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪 DE 676 | ⬇️ 44KB/s
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
