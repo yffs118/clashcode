@@ -36,7 +36,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: US14
+  name: US20
   network: tcp
   port: 22324
   server: 23.154.136.47
@@ -46,12 +46,11 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 加拿大(yudou789.top 玉豆免费节点) - 149...
+  name: '加拿大 002 #1'
   network: ws
   port: 443
   server: 142.132.178.99
   skip-cert-verify: true
-  sni: apjhdggyx.com
   tls: true
   type: vmess
   uuid: 5f72f180-b21b-4b7a-8484-240759012604
@@ -61,7 +60,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: 加拿大 003 - 21ms
+  name: 加拿大 003 - 21ms - 62ms
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -597,16 +596,31 @@ proxies:
     path: /in-pdr
 - alterId: 0
   cipher: auto
-  name: 加拿大 002 - 335ms
+  name: 加拿大(yudou789.top 玉豆免费节点) - 149...
+  network: ws
+  port: 443
+  server: 142.132.178.99
+  sni: apjhdggyx.com
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: 142.132.178.99
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 未知35
   network: tcp
   port: 31100
   server: mmmdpanel.alishot.com.tr
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: e56afefb-a2a3-4d59-9835-87d1b589ce40
 - alterId: 0
   cipher: auto
-  name: 加拿大/多伦多/Canada/Toronto - 56ms
+  name: 加拿大/多伦多/Canada/Toronto - 56ms ...
   network: tcp
   port: 18000
   server: 134.195.196.211
@@ -633,7 +647,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 未知58
+  name: 加拿大/蒙特利尔/Canada/Montreal
   network: ws
   port: 443
   server: 158.51.121.63
@@ -643,8 +657,6 @@ proxies:
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      host: seribus.org
     path: linkvws
 - alterId: 0
   cipher: auto

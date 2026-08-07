@@ -342,7 +342,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 新加坡 011 - 167ms
+  name: '新加坡 013 #1 - 197ms'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -355,7 +355,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 014 - 168ms
+  name: '新加坡 016 #1 - 199ms'
   network: ws
   port: 80
   server: 139.59.255.209
@@ -368,7 +368,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 016 - 534ms
+  name: '新加坡 018 #1 - 759ms'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -381,7 +381,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 017 - 446ms
+  name: '新加坡 019 #1 - 494ms'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -392,47 +392,47 @@ proxies:
     headers:
       Host: st-2.dnspro.icu
     path: /
-- name: 新加坡(免费节点)_3 - 170ms
+- name: 新加坡(免费节点)_3 - 210ms
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
   skip-cert-verify: true
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
-- name: 🇸🇬SG_4|⬇️5.1MB/s - 1ms
+- name: 🇸🇬SG_4|⬇️5.1MB/s - 16ms
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
   server: 104.18.1.196
   skip-cert-verify: true
   sni: sg-trojan.andfree.my.id
   type: trojan
-- name: 🇸🇬_SG_新加坡 - 111ms
+- name: 🇸🇬_SG_新加坡 - 111ms - 163ms
   password: IQ68037294
   port: 443
   server: apt-midge.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬_SG_新加坡_1 - 119ms
+- name: 🇸🇬_SG_新加坡_1 - 119ms - 163ms
   password: IQ68037294
   port: 443
   server: meet-doe.rooster465.autos
   skip-cert-verify: true
   sni: meet-doe.rooster465.autos
   type: trojan
-- name: 🇸🇬_SG_新加坡_2 - 111ms
+- name: 🇸🇬_SG_新加坡_2 - 111ms - 163ms
   password: IQ68037294
   port: 443
   server: endless-kiwi.rooster465.autos
   skip-cert-verify: true
   type: trojan
-- name: 🇸🇬_SG_新加坡_3 - 110ms
+- name: 🇸🇬_SG_新加坡_3 - 110ms - 169ms
   password: FC60532879
   port: 443
   server: helpful-possum.rooster465.autos
   skip-cert-verify: true
   sni: helpful-possum.rooster465.autos
   type: trojan
-- name: 🇸🇬_SG_新加坡_5 - 353ms
+- name: 🇸🇬_SG_新加坡_5 - 353ms - 156ms
   password: IQ68037294
   port: 443
   server: fun-salmon.rooster465.autos
@@ -440,7 +440,7 @@ proxies:
   sni: fun-salmon.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬_SG_新加坡 - 174ms
+  name: 🇸🇬_SG_新加坡 - 174ms - 231ms
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 19000
   server: ss.049.node-for-bigairport.win
@@ -454,3 +454,13 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  name: 🇸🇬SG新加坡3
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true

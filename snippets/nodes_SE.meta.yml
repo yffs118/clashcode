@@ -43,7 +43,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 瑞典 004 - 135ms
+  name: 瑞典 004 - 135ms - 160ms
   network: http
   port: 80
   server: 217.142.138.61
@@ -97,7 +97,9 @@ proxies:
   network: ws
   port: 80
   server: myvpshosting.name.ng
+  servername: myvpshosting.name.ng
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
   ws-opts:
@@ -277,7 +279,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: 瑞典 022 - 1ms
+  name: 瑞典 022 - 1ms - 19ms
   network: xhttp
   port: 8443
   server: 192.71.82.2
@@ -315,7 +317,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: '瑞典丨yoyapai.com #2 - 163ms'
+  name: '瑞典丨yoyapai.com #2 - 163ms - 14...'
   network: tcp
   port: 8443
   server: 45.159.12.191
@@ -328,7 +330,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: '瑞典節點丨yoyapai.com_1 #2 - 171ms'
+  name: '瑞典節點丨yoyapai.com_1 #2 - 171ms ...'
   network: tcp
   port: 8443
   server: 79.127.249.221
@@ -340,7 +342,7 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - encryption: none
   flow: ''
-  name: '瑞典丨yoyapai.com_2 #2 - 164ms'
+  name: '瑞典丨yoyapai.com_2 #2 - 164ms - ...'
   network: tcp
   port: 8443
   server: 45.159.12.4
@@ -352,7 +354,7 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - encryption: none
   flow: ''
-  name: '瑞典丨yoyapai.com_3 #2 - 173ms'
+  name: '瑞典丨yoyapai.com_3 #2 - 173ms - ...'
   network: tcp
   port: 8443
   server: 45.159.12.18
@@ -364,7 +366,7 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
 - encryption: none
   flow: ''
-  name: '瑞典節點丨yoyapai.com #2 - 164ms'
+  name: '瑞典節點丨yoyapai.com #2 - 164ms - ...'
   network: tcp
   port: 8443
   server: 45.159.12.15
@@ -390,7 +392,7 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: 🇸🇪SE_3|⬇️3.2MB/s - 186ms
+  name: 🇸🇪SE_3|⬇️3.2MB/s - 186ms - 205...
   network: tcp
   port: 443
   server: secdn17.suio.me
@@ -413,21 +415,8 @@ proxies:
   udp: true
   uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - alterId: 0
-  cipher: auto
-  name: 瑞典 001 - 2ms
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: 185.146.173.158
-    path: /
-- alterId: 0
   cipher: none
-  name: 瑞典 002 - 2ms
+  name: '瑞典 001 #1 - 14ms'
   network: ws
   port: 443
   server: 185.146.173.64
@@ -440,7 +429,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 003 - 1ms
+  name: '瑞典 002 #1 - 16ms'
   network: ws
   port: 443
   server: 185.146.173.59
@@ -453,7 +442,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 007 - 1ms
+  name: '瑞典 003 #1 - 17ms'
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: 185.146.173.158
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '瑞典 007 #1 - 22ms'
   network: ws
   port: 80
   server: 185.146.173.25
@@ -466,7 +468,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 017 - 1ms
+  name: '瑞典 017 #1 - 13ms'
   network: ws
   port: 443
   server: 185.146.173.129
@@ -479,7 +481,7 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: 瑞典 019 - 149ms
+  name: '瑞典 019 #1 - 120ms'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -488,16 +490,7 @@ proxies:
   uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
 - encryption: none
   flow: ''
-  name: 瑞典 020 - 2ms
-  network: ws
-  port: 8080
-  server: 185.146.173.11
-  tls: true
-  type: vless
-  uuid: 4f764443-95f3-417b-83d4-e82ee1152bb9
-- encryption: none
-  flow: ''
-  name: 瑞典 021 - 112ms
+  name: '瑞典 020 #1 - 149ms'
   network: ws
   port: 20071
   server: 217.142.227.105
@@ -506,16 +499,7 @@ proxies:
   uuid: 90235096-9296-3d36-c77c-715577598fd5
 - encryption: none
   flow: ''
-  name: 瑞典 023 - 1ms
-  network: ws
-  port: 80
-  server: 185.146.173.231
-  tls: true
-  type: vless
-  uuid: 9ad2883c-1c39-4e42-8ec0-38abd3fa914e
-- encryption: none
-  flow: ''
-  name: 瑞典 025 - 2ms
+  name: '瑞典 023 #1 - 17ms'
   network: ws
   port: 80
   server: 185.146.173.68
@@ -524,16 +508,7 @@ proxies:
   uuid: ffa6526a-3b07-4bdd-a77f-d8d1d3ec868e
 - encryption: none
   flow: ''
-  name: 瑞典 026 - 2ms
-  network: ws
-  port: 80
-  server: 185.146.173.237
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  flow: ''
-  name: 'SE瑞典丨yoyapai.com #2 - 47ms'
+  name: 'SE瑞典丨yoyapai.com #2 - 27ms'
   network: ws
   port: 80
   server: 151.101.84.151
@@ -541,8 +516,35 @@ proxies:
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
 - encryption: none
+  flow: ''
+  name: 瑞典 020 - 2ms - 12ms
+  network: ws
+  port: 8080
+  server: 185.146.173.11
+  tls: true
+  type: vless
+  uuid: 4f764443-95f3-417b-83d4-e82ee1152bb9
+- encryption: none
+  flow: ''
+  name: 瑞典 023 - 1ms - 15ms
+  network: ws
+  port: 80
+  server: 185.146.173.231
+  tls: true
+  type: vless
+  uuid: 9ad2883c-1c39-4e42-8ec0-38abd3fa914e
+- encryption: none
+  flow: ''
+  name: 瑞典 026 - 2ms - 19ms
+  network: ws
+  port: 80
+  server: 185.146.173.237
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪_SE_瑞典 - 163ms
+  name: 🇸🇪_SE_瑞典 - 163ms - 133ms
   network: tcp
   port: 443
   server: 82.29.43.42
@@ -567,3 +569,11 @@ proxies:
   tls: false
   type: vless
   uuid: af6838cc-338b-41e8-93b2-996b24014659
+- cipher: aes-256-cfb
+  name: 🇸🇪 SE 946 | ⬇️ 922KB/s
+  password: amazonskr05
+  port: 443
+  server: 13.50.4.72
+  skip-cert-verify: false
+  type: ss
+  udp: false

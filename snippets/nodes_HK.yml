@@ -10,7 +10,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
-  name: 🇭🇰HK香港
+  name: 🇭🇰HK香港3
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 5077
@@ -36,14 +36,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 日本3|@ripaojiedian
+- alterId: 0
+  name: 🇯🇵JP日本2
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
   server: 18.163.100.58
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
+  udp: true
 - alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
@@ -82,17 +85,20 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 美国2|@ripaojiedian
+- alterId: 0
+  name: 🇺🇸US美国2
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
   server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #5 - 187ms'
+  name: '🇭🇰_HK_中国香港_1 #4 - 502ms'
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -149,11 +155,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK3 30.5KB/s
+  name: 🇨🇳_中国_145 - 201ms
   network: ws
   port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  server: 47.92.161.8
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
   skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: '0'
+  cipher: auto
+  name: 香港(免费节点)_2
+  network: ws
+  port: '443'
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -161,22 +182,23 @@ proxies:
     headers:
       host: qTKDR8jXE3wEFxJM.v.3dns.vip
     path: /ws-vmess
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 香港(免费节点)_5
+  name: HK10 21.0KB/s
   network: ws
-  port: '443'
+  port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      host: VAH4URdZL3jDX5r2.v.3dns.vip
+      host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK17 32.6KB/s
+  name: HK17 200.2KB/s
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -188,13 +210,12 @@ proxies:
     headers:
       host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: HK10 25.1KB/s
+  name: 香港(免费节点)_8
   network: ws
-  port: 443
+  port: '443'
   server: zudssgtmrqg9lpvi.v.3dns.vip
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -233,33 +254,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: HK10 28.9KB/s - 969ms
-  network: ws
-  port: 443
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: drbkg16egf3fzlm3.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK4 15.1MB/s - 578ms
-  network: ws
-  port: 443
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: m01c7b2z26dtqgee.v.3dns.vip
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong - 53...
+  name: 香港/香港/Hong Kong/Hong Kong - 69...
   network: ws
   port: 443
   server: 6jdvarazgu3qqr6q.v.3dns.vip
@@ -276,6 +271,7 @@ proxies:
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
+  sni: 93ucrn4i0PffUAbk.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -285,10 +281,53 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 🇭🇰_香港_138 - 148ms - 2781ms
+  network: ws
+  port: 443
+  server: ejomsxptp19apygl.v.3dns.vip
+  sni: ejOMsxPtP19APyGL.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ejomsxptp19apygl.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_135 - 147ms - 237ms
+  network: ws
+  port: 443
+  server: mh7r5ardl0z5jtgy.v.3dns.vip
+  sni: mh7R5ArdL0z5jTGY.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mh7r5ardl0z5jtgy.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_137 - 147ms - 837ms
+  network: ws
+  port: 443
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  sni: M01c7B2z26DtQGEe.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: m01c7b2z26dtqgee.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-2 - ...
   network: ws
   port: 443
   server: qtkdr8jxe3wefxjm.v.3dns.vip
+  sni: qTKDR8jXE3wEFxJM.v.3dns.vip
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
@@ -298,20 +337,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: HK9 45.6KB/s - 150ms
+  name: 🇭🇰_香港_134 - 147ms - 240ms
   network: ws
-  port: 36703
-  server: 47.244.120.197
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  sni: VAH4URdZL3jDX5r2.v.3dns.vip
   tls: true
   type: vmess
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: 47.244.120.197
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
     path: /
 - alterId: 0
   cipher: auto
-  name: HK16 28.1KB/s - 147ms
+  name: 🇭🇰_香港_133 - 150ms - 1747ms
+  network: ws
+  port: 443
+  server: zudssgtmrqg9lpvi.v.3dns.vip
+  sni: zUDssgTMRqg9LpvI.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: zudssgtmrqg9lpvi.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: HK16 28.1KB/s - 147ms - 175ms
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -324,20 +378,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: HK20 30.9KB/s - 1156ms
+  name: HK9 45.6KB/s - 150ms - 176ms
   network: ws
-  port: 443
-  server: 47.242.79.198
+  port: 36703
+  server: 47.244.120.197
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   ws-opts:
     headers:
-      Host: 47.242.79.198
+      Host: 47.244.120.197
     path: /
 - alterId: 0
   cipher: auto
-  name: HK21 69.1KB/s - 147ms
+  name: HK21 69.1KB/s - 147ms - 174ms
   network: ws
   port: 443
   server: 47.76.197.72
@@ -347,6 +401,19 @@ proxies:
   ws-opts:
     headers:
       Host: 47.76.197.72
+    path: /
+- alterId: 0
+  cipher: auto
+  name: HK20 30.9KB/s - 1156ms - 182ms
+  network: ws
+  port: 443
+  server: 47.242.79.198
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 47.242.79.198
     path: /
 - alterId: 0
   cipher: auto
@@ -360,15 +427,48 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
+      Host: 210.138.37.53
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 香港(yudou789.top 玉豆免费节点) - 175m...
+  network: ws
+  port: 443
+  server: 210.138.37.53
+  sni: DrBKg16eGf3FZlM3.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
       Host: DrBKg16eGf3FZlM3.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-3
-  port: 800
-  server: 47.86.167.194
+  name: 🇭🇰 香港 14 - 174ms
+  network: ws
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港(yudou789.top 玉豆免费节点) 4 -...
+  network: ws
+  port: 443
+  server: 47.92.161.8
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 47.92.161.8
+    path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-5
@@ -386,21 +486,21 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK 10.8KB/s
+  name: HK
   network: ws
   port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
+  server: 8.210.189.158
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      host: EX1oGt73NzPQKAc2.v.3dns.vip
+      host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK2 14.1KB/s
+  name: HK4
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -412,7 +512,19 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: HK5 24.8KB/s
+  name: HK5
+  network: ws
+  port: 36968
+  server: 47.83.18.10
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
+  ws-opts:
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK7 23.6KB/s
   network: ws
   port: 443
   server: 47.242.79.198
@@ -425,17 +537,7 @@ proxies:
       host: ejOMsxPtP19APyGL.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 🇭🇰HK香港3
-  password: BxceQaOe
-  port: 29444
-  server: 16.162.161.131
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇭🇰HK香港4
+  name: 🇭🇰HK香港
   password: BxceQaOe
   port: 27161
   server: 43.198.209.68
@@ -446,63 +548,39 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK6
-  network: ws
-  port: 8443
-  server: 20.2.218.142
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
-  ws-opts:
-    headers:
-      host: 01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
   name: HK8
-  network: ws
-  port: 26925
-  server: 38.207.164.31
+  network: tcp
+  port: 52080
+  server: 154.37.223.56
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      host: cfhk.393930.xyz
-    path: /
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+- alterId: 0
+  name: 🇭🇰HK香港2
+  password: BxceQaOe
+  port: 29444
+  server: 16.162.161.131
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK11 23.9KB/s
+  name: HK9
   network: ws
-  port: 443
-  server: 47.83.207.148
+  port: 54809
+  server: 8.210.140.23
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
   ws-opts:
-    headers:
-      host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
-  name: HK12 21.9KB/s
-  network: ws
-  port: 443
-  server: 47.76.197.72
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: m01c7b2z26dtqgee.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: HK13 11.6KB/s
+  name: HK11 6.0KB/s
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -516,25 +594,57 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: HK14
+  name: HK14 907.9KB/s
   network: ws
-  port: 54809
-  server: 8.210.140.23
+  port: 443
+  server: ex1ogt73nzpqkac2.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
+    headers:
+      host: EX1oGt73NzPQKAc2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: HK15 23.6KB/s
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      host: 47.244.120.197
     path: /arki?ed=2048
 - alterId: 0
   cipher: auto
   name: HK16
   network: ws
-  port: 36968
-  server: 47.83.18.10
+  port: 443
+  server: 47.83.207.148
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /arki?ed=2048
+    headers:
+      host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: HK18
+  network: ws
+  port: 443
+  server: 47.76.197.72
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      host: m01c7b2z26dtqgee.v.3dns.vip
+    path: /ws-vmess

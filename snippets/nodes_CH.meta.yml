@@ -3,6 +3,9 @@ proxies:
   network: tcp
   port: 62145
   server: 141.148.236.62
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vless
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -37,7 +40,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 瑞士 003 - 161ms
+  name: 瑞士 003 - 161ms - 143ms
   network: tcp
   port: 8443
   server: 138.124.244.77
@@ -59,7 +62,9 @@ proxies:
   udp: true
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
-  name: '瑞士 006 #1'
+  encryption: none
+  flow: ''
+  name: '瑞士 006 #1 - 128ms'
   network: xhttp
   port: 443
   server: 193.247.82.92
@@ -98,7 +103,7 @@ proxies:
   uuid: d8b42cd5-a149-4356-9e61-000000000000
 - encryption: none
   flow: ''
-  name: 瑞士 007 - 216ms
+  name: 瑞士 007 - 216ms - 198ms
   network: tcp
   port: 12596
   server: 193.134.100.23
@@ -117,7 +122,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: ''
-  name: '瑞士丨yoyapai.com #2 - 153ms'
+  name: '瑞士丨yoyapai.com #2 - 153ms - 12...'
   network: tcp
   port: 443
   reality-opts:
@@ -200,9 +205,31 @@ proxies:
   type: vless
   udp: true
   uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
+- name: 🇨🇭 机场推荐:dafei.de 瑞士 01
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  country: 🇺🇸US
+  down: ''
+  fingerprint: ''
+  name: 🇩🇪 DE 1036 | ⬇️ 3MB/s
+  obfs: ''
+  obfs-password: ''
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  tfo: false
+  type: hysteria2
+  udp: true
+  up: ''
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇭_CH_瑞士 - 338ms
+  name: 🇨🇭_CH_瑞士 - 338ms - 317ms
   network: tcp
   port: 443
   server: nl1.samovargate.com

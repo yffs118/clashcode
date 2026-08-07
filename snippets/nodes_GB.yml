@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 未知18 10.1MB/s
+  name: 未知43 640.3KB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -17,7 +17,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: US7 34.7MB/s
+  name: '英国 007 #1'
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -41,7 +41,7 @@ proxies:
     path: /nova-147299-vm
 - alterId: 0
   cipher: auto
-  name: US16
+  name: US16 - 36ms
   network: tcp
   port: 180
   server: 82.198.246.233
@@ -289,12 +289,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点) - 164m...
+  name: '英国 028 #1'
   network: ws
   port: 443
   server: 194.164.192.16
   skip-cert-verify: true
-  sni: apjhdggyx.com
   tls: true
   type: vmess
   uuid: 5f72f180-b21b-4b7a-8484-240759012604
@@ -303,7 +302,7 @@ proxies:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
-  name: 🇬🇧GB英国
+  name: 🇬🇧GB英国 1.2MB/s
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20088
   server: oplosgru-c.catcat321.com
@@ -313,20 +312,19 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-216 | free-nodes - 151ms
+  name: 未知 SS-216 | free-nodes - 151ms...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.15
   type: ss
-- alterId: 0
-  name: 🇯🇵JP日本2
+- name: 🇯🇵 JP 1066 | ⬇️ 205KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
-  tls: true
+  tls: false
   type: trojan
   udp: true
   ws-opts:
@@ -363,20 +361,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 英国 005 - 225ms
-  network: ws
-  port: 443
-  server: panel.safeconfigmasoud.com
-  tls: true
-  type: vmess
-  uuid: f7983cd4-e487-4138-bde3-477ab31ba25d
-  ws-opts:
-    headers:
-      Host: panel.safeconfigmasoud.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 英国/United Kingdom-5 - 135ms
+  name: 英国/United Kingdom-5 - 113ms
   network: ws
   port: 80
   server: 57.129.132.223
@@ -389,7 +374,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 011 - 2ms
+  name: '英国 008 #1 - 251ms'
+  network: ws
+  port: 443
+  server: panel.safeconfigmasoud.com
+  tls: true
+  type: vmess
+  uuid: f7983cd4-e487-4138-bde3-477ab31ba25d
+  ws-opts:
+    headers:
+      Host: panel.safeconfigmasoud.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '英国 013 #1 - 22ms'
   network: ws
   port: 443
   server: 45.85.118.88
@@ -402,7 +400,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 英国 012 - 154ms
+  name: '英国 014 #1 - 121ms'
   network: ws
   port: 443
   server: 217.138.197.171
@@ -415,7 +413,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 016 - 187ms
+  name: '英国 018 #1 - 235ms'
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -428,7 +426,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 017 - 1ms
+  name: '英国 019 #1 - 16ms'
   network: ws
   port: 443
   server: 185.162.228.228
@@ -441,7 +439,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 018 - 2ms
+  name: '英国 020 #1 - 11ms'
   network: ws
   port: 443
   server: 185.162.228.110
@@ -454,7 +452,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 019 - 1ms
+  name: '英国 021 #1 - 12ms'
   network: ws
   port: 443
   server: 185.162.228.230
@@ -467,7 +465,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 022 - 2ms
+  name: '英国 024 #1 - 14ms'
   network: ws
   port: 443
   server: 217.163.76.147
@@ -480,7 +478,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 025 - 167ms
+  name: '英国 027 #1 - 194ms'
   network: ws
   port: 80
   server: 213.35.113.150
@@ -491,12 +489,6 @@ proxies:
     headers:
       Host: 213.35.113.150
     path: /
-- name: '🇬🇧 英国 Technicolor SA #2 - 11ms'
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20034
-  server: oplosgru-c.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_23 - 3...
@@ -525,8 +517,26 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_36|405KB/s 01 - 262ms
+  name: 🇬🇧GB_36|405KB/s 01 - 262ms - 1...
   password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
   port: 8388
   server: 31.76.80.205
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_1|172KB/s|A004-260618 01 ...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.181
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_2|330KB/s|A004-260618 01 ...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.179
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB_22|377KB/s|A004-260618 01...
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
   type: ss
