@@ -36,17 +36,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: US31
-  network: tcp
-  port: 22324
-  server: 23.154.136.47
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '加拿大 002 #1'
+  name: '加拿大 001 #1'
   network: ws
   port: 443
   server: 142.132.178.99
@@ -57,10 +47,10 @@ proxies:
   ws-opts:
     headers:
       Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
+    path: /
 - alterId: 0
   cipher: auto
-  name: 加拿大 003 - 40ms
+  name: 加拿大 003 - 40ms - 71ms
   network: ws
   port: 443
   server: hohm.microsoft.com
@@ -74,7 +64,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大 004 #1'
+  name: '加拿大 003 #1'
   network: ws
   port: 80
   server: 51.79.102.253
@@ -87,7 +77,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '加拿大 005 #1'
+  name: '加拿大 004 #1'
   network: ws
   port: 80
   server: 108.181.10.17
@@ -100,7 +90,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大 006 #1'
+  name: '加拿大 005 #1'
   network: ws
   port: 443
   server: 855.outline-vpn.cloud
@@ -114,7 +104,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '加拿大 007 #1'
+  name: '加拿大 006 #1'
   network: ws
   port: 443
   server: 8955.outline-vpn.cloud
@@ -128,7 +118,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '加拿大 008 #1'
+  name: '加拿大 007 #1'
   network: ws
   port: 443
   server: fragment---join.outline-vpn.cloud
@@ -142,7 +132,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 009 #1'
+  name: '加拿大 008 #1'
   network: ws
   port: 443
   server: 501.outline-vpn.cloud
@@ -156,7 +146,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 010 #1'
+  name: '加拿大 009 #1'
   network: ws
   port: 443
   server: 507.outline-vpn.cloud
@@ -170,7 +160,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 011 #1'
+  name: '加拿大 010 #1'
   network: ws
   port: 443
   server: cxc--join.outline-vpn.cloud
@@ -184,7 +174,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '加拿大 012 #1'
+  name: '加拿大 011 #1'
   network: ws
   port: 443
   server: 503.outline-vpn.cloud
@@ -198,7 +188,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 013 #1'
+  name: '加拿大 012 #1'
   network: ws
   port: 443
   server: 505.outline-vpn.cloud
@@ -212,7 +202,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 014 #1'
+  name: '加拿大 013 #1'
   network: ws
   port: 443
   server: 502.outline-vpn.cloud
@@ -226,7 +216,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '加拿大 015 #1'
+  name: '加拿大 014 #1'
   network: ws
   port: 2086
   server: w.outline-vpn.cloud
@@ -239,7 +229,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '加拿大 016 #1'
+  name: '加拿大 015 #1'
   network: ws
   port: 443
   server: mtn-----join.outline-vpn.cloud
@@ -253,7 +243,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 017 #1'
+  name: '加拿大 016 #1'
   network: ws
   port: 443
   server: before2--join.outline-vpn.cloud
@@ -267,7 +257,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 018 #1'
+  name: '加拿大 017 #1'
   network: ws
   port: 443
   server: 506.outline-vpn.cloud
@@ -281,7 +271,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 019 #1'
+  name: '加拿大 018 #1'
   network: ws
   port: 443
   server: 504.outline-vpn.cloud
@@ -295,7 +285,7 @@ proxies:
     path: /linkvws
 - alterId: 64
   cipher: auto
-  name: '加拿大 020 #1'
+  name: '加拿大 019 #1'
   network: ws
   port: 30005
   server: 74.48.6.211
@@ -309,7 +299,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '加拿大 021 #1'
+  name: '加拿大 020 #1'
   network: ws
   port: 443
   server: 71.19.248.160
@@ -323,7 +313,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: '加拿大 022 #1'
+  name: '加拿大 021 #1'
   network: ws
   port: 80
   server: 51.79.103.76
@@ -336,7 +326,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '加拿大 023 #1'
+  name: '加拿大 022 #1'
   network: ws
   port: 443
   server: 68.168.31.196
@@ -350,7 +340,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '加拿大 024 #1'
+  name: '加拿大 023 #1'
   network: ws
   port: 80
   server: 165.154.246.71
@@ -363,7 +353,7 @@ proxies:
     path: ?ed=2048
 - alterId: 0
   cipher: auto
-  name: '加拿大 025 #1'
+  name: '加拿大 024 #1'
   network: ws
   port: 443
   server: tw-1.qwqjsq.top
@@ -376,7 +366,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大 026 #1'
+  name: '加拿大 025 #1'
   network: ws
   port: 80
   server: 165.154.246.107
@@ -389,7 +379,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '加拿大 027 #1'
+  name: '加拿大 026 #1'
   network: ws
   port: 31006
   server: 142.171.122.163
@@ -403,7 +393,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '加拿大 028 #1'
+  name: '加拿大 027 #1'
   network: ws
   port: 30003
   server: 74.48.79.107
@@ -417,7 +407,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '加拿大 029 #1'
+  name: '加拿大 028 #1'
   network: ws
   port: 443
   server: 68.168.31.242
@@ -431,7 +421,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '加拿大 030 #1'
+  name: '加拿大 029 #1'
   network: ws
   port: 31005
   server: 142.171.24.42
@@ -445,7 +435,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '加拿大 031 #1'
+  name: '加拿大 030 #1'
   network: ws
   port: 443
   server: 142.171.79.10
@@ -459,7 +449,7 @@ proxies:
     path: /path/1704276466760
 - alterId: 64
   cipher: auto
-  name: '加拿大 032 #1'
+  name: '加拿大 031 #1'
   network: ws
   port: 443
   server: 142.171.215.99
@@ -473,7 +463,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: '加拿大 033 #1'
+  name: '加拿大 032 #1'
   network: ws
   port: 443
   server: 142.171.61.106
@@ -487,7 +477,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: '加拿大 034 #1'
+  name: '加拿大 033 #1'
   network: ws
   port: 443
   server: 142.171.238.19
@@ -501,7 +491,7 @@ proxies:
     path: /path/1703493333049
 - alterId: 64
   cipher: auto
-  name: '加拿大 035 #1'
+  name: '加拿大 034 #1'
   network: ws
   port: 443
   server: 142.171.237.242
@@ -515,7 +505,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: '加拿大 036 #1'
+  name: '加拿大 035 #1'
   network: ws
   port: 443
   server: 142.171.141.211
@@ -529,7 +519,7 @@ proxies:
     path: /path/1703924658447
 - alterId: 64
   cipher: auto
-  name: '加拿大 037 #1'
+  name: '加拿大 036 #1'
   network: ws
   port: 443
   server: 142.171.215.52
@@ -543,7 +533,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: '加拿大 038 #1'
+  name: '加拿大 037 #1'
   network: ws
   port: 443
   server: 142.171.187.178
@@ -557,7 +547,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 64
   cipher: auto
-  name: '加拿大 039 #1'
+  name: '加拿大 038 #1'
   network: ws
   port: 443
   server: 142.171.149.75
@@ -569,7 +559,7 @@ proxies:
     headers:
       Host: www.11640247.xyz
     path: /path/1704188270531
-- name: '加拿大 040 #1'
+- name: '加拿大 039 #1'
   network: xhttp
   port: 443
   server: 104.234.135.88
@@ -579,7 +569,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0aec6598-7fb5-44e6-bff7-a4d550117830
-- name: '加拿大 041 #1'
+- name: '加拿大 040 #1'
   network: tcp
   port: 29898
   server: 65.49.234.130
@@ -589,7 +579,7 @@ proxies:
   type: vless
   udp: true
   uuid: 8728958d-cd6a-443f-bf6d-d13f25dc073b
-- name: '加拿大 042 #1'
+- name: '加拿大 041 #1'
   network: tcp
   port: 443
   server: 51.79.89.68
@@ -676,7 +666,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: VLESS-198.41.207.201 - 1ms
+  name: VLESS-198.41.207.201 - 9ms
   network: xhttp
   port: 8880
   server: 198.41.207.201
@@ -693,7 +683,7 @@ proxies:
       - sudo.domain.direct.Pannel.admin.soon.ab841.com
     path:
     - /@SoonTeam
-  name: VLESS-108.162.195.19 - 1ms
+  name: VLESS-108.162.195.19 - 8ms
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -740,7 +730,7 @@ proxies:
       - konkortur.sanjeshvipspeed.ir
     path:
     - /
-  name: '🇨🇦加拿大丨yoyapai.com #2 - 1ms'
+  name: '🇨🇦加拿大丨yoyapai.com #2 - 1ms - 9...'
   network: httpupgrade
   port: 8080
   server: www.speedtest.net
@@ -757,7 +747,7 @@ proxies:
       - svn-panel-team.lorqino.ir
     path:
     - /mmd
-  name: '🇨🇦加拿大丨yoyapai.com_1 #2 - 1ms'
+  name: '🇨🇦加拿大丨yoyapai.com_1 #2 - 1ms -...'
   network: httpupgrade
   port: 8880
   server: 104.17.121.110
@@ -774,7 +764,7 @@ proxies:
       - nexo.xelviro.ir
     path:
     - /wss
-  name: '🇨🇦加拿大丨yoyapai.com_2 #2 - 1ms'
+  name: '🇨🇦加拿大丨yoyapai.com_2 #2 - 1ms -...'
   network: httpupgrade
   port: 2052
   server: 104.21.88.174
@@ -791,7 +781,7 @@ proxies:
       - svn-panel-team.lorqino.ir
     path:
     - /mmd
-  name: '🇨🇦加拿大丨yoyapai.com_3 #2 - 1ms'
+  name: '🇨🇦加拿大丨yoyapai.com_3 #2 - 1ms -...'
   network: httpupgrade
   port: 8880
   server: 104.17.121.110
@@ -802,7 +792,20 @@ proxies:
   uuid: c0a7e427-1034-485a-b5c7-4449bd04b28d
 - alterId: 0
   cipher: auto
-  name: 加拿大 002 - 148ms
+  name: 加拿大/蒙特利尔/Canada/Montreal - 68m...
+  network: ws
+  port: 443
+  server: 158.51.121.63
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 158.51.121.63
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '加拿大 002 #1 - 147ms'
   network: ws
   port: 443
   server: 142.132.178.99
@@ -814,6 +817,51 @@ proxies:
       Host: 142.132.178.99
     path: /
 - encryption: none
+  flow: ''
+  name: '加拿大丨yoyapai.com #2 - 9ms'
+  network: ws
+  port: 8880
+  server: 130.250.137.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- encryption: none
+  flow: ''
+  name: 'CA加拿大丨yoyapai.com #2 - 66ms'
+  network: ws
+  port: 80
+  server: 151.101.124.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+- encryption: none
+  flow: ''
+  name: 'CA加拿大丨yoyapai.com_1 #2 - 64ms'
+  network: ws
+  port: 80
+  server: 151.101.127.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+- encryption: none
+  flow: ''
+  name: 'CA加拿大丨yoyapai.com_2 #2 - 72ms'
+  network: ws
+  port: 80
+  server: 151.101.139.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+- encryption: none
+  flow: ''
+  name: 'CA加拿大丨yoyapai.com_5 #2 - 8ms'
+  network: ws
+  port: 443
+  server: 162.159.8.42
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
   flow: xtls-rprx-vision
   name: '🇨🇦 加拿大 starcorenode.com #2 - 8...'
   network: tcp
@@ -824,70 +872,7 @@ proxies:
   uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - encryption: none
   flow: ''
-  name: '加拿大丨yoyapai.com #2 - 3ms'
-  network: ws
-  port: 8880
-  server: 130.250.137.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com #2 - 59ms'
-  network: ws
-  port: 80
-  server: 151.101.124.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com_1 #2 - 56ms'
-  network: ws
-  port: 80
-  server: 151.101.127.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com_2 #2 - 64ms'
-  network: ws
-  port: 80
-  server: 151.101.139.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com_3 #2 - 1ms'
-  network: http
-  port: 8880
-  server: 198.41.207.201
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com_4 #2 - 1ms'
-  network: http
-  port: 8880
-  server: 108.162.195.19
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- encryption: none
-  flow: ''
-  name: 'CA加拿大丨yoyapai.com_5 #2 - 1ms'
-  network: ws
-  port: 443
-  server: 162.159.8.42
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- encryption: none
-  flow: ''
-  name: 加拿大(免费节点)_1 - 1ms
+  name: 加拿大(免费节点)_1 - 1ms - 9ms
   network: ws
   port: 443
   server: 172.64.145.2
@@ -896,7 +881,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_3 - 1ms
+  name: 加拿大(免费节点)_3 - 1ms - 8ms
   network: ws
   port: 443
   server: 172.64.146.229
@@ -905,7 +890,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_4 - 2ms
+  name: 加拿大(免费节点)_4 - 2ms - 8ms
   network: ws
   port: 443
   server: 104.18.44.198
@@ -914,7 +899,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_17 - 8ms
+  name: 加拿大(免费节点)_17 - 8ms - 8ms
   network: ws
   port: 2083
   server: 172.64.40.79
@@ -923,7 +908,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_6 - 1ms
+  name: 加拿大(免费节点)_6 - 1ms - 9ms
   network: ws
   port: 443
   server: 172.64.42.44
@@ -932,7 +917,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_21 - 1ms
+  name: 加拿大(免费节点)_21 - 1ms - 8ms
   network: ws
   port: 443
   server: 162.159.3.48
@@ -941,7 +926,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_8 - 1ms
+  name: 加拿大(免费节点)_8 - 1ms - 8ms
   network: ws
   port: 8443
   server: 162.159.4.2
@@ -950,16 +935,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_9 - 1ms
-  network: ws
-  port: 443
-  server: 162.159.14.252
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- encryption: none
-  flow: ''
-  name: 加拿大(免费节点)_20 - 1ms
+  name: 加拿大(免费节点)_20 - 1ms - 9ms
   network: ws
   port: 2083
   server: 162.159.11.57
@@ -968,16 +944,16 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_11 - 1ms
+  name: 加拿大(免费节点)_9 - 1ms - 9ms
   network: ws
   port: 443
-  server: 172.64.151.158
+  server: 162.159.14.252
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_12 - 1ms
+  name: 加拿大(免费节点)_12 - 1ms - 8ms
   network: ws
   port: 443
   server: 172.64.41.202
@@ -986,7 +962,16 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_26 - 1ms
+  name: 加拿大(免费节点)_11 - 1ms - 10ms
+  network: ws
+  port: 443
+  server: 172.64.151.158
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- encryption: none
+  flow: ''
+  name: 加拿大(免费节点)_26 - 1ms - 8ms
   network: ws
   port: 443
   server: 162.159.12.210
@@ -995,7 +980,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_28 - 1ms
+  name: 加拿大(免费节点)_28 - 1ms - 8ms
   network: ws
   port: 2083
   server: 162.159.21.206
@@ -1004,7 +989,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_13 - 1ms
+  name: 加拿大(免费节点)_13 - 1ms - 9ms
   network: ws
   port: 443
   server: 162.159.1.170
@@ -1013,7 +998,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_18 - 1ms
+  name: 加拿大(免费节点)_18 - 1ms - 8ms
   network: ws
   port: 8443
   server: 162.159.32.29
@@ -1022,7 +1007,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_27 - 1ms
+  name: 加拿大(免费节点)_27 - 1ms - 8ms
   network: ws
   port: 443
   server: 162.159.48.245
@@ -1031,7 +1016,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_19 - 1ms
+  name: 加拿大(免费节点)_19 - 1ms - 9ms
   network: ws
   port: 443
   server: 162.159.8.123
@@ -1040,7 +1025,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_25 - 2ms
+  name: 加拿大(免费节点)_25 - 2ms - 8ms
   network: ws
   port: 2083
   server: 172.64.150.246
@@ -1049,7 +1034,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_22 - 1ms
+  name: 加拿大(免费节点)_22 - 1ms - 10ms
   network: ws
   port: 8443
   server: 162.159.41.198
@@ -1058,7 +1043,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_23 - 1ms
+  name: 加拿大(免费节点)_23 - 1ms - 9ms
   network: ws
   port: 8443
   server: 104.18.37.237
@@ -1067,7 +1052,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_24 - 1ms
+  name: 加拿大(免费节点)_24 - 1ms - 9ms
   network: ws
   port: 443
   server: 172.64.52.18
@@ -1076,7 +1061,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_31 - 1ms
+  name: 加拿大(免费节点)_31 - 1ms - 10ms
   network: ws
   port: 8443
   server: 162.159.46.226
@@ -1085,7 +1070,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - encryption: none
   flow: ''
-  name: 加拿大(免费节点)_32 - 8ms
+  name: 加拿大(免费节点)_32 - 8ms - 9ms
   network: ws
   port: 443
   server: 172.64.40.49
@@ -1094,7 +1079,7 @@ proxies:
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
 - alterId: 0
   cipher: auto
-  name: 加拿大/多伦多/Canada/Toronto - 56ms
+  name: 加拿大/多伦多/Canada/Toronto - 56ms ...
   network: tcp
   port: 18000
   server: 134.195.196.211
@@ -1103,7 +1088,7 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - encryption: none
   flow: ''
-  name: 🇨🇦CA_1|3.2MB/s - 512ms
+  name: 🇨🇦CA_1|3.2MB/s - 512ms - 536ms
   network: grpc
   port: 443
   server: eeg1.fi1-cosmostechnology.ru
@@ -1146,3 +1131,30 @@ proxies:
   tls: true
   type: vless
   uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+- encryption: none
+  flow: ''
+  name: 🇨🇦CA_6|210KB/s|M002-260618 01 ...
+  network: ws
+  port: 8443
+  server: 172.64.155.209
+  tls: true
+  type: vless
+  uuid: db3f09ae-23f2-42b8-abee-7b89fb392c5e
+- encryption: none
+  flow: ''
+  name: 🇨🇦CA_36|373KB/s|M002-260618 01...
+  network: ws
+  port: 8443
+  server: 188.114.99.160
+  tls: true
+  type: vless
+  uuid: db3f09ae-23f2-42b8-abee-7b89fb392c5e
+- encryption: none
+  flow: ''
+  name: 🇨🇦CA_39|149KB/s|M002-260618 01...
+  network: ws
+  port: 8443
+  server: 173.245.59.191
+  tls: true
+  type: vless
+  uuid: db3f09ae-23f2-42b8-abee-7b89fb392c5e

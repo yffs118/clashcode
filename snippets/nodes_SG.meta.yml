@@ -1,17 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: 新加坡 002 - 137ms
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: grateful-owl.rooster465.autos
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '新加坡 003 #1'
+  name: '新加坡 002 #1'
   network: ws
   port: 443
   server: me.khantry.net
@@ -25,7 +15,7 @@ proxies:
     path: /khantri
 - alterId: 4
   cipher: auto
-  name: '新加坡 004 #1'
+  name: '新加坡 003 #1'
   network: ws
   port: 443
   server: 103.253.26.20
@@ -39,7 +29,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 005 #1'
+  name: '新加坡 004 #1'
   network: ws
   port: 80
   server: 172.104.182.226
@@ -52,7 +42,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 006 #1'
+  name: '新加坡 005 #1'
   network: ws
   port: 8848
   server: 23.101.27.60
@@ -65,7 +55,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 007 #1'
+  name: '新加坡 006 #1'
   network: ws
   port: 8080
   server: 18.139.108.70
@@ -78,7 +68,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 008 #1'
+  name: '新加坡 007 #1'
   network: ws
   port: 8080
   server: 52.221.29.32
@@ -91,7 +81,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 009 #1'
+  name: '新加坡 008 #1'
   network: ws
   port: 8080
   server: 18.141.185.144
@@ -104,7 +94,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '新加坡 010 #1'
+  name: '新加坡 009 #1'
   network: ws
   port: 8080
   server: 124.156.207.12
@@ -117,7 +107,7 @@ proxies:
     path: /download
 - alterId: 64
   cipher: auto
-  name: '新加坡 011 #1'
+  name: '新加坡 010 #1'
   network: ws
   port: 30010
   server: 103.254.152.82
@@ -131,7 +121,7 @@ proxies:
     path: /path/191019072927
 - alterId: 1
   cipher: auto
-  name: '新加坡 012 #1'
+  name: '新加坡 011 #1'
   network: ws
   port: 21888
   server: 104.248.148.147
@@ -144,7 +134,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 013 #1'
+  name: '新加坡 012 #1'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -157,7 +147,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '新加坡 014 #1'
+  name: '新加坡 013 #1'
   network: ws
   port: 16737
   server: 139.180.211.152
@@ -170,7 +160,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '新加坡 015 #1'
+  name: '新加坡 014 #1'
   network: ws
   port: 18063
   server: 139.180.211.152
@@ -183,7 +173,7 @@ proxies:
     path: /Dialog Zoom
 - alterId: 0
   cipher: auto
-  name: '新加坡 016 #1'
+  name: '新加坡 015 #1'
   network: ws
   port: 80
   server: 139.59.255.209
@@ -196,7 +186,7 @@ proxies:
     path: /cloudfast
 - alterId: 0
   cipher: auto
-  name: '新加坡 017 #1'
+  name: '新加坡 016 #1'
   network: ws
   port: 63086
   server: 159.27.90.254
@@ -210,7 +200,7 @@ proxies:
     path: /mugua
 - alterId: 0
   cipher: auto
-  name: '新加坡 018 #1'
+  name: '新加坡 017 #1'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -223,7 +213,7 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: '新加坡 019 #1'
+  name: '新加坡 018 #1'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -236,7 +226,7 @@ proxies:
     path: /iso
 - alterId: 4
   cipher: auto
-  name: '新加坡 020 #1'
+  name: '新加坡 019 #1'
   network: ws
   port: 443
   server: 103.253.26.134
@@ -250,7 +240,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '新加坡 021 #1'
+  name: '新加坡 020 #1'
   network: ws
   port: 443
   server: 66.42.55.118
@@ -264,7 +254,7 @@ proxies:
     path: /RdIyx6hMMR
 - alterId: 0
   cipher: auto
-  name: '新加坡 022 #1'
+  name: '新加坡 021 #1'
   network: ws
   port: 43950
   server: 18.141.146.58
@@ -275,7 +265,9 @@ proxies:
     headers:
       Host: 18.141.146.58
     path: /
-- name: 🇸🇬_SG_新加坡
+- encryption: none
+  flow: ''
+  name: 🇸🇬_SG_新加坡 - 250ms
   network: ws
   port: 443
   server: zero.csmaster.ggff.net
@@ -284,6 +276,27 @@ proxies:
   type: vless
   udp: true
   uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+- name: 🇸🇬 新加坡
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.163.100.58
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 51396
+  server: 18.166.178.12
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3
+  password: BxceQaOe
+  port: 41421
+  server: 43.198.209.68
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - client-fingerprint: firefox
   name: '新加坡丨yoyapai.com #2'
   network: ws
@@ -382,22 +395,43 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: 🇸🇬SG_1|4.5MB/s
+  name: 🇸🇬 SG 046 | ⬇️ 12MB/s
   network: grpc
+  packet-encoding: ''
   port: 10036
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
   server: sg1-r.link-t7.com
   servername: s0.awsstatic.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_2|5.0MB/s
+  network: ws
+  port: '443'
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /sg-melbi
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   grpc-opts:
     grpc-service-name: update
-  name: 🇸🇬SG_2|4.9MB/s
+  name: 🇸🇬SG_3|5.2MB/s
   network: grpc
   port: '10038'
   reality-opts:
@@ -409,9 +443,47 @@ proxies:
   type: vless
   udp: true
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+  xudp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇸🇬SG_4|4.3MB/s
+  network: grpc
+  port: '10037'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 13.229.94.179
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: 🇸🇬SG_5|2.9MB/s
+  network: grpc
+  port: '10036'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 54.179.114.52
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 新加坡 002 - 137ms - 166ms
+  password: ND91608427
+  port: 443
+  server: grateful-owl.rooster465.autos
+  skip-cert-verify: true
+  sni: grateful-owl.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 新加坡 013 - 168ms
+  name: '新加坡 013 #1 - 183ms'
   network: ws
   port: 80
   server: 139.99.61.154
@@ -424,7 +496,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 016 - 168ms
+  name: '新加坡 016 #1 - 182ms'
   network: ws
   port: 80
   server: 139.59.255.209
@@ -437,7 +509,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 018 - 680ms
+  name: '新加坡 018 #1 - 469ms'
   network: ws
   port: 9111
   server: st-1.dnspro.icu
@@ -450,7 +522,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 新加坡 019 - 369ms
+  name: '新加坡 019 #1 - 741ms'
   network: ws
   port: 5100
   server: st-2.dnspro.icu
@@ -463,25 +535,7 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: 🇸🇬 SG 231 | ⬇️ 4MB/s - 1ms
-  network: ws
-  port: 443
-  server: 104.18.37.228
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-- encryption: none
-  flow: ''
-  name: 🇸🇬 SG 962 | ⬇️ 953KB/s - 1ms
-  network: ws
-  port: 443
-  server: 172.66.44.97
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- encryption: none
-  flow: ''
-  name: '新加坡丨yoyapai.com #2 - 141ms'
+  name: '新加坡丨yoyapai.com #2 - 184ms'
   network: ws
   port: 2053
   server: cf4.danfeng.eu.org
@@ -490,21 +544,14 @@ proxies:
   uuid: bafacd98-136a-4530-838d-4e5c51838dac
 - encryption: none
   flow: ''
-  name: 新加坡(免费节点)_2 - 168ms
+  name: 🇸🇬 机场推荐:dafei.de 新加坡 02 - 148m...
   network: ws
-  port: 2053
-  server: 149.118.55.215
+  port: 443
+  server: freev2.cloudflare.182682.xyz
   tls: true
   type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-- name: 新加坡(免费节点)_3 - 169ms
-  password: '!!str 521314'
-  port: 443
-  server: 116.251.217.65
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-- name: 🇸🇬SG_4|⬇️5.1MB/s - 1ms
+  uuid: 7f2935fa-3845-466c-9320-c17aed65f454
+- name: 🇸🇬SG_4|⬇️5.1MB/s - 9ms
   password: a9570330-769d-11ef-90dc-1577c1651679
   port: 443
   server: 104.18.1.196
@@ -513,7 +560,7 @@ proxies:
   type: trojan
 - encryption: none
   flow: ''
-  name: 新加坡(yudou789.top 玉豆免费节点) - 167...
+  name: 新加坡(yudou789.top 玉豆免费节点) - 182...
   network: ws
   port: 443
   server: 20.6.12.145
@@ -522,7 +569,7 @@ proxies:
   uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
 - encryption: none
   flow: ''
-  name: 🇸🇬 SG 040 | ⬇️ 18MB/s - 183ms
+  name: 🇸🇬SG_1|4.5MB/s - 197ms
   network: grpc
   port: 10036
   server: sg1-r.link-t7.com
@@ -531,7 +578,32 @@ proxies:
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_2|3.3MB/s - 185ms
+  name: 🇸🇬SG_2|4.9MB/s - 178ms
+  network: grpc
+  port: 10038
+  server: 13.250.26.252
+  tls: true
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- encryption: none
+  flow: ''
+  name: 新加坡(免费节点)_2 - 168ms - 177ms
+  network: ws
+  port: 2053
+  server: 149.118.55.215
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+- name: 新加坡(免费节点)_3 - 169ms - 173ms
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_2|3.3MB/s - 185ms - 196ms
   network: grpc
   port: 10037
   server: sg2-r.link-t7.com
@@ -540,7 +612,7 @@ proxies:
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_6|4.2MB/s - 169ms
+  name: 🇸🇬SG_6|4.2MB/s - 169ms - 178ms
   network: grpc
   port: 10037
   server: 13.229.94.179
@@ -549,7 +621,7 @@ proxies:
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_7|3.5MB/s - 169ms
+  name: 🇸🇬SG_7|3.5MB/s - 169ms - 177ms
   network: grpc
   port: 10036
   server: 54.179.114.52
@@ -594,6 +666,15 @@ proxies:
   uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
 - encryption: none
   flow: ''
+  name: 🇸🇬SG_49|235KB/s|A004-260618 01...
+  network: ws
+  port: 8443
+  server: 170.114.45.6
+  tls: true
+  type: vless
+  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+- encryption: none
+  flow: ''
   name: 🇸🇬SG_48|160KB/s|A004-260618 01...
   network: ws
   port: 8443
@@ -603,13 +684,91 @@ proxies:
   uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
 - encryption: none
   flow: ''
-  name: 🇸🇬SG_49|235KB/s|A004-260618 01...
+  name: 🇸🇬SG_49|123KB/s|S004-260618 01...
   network: ws
-  port: 8443
-  server: 170.114.45.6
+  port: 2096
+  server: 91.193.58.27
   tls: true
   type: vless
-  uuid: ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_50|94KB/s|S004-260618 01 ...
+  network: ws
+  port: 2096
+  server: 91.193.58.157
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_55|118KB/s|A004-260618 01...
+  network: ws
+  port: 2096
+  server: 91.193.58.198
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_56|300KB/s|A004-260618 01...
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  tls: false
+  type: vless
+  uuid: a57223c7-3581-4fec-9bc4-ad5c30900efb
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_60|302KB/s|A004-260618 01...
+  network: ws
+  port: 2096
+  server: 91.193.58.108
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_59|234KB/s|A004-260618 01...
+  network: ws
+  port: 2096
+  server: 91.193.58.132
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_61|285KB/s|A004-260618 01...
+  network: ws
+  port: 2096
+  server: 91.193.58.37
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_62|203KB/s|A004-260618 01...
+  network: ws
+  port: 2096
+  server: 91.193.58.15
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- encryption: none
+  flow: ''
+  name: 🇸🇬SG_64|78KB/s|B007-260618 01 ...
+  network: ws
+  port: 6768
+  server: 54.254.145.25
+  tls: true
+  type: vless
+  uuid: edd5f4a0-19dd-4017-8d67-03482fd6472a
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬_SG_新加坡 - 278ms
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 19000
+  server: ss.049.node-for-bigairport.win
+  type: ss
 - name: 新加坡/新加坡/Singapore/Singapore
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2060
@@ -617,3 +776,41 @@ proxies:
   skip-cert-verify: true
   sni: xjp3.mangshe.xyz
   type: hysteria2
+- name: 🇸🇬 SG 280 | ⬇️ 8KB/s
+  password: admin
+  port: 1080
+  server: 143.198.85.89
+  type: socks5
+  username: admin
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬 SG 563 | ⬇️ 20MB/s
+  network: grpc
+  port: 10037
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 🇸🇬 SG 698 | ⬇️ 48KB/s
+  password: pass
+  port: 1080
+  server: 47.237.78.169
+  type: socks5
+  username: user
+- alterId: 0
+  name: 🇸🇬SG新加坡2
+  password: BxceQaOe
+  port: 45744
+  server: 18.166.178.40
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true

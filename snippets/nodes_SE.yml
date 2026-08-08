@@ -1,49 +1,21 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_1|4.0MB/s - 154ms
+  name: 🇸🇪SE_1|4.0MB/s - 154ms - 149ms
   password: amazonskr05
   port: 443
   server: 13.61.189.139
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.0MB/s - 156ms
+  name: 🇸🇪SE_2|2.0MB/s - 156ms - 149ms
   password: amazonskr05
   port: 443
   server: 51.21.130.209
   type: ss
   udp: true
 - alterId: 0
-  cipher: none
+  cipher: auto
   name: '瑞典 001 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.64
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
-  ws-opts:
-    headers:
-      Host: nl1.vmess.site
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '瑞典 002 #1'
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '瑞典 003 #1'
   network: ws
   port: 443
   server: 185.146.173.158
@@ -57,7 +29,35 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 瑞典 004 - 128ms
+  name: '瑞典 002 #1'
+  network: ws
+  port: 443
+  server: 185.146.173.64
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  ws-opts:
+    headers:
+      Host: nl1.vmess.site
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '瑞典 003 #1'
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 瑞典 004 - 128ms - 137ms
   network: http
   port: 80
   server: 217.142.138.61
@@ -111,7 +111,9 @@ proxies:
   network: ws
   port: 80
   server: myvpshosting.name.ng
+  servername: myvpshosting.name.ng
   skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
   ws-opts:
@@ -260,7 +262,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 0
   cipher: none
-  name: 瑞典 001 - 1ms
+  name: '瑞典 001 #1 - 8ms'
   network: ws
   port: 443
   server: 185.146.173.64
@@ -273,7 +275,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 002 - 1ms
+  name: '瑞典 002 #1 - 9ms'
   network: ws
   port: 443
   server: 185.146.173.59
@@ -286,7 +288,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 003 - 1ms
+  name: '瑞典 003 #1 - 8ms'
   network: ws
   port: 443
   server: 185.146.173.158
@@ -299,7 +301,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 007 - 2ms
+  name: '瑞典 007 #1 - 8ms'
   network: ws
   port: 80
   server: 185.146.173.25
@@ -312,7 +314,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 瑞典 017 - 1ms
+  name: '瑞典 017 #1 - 8ms'
   network: ws
   port: 443
   server: 185.146.173.129
@@ -324,7 +326,7 @@ proxies:
       Host: 185.146.173.129
     path: /
 - cipher: aes-256-cfb
-  name: 🇸🇪 SE 946 | ⬇️ 922KB/s - 158ms
+  name: 🇸🇪 SE 946 | ⬇️ 922KB/s - 158ms...
   password: amazonskr05
   port: 443
   server: 13.50.4.72

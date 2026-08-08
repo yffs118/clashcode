@@ -1,14 +1,17 @@
 proxies:
 - client-fingerprint: chrome
-  name: '未知 TROJAN-274 | free-nodes #1 ...'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '韩国 001 #1'
   network: tcp
-  password: ND91608427
   port: 443
-  server: chief-bluegill.rooster465.autos
-  skip-cert-verify: true
-  sni: chief-bluegill.rooster465.autos
-  type: trojan
+  server: 132.145.89.30
+  servername: ako.pagate.top
+  tls: true
+  type: vless
   udp: true
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '韩国 002 #1'
@@ -214,13 +217,13 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 🇰🇷 机场推荐:dafei.de 韩国 01
+- name: 🇰🇷 KR 702 | ⬇️ 97KB/s
   password: admin
   port: 5555
   server: 158.180.91.51
   type: socks5
   username: admin
-- name: 🇰🇷KR_1|2.5MB/s
+- name: 🇰🇷 机场推荐:dafei.de 韩国 02
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -230,28 +233,9 @@ proxies:
   type: http
   udp: true
   username: test
-- cipher: aes-256-cfb
-  name: 🇰🇷KR_1|1.6MB/s - 131ms
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul - 1...
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  tls: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: 132.145.80.230
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 006 - 126ms
+  name: '韩国 006 #1 - 137ms'
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -262,6 +246,25 @@ proxies:
     headers:
       Host: fullaccesstokoreannetsubnode1.azurewebsites.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国/首尔特别市/South Korea/Seoul-3 -...
+  network: ws
+  port: 8443
+  server: 150.109.240.179
+  tls: true
+  type: vmess
+  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
+  ws-opts:
+    headers:
+      Host: 150.109.240.179
+    path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|1.6MB/s - 131ms - 134ms
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  type: ss
 - alterId: 0
   cipher: auto
   name: 韩国/春川市/South Korea/Chuncheon -...
@@ -286,7 +289,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-3 -...
+  name: '韩国/首尔特别市/South Korea/Seoul-3 -... #1'
   network: tcp
   port: 443
   server: 140.238.2.250
@@ -295,7 +298,7 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - encryption: none
   flow: ''
-  name: 🇰🇷 KR 907 | ⬇️ 17MB/s - 1ms
+  name: 🇰🇷 KR 907 | ⬇️ 17MB/s - 1ms - ...
   network: ws
   port: 2087
   server: 172.64.53.194
@@ -304,31 +307,20 @@ proxies:
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
 - encryption: none
   flow: ''
-  name: 🇰🇷 KR 905 | ⬇️ 19MB/s - 164ms
-  network: grpc
-  port: 10046
-  server: kr1-r.link-t7.com
-  tls: true
-  type: vless
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- encryption: none
-  flow: ''
-  name: 🇰🇷KR_1|3.6MB/s - 169ms
+  name: 🇰🇷KR_1|3.6MB/s - 169ms - 196ms
   network: grpc
   port: 10050
   server: kr5-r.link-t7.com
   tls: true
   type: vless
   uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- encryption: none
-  flow: ''
-  name: 🇰🇷KR_2|4.6MB/s - 147ms
-  network: grpc
-  port: 10049
-  server: kr4-r.link-t7.com
-  tls: true
-  type: vless
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 🇰🇷 KR 564 | ⬇️ 5KB/s - 147ms
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  port: 56127
+  server: 154.90.62.70
+  skip-cert-verify: true
+  sni: 154.90.62.70
+  type: trojan
 - encryption: none
   flow: ''
   name: KR韩国(mibei77.com 米贝节点分享) - 141...
@@ -339,7 +331,7 @@ proxies:
   type: vless
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_5|223KB/s 01 - 194ms
+  name: 🇰🇷KR_5|223KB/s 01 - 194ms - 15...
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 141.164.45.187
@@ -369,15 +361,15 @@ proxies:
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_10|179KB/s|A004-260618 01...
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
   name: 🇰🇷KR_11|244KB/s|A004-260618 01...
   password: Y6R9pAtvxxzmGC
   port: 8888
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_10|179KB/s|A004-260618 01...
+  password: RexnBgU7EV5ADxG
+  port: 7002
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-gcm
@@ -386,6 +378,31 @@ proxies:
   port: 9101
   server: 141.164.45.187
   type: ss
+- cipher: aes-256-cfb
+  name: 韩国/South Korea
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- name: 🇰🇷KR_57|293KB/s|A004-260618 01...
+  password: ND91608427
+  port: 443
+  server: 43.201.46.108
+  sni: exotic-chow.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR_64|92KB/s|M002-260618 01 ...
+  password: ND91608427
+  port: 443
+  server: 52.78.13.238
+  sni: upward-puma.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR_93|168KB/s|M002-260618 01...
+  password: ND91608427
+  port: 443
+  server: 43.201.103.8
+  skip-cert-verify: true
+  sni: intimate-moray.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul
@@ -405,12 +422,6 @@ proxies:
     headers:
       Host: YouTube-aweikeji
     path: /
-- cipher: aes-256-cfb
-  name: 韩国/South Korea
-  password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
-  type: ss
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul-2
@@ -426,8 +437,24 @@ proxies:
   type: vmess
   uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
 - client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 012 | ⬇️ 19MB/s
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
   delay: 1527
-  name: 🇰🇷 KR 529 | ⬇️ 412KB/s
+  name: 🇰🇷 KR 577 | ⬇️ 331KB/s
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -436,3 +463,52 @@ proxies:
   type: socks5
   udp: true
   username: Og%3D%3D
+- name: 🇰🇷 KR 033 | ⬇️ 192KB/s
+  password: Og%3D%3D
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷 KR 525 | ⬇️ 13MB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2087
+  server: 172.64.53.194
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    max-early-data: 2560
+    path: /
+- name: 🇰🇷 KR 609 | ⬇️ 21KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  udp: true
+  username: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇰🇷 KR 666 | ⬇️ 18MB/s
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
