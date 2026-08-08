@@ -1,21 +1,7 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_1|4.0MB/s - 154ms - 149ms
-  password: amazonskr05
-  port: 443
-  server: 13.61.189.139
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.0MB/s - 156ms - 149ms
-  password: amazonskr05
-  port: 443
-  server: 51.21.130.209
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '瑞典 001 #1'
+  name: 瑞典 001
   network: ws
   port: 443
   server: 185.146.173.158
@@ -29,7 +15,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: '瑞典 002 #1'
+  name: 瑞典 002
   network: ws
   port: 443
   server: 185.146.173.64
@@ -43,7 +29,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '瑞典 003 #1'
+  name: 瑞典 003
   network: ws
   port: 443
   server: 185.146.173.59
@@ -57,7 +43,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 瑞典 004 - 128ms - 137ms
+  name: 瑞典 004 - 128ms - 137ms - 180ms
   network: http
   port: 80
   server: 217.142.138.61
@@ -67,7 +53,7 @@ proxies:
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - alterId: 0
   cipher: auto
-  name: '瑞典 005 #1'
+  name: 瑞典 005
   network: ws
   port: 80
   server: 5.249.160.226
@@ -81,7 +67,7 @@ proxies:
     path: /vmess
 - alterId: 1
   cipher: auto
-  name: '瑞典 006 #1'
+  name: 瑞典 006
   network: ws
   port: 8080
   server: 141.147.161.53
@@ -94,7 +80,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: '瑞典 007 #1'
+  name: 瑞典 007
   network: ws
   port: 80
   server: 185.146.173.25
@@ -107,12 +93,12 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '瑞典 008 #1'
+  name: '未知 VMESS-1238 | free-nodes #1'
   network: ws
   port: 80
   server: myvpshosting.name.ng
   servername: myvpshosting.name.ng
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
@@ -122,7 +108,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '瑞典 009 #1'
+  name: 瑞典 009
   network: ws
   port: 31002
   server: 37.120.209.126
@@ -136,7 +122,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: '瑞典 010 #1'
+  name: 瑞典 010
   network: ws
   port: 443
   server: 148.135.33.227
@@ -150,7 +136,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '瑞典 011 #1'
+  name: 瑞典 011
   network: ws
   port: 37002
   server: 148.135.31.41
@@ -164,7 +150,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '瑞典 012 #1'
+  name: 瑞典 012
   network: ws
   port: 31005
   server: 148.135.31.61
@@ -178,7 +164,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: '瑞典 013 #1'
+  name: 瑞典 013
   network: ws
   port: 443
   server: 148.135.38.107
@@ -192,7 +178,7 @@ proxies:
     path: /path/1704363182493
 - alterId: 64
   cipher: auto
-  name: '瑞典 014 #1'
+  name: 瑞典 014
   network: ws
   port: 443
   server: 148.135.9.156
@@ -206,7 +192,7 @@ proxies:
     path: /path/1704363182493
 - alterId: 64
   cipher: auto
-  name: '瑞典 015 #1'
+  name: 瑞典 015
   network: ws
   port: 443
   server: 148.135.31.171
@@ -220,7 +206,7 @@ proxies:
     path: /path/1703924658447
 - alterId: 64
   cipher: auto
-  name: '瑞典 016 #1'
+  name: 瑞典 016
   network: ws
   port: 443
   server: 148.135.33.140
@@ -234,7 +220,7 @@ proxies:
     path: /path/1704188270531
 - alterId: 0
   cipher: auto
-  name: '瑞典 017 #1'
+  name: 瑞典 017
   network: ws
   port: 443
   server: 185.146.173.129
@@ -248,7 +234,7 @@ proxies:
     path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 64
   cipher: auto
-  name: '瑞典 018 #1'
+  name: 瑞典 018
   network: ws
   port: 443
   server: 148.135.14.99
@@ -260,7 +246,7 @@ proxies:
     headers:
       Host: www.20414124.xyz
     path: /path/1704188270531
-- name: '瑞典 019 #1'
+- name: 瑞典 019
   network: ws
   port: 80
   server: 146.75.119.82
@@ -276,7 +262,9 @@ proxies:
       Host: rb24.ir
     path: ws/?ed=2048/
 - client-fingerprint: chrome
-  name: '瑞典 020 #1'
+  encryption: none
+  flow: ''
+  name: '瑞典 020 #1 - 1ms'
   network: xhttp
   port: 8443
   server: 192.71.82.2
@@ -287,7 +275,7 @@ proxies:
   type: vless
   udp: true
   uuid: 71286f3b-ec0f-4d12-9d3b-8d2941dee6ae
-- name: '瑞典 021 #1'
+- name: 瑞典 021
   network: ws
   port: 20071
   server: 217.142.227.105
@@ -302,7 +290,7 @@ proxies:
     headers:
       Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
     path: /glasspanel/0038ba35_0_1bdabe931208/
-- name: '瑞典 022 #1'
+- name: 瑞典 022
   network: ws
   port: 80
   server: 185.146.173.58
@@ -316,7 +304,7 @@ proxies:
   ws-opts:
     headers:
       Host: m22.6.site.org.ir.com.site.xn--fhq0la447aac5504dea701axr1g.antishop.sbs.
-- name: '瑞典 023 #1'
+- name: 瑞典 023
   network: tcp
   port: 2044
   server: 185.246.131.170
@@ -326,82 +314,6 @@ proxies:
   type: vless
   udp: true
   uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: '瑞典丨yoyapai.com #2 - 161ms - 15...'
-  network: tcp
-  port: 8443
-  server: 45.159.12.191
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: chrome
-  encryption: none
-  flow: ''
-  name: '瑞典節點丨yoyapai.com_1 #2 - 162ms ...'
-  network: tcp
-  port: 8443
-  server: 79.127.249.221
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: '瑞典丨yoyapai.com_2 #2 - 161ms - ...'
-  network: tcp
-  port: 8443
-  server: 45.159.12.4
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: '瑞典丨yoyapai.com_3 #2 - 163ms - ...'
-  network: tcp
-  port: 8443
-  server: 45.159.12.18
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- encryption: none
-  flow: ''
-  name: '瑞典節點丨yoyapai.com #2 - 163ms - ...'
-  network: tcp
-  port: 8443
-  server: 45.159.12.15
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 'SE瑞典丨yoyapai.com #2'
-  network: ws
-  port: 80
-  server: 151.101.84.151
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇪 机场推荐:dafei.de 瑞典 01
@@ -418,6 +330,20 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /
   xudp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪 机场推荐:dafei.de 瑞典 02
+  password: amazonskr05
+  port: 443
+  server: 13.61.189.139
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_2|2.0MB/s - 156ms - 149ms...
+  password: amazonskr05
+  port: 443
+  server: 51.21.130.209
+  type: ss
+  udp: true
 - encryption: none
   flow: ''
   name: 🇸🇪SE_3|⬇️3.2MB/s - 195ms - 215...
@@ -442,35 +368,25 @@ proxies:
   type: vless
   udp: true
   uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-- alterId: 0
-  cipher: none
-  name: '瑞典 001 #1 - 8ms'
+- encryption: none
+  name: 🇸🇪 SE 614 | ⬇️ 9MB/s
   network: ws
-  port: 443
-  server: 185.146.173.64
-  tls: true
-  type: vmess
-  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  packet-encoding: xudp
+  port: 2052
+  server: forallpanel.srtongston.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c89c0704-d735-4376-96a8-d37f7e9c54f2
   ws-opts:
     headers:
-      Host: 185.146.173.64
+      Host: zarshekan2.srtongston.ir
     path: /
+    v2ray-http-upgrade: true
 - alterId: 0
   cipher: auto
-  name: '瑞典 002 #1 - 9ms'
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 185.146.173.59
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '瑞典 003 #1 - 8ms'
+  name: '瑞典 001 #1 - 2ms'
   network: ws
   port: 443
   server: 185.146.173.158
@@ -483,7 +399,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '瑞典 007 #1 - 8ms'
+  name: '瑞典 002 #1 - 1ms'
+  network: ws
+  port: 443
+  server: 185.146.173.64
+  tls: true
+  type: vmess
+  uuid: 7723ee31-039b-48d0-bfd8-d591ca4baf4e
+  ws-opts:
+    headers:
+      Host: 185.146.173.64
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '瑞典 003 #1 - 2ms'
+  network: ws
+  port: 443
+  server: 185.146.173.59
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 185.146.173.59
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '瑞典 007 #1 - 2ms'
   network: ws
   port: 80
   server: 185.146.173.25
@@ -496,7 +438,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '瑞典 017 #1 - 8ms'
+  name: '瑞典 017 #1 - 2ms'
   network: ws
   port: 443
   server: 185.146.173.129
@@ -509,16 +451,16 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: '瑞典 019 #1 - 144ms'
+  name: '瑞典 019 #1 - 92ms'
   network: ws
   port: 80
   server: 146.75.119.82
   tls: true
   type: vless
-  uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
+  uuid: 17ab3ed8-5aba-499c-8bbb-a1c3c6d44f82
 - encryption: none
   flow: ''
-  name: '瑞典 020 #1 - 114ms'
+  name: '瑞典 021 #1 - 211ms'
   network: ws
   port: 20071
   server: 217.142.227.105
@@ -527,7 +469,79 @@ proxies:
   uuid: 90235096-9296-3d36-c77c-715577598fd5
 - encryption: none
   flow: ''
-  name: 瑞典 021 - 2ms - 9ms
+  name: '瑞典 022 #1 - 2ms'
+  network: ws
+  port: 80
+  server: 185.146.173.58
+  tls: true
+  type: vless
+  uuid: f151bde4-6981-4ad9-bd01-dd34ad792a3e
+- encryption: none
+  flow: ''
+  name: '瑞典丨yoyapai.com #2 - 161ms - 15...'
+  network: tcp
+  port: 8443
+  server: 45.159.12.191
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: '瑞典節點丨yoyapai.com_1 #2 - 162ms ...'
+  network: tcp
+  port: 8443
+  server: 79.127.249.221
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: '瑞典丨yoyapai.com_2 #2 - 161ms - ...'
+  network: tcp
+  port: 8443
+  server: 45.159.12.4
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: '瑞典丨yoyapai.com_3 #2 - 163ms - ...'
+  network: tcp
+  port: 8443
+  server: 45.159.12.18
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: '瑞典節點丨yoyapai.com #2 - 163ms - ...'
+  network: tcp
+  port: 8443
+  server: 45.159.12.15
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  flow: ''
+  name: 'SE瑞典丨yoyapai.com #2 - 25ms'
+  network: ws
+  port: 80
+  server: 151.101.84.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+- encryption: none
+  flow: ''
+  name: '瑞典 019 #1 - 144ms - 92ms'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: true
+  type: vless
+  uuid: 097a1e16-1ade-4f29-8e68-25b5113f7c9d
+- encryption: none
+  flow: ''
+  name: 瑞典 021 - 2ms - 9ms - 1ms
   network: xhttp
   port: 8443
   server: 192.71.82.2
@@ -536,28 +550,13 @@ proxies:
   uuid: 92a4891c-3c68-4712-bc9d-8a19416df154
 - encryption: none
   flow: ''
-  name: '瑞典 023 #1 - 8ms'
+  name: '瑞典 023 #1 - 8ms - 1ms'
   network: ws
   port: 80
   server: 185.146.173.68
   tls: true
   type: vless
   uuid: ffa6526a-3b07-4bdd-a77f-d8d1d3ec868e
-- encryption: none
-  flow: ''
-  name: 'SE瑞典丨yoyapai.com #2 - 48ms'
-  network: ws
-  port: 80
-  server: 151.101.84.151
-  tls: false
-  type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-- cipher: aes-256-cfb
-  name: 🇸🇪 SE 946 | ⬇️ 922KB/s - 158ms...
-  password: amazonskr05
-  port: 443
-  server: 13.50.4.72
-  type: ss
 - encryption: none
   flow: ''
   name: 🇸🇪SE_12|172KB/s|C002-260622 01...
@@ -578,7 +577,7 @@ proxies:
   uuid: af6838cc-338b-41e8-93b2-996b24014659
 - encryption: none
   flow: xtls-rprx-vision
-  name: 🇸🇪_SE_瑞典 - 159ms
+  name: 🇸🇪_SE_瑞典 - 159ms - 99ms
   network: tcp
   port: 443
   server: 82.29.43.42
@@ -586,18 +585,11 @@ proxies:
   type: vless
   uuid: 635a1c4e-122b-45f5-8339-03bce6039739
 - encryption: none
-  name: 🇸🇪 SE 614 | ⬇️ 9MB/s
+  flow: ''
+  name: 🇸🇪 SE 614 | ⬇️ 9MB/s - 93ms
   network: ws
-  packet-encoding: xudp
   port: 2052
   server: forallpanel.srtongston.ir
-  skip-cert-verify: false
   tls: false
   type: vless
-  udp: true
   uuid: c89c0704-d735-4376-96a8-d37f7e9c54f2
-  ws-opts:
-    headers:
-      Host: zarshekan2.srtongston.ir
-    path: /
-    v2ray-http-upgrade: true

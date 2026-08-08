@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #4'
+  name: '🇭🇰_HK_中国香港_1 #5'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: true
@@ -84,7 +84,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #4 - 222ms'
+  name: '🇭🇰_HK_中国香港_1 #4 - 335ms'
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -92,16 +92,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  name: 🇭🇰HK香港2
-  password: BxceQaOe
-  port: 11035
-  server: 43.198.109.39
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇭🇰 香港3
   password: d1960ba9f0f6353353994fa844cf817b
   port: 5077
@@ -130,7 +120,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 🇭🇰 HK VLESS-1341 | free-nodes
+  name: 🇭🇰 HK VLESS-1339 | free-nodes
   network: tcp
   port: 443
   server: s299.sspcccdn.xyz
@@ -151,7 +141,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 🇭🇰 HK VLESS-1377 | free-nodes
+  name: 🇭🇰 HK VLESS-1375 | free-nodes
   network: tcp
   port: 443
   server: s306.gogocs.xyz
@@ -172,7 +162,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 🇭🇰 HK VLESS-1385 | free-nodes
+  name: 🇭🇰 HK VLESS-1383 | free-nodes
   network: tcp
   port: 443
   server: 212.192.15.191
@@ -186,222 +176,7 @@ proxies:
     headers:
       Host: ccbf75e5s298.wagahaha.xyz
     path: ''
-- name: '🇭🇰HK香港丨yoyapai.com #2'
-  network: ws
-  port: 80
-  server: 91.193.58.197
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '香港丨yoyapai.com #2'
-  password: 65fQmPHHbPcBCfvSHt
-  port: 443
-  server: au-4.tr202605.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '香港丨yoyapai.com_1 #2'
-  network: ws
-  port: 80
-  server: 151.101.77.151
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  ws-opts:
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /?https://t.me/WangCai2🇨🇳
-- name: '香港丨yoyapai.com_2 #2'
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 47867
-  server: 18.162.155.166
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: '🇭🇰HK香港丨yoyapai.com_1 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.243
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_2 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.246
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_3 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.209
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_4 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.179
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_5 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.42
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: /pyip=Telegram-WangCai2🇨🇳
-- name: '香港丨yoyapai.com_3 #2'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 43.199.32.78
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: '🇭🇰HK香港節點丨yoyapai.com #2'
-  network: ws
-  port: 443
-  server: 91.193.58.93
-  servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  ws-opts:
-    headers:
-      Host: jamph131-1228.pages.dev
-    path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_1 #2'
-  network: ws
-  port: 443
-  server: 91.193.58.195
-  servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  ws-opts:
-    headers:
-      Host: jamph131-1228.pages.dev
-    path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_2 #2'
-  network: ws
-  port: 443
-  server: 91.193.58.141
-  servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  ws-opts:
-    headers:
-      Host: jamph131-1228.pages.dev
-    path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_3 #2'
-  network: ws
-  port: 443
-  server: 91.193.58.117
-  servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  ws-opts:
-    headers:
-      Host: jamph131-1228.pages.dev
-    path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_4 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.92
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
-  ws-opts:
-    headers:
-      Host: plain-darkness-90ea.259.workers.dev
-    path: /pyip=Telegram🇨🇳+@WangCai2
-- name: '🇭🇰HK香港節點丨yoyapai.com_5 #2'
-  network: ws
-  port: 80
-  server: 91.193.58.93
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
-  ws-opts:
-    headers:
-      Host: plain-darkness-90ea.259.workers.dev
-    path: /pyip=Telegram🇨🇳+@WangCai2
-- alterId: 0
-  cipher: auto
-  name: 'HK香港(mibei77.com 米贝节点分享)_1 #2'
-  network: ws
-  port: 443
-  server: 47.92.161.8
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-    path: /ws-vmess
-- name: '香港_1 #3'
+- name: 香港_1
   network: ws
   port: 443
   server: s1.db-link.in
@@ -415,7 +190,7 @@ proxies:
     headers:
       host: dabaihk.webn.cc
     path: /db1024a105975707
-- name: '香港_2 #3'
+- name: 香港_2
   network: tcp
   password: BxceQaOe
   port: 443
@@ -444,36 +219,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇭🇰HK_1|4.4MB/s
-  network: grpc
-  port: '10126'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.166.210.12
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: movie
-  name: 🇭🇰HK_2|3.9MB/s
-  network: grpc
-  port: '10129'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 43.198.96.23
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_1|1.7MB/s
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: '10038'
+  server: fg7xl1div.d33tqmk.cc
+  skip-cert-verify: false
+  sni: xk7qhk308.ckpfef.top
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_2|2.4MB/s
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: '11173'
+  server: fg7xl1div.d33tqmk.cc
+  skip-cert-verify: false
+  sni: xk7qhk307.ckpfef.top
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: 🇭🇰HK_3|1.6MB/s
+  obfs: salamander
+  obfs-password: 1ol3tasb90
+  password: 1dcc3b89-0b45-3908-9120-19741361d55d
+  port: '11255'
+  server: fg7xl1div.d33tqmk.cc
+  skip-cert-verify: false
+  sni: xk7qhk309.ckpfef.top
+  type: hysteria2
+  up: ''
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-6 - ...
@@ -489,7 +270,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_132 - 2211ms - 1236ms
+  name: 🇭🇰_香港_132 - 2211ms - 664ms
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -515,7 +296,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_137 - 1473ms - 186ms
+  name: 🇭🇰_香港_137 - 1473ms - 747ms
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -528,7 +309,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_135 - 1180ms - 187ms
+  name: 🇭🇰_香港_135 - 1180ms - 2328ms
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -554,7 +335,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_134 - 1433ms - 187ms
+  name: 🇭🇰_香港_134 - 1433ms - 773ms
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -578,9 +359,18 @@ proxies:
     headers:
       Host: wwafj5lhl6bi8au9.v.3dns.vip
     path: /
+- encryption: none
+  flow: xtls-rprx-vision
+  name: 🇭🇰 HK VLESS-1341 | free-nodes ...
+  network: tcp
+  port: 443
+  server: s299.sspcccdn.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_133 - 1138ms - 186ms
+  name: 🇭🇰_香港_133 - 1138ms - 276ms
   network: ws
   port: 443
   server: zudssgtmrqg9lpvi.v.3dns.vip
@@ -593,16 +383,7 @@ proxies:
     path: /
 - encryption: none
   flow: xtls-rprx-vision
-  name: HK VLESS-1340 | free-nodes - 2...
-  network: tcp
-  port: 443
-  server: s299.sspcccdn.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-- encryption: none
-  flow: xtls-rprx-vision
-  name: HK VLESS-1376 | free-nodes - 1...
+  name: 🇭🇰 HK VLESS-1377 | free-nodes ...
   network: tcp
   port: 443
   server: s306.gogocs.xyz
@@ -611,7 +392,7 @@ proxies:
   uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - encryption: none
   flow: xtls-rprx-vision
-  name: HK VLESS-1384 | free-nodes - 1...
+  name: 🇭🇰 HK VLESS-1385 | free-nodes ...
   network: tcp
   port: 443
   server: 212.192.15.191
@@ -620,7 +401,7 @@ proxies:
   uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com #2 - 8ms'
+  name: '🇭🇰HK香港丨yoyapai.com #2 - 1ms'
   network: ws
   port: 80
   server: 91.193.58.197
@@ -629,7 +410,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '香港丨yoyapai.com_1 #2 - 182ms'
+  name: '香港丨yoyapai.com_1 #2 - 197ms'
   network: ws
   port: 80
   server: 151.101.77.151
@@ -638,7 +419,7 @@ proxies:
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com_1 #2 - 8ms'
+  name: '🇭🇰HK香港丨yoyapai.com_1 #2 - 2ms'
   network: ws
   port: 80
   server: 91.193.58.243
@@ -647,7 +428,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com_2 #2 - 9ms'
+  name: '🇭🇰HK香港丨yoyapai.com_2 #2 - 2ms'
   network: ws
   port: 80
   server: 91.193.58.246
@@ -656,7 +437,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com_3 #2 - 9ms'
+  name: '🇭🇰HK香港丨yoyapai.com_3 #2 - 1ms'
   network: ws
   port: 80
   server: 91.193.58.209
@@ -665,7 +446,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com_4 #2 - 9ms'
+  name: '🇭🇰HK香港丨yoyapai.com_4 #2 - 3ms'
   network: ws
   port: 80
   server: 91.193.58.179
@@ -674,7 +455,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港丨yoyapai.com_5 #2 - 10ms'
+  name: '🇭🇰HK香港丨yoyapai.com_5 #2 - 1ms'
   network: ws
   port: 80
   server: 91.193.58.42
@@ -683,7 +464,7 @@ proxies:
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com #2 - 9ms'
+  name: '🇭🇰HK香港節點丨yoyapai.com #2 - 2ms'
   network: ws
   port: 443
   server: 91.193.58.93
@@ -692,7 +473,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com_1 #2 - 9m...'
+  name: '🇭🇰HK香港節點丨yoyapai.com_1 #2 - 2m...'
   network: ws
   port: 443
   server: 91.193.58.195
@@ -701,7 +482,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com_2 #2 - 9m...'
+  name: '🇭🇰HK香港節點丨yoyapai.com_2 #2 - 2m...'
   network: ws
   port: 443
   server: 91.193.58.141
@@ -710,7 +491,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com_3 #2 - 8m...'
+  name: '🇭🇰HK香港節點丨yoyapai.com_3 #2 - 1m...'
   network: ws
   port: 443
   server: 91.193.58.117
@@ -719,7 +500,7 @@ proxies:
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com_4 #2 - 8m...'
+  name: '🇭🇰HK香港節點丨yoyapai.com_4 #2 - 1m...'
   network: ws
   port: 80
   server: 91.193.58.92
@@ -728,7 +509,7 @@ proxies:
   uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
 - encryption: none
   flow: ''
-  name: '🇭🇰HK香港節點丨yoyapai.com_5 #2 - 8m...'
+  name: '🇭🇰HK香港節點丨yoyapai.com_5 #2 - 1m...'
   network: ws
   port: 80
   server: 91.193.58.93
@@ -737,20 +518,51 @@ proxies:
   uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
 - encryption: none
   flow: ''
-  name: '香港_1 #3 - 250ms'
+  name: '香港_1 #3 - 267ms'
   network: ws
   port: 443
   server: s1.db-link.in
   tls: true
   type: vless
   uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
-- name: 🇭🇰HK香港2 - 154ms
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK_1|4.4MB/s - 200ms
+  network: grpc
+  port: 10126
+  server: 18.166.210.12
+  tls: true
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- encryption: none
+  flow: ''
+  name: 🇭🇰HK_2|3.9MB/s - 200ms
+  network: grpc
+  port: 10129
+  server: 43.198.96.23
+  tls: true
+  type: vless
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- name: 🇭🇰HK香港2 - 154ms - 91ms
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20068
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: HK4 - 146ms - 153ms - 197ms
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: true
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /
 - encryption: none
   flow: ''
   name: '香港/香港/Hong Kong/Hong Kong-6 - ... #1'
@@ -762,33 +574,7 @@ proxies:
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
 - alterId: 0
   cipher: auto
-  name: HK4 - 146ms - 153ms
-  network: ws
-  port: 44867
-  server: 47.244.120.197
-  tls: true
-  type: vmess
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK7 23.6KB/s - 147ms - 153ms
-  network: ws
-  port: 443
-  server: 47.242.79.198
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 47.242.79.198
-    path: /
-- alterId: 0
-  cipher: auto
-  name: HK15 23.6KB/s - 147ms - 153ms
+  name: HK15 23.6KB/s - 147ms - 153ms ...
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -801,7 +587,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: HK18 - 147ms - 153ms
+  name: HK18 - 147ms - 153ms - 196ms
   network: ws
   port: 443
   server: 47.76.197.72
@@ -814,7 +600,7 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: 🇭🇰HK香港丨yoyapai.com - 1ms - 9ms
+  name: 🇭🇰HK香港丨yoyapai.com - 1ms - 9ms...
   network: ws
   port: 80
   server: 91.193.58.220
@@ -839,6 +625,19 @@ proxies:
   tls: false
   type: vless
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+- alterId: 0
+  cipher: auto
+  name: HK7 23.6KB/s - 147ms - 153ms -...
+  network: ws
+  port: 443
+  server: 47.242.79.198
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 47.242.79.198
+    path: /
 - encryption: none
   flow: ''
   name: 🇭🇰HK香港丨yoyapai.com_3 - 1ms - 8...
@@ -891,7 +690,7 @@ proxies:
     path: /
 - encryption: none
   flow: ''
-  name: 🇭🇰 香港 04 - 148ms - 157ms
+  name: 🇭🇰 香港 04 - 148ms - 157ms - 207...
   network: ws
   port: 443
   server: 91.110.209.61
@@ -900,7 +699,7 @@ proxies:
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
 - encryption: none
   flow: ''
-  name: 🇭🇰 香港 10 - 151ms - 165ms
+  name: 🇭🇰 香港 10 - 151ms - 165ms - 206...
   network: ws
   port: 443
   server: 43.168.16.112
@@ -909,7 +708,7 @@ proxies:
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - encryption: none
   flow: ''
-  name: 🇭🇰 香港 12 - 197ms - 204ms
+  name: 🇭🇰 香港 12 - 197ms - 204ms - 249...
   network: ws
   port: 443
   server: 163.61.74.121
@@ -918,7 +717,7 @@ proxies:
   uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - encryption: none
   flow: ''
-  name: 🇭🇰 香港 13 - 198ms - 207ms
+  name: 🇭🇰 香港 13 - 198ms - 207ms - 256...
   network: ws
   port: 443
   server: 161.248.31.198
@@ -931,32 +730,19 @@ proxies:
   port: 8388
   server: 103.149.182.105
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 14 - 154ms
-  network: ws
-  port: 443
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ex1ogt73nzpqkac2.v.3dns.vip
-    path: /
 - cipher: chacha20-ietf
-  name: 🇭🇰 香港 05_2 - 157ms
+  name: 🇭🇰 香港 05_2 - 157ms - 204ms
   password: asd123456
   port: 8388
   server: 103.141.221.101
   type: ss
-- name: 🇭🇰 香港 15_2 - 191ms
+- name: 🇭🇰 香港 15_2 - 191ms - 238ms
   password: ND91608427
   port: 443
   server: 91.199.84.120
   sni: dynamic-grubworm.rooster465.autos
   type: trojan
-- name: 🇭🇰 香港 17 - 191ms
+- name: 🇭🇰 香港 17 - 191ms - 230ms
   password: ND91608427
   port: 443
   server: 185.244.208.210
@@ -993,20 +779,23 @@ proxies:
   skip-cert-verify: true
   sni: 202.146.222.29
   type: hysteria2
+- name: 🇭🇰 HK 671 | ⬇️ 1MB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17960
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: hk.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
 - name: 🇭🇰 HK 120 | ⬇️ 14KB/s
   password: abc123
   port: 1080
   server: 47.239.98.42
   type: socks5
   username: abc123
-- cipher: aes-256-gcm
-  name: 🇭🇰 HK 250 | ⬇️ 10KB/s
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.159
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - name: 🇭🇰 HK 572 | ⬇️ 3KB/s
   password: '!!str 123'
   port: 3060
@@ -1273,3 +1062,13 @@ proxies:
     headers:
       host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  name: 🇭🇰HK香港2
+  password: BxceQaOe
+  port: 11035
+  server: 43.198.109.39
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
